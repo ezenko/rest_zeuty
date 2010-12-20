@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="save" descr=""><![CDATA[Save]]></lines>
+	<lines name="send" descr=""><![CDATA[Send]]></lines>
+	<lines name="back" descr=""><![CDATA[Back]]></lines>
+	<lines name="delete" descr=""><![CDATA[Remove]]></lines>
+	<lines name="load" descr=""><![CDATA[Load]]></lines>
+	<lines name="submit" descr=""><![CDATA[Submit]]></lines>
+	<lines name="register" descr=""><![CDATA[Register]]></lines>	
+	<lines name="upload" descr=""><![CDATA[Upload]]></lines>
+	<lines name="close" descr=""><![CDATA[Close]]></lines>
+	<lines name="search" descr=""><![CDATA[Find]]></lines>
+	<lines name="comunicate" descr=""><![CDATA[Contact]]></lines>
+	<lines name="add" descr=""><![CDATA[Add]]></lines>
+	<lines name="change" descr=""><![CDATA[Change]]></lines>
+	<lines name="users_list" descr=""><![CDATA[Users list]]></lines>
+	<lines name="refresh" descr=""><![CDATA[Refresh]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Remove listing]]></lines>
+	<lines name="save_1" descr=""><![CDATA[Save]]></lines>
+	<lines name="send_message" descr=""><![CDATA[Send message]]></lines>
+	<lines name="view" descr=""><![CDATA[View]]></lines>
+	<lines name="to_payment" descr=""><![CDATA[Add funds]]></lines>
+	<lines name="transfer" descr=""><![CDATA[Transfer]]></lines>
+	<lines name="mark" descr=""><![CDATA[Book]]></lines>
+	<lines name="choose" descr=""><![CDATA[Choose]]></lines>
+	<lines name="add_agents" descr=""><![CDATA[Add agents]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Remove listing]]></lines>
+	<lines name="apply" descr=""><![CDATA[Apply]]></lines>
+</data>

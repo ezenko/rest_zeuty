@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="rental_link" descr=""><![CDATA[Добавьте свое объявление...]]></lines>
+<lines name="need_room_big" descr=""><![CDATA[Я АРЕНДУЮ НЕДВИЖИМОСТЬ]]></lines>
+<lines name="have_room_big" descr=""><![CDATA[Я СДАЮ В АРЕНДУ НЕДВИЖИМОСТЬ]]></lines>
+<lines name="buy_realty_big" descr=""><![CDATA[Я КУПЛЮ НЕДВИЖИМОСТЬ]]></lines>
+<lines name="sell_realty_big" descr=""><![CDATA[Я ПРОДАМ НЕДВИЖИМОСТЬ]]></lines>
+<lines name="page_header_step_1" descr=""><![CDATA[РАСПОЛОЖЕНИЕ]]></lines>
+<lines name="step_1_choose" descr=""><![CDATA[Выберите нужное]]></lines>
+<lines name="need_room" descr=""><![CDATA[Я арендую]]></lines>
+<lines name="have_room" descr=""><![CDATA[Я сдаю в аренду]]></lines>
+<lines name="sell_realty" descr=""><![CDATA[Я продаю]]></lines>
+<lines name="buy_realty" descr=""><![CDATA[Я покупаю]]></lines>
+<lines name="planirovka_header" descr=""><![CDATA[Планировка]]></lines>
+<lines name="select_country" descr=""><![CDATA[В стране]]></lines>
+<lines name="select_region" descr=""><![CDATA[В регионе]]></lines>
+<lines name="select_city" descr=""><![CDATA[В городе]]></lines>
+<lines name="site_link" descr=""><![CDATA[Домашняя]]></lines>
+<lines name="next_step" descr=""><![CDATA[Дальше]]></lines>
+<lines name="back_step" descr=""><![CDATA[Назад]]></lines>
+<lines name="page_header_step_3" descr=""><![CDATA[ПРЕДПОЧТЕНИЯ НЕДВИЖИМОСТИ]]></lines>
+<lines name="page_header_step_3_buy" descr=""><![CDATA[ПРЕДПОЧТЕНИЯ НЕДВИЖИМОСТИ]]></lines>
+<lines name="move_date" descr=""><![CDATA[Доступна с]]></lines>
+<lines name="live_square" descr=""><![CDATA[Жилая площадь]]></lines>
+<lines name="total_square" descr=""><![CDATA[Общая площадь]]></lines>
+<lines name="land_square" descr=""><![CDATA[Площадь земельного участка]]></lines>
+<lines name="sq_meters" descr=""><![CDATA[м<sup>2</sup>]]></lines>
+<lines name="page_header_step_4" descr=""><![CDATA[ОБО МНЕ]]></lines>
+<lines name="total_people" descr=""><![CDATA[Всего людей]]></lines>
+<lines name="just_me" descr=""><![CDATA[Только я]]></lines>
+<lines name="three_or_more" descr=""><![CDATA[3 или более]]></lines>
+<lines name="age" descr=""><![CDATA[Возраст]]></lines>
+<lines name="to" descr=""><![CDATA[до]]></lines>
+<lines name="page_header_step_5" descr=""><![CDATA[ЗАГРУЗКА ФОТО]]></lines>
+<lines name="photo_word" descr=""><![CDATA[Используйте форму, чтобы загрузить фотографии с вашего компьютера на наш сайт]]></lines>
+<lines name="upload_file" descr=""><![CDATA[Добавить новый файл]]></lines>
+<lines name="photo_max_count" descr=""><![CDATA[Максимальное количество файлов]]></lines>
+<lines name="photo_max_size" descr=""><![CDATA[Максимальный размер фотографии]]></lines>
+<lines name="video_max_size" descr=""><![CDATA[Максимальный размер видео]]></lines>
+<lines name="kb" descr=""><![CDATA[Килобайт]]></lines>
+<lines name="max_height" descr=""><![CDATA[Макс высота]]></lines>
+<lines name="max_width" descr=""><![CDATA[Макс ширина]]></lines>
+<lines name="finish" descr=""><![CDATA[Завершить]]></lines>
+<lines name="comments" descr=""><![CDATA[Комментарий]]></lines>
+<lines name="available_move_date" descr=""><![CDATA[Доступна с]]></lines>
+<lines name="month_payment" descr=""><![CDATA[Стоимость аренды <br>за 1 месяц]]></lines>
+<lines name="price" descr=""><![CDATA[Цена]]></lines>
+<lines name="price_min_more_max" descr=""><![CDATA[Минимальная плата не может быть больше максимальной]]></lines>
+<lines name="deposit_min_more_max" descr=""><![CDATA[Минимальная предоплата не может быть больше максимальной]]></lines>
+<lines name="live_square_min_more_max" descr=""><![CDATA[Минимальная площадь жилья не может быть больше максимальной]]></lines>
+<lines name="total_square_min_more_max" descr=""><![CDATA[Минимальная общая площадь не может быть больше максимальной]]></lines>
+<lines name="land_square_min_more_max" descr=""><![CDATA[Минимальная площадь земельного участка не может быть больше максимальной]]></lines>
+<lines name="year_build_min_more_max" descr=""><![CDATA[Минимальный год постройки не может быть больше максимального]]></lines>
+<lines name="floor_min_more_max" descr=""><![CDATA[Минимальный этаж не может быть больше максимального]]></lines>
+<lines name="min" descr=""><![CDATA[мин]]></lines>
+<lines name="max" descr=""><![CDATA[макс]]></lines>
+<lines name="deposit" descr=""><![CDATA[Предоплата]]></lines>
+<lines name="page_header_step_3_have" descr=""><![CDATA[ОПИСАНИЕ НЕДВИЖИМОСТИ]]></lines>
+<lines name="page_header_step_3_sell" descr=""><![CDATA[ОПИСАНИЕ НЕДВИЖИМОСТИ]]></lines>
+<lines name="page_header_step_4_have" descr=""><![CDATA[ЗАГРУЗКА ФОТО]]></lines>
+<lines name="page_header_step_5_have" descr=""><![CDATA[ПРЕДПОЧТЕНИЯ]]></lines>
+<lines name="page_header_step_6" descr=""><![CDATA[ДОПОЛНИТЕЛЬНЫЙ КОММЕНТАРИЙ]]></lines>
+<lines name="page_header_step_6_have" descr=""><![CDATA[ДОПОЛНИТЕЛЬНЫЙ КОММЕНТАРИЙ]]></lines>
+<lines name="page_header_step_8" descr=""><![CDATA[ПРИВЕТСТВИЕ]]></lines>
+<lines name="page_header_step_8_have" descr=""><![CDATA[ПРИВЕТСТВИЕ]]></lines>
+<lines name="no_photos" descr=""><![CDATA[Нет фото]]></lines>
+<lines name="empty_result" descr=""><![CDATA[Ничего не найдено]]></lines>
+<lines name="edit" descr=""><![CDATA[Изменить]]></lines>
+<lines name="edit_descr" descr=""><![CDATA[Изменить описание]]></lines>
+<lines name="delete" descr=""><![CDATA[Удалить]]></lines>
+<lines name="zip_code" descr=""><![CDATA[Индекс]]></lines>
+<lines name="cross_streets" descr=""><![CDATA[На пересечении улиц]]></lines>
+<lines name="adress" descr=""><![CDATA[Адрес]]></lines>
+<lines name="gender_wrong" descr=""><![CDATA[Выбрано слишком много значений 'Пол'!]]></lines>
+<lines name="occupation_wrong" descr=""><![CDATA[Выбрано слишком много значений 'Занятие'!]]></lines>
+<lines name="with_photo" descr=""><![CDATA[с фотографиями]]></lines>
+<lines name="photo_exist" descr=""><![CDATA[Наличие фото]]></lines>
+<lines name="video_exist" descr=""><![CDATA[Наличие видео]]></lines>
+<lines name="only_with" descr=""><![CDATA[обязательно]]></lines>
+<lines name="who" descr=""><![CDATA[Кто]]></lines>
+<lines name="w_need_room" descr=""><![CDATA[арендует недвижимость]]></lines>
+<lines name="w_have_room" descr=""><![CDATA[сдает в аренду недвижимость]]></lines>
+<lines name="add_rent_link_text" descr=""><![CDATA[Добавить объявление]]></lines>
+<lines name="where_loc" descr=""><![CDATA[Где искать]]></lines>
+<lines name="more" descr=""><![CDATA[еще]]></lines>
+<lines name="menu_rental_my_1" descr=""><![CDATA[Просмотрели мой профайл]]></lines>
+<lines name="menu_rental_my_2" descr=""><![CDATA[Добавили меня в избранные]]></lines>
+<lines name="menu_rental_my_3" descr=""><![CDATA[Заинтересовались мной]]></lines>
+<lines name="menu_rental_my_4" descr=""><![CDATA[Подходят мне]]></lines>
+<lines name="menu_rental_his_1" descr=""><![CDATA[Просмотрел их профайлов]]></lines>
+<lines name="menu_rental_his_2" descr=""><![CDATA[Добавил в избранные]]></lines>
+<lines name="menu_rental_his_3" descr=""><![CDATA[Заитересовался ими]]></lines>
+<lines name="menu_rental_his_4" descr=""><![CDATA[Я им подхожу]]></lines>
+<lines name="plan_text" descr=""><![CDATA[Загрузить фото планировки]]></lines>
+<lines name="view" descr=""><![CDATA[Посмотреть]]></lines>
+<lines name="location" descr=""><![CDATA[Расположение]]></lines>
+<lines name="no_ad" descr=""><![CDATA[Нет объявления]]></lines>
+<lines name="ad_text_1" descr=""><![CDATA[О недвижимости]]></lines>
+<lines name="ad_text_1_2" descr=""><![CDATA[Желаемое жилье]]></lines>
+<lines name="ad_text_2" descr=""><![CDATA[Обо мне]]></lines>
+<lines name="ad_text_3" descr=""><![CDATA[Мои предпочтения]]></lines>
+<lines name="ad_text_4" descr=""><![CDATA[Фото]]></lines>
+<lines name="ad_text_5" descr=""><![CDATA[Комментарии]]></lines>
+<lines name="ad_text_6" descr=""><![CDATA[Планировка]]></lines>
+<lines name="people_count" descr=""><![CDATA[Всего людей]]></lines>
+<lines name="available_date" descr=""><![CDATA[Доступна с]]></lines>
+<lines name="home_text_4" descr=""><![CDATA[Вы неактивный пользователь.]]></lines>
+<lines name="home_text_5" descr=""><![CDATA[Некоторые услуги могут быть недоступны вам.]]></lines>
+<lines name="home_text_6" descr=""><![CDATA[Активировать]]></lines>
+<lines name="home_text_8" descr=""><![CDATA[Вы являетесь активным пользователем.]]></lines>
+<lines name="period_left" descr=""><![CDATA[Осталось дней]]></lines>
+<lines name="home_text_9" descr=""><![CDATA[Продлить активность.]]></lines>
+<lines name="your_ad_is" descr=""><![CDATA[Ваше объявление]]></lines>
+<lines name="active" descr=""><![CDATA[Активно]]></lines>
+<lines name="active_2" descr=""><![CDATA[Активно до]]></lines>
+<lines name="inactive" descr=""><![CDATA[Неактивно]]></lines>
+<lines name="activate" descr=""><![CDATA[Сделать доступным для поиска]]></lines>
+<lines name="activate_2" descr=""><![CDATA[Сделать доступным для поиска на ]]></lines>
+<lines name="activate_2_days" descr=""><![CDATA[дней]]></lines>
+<lines name="deactivate" descr=""><![CDATA[Приостановить в Поиске]]></lines>
+<lines name="subway_min" descr=""><![CDATA[До метро не более]]></lines>
+<lines name="minutes" descr=""><![CDATA[минут]]></lines>
+<lines name="for_agency" descr=""><![CDATA[Для риэлторов]]></lines>
+<lines name="no_answer" descr=""><![CDATA[оставить без ответа]]></lines>
+<lines name="not_filled" descr=""><![CDATA[не заполнено]]></lines>
+<lines name="get_bonus" descr=""><![CDATA[Завершить заполнение объявления и получить бонус на счет]]></lines>
+<lines name="list_text_1" descr=""><![CDATA[Вы зарегистрированы как]]></lines>
+<lines name="user_type_1" descr=""><![CDATA[частное лицо]]></lines>
+<lines name="user_type_2" descr=""><![CDATA[риэлтор]]></lines>
+<lines name="user_type_3" descr=""><![CDATA[агент компании]]></lines>
+<lines name="list_text_2" descr=""><![CDATA[Изменить]]></lines>
+<lines name="list_text_3" descr=""><![CDATA[ваш статус регистрации]]></lines>
+<lines name="list_text_4_1" descr=""><![CDATA[Хотите купить, продать, арендовать или сдать в аренду недвижимость? ]]></lines>
+<lines name="list_text_4_2" descr=""><![CDATA[Добавьте ваши объявления]]></lines>
+<lines name="import_listings" descr=""><![CDATA[Импортировать объявления]]></lines>
+<lines name="true_delete_ad" descr=""><![CDATA[Вы действительно хотите удалить это объявление?]]></lines>
+<lines name="list_text_5" descr=""><![CDATA[Внесено]]></lines>
+<lines name="list_text_6" descr=""><![CDATA[вариантов]]></lines>
+<lines name="list_text_7" descr=""><![CDATA[Вы можете пополнить список недвижимости, воспользовавшись автоматическим импортом базы недвижимости.<br>Все новые объявления будут опубликованы с указанием Ваших контактных данных.<br>Все ранее внесенные объявления будут обновлены с сохранением статистики по заинтересовавшимся пользователям.]]></lines>
+<lines name="list_text_8" descr=""><![CDATA[Импортировать/обновить базу данных]]></lines>
+<lines name="list_text_9" descr=""><![CDATA[Идет процесс загрузки вашей базы данных. Пожалуйста подождите]]></lines>
+<lines name="no_file_selected" descr=""><![CDATA[Файл не выбран]]></lines>
+<lines name="rent_type_1" descr=""><![CDATA[Тип аренды]]></lines>
+<lines name="rent_type_2" descr=""><![CDATA[В аренду]]></lines>
+<lines name="sel_all_text" descr=""><![CDATA[Выделить все опции]]></lines>
+<lines name="unsel_all_text" descr=""><![CDATA[Снять все выделения]]></lines>
+<lines name="unsel_radio_text" descr=""><![CDATA[Снять выделение]]></lines>
+<lines name="page_header_step_5" descr=""><![CDATA[ЗАГРУЗКА ФОТО]]></lines>
+<lines name="subway_name" descr=""><![CDATA[Станция метро]]></lines>
+<lines name="add_type" descr=""><![CDATA[Тип объявления]]></lines>
+<lines name="add_type_need" descr=""><![CDATA[Сниму недвижимость]]></lines>
+<lines name="add_type_have" descr=""><![CDATA[Сдам недвижимость]]></lines>
+<lines name="add_type_buy" descr=""><![CDATA[Куплю недвижимость]]></lines>
+<lines name="add_type_sell" descr=""><![CDATA[Продам недвижимость]]></lines>
+<lines name="from" descr=""><![CDATA[от]]></lines>
+<lines name="upto" descr=""><![CDATA[до]]></lines>
+<lines name="from_1" descr=""><![CDATA[c]]></lines>
+<lines name="upto_1" descr=""><![CDATA[по]]></lines>
+<lines name="auction_possible" descr=""><![CDATA[торг возможен]]></lines>
+<lines name="auction_inpossible" descr=""><![CDATA[торг невозможен]]></lines>
+<lines name="floor" descr=""><![CDATA[этаж]]></lines>
+<lines name="floor_variants" descr=""><![CDATA[Предлагать только варианты]]></lines>
+<lines name="floor_num_max_limitation" descr=""><![CDATA[Количество этажей в доме не должно превышать]]></lines>
+<lines name="property_floor_number" descr=""><![CDATA[Номер этажа]]></lines>
+<lines name="total_floor_num" descr=""><![CDATA[Всего этажей]]></lines>
+<lines name="of_floors" descr=""><![CDATA[этажей]]></lines>
+<lines name="year_build" descr=""><![CDATA[Год постройки]]></lines>
+<lines name="account_subheader" descr=""><![CDATA[Информация данного раздела видна другим посетителям, а внесённые здесь изменения дублируются во всех ваших объявлениях.]]></lines>
+<lines name="account_about_me" descr=""><![CDATA[Обо мне]]></lines>
+<lines name="account_about_us" descr=""><![CDATA[О нас]]></lines>
+<lines name="nickname" descr=""><![CDATA[Имя пользователя]]></lines>
+<lines name="fname" descr=""><![CDATA[Ваше имя]]></lines>
+<lines name="sname" descr=""><![CDATA[Ваша фамилия]]></lines>
+<lines name="birthday" descr=""><![CDATA[Дата рождения]]></lines>
+<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+<lines name="phone" descr=""><![CDATA[Телефон]]></lines>
+<lines name="incorrect_field" descr=""><![CDATA[Некорректное поле]]></lines>
+<lines name="incorrect_date" descr=""><![CDATA[Некорректная дата]]></lines>
+<lines name="login_exists" descr=""><![CDATA[Имя пользователя уже используется]]></lines>
+<lines name="email_exists" descr=""><![CDATA[E-mail уже используется]]></lines>
+<lines name="old_password" descr=""><![CDATA[Старый пароль]]></lines>
+<lines name="new_password" descr=""><![CDATA[Новый пароль]]></lines>
+<lines name="new_password_verify" descr=""><![CDATA[Повторите пароль]]></lines>
+<lines name="wrong_password" descr=""><![CDATA[Неверный старый пароль]]></lines>
+<lines name="company_name" descr=""><![CDATA[Имя компании]]></lines>
+<lines name="company_url" descr=""><![CDATA[Ваш сайт (url)]]></lines>
+<lines name="company_rent_count" descr=""><![CDATA[Количество вариантов недвижимости]]></lines>
+<lines name="company_how_know" descr=""><![CDATA[Как вы узнали о нас]]></lines>
+<lines name="company_quests_comments" descr=""><![CDATA[Ваши вопросы и комментарии]]></lines>
+<lines name="work_days" descr=""><![CDATA[Дни работы]]></lines>
+<lines name="work_time" descr=""><![CDATA[Время работы]]></lines>
+<lines name="lunch_time" descr=""><![CDATA[Обед]]></lines>
+<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+<lines name="time_end" descr=""><![CDATA[до]]></lines>
+<lines name="private_person" descr=""><![CDATA[Частное лицо]]></lines>
+<lines name="agency" descr=""><![CDATA[Риэлтор]]></lines>
+<lines name="our_logo" descr=""><![CDATA[Ваш логотип]]></lines>
+<lines name="no_answer" descr=""><![CDATA[оставить без ответа]]></lines>
+<lines name="you_registered_as" descr=""><![CDATA[Вы зарегистрированы как]]></lines>
+<lines name="subheader" descr=""><![CDATA[Информация данного раздела видна другим посетителям, а внесённые здесь изменения дублируются во всех ваших объявлениях.]]></lines>	
+<lines name="about_buyer" descr=""><![CDATA[о покупателе]]></lines>
+<lines name="about_leaser" descr=""><![CDATA[об арендаторе]]></lines>
+<lines name="place_text_1" descr=""><![CDATA[Объявление находится на ]]></lines>
+<lines name="place_text_2" descr=""><![CDATA[ месте]]></lines>
+<lines name="place_text_3" descr=""><![CDATA[Объявление неактивно и не участвует в поиске]]></lines>
+<lines name="link_text_1" descr=""><![CDATA[Поднять «наверх»?]]></lines>
+<lines name="link_text_2" descr=""><![CDATA[Выделить в поиске]]></lines>
+<lines name="link_text_3" descr=""><![CDATA[Выделить в регионе]]></lines>
+<lines name="viewed" descr=""><![CDATA[Просмотров за сегодня]]></lines>
+<lines name="monthly" descr=""><![CDATA[за месяц]]></lines>
+<lines name="page_header_step_upload_video" descr=""><![CDATA[ЗАГРУЗКА ВИДЕО]]></lines>
+<lines name="no_video" descr=""><![CDATA[Нет видео]]></lines>
+<lines name="ad_text_video" descr=""><![CDATA[Видео]]></lines>
+<lines name="video_word" descr=""><![CDATA[Используйте форму, чтобы загрузить видео с вашего компьютера на наш сайт]]></lines>
+<lines name="zipcode" descr=""><![CDATA[Индекс]]></lines>
+<lines name="add_comments" descr=""><![CDATA[Комментарий]]></lines>
+<lines name="planirovka" descr=""><![CDATA[Планировка]]></lines>
+<lines name="please_choose" descr=""><![CDATA[Пожалуйста выберите]]></lines>
+<lines name="deactivate_file" descr=""><![CDATA[Скрыть]]></lines>
+<lines name="activate_file" descr=""><![CDATA[Включить для показа]]></lines>
+<lines name="active_file" descr=""><![CDATA[Разрешён для показа]]></lines>
+<lines name="inactive_file" descr=""><![CDATA[Скрыт]]></lines>
+<lines name="upload_photo_limitations" descr=""><![CDATA[Запрещено размещение:<ul><li>Чужих и детских фотографий;</li><li>Фотографий порнографического характера (неприличное изображение полового акта);</li><li>Съемки животных, рисунки и "приколы".</li></ul>]]></lines>
+<lines name="upload_video_limitations" descr=""><![CDATA[Запрещено размещение:<ul><li>Чужих и детских видеофайлов;</li><li>Видеороликов порнографического характера (неприличное изображение полового акта);</li><li>Съемки животных, "приколы".</li></ul>]]></lines>
+<lines name="photo_extensions" descr=""><![CDATA[Допустимые форматы]]></lines>
+<lines name="video_extensions" descr=""><![CDATA[Допустимые форматы]]></lines>
+<lines name="use_photo_approve" descr=""><![CDATA[Фотография будет доступна для просмотра пользователям сайта после одобрения модератора]]></lines>
+<lines name="use_video_approve" descr=""><![CDATA[Файл будет доступен для просмотра пользователям сайта после одобрения модератора]]></lines>
+<lines name="admin_approve_not_complete" descr=""><![CDATA[Модератор ещё не одобрил файл]]></lines>
+<lines name="admin_approve_complete" descr=""><![CDATA[Модератор одобрил файл]]></lines>
+<lines name="admin_approve_decline" descr=""><![CDATA[Модератор запретил файл для показа]]></lines>
+<lines name="sell_lease_need_pay" descr=""><![CDATA[Размещение объявлений о продаже и сдаче в аренду - платное.]]></lines>
+<lines name="go_to_sell_lease" descr=""><![CDATA[Перейти к странице оплаты]]></lines>
+<lines name="activate_alert" descr=""><![CDATA[Перед активацией нужно заполнить обязательные поля в разделе О недвижимости.]]></lines>
+<lines name="private_ads_limit_intro" descr=""><![CDATA[Установлено ограничение]]></lines>
+<lines name="private_ads_limit_message" descr=""><![CDATA[объявления(й) для частных лиц. Измените в своем профайле статус "Частное лицо" на "Риэлтор" или на "Агент" для получения возможности публикации объявлений без ограничений.]]></lines>
+<lines name="change_status" descr=""><![CDATA[Изменить статус]]></lines>
+<lines name="your_ads_cnt" descr=""><![CDATA[Вы уже создали]]></lines>
+<lines name="listings" descr=""><![CDATA[объявления(й)]]></lines>
+<lines name="ads_limit_activate_alert" descr=""><![CDATA[Для активации объявления измените в своем профайле статус &quot;Частное лицо&quot; на &quot;Риэлтор&quot; или на &quot;Агент&quot;.]]></lines>
+<lines name="your_ad_have" descr=""><![CDATA[Ваше объявление]]></lines>
+<lines name="your_ad_status_yes" descr=""><![CDATA[Показывается со статусом]]></lines>
+<lines name="your_ad_status_do_yes" descr=""><![CDATA[Показывать со статусом]]></lines>
+<lines name="your_ad_status_do_no" descr=""><![CDATA[Снять статус]]></lines>
+<lines name="your_ad_status_sold" descr=""><![CDATA[Продано]]></lines>
+<lines name="your_ad_status_leased" descr=""><![CDATA[Сдано в аренду]]></lines>
+<lines name="headline" descr=""><![CDATA[Приветствие]]></lines>
+<lines name="noheadline" descr=""><![CDATA[Приветствия нет]]></lines>
+<lines name="country" descr=""><![CDATA[Страна]]></lines>
+<lines name="region" descr=""><![CDATA[Регион]]></lines>
+<lines name="city" descr=""><![CDATA[Город]]></lines>
+<lines name="address" descr=""><![CDATA[Адрес]]></lines>
+<lines name="zipcode" descr=""><![CDATA[Индекс]]></lines>
+<lines name="add_event" descr=""><![CDATA[Добавить период бронирования]]></lines>
+<lines name="adding_event" descr=""><![CDATA[Добавление периода бронирования]]></lines>
+<lines name="editing_event" descr=""><![CDATA[Изменение периода бронирования]]></lines>
+<lines name="add_time_period" descr=""><![CDATA[Укажите границы нового периода занятости]]></lines>
+<lines name="start_date" descr=""><![CDATA[Забронировать с]]></lines>
+<lines name="end_date" descr=""><![CDATA[Забронировать до]]></lines>
+<lines name="reserved_yet" descr=""><![CDATA[Забронированные периоды]]></lines>
+<lines name="reserved_from" descr=""><![CDATA[Занята с]]></lines>
+<lines name="reserved_to" descr=""><![CDATA[до]]></lines>
+<lines name="edit_time_period" descr=""><![CDATA[Отметьте новые границы для этого периода]]></lines>
+<lines name="time" descr=""><![CDATA[Время]]></lines>
+<lines name="view_calendar" descr=""><![CDATA[Смотреть через календарь]]></lines>
+<lines name="time_begin" descr=""><![CDATA[С]]></lines>
+<lines name="time_end" descr=""><![CDATA[до]]></lines>
+<lines name="empty" descr=""><![CDATA[Свободна]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Стоимость аренды за 1 месяц]]></lines>
+<lines name="na_days" descr=""><![CDATA[Недоступные дни]]></lines>
+<lines name="reserve_days" descr=""><![CDATA[Забронированные дни]]></lines>
+<lines name="empty_days" descr=""><![CDATA[Свободные дни]]></lines>
+<lines name="mark_ad" descr=""><![CDATA[Выделить объявление]]></lines>
+<lines name="ad_in_search" descr=""><![CDATA[Участие в поиске]]></lines>
+<lines name="search_position" descr=""><![CDATA[Нахождение в поиске]]></lines>
+<lines name="back_to_ads_list" descr=""><![CDATA[&#171; К списку объявлений]]></lines>
+<lines name="prev_month" descr=""><![CDATA[месяц]]></lines>
+<lines name="next_month" descr=""><![CDATA[месяц]]></lines>
+<lines name="about_company" descr=""><![CDATA[О компании]]></lines>
+<lines name="photo" descr=""><![CDATA[Фотография]]></lines>
+<lines name="company_logo" descr=""><![CDATA[Логотип компании]]></lines>
+<lines name="no_approved" descr=""><![CDATA[не одобрено администратором]]></lines>
+<lines name="back_to_edit" descr=""><![CDATA[&#171;К редактированию объявления]]></lines>		
+<lines name="saved" descr=""><![CDATA[Сохранено]]></lines>		
+</data>

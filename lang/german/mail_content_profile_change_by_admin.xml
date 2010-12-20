@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Ihre Profildaten wurden verändert auf [site_name]]]></lines>
+<lines name="reg_congratulate" descr=""><![CDATA[Administrator hat Ihr Profildaten verändert auf [site_name]]]></lines>
+<lines name="reg_params" descr=""><![CDATA[Benutzen Sie folgende Daten um die Site einzutreten]]></lines>
+<lines name="login" descr=""><![CDATA[Anmeldung]]></lines>
+<lines name="password" descr=""><![CDATA[Passwort]]></lines>
+</data>

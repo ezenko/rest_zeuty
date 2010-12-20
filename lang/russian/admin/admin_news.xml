@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_news_add_subheader" descr=""><![CDATA[Создание новости]]></lines>
+	<lines name="page_news_edit_subheader" descr=""><![CDATA[Редактирование новости]]></lines>	
+	<lines name="page_feeds_add_subheader" descr=""><![CDATA[Добавление RSS ленты]]></lines>
+	<lines name="page_feeds_edit_subheader" descr=""><![CDATA[Редактирование RSS ленты]]></lines>	
+	<lines name="site_news" descr=""><![CDATA[Ваши новости]]></lines>
+	<lines name="feeds_news" descr=""><![CDATA[Новости RSS ленты]]></lines>
+	<lines name="add_site_news" descr=""><![CDATA[Добавить новость сайта]]></lines>
+	<lines name="edit_site_news" descr=""><![CDATA[Изменить новость сайта]]></lines>
+	<lines name="add_rss" descr=""><![CDATA[Добавить RSS ленту]]></lines>
+	<lines name="edit_rss" descr=""><![CDATA[Изменить RSS ленту]]></lines>
+	<lines name="number" descr=""><![CDATA[№]]></lines>
+	<lines name="date" descr=""><![CDATA[Время размещения]]></lines>
+	<lines name="text" descr=""><![CDATA[Текст]]></lines>
+	<lines name="title" descr=""><![CDATA[Заголовок]]></lines>
+	<lines name="status" descr=""><![CDATA[Статус]]></lines>	
+	<lines name="to_publish" descr=""><![CDATA[Опубликовать]]></lines>
+	<lines name="feeds_status" descr=""><![CDATA[Импортировать новости]]></lines>	
+	<lines name="del_confirm" descr=""><![CDATA[Вы уверены, что хотите удалить эту новость?]]></lines>
+	<lines name="no_site_news" descr=""><![CDATA[Нет новостей сайта]]></lines>
+	<lines name="total_news" descr=""><![CDATA[Всего новостей сайта]]></lines>
+	<lines name="site_feeds" descr=""><![CDATA[RSS ленты]]></lines>
+	<lines name="rss_date" descr=""><![CDATA[Обновлялась]]></lines>
+	<lines name="rss_link" descr=""><![CDATA[Ссылка]]></lines>
+	<lines name="rss_status" descr=""><![CDATA[Статус]]></lines>
+	<lines name="del_feed_confirm" descr=""><![CDATA[Вы уверены, что хотите удалить эту RSS ленту?]]></lines>
+	<lines name="add_news" descr=""><![CDATA[Добавить новость]]></lines>
+	<lines name="add_feed" descr=""><![CDATA[Добавить RSS ленту]]></lines>
+	<lines name="max_news" descr=""><![CDATA[Максимальное количество<br>импортируемых с сайта новостей]]></lines>
+	<lines name="update_feeds" descr=""><![CDATA[Обновить все RSS ленты]]></lines>
+	<lines name="update_feed" descr=""><![CDATA[Обновить RSS ленту]]></lines>
+	<lines name="news_count" descr=""><![CDATA[Импортированных новостей]]></lines>
+	<lines name="news_feeds_help" descr=""><![CDATA[В этом разделе вы настраиваете публикацию новостей в разделе "Новости" на вашем сайте.<br>Все новости публикуются в хронологическом порядке.<br>В разделе "Ваши новости" вы публикуете собственные новости.<br>Через раздел "RSS ленты" вы можете настроить работу RSS агрегатора новостей. Публикуйте новости других сайтов, экспортирующих через RSS свои новости.]]></lines> 
+	<lines name="news_help" descr=""><![CDATA[Опубликуйте свою новость или подготовьте ее к публикации без размещения.]]></lines> 	
+	<lines name="feeds_help" descr=""><![CDATA[Добавьте RSS поток. Новости будут экспортироваться так часто, как вы настроите это в Cron.]]></lines> 	
+	<lines name="published" descr=""><![CDATA[Опубликовано]]></lines>	
+	<lines name="not_published" descr=""><![CDATA[Не опубликовано]]></lines>		
+	<lines name="min_feeds_news" descr=""><![CDATA[Минимальное количество импортируемых новостей]]></lines>
+	<lines name="edit_header" descr=""><![CDATA[Редактирование]]></lines>				
+</data>

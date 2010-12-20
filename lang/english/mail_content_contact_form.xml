@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="E-mail subject"><![CDATA[[site_name] - Contact Us form was filled]]></lines>
+	<lines name="message_subject" descr=""><![CDATA[Subject]]></lines>	
+	<lines name="message_text" descr=""><![CDATA[Message]]></lines>	
+</strings>

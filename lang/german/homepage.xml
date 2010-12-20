@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+		<lines name="menu_rental_subheader" descr=""><![CDATA[MENÜ]]></lines>
+	<lines name="menu_rental_my_1" descr=""><![CDATA[Besuche meines Profils]]></lines>
+	<lines name="menu_rental_my_2" descr=""><![CDATA[Mich zu ihrer Hotliste hinzugefügt]]></lines>
+	<lines name="menu_rental_my_3" descr=""><![CDATA[Interessiert an mir]]></lines>
+	<lines name="menu_rental_my_4" descr=""><![CDATA[Entsprechen meinen Kriterien]]></lines>
+	<lines name="menu_rental_his_1" descr=""><![CDATA[Profile, die ich besucht habe]]></lines>
+	<lines name="menu_rental_his_2" descr=""><![CDATA[Ich habe zu meiner Hotliste hinzugefügt]]></lines>
+	<lines name="menu_rental_his_3" descr=""><![CDATA[Ich bin interessiert an]]></lines>
+	<lines name="menu_rental_his_4" descr=""><![CDATA[Ich entpreche ihren Kriterien]]></lines>
+	<lines name="empty_result" descr=""><![CDATA[Keine Ergebnisse entsprechen Ihren Kriterien]]></lines>
+	
+	<lines name="about_me" descr=""><![CDATA[Über mich]]></lines>
+	<lines name="about_us" descr=""><![CDATA[Über uns]]></lines>
+	<lines name="max_payment" descr=""><![CDATA[Maximale Zahlung]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Verfügbares Datum]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Umzugsdatum]]></lines>
+	<lines name="location" descr=""><![CDATA[Standort]]></lines>
+	<lines name="login" descr=""><![CDATA[Anmeldung]]></lines>
+	<lines name="date_last_login" descr=""><![CDATA[Letzte Anmeldung]]></lines>
+	<lines name="status" descr=""><![CDATA[Status]]></lines>
+	<lines name="online" descr=""><![CDATA[Online]]></lines>
+	<lines name="offline" descr=""><![CDATA[Offline]]></lines>
+	<lines name="page_header_rental" descr=""><![CDATA[Ihre Anzeigen]]></lines>
+	<lines name="no_photos" descr=""><![CDATA[Keine Fotos]]></lines>
+	<lines name="match" descr=""><![CDATA[Treffer]]></lines>
+	<lines name="select_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="select_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="select_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="with_photo" descr=""><![CDATA[Mit Foto]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Umzugsdatum von]]></lines>
+	<lines name="rental" descr=""><![CDATA[Immobilien]]></lines>
+	<lines name="nickname" descr=""><![CDATA[Name]]></lines>
+	<lines name="date_reg" descr=""><![CDATA[Anmeldungsdatum]]></lines>
+	<lines name="now" descr=""><![CDATA[jetzt]]></lines>
+	<lines name="home_text_1" descr=""><![CDATA[PG Immobilien:]]></lines>
+	<lines name="home_text_2" descr=""><![CDATA[Wir helfen Ihnen, Ihre Traumimmobilien zu finden. Mühelose Immobilienservices. Mehrfache Immobilienanzeigen:<br>Wohn-, Erholungs-, geschäftliche Immobilien. Hier finden Sie verkäufliche Häuser und mietbare Wohnungen.]]></lines>
+	<lines name="home_text_3" descr=""><![CDATA[Unsere Kompetenz - Ihr Vertrauen. Geben Sie Ihre Verkauf- oder Mietanzeige auf: Tausende Käufer und Mieter werden täglich mit Verkäufern und Hausherrn verbindet.]]></lines>
+	<lines name="my" descr=""><![CDATA[Meine]]></lines>
+	<lines name="rentmate_ru" descr=""><![CDATA[Immobilien]]></lines>
+	<lines name="home_text_4" descr=""><![CDATA[Ihr Konto ist nicht aktiv.]]></lines>
+	<lines name="home_text_5" descr=""><![CDATA[Manche Services können Ihnen unzugänglich sein.]]></lines>
+	<lines name="home_text_6" descr=""><![CDATA[Aktivieren]]></lines>
+	<lines name="my_messages" descr=""><![CDATA[Meine Meldungen]]></lines>
+	<lines name="my_account" descr=""><![CDATA[Mein Profil]]></lines>
+	<lines name="period_left" descr=""><![CDATA[Tage übrig]]></lines>
+	<lines name="home_text_9" descr=""><![CDATA[Verlängern Sie Ihre Mitgliedschaft]]></lines>
+	<lines name="add_to_hotlist" descr=""><![CDATA[Zur Hotliste hinzufügen]]></lines>
+	<lines name="add_to_blacklist" descr=""><![CDATA[Zur Schwarzen Liste hinzufügen]]></lines>
+	<lines name="contact_admin" descr=""><![CDATA[Sich über Mitglied beklagen]]></lines>
+	<lines name="interest" descr=""><![CDATA[Ihre Interesse zeigen]]></lines>
+	<lines name="date_added" descr=""><![CDATA[Zur Liste hinzugefügt]]></lines>
+
+	<lines name="date_interest" descr=""><![CDATA[Erforderliches Datum]]></lines>
+	<lines name="i_find" descr=""><![CDATA[Ich möchte]]></lines>
+	<lines name="where_loc" descr=""><![CDATA[Standort]]></lines>
+
+
+	<lines name="show_rental_menu" descr=""><![CDATA[Menü zeigen]]></lines>
+	<lines name="hide_rental_menu" descr=""><![CDATA[Menü verbergen]]></lines>
+	<lines name="choose" descr=""><![CDATA[Bitte wählen]]></lines>	
+
+	<lines name="price" descr=""><![CDATA[Preis]]></lines>
+	<lines name="from" descr=""><![CDATA[von]]></lines>
+
+	<lines name="auction_possible" descr=""><![CDATA[Preisverhandlungen sind möglich]]></lines>
+	<lines name="auction_inpossible" descr=""><![CDATA[Preisverhandlungen sind nicht möglich]]></lines>
+	<lines name="month_payment_in_line" descr=""><![CDATA[Miete pro Monat]]></lines>
+
+	<lines name="i_need" descr=""><![CDATA[Mieter]]></lines>
+	<lines name="i_have" descr=""><![CDATA[Hausherrn]]></lines>
+	<lines name="i_buy" descr=""><![CDATA[Käufer]]></lines>
+	<lines name="i_sell" descr=""><![CDATA[Verkäufer]]></lines>
+	<lines name="need_realty" descr=""><![CDATA[Ich miete]]></lines>
+	<lines name="have_realty" descr=""><![CDATA[Ich vermiete]]></lines>
+	<lines name="sell_realty" descr=""><![CDATA[Ich verkaufe]]></lines>
+	<lines name="buy_realty" descr=""><![CDATA[Ich kaufe]]></lines>
+	<lines name="place_text_1" descr=""><![CDATA[Die Anzeige ist auf]]></lines>
+	<lines name="place_text_2" descr=""><![CDATA[ Platz]]></lines>
+
+	<lines name="viewed" descr=""><![CDATA[Aufrufe heute]]></lines>
+	<lines name="monthly" descr=""><![CDATA[In diesem Monat]]></lines>
+	<lines name="i_want" descr=""><![CDATA[Ich möchte]]></lines>
+	<lines name="qs_i_need" descr=""><![CDATA[mieten]]></lines>
+	<lines name="qs_i_have" descr=""><![CDATA[vermieten]]></lines>
+	<lines name="qs_i_sell" descr=""><![CDATA[verkaufen]]></lines>
+	<lines name="qs_i_buy" descr=""><![CDATA[kaufen]]></lines>	
+	<lines name="costs_min" descr=""><![CDATA[Minimale Kosten]]></lines>
+	<lines name="upto" descr=""><![CDATA[max]]></lines>
+	<lines name="button_search" descr=""><![CDATA[Suche]]></lines>
+	<lines name="no_ads_from_user" descr=""><![CDATA[Keine Anzeigen]]></lines>
+	<lines name="min" descr=""><![CDATA[min]]></lines>
+	<lines name="max_views" descr=""><![CDATA[Am meisen angesehen]]></lines>
+	<lines name="admin_choose" descr=""><![CDATA[Gesponsert]]></lines>
+	<lines name="empty_list" descr=""><![CDATA[Es gibt keine Einträge für Darstellung, die zu ausgewählten Kriterien passen]]></lines>
+	<lines name="user_ad_err" descr=""><![CDATA[Sie haben noch keine Anzeige erstellt]]></lines>
+	<lines name="choose_text" descr=""><![CDATA[Wählen Sie die Anzeige, um die Resultate anzusehen, die zu ihren Kriterien passen]]></lines>
+	<lines name="date_last" descr=""><![CDATA[Datum der letzten Anmeldung]]></lines>
+	<lines name="home_text_8" descr=""><![CDATA[Sie sind ein aktiver Benutzer.]]></lines>
+	<lines name="contact_user" descr=""><![CDATA[Benutzer kontaktieren]]></lines>
+	<lines name="date_visited" descr=""><![CDATA[Datum der letzten Anmeldung]]></lines>
+	<lines name="rental_ad" descr=""><![CDATA[Neust hinzugefügte Anzeigen]]></lines>
+	<lines name="my_contacts" descr=""><![CDATA[Meine Kontaktliste]]></lines>
+	<lines name="monthly" descr=""><![CDATA[Dieser Monat]]></lines>
+	<lines name="weekly" descr=""><![CDATA[Diese Woche]]></lines>
+	<lines name="go_to_power_search" descr=""><![CDATA[Zur erweiterten Suche gehen]]></lines>
+	<lines name="upto" descr=""><![CDATA[max]]></lines>
+	<lines name="last_results" descr=""><![CDATA[Neueste Anzeigen]]></lines>
+	<lines name="place_text_3" descr=""><![CDATA[Die Anzeige ist nicht aktiv und wird nicht in Suchresultaten dargestellt]]></lines>
+	<lines name="last_added" descr=""><![CDATA[Neust hinzugefügt]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[von]]></lines>
+	<lines name="time_end" descr=""><![CDATA[bis]]></lines>
+	<lines name="empty" descr=""><![CDATA[Verfügbar]]></lines>
+</data>

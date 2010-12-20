@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Agent is waiting for approval]]></lines>
+<lines name="text_1" descr=""><![CDATA[There is a request for agent addition ]]></lines>
+<lines name="text_2" descr=""><![CDATA[to your realtor's profile ]]></lines>
+<lines name="text_3" descr=""><![CDATA[>. You should either approve it or decline .]]></lines>
+</data>

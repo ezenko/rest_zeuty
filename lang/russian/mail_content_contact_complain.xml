@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="Тема письма"><![CDATA[[site_name] - заполнена форма контакта (жалоба на пользователя)]]></lines>	
+	<lines name="name" descr=""><![CDATA[Имя пользователя]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail пользователя]]></lines>
+	<lines name="complaint_reason" descr=""><![CDATA[Причина жалобы]]></lines>
+	<lines name="complaint_0" descr=""><![CDATA[Использует чужие фотографии]]></lines>
+	<lines name="complaint_1" descr=""><![CDATA[Публикует чужие контактные данные]]></lines>
+	<lines name="complaint_2" descr=""><![CDATA[Рассылка сообщений с угрозами, оскорблениями]]></lines>
+	<lines name="complaint_3" descr=""><![CDATA[Рассылка предложений интим-услуг за деньги]]></lines>
+	<lines name="complaint_4" descr=""><![CDATA[Просьбы перевода денег или карточек оплаты]]></lines>
+	<lines name="complaint_5" descr=""><![CDATA[Рассылка рекламы и спама]]></lines>
+	<lines name="complaint_6" descr=""><![CDATA[Другое]]></lines>
+	<lines name="your_comment" descr=""><![CDATA[Комментарии]]></lines>	
+	<lines name="href" descr=""><![CDATA[Ссылка]]></lines>
+</strings>

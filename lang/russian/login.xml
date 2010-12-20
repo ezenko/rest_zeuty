@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="nickname" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="password" descr=""><![CDATA[Пароль]]></lines>
+	<lines name="button_submit" descr=""><![CDATA[Вперед!]]></lines>
+	<lines name="remember_me" descr=""><![CDATA[запомнить меня]]></lines>
+	<lines name="lost_password" descr=""><![CDATA[Забыли пароль?]]></lines>
+	<lines name="login_for_edit" descr=""><![CDATA[Для изменения уведомлений, пожалуйста, авторизируйтесь]]></lines>
+	<lines name="reg_text" descr=""><![CDATA[Вы новый пользователь?<br>Регистрация простая и займет у<br> вас всего минуту.]]></lines>
+	<lines name="reg_link_text" descr=""><![CDATA[Зарегистрироваться]]></lines>
+</data>

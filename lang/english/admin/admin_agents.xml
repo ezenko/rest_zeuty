@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="help_agents" descr=""><![CDATA[Here you can view the list of all your members, users&#145; requests and offers you made. Your agents&#145; profiles contain information about your company.]]></lines>
+	<lines name="help_realtor" descr=""><![CDATA[The page displays info on your active agents(if there are any), company&#145;s offers to become their agents and your requests. Every user can be an agent of a single company. Agent&#145;s prifle contains information about the company he works with.]]></lines>
+	<lines name="agents_list" descr=""><![CDATA[Agents list]]></lines>
+	<lines name="company_list" descr=""><![CDATA[Your realtor and company&#145;s offers]]></lines>
+	<lines name="order_by" descr=""><![CDATA[Sort by]]></lines>
+</data>

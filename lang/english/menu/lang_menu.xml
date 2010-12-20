@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<item name="english" id_lang="1"><![CDATA[English]]></item>
+	<item name="russian" id_lang="2"><![CDATA[Русский]]></item>
+	<item name="german" id_lang="3"><![CDATA[Deutsch]]></item>	
+</menu>

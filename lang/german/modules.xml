@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="account" descr="">Profil Einstellungen</lines>
+	<lines name="blacklist" descr="">Schwarze Liste</lines>
+	<lines name="contact" descr="">Kontakt Online Form</lines>
+	<lines name="hotlist" descr="">Hot Liste</lines>
+	<lines name="lost_pass" descr="">Form der Passwortsspeicherung</lines>
+	<lines name="mailbox" descr="">Meine Mitteilungen</lines>
+	<lines name="news" descr="">Nachrichten</lines>
+	<lines name="power_searchr" descr="">Erweiterte Suche</lines>
+	<lines name="quick_search" descr="">Schnelle Suche</lines>
+	<lines name="registration" descr="">Anmeldung</lines>
+	<lines name="rentals" descr="">Meine Anzeigen</lines>
+	<lines name="services" descr="">Bezahlte Dienste</lines>
+	<lines name="viewprofile" descr="">Profil</lines>
+	<lines name="admin_area_edit" descr="">Zusätzliche Information bearbeiten</lines>
+	<lines name="admin_editfile" descr="">Sprachfeilen bearbeiten</lines>
+	<lines name="admin_homepage" descr="">Administrator Startseite</lines>
+	<lines name="admin_payment" descr="">Rechnung Steuerung</lines>
+	<lines name="admin_references" descr="">Referenzen Management</lines>
+	<lines name="admin_settings" descr="">Einstellungen</lines>
+	<lines name="admin_users" descr="">Benutzer Management</lines>
+	<lines name="admin_groups" descr="">Gruppen Management</lines>
+	<lines name="admin_news" descr="">Nachrichten</lines>
+	<lines name="admin_badwords" descr="">Gesperrte Wörter</lines>
+	<lines name="descr_account" descr="">Profil bearbeiten, Ihr Passwort, Profil deaktivieren/aktivieren.</lines>
+	<lines name="descr_blacklist" descr="">Schwarze Liste der Benutzer schaffen, deren Mitteilungen zu Ihnen blockiert werden.</lines>
+	<lines name="descr_contact" descr="">Kontakt Administrator Form</lines>
+	<lines name="descr_hotlist" descr="">Liste det Heißen Anzeigen für die schnelle Suche schaffen.</lines>
+	<lines name="descr_lost_pass" descr="">Form der Passwortsspeicherung.</lines>
+	<lines name="descr_mailbox" descr="">Möglichkeit mit anderen Benutzer kommunizieren.</lines>
+	<lines name="descr_news" descr="">Zugang zu der Information im Nachrichten Bereich.</lines>
+	<lines name="descr_power_searchr" descr="">Form der Erweiterten Suche von Immobilien.</lines>
+	<lines name="descr_quick_search" descr="">Form der Schnellen Suche der Immobilien.</lines>
+	<lines name="descr_registration" descr="">Online Anmeldungsform.</lines>
+	<lines name="descr_rentals" descr="">Anzeigen schaffen, bearbeiten, löschen.</lines>
+	<lines name="descr_services" descr="">Möglichkeit bezahlte Dienstleitungen zu benutzen, Zugang zu dem Account und Rechnungengeschichte.</lines>
+	<lines name="descr_admin_area_edit" descr="">Informationbereiche bearbeiten (Datenschutzregelung, Nutzungsbedingungen, Über uns)</lines>
+	<lines name="descr_admin_editfile" descr="">Sprachfilen bearbeiten</lines>
+	<lines name="descr_admin_homepage" descr="">Administrator Home Page</lines>
+	<lines name="descr_admin_payment" descr="">Rechnungen Einstellungen</lines>
+	<lines name="descr_admin_references" descr="">Referenzen</lines>
+	<lines name="descr_admin_settings" descr="">Einstellungen</lines>
+	<lines name="descr_admin_users" descr="">Benutzer Management</lines>
+	<lines name="descr_admin_groups" descr="">Grouppen Management</lines>
+	<lines name="descr_admin_news" descr="">Nachrichten Bereich bearbeiten</lines>
+	<lines name="descr_admin_badwords" descr="">Gesperrte Wörter Bereich bearbeiten</lines>
+	<lines name="search_preferences" descr="">Suchpreferenzen des Mitgliedes</lines>
+	<lines name="descr_search_preferences" descr="">Suchpreferenzen des Mitgliedes Management</lines>
+	<lines name="admin_upload" descr="">Hochgeladene Dateien erlauben</lines>
+	<lines name="descr_admin_upload" descr="">Sektion für Erlaubnis von hochgeladenen Dateien</lines>
+	<lines name="admin_mails" descr="">Section "Warnungen (Mitteilungen)"</lines>
+	<lines name="descr_admin_mails" descr="">zugang zu der Sektion "Warnungen (Mitteilungen)" im Admin Modus</lines>
+	<lines name="descr_viewprofile" descr="">Die ganze Anzeigeninformation vorschauen (Immobilien Beschreibung, Information über Ihren Besitzer, Foro, Video, Position auf der Mappe.</lines>
+	<lines name="alert" descr="">Fehlermeldung über den Zugang zu dem File</lines>
+	<lines name="descr_alert" descr="">Dieser Benutzer versucht die Seite öffnen, zu der er keinen Zugang hat.</lines>
+	<lines name="compare" descr="">Anzeigen vergleichen</lines>
+	<lines name="descr_compare" descr="">Seite mit der Tabelle, die alle Charakteristeken der Anzeigen enthält, ist von dem Mitglied zu der Vergleichsliste hinzugefügt.</lines>
+	<lines name="index" descr="">Hauptseite</lines>
+	<lines name="descr_index" descr="">Index Seite für nicht angemeldete Benuzer</lines>
+	<lines name="homepage" descr="">Home Page</lines>
+	<lines name="descr_homepage" descr="">Hauptseite für angemeldete Benutzer.</lines>
+	<lines name="error" descr="">Server Fehler</lines>
+	<lines name="descr_error" descr="">Mitglied ist zu der Seite weitergeleitet, we es eine Serverfehlermeldung ist, zum Beispiel, 404.</lines>
+	<lines name="confirm" descr="">Anmeldungsbestätigung</lines>
+	<lines name="descr_confirm" descr="">Mitglied geht zu dieser Seite, wenn er das Link, das ihm gesendet bei E-mail wurde, anklickt.</lines>
+	<lines name="map" descr="">Site Map</lines>
+	<lines name="descr_map" descr="">Die Seite enthält Site map.</lines>
+	<lines name="agents" descr="">Meine Agenten/Mein Makler</lines>
+	<lines name="descr_agents" descr="">Agentenliste Management/Maklers des Mitglieds</lines>
+	<lines name="admin_banners" descr="">Module "Werbungskampagnen"</lines>
+	<lines name="descr_admin_banners" descr="">Werbungskampagnen Management</lines>
+</data>

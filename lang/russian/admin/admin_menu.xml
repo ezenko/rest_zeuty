@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="users" descr=""><![CDATA[Пользователи]]></lines>
+	<lines name="users_list" descr=""><![CDATA[Список пользователей]]></lines>
+	<lines name="users_add" descr=""><![CDATA[Добавление пользователя]]></lines>
+	<lines name="users_import" descr=""><![CDATA[Импорт пользователей]]></lines>
+	<lines name="groups_list" descr=""><![CDATA[Список групп]]></lines>
+	<lines name="payments" descr=""><![CDATA[Платежи]]></lines>
+	<lines name="payments_settings" descr=""><![CDATA[Изменение настроек]]></lines>
+	<lines name="pay_services" descr=""><![CDATA[Стоимость членства и услуг]]></lines>	
+	<lines name="payments_history" descr=""><![CDATA[История платежей]]></lines>
+	<lines name="payments_list" descr=""><![CDATA[Список поступлений]]></lines>
+	<lines name="payments_write_offs" descr=""><![CDATA[Список списаний за услуги]]></lines>
+	<lines name="realestate" descr=""><![CDATA[Моя недвижимость]]></lines>
+	<lines name="realestate_listings" descr=""><![CDATA[Мои объявления]]></lines>
+	<lines name="content_management" descr=""><![CDATA[Управление контентом]]></lines>
+	<lines name="sponsors_announcements" descr=""><![CDATA[Спонсорские объявления]]></lines>
+	<lines name="references" descr=""><![CDATA[Справочники]]></lines>
+	<lines name="references_countries" descr=""><![CDATA[Страны]]></lines>
+	<lines name="references_property_type" descr=""><![CDATA[Вид недвижимости]]></lines>
+	<lines name="references_numerical_values" descr=""><![CDATA[Числовые значения]]></lines>
+	<lines name="references_about_property" descr=""><![CDATA[О недвижимости]]></lines>
+	<lines name="references_term_of_lease" descr=""><![CDATA[Срок аренды]]></lines>
+	<lines name="references_about_person" descr=""><![CDATA[О человеке]]></lines>
+	<lines name="references_gender" descr=""><![CDATA[Пол]]></lines>
+	<lines name="references_languages" descr=""><![CDATA[Знание языков]]></lines>
+	<lines name="references_reason_for_deactivation" descr=""><![CDATA[Причины деактивации]]></lines>
+	<lines name="sections_management" descr=""><![CDATA[Редактор областей]]></lines>
+	<lines name="bad_words" descr=""><![CDATA[Плохие слова]]></lines>
+	<lines name="news_feeds" descr=""><![CDATA[Ваши новости, RSS ленты]]></lines>
+	<lines name="menu_and_content" descr=""><![CDATA[Изменение меню и содержания страниц]]></lines>
+	<lines name="uploads_approve" descr=""><![CDATA[Подтвержение загруженных файлов]]></lines>
+	<lines name="site_parameters" descr=""><![CDATA[Параметры сайта]]></lines>
+	<lines name="settings" descr=""><![CDATA[Настройки]]></lines>
+	<lines name="admin_info" descr=""><![CDATA[Личный кабинет]]></lines>
+	<lines name="site_mode" descr=""><![CDATA[Режим работы сайта]]></lines>
+	<lines name="other" descr=""><![CDATA[Разное]]></lines>
+	<lines name="site_languages" descr=""><![CDATA[Национальные языки сайта]]></lines>
+	<lines name="country_search" descr=""><![CDATA[Поиск в странах]]></lines>
+	<lines name="maps" descr=""><![CDATA[Географические карты]]></lines>	
+	<lines name="alerts" descr=""><![CDATA[Рассылки]]></lines>
+	<lines name="admin_alerts" descr=""><![CDATA[Уведомления администратора]]></lines>
+	<lines name="member_alerts" descr=""><![CDATA[Уведомления пользователя]]></lines>
+	<lines name="show_ads_area" descr=""><![CDATA[Порядок показа объявлений]]></lines>
+	<lines name="info_manager" descr=""><![CDATA[Разделы]]></lines>
+	<lines name="server_errors" descr=""><![CDATA[Ошибки сервера]]></lines>
+	<lines name="metatags" descr=""><![CDATA[SEO метатеги страниц]]></lines>
+	<lines name="watermark_settings" descr=""><![CDATA[Настройки watermark]]></lines>
+	<lines name="logotype_settings" descr=""><![CDATA[Логотип сайта]]></lines>
+	<lines name="mailbox" descr=""><![CDATA[Мои сообщения]]></lines>	
+	<lines name="my_agents" descr=""><![CDATA[Мои агенты]]></lines>
+	<lines name="my_realtor" descr=""><![CDATA[Мой риэлтор]]></lines>
+	<lines name="listings" descr=""><![CDATA[Объявления]]></lines>
+	<lines name="listings_feed" descr=""><![CDATA[Экспорт листингов]]></lines>	
+</data>

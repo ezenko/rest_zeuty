@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="E-mail subject"><![CDATA[[Site_Name] - Kontaksform von Real Estate Agentur wurde gefüllt]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Unternehmnesname]]></lines>
+	<lines name="company_contact_person" descr=""><![CDATA[Kontaktsname]]></lines>
+	<lines name="company_phone" descr=""><![CDATA[Telefone]]></lines>
+	<lines name="company_email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Site des Unternehmens (url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Zahl der Immobilientypen ]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Wie haben Sie [site_name] gefunden]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Ihre Fragen und Kommentare]]></lines>
+</strings>

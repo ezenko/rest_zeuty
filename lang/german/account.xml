@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="button_deactivate" descr=""><![CDATA[Deaktivieren]]></lines>
+	<lines name="addition_comment" descr=""><![CDATA[Zusatzanmerkungen]]></lines>
+	<lines name="nickname" descr=""><![CDATA[Benutzername]]></lines>
+	<lines name="fname" descr=""><![CDATA[Vorname]]></lines>
+	<lines name="sname" descr=""><![CDATA[Familienname]]></lines>
+	<lines name="birthday" descr=""><![CDATA[Geburtsdatum]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="phone" descr=""><![CDATA[Telefon]]></lines>
+	<lines name="incorrect_field" descr=""><![CDATA[Falsches Feld]]></lines>
+	<lines name="incorrect_date" descr=""><![CDATA[Falsches Datum]]></lines>
+	<lines name="login_exists" descr=""><![CDATA[Dieser Login wird schon benutzt]]></lines>
+	<lines name="email_exists" descr=""><![CDATA[Diese Email wird schon benutzt]]></lines>
+	<lines name="old_password" descr=""><![CDATA[Altes Passwort]]></lines>
+	<lines name="new_password" descr=""><![CDATA[Neues Passwort]]></lines>
+	<lines name="new_password_verify" descr=""><![CDATA[Passwort bestätigen]]></lines>
+	<lines name="wrong_password" descr=""><![CDATA[Das alte Passwort ist inkorrekt]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Unternehmensname]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Seite (Url) Ihres Unternehmens]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Anzeigenanzahl]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Woher haben Sie von uns erfahren?]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Fragen und Kommentare]]></lines>
+	<lines name="work_days" descr=""><![CDATA[Werktage]]></lines>
+	<lines name="work_time" descr=""><![CDATA[Arbeitsstunden]]></lines>
+	<lines name="lunch_time" descr=""><![CDATA[Mittagspause]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[]]></lines>
+	<lines name="time_end" descr=""><![CDATA[-]]></lines>
+	<lines name="private_person" descr=""><![CDATA[Privatperson]]></lines>
+	<lines name="agency" descr=""><![CDATA[Immobilienagentur]]></lines>
+	<lines name="our_logo" descr=""><![CDATA[Unternehmenslogo oder Ihr Foto]]></lines>
+	<lines name="no_answer" descr=""><![CDATA[Keine Antwort hinterlassen]]></lines>
+	<lines name="sel_all_text" descr=""><![CDATA[Alle Möglichkeiten auswählen]]></lines>
+	<lines name="unsel_all_text" descr=""><![CDATA[Alles abwählen]]></lines>
+	<lines name="unsel_radio_text" descr=""><![CDATA[Abwählen]]></lines>
+	<lines name="you_registered_as" descr=""><![CDATA[Sie sind angemeldet als]]></lines>
+	<lines name="subheader" descr=""><![CDATA[Diese Information ist allen Seitenbenutzern zugänglich. Änderungen, die Sie hier ausführen, kommen in allen Ihren Anzeigen vor.]]></lines>
+	<lines name="activate" descr=""><![CDATA[Profil aktivieren]]></lines>
+	<lines name="deactivate" descr=""><![CDATA[Profil deaktivieren]]></lines>
+	<lines name="deactivated_profile" descr=""><![CDATA[Ihr Profil wurde deaktiviert, Anzeigen sind nicht aktiv und kommen nicht in den Suchergebnissen vor. Bitte prüfen Sie Ihre Anzeigen nach der Aktivierung.]]></lines>
+	<lines name="admin_approve_not_complete" descr=""><![CDATA[Das Foto wurde noch nicht von dem Moderator zugelassen]]></lines>
+	<lines name="admin_approve_decline" descr=""><![CDATA[Das Foto wurde von dem Moderator gesperrt	]]></lines>
+	<lines name="interface_language" descr=""><![CDATA[Sprache des Interfaces]]></lines>		
+	<lines name="interface_language_help" descr=""><![CDATA[Sprache des Interfaces wird nach der Befugnis aktiviert. Alle Systemmeldungen werden auf dieser Sprache gesendet.]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[von]]></lines>
+	<lines name="time_end" descr=""><![CDATA[bis]]></lines>
+	<lines name="empty" descr=""><![CDATA[Erhältlich]]></lines>
+	<lines name="country" descr=""><![CDATA[Land]]></lines>
+	<lines name="address" descr=""><![CDATA[Adresse]]></lines>
+	<lines name="city" descr=""><![CDATA[Stadt]]></lines>
+	<lines name="region" descr=""><![CDATA[Region]]></lines>
+	<lines name="map" descr=""><![CDATA[Landkarte]]></lines>
+	<lines name="post_code" descr=""><![CDATA[Postleitzahl]]></lines>		
+	<lines name="agent_of_agency" descr=""><![CDATA[Agent der Immobilienagentur]]></lines>
+	<lines name="choose_company" descr=""><![CDATA[Unternehmen wählen]]></lines>
+		<lines name="hint_3" descr=""><![CDATA[Bitte wählen Sie das Unternehmen, dessen Agent Sie werden möchten. Das Unternehmen wird Ihre Anfrage bekommen und entweder Sie genehmigen oder Ihnen absagen. Falls Sie schon ein Agent von einem Unternehmen sind, oder die Anfrage dafür gesendet haben, dürfen Sie dieses Unternehmen als Ihren Immobilienmakler abschaffen, und beliebiges Unternehmen wird Ihnen seine Anträge senden können, damit Sie sein Agent werden. Sie können dieses Feld leer lassen. In solchem Fall werden Sie ein unabhängiger Agent sein. Sie dürfen genauso Unternehmen wechseln, dessen Agent Sie sein wollen. Ihr voriges Unternehmen wird darüber benachrichtigt, dass Sie nicht mehr sein Agent sind.]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Unternehmen wählen]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Nach dem Mitglied suchen]]></lines>
+	<lines name="search_help" descr=""><![CDATA[Tragen Sie bitte Identifizierungsdaten des Mitglieds ein: Vorname, Familienname, Unternehmensname.]]></lines>
+	<lines name="number" descr=""><![CDATA[Nr]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Anzeigen]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Zahlungen]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Unternehmensname]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[Keine Einträge entsprechen Ihren Kriterien]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Information fehlt]]></lines>
+	<lines name="pages" descr=""><![CDATA[Seiten]]></lines>
+	<lines name="not_approve" descr=""><![CDATA[Das Unternehmen hat noch Ihre Agent-Anfrage nicht genehmigt.]]></lines>
+	<lines name="your_photo" descr=""><![CDATA[Ihr Foto]]></lines>
+	<lines name="agency_url" descr=""><![CDATA[Seite(Url) des Unternehmens]]></lines>
+	<lines name="agency_logo" descr=""><![CDATA[Unternehmenslogo]]></lines>
+	<lines name="location" descr=""><![CDATA[Standort]]></lines>
+	<lines name="need_delete_realtor" descr=""><![CDATA[Um Ihr Typ zu ändern, bitte entfernen Sie sich aus der Liste der Unternehmensagenten]]></lines>
+	<lines name="need_delete_agents" descr=""><![CDATA[Um Ihr Typ zu ändern, bitte löschen Sie Ihre Agentenliste]]></lines>
+	<lines name="delete_agents" descr=""><![CDATA[Vor der Deaktivierung Ihres Kontos, bitte löschen Sie Ihre Agentenliste]]></lines>
+	<lines name="delete_realtor" descr=""><![CDATA[Vor der Deaktivierung Ihres Kontos, bitte entfernen Sie sich aus der Liste der Unternehmensagenten]]></lines>
+	<lines name="decline_company" descr=""><![CDATA[Unternehmensangebot ablehnen]]></lines>
+	<lines name="change_company" descr=""><![CDATA[Unternehmen wechseln]]></lines>
+	<lines name="delete_company" descr=""><![CDATA[Unternehmen löschen]]></lines>
+	<lines name="na_agency_1" descr=""><![CDATA[Unternehmen]]></lines>
+	<lines name="na_agency_2" descr=""><![CDATA[wurde nicht gefunden]]></lines>
+	<lines name="na_agency_3" descr=""><![CDATA[Leers Feld ist nicht zugelassen]]></lines>
+	<lines name="with_company_1" descr=""><![CDATA[Mit Unterhemen]]></lines>
+	<lines name="with_company_2" descr=""><![CDATA[mit dem Sie schon Kontakt haben.]]></lines>
+	<lines name="incorrect_time_interval" descr=""><![CDATA[Zeitinterval ist falsch eingegeben]]></lines>
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="paperclip_text" descr=""><![CDATA[Мы будем рады выслушать ваше мнение, чтобы предоставить вам лучший сервис.]]></lines>
+	<lines name="contact_link" descr=""><![CDATA[Оставьте ваш отзыв здесь.]]></lines>
+	<lines name="featured_rent_head" descr=""><![CDATA[Лидер]]></lines>
+	<lines name="stavka" descr=""><![CDATA[Ставка]]></lines>
+	<lines name="featured_period" descr=""><![CDATA[Лидирует]]></lines>
+	<lines name="hours" descr=""><![CDATA[ч.]]></lines>
+	<lines name="minutes" descr=""><![CDATA[мин.]]></lines>
+	<lines name="seconds" descr=""><![CDATA[с.]]></lines>
+	<lines name="days" descr=""><![CDATA[дн.]]></lines>
+	<lines name="in_region" descr=""><![CDATA[в регионе]]></lines>
+</data>

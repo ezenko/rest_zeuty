@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="mails_edit" descr=""><![CDATA[Benachrichtigungenverwaltung]]></lines>
+	<lines name="user_help" descr=""><![CDATA[Liste der von Seitenmitgliedern bekommenen Benachrichtigungen. Wenn es keine Abmeldungsmöglichkeit vorhanden ist, bekommen alle Seitenmitgliedern diese Benachrichtigungen standardmäßig.]]></lines>
+	<lines name="sys_alerts_from" descr=""><![CDATA[Alle Benutzersystembenachrichtigungen kommen von]]></lines>
+	<lines name="alerts_from_email" descr=""><![CDATA[Email]]></lines>
+	<lines name="alerts_from_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="sys_from_name_help" descr=""><![CDATA[Wert der Variable [site_name] die in allen Mailen-Sprachdateien benutzt wird; sie wird in der gemeinsam genutzten Sprachdatei modifiziert. Wenn Sie sie bearbeiten wollen, gehen Sie zur Verwaltung irgendeines Seitenmailentemplates]]></lines>
+	<lines name="user_alerts_help" descr=""><![CDATA[Meldungen, die dem Administrator gesendet werden, werden geliefert zu ]]></lines>
+	<lines name="user_alerts_from" descr=""><![CDATA[Alle Mitgliederbenachrichtigungen zu Administrator werden von der Mitglieds-Emailadresse gesendet, wer Kontaktform ausgefüllt hat]]></lines>
+	<lines name="mail_content_deactivate" descr=""><![CDATA[Grund zur Deaktivierung des Mitglieds]]></lines>
+	<lines name="mail_content_contact_agency" descr=""><![CDATA[Online Kontaktform für Immobilienagentur]]></lines>
+	<lines name="mail_content_contact_complain" descr=""><![CDATA[Online Kontaktform - Klage gegen ein Mitglied]]></lines>
+	<lines name="mail_content_contact_form" descr=""><![CDATA[Online Kontaktform von Mitgliedern mit Seitenverbesserungsvorschlägen]]></lines>
+	<lines name="mail_content_money_end" descr=""><![CDATA[Geldmittel auf Ihrem Konto sind am Ende]]></lines>
+	<lines name="mail_content_match" descr=""><![CDATA[Benachrichtigung zur neuen Treffervariante]]></lines>
+	<lines name="mail_content_money_add" descr=""><![CDATA[Geldmittel auf das Konto anzahlen]]></lines>
+	<lines name="mail_content_registration_by_admin" descr=""><![CDATA[Benutzeranmeldung von dem Administrator]]></lines>
+	<lines name="mail_content_profile_change_by_admin" descr=""><![CDATA[Änderungen im Benutzerprofil von dem Administrator]]></lines>
+	<lines name="mail_content_lost_pass" descr=""><![CDATA[Meldung dem Benutzer in Bezug auf das vergessene Passwort]]></lines>
+	<lines name="mail_content_newmailbox" descr=""><![CDATA[Meldung, die über eine neue Meldung im Briefkasten informiert]]></lines>
+	<lines name="mail_content_registration" descr=""><![CDATA[Gratulationen zur Anmeldung, die Benutzern nach der Anmeldung auf der Seite gesendet werden; diese Meldung kann auch den Link zu Anmeldungsbestätigung, wenn diese Möglichkeit auf der Seite aktiv ist]]></lines>
+	<lines name="mail_content_viewme" descr=""><![CDATA[Benachrichtigung, die dem Mitglied gesendet wird, wenn seine Anzeige von anderen Mitgliedern angesehen wurde]]></lines>
+	<lines name="mail_content_interme" descr=""><![CDATA[Benachrichtigung, die dem Mitglied gesendet wird, wenn sich jemand für seinen Anzeigen interessiert]]></lines>
+	<lines name="mail_content_unactivate_ad" descr=""><![CDATA[Benachrichtigung, die informiert, dass Mitgliedsanzeige nicht mehr aktiv ist (aktive Periode ist zu Ende) - dafür soll die Möglichkeit `Anzeigenaktivitätsdauer` angeschaltet sein]]></lines>
+	<lines name="mail_content_unactivate_sold_leased" descr=""><![CDATA[Benachrichtigung, die informiert, dass Mitgliederanzeigen mit Status `Verkauft` oder `Vermietet` nicht aktiv geworden sind, wenn Seitenadministrator die Möglichkeit ausgeschaltet hat, solchen Status den Anzeigen zu verleihen]]></lines>
+	<lines name="mail_content_contact_user" descr=""><![CDATA[Online Kontaktform von der Anzeige, ist nur in der zweiten Form der Funktionsweise von Site erreichbar - `Ein unabhängiger Makler oder Grundstücksmakler/Broker`]]></lines>
+	<lines name="mail_content_approve_by_agent" descr=""><![CDATA[Unternehmensbenachrichtigung, die informiert, dass ein Benutzer das Agentenangebot von diesem Unternehmen angenommen hat und wird sein Agent sein]]></lines>
+	<lines name="mail_content_approve_by_realtor" descr=""><![CDATA[Mitgliedsbenachrichtigung, die informiert, dass ein Unternehmen die Agent-Bewerbung vom Mitglied akzeptiert hat]]></lines>
+	<lines name="mail_content_decline_by_agent" descr=""><![CDATA[Unternehmensbenachrichtigung, die informiert, dass ein Mitglied das Agentenangebot von diesem Unternehmen abgelehnt hat]]></lines>
+	<lines name="mail_content_decline_by_realtor" descr=""><![CDATA[Mitgliedsbenachrichtigung, die informiert, dass ein Unternehmen seine Agent-Bewerbung abgelehnt hat]]></lines>
+	<lines name="mail_content_delete_by_agent" descr=""><![CDATA[Unternehmensbenachrichtigung, die informiert, dass sich ein Mitglied aus der Agentenliste des Unternehmens entfernt hat]]></lines>
+	<lines name="mail_content_delete_by_agent_1" descr=""><![CDATA[Benachrichtigung, die informiert, dass ein Mitglied das Angebot von dem Unternehmen abgelehnt hat]]></lines>
+	<lines name="mail_content_delete_by_agent_2" descr=""><![CDATA[Unternehmensbenachrichtigung, die informiert, dass ein Mitglied seine Agent-Bewerbung zurückgezogen hat]]></lines>
+	<lines name="mail_content_delete_by_realtor" descr=""><![CDATA[Mitgliedsbenachrichtigung, die informiert, dass ein Unternehmen dieses Mitglied aus der Liste seiner Agenten entfernt hat]]></lines>
+	<lines name="mail_content_delete_offer_by_realtor" descr=""><![CDATA[Mitgliedsbenachrichtigung, die informiert, dass ein Unternehmen sein Agentenangebot zurückgezogen hat]]></lines>
+	<lines name="mail_content_invite_to_realtor" descr=""><![CDATA[Einladung von einem Unternehmen, sein Agent zu werden]]></lines>
+	<lines name="mail_content_new_agent" descr=""><![CDATA[Unternehmensbenachrichtigung, die informiert, dass ein Mitglied sein Agent sein möchte]]></lines>
+	<lines name="mail_content_birthday" descr=""><![CDATA[Mitglied zum Geburtstag gratulieren]]></lines>
+	<lines name="unsubscribe_possible" descr=""><![CDATA[Möglichkeit, sich anzumelden/abzumelden]]></lines>
+	<lines name="preview_sname" descr=""><![CDATA[Vorname]]></lines>
+	<lines name="preview_fname" descr=""><![CDATA[Name]]></lines>
+	<lines name="preview_login" descr=""><![CDATA[Login]]></lines>
+	<lines name="preview_password" descr=""><![CDATA[Passwort]]></lines>
+	<lines name="preview_add_on_account" descr=""><![CDATA[10]]></lines>
+	<lines name="preview_account" descr=""><![CDATA[50]]></lines>
+	<lines name="preview_confirm_link" descr=""><![CDATA[Bestätigungslink]]></lines>
+	<lines name="mail_description" descr=""><![CDATA[Meldungenbeschreibung]]></lines>
+	<lines name="users_cnt" descr=""><![CDATA[Angemeldete Mitglieder]]></lines>
+	<lines name="mail_text" descr=""><![CDATA[Meldungeninhalt]]></lines>
+	<lines name="edit_lang_files" descr=""><![CDATA[Verlwatung von Sprachdateien, die mit dieser Meldung zu tun haben]]></lines>
+	<lines name="lang_content" descr=""><![CDATA[Meldungensprachdatei]]></lines>
+	<lines name="lang_content_help" descr=""><![CDATA[Datei beinhaltet Sprachenzeilen , die mit der geänderten Meldung zu tun haben]]></lines>
+	<lines name="lang_default_select" descr=""><![CDATA[Standardsprachen-Datei]]></lines>
+	<lines name="lang_default_select_help" descr=""><![CDATA[Datei beinhaltet Standardsprachen-Zeilen für alle Meldungen]]></lines>
+	<lines name="edit_help" descr=""><![CDATA[Im Bereich "Meldungsinhalt" können Sie Ihre Meldung voranschauen. Wir haben Test Informationen in den Seiteninhalt hinzufegügt, damit Sie es sehen können (zum Beispiel, Mitgliederdetails - Vorname, Name, Login, Passwort, usw)<br>Jedes Mitglied bekommt Meldungen auf der Sprache, die für sein Benutzer-Interface eingestellt ist.]]></lines>
+	<lines name="agent_name" descr=""><![CDATA[Vorname, Name]]></lines>
+	<lines name="company_name_user" descr=""><![CDATA[Vorname, Name]]></lines>
+	<lines name="link" descr=""><![CDATA[Link]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Unternehmensname]]></lines>
+	<lines name="admin_help_1" descr=""><![CDATA[Liste von Notifikationen, die an E-mail Adresse des Administrators geschickt wurden, angedeutet in]]></lines>
+	<lines name="admin_help_2" descr=""><![CDATA[Einstellungen]]></lines>
+	<lines name="admin_help_3" descr=""><![CDATA[, als E-mail, an die alle Systemnotifikationen gesendet sind.]]></lines>
+	<lines name="sys_from_email_help_1" descr=""><![CDATA[E-mail, angedeutet in ]]></lines>
+	<lines name="sys_from_email_help_2" descr=""><![CDATA[Einstellungen]]></lines>
+	<lines name="sys_from_email_help_3" descr=""><![CDATA[, als E-mail, zu der alle Systemnotifikationen gesendet werden.]]></lines>
+	<lines name="admin_name_help_1" descr=""><![CDATA[Name und Familienname aufgelistet in]]></lines>
+	<lines name="admin_name_help_2" descr=""><![CDATA[Einstellungen]]></lines>
+</data>

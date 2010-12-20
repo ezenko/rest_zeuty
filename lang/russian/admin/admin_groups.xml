@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="empty" descr=""><![CDATA[Empty groups list]]></lines>
+<lines name="list" descr=""><![CDATA[Группы пользователей]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="name" descr=""><![CDATA[Группы пользователей]]></lines>
+<lines name="type" descr=""><![CDATA[Type]]></lines>
+<lines name="user_list" descr=""><![CDATA[Список пользователей]]></lines>
+<lines name="all_users" descr=""><![CDATA[Все пользователи]]></lines>
+<lines name="users_in_list" descr=""><![CDATA[Пользователи]]></lines>
+<lines name="group_users" descr=""><![CDATA[Пользователи группы]]></lines>
+<lines name="initial_word" descr=""><![CDATA[a]]></lines>
+<lines name="permission" descr=""><![CDATA[Доступные функции и модули]]></lines>
+<lines name="module" descr=""><![CDATA[Модули и функции]]></lines>
+<lines name="description" descr=""><![CDATA[Описание]]></lines>
+<lines name="allow" descr=""><![CDATA[Включить]]></lines>
+<lines name="group_permission_help" descr=""><![CDATA[Измените название группы. Настройте доступ этой группы пользователей к перечисленным ниже модулям и функциям. Вы можете разрешить бесплатное участие в группе на ограниченный период времени, и ваши клиенты смогут воспользоваться этой услугой единоразово.<br>Не бойтесь экспериментировать, Вы всегда можете вернуться к настройкам по умолчанию для бесплатной группы зарегистрированных пользователей, нажав на кнопку &quot;Установить настройки по умолчанию&quot;.]]></lines>
+<lines name="user_group_help" descr=""><![CDATA[Здесь вы можете изменить принадлежность пользователей к Группе пользователей.]]></lines>
+<lines name="group_users_list_help" descr=""><![CDATA[Список пользователей, относящихся к группе. Пользователи, чей период нахождения в группе истек, будут автоматически перенесены в бесплатную группу сразу же после входа в систему.]]></lines>
+<lines name="group_list_help" descr=""><![CDATA[В разделе "Доступные функции и модули" Вы можете для каждой группы пользователей включить или отключить доступ к определённым модулям и функциям, задать пробный бесплатный период пользования каждой группы. В разделе "Список пользователей" изменяется принадлежность пользователей к Группе пользователей.<br><br>Если Вы опытный пользователь, Вы можете добавить новые платные группы. После добавления новой группы необходимо установить плату за членство в группе. Только после этого пользователь сайта увидет добавленную группу в списке возможных для выбора групп пользователей.<br><br>При удалении группы все пользователи группы автоматически попадают в группу бесплатных пользователей.]]></lines>
+<lines name="letter_search_help" descr=""><![CDATA[Поиск по первой букве в E-mail пользователя]]></lines>
+<lines name="user_type" descr=""><![CDATA[Тип]]></lines>
+<lines name="user_type_1" descr=""><![CDATA[Частное лицо]]></lines>
+<lines name="user_type_2" descr=""><![CDATA[Риэлтор]]></lines>
+<lines name="admin" descr=""><![CDATA[Администратор]]></lines>
+<lines name="guest" descr=""><![CDATA[Гость]]></lines>
+<lines name="payments" descr=""><![CDATA[Платежи]]></lines>	
+<lines name="user_name" descr=""><![CDATA[Имя]]></lines>
+<lines name="email" descr=""><![CDATA[Email]]></lines>	
+<lines name="users_group_period" descr=""><![CDATA[Период нахождения в группе]]></lines>	
+<lines name="expired" descr=""><![CDATA[закончился]]></lines>
+<lines name="empty_payments" descr=""><![CDATA[Отсутствуют]]></lines>	
+<lines name="empty_result" descr=""><![CDATA[К сожалению, ничего не найдено по вашему запросу. Попробуйте изменить]]></lines>
+<lines name="empty_res_search_criteria" descr=""><![CDATA[настройки поиска]]></lines>
+<lines name="group_name" descr=""><![CDATA[Название группы]]></lines>
+<lines name="allow_trial_membership" descr=""><![CDATA[Разрешить бесплатное участие в группе на]]></lines>
+<lines name="days" descr=""><![CDATA[дня (ей)]]></lines>
+<lines name="wrong_group_trial_period" descr=""><![CDATA[Установите количество дней бесплатного участия в группе (значения поля дожно быть целым положительным числом)!]]></lines>
+<lines name="add_new_group" descr=""><![CDATA[Добавление новой группы]]></lines>
+<lines name="set_default_perms" descr=""><![CDATA[Установить настройки по умолчанию]]></lines>
+</data>

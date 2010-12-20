@@ -1,0 +1,10 @@
+{include file="$gentemplates/mail_top.tpl"}
+{$mail_content.company_name}: {$data.company_name}
+{$mail_content.company_contact_person}: {$data.company_contact_person}
+{$mail_content.company_phone}: {$data.company_phone}
+{$mail_content.company_email}: {$data.company_email}
+{$mail_content.company_url}: {$data.company_url}
+{$mail_content.company_rent_count}: {$data.company_rent_count}
+{$mail_content.company_how_know}: {$data.company_how_know}
+{$mail_content.company_quests_comments}: {$data.company_quests_comments}
+{include file="$gentemplates/mail_bottom.tpl"}

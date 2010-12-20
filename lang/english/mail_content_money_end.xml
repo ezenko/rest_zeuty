@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Funds on your account are about to expire on [site_name]]]></lines>
+<lines name="text" descr=""><![CDATA[Unfortunately funds on your account are about to expire. Please add funs to be able  to use paid services.]]></lines>
+</data>

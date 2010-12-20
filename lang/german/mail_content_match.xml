@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Neue passende Varianten auf [site_name]]]></lines>
+<lines name="text_1" descr=""><![CDATA[Hier sind [site_name] Anzeigen, die Ihren Kriterien passen]]></lines>
+<lines name="text_4" descr=""><![CDATA[Finden Sie mehr auf [site_name]]]></lines>
+<lines name="view" descr=""><![CDATA[Anblick >>]]></lines>
+<lines name="need_realty" descr=""><![CDATA[Mietet]]></lines>
+<lines name="have_realty" descr=""><![CDATA[Vermietet]]></lines>
+<lines name="sell_realty" descr=""><![CDATA[Verkauft]]></lines>
+<lines name="buy_realty" descr=""><![CDATA[Kauft]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Miete für einen Monat]]></lines>
+<lines name="price" descr=""><![CDATA[Preis]]></lines>
+<lines name="from" descr=""><![CDATA[von]]></lines>
+<lines name="upto" descr=""><![CDATA[bis]]></lines>
+</data>

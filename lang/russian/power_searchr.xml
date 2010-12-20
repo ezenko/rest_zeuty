@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="i_search" descr=""><![CDATA[Я ищу]]></lines>
+<lines name="who" descr=""><![CDATA[Тех, кто]]></lines>
+<lines name="age" descr=""><![CDATA[Возраст]]></lines>
+<lines name="to" descr=""><![CDATA[до]]></lines>
+<lines name="need_room" descr=""><![CDATA[арендует]]></lines>
+<lines name="have_room" descr=""><![CDATA[сдаст в аренду]]></lines>
+<lines name="buy_realty" descr=""><![CDATA[купит]]></lines>
+<lines name="sell_realty" descr=""><![CDATA[продаст]]></lines>
+<lines name="select_country" descr=""><![CDATA[В стране]]></lines>
+<lines name="select_region" descr=""><![CDATA[В регионе]]></lines>
+<lines name="select_city" descr=""><![CDATA[В городе]]></lines>
+<lines name="payment" descr=""><![CDATA[Максимальная плата]]></lines>
+<lines name="with_photo_first" descr=""><![CDATA[приоритет объявлений с фотографиями]]></lines>
+<lines name="with_video" descr=""><![CDATA[с видео]]></lines>
+<lines name="save_power_search" descr=""><![CDATA[Сохранить мои расширенные НАСТРОЙКИ поиска как]]></lines>
+<lines name="default_search_name" descr=""><![CDATA[Поиск 1]]></lines>
+<lines name="load_power_search" descr=""><![CDATA[Загрузить мои НАСТРОЙКИ поиска]]></lines>
+<lines name="results" descr=""><![CDATA[РЕЗУЛЬТАТЫ ПОИСКА]]></lines>
+<lines name="empty_result" descr=""><![CDATA[К сожалению, ничего не найдено по вашему запросу. Попробуйте изменить ]]></lines>
+<lines name="search_criteria" descr=""><![CDATA[настройки поиска]]></lines>
+<lines name="i_need" descr=""><![CDATA[Арендует]]></lines>
+<lines name="i_have" descr=""><![CDATA[Сдает в аренду]]></lines>
+<lines name="i_buy" descr=""><![CDATA[Покупает]]></lines>
+<lines name="i_sell" descr=""><![CDATA[Продаёт]]></lines>
+<lines name="about_me" descr=""><![CDATA[Обо мне]]></lines>
+<lines name="about_us" descr=""><![CDATA[О нас]]></lines>
+<lines name="look_for" descr=""><![CDATA[Ищет]]></lines>
+<lines name="max_payment" descr=""><![CDATA[Максимальная плата]]></lines>
+<lines name="available_date" descr=""><![CDATA[Доступна с]]></lines>
+<lines name="move_in_date" descr=""><![CDATA[Дата переезда]]></lines>
+<lines name="location" descr=""><![CDATA[Расположена]]></lines>
+<lines name="search_new_members" descr=""><![CDATA[Искать новых пользователей]]></lines>
+<lines name="search_by_nick" descr=""><![CDATA[Искать по имени пользователя]]></lines>
+<lines name="nickname" descr=""><![CDATA[имени пользователя]]></lines>
+<lines name="date_reg" descr=""><![CDATA[дате регистрации]]></lines>
+<lines name="date_last" descr=""><![CDATA[последней активности]]></lines>
+<lines name="add_to_hotlist" descr=""><![CDATA[Добавить в Избранное]]></lines>
+<lines name="add_to_blacklist" descr=""><![CDATA[Добавить в Черный список]]></lines>
+<lines name="contact_user" descr=""><![CDATA[Связаться с ним]]></lines>
+<lines name="contact_admin" descr=""><![CDATA[Пожаловаться на пользователя]]></lines>
+<lines name="interest" descr=""><![CDATA[Выразить интерес]]></lines>
+<lines name="add" descr=""><![CDATA[Добавить объявление]]></lines>
+<lines name="sel_all_text" descr=""><![CDATA[Выделить все опции]]></lines>
+<lines name="unsel_all_text" descr=""><![CDATA[Снять все выделения]]></lines>
+<lines name="menu_text_1" descr=""><![CDATA[Поиск по всем параметрам]]></lines>
+<lines name="menu_text_2" descr=""><![CDATA[Быстрый поиск]]></lines>
+<lines name="link_text_1" descr=""><![CDATA[Перейти на быстрый поиск]]></lines>
+<lines name="month_payment" descr=""><![CDATA[Стоимость аренды<br> за 1 месяц]]></lines>
+<lines name="price" descr=""><![CDATA[Цена]]></lines>
+<lines name="from" descr=""><![CDATA[от]]></lines>
+<lines name="upto" descr=""><![CDATA[до]]></lines>
+<lines name="auction_possible" descr=""><![CDATA[торг возможен]]></lines>
+<lines name="auction_inpossible" descr=""><![CDATA[торг невозможен]]></lines>
+<lines name="deposit" descr=""><![CDATA[Предоплата]]></lines>
+<lines name="year_build" descr=""><![CDATA[Год постройки]]></lines>
+<lines name="from_1" descr=""><![CDATA[c]]></lines>
+<lines name="upto_1" descr=""><![CDATA[по]]></lines>
+<lines name="live_square" descr=""><![CDATA[Жилая площадь]]></lines>
+<lines name="total_square" descr=""><![CDATA[Общая площадь]]></lines>
+<lines name="land_square" descr=""><![CDATA[Площадь земельного участка]]></lines>
+<lines name="floor" descr=""><![CDATA[этаж]]></lines>
+<lines name="search_floor_variants" descr=""><![CDATA[Искать только варианты]]></lines>
+<lines name="floor_num_max_limitation" descr=""><![CDATA[Количество этажей в доме не должно превышать]]></lines>
+<lines name="of_floors" descr=""><![CDATA[этажей]]></lines>
+<lines name="subway_min" descr=""><![CDATA[До метро не более]]></lines>
+<lines name="minutes" descr=""><![CDATA[минут]]></lines>
+<lines name="not_earlier" descr=""><![CDATA[не раньше]]></lines> 
+<lines name="price_min_more_max" descr=""><![CDATA[Минимальная плата не может быть больше максимальной]]></lines>
+<lines name="deposit_min_more_max" descr=""><![CDATA[Минимальная предоплата не может быть больше максимальной]]></lines>
+<lines name="live_square_min_more_max" descr=""><![CDATA[Минимальная площадь жилья не может быть больше максимальной]]></lines>
+<lines name="total_square_min_more_max" descr=""><![CDATA[Минимальная общая площадь не может быть больше максимальной]]></lines>
+<lines name="land_square_min_more_max" descr=""><![CDATA[Минимальная площадь земельного участка не может быть больше максимальной]]></lines>
+<lines name="year_build_min_more_max" descr=""><![CDATA[Минимальный год постройки не может быть больше максимального]]></lines>
+<lines name="floor_min_more_max" descr=""><![CDATA[Минимальный этаж не может быть больше максимального]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Стоимость аренды за 1 месяц]]></lines>
+<lines name="back_to_search" descr=""><![CDATA[&#171; Назад к настройкам поиска]]></lines>
+<lines name="powersearch_by_saved_search" descr=""><![CDATA[Поиск по сохраненным настройкам расширенного поиска]]></lines>	
+<lines name="powersearch_by_user_name" descr=""><![CDATA[Поиск по имени пользователя]]></lines>		
+<lines name="find_num" descr=""><![CDATA[По вашему запросу найдено]]></lines>
+<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+<lines name="time_end" descr=""><![CDATA[до]]></lines>
+<lines name="empty" descr=""><![CDATA[Свободна]]></lines>
+</data>

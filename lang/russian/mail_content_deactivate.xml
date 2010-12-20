@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="Тема письма"><![CDATA[[site_name] - пользователь деактивировал свой профайл]]></lines>
+	<lines name="name" descr=""><![CDATA[Имя пользователя]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail пользователя]]></lines>
+	<lines name="reason" descr=""><![CDATA[Причина деактивации]]></lines>
+	<lines name="comments" descr=""><![CDATA[Комментарии]]></lines>
+</strings>

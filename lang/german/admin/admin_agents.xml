@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="help_agents" descr=""><![CDATA[Hier finden Sie die Liste aller Mitglieder, Benutzeranfragen und von Ihnen gestellter Angebote. Profile Ihrer Agenten enthalten Informationen über Ihre Agentur.]]></lines>
+<lines name="help_realtor" descr=""><![CDATA[Diese Seite zeigt Details von Ihren aktiven Agenten (wenn es sie gibt), Agenturenangebote zu ihren möglichen Agenten, und von Ihren Anfragen. Jeder Benutzer kann Agent einer bestimmten Agentur sein. Agentenprofile beinhalten Informationen über Agentur, mit der er/sie arbeitet.]]></lines>
+<lines name="agents_list" descr=""><![CDATA[Agentenliste]]></lines>	
+<lines name="company_list" descr=""><![CDATA[Ihr Immobilienmakler und Agenturangebote]]></lines>	
+<lines name="order_by" descr=""><![CDATA[Sortieren nach]]></lines>
+</data>

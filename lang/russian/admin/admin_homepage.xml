@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_header" descr=""><![CDATA[Добро пожаловать]]></lines>
+	<lines name="page_subheader" descr=""><![CDATA[Главная страница администратора]]></lines>
+	<lines name="page_content" descr=""><![CDATA[Здравствуйте, администратор! Статистика сайта RealEstate:<br><br>]]></lines>
+	<lines name="home" descr=""><![CDATA[Главная]]></lines>
+	<lines name="all_users" descr=""><![CDATA[Всего пользователей]]></lines>
+	<lines name="active_users" descr=""><![CDATA[Из них активных]]></lines>
+	<lines name="active_users_private" descr=""><![CDATA[частных лиц]]></lines>
+	<lines name="active_users_agencies" descr=""><![CDATA[риэлторов]]></lines>
+	<lines name="active_users_agents" descr=""><![CDATA[агентов]]></lines>
+	<lines name="all_ads" descr=""><![CDATA[Всего объявлений]]></lines>
+	<lines name="active_ads" descr=""><![CDATA[Из них активных]]></lines>	
+	<lines name="need_ads" descr=""><![CDATA[арендуют]]></lines>
+	<lines name="have_ads" descr=""><![CDATA[сдают в аренду]]></lines>
+	<lines name="sell_ads" descr=""><![CDATA[продают]]></lines>
+	<lines name="buy_ads" descr=""><![CDATA[покупают]]></lines>	
+	<lines name="mailbox_all" descr=""><![CDATA[Всего сообщений]]></lines>
+	<lines name="mailbox_from_user_cnt" descr=""><![CDATA[общающихся пользователей]]></lines>
+	<lines name="site_statistics" descr=""><![CDATA[Статистика сайта]]></lines>	
+</data>

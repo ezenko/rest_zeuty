@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="payment_between_user" descr=""><![CDATA[Zahlungen zwischen Mitgliedern]]></lines>
+	<lines name="payment_between_user_help" descr=""><![CDATA[Zahlungen zwischen Mitgliedern sind nötig, wenn nicht alle Seitenmitglieder die Möglichkeit haben, Geldmittel auf ihr Konto zu legen. In diesem Fall können andere Seitenmitglieder helfen. Zum Beispiel kann ein Freund Geldmittel aufs Konto seines Freundes legen, falls der Letzte in finanziellen Schwierigkeiten ist, oder seine Kreditkarte von zugänglichen Zahlungssystemen nicht akzeptiert wird. Ein Immobilienmakler kann noch dazu Geldmittel aufs Konto seiner Agenten legen. Sie als Administrator können auch davon profitieren, indem Sie Kommissionsrate bestimmen. Je höher die Kommissionen, desto weniger populär wird der Service sein.]]></lines>
+	<lines name="commission_percent" descr=""><![CDATA[Kommissionsrate]]></lines>
+	<lines name="top_search" descr=""><![CDATA[Anzeige in Suchergebnissen &quot;hochbringen&quot;]]></lines>
+	<lines name="slideshow" descr=""><![CDATA[Kennzeichnen Sie Ihre Anzeige in Suchergebnissen (Slideshow)]]></lines>
+	<lines name="featured_in_region" descr=""><![CDATA[Kennzeichnen Sie Ihre Anzeige in der Region]]></lines>
+	<lines name="sevice_cost" descr=""><![CDATA[Betrag]]></lines>
+	<lines name="featured_in_region_period" descr=""><![CDATA[Periode, während welcher der Service "Spitzenreiter in der Region" berechnet wird]]></lines>
+	<lines name="featured_in_region_cost" descr=""><![CDATA[Kosten]]></lines>
+	<lines name="featured_in_region_help" descr=""><![CDATA[Eine Anzeige wird zum "Spitzenreiter in der Region", wenn ihr Inhaber einen größeren Beitrag als der vorige Spitzenreiter eingereicht hat. Sie können die Geltungsperiode so bestimmen, dass Ihr Seitenmitglieder den aktuellen Spitzenreiter überbieten kann. Zum Beispiel kann ein Spitzenreiter jede Minute mit 1 berechnet werden]]></lines>
+	<lines name="top_search_help" descr=""><![CDATA[Suchergebnisse auf der Site sind bei Datum sortiert, deshalb  werden die letzten Anzeigen höher in Suchergebnissen angezeigt. Mitglieder der Site können Anzeigen in den Suchergebnissen mit diesem Service aufheben.]]></lines>
+	<lines name="slideshow_help" descr=""><![CDATA[Dieser Service erlaubt dem Mitglied, seine Anzeigen aufzuzeichnen; Fotos der Anzeige werden als anziehendes Slideshow gezeigt. Sie können die Slideshow-Dauer für jedes Seitenbenutzen bestimmen.]]></lines>
+	<lines name="lcbonus_help" descr=""><![CDATA[Sie können Ihren Seitenmitgliedern einen Bonus bereiten, dafür, dass sie zur ihrer Anzeige Details hinzugefügt haben. Bestimmen Sie die Anzahl der einzigartigen Mitgliederanzeigen, die Mitglieder ausfüllen sollen, um den Bonus zu bekommen. Fügen Sie die Übereinstimmungsdetails: &quot;Prozentsatz der gefüllten Felder - Bonusmenge&quot; in die Tabelle unten hinzu.]]></lines>
+	<lines name="service_period" descr=""><![CDATA[Dauer zeigen]]></lines>
+	<lines name="days" descr=""><![CDATA[Tag(e)]]></lines>
+	<lines name="minutes" descr=""><![CDATA[Minuten]]></lines>
+	<lines name="listing_completion_bonus" descr=""><![CDATA[Bonus fürs Ausfüllen der Anzeige]]></lines>
+	<lines name="listing_completion_bonus_activate" descr=""><![CDATA[Aktivieren Sie den Service und Informationen darüber auf der Seite]]></lines>
+	<lines name="percent" descr=""><![CDATA[%]]></lines>
+	<lines name="listing_completion_bonus_number" descr=""><![CDATA[Anzeigenanzahl, die ein Mitglied ausfüllen soll, um Bonus zu bekommen]]></lines>
+	<lines name="positive_int" descr=""><![CDATA[Feldwert soll eine positive ganze Zahl sein]]></lines>
+	<lines name="not_minus_int" descr=""><![CDATA[Feldwert soll keine negative Zahl sein]]></lines>
+	<lines name="positive_float" descr=""><![CDATA[Feldwert soll eine positive Zahl sein, und die ganze Zahl soll mit &quot;.&quot; von Bruchzahl getrennt werden.]]></lines>
+	<lines name="big_percent" descr=""><![CDATA[Feldwert soll zwischen 0 und 99 stehen]]></lines>
+	<lines name="invalid_lc_bonus_percent" descr=""><![CDATA[Feldwert “% von der Anzeigenvollständigkeit” soll eine positive Zahl zwischen 1 und 100 sein!]]></lines>
+	<lines name="invalid_lc_bonus_amount" descr=""><![CDATA[Feldwert “Bonusmenge” soll eine positive Zahl sein, und die ganze Zahl soll mit “.” von Bruchzahl getrennt werden]]></lines>
+	<lines name="lc_bonus_percent_dublicate" descr=""><![CDATA[Bonus für einen solchen Feldwert “% von der Anzeigenvollständigkeit” ist schon vorhanden!]]></lines>
+	<lines name="bonus_settings_list" descr=""><![CDATA[Liste der Boni fürs Anzeigenfüllen]]></lines>
+	<lines name="delete_last_bonus" descr=""><![CDATA[Sind Sie sicher, dass Sie den letzten erhältlichen Bonus löschen wollen? Wenn Sie diesen Bonus löschen, wird der Bonusservice ausgeschaltet!]]></lines>
+	<lines name="use_lc_bonus_no_bonus" descr=""><![CDATA[Um Boni fürs Anzeigenfüllen zu aktivieren, soll mindestens einmal “% der gefüllten Felder - Bonusmenge” in die Bonusliste hinzugefügt sein!]]></lines>
+	<lines name="sec_group_payment" descr=""><![CDATA[Gruppenmitgliedschaftskosten]]></lines>
+	<lines name="sec_pay_services" descr=""><![CDATA[Bezahlte Services]]></lines>
+	<lines name="membership_pay_services_help" descr=""><![CDATA[Hier verwalten Sie die Mitgliedschaftskosten in bezahlten Gruppen.]]></lines>
+	<lines name="sell_lease_payment" descr=""><![CDATA[Kosten für Veröffentlichung der Verkauf- und Vermietanzeigen]]></lines>
+	<lines name="sell_lease_payment_activate" descr=""><![CDATA[Aktivieren Sie die Zahlungsmöglichkeit und machen Sie sie auf der Seite zugänglich]]></lines>
+	<lines name="sell_lease_payment_help" descr=""><![CDATA[Hier bestimmen Sie Kosten für Veröffentlichung der Verkauf- und Vermietanzeigen auf Ihrer Seite. Fügen Sie die Übereinstimmungsdetails &quot;Anzeigenanzahl - Kosten&quot; in die Tabelle unten hinzu.]]></lines>
+	<lines name="invalid_sell_lease_ads_number" descr=""><![CDATA[Feldwert “Anzeigenanzahl” soll eine ganze Zahl sein und ab 1 anfangen!]]></lines>
+	<lines name="invalid_sell_lease_amount" descr=""><![CDATA[Feldwert “Kosten” soll eine positive Zahl sein und mit “.” von Bruchzahl getrennt werden!]]></lines>
+	<lines name="sell_lease_ads_number_dublicate" descr=""><![CDATA[Kosten für eine solche Anzeigenanzahl ist schon vorhanden!]]></lines>
+	<lines name="sell_lease_settings_list" descr=""><![CDATA[Liste der Zahlungsmöglichkeiten fürs Anzeigenveröffentlichen auf der Seite]]></lines>
+	<lines name="delete_last_sell_lease" descr=""><![CDATA[Sind Sie sicher, dass Sie den letzten Wert der Anzeigenveröffentlichungs-Kosten löschen wollen? Wenn Sie es tun, wird der bezahlte Service der Veröffentlichung von Verkauf- und Vermietanzeigen automatisch deaktiviert!]]></lines>
+	<lines name="use_sell_lease_no_sell_lease" descr=""><![CDATA[Um die Möglichkeit der bezahlten Veröffentlichung von Verkauf- und Vermietanzeigen zu aktivieren, fügen Sie mindestens einmal die Übereinstimmungsdetails “Anzeigenanzahl - Kosten” in die Liste hinzu!]]></lines>
+	<lines name="ads_number" descr=""><![CDATA[Anzeigen]]></lines>
+</data>

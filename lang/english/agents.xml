@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="empty_result" descr=""><![CDATA[You don‘t have any agents]]></lines>
+	<lines name="pages" descr=""><![CDATA[pages]]></lines>
+	<lines name="empty_list" descr=""><![CDATA[Empty list]]></lines>
+	<lines name="max_payment" descr=""><![CDATA[Max payment]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Available date]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Move date]]></lines>
+	<lines name="location" descr=""><![CDATA[Location]]></lines>
+	<lines name="login" descr=""><![CDATA[Login]]></lines>
+	<lines name="date_last_login" descr=""><![CDATA[Last login]]></lines>
+	<lines name="status" descr=""><![CDATA[Status]]></lines>
+	<lines name="online" descr=""><![CDATA[Online]]></lines>
+	<lines name="offline" descr=""><![CDATA[Offline]]></lines>
+	<lines name="no_photos" descr=""><![CDATA[No photos]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Move date from]]></lines>
+	<lines name="nickname" descr=""><![CDATA[name]]></lines>
+	<lines name="date_reg" descr=""><![CDATA[registration date]]></lines>
+	<lines name="date_last" descr=""><![CDATA[last connection date]]></lines>
+	<lines name="contact_user" descr=""><![CDATA[Contact member]]></lines>
+	<lines name="contact_admin" descr=""><![CDATA[Complain on the member]]></lines>
+	<lines name="empty" descr=""><![CDATA[Available]]></lines>
+	<lines name="rental_ad" descr=""><![CDATA[Last listing]]></lines>
+	<lines name="no_ads_from_user" descr=""><![CDATA[No listings]]></lines>
+	<lines name="approve" descr=""><![CDATA[Approve]]></lines>
+	<lines name="decline" descr=""><![CDATA[Decline]]></lines>
+	<lines name="del_from_agents_list" descr=""><![CDATA[Remove from the list of agents]]></lines>
+	<lines name="new_agent" descr=""><![CDATA[Wants to becomes your agent]]></lines>
+	<lines name="decline_confirm" descr=""><![CDATA[Are you sure you want to decline the request?]]></lines>
+	<lines name="del_confirm" descr=""><![CDATA[Are you sure you want to remove the member from the list of your agents?]]></lines>
+	<lines name="cannot_have" descr=""><![CDATA[You can‘t have your own agents. You should be registered as realtor for that.]]></lines>
+	<lines name="change_registration_data" descr=""><![CDATA[Change registration data]]></lines>
+	<lines name="choose_agent" descr=""><![CDATA[Agents choice]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Agents choice]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Search for a member]]></lines>
+	<lines name="search_help_company" descr=""><![CDATA[To search enter identifying member‘s data: name, surname, company name.]]></lines>
+	<lines name="search_help_agent" descr=""><![CDATA[To search enter identifying member‘s data: name, surname, Email.]]></lines>	
+	<lines name="number" descr=""><![CDATA[№]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Listings]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Funds addition]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[There are no results matching your criteria]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Missing]]></lines>
+	<lines name="not_approve_by_agent" descr=""><![CDATA[A message with the offer to become your company‘s agent was sent to a member.]]></lines>
+	<lines name="del_company_offer" descr=""><![CDATA[Cancel the offer]]></lines>
+	<lines name="confirm_del_company_offer" descr=""><![CDATA[Are you sure you want to cancel your offer to become your company‘s agent?]]></lines>
+	<lines name="new_offer_by_company" descr=""><![CDATA[Offers from company‘s to become their agent]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Site (url)]]></lines>
+	<lines name="new_company" descr=""><![CDATA[The company invites you to become their agent]]></lines>
+	<lines name="decline_offer" descr=""><![CDATA[Are you sure you want to decline the offer to become an agent?]]></lines>
+	<lines name="preferences_help" descr=""><![CDATA[Here all companies offers to become their agent are displayed. If you have chosen your realtor, his data will be listed. To change your registration data, follow the corresponding link. In case you accept one of companys‘ offers, the resting offers will be automatically cancelled]]></lines>
+	<lines name="no_offer" descr=""><![CDATA[There are no offers]]></lines>
+	<lines name="your_realtor" descr=""><![CDATA[is your realtor]]></lines>
+	<lines name="offer_by_agent" descr=""><![CDATA[Your request to become an agent was sent to a company]]></lines>
+	<lines name="already_choose" descr=""><![CDATA[Are you already in contact with this company, details can be found on My Realtor page. Continue anyway?]]></lines>
+	<lines name="delete_realtor" descr=""><![CDATA[Leave the company]]></lines>
+	<lines name="conf_delete_realtor" descr=""><![CDATA[Are you sure you want to leave the company and become independant agent?]]></lines>
+	<lines name="need_search_criteria" descr=""><![CDATA[Indicate search criteria]]></lines>
+	<lines name="add_agents" descr=""><![CDATA[Add agents]]></lines>
+</data>

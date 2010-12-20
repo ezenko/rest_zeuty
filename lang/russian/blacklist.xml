@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="empty_result" descr=""><![CDATA[Ваш список пуст]]></lines>
+<lines name="login" descr=""><![CDATA[Имя пользователя]]></lines>
+<lines name="age" descr=""><![CDATA[Возраст]]></lines>
+<lines name="date_last_login" descr=""><![CDATA[Был на сайте]]></lines>
+<lines name="status" descr=""><![CDATA[Статус]]></lines>
+<lines name="online" descr=""><![CDATA[Онлайн]]></lines>
+<lines name="offline" descr=""><![CDATA[Оффлайн]]></lines>
+<lines name="del_from_list" descr=""><![CDATA[Удалить из черного списка]]></lines>
+<lines name="contact_user" descr=""><![CDATA[Связаться с ним]]></lines>
+<lines name="contact_admin" descr=""><![CDATA[Пожаловаться на пользователя]]></lines>
+<lines name="date_added" descr=""><![CDATA[Дата добавления]]></lines>
+<lines name="nickname" descr=""><![CDATA[имени пользователя]]></lines>
+<lines name="date_reg" descr=""><![CDATA[дате регистрации]]></lines>
+<lines name="date_last" descr=""><![CDATA[последнему посещению]]></lines>
+<lines name="rental_ad" descr=""><![CDATA[Объявление]]></lines>
+</data>

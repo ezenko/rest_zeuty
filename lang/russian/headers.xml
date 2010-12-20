@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="account" descr=""><![CDATA[МОЙ ПРОФАЙЛ]]></lines>
+	<lines name="account_menu" descr=""><![CDATA[МЕНЮ]]></lines>
+	<lines name="account_deactivate" descr=""><![CDATA[ДЕАКТИВАЦИЯ ПРОФАЙЛА]]></lines>
+	<lines name="account_profile" descr=""><![CDATA[ДЕТАЛИ ПРОФАЙЛА]]></lines>
+	<lines name="account_password" descr=""><![CDATA[ИЗМЕНЕНИЕ ПАРОЛЯ]]></lines>
+	<lines name="account_subscribtion" descr=""><![CDATA[Я ХОЧУ ПОЛУЧАТЬ УВЕДОМЛЕНИЯ]]></lines>
+	<lines name="alert" descr=""><![CDATA[У ВАС НЕТ ПРАВ ДЛЯ ПРОСМОТРА ДАННОЙ СТРАНИЦЫ]]></lines>
+	<lines name="alert2" descr=""><![CDATA[Спасибо за регистрацию. На указанный вами e-mail выслано письмо с инструкцией по подтверждению регистрации]]></lines>
+	<lines name="blacklist" descr=""><![CDATA[ЧЕРНЫЙ СПИСОК]]></lines>
+	<lines name="confirm" descr=""><![CDATA[ПОДТВЕРЖДЕНИЕ РЕГИСТРАЦИИ]]></lines>
+	<lines name="contact" descr=""><![CDATA[КОНТАКТЫ]]></lines>
+	<lines name="contact_us" descr=""><![CDATA[КОНТАКТЫ]]></lines>
+	<lines name="homepage" descr=""><![CDATA[МОЙ RealEstate]]></lines>
+	<lines name="help" descr=""><![CDATA[ПОМОЩЬ]]></lines>
+	<lines name="hotlist" descr=""><![CDATA[ИЗБРАННОЕ]]></lines>
+	<lines name="index_quick_search" descr=""><![CDATA[БЫСТРЫЙ ПОИСК]]></lines>
+	<lines name="member_login" descr=""><![CDATA[ВХОД]]></lines>
+	<lines name="lost_pass" descr=""><![CDATA[ЗАБЫЛИ ПАРОЛЬ]]></lines>
+	<lines name="mailbox" descr=""><![CDATA[МОИ КОНТАКТЫ]]></lines>
+	<lines name="match" descr=""><![CDATA[ПОДХОДЯЩИЕ ВАМ ВАРИАНТЫ]]></lines>
+	<lines name="search_database" descr=""><![CDATA[ПОИСК]]></lines>
+	<lines name="search_criteria" descr=""><![CDATA[КРИТЕРИИ ПОИСКА]]></lines>
+	<lines name="search_add_preferences" descr=""><![CDATA[ДОПОЛНИТЕЛЬНО]]></lines>
+	<lines name="search_save" descr=""><![CDATA[СОХРАНИТЬ КРИТЕРИИ ПОИСКА]]></lines>
+	<lines name="search_load" descr=""><![CDATA[ЗАГРУЗИТЬ КРИТЕРИИ ПОИСКА]]></lines>
+	<lines name="search_direct" descr=""><![CDATA[ПРЯМОЙ ПОИСК]]></lines>
+	<lines name="services" descr=""><![CDATA[ПЛАТНЫЕ УСЛУГИ]]></lines>
+	<lines name="services_history" descr=""><![CDATA[ИСТОРИЯ ПЛАТЕЖЕЙ]]></lines>
+	<lines name="services_list" descr=""><![CDATA[СПИСОК УСЛУГ]]></lines>
+	<lines name="services_payment_form" descr=""><![CDATA[ПОПОЛНИТЬ СЧЕТ]]></lines>
+	<lines name="services_user_rent_ads" descr=""><![CDATA[ВАШИ ОБЪЯВЛЕНИЯ]]></lines>
+	<lines name="services_paysys" descr=""><![CDATA[ВАША ИНФОРМАЦИЯ ДЛЯ ПРОПЛАТЫ]]></lines>
+	<lines name="slideshow" descr=""><![CDATA[ВЫДЕЛИТЬ ОБЪЯВЛЕНИЕ В ПОИСКЕ]]></lines>
+	<lines name="slideshow_create" descr=""><![CDATA[ВАШЕ СЛАЙДШОУ]]></lines>
+	<lines name="quick_search" descr=""><![CDATA[БЫСТРЫЙ ПОИСК]]></lines>
+	<lines name="registration" descr=""><![CDATA[БЕСПЛАТНАЯ РЕГИСТРАЦИЯ]]></lines>
+	<lines name="rentals" descr=""><![CDATA[МОИ ОБЪЯВЛЕНИЯ]]></lines>
+	<lines name="rental_ad_edit" descr=""><![CDATA[РЕДАКТИРОВАНИЕ ОБЪЯВЛЕНИЯ]]></lines>
+	<lines name="rental_menu" descr=""><![CDATA[МЕНЮ]]></lines>
+	<lines name="viewprofile" descr=""><![CDATA[ПРОСМОТР ПРОФАЙЛА]]></lines>
+	<lines name="user_account" descr=""><![CDATA[На счету]]></lines>
+	<lines name="period_rest" descr=""><![CDATA[У вас осталось]]></lines>
+	<lines name="top_search" descr=""><![CDATA[ПОДНИМИТЕ &quot;НАВЕРХ&quot; ОБЪЯВЛЕНИЕ В ПОИСКЕ]]></lines>
+	<lines name="featured" descr=""><![CDATA[ВЫДЕЛИТЕ ОБЪЯВЛЕНИЕ В РЕГИОНЕ]]></lines>
+	<lines name="featured_ad" descr=""><![CDATA[СДЕЛАЙТЕ ВАШУ СТАВКУ]]></lines>
+	<lines name="region_leader" descr=""><![CDATA[Лидер региона]]></lines>
+	<lines name="viewedmy" descr=""><![CDATA[ПРОСМОТРЕЛИ МОЙ ПРОФАЙЛ]]></lines>
+	<lines name="viewedtheir" descr=""><![CDATA[ПРОСМОТРЕЛ ПРОФАЙЛЫ]]></lines>
+	<lines name="hotlistedme" descr=""><![CDATA[ДОБАВИЛИ МЕНЯ В ИЗБРАННОЕ]]></lines>
+	<lines name="hotlistedthem" descr=""><![CDATA[ДОБАВИЛ В ИЗБРАННОЕ]]></lines>
+	<lines name="interme" descr=""><![CDATA[ЗАИНТЕРЕСОВАЛИСЬ МНОЙ]]></lines>
+	<lines name="interthem" descr=""><![CDATA[ЗАИНТЕРЕСОВАЛСЯ ИМИ]]></lines>
+	<lines name="power_search" descr=""><![CDATA[ПОИСК ПО ВСЕМ ПАРАМЕТРАМ]]></lines>
+	<lines name="news" descr=""><![CDATA[НОВОСТИ]]></lines>
+	<lines name="my_search_preferences" descr=""><![CDATA[МОИ НАСТРОЙКИ ПОИСКА]]></lines> 
+	<lines name="my_preferences" descr=""><![CDATA[Настройки поиска]]></lines> 
+	<lines name="my_search_location" descr=""><![CDATA[Места поиска]]></lines> 		
+	<lines name="sell_lease_payment" descr=""><![CDATA[Плата за размещение объявлений о продаже и сдаче в аренду]]></lines> 	
+	<lines name="rental_ad_new" descr=""><![CDATA[ДОБАВЛЕНИЕ ОБЪЯВЛЕНИЯ]]></lines>
+	<lines name="blacklistedme" descr=""><![CDATA[Занесли меня в черный список]]></lines>
+	<lines name="error" descr=""><![CDATA[Ошибка сервера]]></lines>
+	<lines name="sitemap" descr=""><![CDATA[Карта сайта]]></lines>
+	<lines name="payment_between_user" descr=""><![CDATA[Пополнить счет другому пользователю]]></lines>	
+	<lines name="my_agents" descr=""><![CDATA[Мои агенты]]></lines>	
+	<lines name="agents_list" descr=""><![CDATA[Список агентов]]></lines>	
+	<lines name="my_realtor" descr=""><![CDATA[Мой риэлтор]]></lines>	
+	<lines name="company_list" descr=""><![CDATA[Ваш риэлтор и предложения от компаний]]></lines>	
+	<lines name="slide_show" descr=""><![CDATA[Настройки слайд-шоу]]></lines>	
+</data>

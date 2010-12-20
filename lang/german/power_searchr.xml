@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="i_search" descr=""><![CDATA[Ich suche nach]]></lines>
+<lines name="who" descr=""><![CDATA[Jene, die]]></lines>
+<lines name="age" descr=""><![CDATA[Alter]]></lines>
+<lines name="to" descr=""><![CDATA[to]]></lines>
+<lines name="need_room" descr=""><![CDATA[mieten]]></lines>
+<lines name="have_room" descr=""><![CDATA[vermieten]]></lines>
+<lines name="buy_realty" descr=""><![CDATA[kaufen]]></lines>
+<lines name="sell_realty" descr=""><![CDATA[verkaufenl]]></lines>
+<lines name="select_country" descr=""><![CDATA[Im Land]]></lines>
+<lines name="select_region" descr=""><![CDATA[Im Region]]></lines>
+<lines name="select_city" descr=""><![CDATA[in der Stadt]]></lines>
+<lines name="payment" descr=""><![CDATA[Maximale Zahlung]]></lines>
+<lines name="with_photo" descr=""><![CDATA[mit dem Foto]]></lines>
+<lines name="with_video" descr=""><![CDATA[mit dem Video]]></lines>
+<lines name="save_power_search" descr=""><![CDATA[Kriterien der Erweiterten Suche speichern]]></lines>
+<lines name="default_search_name" descr=""><![CDATA[Suche 1]]></lines>
+<lines name="load_power_search" descr=""><![CDATA[Meine Suchekriterien einladen]]></lines>
+<lines name="results" descr=""><![CDATA[Suchergebnisse]]></lines>
+<lines name="i_need" descr=""><![CDATA[Mieten]]></lines>
+<lines name="i_have" descr=""><![CDATA[Vermieten]]></lines>
+<lines name="i_buy" descr=""><![CDATA[Kaufen]]></lines>
+<lines name="i_sell" descr=""><![CDATA[Verkaufen]]></lines>
+<lines name="about_me" descr=""><![CDATA[Über mich selbst]]></lines>
+<lines name="about_us" descr=""><![CDATA[Über uns]]></lines>
+<lines name="look_for" descr=""><![CDATA[Sucht nach]]></lines>
+<lines name="max_payment" descr=""><![CDATA[Maximale Zahlung]]></lines>
+<lines name="available_date" descr=""><![CDATA[Erreichbar von]]></lines>
+<lines name="move_in_date" descr=""><![CDATA[Umziehungsdatum]]></lines>
+<lines name="location" descr=""><![CDATA[Befindet ich]]></lines>
+<lines name="search_new_members" descr=""><![CDATA[Neue Benutzer suchen]]></lines>
+<lines name="search_by_nick" descr=""><![CDATA[Nach dem Benuzernamen suchen]]></lines>
+<lines name="nickname" descr=""><![CDATA[Benuzername]]></lines>
+<lines name="date_reg" descr=""><![CDATA[Anmeldungsdatum]]></lines>
+<lines name="date_last" descr=""><![CDATA[Datum der letzten Anmeldung]]></lines>
+<lines name="add_to_hotlist" descr=""><![CDATA[Zu der Hot Liste hinzufügen]]></lines>
+<lines name="add_to_blacklist" descr=""><![CDATA[Zu der Schwarzen Liste hinzufügen]]></lines>
+<lines name="contact_user" descr=""><![CDATA[Kontakt]]></lines>
+<lines name="contact_admin" descr=""><![CDATA[Klage]]></lines>
+<lines name="interest" descr=""><![CDATA[Interesse zeigen]]></lines>
+<lines name="add" descr=""><![CDATA[Anzeige hinzugügen]]></lines>
+<lines name="sel_all_text" descr=""><![CDATA[Alle Einstellungen notieren]]></lines>
+<lines name="unsel_all_text" descr=""><![CDATA[Alle Einstellungen löschen]]></lines>
+<lines name="menu_text_1" descr=""><![CDATA[Erweiterte Suche]]></lines>
+<lines name="menu_text_2" descr=""><![CDATA[Schnelle Suche]]></lines>
+<lines name="link_text_1" descr=""><![CDATA[Zur Schnellen Suhche umzuschalten]]></lines>
+<lines name="month_payment" descr=""><![CDATA[Mietepreis <br> für 1 Monat]]></lines>
+<lines name="price" descr=""><![CDATA[Preis]]></lines>
+<lines name="from" descr=""><![CDATA[von]]></lines>
+<lines name="upto" descr=""><![CDATA[bis]]></lines>
+<lines name="auction_possible" descr=""><![CDATA[Auktion ist möglich]]></lines>
+<lines name="auction_inpossible" descr=""><![CDATA[Auktion ist unmöglich]]></lines>
+<lines name="deposit" descr=""><![CDATA[Vorauszahlung]]></lines>
+<lines name="year_build" descr=""><![CDATA[Baujahr]]></lines>
+<lines name="from_1" descr=""><![CDATA[von]]></lines>
+<lines name="upto_1" descr=""><![CDATA[bis]]></lines>
+<lines name="live_square" descr=""><![CDATA[Wohnraum]]></lines>
+<lines name="total_square" descr=""><![CDATA[Gesamtfläche]]></lines>
+<lines name="land_square" descr=""><![CDATA[Erdfläche]]></lines>
+<lines name="floor" descr=""><![CDATA[Stock]]></lines>
+<lines name="search_floor_variants" descr=""><![CDATA[Nur Varianten suchen]]></lines>
+<lines name="floor_num_max_limitation" descr=""><![CDATA[Zahl der Stöcke im Haus muss nicht größer sein als]]></lines>
+<lines name="of_floors" descr=""><![CDATA[Stöcke]]></lines>
+<lines name="subway_min" descr=""><![CDATA[Maximale Distanz bis zur U-Bahn]]></lines>
+<lines name="minutes" descr=""><![CDATA[Minuten]]></lines>
+<lines name="not_earlier" descr=""><![CDATA[nicht früher]]></lines> 
+<lines name="price_min_more_max" descr=""><![CDATA[Minimale Zahlung kann nicht mehr als maximale seinl]]></lines>
+<lines name="deposit_min_more_max" descr=""><![CDATA[Minimale Vorauszahlung kann nicht mehr als maximale sein]]></lines>
+<lines name="live_square_min_more_max" descr=""><![CDATA[Minimaler Wohnraum kann nicht mehr als maximaler sein]]></lines>
+<lines name="total_square_min_more_max" descr=""><![CDATA[Minimale Gesamtfläche kann nicht maximal sein]]></lines>
+<lines name="land_square_min_more_max" descr=""><![CDATA[Minimale Erdfläche kann nicht mehr als maximale sein]]></lines>
+<lines name="year_build_min_more_max" descr=""><![CDATA[Minimales Baujahr kann nicht mehr als maximales sein]]></lines>
+<lines name="floor_min_more_max" descr=""><![CDATA[Minimaler Stock kann nicht mehr als maximaler sein]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Mieterechnung für 1 Monat]]></lines>
+<lines name="back_to_search" descr=""><![CDATA[&#171; Zurück zu der SUcheform]]></lines>
+<lines name="powersearch_by_saved_search" descr=""><![CDATA[Nach den erweiterten Kriterien Suchen]]></lines>	
+<lines name="powersearch_by_user_name" descr=""><![CDATA[Nach dem Benutzernamen suchen]]></lines>
+<lines name="find_num" descr=""><![CDATA[Es gibt keine Ergebnisse, die Ihren Kriterien passen]]></lines>
+<lines name="time_begin" descr=""><![CDATA[von]]></lines>
+<lines name="time_end" descr=""><![CDATA[bis]]></lines>
+<lines name="empty" descr=""><![CDATA[Erreichbar]]></lines>
+<lines name="with_photo_first" descr=""><![CDATA[Anzeigen mit Foto erst zeigen]]></lines>
+<lines name="empty_result" descr=""><![CDATA[Leider sind die Suchresultate leer. Versuchen Sie Suchkriterien]]></lines>
+<lines name="search_criteria" descr=""><![CDATA[zu verändern]]></lines>
+</data>

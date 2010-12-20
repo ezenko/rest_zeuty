@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[You received an agent request]]></lines>
+<lines name="site_name" descr=""><![CDATA[PG RealEstate]]></lines>
+<lines name="hey" descr=""><![CDATA[Hello,]]></lines>
+<lines name="text_1" descr=""><![CDATA[wants to become your company's agent]]></lines>
+<lines name="approve_link" descr=""><![CDATA[Follow this link to approve/decline the request]]></lines>
+</data>

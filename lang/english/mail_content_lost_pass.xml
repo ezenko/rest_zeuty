@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Your new password on [site_name]]]></lines>
+<lines name="text_1" descr=""><![CDATA[Your registration data on [site_name] were changed.]]></lines>
+<lines name="login" descr=""><![CDATA[Login]]></lines>
+<lines name="password" descr=""><![CDATA[Password]]></lines>
+</data>

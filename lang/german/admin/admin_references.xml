@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_header" descr=""><![CDATA[Inhaltsverwaltung]]></lines>
+	<lines name="page_edit_subheader" descr=""><![CDATA[Referenzen bearbeiten]]></lines>
+	<lines name="page_editopt_subheader" descr=""><![CDATA[Referenzenwerte bearbeiten]]></lines>
+	<lines name="pages" descr=""><![CDATA[Seiten]]></lines>
+	<lines name="number" descr=""><![CDATA[Nr]]></lines>
+	<lines name="reference" descr=""><![CDATA[Referenz]]></lines>
+	<lines name="references" descr=""><![CDATA[Referenzen]]></lines>
+	<lines name="subreference" descr=""><![CDATA[Referenz]]></lines>
+	<lines name="empty" descr=""><![CDATA[Leeres Ergebnis]]></lines>
+	<lines name="name" descr=""><![CDATA[Name]]></lines>
+	<lines name="sorter" descr=""><![CDATA[Reihenfolge]]></lines>
+	<lines name="confirm" descr=""><![CDATA[Diese Referenz entfernen?]]></lines>
+	<lines name="option" descr=""><![CDATA[Möglichkeit]]></lines>
+	<lines name="add_option" descr=""><![CDATA[Neue Möglichkeit]]></lines>
+	<lines name="delete" descr=""><![CDATA[Löschen]]></lines>
+	<lines name="type" descr=""><![CDATA[Typ]]></lines>
+	<lines name="one_variant" descr=""><![CDATA[Eine Variante]]></lines>
+	<lines name="multi" descr=""><![CDATA[Multiwahl]]></lines>
+	<lines name="des_type" descr=""><![CDATA[Designtyp]]></lines>
+	<lines name="checkbox" descr=""><![CDATA[Kontrollkästchen]]></lines>
+	<lines name="select" descr=""><![CDATA[wählen]]></lines>
+	<lines name="about_me" descr=""><![CDATA[über mich/meine Immobilien]]></lines>
+	<lines name="about_search_item" descr=""><![CDATA[über mein Wunschobjekt]]></lines>
+	<lines name="list_help" descr=""><![CDATA[Referenzen sind Liste der Eigenschaften zum Immobilien-Beschreiben. Je nach dem Referenzenziel werden sie auf den Seiten in Suchformen, Profilformen und Anzeigenzusandsformen verwendet.]]></lines>
+	<lines name="not_editable_help" descr=""><![CDATA[<b>Dieser Referenztyp darf nicht bearbeitet werden.</b> Sie können seinen Namen und die Liste der Möglichkeiten. Es ist allerdings nicht möglich, neue Referenzen hinzuzufügen oder andere Referenzeneinstellungen bearbeiten, außer Referenzen, die in Suchformen, Profilformen und Anzeigenzusandsformen auf der Seite verwendet werden.]]></lines>
+	<lines name="edit_subref_help" descr=""><![CDATA[Hier stellen Sie Parameter fürs Referenzenanzeigen in den Seitenformen ein.<br>Im Feld <b>Typ</b> bestimmen Sie die Anzahl der möglichen Antworten (markierte Möglichkeiten) für die Referenzen in auszufüllenden Formen. <br><b>Design</b> bestimmt, wie die Antworten auf der Seite angezeigt werden: <ul style="margin-top:0px; margin-bottom:0px;"><li>Aktivieren Sie<span style="text-decoration:underline">wählen</span>, und die Antwortvarianten werden in dem abfallenden Menü angezeigt, zum Beispiel
+<table cellpadding="0" cellspacing="0"><tr><td><select name="sel_1"><option value="1">Antwort 1</option><option value="2" selected="selected">Antwort 2</option><option value="3">Antwort 3</option></select></td><td style="padding-left: 10px;">(wenn der Feldwert eine Variante ist)</td></tr></table> oder
+<table cellpadding="0" cellspacing="0"><tr><td><select multiple="multiple" name="sel_2"><option value="1" selected="selected">Antwort 1</option><option value="2" selected="selected">Antwort 2</option><option value="3">Antwort 3</option></select></td><td style="padding-left: 10px;">(wenn der Feldwert Multiwahl ist)</td></tr></table></li><li>Wenn <span style="text-decoration:underline">Kontrollkästchen</span> aktiviert wird, werden alle Antwortvarianten in der Form nacheinander angezeigt, und das Mitglied bekommt die Möglichkeit, notwendige Antwortvarianten zu markieren, zum Beispiel
+<table cellpadding="0" cellspacing="0"><tr><td><input type=radio class=radio name=ex2 value=1/></td><td>Antwort 1</td><td><input type=radio class=radio name=ex2 value=2 checked/></td><td>Antwort 2</td><td><input type=radio class=radio name=ex2 value=3/></td><td>Antwort 3</td><td style="padding-left: 10px;">(wenn der Feldwert eine Variante ist)</td></tr></table> oder
+<table cellpadding="0" cellspacing="0"><tr><td><input type=checkbox class=checkbox name=ex1 value=1 checked/></td><td>Antwort 1</td><td><input type=checkbox class=checkbox name=ex1 value=2 checked/></td><td>Antwort 2</td><td><input type=checkbox class=checkbox name=ex1 value=3/></td><td>Antwort 3</td><td style="padding-left: 10px;">(wenn der Feldwert Multiwahl ist)</td></tr></table></li></ul><b>Reihenfolge</b> ist die Reihenfolge, in welcher Referenzen angezeigt werden (in den Suchformed, Profilformen und Anzeigenzusandsformen).]]></lines>
+	<lines name="my_preferences_help" descr=""><![CDATA[Bitte bemerken Sie: wenn ein Benutzer den Bereich "Meine Präferenzen" ausfüllt, bekommt die Referenz folgende Einstellungen: Typ=Multiwahl, Design=Kontrollkästchen, ungeachtet der für die Referenz eingestellten Parameter. Es passiert immer, weil Benutzerreferenzen nur mehrere Antwortvarianten beinhalten dürfen.]]></lines>
+	<lines name="edit_subrefopt_help" descr=""><![CDATA[Hier bearbeiten Sie die Liste der Referenzenwerte (Antwortvariante).]]></lines>
+	<lines name="spr_type" descr=""><![CDATA[Immobilientyp]]></lines>
+	<lines name="spr_apartment" descr=""><![CDATA[Über Immobilien]]></lines>
+	<lines name="spr_description" descr=""><![CDATA[Zahlenwert]]></lines>
+	<lines name="spr_period" descr=""><![CDATA[Mietperiode]]></lines>
+	<lines name="spr_deactivate" descr=""><![CDATA[Grund der Deaktivierung]]></lines>
+	<lines name="spr_gender" descr=""><![CDATA[Geschlecht]]></lines>
+	<lines name="spr_people" descr=""><![CDATA[Über die Person]]></lines>
+	<lines name="spr_language" descr=""><![CDATA[Sprachen]]></lines>
+</data>

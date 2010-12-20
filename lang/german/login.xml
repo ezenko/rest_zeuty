@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="nickname" descr=""><![CDATA[Email]]></lines>
+	<lines name="password" descr=""><![CDATA[Passwort]]></lines>
+	<lines name="button_submit" descr=""><![CDATA[Abschicken]]></lines>
+	<lines name="remember_me" descr=""><![CDATA[Mich erinnern]]></lines>
+	<lines name="lost_password" descr=""><![CDATA[Passwort vergessen?]]></lines>
+	<lines name="login_for_edit" descr=""><![CDATA[Bitte melden Sie sich an, um Ihr Alarmbereitschaftsabonnement bearbeiten zu können]]></lines>
+	<lines name="reg_text" descr=""><![CDATA[Sind Sie neu auf der Seite? Die Anmeldung ist kurz<br>und wird ein Paar Minute nehmen.<br>Stellen Sie Ihre Immobilien Ihrer Zielgruppe vor.<br>]]></lines>
+	<lines name="reg_link_text" descr=""><![CDATA[Anmelden]]></lines>
+</data>

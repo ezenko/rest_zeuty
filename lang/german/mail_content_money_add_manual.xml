@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Ihr Kontoguthaben auf [site_name]]]></lines>
+<lines name="account_add" descr=""><![CDATA[Ihre manuelle Zahlung wurde verlaufen. Die von Ihnen bezahlte Services sind jetzt aktiv. Ihr Kontoguthaben wurde erhöht auf]]></lines>
+<lines name="account_total" descr=""><![CDATA[Jetzt ist Ihr Kontoguthaben ]]></lines>
+</data>

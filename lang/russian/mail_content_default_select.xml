@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="site_name" descr="Значение переменной [site_name], которая используется во всех языковых файлах писем"><![CDATA[PG RealEstate]]></lines>
+	<lines name="hey" descr=""><![CDATA[Здравствуйте,]]></lines>
+	<lines name="subject_separator" descr="Разделитель между темой письма и текстом"><![CDATA[----------------------------------------------]]></lines>
+	<lines name="signature_intro" descr=""><![CDATA[Круглосуточно Ваш]]></lines>
+	<lines name="unsubscribe" descr=""><![CDATA[Если Вы не хотите получать такие сообщения, измените свои настройки на]]></lines>
+	<lines name="link_to_developer" descr=""><![CDATA[]]></lines>
+</data>

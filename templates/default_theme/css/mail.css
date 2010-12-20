@@ -1,0 +1,50 @@
+.bg_header_add {
+	background-color: #838D76;
+}
+.bg_header {
+	background-color: #D12626;
+}
+.bg_content {
+	background-color: #EDEDE6;
+}
+.htext {
+	font-family: Verdana;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ftext {
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.flink {
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: normal;
+	color: #FFFFFF;
+	text-decoration:none
+}
+.mtext {
+	font-family: Verdana;
+	font-size: 12px;
+	font-style: normal;
+	color: #000000;
+	text-decoration:none
+}
+.mtext_2 {
+	font-family: Verdana;
+	font-size: 12px;
+	font-style: normal;
+	color: #D12626;
+	font-weight: bold;
+}
+.mlink{
+	font-family: Verdana;
+	font-size: 12px;
+	font-style: normal;
+	color: #D12626;
+}

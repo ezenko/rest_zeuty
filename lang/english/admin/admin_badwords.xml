@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="edit_file" descr=""><![CDATA[Edit]]></lines>
+<lines name="badwords_help" descr=""><![CDATA[Here you can indicate the words that you don't want to appear on the website.<br>Members using these words in the messages will not be able to send them. Words and phrases should be separated by a comma.]]></lines>	
+</data>

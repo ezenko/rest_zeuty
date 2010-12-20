@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<item name="edit_profile" href="/account.php"><![CDATA[Profil-Editor]]></item>
+	<item name="edit_password" href="/account.php?sel=edit_password"><![CDATA[Passwor ändern]]></item>
+	<item name="edit_rentals" href="/rentals.php?sel=list_ads"><![CDATA[Meine Anzeigen]]></item>
+	<item name="services" href="/services.php" id="mhi_services"><![CDATA[Bezahlte Services]]></item>
+	<item name="agents" href="/agents.php"><![CDATA[Meine Agenten]]></item>
+	<item name="realtor" href="/agents.php"><![CDATA[Mein Immobilienmakler]]></item>
+</menu>

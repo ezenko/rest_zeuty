@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="paperclip_text" descr=""><![CDATA[We'll be glad to get your opinion to serve you better]]></lines>
+	<lines name="contact_link" descr=""><![CDATA[Leave your review here.]]></lines>
+	<lines name="featured_rent_head" descr=""><![CDATA[Leader]]></lines>
+	<lines name="stavka" descr=""><![CDATA[Bid]]></lines>
+	<lines name="featured_period" descr=""><![CDATA[is leading]]></lines>
+	<lines name="hours" descr=""><![CDATA[h.]]></lines>
+	<lines name="minutes" descr=""><![CDATA[min.]]></lines>
+	<lines name="seconds" descr=""><![CDATA[s.]]></lines>
+	<lines name="days" descr=""><![CDATA[days.]]></lines>
+	<lines name="in_region" descr=""><![CDATA[in the region]]></lines>
+</data>

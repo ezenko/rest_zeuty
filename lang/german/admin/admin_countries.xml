@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="razdel_name" descr=""><![CDATA[Referenzlisten]]></lines>
+<lines name="editform_city" descr=""><![CDATA[Stadt bearbeiten]]></lines>
+<lines name="list" descr=""><![CDATA[Länderliste:]]></lines>
+<lines name="list_region" descr=""><![CDATA[Regionenliste:]]></lines>
+<lines name="list_city" descr=""><![CDATA[Städteliste in der Region / in dem Land:]]></lines>
+<lines name="edit_city" descr=""><![CDATA[Land/Region/Stadt bearbeiten:]]></lines>
+<lines name="edit_region" descr=""><![CDATA[Land, Region bearbeiten:]]></lines>
+<lines name="edit_country" descr=""><![CDATA[Land bearbeiten:]]></lines>
+<lines name="empty" descr=""><![CDATA[Länderliste ist leer]]></lines>
+<lines name="empty_city" descr=""><![CDATA[Städteliste ist leer]]></lines>
+<lines name="empty_region" descr=""><![CDATA[Regionenliste ist leer]]></lines>
+<lines name="number" descr=""><![CDATA[Nr]]></lines>
+<lines name="name" descr=""><![CDATA[Land]]></lines>
+<lines name="country" descr=""><![CDATA[Land]]></lines>
+<lines name="add" descr=""><![CDATA[Hinzufügen]]></lines>
+<lines name="add_city" descr=""><![CDATA[Hinzufügen]]></lines>
+<lines name="add_region" descr=""><![CDATA[Hinzufügen]]></lines>
+<lines name="city" descr=""><![CDATA[Stadt]]></lines>
+<lines name="new_city" descr=""><![CDATA[Neue Stadt]]></lines>
+<lines name="region" descr=""><![CDATA[Region]]></lines>
+<lines name="new_region" descr=""><![CDATA[Neue Region]]></lines>
+<lines name="back_to_countries" descr=""><![CDATA[Zurück zur Länderliste]]></lines>
+<lines name="back_to_regions" descr=""><![CDATA[Zurück zur Regionenliste]]></lines>
+<lines name="country_select" descr=""><![CDATA[Land wählen]]></lines>
+<lines name="confirm_delete" descr=""><![CDATA[Sind Sie sicher, dass Sie diese Eingabe löschen wollen?]]></lines>
+<lines name="help_countries_intro" descr=""><![CDATA[Hier finden Sie die Liste aller Länder, die auf Ihrer Seite installiert wurden. Sie können]]></lines>
+<lines name="help_countries_install" descr=""><![CDATA[neue Länder installieren]]></lines>
+<lines name="help_countries" descr=""><![CDATA[, bitte benutzen Sie den Link. Wenn der Link unzugänglich ist, sollen Sie das Verzeichnis 'www.yourdomain.com/install/' (wo www.yourdomain.com Ihre Seitenadresse ist) nach der Seiteninstallation umbenannt haben. Um weitere Länder installieren zu können, benennen Sie dieses Verzeichnis zurück zu 'www.yourdomain.com/install/' um.<ol><li>Sie können Länder auch mit der Hand hinzufügen, indem Sie den Landnamen ins “Land: ” Feld eintippen und auf “Hinzufügen” klicken.</li><li>Um Regionen und Städte des Landes anzusehen, hinzuzufügen oder zu löschen, klicken Sie den Namen des Landes in der Liste.</li></ol>]]></lines>
+<lines name="help_regions" descr=""><![CDATA[Hier können Sie Regionen hinzufügen, bearbeiten oder löschen. Um zur Liste der Städte dieser Region zu gehen, klicken Sie auf den Link der Region in der Regionenliste.]]></lines>
+<lines name="help_cities" descr=""><![CDATA[Hier können Sie Städte hinzufügen, bearbeiten oder löschen.]]></lines>
+<lines name="help_edit" descr=""><![CDATA[Ändern Sie den Namen und klicken auf “Speichern”, um Änderungen zu speichern.]]></lines>
+</data>

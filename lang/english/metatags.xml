@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<page name="account">
+		<title><![CDATA[PG Real Estate Solution | My profile]]></title>
+		<description><![CDATA[View profile. Edit profile, edit your password, deactivate/activate profile. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="alert">
+		<title><![CDATA[PG Real Estate Solution | Access Denied]]></title>
+		<description><![CDATA[Error page.Access Denied. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="blacklist">
+		<title><![CDATA[PG Real Estate Solution | Black List]]></title>
+		<description><![CDATA[Black List of users whose messages to you will be blocked. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="compare">
+		<title><![CDATA[PG Real Estate Solution | Listings Comparison]]></title>
+		<description><![CDATA[Compare Listings. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="confirm">
+		<title><![CDATA[PG Real Estate Solution | Confirm registration]]></title>
+		<description><![CDATA[Confirm registration. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="contact">
+		<title><![CDATA[PG Real Estate Solution | Contact Online Form ]]></title>
+		<description><![CDATA[Contact Online Form. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="error">
+		<title><![CDATA[PG Real Estate Solution | Error]]></title>
+		<description><![CDATA[Error page. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="homepage">
+		<title><![CDATA[PG Real Estate Solution | Homepage]]></title>
+		<description><![CDATA[Your homepage. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="hotlist">
+		<title><![CDATA[PG Real Estate Solution | Hot List ]]></title>
+		<description><![CDATA[List of Hot Listings for quick access. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="index">
+		<title><![CDATA[PG Real Estate Solution | Buy, Sell, Lease and Rent Real Estate]]></title>
+		<description><![CDATA[Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="mailbox">
+		<title><![CDATA[PG Real Estate Solution | My messages]]></title>
+		<description><![CDATA[Opportunity to communicate with other users. View messages. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="news">
+		<title><![CDATA[PG Real Estate Solution | News]]></title>
+		<description><![CDATA[View portal and real estate industry news. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="power_searchr">
+		<title><![CDATA[PG Real Estate Solution | Advanced Search ]]></title>
+		<description><![CDATA[Advanced Search Form of Real Estate. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="quick_search">
+		<title><![CDATA[PG Real Estate Solution | Quick Search]]></title>
+		<description><![CDATA[Quick Search Form of Real Estate. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="registration">
+		<title><![CDATA[PG Real Estate Solution | Buy, Sell, Lease and Rent Real Estate]]></title>
+		<description><![CDATA[Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="rentals">
+		<title><![CDATA[PG Real Estate Solution | My Listings]]></title>
+		<description><![CDATA[Create, edit, delete your listings. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="search_preferences">
+		<title><![CDATA[PG Real Estate Solution | Member's search preferences ]]></title>
+		<description><![CDATA[Member's search preferences management. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="services">
+		<title><![CDATA[PG Real Estate Solution | Paid services ]]></title>
+		<description><![CDATA[Use paid services, access to account and payments history. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="viewprofile">
+		<title><![CDATA[PG Real Estate Solution | Profile]]></title>
+		<description><![CDATA[Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="map">
+		<title><![CDATA[PG Real Estate Solution | Site Map]]></title>
+		<description><![CDATA[Site Map. Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="agents">
+		<title><![CDATA[PG Real Estate Solution | Выбор агентов]]></title>
+		<description><![CDATA[Real Estate: Helping you find the property of your dreams. Hassle-free Real Estate services.]]></description>
+		<keywords><![CDATA[real estate, realtor, homes for sale, house for sale, find a home, real estate listings, condos, townhomes, realestate, property, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+</data>

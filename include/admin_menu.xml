@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<section name="realestate">
+		<item name="realestate" img="/images/menu/icons/my_realestate.gif" href="">
+			<subitem name="admin_info" img="/images/menu/icons/settings_affiliate.gif" href="/admin/admin_settings.php?section=admin" onclick="" />
+			<subitem name="realestate_listings" img="/images/menu/icons/my_listings.gif" href="/admin/admin_rentals.php"></subitem>
+			<subitem name="mailbox" img="/images/menu/icons/chat_messages.gif" href="/mailbox.php?from_admin_mode=1" new="[new]" id="mhi_my_messages"></subitem>
+			<subitem name="sponsors_announcements" img="/images/menu/icons/sponsored_listings.gif" href="/admin/admin_sponsors.php?type=list"></subitem>			
+			<subitem name="agents" img="/images/menu/icons/my_agents.gif" href="/agents.php?from_admin_mode=1"></subitem>					
+		</item>	
+	</section>
+	<section name="users">
+		<item name="users" img="/images/menu/icons/users.gif" href="">
+			<subitem name="users_list" img="/images/menu/icons/users_list.gif" href="/admin/admin_users.php" onclick="" />
+			<subitem name="users_add" img="/images/menu/icons/add_user.gif" href="/admin/admin_users.php?sel=add" onclick="" />
+			<subitem name="groups_list" img="/images/menu/icons/groups_list.gif" href="/admin/admin_groups.php" onclick="" />
+		</item>
+		<item name="listings" img="/images/menu/icons/listings.gif" href="">
+			<subitem name="listings_feed" img="/images/menu/icons/listings_feed.gif" href="/admin/admin_listings_export.php" onclick="" />
+		</item>
+		<item name="payments" img="/images/menu/icons/billing.gif" href="">
+			<subitem name="payments_settings" img="/images/menu/icons/billing_set.gif" href="/admin/admin_payment.php?sel=settings"></subitem>
+			<subitem name="pay_services" img="/images/menu/icons/billing_group_cost.gif" href="/admin/admin_pay_services.php?"></subitem>
+			<subitem name="payments_history" img="/images/menu/icons/billing_history.gif" href="/admin/admin_payment.php?sel=users_list_history"></subitem>
+			<subitem name="payments_list" img="/images/menu/icons/list_payments.gif" href="/admin/admin_payment.php?sel=list_payments"></subitem>
+			<subitem name="payments_write_offs" img="/images/menu/icons/list_write_off.gif" href="/admin/admin_payment.php?sel=list_spended"></subitem>
+		</item>		
+	</section>
+	<section name="content_management">		
+		<item name="sections_management" img="/images/menu/icons/area_editor.gif" href="">
+			<subitem name="info_manager" img="/images/menu/icons/terms.gif" href="/admin/admin_info_manager.php" onclick="" />
+			<subitem name="news_feeds" img="/images/menu/icons/rss.gif" href="/admin/admin_news.php" onclick="" />
+			<subitem name="menu_and_content" img="/images/menu/icons/content_edit.gif" href="/admin/admin_settings.php?section=langeditfile" onclick="" />
+			<subitem name="site_languages" img="/images/menu/icons/nationalities.gif" href="/admin/admin_settings.php?section=langedit" onclick="" />
+			<subitem name="show_ads_area" img="/images/menu/icons/show_ads_area.gif" href="/admin/admin_show_ads_area.php" onclick="" />			
+			<subitem name="uploads_approve" img="/images/menu/icons/upload_settings.gif" href="/admin/admin_upload.php" onclick="" />		
+		</item>
+		<item name="references" img="/images/menu/icons/reference.gif" href="">
+			<subitem name="references_countries" img="/images/menu/icons/countries.gif" href="/admin/admin_countries.php" onclick=""></subitem>
+			<subitem name="bad_words" img="/images/menu/icons/bad_words.gif" href="/admin/admin_badwords.php" onclick=""></subitem>	
+			<subitem name="references_property_type" img="/images/menu/icons/property_type.gif" href="/admin/admin_references.php?section=type" onclick=""></subitem>
+			<subitem name="references_numerical_values" img="/images/menu/icons/numerical_value.gif" href="/admin/admin_references.php?section=description" onclick=""></subitem>
+			<subitem name="references_about_property" img="/images/menu/icons/take_tour.gif" href="/admin/admin_references.php?section=apartment" onclick=""></subitem>
+			<subitem name="references_term_of_lease" img="/images/menu/icons/tearm_of_lease.gif" href="/admin/admin_references.php?section=period" onclick=""></subitem>
+			<subitem name="references_about_person" img="/images/menu/icons/my_portrait.gif" href="/admin/admin_references.php?section=people" onclick=""></subitem>
+			<subitem name="references_gender" img="/images/menu/icons/user_types.gif" href="/admin/admin_references.php?section=gender" onclick=""></subitem>
+			<subitem name="references_languages" img="/images/menu/icons/languages.gif" href="/admin/admin_references.php?section=language" onclick=""></subitem>
+			<subitem name="references_reason_for_deactivation" img="/images/menu/icons/reasons_deactiv.gif" href="/admin/admin_references.php?section=deactivate" onclick=""></subitem>			
+		</item>						
+	</section>
+	<section name="site_parameters">
+		<item name="settings" img="/images/menu/icons/settings.gif" href="">			
+			<subitem name="site_mode" img="/images/menu/icons/photo.gif" href="/admin/admin_settings.php?section=site_mode" onclick="" />
+			<subitem name="other" img="/images/menu/icons/general_settings.gif" href="/admin/admin_settings.php?section=misc" onclick="" />			
+			<subitem name="country_search" img="/images/menu/icons/distances.gif" href="/admin/admin_settings.php?section=countries" onclick="" />
+			<subitem name="maps" img="/images/menu/icons/maps.gif" href="/admin/admin_settings.php?section=maps" onclick="" />
+			<subitem name="server_errors" img="/images/menu/icons/server_errors.gif" href="/admin/admin_settings.php?section=server_errors" onclick="" />
+			<subitem name="metatags" img="/images/menu/icons/metatags.gif" href="/admin/admin_settings.php?section=metatags" onclick="" />
+			<subitem name="logotype_settings" img="/images/menu/icons/logotype_settings.gif" href="/admin/admin_settings.php?section=logotype" onclick="" />
+			<subitem name="watermark_settings" img="/images/menu/icons/watermark_settigs.gif" href="/admin/admin_settings.php?section=watermark" onclick="" />
+		</item>
+		<item name="alerts" img="/images/menu/icons/newsletter.gif" href="">		
+			<subitem name="member_alerts" img="/images/menu/icons/subscribers.gif" href="/admin/admin_mails.php?section=user" onclick="" />
+			<subitem name="admin_alerts" img="/images/menu/icons/email_alerts.gif" href="/admin/admin_mails.php?section=admin" onclick="" />
+		</item>
+	</section>
+</menu>

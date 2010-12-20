@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<item name="online" href="/quick_search.php?sel=online" id="mhi_online"><![CDATA[Online Now]]></item>
+	<item name="new_members" href="/quick_search.php?sel=new_members" id="mhi_new_members"><![CDATA[New Members]]></item>
+	<item name="most_active" href="/quick_search.php?sel=most_active" id="mhi_most_active"><![CDATA[Most Active Members]]></item>
+	<item name="search_preferences" href="/search_preferences.php"><![CDATA[My Search Preferences]]></item>
+</menu>

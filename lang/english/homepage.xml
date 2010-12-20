@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="menu_rental_subheader" descr=""><![CDATA[MENU]]></lines>
+	<lines name="menu_rental_my_1" descr=""><![CDATA[My Profile Visits]]></lines>
+	<lines name="menu_rental_my_2" descr=""><![CDATA[Added me to Hot List]]></lines>
+	<lines name="menu_rental_my_3" descr=""><![CDATA[Interested in me]]></lines>
+	<lines name="menu_rental_my_4" descr=""><![CDATA[Match my criteria]]></lines>
+	<lines name="menu_rental_his_1" descr=""><![CDATA[Profiles I visited]]></lines>
+	<lines name="menu_rental_his_2" descr=""><![CDATA[I added to my Hot List]]></lines>
+	<lines name="menu_rental_his_3" descr=""><![CDATA[I am interested in]]></lines>
+	<lines name="menu_rental_his_4" descr=""><![CDATA[I match their criteria]]></lines>
+	<lines name="empty_result" descr=""><![CDATA[No results matching your criteria]]></lines>
+	<lines name="empty_list" descr=""><![CDATA[There are no items to display for the selected statistics criteria]]></lines>
+	<lines name="about_me" descr=""><![CDATA[About me]]></lines>
+	<lines name="about_us" descr=""><![CDATA[About us]]></lines>
+	<lines name="max_payment" descr=""><![CDATA[Max payment]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Available date]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Move date]]></lines>
+	<lines name="location" descr=""><![CDATA[Location]]></lines>
+	<lines name="login" descr=""><![CDATA[Login]]></lines>
+	<lines name="date_last_login" descr=""><![CDATA[Last login]]></lines>
+	<lines name="status" descr=""><![CDATA[Status]]></lines>
+	<lines name="online" descr=""><![CDATA[Online]]></lines>
+	<lines name="offline" descr=""><![CDATA[Offline]]></lines>
+	<lines name="user_ad_err" descr=""><![CDATA[You haven't created any listings yet]]></lines>
+	<lines name="page_header_rental" descr=""><![CDATA[Your listings]]></lines>
+	<lines name="choose_text" descr=""><![CDATA[Choose the listing to view the results matching its criteria]]></lines>
+	<lines name="no_photos" descr=""><![CDATA[No photos]]></lines>
+	<lines name="match" descr=""><![CDATA[Matching variants]]></lines>
+	<lines name="select_country" descr=""><![CDATA[Choose a country...]]></lines>
+	<lines name="select_region" descr=""><![CDATA[Choose a region...]]></lines>
+	<lines name="select_city" descr=""><![CDATA[Choose a city ...]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Move date from]]></lines>
+	<lines name="rental" descr=""><![CDATA[Real Estate]]></lines>
+	<lines name="nickname" descr=""><![CDATA[name]]></lines>
+	<lines name="date_reg" descr=""><![CDATA[registration date]]></lines>
+	<lines name="date_last" descr=""><![CDATA[last login date]]></lines>
+	<lines name="now" descr=""><![CDATA[now]]></lines>
+	<lines name="home_text_1" descr=""><![CDATA[PG Real Estate :]]></lines>
+	<lines name="home_text_2" descr=""><![CDATA[Helping you find the property of your dreams. Hassle-free Real Estate services. Search multiple real estate listings of residential,<br>commercial and vacation getaway properties, find homes for sale and apartments for rent.]]></lines>
+	<lines name="home_text_3" descr=""><![CDATA[Our professional competence, your personal confidence. Add a property for sale or lease: Thousands of buyers and tenants are matched with sellers and landlords daily.]]></lines>
+	<lines name="my" descr=""><![CDATA[My]]></lines>
+	<lines name="rentmate_ru" descr=""><![CDATA[Real Estate]]></lines>
+	<lines name="home_text_4" descr=""><![CDATA[Your account is inactive.]]></lines>
+	<lines name="home_text_5" descr=""><![CDATA[Some services may be not available for you.]]></lines>
+	<lines name="home_text_6" descr=""><![CDATA[Activate]]></lines>
+	<lines name="my_messages" descr=""><![CDATA[My messages]]></lines>
+	<lines name="my_account" descr=""><![CDATA[My profile]]></lines>
+	<lines name="home_text_8" descr=""><![CDATA[You are an active member.]]></lines>
+	<lines name="period_left" descr=""><![CDATA[Days left]]></lines>
+	<lines name="home_text_9" descr=""><![CDATA[Prolong your membership]]></lines>
+	<lines name="add_to_hotlist" descr=""><![CDATA[Add to Hot List]]></lines>
+	<lines name="add_to_blacklist" descr=""><![CDATA[Add to Black List]]></lines>
+	<lines name="contact_user" descr=""><![CDATA[Contact member]]></lines>
+	<lines name="contact_admin" descr=""><![CDATA[Complain on the member]]></lines>
+	<lines name="interest" descr=""><![CDATA[Show your interest]]></lines>
+	<lines name="date_added" descr=""><![CDATA[Added to the list]]></lines>
+	<lines name="date_visited" descr=""><![CDATA[Last login date]]></lines>
+	<lines name="date_interest" descr=""><![CDATA[Interested date]]></lines>
+	<lines name="i_find" descr=""><![CDATA[I want]]></lines>
+	<lines name="where_loc" descr=""><![CDATA[Location]]></lines>
+	<lines name="rental_ad" descr=""><![CDATA[Latest added listing]]></lines>
+	<lines name="my_contacts" descr=""><![CDATA[My Contacts List]]></lines>
+	<lines name="monthly" descr=""><![CDATA[This month]]></lines>
+	<lines name="weekly" descr=""><![CDATA[This week]]></lines>
+	<lines name="show_rental_menu" descr=""><![CDATA[Show menu]]></lines>
+	<lines name="hide_rental_menu" descr=""><![CDATA[Hide menu]]></lines>
+	<lines name="choose" descr=""><![CDATA[Please choose]]></lines>	
+	<lines name="go_to_power_search" descr=""><![CDATA[Go to Advanced Search]]></lines>
+	<lines name="price" descr=""><![CDATA[Price]]></lines>
+	<lines name="from" descr=""><![CDATA[from]]></lines>
+	<lines name="upto" descr=""><![CDATA[max]]></lines>
+	<lines name="auction_possible" descr=""><![CDATA[Price negotiating is possible]]></lines>
+	<lines name="auction_inpossible" descr=""><![CDATA[Price negotiating is not possible]]></lines>
+	<lines name="month_payment_in_line" descr=""><![CDATA[Rent cost per month]]></lines>
+	<lines name="last_results" descr=""><![CDATA[Latest listings]]></lines>
+	<lines name="i_need" descr=""><![CDATA[Tenants]]></lines>
+	<lines name="i_have" descr=""><![CDATA[Landlords]]></lines>
+	<lines name="i_buy" descr=""><![CDATA[Buyer]]></lines>
+	<lines name="i_sell" descr=""><![CDATA[Seller]]></lines>
+	<lines name="need_realty" descr=""><![CDATA[I rent]]></lines>
+	<lines name="have_realty" descr=""><![CDATA[I lease]]></lines>
+	<lines name="sell_realty" descr=""><![CDATA[I sell]]></lines>
+	<lines name="buy_realty" descr=""><![CDATA[I buy]]></lines>
+	<lines name="place_text_1" descr=""><![CDATA[The listing is on]]></lines>
+	<lines name="place_text_2" descr=""><![CDATA[ place]]></lines>
+	<lines name="place_text_3" descr=""><![CDATA[The listing is not active and does not come up in search results]]></lines>
+	<lines name="viewed" descr=""><![CDATA[Views today]]></lines>
+	<lines name="monthly" descr=""><![CDATA[This month]]></lines>
+	<lines name="i_want" descr=""><![CDATA[Looking]]></lines>
+	<lines name="qs_i_need" descr=""><![CDATA[to rent]]></lines>
+	<lines name="qs_i_have" descr=""><![CDATA[to lease]]></lines>
+	<lines name="qs_i_sell" descr=""><![CDATA[to sell]]></lines>
+	<lines name="qs_i_buy" descr=""><![CDATA[to buy]]></lines>	
+	<lines name="costs_min" descr=""><![CDATA[Cost min]]></lines>
+	<lines name="upto" descr=""><![CDATA[max]]></lines>
+	<lines name="button_search" descr=""><![CDATA[Search]]></lines>
+	<lines name="no_ads_from_user" descr=""><![CDATA[No listings]]></lines>
+	<lines name="min" descr=""><![CDATA[min]]></lines>
+	<lines name="max_views" descr=""><![CDATA[Most popular by number of views]]></lines>
+	<lines name="admin_choose" descr=""><![CDATA[Sponsored]]></lines>
+	<lines name="last_added" descr=""><![CDATA[Latest added]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[from]]></lines>
+	<lines name="time_end" descr=""><![CDATA[till]]></lines>
+	<lines name="empty" descr=""><![CDATA[Available]]></lines>
+</data>

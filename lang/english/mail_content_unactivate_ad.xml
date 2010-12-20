@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Your listing activity period has expired on [site_name]]]></lines>
+<lines name="unactivate_ad" descr=""><![CDATA[Your listing activity period has expired on [site_name]. Now your listing is not active and does not come up in search results.]]></lines>
+<lines name="for_activate" descr=""><![CDATA[To change the status of listing activity? please login to the site [site_name] and follow the link]]></lines>
+</data>

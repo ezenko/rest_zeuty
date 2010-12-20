@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Eine manuelle Zahlung wurde auf Ihrer Seite eingereicht]]></lines>
+<lines name="text_0" descr=""><![CDATA[Eine manuelle Zahlung wurde auf Ihrer Seite eingereicht]]></lines>
+<lines name="text_1" descr=""><![CDATA[. Die Zahlungsinformation kann unten angesehen werden]]></lines>
+<lines name="name" descr=""><![CDATA[Name]]></lines>
+<lines name="login" descr=""><![CDATA[Login]]></lines>
+<lines name="email" descr=""><![CDATA[Email]]></lines>
+<lines name="date" descr=""><![CDATA[Überweisungsdatum]]></lines>
+<lines name="amount" descr=""><![CDATA[Überweisungsbetrag]]></lines>
+<lines name="form_data" descr=""><![CDATA[Zusätzliche Information]]></lines>
+<lines name="text_2" descr=""><![CDATA[Sobald Sie die Zahlung nachweisen, können Sie sie in der Sektion 'Zahlungsliste' der Adminkonsole entweder bastätigen oder ablehnen.]]></lines>
+</data>

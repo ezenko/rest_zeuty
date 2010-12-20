@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="users" descr=""><![CDATA[Users]]></lines>
+	<lines name="users_list" descr=""><![CDATA[Users List]]></lines>
+	<lines name="users_add" descr=""><![CDATA[Add User]]></lines>
+	<lines name="users_import" descr=""><![CDATA[Users Import]]></lines>
+	<lines name="groups_list" descr=""><![CDATA[Groups List]]></lines>
+	<lines name="payments" descr=""><![CDATA[Payments]]></lines>
+	<lines name="payments_settings" descr=""><![CDATA[Billing Settings]]></lines>
+	<lines name="pay_services" descr=""><![CDATA[Membership and Services Fee]]></lines>
+	<lines name="payments_history" descr=""><![CDATA[Payments History]]></lines>
+	<lines name="payments_list" descr=""><![CDATA[List of Payments]]></lines>
+	<lines name="payments_write_offs" descr=""><![CDATA[Spent Funds List]]></lines>
+	<lines name="realestate" descr=""><![CDATA[My Listings Area]]></lines>
+	<lines name="realestate_listings" descr=""><![CDATA[My Listings Management]]></lines>
+	<lines name="mailbox" descr=""><![CDATA[Messages]]></lines>
+	<lines name="sponsors_announcements" descr=""><![CDATA[Sponsored Listings]]></lines>
+	<lines name="content_management" descr=""><![CDATA[Content Management]]></lines>
+	<lines name="references" descr=""><![CDATA[References]]></lines>
+	<lines name="references_countries" descr=""><![CDATA[Countries]]></lines>
+	<lines name="references_property_type" descr=""><![CDATA[Property Type]]></lines>
+	<lines name="references_numerical_values" descr=""><![CDATA[Numerical Values]]></lines>
+	<lines name="references_about_property" descr=""><![CDATA[About Property]]></lines>
+	<lines name="references_term_of_lease" descr=""><![CDATA[Term of Lease]]></lines>
+	<lines name="references_about_person" descr=""><![CDATA[About Person]]></lines>
+	<lines name="references_gender" descr=""><![CDATA[Gender]]></lines>
+	<lines name="references_languages" descr=""><![CDATA[Languages]]></lines>
+	<lines name="references_reason_for_deactivation" descr=""><![CDATA[Reason for deactivation]]></lines>
+	<lines name="sections_management" descr=""><![CDATA[Sections Management]]></lines>
+	<lines name="bad_words" descr=""><![CDATA[Bad Words]]></lines>
+	<lines name="news_feeds" descr=""><![CDATA[Site News, RSS Feeds]]></lines>
+	<lines name="menu_and_content" descr=""><![CDATA[Site Texts Management]]></lines>
+	<lines name="uploads_approve" descr=""><![CDATA[Uploads Approve]]></lines>
+	<lines name="site_parameters" descr=""><![CDATA[Site Parameters]]></lines>
+	<lines name="settings" descr=""><![CDATA[Settings]]></lines>
+	<lines name="admin_info" descr=""><![CDATA[My Account Info]]></lines>
+	<lines name="site_mode" descr=""><![CDATA[Mode of Site Operation]]></lines>
+	<lines name="other" descr=""><![CDATA[Site Basic Settings]]></lines>
+	<lines name="site_languages" descr=""><![CDATA[Site Languages]]></lines>
+	<lines name="country_search" descr=""><![CDATA[Countries management]]></lines>
+	<lines name="maps" descr=""><![CDATA[Maps Selection]]></lines>
+	<lines name="alerts" descr=""><![CDATA[Alerts (Notifications)]]></lines>
+	<lines name="admin_alerts" descr=""><![CDATA[Admin's alerts]]></lines>
+	<lines name="member_alerts" descr=""><![CDATA[Members' alerts]]></lines>
+	<lines name="show_ads_area" descr=""><![CDATA[Order of Listings Display]]></lines>
+	<lines name="info_manager" descr=""><![CDATA[Info Pages]]></lines>
+	<lines name="server_errors" descr=""><![CDATA[Server Errors]]></lines>
+	<lines name="metatags" descr=""><![CDATA[SEO Metatags]]></lines>
+	<lines name="watermark_settings" descr=""><![CDATA[Watermark Settings]]></lines>
+	<lines name="logotype_settings" descr=""><![CDATA[Logotype Settings]]></lines>
+	<lines name="my_agents" descr=""><![CDATA[My Agents]]></lines>
+	<lines name="my_realtor" descr=""><![CDATA[My Realtor]]></lines>
+	<lines name="listings" descr=""><![CDATA[Listings]]></lines>
+	<lines name="listings_feed" descr=""><![CDATA[XML Feeds of Listings]]></lines>
+</data>

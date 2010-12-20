@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<data>
+<lines name="top_search_link_text" descr=""><![CDATA['Anzeigeaufhebung' Service]]>   </lines>
+<lines name="slideshow_link_text" descr=""><![CDATA['Slide-show' Service]]>   </lines>
+<lines name="featured_link_text" descr=""><![CDATA['Leiter der Region' Service]]>   </lines>
+<lines name="charge_link_text" descr=""><![CDATA[Stufen Sie Ihre Mitgliedschaft höher]]>  </lines>
+<lines name="no_rent_ads" descr=""><![CDATA[Sie haben keine Anzeigen]]>   </lines>
+<lines name="move_date" descr=""><![CDATA[Umziehungsdatum]]>   </lines>
+<lines name="no_photos" descr=""><![CDATA[Ohne Foto]]>   </lines>
+<lines name="this_link_text" descr=""><![CDATA[Diese Anzeige in den Suchergebnissen aufheben]]>   </lines>
+<lines name="periods_day" descr=""><![CDATA[Tage]]>  </lines>
+<lines name="periods_week" descr=""><![CDATA[Wochen]]>   </lines>
+<lines name="periods_month" descr=""><![CDATA[ Monate  ]]>   </lines>
+<lines name="periods_year" descr=""><![CDATA[ Jahre  ]]>   </lines>
+<lines name="buy_points" descr=""><![CDATA[ Zahlen  ]]>   </lines>
+<lines name="top_search_pay_text" descr=""><![CDATA[ Die Option wählen um Ihre Anzeige in den Suchergebnissen aufzuheben  ]]>   </lines>
+<lines name="service_type_topsearch" descr=""><![CDATA[ Für den Service "Ihre Anzeige in den Suchergebnissen aufheben"  ]]>   </lines>
+<lines name="service_type_slideshow" descr=""><![CDATA[ für die Variante "Ihre eigene Diavorführung schaffen"  ]]>   </lines>
+<lines name="period" descr=""><![CDATA[ Periode  ]]>   </lines>
+<lines name="period_left_text" descr=""><![CDATA[ Periode lassen  ]]>   </lines>
+<lines name="forpay" descr=""><![CDATA[ Zahlungstyp  ]]>   </lines>
+<lines name="rent_slideshowed_link_text" descr=""><![CDATA[ Diavorführung is aktiv  ]]>   </lines>
+<lines name="rent_slideshow_link_text" descr=""><![CDATA[ Diese Anzeige aktiv in der Suche haben  ]]>   </lines>
+<lines name="link_text_1" descr=""><![CDATA[ Geldmittel an Ihr Konto hinzufügen  ]]>   </lines>
+<lines name="link_text_2" descr=""><![CDATA[ Zahlungsgeschichte  ]]>   </lines>
+<lines name="link_text_3" descr=""><![CDATA[ Geldmitteö zu dem Konto anderes Mitgliedes hinzufügen  ]]>   </lines>
+<lines name="slideshow_top_text_p1" descr=""><![CDATA[Jeden Tag sehen die Seitenbenutzer umfangreiche Liste der Anzeigen durch. Sie können die Aufmerksamkeit anderer Benutzer auf Ihre Anzeigen ziehen.<br> Sie können unsere Option zu Hilfe nehmen — "Machen Sie Ihre Anzeige bemerkt", und Ihre Anzeigefotos werden im Slide-Shows dargestellt]]>   </lines>
+<lines name="slideshow_top_text_p2" descr=""><![CDATA[ Tage(s).</b><br> Um diese Funktion benutzen zu können, klicken Sie nötige Anzeigen an.<br> Sie werden für sie nach ihren Nummern suchen.  ]]>   </lines>
+<lines name="search_by_num_in_rent" descr=""><![CDATA[ Nach der Nummer suchen  ]]>   </lines>
+<lines name="payment_form_text" descr=""><![CDATA[ Wählen Sie den bequemsten Weg, Ihre Geldmittel zu Ihrem Konto hinzuzufügen und deuten notwendige Summe an.<br>Der Preis für die Siteservices wird von Ihrem Konto abgelehnt.<br>Geldmittel gehen nicht direct für den bezahlten Service, aber werden zu Ihrem Konto zuerst hinzugefügt.<br>In der Zukunft können Sie für die Services der Site mit einem Mausklick zahlen. Geld wird von Ohrem Sitekonto abgelehnt  ]]>   </lines>
+<lines name="your_billing" descr=""><![CDATA[ Ihre Kontobilanz  ]]>   </lines>
+<lines name="pay_sum" descr=""><![CDATA[ Konto hinzufügen  ]]>   </lines>
+<lines name="pay_hint" descr=""><![CDATA[ Empfolene Menge ist 5  ]]>   </lines>
+<lines name="choose_paysys" descr=""><![CDATA[ Zahlen per  ]]>   </lines>
+<lines name="pls_choose_paysys" descr=""><![CDATA[ Wählen Sie bitte Zahlungssystem  ]]>   </lines>
+<lines name="do_payment" descr=""><![CDATA[ Zu der Zahlungsseite gehen  ]]>   </lines>
+<lines name="payment_form_text_2" descr=""><![CDATA[ Geldmittel hinzufügen  ]]>   </lines>
+<lines name="history_text_1" descr=""><![CDATA[ Vorauszahlung  ]]>  </lines>
+<lines name="history_text_2" descr=""><![CDATA[ Geldüberweisung vom Mitglied  ]]>   </lines>
+<lines name="status_send" descr=""><![CDATA[ Wurde nicht bezahlt  ]]>  </lines>
+<lines name="status_fail" descr=""><![CDATA[ Zahlungsfehler  ]]>   </lines>
+<lines name="status_approve" descr=""><![CDATA[ Wurde bezahlt  ]]>   </lines>
+<lines name="view" descr=""><![CDATA[ Durchsehen  ]]>   </lines>
+<lines name="name" descr=""><![CDATA[ Titel  ]]>   </lines>
+<lines name="date_send" descr=""><![CDATA[ Datum  ]]>   </lines>
+<lines name="count_curr" descr=""><![CDATA[ Konto  ]]>   </lines>
+<lines name="status" descr=""><![CDATA[ Status  ]]>   </lines>
+<lines name="all_requests" descr=""><![CDATA[ Alle Mittel hinzugefügt  ]]>   </lines>
+<lines name="print" descr=""><![CDATA[Drucken]]> </lines>
+<lines name="to_history" descr=""><![CDATA[&#171; To the payments history]]> </lines>
+<lines name="add_info" descr=""><![CDATA[Optional]]> </lines>
+<lines name="entries" descr=""><![CDATA[Hinzugefügte Mittel]]> </lines>
+<lines name="spended" descr=""><![CDATA[Ausgegebene Mittel]]> </lines>
+<lines name="all_spended" descr=""><![CDATA[Alle ausgegebenen Mittel]]> </lines>
+<lines name="spended_1" descr=""><![CDATA[Für Service "Aufhebung der Anzeige in Suchresultaten" zahlen]]></lines>
+<lines name="spended_2" descr=""><![CDATA[Für Service "Anzeige in Suche bemerkt machen" zahlen]]></lines>
+<lines name="spended_3" descr=""><![CDATA[Für Service "Anzeige in Region bemerkt machenn" zahlen]]></lines>
+<lines name="spended_4" descr=""><![CDATA[Abschreibungen für Mitgliedschaft]]> </lines>
+<lines name="spended_6" descr=""><![CDATA[Mittelüberweisung zu dem Mitglied]]> </lines>
+<lines name="topsearch_top_text" descr=""><![CDATA[Jeden Tag melden sich neue Benutzer auf der Seite an und darum wird Ihre Anzeige immer niedriger in Suchresultaten.<br>Um Popularität Ihrer Seite zu erhöhen und Aufmerksamkeit dazu zu ziehen, können Sie unsere Option benutzen -  "Anzeige aufheben". Gebrauchen Sie einfach dieses Feature und Sie werden noch mal oben in Suchresultaten.<br>Die Seite wird für Rechnung Ihres Kontoguthabens aufgehoben. Sie können diese Option so oft gebrauchen, wie Sie möchten.]]></lines>
+<lines name="featured_top_text" descr=""><![CDATA["Machen Sie Ihre Anzeige bemerkbar in Region" - Möglichkeit, Ihre Anzeigen und Grußtext auf alle Hauptseiten der Seite gleich zu setzen. Die Anzeige wird "Leiter", wenn Ihr Angebot bedeutender ist, als das Angebot des existierenden Leiters. Die Anzeige ist Leiter, bis jemand Sie ausreizt.]]></lines>
+<lines name="featured_top_text_each" descr=""><![CDATA[Jede]]> </lines>
+<lines name="featured_top_text_period" descr=""><![CDATA[Minute alle &quot;Leiters&quot; sind eingezogen]]> </lines>
+<lines name="rent_featured_link_text" descr=""><![CDATA[Diese Anzeige ist der Leiter im Region!]]> </lines>
+<lines name="rent_feature_link_text" descr=""><![CDATA[Bekommen diese Anzeige als Leiter im Region]]> </lines>
+<lines name="featured_text1" descr=""><![CDATA[Geben Sie bitte an, wieviel Sie zahlen möchten, geben Sie <b>Grußwort</b> in die Form unten an und clicken Sie "Einreichen"]]></lines>
+<lines name="feature_btn_text" descr=""><![CDATA[Unterbreiten]]> </lines>
+<lines name="show_rental_menu" descr=""><![CDATA[Menü zeigen]]> </lines>
+<lines name="hide_rental_menu" descr=""><![CDATA[Menü verstecken]]> </lines>
+<lines name="menu_rental_subheader" descr=""><![CDATA[Menü]]> </lines>
+<lines name="menu_rental_his_4" descr=""><![CDATA[Ich passé ihnen]]> </lines>
+<lines name="toptext" descr=""><![CDATA[Mitgliedszahlung]]> </lines>
+<lines name="topdescr" descr=""><![CDATA[Einige Funktionen und Einstellungen unserer Site sind nur für die bezahlten Benutzer erreichbar. <br>Wählen Sie eine Gruppe der Benutzer und Sie sehen eine Liste der Unterschiede von Ihrer aktuellen Gruppe.<br> Sie können passende Periode und Gruppe wählen und für Mitgliedschaft zahlen  ]]> </lines>
+<lines name="groupselect" descr=""><![CDATA[Gruppe wählen]]> </lines>
+<lines name="group_modify" descr=""><![CDATA[Gruppe verändern]]> </lines>
+<lines name="account_count" descr=""><![CDATA[Aktuell]]> </lines>
+<lines name="account_groups" descr=""><![CDATA[Meine Gruppe]]> </lines>
+<lines name="present_groups" descr=""><![CDATA[Jetzt sind Sie in der Gruppe]]> </lines>
+<lines name="available_groups" descr=""><![CDATA[Erreichbare Gruppen]]> </lines>
+<lines name="group_description" descr=""><![CDATA[Beschreibung der erreichbaren Gruppen]]> </lines>
+<lines name="group_functions" descr=""><![CDATA[Erlaubnisse der]]> </lines>
+<lines name="new_group_functions" descr=""><![CDATA[Gruppe, die Sie bekommen, wenn die in die Gruppe kommen]]> </lines>
+<lines name="old_group_functions" descr=""><![CDATA[Gruppe, die Sie verlieren]]> </lines>
+<lines name="group_demo" descr=""><![CDATA[Leicht]]> </lines>
+<lines name="cost" descr=""><![CDATA[Preis von Service]]> </lines>
+<lines name="speed" descr=""><![CDATA[Pro Stunde]]> </lines>
+<lines name="moneyselect" descr=""><![CDATA[Geldmittelazsschreibungen von Ihrem Konto]]> </lines>
+<lines name="free" descr=""><![CDATA[Frei]]> </lines>
+<lines name="pay" descr=""><![CDATA[Bitte prüfen Sie Information über die Zahlung]]> </lines>
+<lines name="paypal" descr=""><![CDATA[PayPal]]> </lines>
+<lines name="credit_card" descr=""><![CDATA[Kreditkarte]]> </lines>
+<lines name="buy" descr=""><![CDATA[Zahlen]]> </lines>
+<lines name="chosen_groups" descr=""><![CDATA[Gewählte Gruppe]]> </lines>
+<lines name="chosen_period" descr=""><![CDATA[für Periode]]> </lines>
+<lines name="chosen_cost" descr=""><![CDATA[Servicepreis]]> </lines>
+<lines name="chosen_forpay" descr=""><![CDATA[Bezahlen]]> </lines>
+<lines name="only_change" descr=""><![CDATA[Gruppe verändern]]> </lines>
+<lines name="left_days" descr=""><![CDATA[Bis AAblauf Ihrer Periode in der Gruppe bleibt]]> </lines>
+<lines name="need_realty" descr=""><![CDATA[Ich miete]]> </lines>
+<lines name="have_realty" descr=""><![CDATA[Ich vermiete]]> </lines>
+<lines name="sell_realty" descr=""><![CDATA[Ich verkaufe]]> </lines>
+<lines name="buy_realty" descr=""><![CDATA[Ich kaufe]]> </lines>
+<lines name="place_text_1" descr=""><![CDATA[Die Anzeige ist ]]> </lines>
+<lines name="place_text_2" descr=""><![CDATA[ Ort]]> </lines>
+<lines name="place_text_3" descr=""><![CDATA[Die Anzeige ist inactive und  erscheint nicht in den Suchergebnissen]]> </lines>
+<lines name="viewed" descr=""><![CDATA[Heute durchgesehen]]> </lines>
+<lines name="monthly" descr=""><![CDATA[Diesen Monat]]> </lines>
+<lines name="no_ads_by_num" descr=""><![CDATA[Es gibt keine Anzeigen mit der Nummer]]> </lines>
+<lines name="goto_ads_list" descr=""><![CDATA[Gehen Sie zu der Anzeigenliste.]]> </lines>
+<lines name="site_paysys" descr=""><![CDATA[Zahlungssystem]]> </lines>
+<lines name="no_active_paysys" descr=""><![CDATA[Ist nicht eingestellt]]> </lines>
+<lines name="days" descr=""><![CDATA[Tage]]> </lines>
+<lines name="use_group_trial_period" descr=""><![CDATA[Kostenlose Periode (Optionen ist für einzige Benutzung), Option benutzen.]]> </lines>
+<lines name="group_trial_was_used" descr=""><![CDATA[Kostenlose Periode (Optionen ist für einzige Benutzung  ]]> </lines>
+<lines name="sell_lease_payment_link_text" descr=""><![CDATA[Preis für Platzierung der Anzeigen für Verkauf und Vermietung  ]]> </lines>
+<lines name="ads_number" descr=""><![CDATA[Anzeigen]]> </lines>
+<lines name="sell_lease_payment_cost" descr=""><![CDATA[Preis für Platzierung]]> </lines>
+<lines name="sell_lease_user_payment" descr=""><![CDATA[Sie haben für die Platzierung bezahlt]]> </lines>
+<lines name="about_sell_lease" descr=""><![CDATA[für Verkauf und Vermieten]]> </lines>
+<lines name="sell_lease_used_amount" descr=""><![CDATA[für]]> </lines>
+<lines name="sell_lease_posted_ads" descr=""><![CDATA[Jetzt sind platziert]]> </lines>
+<lines name="sell_lease_need_pay" descr=""><![CDATA[Um neue Anzeigen für Verkauf und Vermieten posten, müssen Sie Zahlung machen.]]> </lines>
+<lines name="sell_lease_rest_ads" descr=""><![CDATA[Sie können platzieren]]> </lines>
+<lines name="spended_5" descr=""><![CDATA[Betrag, der auf die Anzeigen für Verkauf und Vermieten aufgegeben wurde. ]]> </lines>
+<lines name="smscoin_operator" descr=""><![CDATA[Operator/Land]]> </lines>
+<lines name="add_on_account" descr=""><![CDATA[Geldmittel zu Ihrem Konto hinzufügen]]> </lines>
+<lines name="payment_form_text_3" descr=""><![CDATA[Wenn Sie Geldmittel auf Ihrem konto haben, können Sie sie anderen mitgliedern im System weiterleiten. Service Komission ist]]> </lines>
+<lines name="payment_no_commission" descr=""><![CDATA[Wenn Sie Geldmittel auf Ihrem konto haben, können Sie sie anderen mitgliedern im Szstem weiterleiten. Service ist kostenlos.]]> </lines>
+<lines name="user_search" descr=""><![CDATA[Für Mitglied suchen]]> </lines>
+<lines name="search_help" descr=""><![CDATA[Um zu suchen bestimmen Sie Identifierungsinformation: Name, Familienname, Unternehmensbezeichnung.]]> </lines>
+<lines name="number" descr=""><![CDATA[№]]> </lines>
+<lines name="user_name" descr=""><![CDATA[Name]]> </lines>
+<lines name="user_ads" descr=""><![CDATA[Anzeigen]]> </lines>
+<lines name="user_payment" descr=""><![CDATA[Geldmittel hinzufügen]]> </lines>
+<lines name="company_name" descr=""><![CDATA[Unternehmensname]]> </lines>
+<lines name="empty_search" descr=""><![CDATA[Es gibt keine Erkebnisse, die Ihren Kriterien passen  ]]> </lines>
+<lines name="string_1" descr=""><![CDATA[Mittel dem Mitglied übergeben]]> </lines>
+<lines name="string_2" descr=""><![CDATA[ Betrag]]> </lines>
+<lines name="transfer_confirm" descr=""><![CDATA[Sind Sie sicher, daß Sie Überweisung machen müchten?]]> </lines>
+<lines name="empty_ads" descr=""><![CDATA[Fehlt]]> </lines>
+<lines name="time_begin" descr=""><![CDATA[von]]> </lines>
+<lines name="time_end" descr=""><![CDATA[bis]]> </lines>
+<lines name="empty" descr=""><![CDATA[Erreichbar]]> </lines>
+<lines name="need_search_criteria" descr=""><![CDATA[Bitte bestimmen Sie Suchkriterien]]> </lines>
+<lines name="slideshow_get_ad" descr=""><![CDATA[Jetzt wählen Sie die Bilder/Fotos, die in Slide-Show eingeführt werden. Es ist erforderlich, wenigstens 3 Fotos zu wählen, um Slide-Show zu haben]]></lines>
+<lines name="not_enough" descr=""><![CDATA[Die ausgewählten Fotos reichen nicht aus]]></lines>
+<lines name="history_text_3" descr=""><![CDATA[Geldhinzufügung vom Administrator]]></lines> 
+
+<lines name="planning" descr=""><![CDATA[Bauplanung]]></lines>
+<lines name="photo" descr=""><![CDATA[Foto]]></lines>
+<lines name="inactive_file" descr=""><![CDATA[Unsichtbar]]></lines>
+<lines name="take_part" descr=""><![CDATA[An Slide-Show Teil nehmen]]></lines>
+<lines name="no_ad" descr=""><![CDATA[Keine Anzeige]]></lines>
+<lines name="payment_information" descr=""><![CDATA[Information über Zahlung]]></lines>	
+<lines name="payment_data" descr=""><![CDATA[Wenn Sie eine Zahlung geleistet haben, geben Sie bitte Betrag und Information darüber an, clicken Sie "Senden". Administrator wird Ihre Zahlung in einer Email-Benachrichtigung entweder bestätigen oder ablehnen.]]></lines>
+<lines name="send_to_approve" descr=""><![CDATA[Für Nachweisung senden]]></lines>
+<lines name="amount" descr=""><![CDATA[Betrag]]></lines>
+<lines name="addition_information" descr=""><![CDATA[Zusätzliche Information]]></lines>
+  </data>
+

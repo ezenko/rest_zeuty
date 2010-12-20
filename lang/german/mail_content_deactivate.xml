@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="E-mail subject"><![CDATA[[Site_name] - Der Benutyer hat seinen Profil deaktiviert]]></lines>
+	<lines name="name" descr=""><![CDATA[Benutzersname]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail des Mitglieds]]></lines>
+	<lines name="reason" descr=""><![CDATA[Ursache der Deaktivation]]></lines>
+	<lines name="comments" descr=""><![CDATA[Kommentare]]></lines>
+</strings>

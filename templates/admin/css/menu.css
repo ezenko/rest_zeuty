@@ -1,0 +1,68 @@
+{literal}
+.content {width: 175px; border-left: 1px #e5eaef solid; border-right: 1px #e5eaef solid; border-bottom: 1px #e5eaef solid;}
+.expander {width: 178px; height: 9px;}
+.toplevel {width: 175px; height: 18px; background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/firstlevel_bg.gif) 0 0 no-repeat; font-family: Tahoma; font-size: 11px; color: #FFFFFF; font-weight: bold; text-indent: 6px; text-align: left; padding-top: 2px;}
+
+/* first or middle sibling, no children */
+/*.ygtvtn { width:1em; height:20px; }*/
+.ygtvtn { width:157px; height:20px; font-family: Tahoma; font-size: 11px; }
+
+/* first or middle sibling, collapsable */
+.ygtvtm { background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/collapse.gif) 98% 6px no-repeat; width: 175px; height:20px; cursor:pointer; font-family: Tahoma; font-size: 11px;}
+
+/* first or middle sibling, collapsable, hover */
+.ygtvtmh { background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/collapse_over.gif) 98% 6px no-repeat; width:175px; height:20px; cursor:pointer;font-family: Tahoma; font-size: 11px;}
+
+/* first or middle sibling, expandable */
+.ygtvtp { background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/expand.gif) 98% 6px no-repeat; width: 175px; height:20px; cursor:pointer;font-family: Tahoma; font-size: 11px;}
+
+/* first or middle sibling, expandable, hover */
+.ygtvtph { background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/expand_over.gif) 98% 6px no-repeat; width:175px; height:20px; cursor:pointer;font-family: Tahoma; font-size: 11px;}
+
+/* last sibling, no children */
+.ygtvln { width:157px; height:20px; font-family: Tahoma; font-size: 11px}
+
+/* Last sibling, collapsable */
+.ygtvlm { background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/collapse.gif) 98% 6px no-repeat; width:175px; height:20px; cursor:pointer;  font-family: Tahoma; font-size: 11px;}
+
+/* Last sibling, collapsable, hover */
+.ygtvlmh { background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/collapse_over.gif) 98% 6px no-repeat; width:175px; height:20px; cursor:pointer;  font-family: Tahoma; font-size: 11px;}
+
+/* first or middle sibling, expandable */
+.ygtvlp { background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/expand.gif) 98% 6px no-repeat; width: 175px; height:20px; cursor:pointer;font-family: Tahoma; font-size: 11px;}
+
+/* first or middle sibling, expandable */
+.ygtvlph { background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/expand_over.gif) 98% 6px no-repeat; width: 175px; height:20px; cursor:pointer;font-family: Tahoma; font-size: 11px;}
+
+/* Loading icon */
+.ygtvloading { background: url({/literal}{$site_root}{$template_root}{literal}/images/menu/loading.gif) 0 6px no-repeat; width:1em; height:20px; }
+
+/* the style for the empty cells that are used for rendering the depth
+ * of the node */
+.ygtvdepthcell { width:22px; height:20px; }
+
+.ygtvblankdepthcell { width:1em; height:20px; }
+
+/* the style of the div around each node */
+.ygtvitem { width: 175px; border-top: 1px solid #e5eaef; }
+
+/* the style of the div around each node's collection of children */
+.ygtvchildren { }
+* html .ygtvchildren { height: 1px; }
+
+/* the style of the text label in ygTextNode */
+.ygtvlabel, .ygtvlabel:link, .ygtvlabel:visited {
+	font-family: Tahoma; font-size: 11px; color: #3A3A3A; text-decoration: none; font-weight: bold;
+}
+.ygtvlabel:hover {
+	font-family: Tahoma; font-size: 11px; color: #878787; text-decoration: underline; font-weight: bold;
+}
+
+/* the style of the text depth label in ygTextNode */
+.ygtvdepth, .ygtvdepth:link, .ygtvdepth:visited {
+	font-family: Tahoma; font-size: 11px; color: #3A3A3A; text-decoration: none;
+}
+.ygtvdepth:hover {
+	font-family: Tahoma; font-size: 11px; color: #878787; text-decoration: underline;
+}
+{/literal}

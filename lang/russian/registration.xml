@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="text_header" descr=""><![CDATA[Зарегистрировавшись, вы сможете добавлять объявления, получите доступ к контактным данным других пользователей сервиса, а также общаться с ними. Процесс регистрации прост и занимает 1 минуту.]]></lines>
+	<lines name="create_nick" descr=""><![CDATA[Имя пользователя]]></lines>
+	<lines name="hint_nick" descr=""><![CDATA[Должен быть уникальным, содержать от 3 до 12 букв и/или цифр]]></lines>
+	<lines name="create_pass" descr=""><![CDATA[Ваш пароль]]></lines>
+	<lines name="hint_pass" descr=""><![CDATA[Подтверждает защищённый доступ в Ваш профайл. Должен    содержать от 4 до 10 букв и/или цифр]]></lines>
+	<lines name="verify_pass" descr=""><![CDATA[Подтвердите пароль]]></lines>
+	<lines name="first_name" descr=""><![CDATA[Ваше имя]]></lines>
+	<lines name="last_name" descr=""><![CDATA[Ваша фамилия]]></lines>
+	<lines name="birth_date" descr=""><![CDATA[Ваша дата рождения]]></lines>
+	<lines name="hint_birth" descr=""><![CDATA[Используется только в целях авторизации]]></lines>
+	<lines name="email" descr=""><![CDATA[Ваш e-mail]]></lines>
+	<lines name="hint_email" descr=""><![CDATA[Уведомление будет отправлено на этот адрес. Он не будет указываться в Вашем профайле]]></lines>
+	<lines name="verify_email" descr=""><![CDATA[Подтвердите e-mail]]></lines>
+	<lines name="registration_pin" descr=""><![CDATA[Регистрационный ПИН-код]]></lines>
+	<lines name="phone" descr=""><![CDATA[Телефон]]></lines>
+	<lines name="agreement_1" descr=""><![CDATA[Я принимаю условия , изложенные в ]]></lines>
+	<lines name="agreement_2" descr=""><![CDATA[Соглашении о предоставлении услуг]]></lines>
+	<lines name="agreement_3" descr=""><![CDATA[. Я подтверждаю, что мне не менее 18 лет. Для продолжения нажмите кнопку "Зарегистрироваться".]]></lines>
+	<lines name="i_reg_as" descr=""><![CDATA[Я регистрируюсь как]]></lines>
+	<lines name="private_person" descr=""><![CDATA[частное лицо]]></lines>
+	<lines name="agency" descr=""><![CDATA[риэлтор]]></lines>
+	<lines name="agent_of_agency" descr=""><![CDATA[агент компании]]></lines>
+	<lines name="private_text_1" descr=""><![CDATA[Вы можете добавить не более чем 1 объявление.]]></lines>
+	<lines name="agency_text_1" descr=""><![CDATA[Вы можете добавить неограниченное количество вариантов недвижимости.]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Имя компании]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Ваш сайт (url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Количество вариантов недвижимости]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Как вы узнали о нас]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Ваши вопросы и комментарии]]></lines>
+	<lines name="work_days" descr=""><![CDATA[Дни работы]]></lines>
+	<lines name="work_time" descr=""><![CDATA[Время работы]]></lines>
+	<lines name="lunch_time" descr=""><![CDATA[Обед]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+	<lines name="time_end" descr=""><![CDATA[До]]></lines>
+	<lines name="show_info" descr=""><![CDATA[Показывать мою контактную информацию другим пользователям]]></lines>
+	<lines name="dialog_text_1" descr=""><![CDATA[Я хочу]]></lines>
+	<lines name="dialog_text_2" descr=""><![CDATA[сдать]]></lines>
+	<lines name="dialog_text_3" descr=""><![CDATA[снять]]></lines>
+	<lines name="buy" descr=""><![CDATA[купить]]></lines>
+	<lines name="sell" descr=""><![CDATA[продать]]></lines>
+	<lines name="not_selected" descr=""><![CDATA[>>]]></lines>
+	<lines name="our_logo" descr=""><![CDATA[Ваш логотип]]></lines>
+	<lines name="our_logo_hint" descr=""><![CDATA[Логотип будет показываться в объявлениях вашей компании.]]></lines>
+	<lines name="company" descr=""><![CDATA[Компания]]></lines>
+	<lines name="address" descr=""><![CDATA[Адрес]]></lines>
+	<lines name="post_code" descr=""><![CDATA[Индекс]]></lines>
+	<lines name="country" descr=""><![CDATA[Страна]]></lines>
+	<lines name="region" descr=""><![CDATA[Регион]]></lines>
+	<lines name="city" descr=""><![CDATA[Город]]></lines>
+	<lines name="choose_company" descr=""><![CDATA[Выбрать компанию]]></lines>
+	<lines name="hint_3" descr=""><![CDATA[Вам необходимо выбрать компанию, агентом которой вы хотите стать. На почтовой ящик этой компании придет письмо для подтверждения/отклонения вашей персоны как агента. Также вы можете оставить поле компания пустым, в этом случае любая компания может прислать вам приглашение стать их агентом.]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Выбор компании]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Поиск пользователя]]></lines>
+	<lines name="search_help_company" descr=""><![CDATA[Для поиска введите идентифицирующие пользователя данные: имя, фамилия, название компании.]]></lines>
+	<lines name="search_help_agent" descr=""><![CDATA[Для поиска введите идентифицирующие пользователя данные: имя, фамилия, Email.]]></lines>
+	<lines name="number" descr=""><![CDATA[№]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Имя]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Объявления]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Пополнение счета]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Название компании]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[По вашему запросу ничего не найдено]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Отсутствуют]]></lines>
+	<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+	<lines name="already_choose" descr=""><![CDATA[С данной компанией у вас уже установлен контакт, подробности на странице Мой риэлтор.]]></lines>
+	<lines name="need_agree" descr=""><![CDATA[Пожалуйста отметьте пункт, подтверждающий ваше согласие с правилами и условиями регистрации на сайте.]]></lines>
+	<lines name="enter_valid_company" descr=""><![CDATA[Вы ввели имя компании, незарегистрированной на сайте. Выберите компанию из списка или оставьте это поле пустым.]]></lines>
+	<lines name="with_company_1" descr=""><![CDATA[С компанией]]></lines>
+	<lines name="with_company_2" descr=""><![CDATA[у вас уже установлен контакт. Подробности на странице Мой риэлтор.]]></lines>
+	<lines name="need_search_criteria" descr=""><![CDATA[Пожалуйста, укажите критерии поиска]]></lines>
+</data>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="empty_result" descr=""><![CDATA[Leider ist Ihre Liste leer]]></lines>
+<lines name="login" descr=""><![CDATA[Mitgliedsname]]></lines>
+<lines name="age" descr=""><![CDATA[Alter]]></lines>
+<lines name="date_last_login" descr=""><![CDATA[Letzte Anmeldung]]></lines>
+<lines name="status" descr=""><![CDATA[Status]]></lines>
+<lines name="online" descr=""><![CDATA[Online]]></lines>
+<lines name="offline" descr=""><![CDATA[Offline]]></lines>
+<lines name="del_from_list" descr=""><![CDATA[Aus der Hotliste entfernen]]></lines>
+<lines name="contact_user" descr=""><![CDATA[Das Mitglied kontaktieren]]></lines>
+<lines name="contact_admin" descr=""><![CDATA[Sich über das Mitglied beklagen]]></lines>
+<lines name="date_added" descr=""><![CDATA[Veröffentlichungsdatum]]></lines>
+<lines name="nickname" descr=""><![CDATA[Mitgliedernamen]]></lines>
+<lines name="date_reg" descr=""><![CDATA[Anmeldungsdatum]]></lines>
+<lines name="date_last" descr=""><![CDATA[letzte Anmeldung]]></lines>
+<lines name="rental_ad" descr=""><![CDATA[Anzeige]]></lines>
+<lines name="time_begin" descr=""><![CDATA[von]]></lines>
+<lines name="time_end" descr=""><![CDATA[bis]]></lines>
+<lines name="empty" descr=""><![CDATA[Erhältlich]]></lines>
+</data>

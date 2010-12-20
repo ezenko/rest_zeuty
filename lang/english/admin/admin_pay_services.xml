@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="payment_between_user" descr=""><![CDATA[Payments among members]]></lines>
+	<lines name="payment_between_user_help" descr=""><![CDATA[Payments among members are necessary in case not all members can add funds to their account. In this case other members will be able to help. For example a friend could add funds to his friend's account that undergoes financial difficulties or his credit card does not work with the payment systems available. Also realtor can add funds to his agents accounts. You can get revenue from these operations, setting some commissions rate. The more commissions you set, the less popular this service will be.]]></lines>
+	<lines name="commission_percent" descr=""><![CDATA[Commissions rate]]></lines>	
+	<lines name="top_search" descr=""><![CDATA[Lift &quot;up&quot; listing in search results]]></lines>
+	<lines name="slideshow" descr=""><![CDATA[Make listing featured in search results (slideshow)]]></lines>
+	<lines name="featured_in_region" descr=""><![CDATA[Make listing featured in region]]></lines>	
+	<lines name="sevice_cost" descr=""><![CDATA[Cost]]></lines>	
+	<lines name="featured_in_region_period" descr=""><![CDATA[Period of charging for service "Leader of the region"]]></lines>	
+	<lines name="featured_in_region_cost" descr=""><![CDATA[Amount]]></lines>		
+	<lines name="featured_in_region_help" descr=""><![CDATA[A lisitng becomes "Leader of the region" if his owner pays amount greater that preceeding leader. You can set the period of charging for this service so that your site members could outbid current leader.For example, every minute a leader will be charged 1]]></lines>		
+	<lines name="top_search_help" descr=""><![CDATA[Search results on the site are sorted by date, that is latest listings will be displayed higher in search results. Site members can lift up the listing in search results using this service.]]></lines>		
+	<lines name="slideshow_help" descr=""><![CDATA[This service allows a member to outline his listing; photos of the listing will be displayed as attractive slide show. Set the length of slide show display for every site usage.]]></lines>		
+	<lines name="lcbonus_help" descr=""><![CDATA[You can provide your site members with a bonus for filling the listing with the info using this service. Set the number of unique member's listings, filling which members will get bonus. Add the necessary amount of correlations &quot;percentage of  filling - bonus amount&quot; in the table below.]]></lines>			
+	<lines name="sevice_period" descr=""><![CDATA[Show length]]></lines>	
+	<lines name="days" descr=""><![CDATA[day(s)]]></lines>
+	<lines name="minutes" descr=""><![CDATA[min.]]></lines>	
+	<lines name="listing_completion_bonus" descr=""><![CDATA[Bonus for filling in the listing]]></lines>	
+	<lines name="listing_completion_bonus_activate" descr=""><![CDATA[Turn on the service and info about it on the site]]></lines>	
+	<lines name="percent" descr=""><![CDATA[%]]></lines>	
+	<lines name="listing_completion_bonus_number" descr=""><![CDATA[Number of listings for filling which members can get bonus]]></lines>	
+	<lines name="positive_int" descr=""><![CDATA[Value of the field should be a counting positive number]]></lines>	
+	<lines name="not_minus_int" descr=""><![CDATA[Value of the field should be a counting not negative number]]></lines>	
+	<lines name="positive_float" descr=""><![CDATA[Value of the field should be a positive number &quot;.&quot; for dividing counting number into fractional.]]></lines>	
+	<lines name="big_percent" descr=""><![CDATA[Value of the field should be between 0 and 99]]></lines>	
+	<lines name="invalid_lc_bonus_percent" descr=""><![CDATA[Value of the field “% of listing filling ” should be a positive number between 1 and 100!]]></lines>	
+	<lines name="invalid_lc_bonus_amount" descr=""><![CDATA[Value of the field “bonus amount” should be a positive number, use “.” to divide a counting number and fractional!]]></lines>			
+	<lines name="lc_bonus_percent_dublicate" descr=""><![CDATA[Bonus for such value of the field “% of listing filling” already exists!]]></lines>			
+	<lines name="bonus_settings_list" descr=""><![CDATA[List of bonuses for filling in the listing]]></lines>	
+	<lines name="delete_last_bonus" descr=""><![CDATA[Do you really want to remove the last bouns available? If you remove it, the bonus service will be turned off!]]></lines>	
+	<lines name="use_lc_bonus_no_bonus" descr=""><![CDATA[To enable bonuses for filling the listings, it's necessary to add at least one “% of listing filling - bonus amount” into the list of bonuses!]]></lines>	
+	<lines name="sec_group_payment" descr=""><![CDATA[Groups membership cost]]></lines>	
+	<lines name="sec_pay_services" descr=""><![CDATA[Paid services]]></lines>	
+	<lines name="membership_pay_services_help" descr=""><![CDATA[Here you can manage the cost of membership in paid groups.]]></lines>
+	<lines name="sell_lease_payment" descr=""><![CDATA[Cost for publishing listings for sale and for lease]]></lines>
+	<lines name="sell_lease_payment_activate" descr=""><![CDATA[Enable the payment option and make it available on the site]]></lines>	
+	<lines name="sell_lease_payment_help" descr=""><![CDATA[You can set the cost for posting listings for sale and for lease on your site. Add the values of correlation &quot;number of listings - cost&quot; in the table below.]]></lines>			
+	<lines name="invalid_sell_lease_ads_number" descr=""><![CDATA[Value of the field “number of listings” should be a counting number starting from 1!]]></lines>	
+	<lines name="invalid_sell_lease_amount" descr=""><![CDATA[Value of the field “cost” should be a positive figure, use “.” for dividing counting part from fractional!]]></lines>			
+	<lines name="sell_lease_ads_number_dublicate" descr=""><![CDATA[Cost for such number of listings already exists!]]></lines>			
+	<lines name="sell_lease_settings_list" descr=""><![CDATA[List of payment options for posting listings on the site]]></lines>	
+	<lines name="delete_last_sell_lease" descr=""><![CDATA[Do you really want to remove the last value of cost for posting a listing? If you remove it, paid service of posting listings for sale and for lease will be automatically disabled!]]></lines>	
+	<lines name="use_sell_lease_no_sell_lease" descr=""><![CDATA[To enable paid posting of listings for sale and for lease, it's necessary to add at least one correlation “number of listings - cost” into the list!]]></lines>	
+	<lines name="ads_number" descr=""><![CDATA[listings]]></lines>	
+</data>

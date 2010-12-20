@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Управление пользователями]]></lines>
+<lines name="empry_result" descr=""><![CDATA[Empty result]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="birthday" descr=""><![CDATA[Дата рождения]]></lines>
+<lines name="email" descr=""><![CDATA[Email]]></lines>
+<lines name="nick" descr=""><![CDATA[Логин]]></lines>
+<lines name="name" descr=""><![CDATA[Имя]]></lines>
+<lines name="date_reg" descr=""><![CDATA[Дата регистрации]]></lines>
+<lines name="date_last" descr=""><![CDATA[Был на сайте]]></lines>
+<lines name="status" descr=""><![CDATA[Статус]]></lines>
+<lines name="active" descr=""><![CDATA[Активность]]></lines>
+<lines name="access" descr=""><![CDATA[Доступ]]></lines>
+<lines name="delete" descr=""><![CDATA[Удаление]]></lines>
+<lines name="list_form" descr=""><![CDATA[Список пользователей]]></lines>
+<lines name="edit_form" descr=""><![CDATA[User Edit]]></lines>
+<lines name="sname" descr=""><![CDATA[Фамилия]]></lines>
+<lines name="login" descr=""><![CDATA[User login]]></lines>
+<lines name="phone" descr=""><![CDATA[Телефон]]></lines>
+<lines name="login_count" descr=""><![CDATA[Число заходов]]></lines>
+<lines name="incorrect_field" descr=""><![CDATA[Неверное поле]]></lines>
+<lines name="change_pass" descr=""><![CDATA[Сменить пароль]]></lines>
+<lines name="password" descr=""><![CDATA[Пароль]]></lines>
+<lines name="ver_password" descr=""><![CDATA[Повторите пароль]]></lines>
+<lines name="send_to_user" descr=""><![CDATA[Send to user]]></lines>
+<lines name="login_exists" descr=""><![CDATA[Login already exists]]></lines>
+<lines name="email_exists" descr=""><![CDATA[Email already exists]]></lines>
+<lines name="del_confirm" descr=""><![CDATA[Delete this user?]]></lines>
+<lines name="del_upload_confirm" descr=""><![CDATA[Delete upload?]]></lines>
+<lines name="del_ad_confirm" descr=""><![CDATA[Delete this ad?]]></lines>
+<lines name="rental_ads" descr=""><![CDATA[Объявления пользователя]]></lines>
+<lines name="available" descr=""><![CDATA[Available date]]></lines>
+<lines name="movedate" descr=""><![CDATA[Move-in-date]]></lines>
+<lines name="location" descr=""><![CDATA[Location]]></lines>
+<lines name="people_count" descr=""><![CDATA[People count]]></lines>
+<lines name="about_me" descr=""><![CDATA[About me and my preferences for place to live]]></lines>
+<lines name="about_us" descr=""><![CDATA[About us and our preferences for place to live]]></lines>
+<lines name="i_have_text" descr=""><![CDATA[People preferences and my residence information]]></lines>
+<lines name="age" descr=""><![CDATA[Age]]></lines>
+<lines name="payment" descr=""><![CDATA[Payment]]></lines>
+<lines name="deposit" descr=""><![CDATA[Deposit]]></lines>
+<lines name="square" descr=""><![CDATA[Square]]></lines>
+<lines name="comment" descr=""><![CDATA[Additional comments]]></lines>
+<lines name="uploads" descr=""><![CDATA[Uploads]]></lines>
+<lines name="no_photos" descr=""><![CDATA[No photos]]></lines>
+<lines name="headline" descr=""><![CDATA[Personal headline]]></lines>
+<lines name="zip_code" descr=""><![CDATA[Zip code]]></lines>
+<lines name="street_cross" descr=""><![CDATA[Cross streets]]></lines>
+<lines name="adress" descr=""><![CDATA[Address]]></lines>
+<lines name="or_more" descr=""><![CDATA[or more]]></lines>
+<lines name="wake_up" descr=""><![CDATA[Wake up]]></lines>
+<lines name="go_to_bed" descr=""><![CDATA[Go to bed]]></lines>
+<lines name="user_field_1" descr=""><![CDATA[Зарегистрирован как]]></lines>
+<lines name="user_field_2" descr=""><![CDATA[частное лицо]]></lines>
+<lines name="user_field_3" descr=""><![CDATA[риэлтор]]></lines>
+<lines name="user_field_4" descr=""><![CDATA[агент компании]]></lines>
+<lines name="company_name" descr=""><![CDATA[Название фирмы]]></lines>
+<lines name="company_url" descr=""><![CDATA[Сайт]]></lines>
+<lines name="weekday_str" descr=""><![CDATA[Дни работы]]></lines>
+<lines name="work_time" descr=""><![CDATA[Время работы]]></lines>
+<lines name="lunch_time" descr=""><![CDATA[Обед]]></lines>
+<lines name="logo_path" descr=""><![CDATA[Логотип]]></lines>
+<lines name="mail_link" descr=""><![CDATA[Переписка пользователя]]></lines>
+<lines name="from" descr=""><![CDATA[От]]></lines>
+<lines name="to" descr=""><![CDATA[К]]></lines>
+<lines name="time" descr=""><![CDATA[Время]]></lines>
+<lines name="body" descr=""><![CDATA[Текст]]></lines>
+<lines name="user_type" descr=""><![CDATA[Тип]]></lines>
+<lines name="user_type_1" descr=""><![CDATA[Частное лицо]]></lines>
+<lines name="user_type_2" descr=""><![CDATA[Риэлтор]]></lines>
+<lines name="user_type_3" descr=""><![CDATA[Агент компании]]></lines>
+<lines name="admin" descr=""><![CDATA[Администратор]]></lines>
+<lines name="guest" descr=""><![CDATA[Гость]]></lines>
+<lines name="user_list_help" descr=""><![CDATA[Здесь вы можете найти информацию о любом пользователе, просмотреть профайл пользователя, ознакомится с его перепиской, удалить некорректные объявления. Через поле "Доступ" вы можете активировать и деактивировать его работу в системе.]]></lines>
+<lines name="user_profile_help" descr=""><![CDATA[Вы просматриваете профайл пользователя.]]></lines>
+<lines name="mailbox" descr=""><![CDATA[Переписка]]></lines>
+<lines name="user_ads" descr=""><![CDATA[Объявления]]></lines>
+<lines name="empty" descr=""><![CDATA[Отсутствует]]></lines>
+<lines name="empty_ads" descr=""><![CDATA[Отсутствуют]]></lines>
+<lines name="user_mail_help" descr=""><![CDATA[Вы просматриваете всю переписку пользователя со другими пользователями.]]></lines>
+<lines name="user_ads_help" descr=""><![CDATA[Здесь вы можете просмотреть объявления пользователя, а также удалить их.]]></lines>
+<lines name="user_import_help" descr=""><![CDATA[Если у вас есть база пользователей и вы хотите импортировать её, пожалуйста свяжитесь с нашей службой поддержки.]]></lines>
+<lines name="user_need" descr=""><![CDATA[арендует недвижимость]]></lines>
+<lines name="user_have" descr=""><![CDATA[сдаёт в аренду недвижимость]]></lines>
+<lines name="user_sell" descr=""><![CDATA[продаёт недвижимость]]></lines>
+<lines name="user_buy" descr=""><![CDATA[покупает недвижимость]]></lines>
+<lines name="about_realty" descr=""><![CDATA[О недвижимости]]></lines>
+<lines name="planirovka" descr=""><![CDATA[Фото (планировка)]]></lines>
+<lines name="general_photo" descr=""><![CDATA[Фото (общие)]]></lines>
+<lines name="video" descr=""><![CDATA[Видео]]></lines>
+<lines name="my_preferences" descr=""><![CDATA[Мои предпочтения]]></lines>
+<lines name="link_ads" descr=""><![CDATA[Объявления]]></lines>
+<lines name="time_begin" descr=""><![CDATA[С]]></lines>
+<lines name="time_end" descr=""><![CDATA[до]]></lines>
+<lines name="user_info" descr=""><![CDATA[Профайл пользователя]]></lines>
+<lines name="user_statistics" descr=""><![CDATA[Статистика по пользователю]]></lines>
+<lines name="add_user_help" descr=""><![CDATA[Здесь вы можете добавить пользователя.]]></lines>
+<lines name="letter_search_help" descr=""><![CDATA[Поиск по первой букве в E-mail пользователя]]></lines>
+<lines name="empty_result" descr=""><![CDATA[К сожалению, ничего не найдено по вашему запросу. Попробуйте изменить]]></lines>
+<lines name="empty_res_search_criteria" descr=""><![CDATA[настройки поиска]]></lines>
+<lines name="del_user_confirm" descr=""><![CDATA[Вы уверены, что хотите удалить пользователя? При удалении пользователя удаляется вся информация, связанная с ним: объявления, статистика платежей, переписка. Также пользователь удаляется из контакт листов других пользователей сайта.]]></lines>
+<lines name="admin_approve_not_complete" descr=""><![CDATA[не одобрен]]></lines>
+<lines name="admin_approve_decline" descr=""><![CDATA[запрещен]]></lines>
+<lines name="spended" descr=""><![CDATA[Баланс<br>(потрачено)]]></lines>
+<lines name="interface_language" descr=""><![CDATA[Язык интерфейса]]></lines>
+<lines name="country" descr=""><![CDATA[Страна]]></lines>
+<lines name="region" descr=""><![CDATA[Регион]]></lines>
+<lines name="city" descr=""><![CDATA[Город]]></lines>
+<lines name="address" descr=""><![CDATA[Адрес]]></lines>
+<lines name="zipcode" descr=""><![CDATA[Индекс]]></lines>
+<lines name="ip_country" descr=""><![CDATA[Выберите страну...]]></lines>
+<lines name="ip_region" descr=""><![CDATA[Выберите регион...]]></lines>
+<lines name="ip_load_region" descr=""><![CDATA[Загрузка регионов...]]></lines>
+<lines name="ip_city" descr=""><![CDATA[Выберите город...]]></lines>
+<lines name="ip_load_city" descr=""><![CDATA[Загрузка городов...]]></lines>
+<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+<lines name="time_end" descr=""><![CDATA[до]]></lines>
+<lines name="empty_period" descr=""><![CDATA[Свободна]]></lines>
+<lines name="calendar" descr=""><![CDATA[Calendar]]></lines>
+<lines name="calendar_name" descr=""><![CDATA[Календарь бронирования]]></lines>
+<lines name="view_calendar" descr=""><![CDATA[Смотреть через календарь]]></lines>
+<lines name="na_days" descr=""><![CDATA[Недоступные дни]]></lines>
+<lines name="reserve_days" descr=""><![CDATA[Забронированные дни]]></lines>
+<lines name="empty_days" descr=""><![CDATA[Свободные дни]]></lines>
+<lines name="view_by_calendar" descr=""><![CDATA[Смотреть через календарь]]></lines>
+<lines name="choose_company" descr=""><![CDATA[Выбрать компанию]]></lines>
+
+<lines name="prev_month" descr=""><![CDATA[месяц]]></lines>
+<lines name="next_month" descr=""><![CDATA[месяц]]></lines>
+<lines name="prev_year" descr=""><![CDATA[год]]></lines>
+<lines name="next_year" descr=""><![CDATA[год]]></lines>
+
+<lines name="work_days" descr=""><![CDATA[Дни работы]]></lines>
+<lines name="work_time" descr=""><![CDATA[Время работы]]></lines>
+<lines name="hint_3" descr=""><![CDATA[Вам необходимо выбрать компанию, которая станет риэлтором для этого пользователя. На почтовой ящик этой компании придет письмо для подтверждения/отклонения вашей персоны как агента. Также вы можете оставить поле компания пустым, в этом случае любая компания может прислать пользователю приглашение стать их агентом.]]></lines>
+<lines name="company_name" descr=""><![CDATA[Название компании]]></lines>
+<lines name="empty_search" descr=""><![CDATA[По вашему запросу ничего не найдено]]></lines>
+<lines name="empty_ads" descr=""><![CDATA[Отсутствуют]]></lines>
+<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+<lines name="not_approve" descr=""><![CDATA[Компания еще не обработала заявку пользователя на предмет сотрудничества]]></lines>
+<lines name="your_photo" descr=""><![CDATA[Фотография]]></lines>
+<lines name="agency_url" descr=""><![CDATA[Сайт(url) компании]]></lines>
+<lines name="agency_logo" descr=""><![CDATA[Логотип компании]]></lines>
+<lines name="location" descr=""><![CDATA[Расположение]]></lines>
+<lines name="need_delete_realtor" descr=""><![CDATA[Для того чтобы поменять тип пользователя необходимо, чтобы он не являлся агентом какой-либо компании]]></lines>
+<lines name="need_delete_agents" descr=""><![CDATA[Для того чтобы поменять тип пользователя необходимо, чтобы у него не было агентов]]></lines>
+<lines name="delete_agents" descr=""><![CDATA[Перед деактивацией аккаунта пользователя необходимо, чтобы у него не было агентов]]></lines>
+<lines name="delete_realtor" descr=""><![CDATA[Перед деактивацией аккаунта пользователя необходимо, тобы он не был агентом какой-либо компании]]></lines>
+<lines name="decline_company" descr=""><![CDATA[Отозвать предложение компании]]></lines>
+<lines name="change_company" descr=""><![CDATA[Изменить компанию]]></lines>
+<lines name="delete_company" descr=""><![CDATA[Удалить компанию]]></lines>
+<lines name="na_agency_1" descr=""><![CDATA[Компания]]></lines>
+<lines name="na_agency_2" descr=""><![CDATA[не найдена]]></lines>
+<lines name="na_agency_3" descr=""><![CDATA[Пустое поле недопустимо]]></lines>
+<lines name="with_company_1" descr=""><![CDATA[С компанией]]></lines>
+<lines name="with_company_2" descr=""><![CDATA[у пользователя уже установлен контакт.]]></lines>
+<lines name="incorrect_time_interval" descr=""><![CDATA[Не правильно указан интервал]]></lines>
+<lines name="password_requirement" descr=""><![CDATA[пароль должен содержать от 4-х до 10-ти символов]]></lines>
+<lines name="payment_history" descr=""><![CDATA[История поступлений от пользователя]]></lines>
+<lines name="spent_history" descr=""><![CDATA[Списания пользователя]]></lines>
+<lines name="pay_manual" descr=""><![CDATA[Пополнение счета пользователя вручную]]></lines>
+<lines name="balance" descr=""><![CDATA[Текущий баланс]]></lines>
+<lines name="add_for" descr=""><![CDATA[Пополнить на]]></lines>
+<lines name="add_on" descr=""><![CDATA[Пополнить]]></lines>
+<lines name="incorrect_input_field" descr=""><![CDATA[Неправильный формат суммы пополнения]]></lines>
+<lines name="add_to_all" descr=""><![CDATA[Добавить денег всем пользователям]]></lines>
+<lines name="pay_manual_all" descr=""><![CDATA[Пополнение счета всех пользователей]]></lines>
+<lines name="add_to_all_help" descr=""><![CDATA[Здесь вы можете пополнить счет всех пользователей одним кликом! Введите сумму и нажмите "Пополнить". Внимание, используйте эту функцию осторожно, так как вернуть эту операцию уже будет нельзя! В случае если вы выберете опцию "Оповестить по e-mail о пополнении", то каждому пользователю придет письмо. В случае если пользователей большое количество, то это может занять продолжительное время и сервер может не справиться с нагрузкой.]]></lines>
+<lines name="use_alert" descr=""><![CDATA[Оповестить по e-mail о пополнении]]></lines>
+<lines name="use_only_private_user_type" descr=""><![CDATA[Выключена опция 'Использовать тип 'Агент компании'.]]></lines>
+<lines name="no_funds" descr=""><![CDATA[Средств нет]]></lines>
+</data>

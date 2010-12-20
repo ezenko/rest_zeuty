@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="auth_failed" descr=""><![CDATA[Неверное имя пользователя или пароль]]></lines>
+<lines name="auth_access_1" descr=""><![CDATA[К сожалению для вас блокирован доступ в систему. Для выяснения причин свяжитесь со ]]></lines>
+<lines name="auth_access_2" descr=""><![CDATA[службой поддержки]]></lines>
+<lines name="auth_access_3" descr=""><![CDATA[ для выяснения подробностей.]]></lines>
+<lines name="invalid_date" descr=""><![CDATA[Неверная дата]]></lines>
+<lines name="empty_fields" descr=""><![CDATA[Найдены пустые поля, обязательные для заполнения]]></lines>
+<lines name="fill_empty_fields" descr=""><![CDATA[Пожалуйста заполните все обязательные поля. Затем попробуйте сохранить вновь.]]></lines>
+<lines name="wrong_login" descr=""><![CDATA[Неверное имя пользователя]]></lines>
+<lines name="wrong_email" descr=""><![CDATA[Неверный e-mail]]></lines>
+<lines name="wrong_pass" descr=""><![CDATA[Неверный пароль]]></lines>
+<lines name="email_not_eq" descr=""><![CDATA[Вы ввели неверный подтверждающий e-mail]]></lines>
+<lines name="pass_not_eq" descr=""><![CDATA[Вы ввели неверный подтверждающий пароль]]></lines>
+<lines name="pass_eq_login" descr=""><![CDATA[Имя пользователя и пароль должны отличаться]]></lines>
+<lines name="login_exist" descr=""><![CDATA[Такое имя пользователя уже используется]]></lines>
+<lines name="email_exist" descr=""><![CDATA[Пользователь с таким e-mail уже зарегистрирован. Пожалуйста, используйте другие контактные данные.]]></lines>
+<lines name="invalid_pin" descr=""><![CDATA[Неверный ПИН для регистрации]]></lines>
+<lines name="invalid_keystring" descr=""><![CDATA[Неверный ПИН]]></lines>
+<lines name="mail_error" descr=""><![CDATA[Неверный e-mail получателя. Ваше сообщение не было отправлено]]></lines>
+<lines name="email_was_sent" descr=""><![CDATA[Ваше сообщение успешно отправлено]]></lines>
+<lines name="error_not_user" descr=""><![CDATA[Такой пользователь не существует]]></lines>
+<lines name="error_confirm_user" descr=""><![CDATA[Ваша регистрация уже успешно подтверждена]]></lines>
+<lines name="success_confirm_user" descr=""><![CDATA[Ваша регистрация успешно подтверждена]]></lines>
+<lines name="error_not_email" descr=""><![CDATA[Такой e-mail не существует]]></lines>
+<lines name="success_lost_pass_email" descr=""><![CDATA[Информация о вас успешно обновлена и обновленные данные отправлены на указанный вами e-mail]]></lines>
+<lines name="invalid_to" descr=""><![CDATA[Неверное имя пользователя в 'to' поле]]></lines>
+<lines name="empty_subject" descr=""><![CDATA[Пожалуйста укажите тему сообщения]]></lines>
+<lines name="empty_body" descr=""><![CDATA[Пожалуйста укажите текст сообщения]]></lines>
+<lines name="your_in_blacklist" descr=""><![CDATA[Вы находитесь в заблокированном списке отправителей этого пользователя. К сожалению, ваше сообщение не может быть отправлено к нему]]></lines>
+<lines name="mail_was_resend" descr=""><![CDATA[Ваше сообщение успешно отправлено снова]]></lines>
+<lines name="failed_resend" descr=""><![CDATA[Ваше сообщение не было отправлено снова]]></lines>
+<lines name="del_file" descr=""><![CDATA[Ваша фотография была успешно удалена]]></lines>
+<lines name="cant_delete" descr=""><![CDATA[К сожалению невозможно удалить эту фотографию]]></lines>
+<lines name="cant_upload" descr=""><![CDATA[К сожалению, вы больше не можете загрузить новые фотографии]]></lines>
+<lines name="invalid_photo_type" descr=""><![CDATA[Такой формат фотографии недопустим для использования]]></lines>
+<lines name="invalid_photo_size" descr=""><![CDATA[Такой размер фотографии недопустим для использования]]></lines>
+<lines name="invalid_photo_width" descr=""><![CDATA[Такая ширина фотографии недопустима для использования]]></lines>
+<lines name="invalid_photo_height" descr=""><![CDATA[Такая высота фотографии недопустима для использования]]></lines>
+<lines name="upload_err" descr=""><![CDATA[Ошибка загрузки. Пожалуйста повторите попытку.]]></lines>
+<lines name="file_upload" descr=""><![CDATA[Файл успешно загружен; Пожалуйста дождитесь проверки соотвествия фотографии модератором]]></lines>
+<lines name="file_upload_without_approve" descr=""><![CDATA[Ваш файл был успешно загружен]]></lines>
+<lines name="exists_option" descr=""><![CDATA[Такая опция уже существует]]></lines>
+<lines name="exists_reference" descr=""><![CDATA[Такой отзыв уже существует]]></lines>
+<lines name="completed" descr=""><![CDATA[Ваше объявление было успешно добавлено]]></lines>
+<lines name="limit_ad" descr=""><![CDATA[К сожалению вы не можете добавить более 1-го объявления]]></lines>
+<lines name="invalid_login" descr=""><![CDATA[Такой формат недопустим или логин не введен]]></lines>
+<lines name="invalid_pass" descr=""><![CDATA[Недопустимый формат ввода пароля]]></lines>
+<lines name="invalid_login_length" descr=""><![CDATA[Такая длина логина недопустима]]></lines>
+<lines name="invalid_pass_length" descr=""><![CDATA[Такая длина пароля недопустима]]></lines>
+<lines name="invalid_ver_pass" descr=""><![CDATA[Неверный подтверждающий пароль]]></lines>
+<lines name="invalid_first_name" descr=""><![CDATA[Недопустимый формат ввода имени]]></lines>
+<lines name="invalid_last_name" descr=""><![CDATA[Недопустимый формат ввода фамилии]]></lines>
+<lines name="invalid_email" descr=""><![CDATA[Недопустимый формат e-mail]]></lines>
+<lines name="invalid_ver_email" descr=""><![CDATA[Неверный подтверждающий e-mail]]></lines>
+<lines name="invalid_user_type" descr=""><![CDATA[Не выбран тип пользователя]]></lines>
+<lines name="incorrect_field" descr=""><![CDATA[Неверное поле]]></lines>
+<lines name="incorrect_date" descr=""><![CDATA[Неверная дата]]></lines>
+<lines name="no_slideshow_photos" descr=""><![CDATA[К сожалению ваши фотографии для слайдошу не загружены]]></lines>
+<lines name="inactive_account_1" descr=""><![CDATA[Ваш профайл неактивен. Вы можете активировать его ]]></lines>
+<lines name="inactive_account_2" descr=""><![CDATA[сейчас]]></lines>
+<lines name="inactive_account_3" descr=""><![CDATA[.]]></lines>
+<lines name="no_confirm" descr=""><![CDATA[Пожалуйста проверьте вашу e-mail почту и подтвердите регистрацию]]></lines>
+<lines name="no_status_1" descr=""><![CDATA[К сожалению ваша регистрационная информация была отклонена модератором. Чтобы исправить ]]></lines>
+<lines name="no_status_2" descr=""><![CDATA[свяжитесь с нами]]></lines>
+<lines name="no_status_3" descr=""><![CDATA[ или зарегистрируйтесь снова.]]></lines>
+<lines name="no_access_1" descr=""><![CDATA[К сожалению, у вас нет прав доступа к этой странице. Возможно, для доступа к ней, Вам потребуется ]]></lines>
+<lines name="no_access_2" descr=""><![CDATA[перейти в другую группу пользователей]]></lines>
+<lines name="no_access_3" descr=""><![CDATA[, внеся абонентскую плату.]]></lines>
+<lines name="email_exists" descr=""><![CDATA[Такой e-mail уже используется]]></lines>
+<lines name="login_exists" descr=""><![CDATA[Такое имя пользователя уже используется]]></lines>
+<lines name="min_more_max" descr=""><![CDATA[Минимальный платеж не может превышать максимальный платеж]]></lines>
+<lines name="error_repass" descr=""><![CDATA[Неверный повторный пароль]]></lines>
+<lines name="error_oldpass" descr=""><![CDATA[Неверный старый пароль]]></lines>
+<lines name="admin_pass_changed" descr=""><![CDATA[Пароль администратора был изменен]]></lines>
+<lines name="cant_read_file" descr=""><![CDATA[Ошибка прочтения файла]]></lines>
+<lines name="cant_write_file" descr=""><![CDATA[Ошибка записи файла]]></lines>
+<lines name="badword" descr=""><![CDATA[Введенные данные содержат недопустимые слова или выражения]]></lines>
+<lines name="mailbox_badword" descr=""><![CDATA[Ваше сообщение содержит недопустимые слова или выражения.]]></lines>
+<lines name="age_censored" descr=""><![CDATA[К регистрации допускаются только ползьователи, достигшие 18 лет]]></lines>
+<lines name="date_small_now" descr=""><![CDATA[Недопускается указывать дату раньше, чем текущее время]]></lines>
+<lines name="invalid_start_date" descr=""><![CDATA[Время начала не может быть позже времени завершения события]]></lines>
+<lines name="more_photo" descr=""><![CDATA[Для создания слайдшоу в объявлении должно быть как минимум две фотографии]]></lines>
+<lines name="no_money" descr=""><![CDATA[На вашем счету недостаточно денег]]></lines>
+<lines name="your_ad_was_topsearched" descr=""><![CDATA[Ваше объявление было поднято в поиске]]></lines>
+<lines name="your_ad_was_slideshowed" descr=""><![CDATA[Ваше объявление было выделено в поиске]]></lines>
+<lines name="unknown_error" descr=""><![CDATA[Ошибка системы, повторите еще раз]]></lines>
+<lines name="no_headline" descr=""><![CDATA[Не заполнено приветствие]]></lines>
+<lines name="small_curr" descr=""><![CDATA[Ставка должна быть больше, чем у текущего лидера]]></lines>
+<lines name="no_photo_for_feature" descr=""><![CDATA[В выбранном объявлении нет ни одной фотографии]]></lines>
+<lines name="you_was_featured" descr=""><![CDATA[Поздравляем, ваше объявление теперь Лидер региона! Желаем вам удерживать эту позицию как можно дольше!]]></lines>
+<lines name="bill_is_small" descr=""><![CDATA[На вашем счету недостаточно средств]]></lines>
+<lines name="small_percent" descr=""><![CDATA[Процент заполненности недостаточно большой для получения бонуса]]></lines>
+<lines name="bonus_recieved" descr=""><![CDATA[На ваш счет зачислен бонус!]]></lines>
+<lines name="new_subcategory_added" descr=""><![CDATA[Новая тема была успешно добавлена!]]></lines>
+<lines name="new_post_added" descr=""><![CDATA[Новое сообщение было успешно добавлено!]]></lines>
+<lines name="success_payment" descr=""><![CDATA[Ваша авторизация прошла успешно, проверьте счет через некоторое время]]></lines>
+<lines name="fail_payment" descr=""><![CDATA[Произошла ошибка в платежной системе, обратитесь к администрации]]></lines>
+<lines name="pass_changed" descr=""><![CDATA[Ваш пароль успешно изменен]]></lines>
+<lines name="too_much_descr_selected" descr=""><![CDATA[Недопустимо выбирать много значений для одного человека]]></lines>
+<lines name="too_much_descr_selected_for_two" descr=""><![CDATA[Недопустимо выбрать более двух значений для двух человек]]></lines>
+<lines name="you_reg_data_changed_1" descr=""><![CDATA[Ваш профайл изменён. Теперь вы зарегистрированы как Частное лицо]]></lines>
+<lines name="you_reg_data_changed_2" descr=""><![CDATA[Ваш профайл изменён. Теперь вы зарегистрированы как Риэлтор]]></lines>
+<lines name="you_reg_data_changed_3" descr=""><![CDATA[Ваши регистрационные данные сохранены.]]></lines>
+<lines name="you_reg_data_changed_4" descr=""><![CDATA[Ваш профайл изменён. Теперь вы зарегистрированы как Агент компании]]></lines>
+<lines name="user_reg_data_changed_1" descr=""><![CDATA[Профайл пользователя изменён. Теперь он зарегистрирован как Частное лицо]]></lines>
+<lines name="user_reg_data_changed_2" descr=""><![CDATA[Профайл пользователя изменён. Теперь он зарегистрирован как Риэлтор]]></lines>
+<lines name="user_reg_data_changed_3" descr=""><![CDATA[Данные профайла пользователя сохранены.]]></lines>
+<lines name="user_reg_data_changed_4" descr=""><![CDATA[Профайл пользователя изменён. Теперь он зарегистрированы как Агент Компании]]></lines>
+<lines name="invalid_video_type" descr=""><![CDATA[Такой формат видео недопустим для использования]]></lines>
+<lines name="invalid_video_size" descr=""><![CDATA[Такой размер видео недопустим для использования]]></lines>
+<lines name="group_get" descr=""><![CDATA[С вашего счета списана абонентская плата]]></lines>
+<lines name="price_min_more_max" descr=""><![CDATA[Минимальная плата не может быть больше максимальной]]></lines>
+<lines name="min_payment_error" descr=""><![CDATA[Неверное значение поля &quot;Минимальная стоимость&quot;]]></lines>
+<lines name="max_payment_error" descr=""><![CDATA[Неверное значение поля &quot;Максимальная стоимость&quot;]]></lines>
+<lines name="lang_saved" descr=""><![CDATA[Настройки видимости языковых версий и языка сайта по умолчанию успешно сохранены]]></lines>
+<lines name="lang_empty_parameters" descr=""><![CDATA[Некоторые параметры пусты]]></lines>
+<lines name="lang_exists" descr=""><![CDATA[Такая языковая версия сайта уже существует]]></lines>
+<lines name="lang_cant_chmod" descr=""><![CDATA[Ошибка, пожалуйста, установите chmod 0777 на все файлы и папки нового языка вручную!]]></lines>
+<lines name="lang_added" descr=""><![CDATA[Язык успешно добавлен]]></lines>
+<lines name="one_lang_active" descr=""><![CDATA[Хотя бы одна языковая версия должна оставаться доступной!]]></lines>
+<lines name="not_positive_float_number" descr=""><![CDATA[Значение поля должно быть положительным числом, используйте &quot;.&quot; для разделения целой части числа от дробной!]]></lines>
+<lines name="empty_group_name" descr=""><![CDATA[Введите название группы пользователей!]]></lines>
+<lines name="wrong_group_trial_period" descr=""><![CDATA[Количество дней бесплатного участия в группе должно быть целым положительным числом!]]></lines>
+<lines name="smscoin_tarif_exist" descr=""><![CDATA[Вы пытаетесь добавить уже существующую стоимость услуги для данного оператора!]]></lines>
+<lines name="smscoin_incorrect_tarif_value" descr=""><![CDATA[Значение стоимости тарифа должно должно быть положительным числом, используйте символ &quot;.&quot; для разделения целой и дробной части числа!]]></lines>
+<lines name="activate_alert" descr=""><![CDATA[Сначала заполните обязательные поля в разделе О недвижимости.]]></lines>
+<lines name="incorrect_language_name" descr=""><![CDATA[Название языка должно содержать только буквы латинского алфавита!]]></lines>
+<lines name="could_not_del_last_lang" descr=""><![CDATA[На сайте должна существовать хотя бы одна языковая версия!]]></lines>
+<lines name="lang_deleted" descr=""><![CDATA[Язык успешно удалён]]></lines>
+<lines name="info_new_caption_range" descr=""><![CDATA[Поле &#145;Заголовок&#145; должно содержать от 3 до 255 символов!]]></lines>
+<lines name="info_new_content_range" descr=""><![CDATA[&#145;Текстовое поле&#145; должно содержать от 10 до 50000 символов!]]></lines>
+<lines name="info_successfull_copy" descr=""><![CDATA[Раздел и все его подразделы успешно скопированы в другие языки!]]></lines>
+<lines name="not_font" descr=""><![CDATA[Введены не все параметры шрифта!]]></lines>
+<lines name="not_image" descr=""><![CDATA[Не выбрано изображение!]]></lines>
+<lines name="need_registration_1" descr=""><![CDATA[Пожалуйста, ]]></lines>		
+<lines name="need_registration_2" descr=""><![CDATA[зарегистрируйтесь]]></lines>		
+<lines name="need_registration_3" descr=""><![CDATA[, чтобы получить доcтуп к запрашиваемой странице.]]></lines>		
+<lines name="int_error" descr=""><![CDATA[Сумма перевода должна быть целым положительным числом]]></lines>	
+<lines name="few_balance" descr=""><![CDATA[Ваш баланс не позволяет вам осуществить перевод]]></lines>	
+<lines name="successful_transfer" descr=""><![CDATA[Перед средств осуществлен]]></lines>	
+<lines name="negative_number_error" descr=""><![CDATA[Сумма перевода должна быть положительным числом]]></lines>	
+<lines name="min_transfer_error" descr=""><![CDATA[Минимальная сумма перевода составляет ]]></lines>	
+<lines name="err_not_valid_period" descr=""><![CDATA[Указан неверный диапазон, дата окончания должна быть больше даты начала периода.]]></lines>	
+<lines name="err_not_valid_period2" descr=""><![CDATA[Указана неверная начальная дата, разрешается бронировать периоды не раньше текущего дня.]]></lines>	
+<lines name="err_reserved_yet" descr=""><![CDATA[Указанный период имеет пересечения с уже забронированными.]]></lines>	
+<lines name="err_period_added" descr=""><![CDATA[Период успешно забронирован.]]></lines>	
+<lines name="err_not_available_period" descr=""><![CDATA[Дата бронирования должна превышать дату доступности.]]></lines>	
+<lines name="successful_edit" descr=""><![CDATA[Изменения сохранены.]]></lines>	
+<lines name="exists_country" descr=""><![CDATA[Такая страна уже существует]]></lines>	
+<lines name="exists_city" descr=""><![CDATA[Такой город уже существует]]></lines>	
+<lines name="exists_region" descr=""><![CDATA[Такой регион уже существует]]></lines>	
+<lines name="map_error" descr=""><![CDATA[Карта некорректно работает в браузере Opera. Пожалуйста, воспользуйтесь другим браузером для просмотра карты.]]></lines>	
+<lines name="na_agency" descr=""><![CDATA[Указанная компания не найдена]]></lines>
+<lines name="currency_not_deleted" descr=""><![CDATA[Единственная валюта на сайте не может быть удалена]]></lines>
+<lines name="currensy_is_present" descr=""><![CDATA[Такая валюта уже есть в списке]]></lines>		
+<lines name="invalid_time" descr=""><![CDATA[Ошибочно указаны часы работы и обеда. Эти данные не сохранены.]]></lines>		
+<lines name="empty_permission" descr=""><![CDATA[Не определены права для группы]]></lines>		
+<lines name="success_save" descr=""><![CDATA[Изменения успешно сохранены]]></lines>		
+<lines name="invalid_fields" descr=""><![CDATA[Неверные значения полей]]></lines>	
+<lines name="need_perm_to_feed_folder" descr=""><![CDATA[Пожалуйста установите на папку include/feeds_export права, позволяющие запись туда.]]></lines>	
+<lines name="feed_template_none" descr=""><![CDATA[Не найден шаблон файла экспорта]]></lines>		
+<lines name="need_perm_to_feed_file" descr=""><![CDATA[Для перезаписи файла экспорта установите соответствующие права на этот файл]]></lines>
+<lines name="successful_creating" descr=""><![CDATA[Файл экспорта успешно создан(обновлен)]]></lines>	
+<lines name="invalid_fields" descr=""><![CDATA[Неверные значения полей]]></lines>		
+<lines name="at_least_one_operation_type" descr=""><![CDATA[Как минимум один тип операций (продажа, покупка, сдача в аренду или аренду) должен быть разрешен!]]></lines>	
+<lines name="incorrect_rss_field" descr=""><![CDATA[Требуемые поля пусты, или превышен допустимый размер]]></lines>	
+<lines name="manual_submit" descr=""><![CDATA[Заполненная форма отправлена администратору на обработку. Как только платеж будет проверен, вы получите соответствующее уведомление.]]></lines>	
+
+</data>

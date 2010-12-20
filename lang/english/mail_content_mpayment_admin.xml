@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[A manual payment was submitted on your site]]></lines>
+<lines name="text_0" descr=""><![CDATA[A manual payment was submitted on your site]]></lines>
+<lines name="text_1" descr=""><![CDATA[. The information on the payment can be found below]]></lines>
+<lines name="name" descr=""><![CDATA[Name]]></lines>
+<lines name="login" descr=""><![CDATA[Login]]></lines>
+<lines name="email" descr=""><![CDATA[Email]]></lines>
+<lines name="date" descr=""><![CDATA[Дата перевода]]></lines>
+<lines name="amount" descr=""><![CDATA[Перевод на сумму в]]></lines>
+<lines name="form_data" descr=""><![CDATA[Дополнительная информация]]></lines>
+<lines name="text_2" descr=""><![CDATA[Once your verify the payment, you can either approve it or decline in the section 'List of payments' of your administrator's panel.]]></lines>
+</data>

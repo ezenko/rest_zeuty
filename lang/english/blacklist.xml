@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="empty_result" descr=""><![CDATA[Your list is empty]]></lines>
+<lines name="login" descr=""><![CDATA[User name]]></lines>
+<lines name="age" descr=""><![CDATA[Age]]></lines>
+<lines name="date_last_login" descr=""><![CDATA[Last login date]]></lines>
+<lines name="status" descr=""><![CDATA[Status]]></lines>
+<lines name="online" descr=""><![CDATA[Online]]></lines>
+<lines name="offline" descr=""><![CDATA[Offline]]></lines>
+<lines name="del_from_list" descr=""><![CDATA[Remove from black list]]></lines>
+<lines name="contact_user" descr=""><![CDATA[Contact us]]></lines>
+<lines name="contact_admin" descr=""><![CDATA[Report abuse]]></lines>
+<lines name="date_added" descr=""><![CDATA[Date of addition]]></lines>
+<lines name="nickname" descr=""><![CDATA[User name]]></lines>
+<lines name="date_reg" descr=""><![CDATA[Registration date]]></lines>
+<lines name="date_last" descr=""><![CDATA[Last connection]]></lines>
+<lines name="rental_ad" descr=""><![CDATA[Rental listing]]></lines>
+</data>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="account" descr=""><![CDATA[My profile]]></lines>
+	<lines name="account_menu" descr=""><![CDATA[Menu]]></lines>
+	<lines name="account_deactivate" descr=""><![CDATA[Profile deactivation]]></lines>
+	<lines name="account_profile" descr=""><![CDATA[Profile details]]></lines>
+	<lines name="account_password" descr=""><![CDATA[Password change]]></lines>
+	<lines name="account_subscribtion" descr=""><![CDATA[I want to receive a notification when]]></lines>
+	<lines name="alert" descr=""><![CDATA[You have insufficient permissions to view this page.]]></lines>
+	<lines name="alert2" descr=""><![CDATA[Thanks for your registration. An email with instructions on your registration confirmation was sent to your email address.]]></lines>
+	<lines name="blacklist" descr=""><![CDATA[Black list]]></lines>
+	<lines name="confirm" descr=""><![CDATA[Registration confirmation]]></lines>
+	<lines name="contact" descr=""><![CDATA[Contact Us]]></lines>
+	<lines name="contact_us" descr=""><![CDATA[Contact us]]></lines>
+	<lines name="homepage" descr=""><![CDATA[My Real Estate]]></lines>
+	<lines name="hotlist" descr=""><![CDATA[Hot list]]></lines>
+	<lines name="index_quick_search" descr=""><![CDATA[Quick Search]]></lines>
+	<lines name="member_login" descr=""><![CDATA[Member login]]></lines>
+	<lines name="lost_pass" descr=""><![CDATA[Lost password]]></lines>
+	<lines name="mailbox" descr=""><![CDATA[My contacts]]></lines>
+	<lines name="match" descr=""><![CDATA[Variants matching your criteria]]></lines>
+	<lines name="search_database" descr=""><![CDATA[Search]]></lines>
+	<lines name="search_criteria" descr=""><![CDATA[Search Criteria]]></lines>
+	<lines name="search_add_preferences" descr=""><![CDATA[More options]]></lines>
+	<lines name="search_save" descr=""><![CDATA[Save search criteria]]></lines>
+	<lines name="search_load" descr=""><![CDATA[Load search criteria]]></lines>
+	<lines name="search_direct" descr=""><![CDATA[Direct search]]></lines>
+	<lines name="services" descr=""><![CDATA[Paid services]]></lines>
+	<lines name="services_history" descr=""><![CDATA[Payments history]]></lines>
+	<lines name="services_list" descr=""><![CDATA[Services list]]></lines>
+	<lines name="services_payment_form" descr=""><![CDATA[Add funds to account]]></lines>
+	<lines name="services_user_rent_ads" descr=""><![CDATA[Choose a listing to use this service]]></lines>
+	<lines name="services_paysys" descr=""><![CDATA[Information for the payment]]></lines>
+	<lines name="slideshow" descr=""><![CDATA[Make your listing featured]]></lines>
+	<lines name="slideshow_create" descr=""><![CDATA[Your slideshow]]></lines>
+	<lines name="press" descr=""><![CDATA[Press]]></lines>
+	<lines name="quick_search" descr=""><![CDATA[Quick Search]]></lines>
+	<lines name="registration" descr=""><![CDATA[Free registration]]></lines>
+	<lines name="rentals" descr=""><![CDATA[My listings]]></lines>
+	<lines name="rental_ad_edit" descr=""><![CDATA[Edit listing]]></lines>
+	<lines name="rental_menu" descr=""><![CDATA[Menu]]></lines>
+	<lines name="term" descr=""><![CDATA[Terms and conditions agreement]]></lines>
+	<lines name="viewprofile" descr=""><![CDATA[View profile]]></lines>
+	<lines name="user_account" descr=""><![CDATA[Account balance]]></lines>
+	<lines name="period_rest" descr=""><![CDATA[My credit]]></lines>
+	<lines name="top_search" descr=""><![CDATA[Place your listing at the top of search results .]]></lines>
+	<lines name="featured" descr=""><![CDATA[Single out the listing in the region]]></lines>
+	<lines name="featured_ad" descr=""><![CDATA[Make your bid]]></lines>
+	<lines name="region_leader" descr=""><![CDATA[Leader of the region]]></lines>
+	<lines name="viewedmy" descr=""><![CDATA[Viewed my profile]]></lines>
+	<lines name="viewedtheir" descr=""><![CDATA[The profiles I viewed]]></lines>
+	<lines name="hotlistedme" descr=""><![CDATA[Added me to their Hot List]]></lines>
+	<lines name="hotlistedthem" descr=""><![CDATA[I added to my Hot List]]></lines>
+	<lines name="interme" descr=""><![CDATA[Interested in me]]></lines>
+	<lines name="interthem" descr=""><![CDATA[I am interested in]]></lines>
+	<lines name="power_search" descr=""><![CDATA[Advanced search]]></lines>
+	<lines name="news" descr=""><![CDATA[News]]></lines>
+	<lines name="my_search_preferences" descr=""><![CDATA[My search preferences]]></lines> 
+	<lines name="my_preferences" descr=""><![CDATA[Search preferences]]></lines> 
+	<lines name="my_search_location" descr=""><![CDATA[Preferred location]]></lines> 	
+	<lines name="sell_lease_payment" descr=""><![CDATA[Cost for posting listings for sale and for lease]]></lines>
+	<lines name="rental_ad_new" descr=""><![CDATA[Add listing]]></lines>
+	<lines name="blacklistedme" descr=""><![CDATA[Added me to black list]]></lines>
+	<lines name="error" descr=""><![CDATA[Server error]]></lines>
+	<lines name="sitemap" descr=""><![CDATA[Site Map]]></lines>	
+	<lines name="payment_between_user" descr=""><![CDATA[Add funds to another member's account]]></lines>	
+	<lines name="my_agents" descr=""><![CDATA[My agents]]></lines>	
+	<lines name="agents_list" descr=""><![CDATA[Agents list]]></lines>	
+	<lines name="my_realtor" descr=""><![CDATA[My Realtor]]></lines>	
+	<lines name="company_list" descr=""><![CDATA[Your realtor and company's offers to become their agent]]></lines>	
+	<lines name="slide_show" descr=""><![CDATA[Slide Show Settings]]></lines>	
+</data>

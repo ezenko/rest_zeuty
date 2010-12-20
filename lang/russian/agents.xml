@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="empty_result" descr=""><![CDATA[У вас отсутствуют агенты]]></lines>
+	<lines name="empty_list" descr=""><![CDATA[Список пуст]]></lines>
+	<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+	<lines name="max_payment" descr=""><![CDATA[Max payment]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Available date]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Дата переезда]]></lines>
+	<lines name="location" descr=""><![CDATA[Местоположение]]></lines>
+	<lines name="login" descr=""><![CDATA[Логин]]></lines>
+	<lines name="date_last_login" descr=""><![CDATA[Был на сайте]]></lines>
+	<lines name="status" descr=""><![CDATA[Статус]]></lines>
+	<lines name="online" descr=""><![CDATA[Онлайн]]></lines>
+	<lines name="offline" descr=""><![CDATA[Офлайн]]></lines>
+	<lines name="no_photos" descr=""><![CDATA[Нет фотографий]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Переезд не раньше]]></lines>
+	<lines name="nickname" descr=""><![CDATA[имени]]></lines>
+	<lines name="date_reg" descr=""><![CDATA[дате регистрации]]></lines>
+	<lines name="date_last" descr=""><![CDATA[последней активности]]></lines>
+	<lines name="contact_user" descr=""><![CDATA[Связаться с ним]]></lines>
+	<lines name="contact_admin" descr=""><![CDATA[Пожаловаться на пользователя]]></lines>
+	<lines name="empty" descr=""><![CDATA[Свободна]]></lines>
+	<lines name="rental_ad" descr=""><![CDATA[Последнее объявление]]></lines>
+	<lines name="no_ads_from_user" descr=""><![CDATA[Нет объявлений]]></lines>
+	<lines name="approve" descr=""><![CDATA[Одобрить]]></lines>
+	<lines name="decline" descr=""><![CDATA[Отклонить]]></lines>
+	<lines name="del_from_agents_list" descr=""><![CDATA[Удалить из списка агентов]]></lines>
+	<lines name="new_agent" descr=""><![CDATA[Желает стать вашим агентом]]></lines>
+	<lines name="decline_confirm" descr=""><![CDATA[Вы уверены что хотите отклонить заявку?]]></lines>
+	<lines name="del_confirm" descr=""><![CDATA[Вы уверены что хотите удалить пользователя из своего списка агентов?]]></lines>
+	<lines name="cannot_have" descr=""><![CDATA[Вы не можете иметь собственных агентов. Для этого вы должы быть зарегистрированы как риэлтор.]]></lines>
+	<lines name="change_registration_data" descr=""><![CDATA[Изменить регистрационные данные]]></lines>
+	<lines name="choose_agent" descr=""><![CDATA[Выбор агентов]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Выбор агентов]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Поиск пользователя]]></lines>
+	<lines name="search_help_company" descr=""><![CDATA[Для поиска введите идентифицирующие пользователя данные: имя, фамилия, название компании.]]></lines>
+	<lines name="search_help_agent" descr=""><![CDATA[Для поиска введите идентифицирующие пользователя данные: имя, фамилия, Email.]]></lines>
+	<lines name="number" descr=""><![CDATA[№]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Имя]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Объявления]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Пополнение счета]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Название компании]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[По вашему запросу ничего не найдено]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Отсутствуют]]></lines>
+	<lines name="not_approve_by_agent" descr=""><![CDATA[Письмо с предложением стать агентом послано пользователю.]]></lines>
+	<lines name="del_company_offer" descr=""><![CDATA[Отменить предложение]]></lines>
+	<lines name="confirm_del_company_offer" descr=""><![CDATA[Вы уверены что хотите отменить предложение стать агентом вашей компании?]]></lines>
+	<lines name="new_offer_by_company" descr=""><![CDATA[Предложения от компаний стать их агентом]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Сайт (url)]]></lines>
+	<lines name="new_company" descr=""><![CDATA[Приглашает вас стать их агентом]]></lines>
+	<lines name="decline_offer" descr=""><![CDATA[Вы уверены что хотите отклонить предложение стать агентом?]]></lines>
+	<lines name="preferences_help" descr=""><![CDATA[На данной странице отображаются все предложения от компаний стать их агентами или, если вы уже выбрали своего риэлтора, его данные. Для изменения своих регистрационных данных перейдите по соответствующей ссылке. В случае одобрения заявки одной из компаний, остальные заявки автоматически отклоняются]]></lines>
+	<lines name="no_offer" descr=""><![CDATA[Предложения от риэлторов отсутствуют]]></lines>
+	<lines name="your_realtor" descr=""><![CDATA[Является вашим риэлтором]]></lines>
+	<lines name="offer_by_agent" descr=""><![CDATA[Письмо с предложением стать вашим риэлтором выслано на адрес компании]]></lines>
+	<lines name="already_choose" descr=""><![CDATA[С данной компанией у вас уже установлен контакт, подробности на странице Мой риэлтор. Все равно продолжить?]]></lines>
+	<lines name="delete_realtor" descr=""><![CDATA[Уйти из компании]]></lines>
+	<lines name="conf_delete_realtor" descr=""><![CDATA[Вы уверены что хотите уйти из компании и стать свободным агентом?]]></lines>
+	<lines name="need_search_criteria" descr=""><![CDATA[Пожалуйста, укажите критерии поиска]]></lines>
+	<lines name="add_agents" descr=""><![CDATA[Добавить агентов]]></lines>
+</data>

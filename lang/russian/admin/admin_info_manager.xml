@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="help" descr=""><![CDATA[
+Здесь редактируются страницы (разделы) верхнего и нижнего меню сайта до регистрации и после нее.<br>
+Не подлежат редактированию:<ul style="margin-top:0px; margin-bottom:0px;">
+<li>пункты <b>верхнего меню</b> до регистрации: "Регистрация", "Поиск", "Новости"; после регистрации: "Мой RealEstate", "Поиск", "Новости";</li>
+<li>пункт <b>нижнего меню</b> до регистрации и после: "Контакты".</li>
+</ul>
+Чтобы создать новый раздел в верхнем или нижнем меню, нажмите на кнопку "Добавить раздел". После этого Вы перейдете на страницу WYSIWYG-редактора, где сможете внести название и содержание раздела.<br>
+Чтобы добавить новый подраздел в определенный раздела, нажмите на кнопку "Изменить: ?" в столбце Подразделы. Вы перейдёте на страницу подразделов данного раздела. Управление (создание, редактирование, сортировка, удаление) подразделами аналогично управлению разделами.<br><br>
+В части пользователя ссылки на подразделы размещаются в виде списка на странице раздела после текста содержания раздела, при выборе определённого подраздела его содержание будет показано под списком подразделов на странице раздела.<br><br>
+Вновь добавленный раздел может быть адаптирован под все языки сайта. Для этого скопируйте раздел в другие языки (в других языках раздел будет не активен по умолчанию), нажмите на языковую ссылку и отредактируйте содержание раздела и его подразделов.<br>
+Позицию раздела и подразделов можно изменить с помощью функциональных стрелок ‘На уровень Выше‘ and ‘На уровень Ниже‘. Также Вы можете перенести раздел из нижнего меню в верхнее или наоборот, нажав на соответствующие кнопки<br><br>
+Рекомендуется создавать не более 2-х меню в верхнем меню, т.к. верхнее меню содержит 3 нередактируемых раздела, помимо созданных Вами. В нижнем меню количество разделов не ограничено.
+]]></lines>
+<lines name="add_section" descr=""><![CDATA[Добавить раздел]]></lines>
+<lines name="caption" descr=""><![CDATA[Название раздела]]></lines>
+<lines name="subsect_caption" descr=""><![CDATA[Название подраздела]]></lines>
+<lines name="to_publish" descr=""><![CDATA[Опубликовать]]></lines>
+<lines name="position_number" descr=""><![CDATA[Позиция]]></lines>
+<lines name="publish_title" descr=""><![CDATA[Опубликовать]]></lines>
+<lines name="top_menu" descr=""><![CDATA[Разделы верхнего меню]]></lines>				
+<lines name="bottom_menu" descr=""><![CDATA[Разделы нижнего меню]]></lines>				
+<lines name="move" descr=""><![CDATA[Перенести]]></lines>
+<lines name="delete" descr=""><![CDATA[Удалить]]></lines>
+<lines name="copy_to_langs" descr=""><![CDATA[Копировать в другие языки]]></lines>	
+<lines name="move_up" descr=""><![CDATA[На уровень выше]]></lines>				
+<lines name="move_down" descr=""><![CDATA[На уровень ниже]]></lines>
+<lines name="to_top_menu" descr=""><![CDATA[В верхнее меню]]></lines>				
+<lines name="to_bottom_menu" descr=""><![CDATA[В нижнее меню]]></lines>				
+<lines name="del_section_confirm" descr=""><![CDATA[Вы уверены, что хотите удалить раздел]]></lines>
+<lines name="and_subsections" descr=""><![CDATA[и все его подразделы]]></lines>
+<lines name="subsections" descr=""><![CDATA[Подразделы]]></lines>
+<lines name="add_subsection" descr=""><![CDATA[Добавить подраздел]]></lines>
+<lines name="del_subsection_confirm" descr=""><![CDATA[Вы уверены, что хотите удалить подраздел]]></lines>
+<lines name="sect_subsections" descr=""><![CDATA[Подразделы раздела]]></lines>
+<lines name="preview" descr=""><![CDATA[Просмотр главной страницы]]></lines>
+<lines name="preview_index" descr=""><![CDATA[До регистрации]]></lines>
+<lines name="preview_homepage" descr=""><![CDATA[После регистрации (Мой RealEstate)]]></lines>
+<lines name="metatags" descr=""><![CDATA[Метатеги]]></lines>
+<lines name="description" descr=""><![CDATA[Описание]]></lines>
+<lines name="keywords" descr=""><![CDATA[Ключевые слова]]></lines>
+</data>

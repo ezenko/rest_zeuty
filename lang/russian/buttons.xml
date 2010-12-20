@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="save" descr=""><![CDATA[Сохранить]]></lines>
+	<lines name="send" descr=""><![CDATA[Отправить]]></lines>
+	<lines name="back" descr=""><![CDATA[Назад]]></lines>
+	<lines name="delete" descr=""><![CDATA[Удалить]]></lines>
+	<lines name="load" descr=""><![CDATA[Загрузить]]></lines>
+	<lines name="submit" descr=""><![CDATA[Принять]]></lines>
+	<lines name="register" descr=""><![CDATA[Зарегистрироваться]]></lines>	
+	<lines name="upload" descr=""><![CDATA[Загрузить]]></lines>
+	<lines name="close" descr=""><![CDATA[Закрыть]]></lines>
+	<lines name="search" descr=""><![CDATA[Найти]]></lines>
+	<lines name="comunicate" descr=""><![CDATA[Контакт]]></lines>
+	<lines name="add" descr=""><![CDATA[Добавить]]></lines>
+	<lines name="change" descr=""><![CDATA[Изменить]]></lines>
+	<lines name="users_list" descr=""><![CDATA[Список пользователей]]></lines>
+	<lines name="refresh" descr=""><![CDATA[Обновить]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Удалить объявление]]></lines>
+	<lines name="save_1" descr=""><![CDATA[Сохранить]]></lines>
+	<lines name="send_message" descr=""><![CDATA[Отправить сообщение]]></lines>
+	<lines name="view" descr=""><![CDATA[Просмотреть]]></lines>
+	<lines name="to_payment" descr=""><![CDATA[Пополнить]]></lines>
+	<lines name="transfer" descr=""><![CDATA[Перевести]]></lines>
+	<lines name="mark" descr=""><![CDATA[Забронировать]]></lines>
+	<lines name="choose" descr=""><![CDATA[Выбрать]]></lines>
+	<lines name="add_agents" descr=""><![CDATA[Добавить агентов]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Удалить объявление]]></lines>
+	<lines name="apply" descr=""><![CDATA[Применить]]></lines>
+</data>

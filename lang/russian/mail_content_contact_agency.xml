@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="Тема письма"><![CDATA[[site_name] - заполнена форма контакта от агентства недвижимости]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Имя компании]]></lines>
+	<lines name="company_contact_person" descr=""><![CDATA[Контакное лицо]]></lines>
+	<lines name="company_phone" descr=""><![CDATA[Телефон]]></lines>
+	<lines name="company_email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Cайт компании (url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Количество вариантов недвижимости]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Как вы узнали о [site_name]]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Ваши вопросы и комментарии]]></lines>
+</strings>

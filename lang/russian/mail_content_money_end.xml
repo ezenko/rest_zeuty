@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="Тема письма"><![CDATA[Заканчиваются деньги на счете [site_name]]]></lines>
+<lines name="text" descr=""><![CDATA[К сожалению, на Вашем счете заканчиваются средства. Пожалуйста, пополните счет, чтобы иметь возможность пользоваться платными услугами.]]></lines>
+</data>

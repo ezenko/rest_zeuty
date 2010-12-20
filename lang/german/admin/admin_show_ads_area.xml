@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="show_ads_area_help" descr=""><![CDATA[Sie können die Vorführung der unten aufgelisteten Anzeigen einstellen.<br>Wählen Sie eine der 2 zugänglichen Varianten: <B>4 Anzeigen</B>pro Reihe (in diesem Fall wird empfohlen, gerade Zahlen als Feldwerte zu nennen: &quot;Anzeigenanzahl pro Seite&quot;, damit jede Reihe 4 Anzeigen aufweist) oder in einer Liste (Anzeigen folgen einander, jede weitere Anzeige in der nächsten Reihe).]]></lines>		
+	<lines name="index" descr=""><![CDATA[Homepage]]></lines>
+	<lines name="quick_search" descr=""><![CDATA[Sucheseite]]></lines>		
+	<lines name="homepage" descr=""><![CDATA[Mein Real Estate]]></lines>		
+	<lines name="for_unregistered" descr=""><![CDATA[vor der Anmeldung]]></lines>
+	<lines name="for_registered" descr=""><![CDATA[nach der Anmeldung]]></lines>	
+	<lines name="show_as" descr=""><![CDATA[Zeigen]]></lines>	
+	<lines name="row" descr=""><![CDATA[In Reihen]]></lines>
+	<lines name="list" descr=""><![CDATA[In einer Liste]]></lines>	
+	<lines name="ads_number" descr=""><![CDATA[Anzeigenazahl pro Seite]]></lines>		
+	<lines name="max_views" descr=""><![CDATA[Populärste Anzeigen nach Aufrufanzahl]]></lines>	
+	<lines name="admin_choose" descr=""><![CDATA[Gesponsert]]></lines>		
+	<lines name="last_added" descr=""><![CDATA[Am letzten hinzufegügt]]></lines>	
+	<lines name="off" descr=""><![CDATA[Deaktivieren]]></lines>		
+	<lines name="invalid_ads_number" descr=""><![CDATA[Anzeigenanzahl soll eine ganze Zahl sein und ab 1 anfangen]]></lines>		
+	<lines name="positive_int_not_more_than" descr=""><![CDATA[Feldwert soll eine ganze Zahl sein, nicht meht als ]]></lines>
+</data>

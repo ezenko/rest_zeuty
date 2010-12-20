@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Welcome]]></lines>
+<lines name="page_subheader" descr=""><![CDATA[Please login]]></lines>
+<lines name="login" descr=""><![CDATA[Login]]></lines>
+<lines name="password" descr=""><![CDATA[Password]]></lines>
+<lines name="button_login" descr=""><![CDATA[Login]]></lines>
+<lines name="invalid_login" descr=""><![CDATA[Empty login field]]></lines>
+<lines name="invalid_passw" descr=""><![CDATA[Empty password field]]></lines>
+</data>

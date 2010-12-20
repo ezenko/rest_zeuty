@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<item name="edit_profile" href="/account.php"><![CDATA[Редактирование профайла]]></item>
+	<item name="edit_password" href="/account.php?sel=edit_password"><![CDATA[Изменить пароль]]></item>
+	<item name="edit_rentals" href="/rentals.php?sel=list_ads"><![CDATA[Мои объявления]]></item>
+	<item name="services" href="/services.php" id="mhi_services"><![CDATA[Платные услуги]]></item>
+	<item name="agents" href="/agents.php"><![CDATA[Мои агенты]]></item>
+	<item name="realtor" href="/agents.php"><![CDATA[Мой риэлтор]]></item>
+</menu>

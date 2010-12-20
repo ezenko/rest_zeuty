@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Aktivitätsperiode Ihrer Anzeige ist zu Ende auf [site_name]]]></lines>
+<lines name="unactivate_ad" descr=""><![CDATA[Aktivitätsperiode Ihrer Anzeige ist zu Ende auf  [site_name]. Jetzt ist Ihre Anzeige unaktiv und sie erscheint nicht in den Suchergebnissen.]]></lines>
+<lines name="for_activate" descr=""><![CDATA[Um den Aktivitätsstatus Ihrer Anzeige zu ändern, bitte melden Sie an auf der Site [site_name] und folgen Sie dem Link]]></lines>
+</data>

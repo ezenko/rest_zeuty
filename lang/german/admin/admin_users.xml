@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_header" descr=""><![CDATA[Benutzerverwaltung]]></lines>
+	<lines name="empry_result" descr=""><![CDATA[Leeres Ergebnis]]></lines>
+	<lines name="number" descr=""><![CDATA[Nr]]></lines>
+	<lines name="birthday" descr=""><![CDATA[Geburtsdatum]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="nick" descr=""><![CDATA[Login]]></lines>
+	<lines name="name" descr=""><![CDATA[Name]]></lines>
+	<lines name="date_reg" descr=""><![CDATA[Anmeldungsdatum]]></lines>
+	<lines name="date_last" descr=""><![CDATA[Letzte Anmeldung]]></lines>
+	<lines name="status" descr=""><![CDATA[Status]]></lines>
+	<lines name="active" descr=""><![CDATA[Aktiv]]></lines>
+	<lines name="access" descr=""><![CDATA[Zugang]]></lines>
+	<lines name="delete" descr=""><![CDATA[Löschen]]></lines>
+	<lines name="list_form" descr=""><![CDATA[Benutzerliste]]></lines>
+	<lines name="edit_form" descr=""><![CDATA[Benutzer bearbeiten]]></lines>
+	<lines name="sname" descr=""><![CDATA[Familiename]]></lines>
+	<lines name="login" descr=""><![CDATA[Benutzerlogin]]></lines>
+	<lines name="phone" descr=""><![CDATA[Telefon]]></lines>
+	<lines name="login_count" descr=""><![CDATA[Loginanzahl]]></lines>
+	<lines name="incorrect_field" descr=""><![CDATA[Falsches Feld]]></lines>
+	<lines name="change_pass" descr=""><![CDATA[Passwort ändern]]></lines>
+	<lines name="password" descr=""><![CDATA[Passwort]]></lines>
+	<lines name="ver_password" descr=""><![CDATA[Re-Passwort]]></lines>
+	<lines name="send_to_user" descr=""><![CDATA[Dem Benutzer senden]]></lines>
+	<lines name="login_exists" descr=""><![CDATA[Login ist schon vorhanden]]></lines>
+	<lines name="email_exists" descr=""><![CDATA[Email ist schon vorhanden]]></lines>
+	<lines name="del_confirm" descr=""><![CDATA[Diesen Benutzer löschen?]]></lines>
+	<lines name="del_upload_confirm" descr=""><![CDATA[Die hochgeladene Datei löschen?]]></lines>
+	<lines name="del_ad_confirm" descr=""><![CDATA[Diese Anzeige löschen?]]></lines>
+	<lines name="rental_ads" descr=""><![CDATA[Anzeigen]]></lines>
+	<lines name="available" descr=""><![CDATA[Frei]]></lines>
+	<lines name="movedate" descr=""><![CDATA[Umzugsdatum]]></lines>
+	<lines name="location" descr=""><![CDATA[Standort]]></lines>
+	<lines name="people_count" descr=""><![CDATA[Leuteanzahl]]></lines>
+	<lines name="about_me" descr=""><![CDATA[Über mich und meine Wohnungspräferenzen]]></lines>
+	<lines name="about_us" descr=""><![CDATA[Über uns und unsere Wohnungspräferenzen]]></lines>
+	<lines name="i_have_text" descr=""><![CDATA[Leutepräferenzen und meine Wohnungsinformationen]]></lines>
+	<lines name="age" descr=""><![CDATA[Alter]]></lines>
+	<lines name="payment" descr=""><![CDATA[Zahlung]]></lines>
+	<lines name="deposit" descr=""><![CDATA[Kaution]]></lines>
+	<lines name="square" descr=""><![CDATA[Fläche]]></lines>
+	<lines name="comment" descr=""><![CDATA[Extra Kommentare]]></lines>
+	<lines name="uploads" descr=""><![CDATA[Hochgeladene Dateien]]></lines>
+	<lines name="no_photos" descr=""><![CDATA[Keine Fotos]]></lines>
+	<lines name="headline" descr=""><![CDATA[Persönliche Schlagzeile]]></lines>
+	<lines name="zip_code" descr=""><![CDATA[Postleitzahl]]></lines>
+	<lines name="street_cross" descr=""><![CDATA[Straßenkreuzung]]></lines>
+	<lines name="adress" descr=""><![CDATA[Adresse]]></lines>
+	<lines name="or_more" descr=""><![CDATA[oder mehr]]></lines>
+	<lines name="wake_up" descr=""><![CDATA[Aufwachen]]></lines>
+	<lines name="go_to_bed" descr=""><![CDATA[Einschlafen]]></lines>
+	<lines name="user_field_1" descr=""><![CDATA[Angemeldet als]]></lines>
+	<lines name="user_field_2" descr=""><![CDATA[Privatperson]]></lines>
+	<lines name="user_field_3" descr=""><![CDATA[Immobilienagentur]]></lines>
+	<lines name="user_field_4" descr=""><![CDATA[Agent der Immobilienagentur]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Unternehmensname]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Unternehmensseite]]></lines>
+	<lines name="weekday_str" descr=""><![CDATA[Arbeitstage]]></lines>
+	<lines name="work_time" descr=""><![CDATA[Arbeitsstunden]]></lines>
+	<lines name="lunch_time" descr=""><![CDATA[Mittagspause]]></lines>
+	<lines name="logo_path" descr=""><![CDATA[Logotyp]]></lines>
+	<lines name="mail_link" descr=""><![CDATA[Mitgliederkorrespondenz]]></lines>
+	<lines name="from" descr=""><![CDATA[Von]]></lines>
+	<lines name="to" descr=""><![CDATA[Zu]]></lines>
+	<lines name="time" descr=""><![CDATA[Zeit]]></lines>
+	<lines name="body" descr=""><![CDATA[Text]]></lines>
+	<lines name="user_type" descr=""><![CDATA[Benutzertyp]]></lines>
+	<lines name="user_type_1" descr=""><![CDATA[Privatperson]]></lines>
+	<lines name="user_type_2" descr=""><![CDATA[Immobilienagentur]]></lines>
+	<lines name="user_type_3" descr=""><![CDATA[Agent der Agentur]]></lines>
+	<lines name="admin" descr=""><![CDATA[Administrator]]></lines>
+	<lines name="guest" descr=""><![CDATA[Gast]]></lines>
+	<lines name="user_list_help" descr=""><![CDATA[Hier finden Sie Informationen über jedes Seitenmitglied, sehen seinen Profil, prüfen seine Korrespondenz, löschen unzulässige Anzeigen.<br>Markieren Sie das Feld "Zugang" oder abmarkieren - damit aktivieren oder deaktivieren Sie Mitgliedsstatus im System.]]></lines>
+	<lines name="user_profile_help" descr=""><![CDATA[Sie sind im Mitgliedsprofil.]]></lines>
+	<lines name="mailbox" descr=""><![CDATA[Korrespondenz]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Anzeigen]]></lines>
+	<lines name="empty" descr=""><![CDATA[Leer]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Leer]]></lines>
+	<lines name="user_mail_help" descr=""><![CDATA[Hier finden Sie die gesamte Korrespondenz des Mitglieds mit anderen Seitenmitgliedern.]]></lines>
+	<lines name="user_ads_help" descr=""><![CDATA[Hier können Sie Mitgliedsanzeigen ansehen und löschen.]]></lines>
+	<lines name="user_import_help" descr=""><![CDATA[Wenn Sie eine Datenbank der Benutzer haben und sie importieren wollen, nehmen Sie mit unserem Support Team KOntakt auf.]]></lines>
+	<lines name="user_need" descr=""><![CDATA[Mietet Immobilien]]></lines>
+	<lines name="user_have" descr=""><![CDATA[Vermietet Immobilien]]></lines>
+	<lines name="user_sell" descr=""><![CDATA[Verkauft Immobilien]]></lines>
+	<lines name="user_buy" descr=""><![CDATA[Kauft Immobilien]]></lines>
+	<lines name="about_realty" descr=""><![CDATA[Über Immobilien]]></lines>
+	<lines name="planirovka" descr=""><![CDATA[Fotos (Planieren)]]></lines>
+	<lines name="general_photo" descr=""><![CDATA[Fotos (allgemein)]]></lines>
+	<lines name="video" descr=""><![CDATA[Video]]></lines>
+	<lines name="my_Präferenzen" descr=""><![CDATA[Meine Präferenzen]]></lines>
+	<lines name="link_ads" descr=""><![CDATA[Anzeigen]]></lines>
+	<lines name="time_begin" descr=""></lines>
+	<lines name="time_end" descr=""><![CDATA[-]]></lines>
+	<lines name="user_info" descr=""><![CDATA[Mitgliedsprofil]]></lines>
+	<lines name="user_statistics" descr=""><![CDATA[Mitgliedsstatistik]]></lines>
+	<lines name="add_user_help" descr=""><![CDATA[Hier fügen Sie Benutzer hinzu.]]></lines>
+	<lines name="letter_search_help" descr=""><![CDATA[Nach dem ersten Symbol der Mitliedsemail suchen]]></lines>
+	<lines name="empty_result" descr=""><![CDATA[Leider sind Suchergebnisse  leer. Versuchen Sie es anders]]></lines>
+	<lines name="empty_res_search_criteria" descr=""><![CDATA[Suchkriterien]]></lines>
+	<lines name="del_user_confirm" descr=""><![CDATA[Sind Sie sicher, dass Sie diesen Benutzer löschen wollen? Mit dem Benutzer werden auch die ganzen Informationen auch gelöscht: Anzeigen, Zahlungsstatistik und Korrespondenz. Der Benutzer wird genauso aus Kontaktlisten anderer Benutzern entfernt.]]></lines>
+	<lines name="admin_approve_not_complete" descr=""><![CDATA[nicht genehmigt]]></lines>
+	<lines name="admin_approve_decline" descr=""><![CDATA[blockiert]]></lines>
+	<lines name="spended" descr=""><![CDATA[Bilanz<br>(verbraucht)]]></lines>
+	<lines name="interface_language" descr=""><![CDATA[Interfacesprache]]></lines>
+	<lines name="country" descr=""><![CDATA[Land]]></lines>
+	<lines name="region" descr=""><![CDATA[Region]]></lines>
+	<lines name="city" descr=""><![CDATA[Stadt]]></lines>
+	<lines name="address" descr=""><![CDATA[Adresse]]></lines>
+	<lines name="zipcode" descr=""><![CDATA[Postleitzahl]]></lines>
+	<lines name="ip_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="ip_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="ip_load_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="ip_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="ip_load_city" descr=""><![CDATA[Städte loading...]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[von]]></lines>
+	<lines name="time_end" descr=""><![CDATA[bis]]></lines>
+	<lines name="na_days" descr=""><![CDATA[Besetzte Tage]]></lines>
+	<lines name="reserve_days" descr=""><![CDATA[Gebuchte Tage]]></lines>
+	<lines name="empty_days" descr=""><![CDATA[Freie Tage]]></lines>
+	<lines name="empty_period" descr=""><![CDATA[Erhältlich]]></lines>
+	<lines name="calendar" descr=""><![CDATA[Kalender]]></lines>
+	<lines name="calendar_name" descr=""><![CDATA[Buchungskalender]]></lines>
+	<lines name="choose_company" descr=""><![CDATA[Unternehmen wählen]]></lines>
+	<lines name="hint_3" descr=""><![CDATA[Sie sollen Unternehmen wählen, dessen Agent Sie werden möchten. Das ausgewählte Unternehmen wird benachrichtigt und kann Ihre Anfrage genehmigen oder ablehnen. Sie können das Feld 'Unternehmen' leer lassen, in diesem Fall können Ihnen andere Unternehmen Einladungen senden, ihr Agent zu werden.]]></lines>
+	<lines name="prev_month" descr=""><![CDATA[vorigen Monat]]></lines>
+	<lines name="next_month" descr=""><![CDATA[nächsten Monat]]></lines>
+	<lines name="prev_year" descr=""><![CDATA[voriges Jahr]]></lines>
+	<lines name="next_year" descr=""><![CDATA[nächstes Jahr]]></lines>
+	<lines name="work_days" descr=""><![CDATA[Arbeitstage]]></lines>
+	<lines name="work_time" descr=""><![CDATA[Arbeitsstunden]]></lines>
+	<lines name="hint_3" descr=""><![CDATA[Sie sollen Unternehmen wählen, dessen Agent Sie werden möchten. Das ausgewählte Unternehmen wird benachrichtigt und kann Ihre Anfrage genehmigen oder ablehnen. Sie können das Feld 'Unternehmen' leer lassen, in diesem Fall können Ihnen andere Unternehmen Einladungen senden, ihr Agent zu werden.]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Unternehmenwahl]]></lines>
+	<lines name="not_approve" descr=""><![CDATA[Das Unternehmen hat Ihre Anfrage noch nicht genehmigt]]></lines>
+	<lines name="your_photo" descr=""><![CDATA[Foto]]></lines>
+	<lines name="agency_url" descr=""><![CDATA[Unternehmensseite (Url)]]></lines>
+	<lines name="agency_logo" descr=""><![CDATA[Unternehmenslogotyp]]></lines>
+	<lines name="location" descr=""><![CDATA[Standort]]></lines>
+	<lines name="need_delete_realtor" descr=""><![CDATA[Um seinen Benutzertyp zu ändern, soll sich der Benutzer aus der Liste der Agenten entfernen]]></lines>
+	<lines name="need_delete_agents" descr=""><![CDATA[Um seinen Typ zu ändern, soll das Unternehmen seine Agentenliste leeren]]></lines>
+	<lines name="delete_agents" descr=""><![CDATA[Um seinen Profil zu deaktivieren, soll das Unternehmen seine Agentenliste leeren]]></lines>
+	<lines name="delete_realtor" descr=""><![CDATA[Um seinen Profil zu deaktiviere, soll sich der Benutzer aus der Liste der Unternehmensagenten entfernen]]></lines>
+	<lines name="decline_company" descr=""><![CDATA[Anfrage an Unternehmen entziehen]]></lines>
+	<lines name="change_company" descr=""><![CDATA[Unternehmen bearbeiten]]></lines>
+	<lines name="delete_company" descr=""><![CDATA[Unternehmen löschen]]></lines>
+	<lines name="na_agency_1" descr=""><![CDATA[Unternehmen]]></lines>
+	<lines name="na_agency_2" descr=""><![CDATA[wurde nicht gefunden]]></lines>
+	<lines name="na_agency_3" descr=""><![CDATA[Leeres Feld ist unzulässig]]></lines>
+	<lines name="with_company_1" descr=""><![CDATA[Mit dem Untermehmen]]></lines>
+	<lines name="with_company_2" descr=""><![CDATA[das Mitglied hat schon Kontakt damit.]]></lines>
+	<lines name="incorrect_time_interval" descr=""><![CDATA[Der zeitabstand wurde falsch eingegeben]]></lines>
+	<lines name="password_requirement" descr=""><![CDATA[Passwort soll 4 bis 10 Symbole beinhalten]]></lines>
+	<lines name="payment_history" descr=""><![CDATA[Zahlungsgeschichte des Benutzers]]></lines>
+	<lines name="spent_history" descr=""><![CDATA[Betragsliste]]></lines>
+	<lines name="pay_manual" descr=""><![CDATA[Manuell Mittel hinzufugen ]]></lines>
+	<lines name="balance" descr=""><![CDATA[Tagesbilanz]]></lines>
+	<lines name="add_for" descr=""><![CDATA[Betrag]]></lines>
+	<lines name="add_on" descr=""><![CDATA[Hinzufügen]]></lines>
+	<lines name="incorrect_input_field" descr=""><![CDATA[Falscher Betrag]]></lines>
+	<lines name="add_to_all" descr=""><![CDATA[Geldmittel allen Benutzern hinzufügen]]></lines>
+	<lines name="pay_manual_all" descr=""><![CDATA[Gelmittel allen Bentzern hinzüfugen]]></lines>
+	<lines name="add_to_all_help" descr=""><![CDATA[Hier können Sie einen bestimmten Geldbeitrag allen Mitgliedern mit einem Mausklick hinzufügen! Bestimmen Sie den Betrag und klicken Sie "Hinzufügen". Achtung, seien Sie sorgfältig, während dieser Operation, weil Sie sie nicht abbrechen können, wenn die Operation schon vollendet ist. Wenn Sie die Option "Notifikation über Geldmitteleinreihing senden" wählen, wird jedes Mitglied solch eine Mitteilung bekommen. Wenn es viele Mitglieder gibt, kann das eine Weile dauern und Server kann überbeladen sein.]]></lines>
+	<lines name="use_alert" descr=""><![CDATA[Notifikation über Geldmitteleinreihung senden]></lines><lines name="use_only_private_user_type" descr=""><![CDATA[Option  'Agent von Unternehmen' Benutzertyp benutzen' ist abgeschaltet.]]></lines>
+	<lines name="use_only_private_user_type" descr=""><![CDATA[Option 'Use 'Agent of company' user type' is disabled.]]></lines>
+	<lines name="no_funds" descr=""><![CDATA[Keine Geldmittel]]></lines>
+</data>

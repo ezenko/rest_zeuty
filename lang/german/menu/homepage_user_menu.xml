@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<item name="mailbox" href="/mailbox.php" all="[all]" new="[new]" id="mhi_my_messages"><![CDATA[Meine Meldungen]]></item>
+	<item name="account" href="/account.php"><![CDATA[Mein Profil]]></item>
+	<item name="logoff" href="/index.php?sel=logoff"><![CDATA[Abmelden]]></item>
+</menu>

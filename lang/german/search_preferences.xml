@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="preferences_help" descr=""><![CDATA[Set search preferences and search forms of the site will be filled in automatically. If you change the values of the form fields, your new search preferences will get saved automatically.]]></lines>
+	<lines name="i_want" descr=""><![CDATA[Ich will]]></lines>
+	<lines name="qs_i_need" descr=""><![CDATA[mieten]]></lines>
+	<lines name="qs_i_have" descr=""><![CDATA[vermieten]]></lines>
+	<lines name="qs_i_sell" descr=""><![CDATA[verkaufen]]></lines>
+	<lines name="qs_i_buy" descr=""><![CDATA[kaufen]]></lines>	
+	<lines name="costs_min" descr=""><![CDATA[Min. Preis]]></lines>
+	<lines name="upto" descr=""><![CDATA[max]]></lines><lines name="payment" descr=""><![CDATA[Maximum Preis ]]></lines>
+	<lines name="with_photo" descr=""><![CDATA[mit Foto]]></lines>
+	<lines name="where_loc" descr=""><![CDATA[Ort]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Umziehungsdatum von]]></lines>
+	<lines name="choose" descr=""><![CDATA[Bitte wahlen]]></lines>	
+	<lines name="button_search" descr=""><![CDATA[Suche!]]></lines>
+	<lines name="empty_preferred_list" descr=""><![CDATA[Es gibt keine Ortspreferenzen in der Suche eingestellt.]]></lines>
+	<lines name="empty_location_history" descr=""><![CDATA[Es gibt keine Suchgeschichte.]]></lines>
+	<lines name="clean_search_preferences" descr=""><![CDATA[Alle Suchpreferenzen loschen]]></lines>		
+	<lines name="clean_search_history" descr=""><![CDATA[Suchgeschichte loschen]]></lines>
+	<lines name="make_preferred" descr=""><![CDATA[Zu den Suchpreferenzen hinzufugen]]></lines>
+	<lines name="make_primary" descr=""><![CDATA[Primar machen]]></lines>
+	<lines name="is_primary" descr=""><![CDATA[Primar]]></lines>
+	<lines name="primary_comment" descr=""><![CDATA[Alle Ortsangaben, die Sie auf der Site gesucht haben, sind in der Suchgeschichte gespeichert. <br><b>Suchgeschichte</b> kann für Schaffung der Ortspreferenzen in der Suche benutzt sein. Sie können eine Ihrer Ortspreferenzen in der Suche als primär. <b>Primäre Ortsangaben</b> werden als Standard in allen Suchformen benutzt. <br>Klicken Sie Link mit Ortsangaben um die Form zu füllen und beginnen Sie Suche it diesen Parametern.]]></lines>	
+	<lines name="preferred_location" descr=""><![CDATA[Bevorzugte Suchangaben]]></lines>
+	<lines name="location_history" descr=""><![CDATA[Suchgeschichte]]></lines>
+	<lines name="add_to_search_location" descr=""><![CDATA[Um eine neue Ortsangabe zum Verzeichniss hinzuzufügen, beginnen Sie die Suche]]></lines>	
+	<lines name="primary_search_location" descr=""><![CDATA[Primäre Ortangabe]]></lines>
+</data>

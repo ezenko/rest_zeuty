@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="top_search_link_text" descr=""><![CDATA[Поднимите &quot;наверх&quot; объявление в поиске]]></lines>
+<lines name="slideshow_link_text" descr=""><![CDATA[Выделить объявление в поиске]]></lines>
+<lines name="featured_link_text" descr=""><![CDATA[Выделить объявление в регионе]]></lines>
+<lines name="charge_link_text" descr=""><![CDATA[Абонентская плата]]></lines>
+<lines name="no_rent_ads" descr=""><![CDATA[У вас нет объявлений]]></lines>
+<lines name="move_date" descr=""><![CDATA[Дата переезда]]></lines>
+<lines name="no_photos" descr=""><![CDATA[Нет фото]]></lines>
+<lines name="this_link_text" descr=""><![CDATA[Поднять это объявление в результатах поиска]]></lines>
+<lines name="periods_day" descr=""><![CDATA[дней]]></lines>
+<lines name="periods_week" descr=""><![CDATA[недель]]></lines>
+<lines name="periods_month" descr=""><![CDATA[месяцев]]></lines>
+<lines name="periods_year" descr=""><![CDATA[лет]]></lines>
+<lines name="buy_points" descr=""><![CDATA[Заплатить]]></lines>
+<lines name="top_search_pay_text" descr=""><![CDATA[Выберите нужное, чтобы поднять свое объявление в результатах поиска]]></lines>
+<lines name="service_type_topsearch" descr=""><![CDATA[за услугу "Подними свое объявление в результатах поиска"]]></lines>
+<lines name="service_type_slideshow" descr=""><![CDATA[за услугу "Создай свое слайдшоу"]]></lines>
+<lines name="period" descr=""><![CDATA[Период]]></lines>
+<lines name="period_left_text" descr=""><![CDATA[Уже платное, осталось]]></lines>
+<lines name="forpay" descr=""><![CDATA[Тип платежа]]></lines>
+<lines name="rent_slideshowed_link_text" descr=""><![CDATA[Слайдшоу активно]]></lines>
+<lines name="rent_slideshow_link_text" descr=""><![CDATA[Выделить это объявление в поиске]]></lines>
+<lines name="link_text_1" descr=""><![CDATA[Пополнить счет]]></lines>
+<lines name="link_text_2" descr=""><![CDATA[История платежей]]></lines>
+<lines name="link_text_3" descr=""><![CDATA[Пополнить счет другому пользователю]]></lines>
+<lines name="slideshow_top_text_p1" descr=""><![CDATA[Каждый день пользователи просматривают огромное количество объявлений. Вы можете привлечь их внимание именно к вашему объявлению, эффектно выделяясь на фоне остальных.<br>Для этого достаточно воспользоваться функцией — &quot;Выделить объявление в поиске&quot;, и ваша фотография в объявлении на]]></lines>
+<lines name="slideshow_top_text_p2" descr=""><![CDATA[день(ей) превратится в притягательное слайд-шоу первых трёх фотографий из вашего альбома.<br><b>Ваши фотографии превратятся в притягательное слайд-шоу!</b><br>Чтобы воспользоваться функцией, кликните на нужное объявление.<br>Для поиска можете воспользоваться формой поиска по номеру объявления.]]></lines>
+<lines name="search_by_num_in_rent" descr=""><![CDATA[Поиск по номеру]]></lines>
+<lines name="payment_form_text" descr=""><![CDATA[Выберите удобный способ пополнения и внесите необходимую для вас сумму.<br>Плата за заказанные услуги и сервисы будет списываться со счета.<br>Ваши средства не пойдут сразу на оплату какой-либо услуги, а будут добавлены на счет.<br>В дальнейшем вы сможете заказывать любые платные услуги одним кликом — оплата за них будет списываться со счета.]]></lines>
+<lines name="your_billing" descr=""><![CDATA[На вашем счету]]></lines>
+<lines name="pay_sum" descr=""><![CDATA[Пополнить на сумму в]]></lines>
+<lines name="pay_hint" descr=""><![CDATA[Рекомендуемая сумма платежа 5]]></lines>
+<lines name="choose_paysys" descr=""><![CDATA[Оплатить через]]></lines>
+<lines name="pls_choose_paysys" descr=""><![CDATA[Пожалуйста выберите платежную систему]]></lines>
+<lines name="do_payment" descr=""><![CDATA[Перейти на страницу оплаты]]></lines>
+<lines name="payment_form_text_2" descr=""><![CDATA[Пополнить]]></lines>
+<lines name="history_text_1" descr=""><![CDATA[Авансовый платеж]]></lines>
+<lines name="history_text_2" descr=""><![CDATA[Перевод средств от пользователя]]></lines>
+<lines name="history_text_3" descr=""><![CDATA[Пополнение счета администратором]]></lines>
+<lines name="status_send" descr=""><![CDATA[Не оплачен]]></lines>
+<lines name="status_fail" descr=""><![CDATA[Ошибка платежа]]></lines>
+<lines name="status_approve" descr=""><![CDATA[Оплачен]]></lines>
+<lines name="view" descr=""><![CDATA[Просмотреть]]></lines>
+<lines name="name" descr=""><![CDATA[Название]]></lines>
+<lines name="date_send" descr=""><![CDATA[Дата]]></lines>
+<lines name="count_curr" descr=""><![CDATA[Сумма]]></lines>
+<lines name="status" descr=""><![CDATA[Состояние]]></lines>
+<lines name="all_requests" descr=""><![CDATA[Все поступления]]></lines>
+<lines name="print" descr=""><![CDATA[Распечатать]]></lines>
+<lines name="to_history" descr=""><![CDATA[&#171; К истории платежей]]></lines>
+<lines name="add_info" descr=""><![CDATA[Дополнительно]]></lines>
+<lines name="entries" descr=""><![CDATA[Поступления]]></lines>
+<lines name="spended" descr=""><![CDATA[Списания]]></lines>
+<lines name="all_spended" descr=""><![CDATA[Все списания]]></lines>
+<lines name="spended_1" descr=""><![CDATA[Списание за услугу &quot;Поднимите &quot;наверх&quot; объявление в поиске&quot;]]></lines>
+<lines name="spended_2" descr=""><![CDATA[Списание за услугу &quot;Выделить объявление в поиске&quot;]]></lines>
+<lines name="spended_3" descr=""><![CDATA[Списание за услугу &quot;Выделить объявление в регионе&quot;]]></lines>
+<lines name="spended_4" descr=""><![CDATA[Списание в счёт абонентской платы]]></lines>
+<lines name="spended_6" descr=""><![CDATA[Перевод средств пользователю]]></lines>
+<lines name="topsearch_top_text" descr=""><![CDATA[Каждый день у нас регистрируются новые пользователи, поэтому, ваша страница постепенно опускается все ниже и ниже в результатах поиска, уступая место новичкам.<br>Повысить популярность вашей страницы и поднять ее посещаемость вы можете с помощью удобной функции — &quot;Поднять страницу наверх&quot;. Достаточно воспользоваться этой функцией — и вы снова на первых местах.<br>Страница будет поднята &quot;наверх&quot; при положительном балансе вашего счета. Вы можете пользоваться этой функцией так часто, как захотите.]]></lines>
+<lines name="featured_top_text" descr=""><![CDATA[&quot;Выделить объявление в регионе&quot; - возможность того, что фото Вашего объявления и Ваше текстовое приветствие одновременно размещаются на основных страницах сайта. Объявление становится &quot;лидером&quot;, если Вы платите сумму, большую, чем у текущего &quot;лидера&quot;. Объявление является &quot;лидером&quot;, пока кто-то другой не побьет его ставку.]]></lines>
+<lines name="featured_top_text_each" descr=""><![CDATA[Каждую(ые)]]></lines>
+<lines name="featured_top_text_period" descr=""><![CDATA[мин. у всех &quot;лидеров&quot; списывается по ]]></lines>
+<lines name="rent_featured_link_text" descr=""><![CDATA[Это объявление является лидером региона!]]></lines>
+<lines name="rent_feature_link_text" descr=""><![CDATA[Выделить это объявление в регионе при поиске]]></lines>
+<lines name="featured_text1" descr=""><![CDATA[Укажите <b>сумму</b>, которую Вы желате поставить, чтобы стать "Лидером региона", введите <b>приветствие</b> ниже и нажмите &quot;Поставить!&quot;]]></lines>
+<lines name="feature_btn_text" descr=""><![CDATA[Поставить!]]></lines>
+<lines name="show_rental_menu" descr=""><![CDATA[Показать меню]]></lines>
+<lines name="hide_rental_menu" descr=""><![CDATA[Скрыть меню]]></lines>
+<lines name="menu_rental_subheader" descr=""><![CDATA[МЕНЮ]]></lines>
+<lines name="menu_rental_his_4" descr=""><![CDATA[Я им подхожу]]></lines>
+<lines name="toptext" descr=""><![CDATA[АБОНЕНТСКАЯ ПЛАТА]]></lines>
+<lines name="topdescr" descr=""><![CDATA[Некоторые функции и разделы на нашем сервисе доступны только для оплативших абонентскую плату. <br>Выберите группу пользователей и увидете список отличий от Вашей текущей группы. <br>Вы можете выбрать период доступа в определённую группу пользователей и оплатить его.]]></lines>
+<lines name="groupselect" descr=""><![CDATA[Выберите группу]]></lines>
+<lines name="group_modify" descr=""><![CDATA[Изменить группу]]></lines>
+<lines name="account_count" descr=""><![CDATA[Текущий]]></lines>
+<lines name="account_groups" descr=""><![CDATA[Моя группа]]></lines>
+<lines name="present_groups" descr=""><![CDATA[Сейчас вы находитесь в группе]]></lines>
+<lines name="available_groups" descr=""><![CDATA[Доступные группы]]></lines>
+<lines name="group_functions" descr=""><![CDATA[Функции группы]]></lines>
+<lines name="new_group_functions" descr=""><![CDATA[, к которым Вы получите доступ при переходе]]></lines>
+<lines name="old_group_functions" descr=""><![CDATA[, к которым Вы потеряете доступ]]></lines>
+<lines name="group_demo" descr=""><![CDATA[Light]]></lines>
+<lines name="cost" descr=""><![CDATA[Стоимость услуги]]></lines>
+<lines name="speed" descr=""><![CDATA[в час]]></lines>
+<lines name="moneyselect" descr=""><![CDATA[Списать со счета]]></lines>
+<lines name="free" descr=""><![CDATA[Бесплатно]]></lines>
+<lines name="pay" descr=""><![CDATA[Проверьте информацию о платеже]]></lines>
+<lines name="paypal" descr=""><![CDATA[PayPal]]></lines>
+<lines name="credit_card" descr=""><![CDATA[Credit Card]]></lines>
+<lines name="buy" descr=""><![CDATA[Заплатить]]></lines>
+<lines name="chosen_groups" descr=""><![CDATA[Выбранная группа]]></lines>
+<lines name="chosen_period" descr=""><![CDATA[На период]]></lines>
+<lines name="chosen_cost" descr=""><![CDATA[Стоимость услуги]]></lines>
+<lines name="chosen_forpay" descr=""><![CDATA[К оплате]]></lines>
+<lines name="only_change" descr=""><![CDATA[Изменить группу]]></lines>
+<lines name="left_days" descr=""><![CDATA[До истечения срока нахождения в этой группе осталось]]></lines>
+<lines name="need_realty" descr=""><![CDATA[Я арендую]]></lines>
+<lines name="have_realty" descr=""><![CDATA[Я сдаю в аренду]]></lines>
+<lines name="sell_realty" descr=""><![CDATA[Я продаю]]></lines>
+<lines name="buy_realty" descr=""><![CDATA[Я покупаю]]></lines>
+<lines name="place_text_1" descr=""><![CDATA[Объявление находится на ]]></lines>
+<lines name="place_text_2" descr=""><![CDATA[ месте]]></lines>
+<lines name="place_text_3" descr=""><![CDATA[Объявление неактивно и не участвует в поиске]]></lines>
+<lines name="viewed" descr=""><![CDATA[Просмотров за сегодня]]></lines>
+<lines name="monthly" descr=""><![CDATA[за месяц]]></lines>
+<lines name="no_ads_by_num" descr=""><![CDATA[Нет объявления с номером]]></lines>
+<lines name="goto_ads_list" descr=""><![CDATA[Перейти на список объявлений.]]></lines>
+<lines name="were_not" descr=""><![CDATA[не осуществлялись]]></lines>
+<lines name="site_paysys" descr=""><![CDATA[Платежная система]]></lines>
+<lines name="no_active_paysys" descr=""><![CDATA[не установлена]]></lines>
+<lines name="days" descr=""><![CDATA[день(ей)]]></lines>
+<lines name="use_group_trial_period" descr=""><![CDATA[Бесплатный период. Воспользоваться услугой.]]></lines>
+<lines name="group_trial_was_used" descr=""><![CDATA[Бесплатный период. Услуга использована.]]></lines>
+<lines name="sell_lease_payment_link_text" descr=""><![CDATA[Плата за размещение объявлений о продаже и сдаче в аренду]]></lines>
+<lines name="ads_number" descr=""><![CDATA[объявления(ий)]]></lines>
+<lines name="sell_lease_payment_cost" descr=""><![CDATA[Стоимость размещения]]></lines>
+<lines name="sell_lease_user_payment" descr=""><![CDATA[Вы оплатили размещение]]></lines>
+<lines name="about_sell_lease" descr=""><![CDATA[о продаже и сдаче в аренду]]></lines>
+<lines name="sell_lease_used_amount" descr=""><![CDATA[потратив]]></lines>
+<lines name="sell_lease_posted_ads" descr=""><![CDATA[На данный момент Вы опубликовали]]></lines>
+<lines name="sell_lease_need_pay" descr=""><![CDATA[Чтобы иметь возможность опубликовать новые объявления о продаже или сдаче в аренду, необходимо осуществить оплату]]></lines>
+<lines name="sell_lease_rest_ads" descr=""><![CDATA[Вы имеете возможность опубликовать ещё]]></lines>
+<lines name="spended_5" descr=""><![CDATA[Списание за размещение объявлений о продаже и сдаче в аренду]]></lines>
+<lines name="smscoin_operator" descr=""><![CDATA[Оператор/Страна]]></lines>
+<lines name="add_on_account" descr=""><![CDATA[Пополнение Вашего счёта на сайте.]]></lines>
+<lines name="payment_form_text_3" descr=""><![CDATA[При наличии средств на вашем счете вы можете пополнить счет другого пользователя в системе. Комиссия за перевод составляет ]]></lines>
+<lines name="payment_no_commission" descr=""><![CDATA[При наличии средств на вашем счете вы можете пополнить счет другого пользователя в системе. Услуга бесплатная. ]]></lines>
+<lines name="user_search" descr=""><![CDATA[Поиск пользователя]]></lines>
+<lines name="search_help" descr=""><![CDATA[Для поиска введите идентифицирующие пользователя данные: имя, фамилия,  название компании.]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="user_name" descr=""><![CDATA[Имя]]></lines>
+<lines name="user_ads" descr=""><![CDATA[Объявления]]></lines>
+<lines name="user_payment" descr=""><![CDATA[Пополнение счета]]></lines>
+<lines name="company_name" descr=""><![CDATA[Название компании]]></lines>
+<lines name="empty_search" descr=""><![CDATA[По вашему запросу ничего не найдено]]></lines>
+<lines name="string_1" descr=""><![CDATA[Перевести пользователю ]]></lines>
+<lines name="string_2" descr=""><![CDATA[ сумму ]]></lines>
+<lines name="transfer_confirm" descr=""><![CDATA[Вы уверены что хотите произвести перевод денег?]]></lines>
+<lines name="empty_ads" descr=""><![CDATA[Отсутствуют]]></lines>
+<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+<lines name="time_end" descr=""><![CDATA[до]]></lines>
+<lines name="empty" descr=""><![CDATA[Свободна]]></lines>
+<lines name="need_search_criteria" descr=""><![CDATA[Пожалуйста, укажите критерии поиска]]></lines>
+<lines name="planning" descr=""><![CDATA[Планировка]]></lines>
+<lines name="photo" descr=""><![CDATA[Фото]]></lines>
+<lines name="no_ad" descr=""><![CDATA[Нет объявления]]></lines>
+<lines name="slideshow_get_ad" descr=""><![CDATA[Сейчас выбирите фото, которые будут учавствовать в слайд-шоу. Для запуска слайд-шоу необходитмо выбрать как минимум 3 фото]]></lines>
+<lines name="not_enough" descr=""><![CDATA[Не выбрано достаточного количества фото]]></lines>
+<lines name="take_part" descr=""><![CDATA[Участие в слайд-шоу]]></lines>
+<lines name="payment_information" descr=""><![CDATA[Информация о платеже]]></lines>
+<lines name="payment_data" descr=""><![CDATA[Если вы провели платеж, укажите сумму и требуемую информацию, нажмите "Послать". Администратор подтвердит или отклонит ваш платеж, о чем вам будет сообщено по e-mail]]></lines>
+<lines name="send_to_approve" descr=""><![CDATA[Послать для подтверждения]]></lines>
+<lines name="amount" descr=""><![CDATA[Перевод на сумму в]]></lines>
+<lines name="addition_information" descr=""><![CDATA[Дополнительная информация]]></lines>
+
+
+</data>

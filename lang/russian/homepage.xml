@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="menu_rental_subheader" descr=""><![CDATA[МЕНЮ]]></lines>
+	<lines name="menu_rental_my_1" descr=""><![CDATA[Просмотрели мой профайл]]></lines>
+	<lines name="menu_rental_my_2" descr=""><![CDATA[Добавили меня в избранные]]></lines>
+	<lines name="menu_rental_my_3" descr=""><![CDATA[Заинтересовались мной]]></lines>
+	<lines name="menu_rental_my_4" descr=""><![CDATA[Подходят мне]]></lines>
+	<lines name="menu_rental_his_1" descr=""><![CDATA[Просмотрел их профайлов]]></lines>
+	<lines name="menu_rental_his_2" descr=""><![CDATA[Добавил в избранные]]></lines>
+	<lines name="menu_rental_his_3" descr=""><![CDATA[Заитересовался ими]]></lines>
+	<lines name="menu_rental_his_4" descr=""><![CDATA[Я им подхожу]]></lines>
+	<lines name="empty_result" descr=""><![CDATA[Нет подходящих результатов]]></lines>
+	<lines name="empty_list" descr=""><![CDATA[Список пуст]]></lines>
+	<lines name="about_me" descr=""><![CDATA[About me]]></lines>
+	<lines name="about_us" descr=""><![CDATA[About us]]></lines>
+	<lines name="max_payment" descr=""><![CDATA[Max payment]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Available date]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Дата переезда]]></lines>
+	<lines name="location" descr=""><![CDATA[Местоположение]]></lines>
+	<lines name="login" descr=""><![CDATA[Логин]]></lines>
+	<lines name="date_last_login" descr=""><![CDATA[Был на сайте]]></lines>
+	<lines name="status" descr=""><![CDATA[Статус]]></lines>
+	<lines name="online" descr=""><![CDATA[Онлайн]]></lines>
+	<lines name="offline" descr=""><![CDATA[Офлайн]]></lines>
+	<lines name="user_ad_err" descr=""><![CDATA[У вас нет объявлений]]></lines>
+	<lines name="page_header_rental" descr=""><![CDATA[ВАШИ ОБЪЯВЛЕНИЯ]]></lines>
+	<lines name="choose_text" descr=""><![CDATA[Выберите интересующее вас объявление из списка ниже, чтобы просмотреть подходящие варианты]]></lines>
+	<lines name="no_photos" descr=""><![CDATA[Нет фотографий]]></lines>
+	<lines name="match" descr=""><![CDATA[Подходящие варианты]]></lines>
+	<lines name="select_country" descr=""><![CDATA[Выберите страну...]]></lines>
+	<lines name="select_region" descr=""><![CDATA[Выберите регион...]]></lines>
+	<lines name="select_city" descr=""><![CDATA[Выберите город...]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Переезд не раньше]]></lines>
+	<lines name="rental" descr=""><![CDATA[Недвижимость]]></lines>
+	<lines name="nickname" descr=""><![CDATA[имени]]></lines>
+	<lines name="date_reg" descr=""><![CDATA[дате регистрации]]></lines>
+	<lines name="date_last" descr=""><![CDATA[последней активности]]></lines>
+	<lines name="now" descr=""><![CDATA[now]]></lines>
+	<lines name="home_text_1" descr=""><![CDATA[PG Real Estate это:]]></lines>
+	<lines name="home_text_2" descr=""><![CDATA[Недвижимость без головной боли. Ваш комфорт&nbsp;&nbsp;&mdash;&nbsp;&nbsp;наша забота!]]></lines>
+	<lines name="home_text_3" descr=""><![CDATA[Помощь профессионалов, мир абсолютной надёжности.]]></lines>
+	<lines name="my" descr=""><![CDATA[МОЙ]]></lines>
+	<lines name="rentmate_ru" descr=""><![CDATA[REALESTATE]]></lines>
+	<lines name="home_text_4" descr=""><![CDATA[Вы неактивный пользователь.]]></lines>
+	<lines name="home_text_5" descr=""><![CDATA[Некоторые услуги могут быть недоступны вам.]]></lines>
+	<lines name="home_text_6" descr=""><![CDATA[Активировать]]></lines>
+	<lines name="my_messages" descr=""><![CDATA[Мои сообщения]]></lines>
+	<lines name="my_account" descr=""><![CDATA[Мой профайл]]></lines>
+	<lines name="home_text_8" descr=""><![CDATA[Вы являетесь активным пользователем.]]></lines>
+	<lines name="period_left" descr=""><![CDATA[Осталось дней]]></lines>
+	<lines name="home_text_9" descr=""><![CDATA[Продлить активность]]></lines>
+	<lines name="add_to_hotlist" descr=""><![CDATA[Добавить в Избранное]]></lines>
+	<lines name="add_to_blacklist" descr=""><![CDATA[Добавить в Черный список]]></lines>
+	<lines name="contact_user" descr=""><![CDATA[Связаться с ним]]></lines>
+	<lines name="contact_admin" descr=""><![CDATA[Пожаловаться на пользователя]]></lines>
+	<lines name="interest" descr=""><![CDATA[Выразить интерес]]></lines>
+	<lines name="date_added" descr=""><![CDATA[Добавлен в лист]]></lines>
+	<lines name="date_visited" descr=""><![CDATA[Дата посещения]]></lines>
+	<lines name="date_interest" descr=""><![CDATA[Заинтересовался]]></lines>
+	<lines name="i_find" descr=""><![CDATA[Я хочу]]></lines>
+	<lines name="where_loc" descr=""><![CDATA[Где искать]]></lines>
+	<lines name="rental_ad" descr=""><![CDATA[Последнее объявление]]></lines>
+	<lines name="my_contacts" descr=""><![CDATA[МОЙ СПИСОК КОНТАКТОВ]]></lines>
+	<lines name="monthly" descr=""><![CDATA[за месяц]]></lines>
+	<lines name="weekly" descr=""><![CDATA[за неделю]]></lines>
+	<lines name="show_rental_menu" descr=""><![CDATA[Показать меню]]></lines>
+	<lines name="hide_rental_menu" descr=""><![CDATA[Скрыть меню]]></lines>
+	<lines name="choose" descr=""><![CDATA[Пожалуйста выберите]]></lines>	
+	<lines name="go_to_power_search" descr=""><![CDATA[перейти на поиск по всем параметрам]]></lines>
+	<lines name="price" descr=""><![CDATA[Цена]]></lines>
+	<lines name="from" descr=""><![CDATA[от]]></lines>
+	<lines name="upto" descr=""><![CDATA[до]]></lines>
+	<lines name="auction_possible" descr=""><![CDATA[торг возможен]]></lines>
+	<lines name="auction_inpossible" descr=""><![CDATA[торг невозможен]]></lines>
+	<lines name="month_payment_in_line" descr=""><![CDATA[Стоимость аренды за 1 месяц]]></lines>
+	<lines name="last_results" descr=""><![CDATA[Последние объявления]]></lines>
+	<lines name="i_need" descr=""><![CDATA[Арендует]]></lines>
+	<lines name="i_have" descr=""><![CDATA[Сдаёт в аренду]]></lines>
+	<lines name="i_buy" descr=""><![CDATA[Покупает]]></lines>
+	<lines name="i_sell" descr=""><![CDATA[Продаёт]]></lines>
+	<lines name="need_realty" descr=""><![CDATA[Я арендую]]></lines>
+	<lines name="have_realty" descr=""><![CDATA[Я сдаю в аренду]]></lines>
+	<lines name="sell_realty" descr=""><![CDATA[Я продаю]]></lines>
+	<lines name="buy_realty" descr=""><![CDATA[Я покупаю]]></lines>
+	<lines name="place_text_1" descr=""><![CDATA[Объявление находится на ]]></lines>
+	<lines name="place_text_2" descr=""><![CDATA[ месте]]></lines>
+	<lines name="place_text_3" descr=""><![CDATA[Объявление неактивно и не участвует в поиске]]></lines>
+	<lines name="viewed" descr=""><![CDATA[Просмотров за сегодня]]></lines>
+	<lines name="monthly" descr=""><![CDATA[за месяц]]></lines>
+	<lines name="i_want" descr=""><![CDATA[Я хочу]]></lines>
+	<lines name="qs_i_need" descr=""><![CDATA[арендовать]]></lines>
+	<lines name="qs_i_have" descr=""><![CDATA[сдать в аренду]]></lines>
+	<lines name="qs_i_sell" descr=""><![CDATA[продать]]></lines>
+	<lines name="qs_i_buy" descr=""><![CDATA[купить]]></lines>	
+	<lines name="costs_min" descr=""><![CDATA[Стоимость от]]></lines>
+	<lines name="upto" descr=""><![CDATA[до]]></lines>
+	<lines name="button_search" descr=""><![CDATA[Искать!]]></lines>
+	<lines name="no_ads_from_user" descr=""><![CDATA[Нет объявлений]]></lines>
+	<lines name="min" descr=""><![CDATA[от]]></lines>
+	<lines name="max_views" descr=""><![CDATA[Самые популярные по количеству просмотров]]></lines>
+	<lines name="admin_choose" descr=""><![CDATA[Спонсорские]]></lines>
+	<lines name="last_added" descr=""><![CDATA[Последние добавленные]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+	<lines name="time_end" descr=""><![CDATA[до]]></lines>
+	<lines name="empty" descr=""><![CDATA[Свободна]]></lines>
+</data>

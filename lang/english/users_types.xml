@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="type_1" descr="Nick"><![CDATA[Login]]></lines>
+<lines name="type_2" descr="Name"><![CDATA[Name]]></lines>
+<lines name="type_3" descr="Surname"><![CDATA[Surname]]></lines>
+<lines name="type_4" descr="Email"><![CDATA[E-mail]]></lines>
+<lines name="type_5" descr="CompanyName"><![CDATA[Company name]]></lines>
+</data>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="menu_rental_my_1" descr=""><![CDATA[Просмотрели мой профайл]]></lines>
+	<lines name="menu_rental_my_2" descr=""><![CDATA[Добавили меня в избранные]]></lines>
+	<lines name="menu_rental_my_3" descr=""><![CDATA[Заинтересовались мной]]></lines>
+	<lines name="menu_rental_my_4" descr=""><![CDATA[Подходят мне]]></lines>
+	<lines name="menu_rental_his_1" descr=""><![CDATA[Просмотрел профайлы]]></lines>
+	<lines name="menu_rental_his_2" descr=""><![CDATA[Добавил в избранные]]></lines>
+	<lines name="menu_rental_his_3" descr=""><![CDATA[Заитересовался ими]]></lines>
+	<lines name="menu_rental_his_4" descr=""><![CDATA[Я им подхожу]]></lines>
+</data>

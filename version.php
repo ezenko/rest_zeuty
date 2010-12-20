@@ -1,0 +1,7 @@
+<?php
+
+define("REALESTATE_VERSION", "FEB_2009_01");
+
+print REALESTATE_VERSION;
+
+?>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="users" descr="">Benutzer</lines>
+	
+<lines name="users_list" descr="">Benutzerliste</lines>
+	
+<lines name="users_add" descr="">Benutzer hinzufugen</lines>
+	
+<lines name="users_import" descr="">Benutzerimport</lines>
+	
+<lines name="groups_list" descr="">Gruppenliste</lines>
+	
+<lines name="payments" descr="">Zahlungen</lines>
+	
+<lines name="payments_settings" descr="">Abrechnungseinstellungen</lines>
+	
+<lines name="pay_services" descr="">Kosten der Mitgliedschaft und Services</lines>
+	
+<lines name="payments_history" descr="">Zahlungsgeschichte</lines>
+	
+<lines name="payments_list" descr="">Zahlungsliste</lines>
+	
+<lines name="payments_write_offs" descr="">Liste der Abschreibungen</lines>
+	
+<lines name="realestate" descr="">Mein Real Estate</lines>
+	
+<lines name="realestate_listings" descr="">Meine Anzeigen</lines>
+	
+<lines name="mailbox" descr="">Meine Meldungen</lines>
+	
+<lines name="sponsors_announcements" descr="">Gesponserte Anzeigen</lines>
+	
+<lines name="content_management" descr="">Inhaltverwaltung</lines>
+	
+<lines name="references" descr="">Referenzen</lines>
+	
+<lines name="references_countries" descr="">Lander</lines>
+	
+<lines name="references_property_type" descr="">Immobilientyp</lines>
+	
+<lines name="references_numerical_values" descr="">Zahlenwerte</lines>
+	
+<lines name="references_about_property" descr="">Uber Immobilien</lines>
+	
+<lines name="references_term_of_lease" descr="">Mietbedingungen</lines>
+	
+<lines name="references_about_person" descr="">Uber die Person</lines>
+	
+<lines name="references_gender" descr="">Geschlecht</lines>
+	
+<lines name="references_languages" descr="">Sprachen</lines>
+	
+<lines name="references_reason_for_deactivation" descr="">Grund der Deaktivierung</lines>
+	
+<lines name="sections_management" descr="">Bereicheverwaltung</lines>
+	
+<lines name="bad_words" descr="">Schimpfworter</lines>
+	
+<lines name="news_feeds" descr="">Ihre Nachrichten, RSS Feeds</lines>
+	
+<lines name="menu_and_content" descr="">Menu und Seiteninhaltverwaltung</lines>
+	
+<lines name="uploads_approve" descr="">Uploadgenehmigung</lines>
+	
+<lines name="site_parameters" descr="">Seitenparameter</lines>
+	
+<lines name="settings" descr="">Einstellungen</lines>
+	
+<lines name="admin_info" descr="">Mein Konto</lines>
+	
+<lines name="site_mode" descr="">Seitenmodus</lines>
+	
+<lines name="other" descr="">Sonstiges</lines>
+	
+<lines name="site_languages" descr="">Seitensprachen</lines>
+	
+<lines name="country_search" descr="">Land-Suche</lines>
+	
+<lines name="maps" descr="">Karten</lines>
+	
+<lines name="alerts" descr="">Benachrichtigungen</lines>
+	
+<lines name="admin_alerts" descr="">Administratorbenachrichtigungen</lines>
+	
+<lines name="member_alerts" descr="">Mitgliederbenachrichtigungen</lines>
+	
+<lines name="show_ads_area" descr="">Reihenfolge der ausgestellten Anzeigen</lines>
+	
+<lines name="info_manager" descr="">Informationsseiten</lines>
+	
+<lines name="server_errors" descr="">Serverfehler</lines>
+	
+<lines name="metatags" descr="">SEO Metatags</lines>
+	
+<lines name="watermark_settings" descr="">Wasserzeicheneinstellungen</lines>
+	
+<lines name="logotype_settings" descr="">Logotypeinstellungen</lines>
+	
+<lines name="my_agents" descr="">Meine Agenten</lines>
+	
+<lines name="my_realtor" descr="">Mein Immobilienmakler</lines>
+	
+<lines name="modules" descr="">Moduln</lines>
+	
+<lines name="banners" descr="">Werbungskampagnen</lines>
+	
+<lines name="banners_list" descr="">Liste der Werbungskampagnen</lines>
+	
+<lines name="banners_add" descr="">Werbungskampagne hinzufugen</lines>
+
+	<lines name="listings" descr=""><![CDATA[Anzeigen]]></lines>
+	<lines name="listings_feed" descr=""><![CDATA[XML Feeds von Anzeigen]]></lines>
+</data>

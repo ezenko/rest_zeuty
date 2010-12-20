@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="1" descr="January"><![CDATA[Januar]]></lines>
+	<lines name="2" descr="February"><![CDATA[Februar]]></lines>
+	<lines name="3" descr="March"><![CDATA[März]]></lines>
+	<lines name="4" descr="April"><![CDATA[April]]></lines>
+	<lines name="5" descr="May"><![CDATA[Mai]]></lines>
+	<lines name="6" descr="June"><![CDATA[Juni]]></lines>
+	<lines name="7" descr="July"><![CDATA[Juli]]></lines>
+	<lines name="8" descr="August"><![CDATA[August]]></lines>
+	<lines name="9" descr="September"><![CDATA[September]]></lines>
+	<lines name="10" descr="October"><![CDATA[Oktober]]></lines>
+	<lines name="11" descr="November"><![CDATA[November]]></lines>
+	<lines name="12" descr="December"><![CDATA[Dezember]]></lines>
+</data>

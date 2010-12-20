@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="help" descr=""><![CDATA[Hier verwalten Sie Seiten (Bereiche) von Ober- und Bodenmenüs vor und nach der Anmeldung.<br>
+Änderungen sind nicht für Folgendes vorgesehen:<ul style="margin-top:0px; margin-bottom:0px;">
+<li>Teile <b>des Obermenüs</b> vor der Anmeldung: "Anmeldung", "Suche", "Nachrichten"; nach der Anmeldung: "Mein RealEstate", "Suche", "Nachrichten";</li>
+<li>Teile <b>des Bodenmenüs</b> vor und nach der Anmeldung: "Kontakt".</li>
+</ul>
+Um einen neuen Bereich in Ober- oder Bodenmenü zu erstellen, klicken Sie auf "Bereich hinzufügen". Sie werden zu der WYSIWYG-Editor Seite überführt, wo Sie seinen Namen und Inhalt eingeben werden.<br>
+Um einen neuen Unterbereich zu erstellen, klicken Sie auf "Ändern: ?" in der Tabelle 'Unterbereiche'. Sie werden zu der Seite der Unterbereiche des gewählten Bereiches überführt. Unterbereichverwaltung (erstellen, bearbeiten, entfernen) ist ähnlich der Bereichverwaltung.<br><br>
+In der Mitgliederzone werden Links zu Unterbereichen aufgelistet nach dem Text des Bereichinhaltes auf der Bereichseite angezeigt. Wenn Sie einen bestimmten Unterbereich auswählen, wird sein Inhalt unter der Liste aller Unterbereiche auf der gewünschten Bereichseite angezeigt.<br><br>
+Bereich, der neulich erstellt wurde, kann für alle Seitensprachen angepasst werden. Kopieren Sie den Bereichinhalt in andere Sprachen (für andere Sprachen wird der Bereich standardmäßig inaktiv), klicken auf Sprachenlink und bearbeiten den Inhalt des Bereiches und aller Unterbereiche.<br>
+Sie können auch die Position der Bereiche und Unterbereiche ändern, mit Hilfe von Richtungspfeilen ‘Eine Ebene tiefer‘ und ‘Eine Ebene höher‘. Sie können einen Bereich aus dem Bodenmenü in Obermenü und umgekehrt übertragen, indem Sie auf entsprechende Knöpfe klicken<br><br>
+Es wird empfohlen, nicht mehr als 2 Bereiche im Obermenü zu erstellen, weil Obermenü schon 3 nicht zu bearbeitende Bereiche beinhaltet, abgesehen von denen, die von Ihnen erstellt werden. Im Bodenmenü ist die Bereichenanzahl nicht begrenzt.
+]]></lines>
+<lines name="add_section" descr=""><![CDATA[Bereich hinzufügen]]></lines>
+<lines name="caption" descr=""><![CDATA[Bereichname]]></lines>
+<lines name="subsect_caption" descr=""><![CDATA[Unterbereichname]]></lines>
+<lines name="to_publish" descr=""><![CDATA[Veröffentlichen]]></lines>
+<lines name="position_number" descr=""><![CDATA[Position]]></lines>
+<lines name="publish_title" descr=""><![CDATA[Veröffentlichen]]></lines>
+<lines name="top_menu" descr=""><![CDATA[Obermenü-Bereiche]]></lines>				
+<lines name="bottom_menu" descr=""><![CDATA[Bodenmenü-Bereiche]]></lines>				
+<lines name="move" descr=""><![CDATA[Übertragen]]></lines>
+<lines name="delete" descr=""><![CDATA[Löschen]]></lines>
+<lines name="copy_to_langs" descr=""><![CDATA[In andere Sprachen kopieren]]></lines>	
+<lines name="move_up" descr=""><![CDATA[Eine Ebene höher]]></lines>				
+<lines name="move_down" descr=""><![CDATA[Eine Ebene tiefer]]></lines>
+<lines name="to_top_menu" descr=""><![CDATA[Zum Obermenü]]></lines>				
+<lines name="to_bottom_menu" descr=""><![CDATA[Zum Bodenmenü]]></lines>				
+<lines name="del_section_confirm" descr=""><![CDATA[Sind Sie sicher, dass Sie diesen Bereich löschen wollen?]]></lines>
+<lines name="and_subsections" descr=""><![CDATA[und alle dessen Unterbereiche?]]></lines>
+<lines name="subsections" descr=""><![CDATA[Unterbereiche]]></lines>
+<lines name="add_subsection" descr=""><![CDATA[Unterbereich hinzufügen]]></lines>
+<lines name="del_subsection_confirm" descr=""><![CDATA[Sind Sie sicher, dass Sie diesen Unterbereich löschen wollen?]]></lines>
+<lines name="sect_subsections" descr=""><![CDATA[Unterbereiche]]></lines>
+<lines name="preview" descr=""><![CDATA[Hauptseitenvorschau]]></lines>
+<lines name="preview_index" descr=""><![CDATA[Vor der Anmeldung]]></lines>
+<lines name="preview_homepage" descr=""><![CDATA[Nach der Anmeldung (Mein RealEstate)]]></lines>
+<lines name="metatags" descr=""><![CDATA[Metatags]]></lines>
+<lines name="description" descr=""><![CDATA[Beschreibung]]></lines>
+<lines name="keywords" descr=""><![CDATA[Schlüsselwörter]]></lines>
+</data>

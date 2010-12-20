@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="button_deactivate" descr=""><![CDATA[Deactivate]]></lines>
+	<lines name="addition_comment" descr=""><![CDATA[Additional comments]]></lines>
+	<lines name="nickname" descr=""><![CDATA[Username]]></lines>
+	<lines name="fname" descr=""><![CDATA[Name]]></lines>
+	<lines name="sname" descr=""><![CDATA[Last name]]></lines>
+	<lines name="birthday" descr=""><![CDATA[Birth date]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="phone" descr=""><![CDATA[Phone]]></lines>
+	<lines name="incorrect_field" descr=""><![CDATA[Incorrect field]]></lines>
+	<lines name="incorrect_date" descr=""><![CDATA[Incorrect date]]></lines>
+	<lines name="login_exists" descr=""><![CDATA[This name is already in use]]></lines>
+	<lines name="email_exists" descr=""><![CDATA[This e-mail is already in use]]></lines>
+	<lines name="old_password" descr=""><![CDATA[Old password]]></lines>
+	<lines name="new_password" descr=""><![CDATA[New password]]></lines>
+	<lines name="new_password_verify" descr=""><![CDATA[Re-password]]></lines>
+	<lines name="wrong_password" descr=""><![CDATA[Incorrect old password]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Company name]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Your company site (url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Number of listings]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[How did you find us]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Questions and comments]]></lines>
+	<lines name="work_days" descr=""><![CDATA[Working days]]></lines>
+	<lines name="work_time" descr=""><![CDATA[Working hours]]></lines>
+	<lines name="lunch_time" descr=""><![CDATA[Lunch time]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[]]></lines>
+	<lines name="time_end" descr=""><![CDATA[-]]></lines>
+	<lines name="private_person" descr=""><![CDATA[Private person]]></lines>
+	<lines name="agency" descr=""><![CDATA[Real Estate company]]></lines>
+	<lines name="our_logo" descr=""><![CDATA[Company logo or Your photo]]></lines>
+	<lines name="no_answer" descr=""><![CDATA[Leave no answer]]></lines>
+	<lines name="sel_all_text" descr=""><![CDATA[Check all options]]></lines>
+	<lines name="unsel_all_text" descr=""><![CDATA[Uncheck all]]></lines>
+	<lines name="unsel_radio_text" descr=""><![CDATA[Uncheck]]></lines>
+	<lines name="you_registered_as" descr=""><![CDATA[You're registered as]]></lines>
+	<lines name="subheader" descr=""><![CDATA[This information is visible for all site users. Changes performed here are reflected in all your listings.]]></lines>
+	<lines name="activate" descr=""><![CDATA[Activate profile]]></lines>
+	<lines name="deactivate" descr=""><![CDATA[De-activate profile]]></lines>
+	<lines name="deactivated_profile" descr=""><![CDATA[Your profile is deactivated, listings are inactive and invisible in search. Check your listings after activation.]]></lines>
+	<lines name="admin_approve_not_complete" descr=""><![CDATA[The photo wasn't approved by moderator yet]]></lines>
+	<lines name="admin_approve_decline" descr=""><![CDATA[The photo was blocked by moderator]]></lines>
+	<lines name="interface_language" descr=""><![CDATA[Interface language]]></lines>		
+	<lines name="interface_language_help" descr=""><![CDATA[Interface language that is activated after authorization, all system messages are sent on the same language.]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[from]]></lines>
+	<lines name="time_end" descr=""><![CDATA[till]]></lines>
+	<lines name="empty" descr=""><![CDATA[Available]]></lines>
+	<lines name="country" descr=""><![CDATA[Country]]></lines>
+	<lines name="address" descr=""><![CDATA[Address]]></lines>
+	<lines name="city" descr=""><![CDATA[City]]></lines>
+	<lines name="region" descr=""><![CDATA[Region]]></lines>
+	<lines name="map" descr=""><![CDATA[Map]]></lines>
+	<lines name="post_code" descr=""><![CDATA[Postal code]]></lines>		
+	<lines name="agent_of_agency" descr=""><![CDATA[Agent of Real Estate company]]></lines>
+	<lines name="choose_company" descr=""><![CDATA[Choose company]]></lines>
+		<lines name="hint_3" descr=""><![CDATA[You should choose a company whose agent you would like to become. The company will receive a request and will either approve it or decline. If you are already an agent of some company or send a request for that, then you can remove this company as your realtor and any company will be able to send you offers to become their agent. You can leave this field empty. In this case you will be an independant agent. You can also change a company to be agent for. In this case the company you were agent for will receive a notification informing that you are not their agent anymore.]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Company choice]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Search for a member]]></lines>
+	<lines name="search_help" descr=""><![CDATA[To search enter identifying member's data: name, surname, company name.]]></lines>
+	<lines name="number" descr=""><![CDATA[№]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Listings]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Funds addition]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Company name]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[There are no results matching your criteria]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Missing]]></lines>
+	<lines name="pages" descr=""><![CDATA[pages]]></lines>
+	<lines name="not_approve" descr=""><![CDATA[Company has not processed your agent request yet]]></lines>
+	<lines name="your_photo" descr=""><![CDATA[Your photo]]></lines>
+	<lines name="agency_url" descr=""><![CDATA[Company site(url)]]></lines>
+	<lines name="agency_logo" descr=""><![CDATA[Company logo]]></lines>
+	<lines name="location" descr=""><![CDATA[Location]]></lines>
+	<lines name="need_delete_realtor" descr=""><![CDATA[In order to change your type, you should remove yourself from the list of company's agents ]]></lines>
+	<lines name="need_delete_agents" descr=""><![CDATA[In order to change your type, you should clean your agents list]]></lines>
+	<lines name="delete_agents" descr=""><![CDATA[Before your account deactivation, you should clean your agents list]]></lines>
+	<lines name="delete_realtor" descr=""><![CDATA[Before your account deactivation, you should remove yourself from the list of agents]]></lines>
+	<lines name="decline_company" descr=""><![CDATA[Cancel company's offer]]></lines>
+	<lines name="change_company" descr=""><![CDATA[Change company]]></lines>
+	<lines name="delete_company" descr=""><![CDATA[Remove company]]></lines>
+	<lines name="na_agency_1" descr=""><![CDATA[Company]]></lines>
+	<lines name="na_agency_2" descr=""><![CDATA[was not found]]></lines>
+	<lines name="na_agency_3" descr=""><![CDATA[Empty field is inadmissible]]></lines>
+	<lines name="with_company_1" descr=""><![CDATA[With company]]></lines>
+	<lines name="with_company_2" descr=""><![CDATA[you are already in contact with.]]></lines>
+	<lines name="incorrect_time_interval" descr=""><![CDATA[Interval set incorrectly]]></lines>
+</data>

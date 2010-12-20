@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="edit_file" descr=""><![CDATA[Bearbeiten]]></lines>
+<lines name="badwords_help" descr=""><![CDATA[Hier bestimmen Sie Wörter, die auf Ihrer Seite nicht erlaubt sind.<br>Mitglieder, die diese Wörter in ihrer Meldungen benutzen, werden solche Meldungen nicht versenden können. Wörter und Redewendungen sollen mit einem Komma abgetrennt sein.]]></lines>	
+</data>

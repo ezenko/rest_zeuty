@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+
+<lines name="index" descr=""><![CDATA[Стартовая страница]]></lines>
+<lines name="registration" descr=""><![CDATA[Регистрация]]></lines>
+<lines name="homepage" descr=""><![CDATA[Мой RealEstate]]></lines>
+<lines name="edit_rentals" descr=""><![CDATA[Мои объявления]]></lines>
+<lines name="match_my_rent" descr=""><![CDATA[Подходящие мне варианты]]></lines>
+
+<lines name="services" descr=""><![CDATA[Платные услуги]]></lines>
+<lines name="top_search" descr=""><![CDATA[Поднимите &quot;наверх&quot; объявление в поиске]]></lines>
+<lines name="slideshow" descr=""><![CDATA[Выделить объявление в поиске]]></lines>
+<lines name="featured" descr=""><![CDATA[Выделить объявление в регионе]]></lines>
+<lines name="charge" descr=""><![CDATA[Абонентская плата]]></lines>
+<lines name="sell_lease_payment" descr=""><![CDATA[Плата за размещение объявлений о продаже и сдаче в аренду]]></lines>
+<lines name="payment_form" descr=""><![CDATA[Пополнить счет]]></lines>
+<lines name="payment_history" descr=""><![CDATA[История платежей]]></lines>
+
+<lines name="search_preferences" descr=""><![CDATA[Мои настройки поиска]]></lines>
+
+<lines name="my_contacts" descr=""><![CDATA[Мой список контактов]]></lines>
+<lines name="menu_rental_my_1" descr=""><![CDATA[Просмотрели мой профайл]]></lines>
+<lines name="menu_rental_my_2" descr=""><![CDATA[Добавили меня в избранные]]></lines>
+<lines name="menu_rental_my_3" descr=""><![CDATA[Заинтересовались мной]]></lines>
+<lines name="blacklisted_me" descr=""><![CDATA[Занесли меня в черный список]]></lines>
+<lines name="menu_rental_his_1" descr=""><![CDATA[Просмотрел их профайлов]]></lines>
+<lines name="menu_rental_his_2" descr=""><![CDATA[Добавил в избранные]]></lines>
+<lines name="menu_rental_his_3" descr=""><![CDATA[Заитересовался ими]]></lines>
+<lines name="blacklisted_them" descr=""><![CDATA[Занес их в черный список]]></lines>
+
+<lines name="my_profile" descr=""><![CDATA[Мой профайл]]></lines>
+<lines name="edit_profile" descr=""><![CDATA[Редактирование профайла]]></lines>
+<lines name="edit_password" descr=""><![CDATA[Изменить пароль]]></lines>
+<lines name="account_deactivate" descr=""><![CDATA[Деактивировать профайл]]></lines>
+<lines name="account_activate" descr=""><![CDATA[Активировать профайл]]></lines>
+
+<lines name="mailbox" descr=""><![CDATA[Мои сообщения]]></lines>
+
+<lines name="search" descr=""><![CDATA[Поиск]]></lines>
+<lines name="quick_search" descr=""><![CDATA[Быстрый поиск]]></lines>
+<lines name="power_searchr" descr=""><![CDATA[Поиск по всем параметрам]]></lines>
+<lines name="power_searchr_saved" descr=""><![CDATA[Поиск по сохраненым настройкам расширенного поиска]]></lines>
+<lines name="power_searchr_by_name" descr=""><![CDATA[Поиск по имени пользователя]]></lines>
+<lines name="search_online" descr=""><![CDATA[Сейчас на сайте]]></lines>
+<lines name="search_new_members" descr=""><![CDATA[Новые пользователи]]></lines>
+<lines name="search_most_active" descr=""><![CDATA[Наиболее активные пользователи]]></lines>
+
+<lines name="news" descr=""><![CDATA[Новости]]></lines>
+
+<lines name="contact" descr=""><![CDATA[Контакты]]></lines>
+<lines name="map" descr=""><![CDATA[Карта сайта]]></lines>
+
+<lines name="logoff" descr=""><![CDATA[Выход]]></lines>
+</data>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="save" descr=""><![CDATA[Speichern]]></lines>
+	<lines name="send" descr=""><![CDATA[Senden]]></lines>
+	<lines name="back" descr=""><![CDATA[Zurück]]></lines>
+	<lines name="delete" descr=""><![CDATA[Ablösen]]></lines>
+	<lines name="load" descr=""><![CDATA[Laden]]></lines>
+	<lines name="submit" descr=""><![CDATA[Abschicken]]></lines>
+	<lines name="register" descr=""><![CDATA[Registrieren]]></lines>
+	<lines name="upload" descr=""><![CDATA[Hochladen]]></lines>
+	<lines name="close" descr=""><![CDATA[Schließen]]></lines>
+	<lines name="search" descr=""><![CDATA[Finden]]></lines>
+	<lines name="comunicate" descr=""><![CDATA[Kontakt]]></lines>
+	<lines name="add" descr=""><![CDATA[Hinzufügen]]></lines>
+	<lines name="change" descr=""><![CDATA[Ändern]]></lines>
+	<lines name="users_list" descr=""><![CDATA[Benutzerliste]]></lines>
+	<lines name="refresh" descr=""><![CDATA[Aktualisieren]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Anzeige löschen]]></lines>
+	<lines name="save_1" descr=""><![CDATA[Speichern]]></lines>
+	<lines name="send_message" descr=""><![CDATA[Meldung senden]]></lines>
+	<lines name="view" descr=""><![CDATA[Ansehen]]></lines>
+	<lines name="to_payment" descr=""><![CDATA[Geldmittel hinzufügen]]></lines>
+	<lines name="transfer" descr=""><![CDATA[Übertragen]]></lines>
+	<lines name="mark" descr=""><![CDATA[Markieren]]></lines>
+	<lines name="choose" descr=""><![CDATA[Wählen]]></lines>
+	<lines name="add_agents" descr=""><![CDATA[Agenten hinzufügen]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Anzeige löschen]]></lines>
+	<lines name="apply" descr=""><![CDATA[Anbringen]]></lines>
+</data>

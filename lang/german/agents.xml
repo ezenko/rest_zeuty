@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="empty_result" descr=""><![CDATA[Sie haben keine Agenten]]></lines>
+	<lines name="pages" descr=""><![CDATA[Seiten]]></lines>
+	<lines name="empty_list" descr=""><![CDATA[Leere Liste]]></lines>
+	<lines name="max_payment" descr=""><![CDATA[Maximale Zahlung]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Verfügbar ab]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Umzugsdatum]]></lines>
+	<lines name="location" descr=""><![CDATA[Standort]]></lines>
+	<lines name="login" descr=""><![CDATA[Login]]></lines>
+	<lines name="date_last_login" descr=""><![CDATA[Letztes Login]]></lines>
+	<lines name="status" descr=""><![CDATA[Status]]></lines>
+	<lines name="online" descr=""><![CDATA[Online]]></lines>
+	<lines name="offline" descr=""><![CDATA[Offline]]></lines>
+	<lines name="no_photos" descr=""><![CDATA[Keine Fotos]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Umzugsdatum von]]></lines>
+	<lines name="nickname" descr=""><![CDATA[Nickname]]></lines>
+	<lines name="date_reg" descr=""><![CDATA[Anmeldungsdatum]]></lines>
+	<lines name="date_last" descr=""><![CDATA[Datum des letzten Kontaktes]]></lines>
+	<lines name="contact_user" descr=""><![CDATA[Mitglied kontaktieren]]></lines>
+	<lines name="contact_admin" descr=""><![CDATA[Sich übers Mitglied beklagen]]></lines>
+	<lines name="empty" descr=""><![CDATA[Zugänglich]]></lines>
+	<lines name="rental_ad" descr=""><![CDATA[Letzte Anzeige]]></lines>
+	<lines name="no_ads_from_user" descr=""><![CDATA[Keine Anzeigen]]></lines>
+	<lines name="approve" descr=""><![CDATA[Genehmigen]]></lines>
+	<lines name="decline" descr=""><![CDATA[Absagen]]></lines>
+	<lines name="del_from_agents_list" descr=""><![CDATA[Aus der Agentenliste entfernen]]></lines>
+	<lines name="new_agent" descr=""><![CDATA[möchte Ihr Agent sein]]></lines>
+	<lines name="decline_confirm" descr=""><![CDATA[Sind Sie sicher, dass Sie die Anfrage absagen wollen?]]></lines>
+	<lines name="del_confirm" descr=""><![CDATA[Sind Sie sicher, dass Sie dieses Mitglied von Ihrer Agentenliste entfernen wollen?]]></lines>
+	<lines name="cannot_have" descr=""><![CDATA[Sie dürfen keine eigenen Agenten haben. Dafür sollen Sie sich als Immobilienagentur anmelden.]]></lines>
+	<lines name="change_registration_data" descr=""><![CDATA[Anmeldungsinformationen ändern]]></lines>
+	<lines name="choose_agent" descr=""><![CDATA[Agenten wählen]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Agenten wählen]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Nach dem Mitglied suchen]]></lines>
+	<lines name="search_help_company" descr=""><![CDATA[Für die Suche geben Sie bitte Identifizierungsinformationen über Mitglieder ein: Vorname, Familienname, Unternehmensname.]]></lines>
+	<lines name="search_help_agent" descr=""><![CDATA[Für die Suche geben Sie bitte Identifizierungsinformationen über Mitglieder ein: Vorname, Familienname, Email.]]></lines>	
+	<lines name="number" descr=""><![CDATA[Nr]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Anzeigen]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Zahlungen]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[Keine Einträge ensprechen Ihren Kriterien]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Information fehlt]]></lines>
+	<lines name="not_approve_by_agent" descr=""><![CDATA[Die Einladungsmeldung wurde dem Mitglied gesendet.]]></lines>
+	<lines name="del_company_offer" descr=""><![CDATA[Einladung entziehen]]></lines>
+	<lines name="confirm_del_company_offer" descr=""><![CDATA[Sind Sie sicher, dass Sie Ihre Einladung entziehen wollen?]]></lines>
+	<lines name="new_offer_by_company" descr=""><![CDATA[Einladungen von den Unternehmen, die Sie als ihren Agenten haben möchten]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Seite (Url)]]></lines>
+	<lines name="new_company" descr=""><![CDATA[Dieses Unternehmen lädt Sie ein, sein Agent zu werden]]></lines>
+	<lines name="decline_offer" descr=""><![CDATA[Sind Sie sicher, dass Sie die Einladung ablehnen wollen?]]></lines>
+	<lines name="preferences_help" descr=""><![CDATA[Hier finden Sie alle Einladungsmeldungen von Unternehmen. Wenn Sie Ihre Immobilienagentur schon ausgewählt haben, bitte folgen Sie dem entsprechenden Link, um Ihre Anmeldungsinformationen zu ändern. Nachdem Sie eine der Einladungen akzeptiert haben, werden die übrigen Einladungen automatisch abgelehnt.]]></lines>
+	<lines name="no_offer" descr=""><![CDATA[Es gibt keine Einladungen]]></lines>
+	<lines name="your_realtor" descr=""><![CDATA[ist Ihre Immobilienagentur]]></lines>
+	<lines name="offer_by_agent" descr=""><![CDATA[Ihre Anfrage wurde dem gewählten Untermehen gesendet]]></lines>
+	<lines name="already_choose" descr=""><![CDATA[Sie haben schon Kontakt mit diesem Unternehmen. Mehr Informationen finden Sie auf My Realtor Seite (Meine Immobilienagentur). Wollen Sie trotzdem fortsetzen?]]></lines>
+	<lines name="delete_realtor" descr=""><![CDATA[Das Unternehmen verlassen]]></lines>
+	<lines name="conf_delete_realtor" descr=""><![CDATA[Sind Sie sicher, dass Sie dieses Unternehmen verlassen und ein selbstständiger Agent werden wollen?]]></lines>
+	<lines name="need_search_criteria" descr=""><![CDATA[Deuten Sie Suchkriterien an]]></lines>
+	<lines name="add_agents" descr=""><![CDATA[Agenten hinzufügen]]></lines>
+</data>

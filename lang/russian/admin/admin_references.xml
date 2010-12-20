@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Управление контентом]]></lines>
+<lines name="page_edit_subheader" descr=""><![CDATA[Редактирование подсправочника]]></lines>
+<lines name="page_editopt_subheader" descr=""><![CDATA[Редактирование значений подсправочника]]></lines>
+<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="reference" descr=""><![CDATA[Справочник]]></lines>
+<lines name="references" descr=""><![CDATA[Справочники]]></lines>
+<lines name="subreference" descr=""><![CDATA[Подсправочник]]></lines>
+<lines name="empty" descr=""><![CDATA[Ничего не найдено]]></lines>
+<lines name="name" descr=""><![CDATA[Имя]]></lines>
+<lines name="sorter" descr=""><![CDATA[Порядок]]></lines>
+<lines name="confirm" descr=""><![CDATA[Удалить этот справочник?]]></lines>
+<lines name="option" descr=""><![CDATA[Значение]]></lines>
+<lines name="add_option" descr=""><![CDATA[Новое значение]]></lines>
+<lines name="delete" descr=""><![CDATA[Удалить]]></lines>
+<lines name="type" descr=""><![CDATA[Тип]]></lines>
+<lines name="one_variant" descr=""><![CDATA[Один вариант]]></lines>
+<lines name="multi" descr=""><![CDATA[Мультиселект]]></lines>
+<lines name="des_type" descr=""><![CDATA[Дизайн]]></lines>
+<lines name="checkbox" descr=""><![CDATA[checkbox]]></lines>
+<lines name="select" descr=""><![CDATA[select]]></lines>
+<lines name="about_me" descr=""><![CDATA[касается меня/моей собственности]]></lines>
+<lines name="about_search_item" descr=""><![CDATA[касается того, кого/что ищу]]></lines>
+<lines name="list_help" descr=""><![CDATA[Справочники - это сгруппированные в подсправочники характиристики, описывающие недвижимость или человека. В зависимости от своего предназначения справочники используются на страницах сайта в формах поиска, при заполнении пользователем своего профайла и объявлений.]]></lines>	
+<lines name="not_editable_help" descr=""><![CDATA[<b>Данный справочник защищен от редактирования.</b> Вы можете только изменить названия и список значений его подсправочников. Добавление новых подсправочников, редактирование каких-либо других настроек существующих подсправочников, кроме их названий, не предусмотрено. Это связано с тем, что данный справочник особым образом используется в формах поиска, при редактировании объявлений или профайлов.]]></lines>	
+<lines name="edit_subref_help" descr=""><![CDATA[Здесь устанавливаются значения параметров, отвечающих за отображение подсправочников в формах на страницах сайта.<br>В поле <b>Тип</b> устанавливается количество возможных ответов (отмеченных опций) подсправочника при заполнении формы, содержащей подсправочник. <br><b>Дизайн</b> определяет то, каким образом варианты ответов на вопрос подсправочника будут отображаться в формах сайта: <ul style="margin-top:0px; margin-bottom:0px;"><li>При выборе <span style="text-decoration:underline">select</span> вырианты ответов будут представлены в виде выпадающего списка, например 
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<td>
+		<select name="sel_1">
+			<option value="1">ответ 1</option>
+			<option value="2" selected="selected">ответ 2</option>
+			<option value="3">ответ 3</option>						
+		</select>
+	</td>
+	<td style="padding-left: 10px;">(если значение поля Тип - Один вариант)</td>
+</tr>
+</table> или
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<td>
+		<select multiple="multiple" name="sel_2">
+			<option value="1" selected="selected">ответ 1</option>
+			<option value="2" selected="selected">ответ 2</option>
+			<option value="3">ответ 3</option>						
+		</select>
+	</td>
+	<td style="padding-left: 10px;">(если значение поля Тип - Мультиселект)</td>
+</tr>
+</table>
+</li><li>При <span style="text-decoration:underline">checkbox</span> все варианты ответов будут распечатаны в форме друг за другом, и пользователю нужно будет отметить верные варианты ответа, например 
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<td><input type=radio class=radio name=ex2 value=1/></td><td>ответ 1</td>
+	<td><input type=radio class=radio name=ex2 value=2 checked/></td><td>ответ 2</td>
+	<td><input type=radio class=radio name=ex2 value=3/></td><td>ответ 3</td>
+	<td style="padding-left: 10px;">(если значение поля Тип - Один вариант)</td>
+</tr>
+</table> или
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<td><input type=checkbox class=checkbox name=ex1 value=1 checked/></td><td>ответ 1</td>
+	<td><input type=checkbox class=checkbox name=ex1 value=2 checked/></td><td>ответ 2</td>
+	<td><input type=checkbox class=checkbox name=ex1 value=3/></td><td>ответ 3</td>
+	<td style="padding-left: 10px;">(если значение поля Тип - Мультиселект)</td>
+</tr>
+</table>
+</li></ul>
+<b>Порядок</b> - порядковый номер подсправочника в справочнике при отображении (в формах поиска, при редактировании объявлений или профайлов).]]></lines>	
+<lines name="my_preferences_help" descr=""><![CDATA[Вне зависимости от установленных параметров отображения данного справочника при заполнении пользователем секции "Мои предпочтения" в объявлении подсправочник будет отображаться с настройками Тип=Мультиселект, Дизайн=checkbox, т.к. в предпочтениях пользователя всегда возможно несколько вариантов ответа.]]></lines>	
+<lines name="edit_subrefopt_help" descr=""><![CDATA[Здесь вы можете отредактировать список значений (вариантов ответов) на подсправочник.]]></lines>	
+<lines name="spr_type" descr=""><![CDATA[Вид недвижимости]]></lines>
+<lines name="spr_apartment" descr=""><![CDATA[О недвижимости]]></lines>
+<lines name="spr_description" descr=""><![CDATA[Числовые значения]]></lines>
+<lines name="spr_period" descr=""><![CDATA[Срок аренды]]></lines>
+<lines name="spr_deactivate" descr=""><![CDATA[Причины деактивации]]></lines>
+<lines name="spr_gender" descr=""><![CDATA[Пол]]></lines>
+<lines name="spr_people" descr=""><![CDATA[О человеке]]></lines>
+<lines name="spr_language" descr=""><![CDATA[Знание языков]]></lines>
+</data>

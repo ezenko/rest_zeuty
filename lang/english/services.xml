@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="top_search_link_text" descr=""><![CDATA['Listing Lift Up' service]]></lines>
+	<lines name="slideshow_link_text" descr=""><![CDATA['Slide-show' service]]></lines>
+	<lines name="featured_link_text" descr=""><![CDATA['Leader of the region' service]]></lines>
+	<lines name="charge_link_text" descr=""><![CDATA[Upgrade your Membership]]></lines>
+	<lines name="no_rent_ads" descr=""><![CDATA[You don't have any listings]]></lines>
+<lines name="move_date" descr=""><![CDATA[Move date]]></lines>
+<lines name="no_photos" descr=""><![CDATA[Without photo]]></lines>
+<lines name="no_photos2" descr=""><![CDATA[No photo]]></lines>
+<lines name="this_link_text" descr=""><![CDATA[Lift up this listing in the search results]]></lines>
+<lines name="periods_day" descr=""><![CDATA[days]]></lines>
+<lines name="periods_week" descr=""><![CDATA[weeks]]></lines>
+<lines name="periods_month" descr=""><![CDATA[montha]]></lines>
+<lines name="periods_year" descr=""><![CDATA[years]]></lines>
+<lines name="buy_points" descr=""><![CDATA[Pay]]></lines>
+<lines name="top_search_pay_text" descr=""><![CDATA[Choose the option to lift up your listing in search results]]></lines>
+<lines name="service_type_topsearch" descr=""><![CDATA[for the service "Lift up your listing in the search results"]]></lines>
+<lines name="service_type_slideshow" descr=""><![CDATA[for the variant "Create your own slideshow"]]></lines>
+<lines name="period" descr=""><![CDATA[Period]]></lines>
+<lines name="period_left_text" descr=""><![CDATA[Period left]]></lines>
+<lines name="forpay" descr=""><![CDATA[Payment type]]></lines>
+<lines name="rent_slideshowed_link_text" descr=""><![CDATA[Slideshow is active]]></lines>
+<lines name="rent_slideshow_link_text" descr=""><![CDATA[Get this ad noticed in the search]]></lines>
+<lines name="link_text_1" descr=""><![CDATA[Add funds to your account]]></lines>
+	<lines name="link_text_2" descr=""><![CDATA[Payments History]]></lines>
+	<lines name="link_text_3" descr=""><![CDATA[Add funds to another member's account]]></lines>
+<lines name="slideshow_top_text_p1" descr=""><![CDATA[Everyday site visitors look through a wide list of listings. You can attract your attention to your listing.<br> You can make use of our featured option — "Make your listing noticed", and your listing photos will become a slideshow of 3 photos for]]></lines>
+<lines name="slideshow_top_text_p2" descr=""><![CDATA[day(s).</b><br>To be able to use this function, click the necessary listing.<br>You can search for it by its number.]]></lines>
+<lines name="slideshow_get_ad" descr=""><![CDATA[Now select images that will take part in a slide-show. It's necessary to select at least 3 photos to have a slide-show]]></lines>
+<lines name="not_enough" descr=""><![CDATA[There is not enough selected images]]></lines>
+<lines name="search_by_num_in_rent" descr=""><![CDATA[Search by number]]></lines>
+<lines name="payment_form_text" descr=""><![CDATA[Choose a convenient way of adding funds to your account and put the necessary sum.<br>The fee for the site services will be taken from your account balance.<br>The funds added will not go directly for the service paid, but will be added to your account balance first.<br>In the future you will be able to pay for the services with just 1 click of a mouse. The money will be withdrawn from your site account]]></lines>
+<lines name="your_billing" descr=""><![CDATA[Your account balance]]></lines>
+<lines name="pay_sum" descr=""><![CDATA[Add amount of]]></lines>
+<lines name="pay_hint" descr=""><![CDATA[Recommended payment amount is 5]]></lines>
+<lines name="choose_paysys" descr=""><![CDATA[Pay via]]></lines>
+<lines name="pls_choose_paysys" descr=""><![CDATA[Please choose the payment system]]></lines>
+<lines name="do_payment" descr=""><![CDATA[Go to the payment page]]></lines>
+<lines name="payment_form_text_2" descr=""><![CDATA[Add funds]]></lines>
+<lines name="history_text_1" descr=""><![CDATA[Advance payment]]></lines>
+<lines name="history_text_2" descr=""><![CDATA[Money transfer from member]]></lines>
+<lines name="history_text_3" descr=""><![CDATA[Funds addition by administrator]]></lines> 
+<lines name="status_send" descr=""><![CDATA[Was not paid]]></lines>
+<lines name="status_fail" descr=""><![CDATA[Payment error]]></lines>
+<lines name="status_approve" descr=""><![CDATA[Was paid]]></lines>
+<lines name="view" descr=""><![CDATA[View]]></lines>
+<lines name="name" descr=""><![CDATA[Title]]></lines>
+<lines name="date_send" descr=""><![CDATA[Date]]></lines>
+<lines name="count_curr" descr=""><![CDATA[Amount]]></lines>
+<lines name="status" descr=""><![CDATA[Status]]></lines>
+<lines name="all_requests" descr=""><![CDATA[All funds added]]></lines>
+<lines name="print" descr=""><![CDATA[Print]]></lines>
+<lines name="to_history" descr=""><![CDATA[&#171; To the payments history]]></lines>
+<lines name="add_info" descr=""><![CDATA[Optionally]]></lines>
+<lines name="entries" descr=""><![CDATA[Added funds]]></lines>
+<lines name="spended" descr=""><![CDATA[Spent funds]]></lines>
+<lines name="all_spended" descr=""><![CDATA[All spent funds]]></lines>
+<lines name="spended_1" descr=""><![CDATA[Pay for the service "Lift "up" the listing in search"]]></lines>
+<lines name="spended_2" descr=""><![CDATA[Pay for the service "Make the listing noticed in the search"]]></lines>
+<lines name="spended_3" descr=""><![CDATA[Pay for the service "Make the listing noticed in the region"]]></lines>
+<lines name="spended_4" descr=""><![CDATA[Membership write-offs for]]></lines>
+<lines name="spended_6" descr=""><![CDATA[Funds transfer to a member]]></lines>
+<lines name="topsearch_top_text" descr=""><![CDATA[Everyday new users register on the site and that's why your listing is getting lower and lower in the search results.<br>To raise the popularity of your page and attract visitors to it, you can use our option -  "Lift Up the listing". Just use this feature and you are again at the top of the search results.<br>The page will be lifted  "up" at your positive balance score. You can use it as often as you like.]]></lines>
+<lines name="featured_top_text" descr=""><![CDATA["Get your listing noticed in the region" - the possibility to put your listings and your text greeting on all the main pages of the site simultaneously . The listing becomes the  "Leader", if your bid is greated then the bid of the existing "leader". The listing is the "leader", till someone outbids you.]]></lines>
+<lines name="featured_top_text_each" descr=""><![CDATA[Every]]></lines>
+<lines name="featured_top_text_period" descr=""><![CDATA[minute all "leaders" are charged]]></lines>
+<lines name="rent_featured_link_text" descr=""><![CDATA[This listing is the leader of the region!]]></lines>
+<lines name="rent_feature_link_text" descr=""><![CDATA[Get this listing noticed in the region]]></lines>
+<lines name="featured_text1" descr=""><![CDATA[Please indicate how much would you like to pay, enter <b>greeting</b> into the form below and press"Submit"]]></lines>
+<lines name="feature_btn_text" descr=""><![CDATA[Submit]]></lines>
+<lines name="show_rental_menu" descr=""><![CDATA[Show menu]]></lines>
+<lines name="hide_rental_menu" descr=""><![CDATA[Hide menu]]></lines>
+<lines name="menu_rental_subheader" descr=""><![CDATA[Menu]]></lines>
+<lines name="menu_rental_his_4" descr=""><![CDATA[I match them]]></lines>
+<lines name="toptext" descr=""><![CDATA[Membership payment]]></lines>
+	<lines name="topdescr" descr=""><![CDATA[Some functions and sections of our site are available to paid members only. <br>Choose a group of users and you will see a list of differences from your current group.<br> You can choose an appropriate period and group and pay for your membership upgrade.]]></lines>
+<lines name="groupselect" descr=""><![CDATA[Choose group]]></lines>
+<lines name="group_modify" descr=""><![CDATA[Change group]]></lines>
+<lines name="account_count" descr=""><![CDATA[Current]]></lines>
+<lines name="account_groups" descr=""><![CDATA[My group]]></lines>
+<lines name="present_groups" descr=""><![CDATA[Now you are in the group]]></lines>
+<lines name="available_groups" descr=""><![CDATA[Available groups]]></lines>
+<lines name="group_description" descr=""><![CDATA[The description of the available groups]]></lines>
+<lines name="group_functions" descr=""><![CDATA[Permissions of the]]></lines>
+<lines name="new_group_functions" descr=""><![CDATA[group you will get if you move into it]]></lines>
+<lines name="old_group_functions" descr=""><![CDATA[group you will lose]]></lines>
+<lines name="group_demo" descr=""><![CDATA[Light]]></lines>
+<lines name="cost" descr=""><![CDATA[Cost of the service]]></lines>
+<lines name="speed" descr=""><![CDATA[per hour]]></lines>
+<lines name="moneyselect" descr=""><![CDATA[Write-off the funds from your account]]></lines>
+<lines name="free" descr=""><![CDATA[For free]]></lines>
+<lines name="pay" descr=""><![CDATA[Please check the info for the payment]]></lines>
+<lines name="paypal" descr=""><![CDATA[PayPal]]></lines>
+<lines name="credit_card" descr=""><![CDATA[Credit Card]]></lines>
+<lines name="buy" descr=""><![CDATA[Pay]]></lines>
+<lines name="chosen_groups" descr=""><![CDATA[Chosen group]]></lines>
+<lines name="chosen_period" descr=""><![CDATA[for period]]></lines>
+<lines name="chosen_cost" descr=""><![CDATA[The cost of the service]]></lines>
+<lines name="chosen_forpay" descr=""><![CDATA[To pay]]></lines>
+<lines name="only_change" descr=""><![CDATA[Change group]]></lines>
+<lines name="left_days" descr=""><![CDATA[Till the expiration of your period in group left]]></lines>
+<lines name="need_realty" descr=""><![CDATA[I rent]]></lines>
+<lines name="have_realty" descr=""><![CDATA[I lease]]></lines>
+<lines name="sell_realty" descr=""><![CDATA[I sell]]></lines>
+<lines name="buy_realty" descr=""><![CDATA[I buy]]></lines>
+<lines name="place_text_1" descr=""><![CDATA[The listing is ]]></lines>
+<lines name="place_text_2" descr=""><![CDATA[ place]]></lines>
+<lines name="place_text_3" descr=""><![CDATA[The liisting is not active and does not come up in the search results]]></lines>
+<lines name="viewed" descr=""><![CDATA[Views today]]></lines>
+<lines name="monthly" descr=""><![CDATA[this month]]></lines>
+<lines name="no_ads_by_num" descr=""><![CDATA[There is no listing with number]]></lines>
+<lines name="goto_ads_list" descr=""><![CDATA[Go to the list of listings.]]></lines>
+<lines name="site_paysys" descr=""><![CDATA[Payment system]]></lines>
+<lines name="no_active_paysys" descr=""><![CDATA[not set]]></lines>
+<lines name="days" descr=""><![CDATA[days]]></lines>
+<lines name="use_group_trial_period" descr=""><![CDATA[Free period (option is one time usage), use option.]]></lines>
+<lines name="group_trial_was_used" descr=""><![CDATA[Free period, this option is one time usage.]]></lines>
+<lines name="sell_lease_payment_link_text" descr=""><![CDATA[Cost for posting listings for sale and for lease]]></lines>
+<lines name="ads_number" descr=""><![CDATA[listings]]></lines>
+<lines name="sell_lease_payment_cost" descr=""><![CDATA[Cost for posting]]></lines>
+<lines name="sell_lease_user_payment" descr=""><![CDATA[You made a payment for posting]]></lines>
+<lines name="about_sell_lease" descr=""><![CDATA[for sale and for lease]]></lines>
+<lines name="sell_lease_used_amount" descr=""><![CDATA[for]]></lines>
+<lines name="sell_lease_posted_ads" descr=""><![CDATA[Currently you posted]]></lines>
+<lines name="sell_lease_need_pay" descr=""><![CDATA[To be able to post new listings for sale and for lease, you should make a payment]]></lines>
+<lines name="sell_lease_rest_ads" descr=""><![CDATA[You can post]]></lines>
+<lines name="spended_5" descr=""><![CDATA[Amount spent for posting listings for sale and for lease]]></lines>
+<lines name="smscoin_operator" descr=""><![CDATA[Operator/Country]]></lines>
+<lines name="add_on_account" descr=""><![CDATA[Adding funds to your site account.]]></lines>
+<lines name="payment_form_text_3" descr=""><![CDATA[If you have funds on your account, you can transfer them to some other member's account in the system. Comission for the transfer is ]]></lines>
+<lines name="payment_no_commission" descr=""><![CDATA[If you have funds on your account, you can transfer them to some other member's account in the system. The service is free.]]></lines>
+<lines name="user_search" descr=""><![CDATA[Search for a member]]></lines>
+<lines name="search_help" descr=""><![CDATA[To search enter identifying member's data: name, surname, company name.]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="user_name" descr=""><![CDATA[Name]]></lines>
+<lines name="user_ads" descr=""><![CDATA[Listings]]></lines>
+<lines name="user_payment" descr=""><![CDATA[Funds addition]]></lines>
+<lines name="company_name" descr=""><![CDATA[Company name]]></lines>
+<lines name="empty_search" descr=""><![CDATA[There are no results matching your criteria]]></lines>
+<lines name="string_1" descr=""><![CDATA[Transfer funds to member ]]></lines>
+<lines name="string_2" descr=""><![CDATA[ amount ]]></lines>
+<lines name="transfer_confirm" descr=""><![CDATA[Are you sure you want to process the transfer?]]></lines>
+<lines name="empty_ads" descr=""><![CDATA[Missing]]></lines>
+<lines name="time_begin" descr=""><![CDATA[from]]></lines>
+<lines name="time_end" descr=""><![CDATA[till]]></lines>
+<lines name="empty" descr=""><![CDATA[Available]]></lines>
+<lines name="need_search_criteria" descr=""><![CDATA[Please enter search criteria]]></lines>
+<lines name="planning" descr=""><![CDATA[Planning]]></lines>
+<lines name="photo" descr=""><![CDATA[Photo]]></lines>
+<lines name="inactive_file" descr=""><![CDATA[Hidden]]></lines>
+<lines name="take_part" descr=""><![CDATA[Take part in slide show]]></lines>
+<lines name="no_ad" descr=""><![CDATA[No listing]]></lines>
+<lines name="payment_information" descr=""><![CDATA[Information about payment]]></lines>	
+<lines name="payment_data" descr=""><![CDATA[If you made a payment, please indicate the amount and information regarding it, click "Send". Administrator will either accpet or decline your payment in a corresponding email notification.]]></lines>
+<lines name="send_to_approve" descr=""><![CDATA[Send for verification]]></lines>
+<lines name="amount" descr=""><![CDATA[Amount]]></lines>
+<lines name="addition_information" descr=""><![CDATA[Additional information]]></lines>
+</data>

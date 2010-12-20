@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_header" descr=""><![CDATA[Ihre Rückmeldungen und Verbesserungsvorschläge helfen uns, unsere Dienstleistungen besser zu gestalten. Wenden Sie sich an den Seitenadministrator, falls Sie Fragen haben oder Hilfe brauchen.]]></lines>
+	<lines name="subject" descr=""><![CDATA[Thema]]></lines>
+	<lines name="name" descr=""><![CDATA[Ihr Name]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="body" descr=""><![CDATA[Meldungstext]]></lines>
+	<lines name="for_agency" descr=""><![CDATA[Für Immobilienmakler]]></lines>
+	<lines name="text_top" descr=""><![CDATA[Wir sind daran interessiert, mit Immobilienbüros mitzuarbeiten. Haben Sie eine große Auswahl der Immobilienanzeigen? Wir sind bereit, Ihnen zu helfen - Ihre Anzeigen werden automatisch dargestellt.]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Unternehmensname]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Seite (Url) Ihres Unternehmens]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Anzeigenanzahl]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Woher haben Sie von uns erfahren?]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Ihre Fragen und Kommentare]]></lines>
+	<lines name="company_contact_person" descr=""><![CDATA[Ansprechpartner]]></lines>
+	<lines name="company_phone" descr=""><![CDATA[Telefonnummer]]></lines>
+	<lines name="company_email" descr=""><![CDATA[Email Adresse]]></lines>
+	<lines name="contact" descr=""><![CDATA[Online-Form ausfüllen]]></lines>
+	<lines name="show_link_text" descr=""><![CDATA[Fertiges Anzeigenmuster ansehen]]></lines>
+	<lines name="complaint_0" descr=""><![CDATA[verbraucht jemandes Fotos]]></lines>
+	<lines name="complaint_1" descr=""><![CDATA[veröffentlicht Kontaktinformationen der Benutzer]]></lines>
+	<lines name="complaint_2" descr=""><![CDATA[versendet Bedrohungen und Beleidigungen]]></lines>
+	<lines name="complaint_3" descr=""><![CDATA[bietet bezahlte Adult Services an]]></lines>
+	<lines name="complaint_4" descr=""><![CDATA[erbittet Geldüberweisungen oder Kreditkartenzahlungen]]></lines>
+	<lines name="complaint_5" descr=""><![CDATA[versendet Spam]]></lines>
+	<lines name="complaint_6" descr=""><![CDATA[sonstiges]]></lines>
+	<lines name="default_subj" descr=""><![CDATA[RealEstate - Beschwerde]]></lines>
+	<lines name="text_2" descr=""><![CDATA[Manche Benutzer mögen Spam versenden, Geldüberweisungen anbieten oder Kreditkarten-PIN-Kode abgaunern. Wir wären Ihnen dankbar, wenn Sie uns solche Fälle mitteilen]]></lines>
+	<lines name="complaint_reason" descr=""><![CDATA[Dieser Benutzer]]></lines>
+	<lines name="your_comment" descr=""><![CDATA[Details]]></lines>
+	<lines name="comment_hint" descr=""><![CDATA[Bitte bescreiben Sie den Grund Ihrer Beschwerde. Beschwerden ohne ausführliche Informationen werden nicht geprüft.]]></lines>
+	<lines name="ad_href" descr=""><![CDATA[Ein Link]]></lines>
+	<lines name="need_realty" descr=""><![CDATA[Mietet]]></lines>
+	<lines name="have_realty" descr=""><![CDATA[Vermietet]]></lines>
+	<lines name="sell_realty" descr=""><![CDATA[Verkauft]]></lines>
+	<lines name="buy_realty" descr=""><![CDATA[Kauft]]></lines>
+	<lines name="month_payment_inline" descr=""><![CDATA[Mietkosten pro Monat]]></lines>
+	<lines name="price" descr=""><![CDATA[Preis]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Einzugsdatum]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Erhältlich ab]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[von]]></lines>
+	<lines name="time_end" descr=""><![CDATA[bis]]></lines>
+	<lines name="empty" descr=""><![CDATA[Erhältlich]]></lines>
+	<lines name="keystring" descr=""><![CDATA[PIN-Kode]]></lines>
+	<lines name="text_top_mhi_registration" descr=""><![CDATA[Wenn Sie sich interessieren, Ihre Anzeigen auf unserer Seite aufzustellen, füllen Sie bitte die Form unten aus. Wir sehen Ihre Information durch und erstellen ein Konto für Sie in unserem System, damit Sie Ihre Anzeigen auflegen können.]]></lines>
+</data>

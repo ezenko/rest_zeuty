@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Your account balance on [site_name]]]></lines>
+<lines name="account_add" descr=""><![CDATA[Your manual payment was processed. The services you paid for are now activate. Your account balance was increased on]]></lines>
+<lines name="account_total" descr=""><![CDATA[Now your account balance is]]></lines>
+</data>

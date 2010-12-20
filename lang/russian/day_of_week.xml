@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="0" descr="Sunday"><![CDATA[Вс]]></lines>
+	<lines name="1" descr="Monday"><![CDATA[Пн]]></lines>
+	<lines name="2" descr="Tuesday"><![CDATA[Вт]]></lines>
+	<lines name="3" descr="Wednesday"><![CDATA[Ср]]></lines>
+	<lines name="4" descr="Thursday"><![CDATA[Чт]]></lines>
+	<lines name="5" descr="Friday"><![CDATA[Пт]]></lines>
+	<lines name="6" descr="Saturday"><![CDATA[Сб]]></lines>
+</data>

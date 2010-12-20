@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="preferences_help" descr=""><![CDATA[Настройте параметры поиска, и они будут автоматически подгружаться во все формы поиска на сайте. При измении значений в полях формы на этой странице и последующем поиске Ваши настройки поиска автоматически сохраняются.]]></lines>
+	<lines name="i_want" descr=""><![CDATA[Я хочу]]></lines>
+	<lines name="qs_i_need" descr=""><![CDATA[арендовать]]></lines>
+	<lines name="qs_i_have" descr=""><![CDATA[сдать в аренду]]></lines>
+	<lines name="qs_i_sell" descr=""><![CDATA[продать]]></lines>
+	<lines name="qs_i_buy" descr=""><![CDATA[купить]]></lines>	
+	<lines name="costs_min" descr=""><![CDATA[Стоимость от]]></lines>
+	<lines name="upto" descr=""><![CDATA[до]]></lines><lines name="payment" descr=""><![CDATA[Максимальная плата]]></lines>
+	<lines name="where_loc" descr=""><![CDATA[Где искать]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Переезд не раньше]]></lines>
+	<lines name="choose" descr=""><![CDATA[Пожалуйста выберите]]></lines>	
+	<lines name="button_search" descr=""><![CDATA[Искать!]]></lines>
+	<lines name="empty_preferred_list" descr=""><![CDATA[Избранных мест поиска нет.]]></lines>
+	<lines name="empty_location_history" descr=""><![CDATA[История поиска пуста.]]></lines>
+	<lines name="clean_search_preferences" descr=""><![CDATA[Сбросить настройки поиска]]></lines>		
+	<lines name="clean_search_history" descr=""><![CDATA[Очистить историю поиска]]></lines>
+	<lines name="make_preferred" descr=""><![CDATA[Добавить в избранные]]></lines>
+	<lines name="make_primary" descr=""><![CDATA[Сделать главным]]></lines>
+	<lines name="is_primary" descr=""><![CDATA[Главное]]></lines>
+	<lines name="primary_comment" descr=""><![CDATA[Все места Вашего поиска объвлений на сайте автоматически сохраняются в истории поиска. <br><b>Историю поиска</b> можно использовать для составления списка избранных мест поиска. Одно из избранных мест поиска Вы можете обозначить Главным. <b>Главное место поиска</b> будет по умолчанию подставляться во всех формах поиска на сайте. <br>Нажмите на ссылку с местом поиска, чтобы подгрузить параметры этого места в форму и начать поиск.]]></lines>	
+	<lines name="preferred_location" descr=""><![CDATA[Избранные места поиска]]></lines>
+	<lines name="location_history" descr=""><![CDATA[История поиска]]></lines>
+	<lines name="add_to_search_location" descr=""><![CDATA[Чтобы добавить новое место поиска в список, начните  поиск]]></lines>	
+	<lines name="primary_search_location" descr=""><![CDATA[Главное место поиска]]></lines>
+</data>

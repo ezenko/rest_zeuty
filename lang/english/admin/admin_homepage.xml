@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_header" descr=""><![CDATA[Welcome]]></lines>
+	<lines name="page_subheader" descr=""><![CDATA[Admin Mode Index Page]]></lines>
+	<lines name="page_content" descr=""><![CDATA[The statistics for PG Real Estate site:<br><br>]]></lines>
+	<lines name="home" descr=""><![CDATA[Home]]></lines>
+	<lines name="all_users" descr=""><![CDATA[Members total]]></lines>
+	<lines name="active_users" descr=""><![CDATA[Active members]]></lines>
+	<lines name="active_users_private" descr=""><![CDATA[Private persons]]></lines>
+	<lines name="active_users_agencies" descr=""><![CDATA[Real Estate companies]]></lines>
+	<lines name="active_users_agents" descr=""><![CDATA[Companies agents]]></lines>
+	<lines name="all_ads" descr=""><![CDATA[Listings total]]></lines>
+	<lines name="active_ads" descr=""><![CDATA[Active listings]]></lines>	
+	<lines name="need_ads" descr=""><![CDATA[&quot;Looking to rent&quot; listings]]></lines>
+	<lines name="have_ads" descr=""><![CDATA[&quot;Looking to lease&quot; listings]]></lines>
+	<lines name="sell_ads" descr=""><![CDATA[&quot;Looking to sell&quot; listings]]></lines>
+	<lines name="buy_ads" descr=""><![CDATA[&quot;Looking to buy&quot; listings]]></lines>	
+	<lines name="mailbox_all" descr=""><![CDATA[Messages total]]></lines>
+	<lines name="mailbox_from_user_cnt" descr=""><![CDATA[Communicating members]]></lines>
+	<lines name="site_statistics" descr=""><![CDATA[Site Statistics]]></lines>	
+</data>

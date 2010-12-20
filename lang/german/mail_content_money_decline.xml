@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="Тема письма"><![CDATA[Ihre Zahlung wurde nicht verlaufen auf [site_name]]]></lines>
+<lines name="decline_payment" descr=""><![CDATA[Ihre Zahlung wurde nicht verlaufen. Leisten Sie bitte eine andere Zahlung oder melden Sie sich bei Administrator für Details.]]></lines>
+</data>

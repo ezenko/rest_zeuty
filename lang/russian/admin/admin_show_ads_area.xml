@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="show_ads_area_help" descr=""><![CDATA[Вы можете настроить показ объявлений на страницах Вашего сайта, приведенных в списке ниже.<br>Выберите один из двух способов отображения объявлений: по <B>4 объявления </B>в одном ряду (в этом случае советуем устанавливать кратное четырём значение поля &quot;Количество объявлений на странице, чтобы в каждом ряду было по 4 объявления) или списком (объявления следуют друг за другом, каждое в новом ряду).]]></lines>		
+	<lines name="index" descr=""><![CDATA[Стартовая страница]]></lines>
+	<lines name="quick_search" descr=""><![CDATA[Страница поиска]]></lines>	
+	<lines name="homepage" descr=""><![CDATA[Мой Real Estate]]></lines>	
+	<lines name="for_unregistered" descr=""><![CDATA[до регистрации]]></lines>
+	<lines name="for_registered" descr=""><![CDATA[после регистрации]]></lines>	
+	<lines name="show_as" descr=""><![CDATA[Показывать]]></lines>	
+	<lines name="row" descr=""><![CDATA[В ряд]]></lines>
+	<lines name="list" descr=""><![CDATA[Списком]]></lines>	
+	<lines name="ads_number" descr=""><![CDATA[Количество объявлений на странице]]></lines>		
+	<lines name="max_views" descr=""><![CDATA[Самые популярные по количеству просмотров]]></lines>	
+	<lines name="admin_choose" descr=""><![CDATA[Спонсорские]]></lines>		
+	<lines name="last_added" descr=""><![CDATA[Последние добавленные]]></lines>	
+	<lines name="off" descr=""><![CDATA[Отключить показ]]></lines>		
+	<lines name="invalid_ads_number" descr=""><![CDATA[Количество объявлений должно быть целым положительным числом от 1 до ]]></lines>		
+	<lines name="positive_int_not_more_than" descr=""><![CDATA[Значение поля должно быть целым положительным числом не больше]]></lines>
+</data>

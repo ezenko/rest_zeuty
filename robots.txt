@@ -1,0 +1,25 @@
+User-agent: *
+
+#Allow only one sorting order /quick_search.php?sorter=0&order=1
+
+Disallow: /quick_search.php?sorter=0&order=2
+Disallow: /quick_search.php?sorter=1
+Disallow: /quick_search.php?sorter=2
+Disallow: /quick_search.php?sorter=3
+Disallow: /quick_search.php?sorter=4
+Disallow: /quick_search.php?sorter=5
+Disallow: /quick_search.php?sorter=6
+
+#Disallow all files from the public part with lang_code parameter
+
+Disallow: /index.php?lang_code=
+Disallow: /quick_search.php?lang_code=
+Disallow: /news.php?lang_code=
+Disallow: /info.php?lang_code=
+Disallow: /contact.php?lang_code=
+
+#Disallow not informative pages
+
+Disallow: /registration.php
+Disallow: /login.php
+Disallow: /lost_pass.php

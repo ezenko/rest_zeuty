@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Content management]]></lines>
+<lines name="page_subheader" descr=""><![CDATA[Uploaded files approval]]></lines>
+<lines name="help" descr=""><![CDATA[This section is used in case you turned on in General Settings approve of loaded photos or video files. While choosing a category of loaded files, the table shows files that were not approved yet. Here you can<ul><li>View a file clicking it;</li><li>View what this file is related to, clicking &quot;View&quot; (new window will open);</li><li>Approve a file or forbid it, putting a  mark in the corresponding field. </li></ul>If you don't forbid the file, member - the owner of the file - will see a corresponding message while managing his listing settings. This will prompt the user not to upload such files anymore. Other site members while previewing the listing will see only approved files.]]></lines>
+<lines name="file_types" descr=""><![CDATA[Categories of uploaded files]]></lines>
+<lines name="rent_photo_type" descr=""><![CDATA[Photos in the listings]]></lines>
+<lines name="rent_plan_type" descr=""><![CDATA[Planning in the listings]]></lines>
+<lines name="rent_video_type" descr=""><![CDATA[Video in the listings]]></lines>
+<lines name="user_photo_type" descr=""><![CDATA[Photo in member's profile]]></lines>
+<lines name="no_waiting_files" descr=""><![CDATA[There are no files awaiting approval]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="file" descr=""><![CDATA[File]]></lines>
+<lines name="comment" descr=""><![CDATA[Comment]]></lines>
+<lines name="relate" descr=""><![CDATA[What file is related to]]></lines>
+<lines name="approve" descr=""><![CDATA[Approve]]></lines>
+<lines name="decline" descr=""><![CDATA[Forbid]]></lines>
+</data>

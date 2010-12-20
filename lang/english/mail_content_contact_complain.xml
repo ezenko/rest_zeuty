@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="E-mail subject"><![CDATA[[site_name] - Contact Us form (сomplain on the user) was filled]]></lines>
+	<lines name="name" descr=""><![CDATA[Name of the member]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail of the member]]></lines>
+	<lines name="complaint_reason" descr=""><![CDATA[The reason for the complaint]]></lines>
+	<lines name="complaint_0" descr=""><![CDATA[Uses somebody's photos]]></lines>
+	<lines name="complaint_1" descr=""><![CDATA[Publicates wrong or somebody's contact info]]></lines>
+	<lines name="complaint_2" descr=""><![CDATA[Sends abuse and threats]]></lines>
+	<lines name="complaint_3" descr=""><![CDATA[Sends paid adult services offers]]></lines>
+	<lines name="complaint_4" descr=""><![CDATA[Requests money transfer or payment cards]]></lines>
+	<lines name="complaint_5" descr=""><![CDATA[Sends spam]]></lines>
+	<lines name="complaint_6" descr=""><![CDATA[Other]]></lines>
+	<lines name="your_comment" descr=""><![CDATA[Comments]]></lines>
+	<lines name="href" descr=""><![CDATA[Link]]></lines>			
+</strings>

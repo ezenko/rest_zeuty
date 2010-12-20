@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Управление контентом]]></lines>
+<lines name="page_subheader" descr=""><![CDATA[Подтверждение загруженных файлов]]></lines>
+<lines name="help" descr=""><![CDATA[Раздел используется, если в общих настройках Вы включили Модерацию загружаемых фотографий или Модерацию загружаемого видео. При выборе Категории загружаемых файлов в таблице отображаются ещё не одобренные файлы. Здесь вы можете:<ul><li>Просмотреть файл, нажав на его изображение или иконку (в случае видео);</li><li>Узнать, к чему относится загруженный файл, нажав на кнопку &quot;Посмотреть&quot; (откроется новое окно);</li><li>Одобрить файл или запретить его показ, отметив переключатель в соответствующем столбце. </li></ul>Если вы запретите файл для показа, пользователь - владелец файла - будет видеть соответствующее сообщение при редактировании настроек своего объевления, это подскажет ему, что файлы подобного содержанием загружать не следует. Другие пользователи сайта при просмотре объявления будут видеть только одобренные файлы.]]></lines>
+<lines name="file_types" descr=""><![CDATA[Категории загруженных файлов]]></lines>
+<lines name="rent_photo_type" descr=""><![CDATA[Фото в объявлениях]]></lines>
+<lines name="rent_plan_type" descr=""><![CDATA[Планировка в объявлениях]]></lines>
+<lines name="rent_video_type" descr=""><![CDATA[Видео в объявлениях]]></lines>
+<lines name="user_photo_type" descr=""><![CDATA[Фото в профайле пользователя]]></lines>
+<lines name="no_waiting_files" descr=""><![CDATA[Нет файлов, нуждающихся в подтверждении]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="file" descr=""><![CDATA[Файл]]></lines>
+<lines name="comment" descr=""><![CDATA[Комментарий]]></lines>
+<lines name="relate" descr=""><![CDATA[К чему файл относится]]></lines>
+<lines name="approve" descr=""><![CDATA[Одобрить]]></lines>
+<lines name="decline" descr=""><![CDATA[Запретить]]></lines>
+</data>

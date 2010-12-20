@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="account" descr=""><![CDATA[Настройки профайла пользователя]]></lines>
+	<lines name="blacklist" descr=""><![CDATA[Черный список]]></lines>
+	<lines name="contact" descr=""><![CDATA[Контактная онлайн форма]]></lines>
+	<lines name="hotlist" descr=""><![CDATA[Список избранных объявлений]]></lines>
+	<lines name="lost_pass" descr=""><![CDATA[Форма восстановления пароля]]></lines>
+	<lines name="mailbox" descr=""><![CDATA[Мои сообщения]]></lines>
+	<lines name="news" descr=""><![CDATA["Новости" в панели пользователя]]></lines>
+	<lines name="power_searchr" descr=""><![CDATA[Расширенный поиск]]></lines>
+	<lines name="quick_search" descr=""><![CDATA[Быстрый поиск]]></lines>
+	<lines name="registration" descr=""><![CDATA[Регистрация]]></lines>
+	<lines name="rentals" descr=""><![CDATA[Мои объявления]]></lines>
+	<lines name="services" descr=""><![CDATA[Платные услуги]]></lines>
+	<lines name="viewprofile" descr=""><![CDATA[Профайл объявления]]></lines>
+	<lines name="admin_area_edit" descr=""><![CDATA[Редактирование дополнительной информации]]></lines>
+	<lines name="admin_editfile" descr=""><![CDATA[Редактирование языковых файлов]]></lines>
+	<lines name="admin_homepage" descr=""><![CDATA[Домашняя страница администратора]]></lines>
+	<lines name="admin_payment" descr=""><![CDATA[Администрирование платежей]]></lines>
+	<lines name="admin_references" descr=""><![CDATA[Администрирование справочников]]></lines>
+	<lines name="admin_settings" descr=""><![CDATA[Настройки]]></lines>
+	<lines name="admin_users" descr=""><![CDATA[Управление пользователями]]></lines>
+	<lines name="admin_groups" descr=""><![CDATA[Управление группами]]></lines>
+	<lines name="admin_news" descr=""><![CDATA[Раздел "Новости" в панели администратора]]></lines>
+	<lines name="admin_badwords" descr=""><![CDATA[Раздел "Плохие слова" в панели администратора]]></lines>
+	<lines name="descr_account" descr=""><![CDATA[Редактирование пользовательского профайла, изменение пароля, деактивация/активация профайла.]]></lines>
+	<lines name="descr_blacklist" descr=""><![CDATA[Создание контакт листа пользователей, от которых вы не желаете принимать сообщения.]]></lines>
+	<lines name="descr_contact" descr=""><![CDATA[Онлайн форма контактирования пользователя с администратором]]></lines>
+	<lines name="descr_hotlist" descr=""><![CDATA[Cоздание списка избранных объявлений для быстрого доступа к ним.]]></lines>
+	<lines name="descr_lost_pass" descr=""><![CDATA[Онлайн форма восстановления пароля.]]></lines>
+	<lines name="descr_mailbox" descr=""><![CDATA[Переписка с пользователями сервиса.]]></lines>
+	<lines name="descr_news" descr=""><![CDATA[Чтение информации раздела.]]></lines>	
+	<lines name="descr_power_searchr" descr=""><![CDATA[Форма расширенного поиска недвижимости - поиск по всем  параметрам.]]></lines>
+	<lines name="descr_quick_search" descr=""><![CDATA[Форма быстрого поиска недвижимости - поиск по основным параметрам.]]></lines>
+	<lines name="descr_registration" descr=""><![CDATA[Онлайн форма регистрации.]]></lines>
+	<lines name="descr_rentals" descr=""><![CDATA[Создание, редактирование, удаление объявлений.]]></lines>
+	<lines name="descr_services" descr=""><![CDATA[Возможность использования платных услуг, доступ к пополнению счета и истории платежей.]]></lines>
+	<lines name="descr_admin_area_edit" descr=""><![CDATA[Редактированиея инвормационных разделов (Политика Конфиденциальности, Правила пользования, О нас)]]></lines>
+	<lines name="descr_admin_editfile" descr=""><![CDATA[Редактирование языковых файлов]]></lines>
+	<lines name="descr_admin_homepage" descr=""><![CDATA[Домашняя страница администратора]]></lines>
+	<lines name="descr_admin_payment" descr=""><![CDATA[Управления платежами и настройками платежных систем]]></lines>
+	<lines name="descr_admin_references" descr=""><![CDATA[Раздел управления справочниками]]></lines>
+	<lines name="descr_admin_settings" descr=""><![CDATA[Раздел управления настройками]]></lines>
+	<lines name="descr_admin_users" descr=""><![CDATA[Раздел управления пользователями]]></lines>
+	<lines name="descr_admin_groups" descr=""><![CDATA[Раздел управления группами пользователей]]></lines>
+	<lines name="descr_admin_news" descr=""><![CDATA[Редактирование раздела "Новости"]]></lines>
+	<lines name="descr_admin_badwords" descr=""><![CDATA[Редактирование раздела "Плохие слова"]]></lines>		
+	<lines name="search_preferences" descr=""><![CDATA[Пользовательские настройки поиска]]></lines>	
+	<lines name="descr_search_preferences" descr=""><![CDATA[Управление настройками поиска пользователя]]></lines>	
+	<lines name="admin_upload" descr=""><![CDATA[Подтверждение загруженных файлов]]></lines>
+	<lines name="descr_admin_upload" descr=""><![CDATA[Раздел подтверждения загруженных файлов на сайте]]></lines>
+	<lines name="admin_mails" descr=""><![CDATA[Раздел "Рассылки"]]></lines>
+	<lines name="descr_admin_mails" descr=""><![CDATA[Доступ к разделу "Рассылки" в панели администратора]]></lines>			
+	<lines name="descr_viewprofile" descr=""><![CDATA[Просмотр всей информации, касающейся объявления (информация о недвижимости и её владельце, фото, видео, отображение на карте.]]></lines>
+	<lines name="alert" descr=""><![CDATA[Вывод ошибки доступа к файлу]]></lines>
+	<lines name="descr_alert" descr=""><![CDATA[Отображается в том случае, если пользователь пытался открыть страницу, на которую у него нет прав]]></lines>
+	<lines name="compare" descr=""><![CDATA[Сравнение объявлений]]></lines>
+	<lines name="descr_compare" descr=""><![CDATA[Страница с таблицей, содержащей все характеристики объявлений, добавленных пользователем в список сравнения]]></lines>
+	<lines name="index" descr=""><![CDATA[Главная страница]]></lines>
+	<lines name="descr_index" descr=""><![CDATA[Стартовая страница для незарегистрированных пользователей.]]></lines>
+	<lines name="homepage" descr=""><![CDATA[Домашняя страница]]></lines>
+	<lines name="descr_homepage" descr=""><![CDATA[Главная страница для зарегистрированных пользователей.]]></lines>
+	<lines name="error" descr=""><![CDATA[Ошибки сервера]]></lines>
+	<lines name="descr_error" descr=""><![CDATA[Пользователь попадает на страницу при возникновении определенной ошибки сервера, например 404.]]></lines>
+	<lines name="confirm" descr=""><![CDATA[Подтверждение регистрации]]></lines>
+	<lines name="descr_confirm" descr=""><![CDATA[При нажатии на ссылку, посланную в письме для подтвержедния регистрации, пользователь попадает на эту страницу.]]></lines>
+	<lines name="map" descr=""><![CDATA[Карта сайта]]></lines>
+	<lines name="descr_map" descr=""><![CDATA[Страница содержит карту сайта.]]></lines>	
+	<lines name="agents" descr=""><![CDATA[Мои агенты/Мой риэлтор]]></lines>
+	<lines name="descr_agents" descr=""><![CDATA[Управление списком агентов/риэлторов пользователя]]></lines>	
+</data>

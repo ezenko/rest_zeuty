@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="header_text_site_mode_11" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Search multiple real estate listings of residential,<br>commercial and vacation getaway properties,<br>find homes for sale and apartments for rent.<br><br>Add a property for sale or lease: <br>Thousands of buyers and tenants<br>are matched with sellers and landlords daily.]]></lines>	<lines name="why_register" descr=""><![CDATA[Why should I register?]]></lines>
+	<lines name="header_text_site_mode_21" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Search multiple real estate listings of residential,<br>commercial and vacation getaway properties,<br>find homes for sale and apartments for rent.<br><br>Add a property for sale or lease: <br>Thousands of buyers and tenants<br>are matched with sellers and landlords daily.]]></lines>	<lines name="why_register" descr=""><![CDATA[Why should I register?]]></lines>                                  	
+	<lines name="header_text_site_mode_31" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Search multiple real estate listings of residential,<br>commercial and vacation getaway properties,<br>find homes for sale and apartments for rent.<br><br>Add a property for sale or lease: <br>Thousands of buyers and tenants<br>are matched with sellers and landlords daily.]]></lines>	<lines name="why_register" descr=""><![CDATA[Why should I register?]]></lines>	
+	<lines name="header_text_site_mode_10" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Search multiple real estate listings of residential, commercial and vacation getaway properties, find homes for sale and apartments for rent.<br><br>Add a property for sale or lease: <br>Thousands of buyers and tenants are matched with sellers and landlords daily.]]></lines>	<lines name="why_register" descr=""><![CDATA[Why should I register?]]></lines>
+	<lines name="header_text_site_mode_20" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Search multiple real estate listings of residential, commercial and vacation getaway properties,find homes for sale and apartments for rent.<br><br>Add a property for sale or lease: <br>Thousands of buyers and tenants are matched with sellers and landlords daily.]]></lines>	<lines name="why_register" descr=""><![CDATA[Why should I register?]]></lines>                                  	
+	<lines name="header_text_site_mode_30" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Search multiple real estate listings of residential, commercial and vacation getaway properties,find homes for sale and apartments for rent.<br><br>Add a property for sale or lease: <br>Thousands of buyers and tenants are matched with sellers and landlords daily.]]></lines>	<lines name="why_register" descr=""><![CDATA[Why should I register?]]></lines>	
+	<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="email_hint" descr=""><![CDATA[PG RealEstate will email you the matching listings. Your information will be confidential]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Move date from]]></lines>
+	<lines name="button_search" descr=""><![CDATA[Search]]></lines>
+	<lines name="member_login" descr=""><![CDATA[Member login]]></lines>
+	<lines name="member_login_2" descr=""><![CDATA[Add my listing]]></lines>
+	<lines name="i_find" descr=""><![CDATA[I seach]]></lines>
+	<lines name="where_loc" descr=""><![CDATA[Location]]></lines>
+	<lines name="rubrika" descr=""><![CDATA[In the section]]></lines>
+	<lines name="i_want" descr=""><![CDATA[Looking]]></lines>
+	<lines name="qs_i_need" descr=""><![CDATA[to rent]]></lines>
+	<lines name="qs_i_have" descr=""><![CDATA[to lease]]></lines>
+	<lines name="qs_i_sell" descr=""><![CDATA[to sell]]></lines>
+	<lines name="qs_i_buy" descr=""><![CDATA[to buy]]></lines>	
+	<lines name="i_need" descr=""><![CDATA[Rents]]></lines>
+	<lines name="i_have" descr=""><![CDATA[Leases]]></lines>
+	<lines name="i_buy" descr=""><![CDATA[Buys]]></lines>
+	<lines name="i_sell" descr=""><![CDATA[Sells]]></lines>
+	<lines name="choose" descr=""><![CDATA[Please choose]]></lines>	
+	<lines name="price" descr=""><![CDATA[Price]]></lines>
+	<lines name="from" descr=""><![CDATA[from]]></lines>
+	<lines name="upto" descr=""><![CDATA[max]]></lines>
+	<lines name="auction_possible" descr=""><![CDATA[Price negotiating is possible]]></lines>
+	<lines name="auction_inpossible" descr=""><![CDATA[Price negotiating is not possible]]></lines>
+	<lines name="month_payment_in_line" descr=""><![CDATA[Rent cost per month]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Available from]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Move date]]></lines>
+	<lines name="last_results" descr=""><![CDATA[Last listings]]></lines>
+	<lines name="pages" descr=""><![CDATA[pages]]></lines>
+	<lines name="costs_min" descr=""><![CDATA[Price min]]></lines>
+	<lines name="upto" descr=""><![CDATA[max]]></lines>
+	<lines name="min" descr=""><![CDATA[min]]></lines>	
+	<lines name="max_views" descr=""><![CDATA[Most popular on number of views]]></lines>
+	<lines name="admin_choose" descr=""><![CDATA[Sponsored]]></lines>
+	<lines name="last_added" descr=""><![CDATA[Latest added]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[from]]></lines>
+	<lines name="time_end" descr=""><![CDATA[till]]></lines>
+	<lines name="empty" descr=""><![CDATA[Available]]></lines>
+</data>

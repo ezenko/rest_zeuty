@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+           	
+	<lines name="paperclip_text" descr=""><![CDATA[<font class="header_big">Möchten Sie Immobilien verkaufen oder vermieten?</font><br><noindex><a href="registration.php?from=rental" class="text_big">Veröffentliche Sie Ihre Anzeige kostenlos!</a></noindex>]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="email_hint" descr=""><![CDATA[PG Immobilien wird Ihnen die Trefferanzeigen per Email schicken. Ihre Informationen werden geheim gehalten]]></lines>
+	<lines name="with_photo" descr=""><![CDATA[Mit Foto]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Umzugsdatum von]]></lines>
+	<lines name="button_search" descr=""><![CDATA[Suchen]]></lines>
+	<lines name="member_login" descr=""><![CDATA[Mitgliedsanmeldung]]></lines>
+	<lines name="member_login_2" descr=""><![CDATA[Meine Anzeige hinzufügen]]></lines>
+	<lines name="i_find" descr=""><![CDATA[Ich suche]]></lines>
+	<lines name="where_loc" descr=""><![CDATA[Standort]]></lines>
+	<lines name="rubrika" descr=""><![CDATA[Im Bereich]]></lines>
+	<lines name="i_want" descr=""><![CDATA[Ich möchte]]></lines>
+	<lines name="qs_i_need" descr=""><![CDATA[mieten]]></lines>
+	<lines name="qs_i_have" descr=""><![CDATA[vermieten]]></lines>
+	<lines name="qs_i_sell" descr=""><![CDATA[verkaufen]]></lines>
+	<lines name="qs_i_buy" descr=""><![CDATA[kaufen]]></lines>	
+	<lines name="i_need" descr=""><![CDATA[Mietet]]></lines>
+	<lines name="i_have" descr=""><![CDATA[Vermietet]]></lines>
+	<lines name="i_buy" descr=""><![CDATA[Kauft]]></lines>
+	<lines name="i_sell" descr=""><![CDATA[Verkauft]]></lines>
+	<lines name="choose" descr=""><![CDATA[Bitte wählen]]></lines>	
+	<lines name="price" descr=""><![CDATA[Preis]]></lines>
+	<lines name="from" descr=""><![CDATA[von]]></lines>
+	<lines name="auction_possible" descr=""><![CDATA[Preisverhandlungen sind möglich]]></lines>
+	<lines name="auction_inpossible" descr=""><![CDATA[Preisverhandlungen sind nicht möglich]]></lines>
+	<lines name="month_payment_in_line" descr=""><![CDATA[Miete pro Monat]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Erhältlich von]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Umzugsdatum]]></lines>
+	<lines name="last_results" descr=""><![CDATA[Letzte Anzeigen]]></lines>
+	<lines name="pages" descr=""><![CDATA[Seiten]]></lines>
+	<lines name="costs_min" descr=""><![CDATA[Mindestpreis]]></lines>
+	<lines name="upto" descr=""><![CDATA[max]]></lines>
+	<lines name="min" descr=""><![CDATA[min]]></lines>	
+	<lines name="max_views" descr=""><![CDATA[Am meisten angesehen]]></lines>
+	<lines name="admin_choose" descr=""><![CDATA[Gesponsert]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[von]]></lines>
+	<lines name="time_end" descr=""><![CDATA[bis]]></lines>
+	<lines name="empty" descr=""><![CDATA[Erhältlich]]></lines>
+		<lines name="header_text_site_mode_11" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Suchen Sie multiple Immobilienanzeigen für Wohnhäuser,<br>Gewerbegrundstücke und Urlaubsobjekte,<br>finden Sie Häuser zum Verkauf und Wohnungen zum Mieten.<br><br>Fügen Sie Immobilien zum Verkauf oder Pachten hinzu: <br>Tausende Käufer und Mieter<br>ziehen täglich mit Verkäufern und Verpächtern gleich.]]></lines>	<lines name="why_register" descr=""><![CDATA[Wozu brauch ich mich anzumelden?]]></lines>
+	<lines name="header_text_site_mode_21" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Suchen Sie multiple Immobilienanzeigen für Wohnhäuser,<br>Gewerbegrundstücke und Urlaubsobjekte,<br>finden Sie Häuser zum Verkauf und Wohnungen zum Mieten.<br><br>Fügen Sie Immobilien zum Verkauf oder Pachten hinzu: <br>Tausende Käufer und Mieter<br>ziehen täglich mit Verkäufern und Verpächtern gleich.]]></lines>	<lines name="why_register" descr=""><![CDATA[Wozu brauch ich mich anzumelden?]]></lines>                                  	
+	<lines name="header_text_site_mode_31" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Suchen Sie multiple Immobilienanzeigen für Wohnhäuser,<br>Gewerbegrundstücke und Urlaubsobjekte,<br>finden Sie Häuser zum Verkauf und Wohnungen zum Mieten.<br><br>Fügen Sie Immobilien zum Verkauf oder Pachten hinzu: <br>Tausende Käufer und Mieter<br>ziehen täglich mit Verkäufern und Verpächtern gleich.]]></lines>	<lines name="why_register" descr=""><![CDATA[Wozu brauch ich mich anzumelden?]]></lines>	
+	<lines name="header_text_site_mode_10" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Suchen Sie multiple Immobilienanzeigen für Wohnhäuser, Gewerbegrundstücke und Urlaubsobjekte, finden Sie Häuser zum Verkauf und Wohnungen zum Mieten.<br><br>Fügen Sie Immobilien zum Verkauf oder Pachten hinzu: <br>Tausende Käufer und Mieter<br>ziehen täglich mit Verkäufern und Verpächtern gleich.]]></lines>	<lines name="why_register" descr=""><![CDATA[Wozu brauch ich mich anzumelden?]]></lines>
+	<lines name="header_text_site_mode_20" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Suchen Sie multiple Immobilienanzeigen für Wohnhäuser, Gewerbegrundstücke und Urlaubsobjekte, finden Sie Häuser zum Verkauf und Wohnungen zum Mieten.<br><br>Fügen Sie Immobilien zum Verkauf oder Pachten hinzu: <br>Tausende Käufer und Mieter<br>ziehen täglich mit Verkäufern und Verpächtern gleich.]]></lines>	<lines name="why_register" descr=""><![CDATA[Wozu brauch ich mich anzumelden?]]></lines>                                  	
+	<lines name="header_text_site_mode_30" descr=""><![CDATA[<font class=index_logo_header>PG Real Estate:</font><br><br>Suchen Sie multiple Immobilienanzeigen für Wohnhäuser, Gewerbegrundstücke und Urlaubsobjekte, finden Sie Häuser zum Verkauf und Wohnungen zum Mieten.<br><br>Fügen Sie Immobilien zum Verkauf oder Pachten hinzu: <br>Tausende Käufer und Mieter<br>ziehen täglich mit Verkäufern und Verpächtern gleich.]]></lines>	<lines name="why_register" descr=""><![CDATA[Wozu brauch ich mich anzumelden?]]></lines>	
+	<lines name="upto" descr=""><![CDATA[max]]></lines>
+	<lines name="last_added" descr=""><![CDATA[Latest added]]></lines>
+</data>

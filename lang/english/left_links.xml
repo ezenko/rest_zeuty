@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="menu_rental_my_1" descr=""><![CDATA[Viewed my profile]]></lines>
+	<lines name="menu_rental_my_2" descr=""><![CDATA[Added me to Hot List]]></lines>
+	<lines name="menu_rental_my_3" descr=""><![CDATA[Interested in me]]></lines>
+	<lines name="menu_rental_my_4" descr=""><![CDATA[Match my criteria]]></lines>
+	<lines name="menu_rental_his_1" descr=""><![CDATA[The profiles I viewed]]></lines>
+	<lines name="menu_rental_his_2" descr=""><![CDATA[My Hot List]]></lines>
+	<lines name="menu_rental_his_3" descr=""><![CDATA[The profiles I am interested in]]></lines>
+	<lines name="menu_rental_his_4" descr=""><![CDATA[I match their criteria]]></lines>	
+</data>

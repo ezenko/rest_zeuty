@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<item name="login" href="/login.php" id="mhi_registration" onclick="return GB_show('', '[href]', 230, 400)"><![CDATA[<b>Members area</b>]]></item>
+</menu>

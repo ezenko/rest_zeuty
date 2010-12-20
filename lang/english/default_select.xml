@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="hp_country" descr=""><![CDATA[Choose country]]></lines>
+	<lines name="hp_region" descr=""><![CDATA[Choose state/region]]></lines>
+	<lines name="hp_load_region" descr=""><![CDATA[Regions are loading...]]></lines>
+	<lines name="hp_city" descr=""><![CDATA[Choose city]]></lines>
+	<lines name="hp_load_city" descr=""><![CDATA[Cities are loading...]]></lines>
+	<lines name="ip_country" descr=""><![CDATA[Choose country]]></lines>
+	<lines name="ip_region" descr=""><![CDATA[Choose state/region]]></lines>
+	<lines name="ip_load_region" descr=""><![CDATA[Regions are loading...]]></lines>
+	<lines name="ip_city" descr=""><![CDATA[Choose city]]></lines>
+	<lines name="ip_load_city" descr=""><![CDATA[Cities are loading...]]></lines>
+	<lines name="sl_country" descr=""><![CDATA[Choose country]]></lines>
+	<lines name="sl_region" descr=""><![CDATA[Choose state/region]]></lines>
+	<lines name="sl_load_region" descr=""><![CDATA[Regions are loading...]]></lines>
+	<lines name="sl_city" descr=""><![CDATA[Choose city]]></lines>
+	<lines name="sl_load_city" descr=""><![CDATA[Cities are loading...]]></lines>
+	<lines name="ps_country" descr=""><![CDATA[Choose country]]></lines>
+	<lines name="ps_region" descr=""><![CDATA[Choose state/region]]></lines>
+	<lines name="ps_load_region" descr=""><![CDATA[Regions are loading...]]></lines>
+	<lines name="ps_city" descr=""><![CDATA[Choose city]]></lines>
+	<lines name="ps_load_city" descr=""><![CDATA[Cities are loading...]]></lines>
+	<lines name="psr_country" descr=""><![CDATA[Choose country]]></lines>
+	<lines name="psr_region" descr=""><![CDATA[Choose state/region]]></lines>
+	<lines name="psr_load_region" descr=""><![CDATA[Regions are loading...]]></lines>
+	<lines name="psr_city" descr=""><![CDATA[Choose city]]></lines>
+	<lines name="psr_load_city" descr=""><![CDATA[Cities are loading...]]></lines>
+	<lines name="rnte_country" descr=""><![CDATA[Choose country]]></lines>
+	<lines name="rnte_region" descr=""><![CDATA[Choose state/region]]></lines>
+	<lines name="rnte_load_region" descr=""><![CDATA[Regions are loading...]]></lines>
+	<lines name="rnte_city" descr=""><![CDATA[Choose city]]></lines>
+	<lines name="rnte_load_city" descr=""><![CDATA[Cities are loading...]]></lines>
+	<lines name="rnte_load_subway" descr=""><![CDATA[Subway stations load...]]></lines>
+	<lines name="rnte_subway" descr=""><![CDATA[Choose subway station...]]></lines>
+	<lines name="rmte_country" descr=""><![CDATA[Choose country]]></lines>
+	<lines name="rmte_region" descr=""><![CDATA[Choose state/region]]></lines>
+	<lines name="rmte_load_region" descr=""><![CDATA[Regions are loading...]]></lines>
+	<lines name="rmte_city" descr=""><![CDATA[Choose city]]></lines>
+	<lines name="rmte_load_city" descr=""><![CDATA[Cities are loading...]]></lines>
+	<lines name="rmte_load_subway" descr=""><![CDATA[Subway stations load...]]></lines>
+	<lines name="rmte_subway" descr=""><![CDATA[Choose subway station...]]></lines>
+	<lines name="qs_country" descr=""><![CDATA[Choose country]]></lines>
+	<lines name="qs_region" descr=""><![CDATA[Choose state/region]]></lines>
+	<lines name="qs_load_region" descr=""><![CDATA[Regions are loading...]]></lines>
+	<lines name="qs_city" descr=""><![CDATA[Choose city]]></lines>
+	<lines name="qs_load_city" descr=""><![CDATA[Cities are loading...]]></lines>
+	<lines name="quote" descr=""><![CDATA[Quote]]></lines>
+	<lines name="said" descr=""><![CDATA[told]]></lines>	
+	<lines name="base_1" descr=""><![CDATA[Invalid database format!]]></lines>
+	<lines name="base_2" descr=""><![CDATA[ Please, check if it's correct or ]]></lines>
+	<lines name="base_3" descr=""><![CDATA[contact us]]></lines>
+	<lines name="bonus_intro" descr=""><![CDATA[Complete your listing and get bonus funds that will be credited to your account!<br><br>The more complete your listing, the more credits you can get:]]></lines>
+	<lines name="bonus_you_recieve" descr=""><![CDATA[]]></lines>
+	<lines name="bonus_more" descr=""><![CDATA[more than ]]></lines>
+	<lines name="bonus_conclusion" descr=""><![CDATA[The total is made up of at least 1 criterion in your listing questionnaire. <br>"No answers" are not counted.<br><br>You can use received credits to pay for site services.]]></lines>
+	<lines name="indicator_text_2" descr=""><![CDATA[Your listing is filled for ]]></lines>
+	<lines name="indicator_text_3" descr=""><![CDATA[You can get a lump bonus of ]]></lines>
+	<lines name="indicator_text_4" descr=""><![CDATA[on your account]]></lines>
+	<lines name="star_alt" descr=""><![CDATA[The listing is placed at the top of search results on]]></lines>
+	<lines name="logo_alt" descr=""><![CDATA[RealEstate - selling, buying, leasing and renting Real Estate]]></lines>
+	<lines name="select_subway" descr=""><![CDATA[Choose a station]]></lines>
+	<lines name="unread_messages" descr=""><![CDATA[Unread messages]]></lines>
+		<lines name="blacklisted_them" descr=""><![CDATA[My black list]]></lines>
+	<lines name="blacklisted_me" descr=""><![CDATA[Added me to black list]]></lines>
+	<lines name="days_1" descr=""><![CDATA[days]]></lines>
+	<lines name="days_2" descr=""><![CDATA[day]]></lines>
+	<lines name="days_3" descr=""><![CDATA[day]]></lines>
+	<lines name="featured_alt" descr=""><![CDATA[Region leader]]></lines>
+	<lines name="slideshowed_alt" descr=""><![CDATA[Slideshow]]></lines>
+	<lines name="welcome_1" descr=""><![CDATA[, we congratulate you on successful registration!]]></lines>
+	<lines name="welcome_3" descr=""><![CDATA[Unfortunately, you have no listings added]]></lines>
+	<lines name="add_rent_text" descr=""><![CDATA[Add a listing]]></lines>
+	<lines name="cost" descr=""><![CDATA[cost]]></lines>
+	<lines name="date_reg" descr=""><![CDATA[modification date]]></lines>
+	<lines name="link_text_1" descr=""><![CDATA[Your listing]]></lines>
+	<lines name="link_text_2" descr=""><![CDATA[is on the]]></lines>
+	<lines name="link_text_3" descr=""><![CDATA[position]]></lines>
+	<lines name="link_text_4" descr=""><![CDATA[Views]]></lines>
+	<lines name="link_text_5" descr=""><![CDATA[today]]></lines>
+	<lines name="link_text_6" descr=""><![CDATA[this month]]></lines>
+	<lines name="link_text_7" descr=""><![CDATA[Lift up listing in search results?]]></lines>
+	<lines name="viewed_top_text_alert" descr=""><![CDATA[The system counts activity of all registered and non-registered Real Estate users. This is the reason why the number of showed and listed users may be different.]]></lines>
+	<lines name="back_link_text" descr=""><![CDATA[Try to change search criteria]]></lines>
+	<lines name="more_link_text" descr=""><![CDATA[View more &#187;]]></lines>
+	<lines name="no_stories" descr=""><![CDATA[There are no articles]]></lines>
+	<lines name="contact_for_reg" descr=""><![CDATA[Contacts are available for registered users only]]></lines>
+	<lines name="pls_select" descr=""><![CDATA[Please, choose]]></lines>
+	<lines name="group_err_1" descr=""><![CDATA[Contact information is available for ]]></lines>
+	<lines name="group_err_2" descr=""><![CDATA[paid users]]></lines>
+	<lines name="group_err_3" descr=""><![CDATA[ only.]]></lines>
+	<lines name="call_him" descr=""><![CDATA[Phone]]></lines>
+	<lines name="menu" descr=""><![CDATA[Menu]]></lines>
+	<lines name="back_to_search" descr=""><![CDATA[&#171; Back to search form]]></lines>	
+	<lines name="enable_javascript" descr=""><![CDATA[Your internet browser doesn&#145;t support JavaScript! Please, enable JavaScript or use another browser for correct work!]]></lines>
+	<lines name="add_to_comparison_list" descr=""><![CDATA[Add to comparison list]]></lines>	
+	<lines name="in_your_comparison_list" descr=""><![CDATA[In your comparison list]]></lines>	
+	<lines name="comparison_list" descr=""><![CDATA[Comparison list]]></lines>	
+	<lines name="compare" descr=""><![CDATA[Compare]]></lines>				
+	<lines name="clear_comparison_list" descr=""><![CDATA[Clear]]></lines>
+	<lines name="rent" descr=""><![CDATA[Rents]]></lines>				
+	<lines name="lease" descr=""><![CDATA[Leases]]></lines>				
+	<lines name="buy" descr=""><![CDATA[Buys]]></lines>				
+	<lines name="sell" descr=""><![CDATA[Sells]]></lines>					
+	<lines name="not_set" descr=""><![CDATA[&mdash;]]></lines>						
+	<lines name="no_value" descr=""><![CDATA[&mdash;]]></lines>	
+	<lines name="delete_from_comparison" descr=""><![CDATA[Remove from comparison list]]></lines>			
+	<lines name="keyword_search" descr=""><![CDATA[Key word search]]></lines>
+	<lines name="sponsored_alt" descr=""><![CDATA[In the list of sponsored]]></lines>
+	<lines name="button_search" descr=""><![CDATA[Search!]]></lines>
+	<lines name="keyword_search_help" descr=""><![CDATA[Search by listing description, headline, comments, loaded files, location and author's info.]]></lines>	
+	<lines name="hide" descr=""><![CDATA[Hide]]></lines>	
+	<lines name="slideshow" descr=""><![CDATA[Slideshow of listing photos]]></lines>	
+	<lines name="default_photo_male_alt" descr=""><![CDATA[Man]]></lines>	
+	<lines name="default_photo_female_alt" descr=""><![CDATA[Woman]]></lines>	
+	<lines name="default_photo_fwithc_alt" descr=""><![CDATA[A family with children]]></lines>	
+	<lines name="default_photo_fwithoutc_alt" descr=""><![CDATA[A family without children]]></lines>	
+	<lines name="default_photo_agency_alt" descr=""><![CDATA[Real Estate agent]]></lines>	
+	<lines name="default_photo_man_alt" descr=""><![CDATA[Sex was not indicated]]></lines>	
+	<lines name="sold_alt" descr=""><![CDATA[Sold]]></lines>
+	<lines name="leased_alt" descr=""><![CDATA[Leased]]></lines>
+	<lines name="other_period" descr=""><![CDATA[Other available periods]]></lines>
+	<lines name="home_page" descr=""><![CDATA[Home]]></lines>
+	<lines name="order_by" descr=""><![CDATA[Sort by]]></lines>	
+	<lines name="sorter_by_max_view" descr=""><![CDATA[popularity]]></lines>		
+	<lines name="sorter_by_date_move" descr=""><![CDATA[move date]]></lines>
+	<lines name="view_by_calendar" descr=""><![CDATA[View in calendar]]></lines>
+	<lines name="pages" descr=""><![CDATA[pages]]></lines>		
+	<lines name="address" descr=""><![CDATA[The specified address]]></lines>
+	<lines name="was_not_found" descr=""><![CDATA[was not found]]></lines>	
+	<lines name="with_photo" descr=""><![CDATA[with photo]]></lines>		
+	<lines name="with_video" descr=""><![CDATA[with video]]></lines>		
+	<lines name="more_qs_opt" descr=""><![CDATA[More Options]]></lines>		
+	<lines name="less_qs_opt" descr=""><![CDATA[Less Options]]></lines>			
+	<lines name="with_photo_first" descr=""><![CDATA[Show listings with photo first]]></lines>		
+</data>

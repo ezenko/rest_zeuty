@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="admin_badwords_title" descr=""><![CDATA[RealEstate Admin Mode - Bad words]]></lines>
+	<lines name="admin_billing_title" descr=""><![CDATA[RealEstate Admin Mode - Billing]]></lines>
+	<lines name="admin_groups_title" descr=""><![CDATA[RealEstate Admin Mode - Groups management]]></lines>
+	<lines name="admin_homepage_title" descr=""><![CDATA[RealEstate Admin Mode - Homepage]]></lines>
+	<lines name="admin_login_title" descr=""><![CDATA[RealEstate Admin Mode - Welcome]]></lines>
+	<lines name="admin_references_title" descr=""><![CDATA[RealEstate Admin Mode - References editor]]></lines>
+	<lines name="admin_settings_title" descr=""><![CDATA[RealEstate Admin Mode - Settings management]]></lines>
+	<lines name="admin_users_title" descr=""><![CDATA[RealEstate Admin Mode - Users management]]></lines>
+	<lines name="admin_rentals_title" descr=""><![CDATA[RealEstate Admin Mode - Listings management]]></lines>
+	<lines name="admin_show_ads_area_title" descr=""><![CDATA[RealEstate Admin Mode - Order of listings display]]></lines>
+	<lines name="admin_sponsors_title" descr=""><![CDATA[RealEstate Admin Mode - Sponsors announcements]]></lines>
+	<lines name="admin_info_manager_title" descr=""><![CDATA[RealEstate Admin Mode - Info manager]]></lines>
+	<lines name="admin_mails_title" descr=""><![CDATA[RealEstate Admin Mode - Alerts (notifications)]]></lines>	
+	<lines name="agents_title" descr=""><![CDATA[RealEstate Admin Mode - My agents/My realtor]]></lines>	
+	<lines name="admin_pay_services_title" descr=""><![CDATA[RealEstate Admin Mode - Billing]]></lines>		
+	<lines name="admin_news_title" descr=""><![CDATA[RealEstate Admin Mode - Your news, RSS feeds]]></lines>		
+	<lines name="admin_upload_title" descr=""><![CDATA[RealEstate Admin Mode - Uploaded files approval]]></lines>			
+	<lines name="admin_countries_title" descr=""><![CDATA[RealEstate Admin Mode - References - Countries]]></lines>						
+</data>

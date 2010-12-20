@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Content management]]></lines>
+<lines name="page_subheader" descr=""><![CDATA[Sponsored listings]]></lines>
+<lines name="help_list_ads" descr=""><![CDATA[This is the section for Sponsored Listings management. Sponsored Listings represent a separate group where listings are marked with a special icon.<br><br>On this page you can edit the list and the order of sponsored listings display. To remove a listing from this list, a corresponding button should be pressed. The listings is removed from this list only. You can also change the status of the listing and have it displayed either as sponsored or not. So if the field "Display sponsored" is not marked, than it will be displayed as ordinary one.<br><br> Also you can change the order for the display using "arrows". The higher position - the higher the listing will be displayed. You can't change the position of the listing without marking "Display sponsored". Pay attention that the listings marked as "inactive" won't be displayed even in the list of sponsored ones.<br><br>To add listings you should go to corresponding section.]]></lines>
+<lines name="help_add_ads" descr=""><![CDATA[In this area you can make listings sponsored. To do that choose a member(you can use search option for that), then press the button "Choose for display". You will get a page with the listings of the member where you can add the listing to the list of sponsored ones.]]></lines>
+<lines name="list" descr=""><![CDATA[List of listings]]></lines>
+<lines name="add" descr=""><![CDATA[Add listings]]></lines>
+<lines name="letter_search_help" descr=""><![CDATA[Search by the first letter in E-mail of the member]]></lines>
+<lines name="no_waiting_files" descr=""><![CDATA[There are no files awaiting approval]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="name" descr=""><![CDATA[Name]]></lines>
+<lines name="email" descr=""><![CDATA[Email]]></lines>
+<lines name="date_reg" descr=""><![CDATA[Registration date]]></lines>
+<lines name="date_last" descr=""><![CDATA[Last authorization]]></lines>
+<lines name="status" descr=""><![CDATA[Status]]></lines>
+<lines name="active" descr=""><![CDATA[Activity]]></lines>
+<lines name="access" descr=""><![CDATA[Access]]></lines>
+<lines name="delete" descr=""><![CDATA[Removal]]></lines>
+<lines name="incorrect_field" descr=""><![CDATA[Incorrect field]]></lines>
+<lines name="change_pass" descr=""><![CDATA[Change password]]></lines>
+<lines name="password" descr=""><![CDATA[Password]]></lines>
+<lines name="ver_password" descr=""><![CDATA[Repeat password]]></lines>
+<lines name="send_to_user" descr=""><![CDATA[Send to user]]></lines>
+<lines name="login_exists" descr=""><![CDATA[Login already exists]]></lines>
+<lines name="email_exists" descr=""><![CDATA[Email already exists]]></lines>
+<lines name="del_confirm" descr=""><![CDATA[Delete this user?]]></lines>
+<lines name="del_upload_confirm" descr=""><![CDATA[Delete upload?]]></lines>
+<lines name="del_ad_confirm" descr=""><![CDATA[Delete this ad?]]></lines>
+<lines name="del_ad_sp_confirm" descr=""><![CDATA[Delete this ad from sponsors list?]]></lines>
+<lines name="rental_ads" descr=""><![CDATA[User's listings]]></lines>
+<lines name="available" descr=""><![CDATA[Available date]]></lines>
+<lines name="movedate" descr=""><![CDATA[Move-in-date]]></lines>
+<lines name="location" descr=""><![CDATA[Location]]></lines>
+<lines name="people_count" descr=""><![CDATA[People count]]></lines>
+<lines name="about_me" descr=""><![CDATA[About me and my preferences for place to live]]></lines>
+<lines name="about_us" descr=""><![CDATA[About us and our preferences for place to live]]></lines>
+<lines name="i_have_text" descr=""><![CDATA[People preferences and my residence information]]></lines>
+<lines name="age" descr=""><![CDATA[Age]]></lines>
+<lines name="payment" descr=""><![CDATA[Payment]]></lines>
+<lines name="deposit" descr=""><![CDATA[Deposit]]></lines>
+<lines name="square" descr=""><![CDATA[Square]]></lines>
+<lines name="comment" descr=""><![CDATA[Additional comments]]></lines>
+<lines name="uploads" descr=""><![CDATA[Uploads]]></lines>
+<lines name="no_photos" descr=""><![CDATA[No photos]]></lines>
+<lines name="headline" descr=""><![CDATA[Personal headline]]></lines>
+<lines name="zip_code" descr=""><![CDATA[Zip code]]></lines>
+<lines name="street_cross" descr=""><![CDATA[Cross streets]]></lines>
+<lines name="adress" descr=""><![CDATA[Address]]></lines>
+<lines name="or_more" descr=""><![CDATA[or more]]></lines>
+<lines name="wake_up" descr=""><![CDATA[Wake up]]></lines>
+<lines name="go_to_bed" descr=""><![CDATA[Go to bed]]></lines>
+<lines name="user_field_1" descr=""><![CDATA[Registered as]]></lines>
+<lines name="user_field_2" descr=""><![CDATA[private person]]></lines>
+<lines name="user_field_3" descr=""><![CDATA[agency]]></lines>
+<lines name="company_name" descr=""><![CDATA[Company name]]></lines>
+<lines name="company_url" descr=""><![CDATA[Site]]></lines>
+<lines name="weekday_str" descr=""><![CDATA[Working days]]></lines>
+<lines name="work_time" descr=""><![CDATA[Working hours]]></lines>
+<lines name="lunch_time" descr=""><![CDATA[Lunch time]]></lines>
+<lines name="logo_path" descr=""><![CDATA[Logo]]></lines>
+<lines name="mail_link" descr=""><![CDATA[Member's correspondence]]></lines>
+<lines name="from" descr=""><![CDATA[From]]></lines>
+<lines name="to" descr=""><![CDATA[To]]></lines>
+<lines name="time" descr=""><![CDATA[Time]]></lines>
+<lines name="body" descr=""><![CDATA[Text]]></lines>
+<lines name="user_type" descr=""><![CDATA[Type]]></lines>
+<lines name="user_type_1" descr=""><![CDATA[Private person]]></lines>
+<lines name="user_type_2" descr=""><![CDATA[Realtor]]></lines>
+<lines name="admin" descr=""><![CDATA[Administrator]]></lines>
+<lines name="guest" descr=""><![CDATA[Guest]]></lines>
+<lines name="user_list_help" descr=""><![CDATA[Here you can find info about any member, view his profile, correspondence, remove incorrect listings. Using field "Access" you can activate or disctivate member's profile.]]></lines>
+<lines name="user_profile_help" descr=""><![CDATA[You are viewing the profile of the member.]]></lines>
+<lines name="mailbox" descr=""><![CDATA[Correspondence]]></lines>
+<lines name="user_ads" descr=""><![CDATA[Listings]]></lines>
+<lines name="empty" descr=""><![CDATA[There are no listings]]></lines>
+<lines name="empty_ads" descr=""><![CDATA[There are no listings]]></lines>
+<lines name="user_mail_help" descr=""><![CDATA[You are viewing all member's correspondence.]]></lines>
+<lines name="user_ads_help" descr=""><![CDATA[Here you can view member's listings and remove them if necessary.]]></lines>
+<lines name="user_import_help" descr=""><![CDATA[If you have a database of users and you want to integrate it, please contact our Suport Team.]]></lines>
+<lines name="users_import" descr=""><![CDATA[Users import]]></lines>
+<lines name="user_need" descr=""><![CDATA[leases property]]></lines>
+<lines name="user_have" descr=""><![CDATA[rents property]]></lines>
+<lines name="user_sell" descr=""><![CDATA[sells property]]></lines>
+<lines name="user_buy" descr=""><![CDATA[buys property]]></lines>
+<lines name="about_realty" descr=""><![CDATA[About property]]></lines>
+<lines name="planirovka" descr=""><![CDATA[Photo (planning)]]></lines>
+<lines name="general_photo" descr=""><![CDATA[Photos (general)]]></lines>
+<lines name="video" descr=""><![CDATA[Video]]></lines>
+<lines name="my_preferences" descr=""><![CDATA[My preferences]]></lines>
+<lines name="link_ads" descr=""><![CDATA[Listings]]></lines>
+<lines name="time_begin" descr=""><![CDATA[From]]></lines>
+<lines name="time_end" descr=""><![CDATA[till]]></lines>
+<lines name="user_info" descr=""><![CDATA[Member's profile]]></lines>
+<lines name="user_statistics" descr=""><![CDATA[Member's statistics]]></lines>
+<lines name="add_user_help" descr=""><![CDATA[You can add a member here.]]></lines>
+<lines name="letter_search_help" descr=""><![CDATA[Search by first letter of E-mail of the member]]></lines>
+<lines name="empty_result" descr=""><![CDATA[There are no results matching your criteria. Try changing]]></lines>
+<lines name="empty_res_search_criteria" descr=""><![CDATA[search criteria]]></lines>
+<lines name="del_user_confirm" descr=""><![CDATA[Are you sure you want to remove a member? While removing a member all information concerning him is also removed: listings, payment statistics, correspondence. The member will also be removed from Contact Lists of other site members.]]></lines>
+<lines name="admin_approve_not_complete" descr=""><![CDATA[Administrator hasn't approved photo yet]]></lines>
+<lines name="admin_approve_decline" descr=""><![CDATA[Administrator forbade the file for display]]></lines>
+<lines name="show_sp" descr=""><![CDATA[Make sponsored]]></lines>
+<lines name="issponsor" descr=""><![CDATA[In the list of sponsored]]></lines>
+<lines name="preview" descr=""><![CDATA[Listing]]></lines>
+<lines name="order" descr=""><![CDATA[Sorting]]></lines>
+<lines name="price" descr=""><![CDATA[Price]]></lines>
+<lines name="from2" descr=""><![CDATA[from]]></lines>
+<lines name="upto" descr=""><![CDATA[to]]></lines>
+<lines name="auction_possible" descr=""><![CDATA[Price negotiating is possible]]></lines>
+<lines name="auction_inpossible" descr=""><![CDATA[Price negotiating is not possible]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Rent price for 1 month:]]></lines>
+<lines name="available_date" descr=""><![CDATA[Available from]]></lines>
+<lines name="move_in_date" descr=""><![CDATA[Move dat]]></lines>
+<lines name="last_results" descr=""><![CDATA[Last listings]]></lines>
+<lines name="pages" descr=""><![CDATA[pages]]></lines>
+<lines name="costs_min" descr=""><![CDATA[Cost from]]></lines>
+<lines name="upto" descr=""><![CDATA[to]]></lines>
+<lines name="min" descr=""><![CDATA[from]]></lines>
+<lines name="i_need" descr=""><![CDATA[Rents]]></lines>
+<lines name="i_have" descr=""><![CDATA[Leases]]></lines>
+<lines name="i_buy" descr=""><![CDATA[Buys]]></lines>
+<lines name="i_sell" descr=""><![CDATA[Sells]]></lines>
+<lines name="position_number" descr=""><![CDATA[Position]]></lines>
+<lines name="move_up" descr=""><![CDATA[One level upper]]></lines>				
+<lines name="move_down" descr=""><![CDATA[One level lower]]></lines>
+<lines name="not_active" descr=""><![CDATA[Listing is inactive and is not used in search]]></lines>
+</data>

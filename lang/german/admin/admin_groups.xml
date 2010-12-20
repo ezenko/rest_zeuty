@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Gruppen]]></lines>
+<lines name="empty" descr=""><![CDATA[Leere Gruppenliste]]></lines>
+<lines name="list" descr=""><![CDATA[Gruppenliste]]></lines>
+<lines name="number" descr=""><![CDATA[Nr]]></lines>
+<lines name="name" descr=""><![CDATA[Gruppenname]]></lines>
+<lines name="type" descr=""><![CDATA[Typ]]></lines>
+<lines name="user_list" descr=""><![CDATA[Benutzerliste]]></lines>
+<lines name="all_users" descr=""><![CDATA[Alle Benutzer]]></lines>
+<lines name="users_in_list" descr=""><![CDATA[Benutzer]]></lines>
+<lines name="group_users" descr=""><![CDATA[Gruppenbenutzer]]></lines>
+<lines name="initial_word" descr=""><![CDATA[a]]></lines>
+<lines name="permission" descr=""><![CDATA[Berechtigungen]]></lines>
+<lines name="module" descr=""><![CDATA[Moduln]]></lines>
+<lines name="description" descr=""><![CDATA[Beschreibung]]></lines>
+<lines name="allow" descr=""><![CDATA[Berechtigen]]></lines>
+<lines name="group_permission_help" descr=""><![CDATA[Gruppennamen ändern. Stellen Sie Berechtigungen für diese Benutzergruppe ein, für Moduln und Funktionen, die weiter unten aufgelistet sind. Sie können kostenlose Gruppenmitgliedschaft für eine bestimmte Zeit erlauben und Ihre Kunden werden diesen Service nur einmal benutzen dürfen.<br>Haben Sie keine Angst vor Experimenten, Sie können immer zu Standardeinstellungen für eine neue Gruppe der angemeldeten Benutzer zurückkehren - dafür klicken Sie auf &quot;Zurück zu Standardeinstellungen&quot;.]]></lines>
+<lines name="user_group_help" descr=""><![CDATA[Hier ändern Sie Benutzermitgliedschaft in einer der Gruppen.]]></lines>
+<lines name="group_users_list_help" descr=""><![CDATA[Liste der Gruppenbenutzer. Nachdem bezahlte Mitgliedschaftsperiode zu Ende kommt, werden Benutzer automatisch der 'kostenlosen Mitgliedschaft' angeschlossen, wenn sie sich bei dem System wieder anmelden.]]></lines>
+<lines name="group_list_help" descr=""><![CDATA[Im Bereich "Erhältliche Funktionen und Moduln" stellen Sie Berechtigungen für jede Gruppe ein für bestimmte Funktionen oder Moduln, und bestimmen Probeperiode für jede Gruppenmitgliedschaft. Im Bereich "Mitliederliste" verwalten Sie Benutzermitgliedschaft in einer der Benutzergruppen.<br><br>Wenn Sie sachkundig sind, können Sie neue bezahlte Gruppen hinzufügen. Nachdem Sie eine neue Gruppe hinzugefügt haben, bestimmen Sie auch den Gruppenmitgliedschaftspreis. Nur nachdem werden Seitenbenutzer diese neue Gruppe in der Liste der zugänglichen Gruppen sehen können.<br><br>Wenn der Gruppen-ID entfernt ist, werden alle Gruppenmitglieder automatisch der Freibenuzergruppe angeschlossen sein.]]></lines>
+<lines name="letter_search_help" descr=""><![CDATA[Suchen nach dem ersten Symbol der Mitglieds-Email]]></lines>	
+<lines name="user_type" descr=""><![CDATA[Benutzertyp]]></lines>
+<lines name="user_type_1" descr=""><![CDATA[Privatperson]]></lines>
+<lines name="user_type_2" descr=""><![CDATA[Immobilienmakler]]></lines>
+<lines name="admin" descr=""><![CDATA[Administrator]]></lines>
+<lines name="guest" descr=""><![CDATA[Gast]]></lines>
+<lines name="payments" descr=""><![CDATA[Zahlungen]]></lines>	
+<lines name="user_name" descr=""><![CDATA[Name]]></lines>
+<lines name="email" descr=""><![CDATA[Email]]></lines>
+<lines name="users_group_period" descr=""><![CDATA[Mitgliedschaftsperiode]]></lines>	
+<lines name="expired" descr=""><![CDATA[abgelaufen]]></lines>	
+<lines name="empty_payments" descr=""><![CDATA[Leer]]></lines>
+<lines name="empty_result" descr=""><![CDATA[Leider sind Suchergebnisse leer. Versuchen Sie es anders]]></lines>
+<lines name="empty_res_search_criteria" descr=""><![CDATA[Suchkriterien]]></lines>
+<lines name="group_name" descr=""><![CDATA[Gruppenname]]></lines>
+<lines name="allow_trial_membership" descr=""><![CDATA[Kostenlose Probemitgliedschaft berechtigen für eine Periode von ]]></lines>
+<lines name="days" descr=""><![CDATA[Tage]]></lines>
+<lines name="wrong_group_trial_period" descr=""><![CDATA[Hier bestimmen Sie Tageanzahl für kostenlose Probemitgliedschaft (der Wert des Feldes soll eine positive Zahl sein!)]]></lines>
+<lines name="add_new_group" descr=""><![CDATA[Neue Gruppe erstellen]]></lines>
+<lines name="set_default_perms" descr=""><![CDATA[Zurück zu Standardeinstellungen]]></lines>
+</data>

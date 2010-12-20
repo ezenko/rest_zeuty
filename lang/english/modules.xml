@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="account" descr=""><![CDATA[Profile settings]]></lines>
+	<lines name="blacklist" descr=""><![CDATA[Black List]]></lines>
+	<lines name="contact" descr=""><![CDATA[Contact Online Form]]></lines>
+	<lines name="hotlist" descr=""><![CDATA[Hot List]]></lines>
+	<lines name="lost_pass" descr=""><![CDATA[Restore password form]]></lines>
+	<lines name="mailbox" descr=""><![CDATA[My messages]]></lines>
+	<lines name="news" descr=""><![CDATA[News]]></lines>
+	<lines name="power_searchr" descr=""><![CDATA[Advanced Search]]></lines>
+	<lines name="quick_search" descr=""><![CDATA[Quick Search]]></lines>
+	<lines name="registration" descr=""><![CDATA[Registration]]></lines>
+	<lines name="rentals" descr=""><![CDATA[My Listings]]></lines>
+	<lines name="services" descr=""><![CDATA[Paid services]]></lines>
+	<lines name="viewprofile" descr=""><![CDATA[Profile]]></lines>
+	<lines name="admin_area_edit" descr=""><![CDATA[Edit additional information]]></lines>
+	<lines name="admin_editfile" descr=""><![CDATA[Edit language files]]></lines>
+	<lines name="admin_homepage" descr=""><![CDATA[Administrator Home Page]]></lines>
+	<lines name="admin_payment" descr=""><![CDATA[Payments Management]]></lines>
+	<lines name="admin_references" descr=""><![CDATA[References Management]]></lines>
+	<lines name="admin_settings" descr=""><![CDATA[Settings]]></lines>
+	<lines name="admin_users" descr=""><![CDATA[Users Management]]></lines>
+	<lines name="admin_groups" descr=""><![CDATA[Groups Management]]></lines>
+	<lines name="admin_news" descr=""><![CDATA[News Area]]></lines>
+	<lines name="admin_badwords" descr=""><![CDATA[Bad Words Area]]></lines>
+	<lines name="descr_account" descr=""><![CDATA[Edit profile, edit your password, deactivate/activate profile.]]></lines>
+	<lines name="descr_blacklist" descr=""><![CDATA[Create Black List of users whose messages to you will be blocked.]]></lines>
+	<lines name="descr_contact" descr=""><![CDATA[Contact Administrator Form]]></lines>
+	<lines name="descr_hotlist" descr=""><![CDATA[Create a list of Hot Listings for quick access.]]></lines>
+	<lines name="descr_lost_pass" descr=""><![CDATA[Restore Password Form.]]></lines>
+	<lines name="descr_mailbox" descr=""><![CDATA[Opportunity to communicate with other users.]]></lines>
+	<lines name="descr_news" descr=""><![CDATA[Access to read information in News Area.]]></lines>	
+	<lines name="descr_power_searchr" descr=""><![CDATA[Advanced Search Form of Real Estate.]]></lines>
+	<lines name="descr_quick_search" descr=""><![CDATA[Quick Search Form of Real Estate.]]></lines>
+	<lines name="descr_registration" descr=""><![CDATA[Online Registration Form.]]></lines>
+	<lines name="descr_rentals" descr=""><![CDATA[Create, edit, delete listings.]]></lines>
+	<lines name="descr_services" descr=""><![CDATA[Opportunity to use paid services, access to account and payments history.]]></lines>
+	<lines name="descr_admin_area_edit" descr=""><![CDATA[Edit information areas (Privacy Policy, Terms of Use, Abous Us)]]></lines>
+	<lines name="descr_admin_editfile" descr=""><![CDATA[Edit language files]]></lines>
+	<lines name="descr_admin_homepage" descr=""><![CDATA[Administrator Home Page]]></lines>
+	<lines name="descr_admin_payment" descr=""><![CDATA[Billing settings]]></lines>
+	<lines name="descr_admin_references" descr=""><![CDATA[References]]></lines>
+	<lines name="descr_admin_settings" descr=""><![CDATA[Settings]]></lines>
+	<lines name="descr_admin_users" descr=""><![CDATA[User management]]></lines>
+	<lines name="descr_admin_groups" descr=""><![CDATA[Groups management]]></lines>
+	<lines name="descr_admin_news" descr=""><![CDATA[Edit News Area]]></lines>
+	<lines name="descr_admin_badwords" descr=""><![CDATA[Edit Bad Words Area]]></lines>	
+	<lines name="search_preferences" descr=""><![CDATA[Member's search preferences]]></lines>	
+	<lines name="descr_search_preferences" descr=""><![CDATA[Member's search preferences management]]></lines>	
+	<lines name="admin_upload" descr=""><![CDATA[Uploaded files approval]]></lines>
+	<lines name="descr_admin_upload" descr=""><![CDATA[Section for approval of uploaded files]]></lines>
+	<lines name="admin_mails" descr=""><![CDATA[Section "Alerts (notifications)"]]></lines>
+	<lines name="descr_admin_mails" descr=""><![CDATA[Acess to the section "Alerts (notifications)" in administrator's panel]]></lines>
+	<lines name="descr_viewprofile" descr=""><![CDATA[Preview all listings information (property description, info about its owner, phito, video, location on map.]]></lines>	
+	<lines name="alert" descr=""><![CDATA[Error report on accessing the file]]></lines>
+	<lines name="descr_alert" descr=""><![CDATA[Displayed in case user tries to access the page he does not have access to.]]></lines>
+	<lines name="compare" descr=""><![CDATA[Listings comparison]]></lines>
+	<lines name="descr_compare" descr=""><![CDATA[Page with a table containing all listings characteristics added by the member to a comparison list]]></lines>
+	<lines name="index" descr=""><![CDATA[Main page]]></lines>
+	<lines name="descr_index" descr=""><![CDATA[Index page for not registered users]]></lines>
+	<lines name="homepage" descr=""><![CDATA[Home page]]></lines>
+	<lines name="descr_homepage" descr=""><![CDATA[Main page for registered members.]]></lines>
+	<lines name="error" descr=""><![CDATA[Serber errros]]></lines>
+	<lines name="descr_error" descr=""><![CDATA[Member is transferred to a page if there is a server errror, for example, 404.]]></lines>
+	<lines name="confirm" descr=""><![CDATA[Registration confirmation]]></lines>
+	<lines name="descr_confirm" descr=""><![CDATA[Member enters this page once he clicks the link emailed to him by email.]]></lines>
+	<lines name="map" descr=""><![CDATA[Site map]]></lines>
+	<lines name="descr_map" descr=""><![CDATA[The page contains site map.]]></lines>		
+	<lines name="agents" descr=""><![CDATA[My agents/My Realtor]]></lines>
+	<lines name="descr_agents" descr=""><![CDATA[Management of agents list/realtors of the member]]></lines>	
+</data>

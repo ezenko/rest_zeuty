@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="Тема письма"><![CDATA[Новые подходящие варианты на [site_name]]]></lines>
+<lines name="text_1" descr=""><![CDATA[Здесь представлена недвижимость на [site_name], соответствующая вашим параметрам поиска ]]></lines>
+<lines name="text_4" descr=""><![CDATA[Узнай больше на [site_name]]]></lines>
+<lines name="view" descr=""><![CDATA[Просмотр >>]]></lines>
+<lines name="need_realty" descr=""><![CDATA[Арендует]]></lines>
+<lines name="have_realty" descr=""><![CDATA[Сдаёт в аренду]]></lines>
+<lines name="sell_realty" descr=""><![CDATA[Продаёт]]></lines>
+<lines name="buy_realty" descr=""><![CDATA[Покупает]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Стоимость аренды за 1 месяц]]></lines>
+<lines name="price" descr=""><![CDATA[Цена]]></lines>
+<lines name="from" descr=""><![CDATA[от]]></lines>
+<lines name="upto" descr=""><![CDATA[до]]></lines>
+</data>

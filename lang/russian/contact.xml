@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_header" descr=""><![CDATA[Мы будем рады выслушать ваше мнение, чтобы предоставить вам лучший сервис.<br>Также вы можете задать любой вопрос администрации сервиса]]></lines>
+	<lines name="subject" descr=""><![CDATA[Тема]]></lines>
+	<lines name="name" descr=""><![CDATA[Ваше имя]]></lines>
+	<lines name="email" descr=""><![CDATA[Ваш email]]></lines>
+	<lines name="body" descr=""><![CDATA[Сообщение]]></lines>
+	<lines name="for_agency" descr=""><![CDATA[Для риэлторов]]></lines>
+	<lines name="text_top" descr=""><![CDATA[Мы заинтересованы в сотрудничестве в работе с агентствами недвижимости. У вас большой список недвижимости? Мы готовы помочь вам в автоматической публикации ваших вариантов недвижимости.<br>]]></lines>
+	<lines name="text_top_mhi_registration" descr=""><![CDATA[Если Вы заинтересованы в размещении объявлений на нашем сервисе, напишите нам! Мы рассмотрим возможность сотрудничества и создадим для Вас персональный доступ.]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Имя компании]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Ваш сайт (url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Количество вариантов недвижимости]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Как вы узнали о нас]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Ваши вопросы и комментарии]]></lines>
+	<lines name="company_contact_person" descr=""><![CDATA[Контакное лицо]]></lines>
+	<lines name="company_phone" descr=""><![CDATA[Телефон]]></lines>
+	<lines name="company_email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="contact" descr=""><![CDATA[Заполнить онлайн форму]]></lines>
+	<lines name="show_link_text" descr=""><![CDATA[Посмотреть пример заполненного варианта недвижимости]]></lines>
+	<lines name="complaint_0" descr=""><![CDATA[Использует чужие фотографии]]></lines>
+	<lines name="complaint_1" descr=""><![CDATA[Публикует чужие контактные данные]]></lines>
+	<lines name="complaint_2" descr=""><![CDATA[Рассылка сообщений с угрозами, оскорблениями]]></lines>
+	<lines name="complaint_3" descr=""><![CDATA[Рассылка предложений интим-услуг за деньги]]></lines>
+	<lines name="complaint_4" descr=""><![CDATA[Просьбы перевода денег или карточек оплаты]]></lines>
+	<lines name="complaint_5" descr=""><![CDATA[Рассылка рекламы и спама]]></lines>
+	<lines name="complaint_6" descr=""><![CDATA[Другое]]></lines>
+	<lines name="default_subj" descr=""><![CDATA[RealEstate - жалоба]]></lines>
+	<lines name="text_2" descr=""><![CDATA[Некоторые пользователи рассылают спам, предложения о переводе денег или выманивают пин-коды от карточек оплаты. Мы будем признательны, если вы сообщите о подобных злоумышленниках и поможете нам сделать сервис лучше.]]></lines>
+	<lines name="complaint_reason" descr=""><![CDATA[Причина жалобы]]></lines>
+	<lines name="your_comment" descr=""><![CDATA[Ваш комментарий]]></lines>
+	<lines name="comment_hint" descr=""><![CDATA[Пожалуйста, опишите что именно заставило вас пожаловаться на этого пользователя. Жалобы без подробного комментария рассматриваться не будут]]></lines>
+	<lines name="ad_href" descr=""><![CDATA[Ссылка]]></lines>	
+	<lines name="need_realty" descr=""><![CDATA[Арендует]]></lines>
+	<lines name="have_realty" descr=""><![CDATA[Сдаёт в аренду]]></lines>
+	<lines name="sell_realty" descr=""><![CDATA[Продаёт]]></lines>
+	<lines name="buy_realty" descr=""><![CDATA[Покупает]]></lines>
+	<lines name="month_payment_inline" descr=""><![CDATA[Стоимость аренды за 1 месяц]]></lines>
+	<lines name="price" descr=""><![CDATA[Цена]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Дата переезда]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Доступна с]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+	<lines name="time_end" descr=""><![CDATA[до]]></lines>
+	<lines name="empty" descr=""><![CDATA[Свободна]]></lines>
+	<lines name="keystring" descr=""><![CDATA[ПИН-код]]></lines>	
+</data>

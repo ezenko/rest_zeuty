@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Inhaltverwaltung]]></lines>
+<lines name="page_subheader" descr=""><![CDATA[Genehmigung der hochgeladenen Dateien]]></lines>
+<lines name="help" descr=""><![CDATA[Dieser Bereich ist da, wenn Sie die Genehmigungsmöglichkeiten für hochgeladene Dateien in Allgemeinen Einstellungen aktiviert haben. Wenn Sie die Kategorie hochgeladener Dateien auswählen, zeigen sich in der Tabelle die Dateien, die noch nicht genehmigt wurden. Hier können Sie sich<ul><li>die Datei ansehen - klicken Sie nur darauf;</li><li>andere Details herausfinden - klicken Sie &quot;Ansehen&quot; (ein neues Bildschirmfenster wird sich öffnen);</li><li>die Datei genehmigen oder ablehnen, Wasserzeichen in das entsprechende Datei setzen. </li></ul>Wenn Sie die Datei ablehnen, wird der Dateiinhaber - Seitenmitglied - eine entsprechende Meldung bekommen. Er wird keine solchen Dateien mehr hochladen. Andere Seitenmitglieder sehen nur genehmigte Dateien.]]></lines>
+<lines name="file_types" descr=""><![CDATA[Kategorien der hochgeladenen Dateien]]></lines>
+<lines name="rent_photo_type" descr=""><![CDATA[Fotos in den Anzeigen]]></lines>
+<lines name="rent_plan_type" descr=""><![CDATA[Planieren in den Anzeigen]]></lines>
+<lines name="rent_video_type" descr=""><![CDATA[Video in den Anzeigen]]></lines>
+<lines name="user_photo_type" descr=""><![CDATA[Foto im Mitgliedsprofil]]></lines>
+<lines name="no_waiting_files" descr=""><![CDATA[Es gibt keine Dateien, die genehmigt werden sollen]]></lines>
+<lines name="number" descr=""><![CDATA[Nr]]></lines>
+<lines name="file" descr=""><![CDATA[Datei]]></lines>
+<lines name="comment" descr=""><![CDATA[Kommentar]]></lines>
+<lines name="relate" descr=""><![CDATA[Womit ist die Datei verbunden]]></lines>
+<lines name="approve" descr=""><![CDATA[Genehmigen]]></lines>
+<lines name="decline" descr=""><![CDATA[Ablehnen]]></lines>
+</data>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="comment" descr=""><![CDATA[Забыли ваше имя пользователя или пароль? Укажите ваш e-mail при регистрации. Наш сервис сгенерирует и вышлет вам новый временный пароль на этот e-mail адрес]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="contact" descr=""><![CDATA[Связаться с нами]]></lines>
+	<lines name="link_text_1" descr=""><![CDATA[Вернуться на страницу входа]]></lines>
+	<lines name="link_text_2" descr=""><![CDATA[Закрыть окно]]></lines>
+</data>

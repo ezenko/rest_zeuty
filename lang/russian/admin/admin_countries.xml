@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="razdel_name" descr=""><![CDATA[Справочники]]></lines>
+<lines name="editform_city" descr=""><![CDATA[Редактирование города]]></lines>
+<lines name="list" descr=""><![CDATA[Список стран]]></lines>
+<lines name="list_region" descr=""><![CDATA[Cписок регионов страны:]]></lines>
+<lines name="list_city" descr=""><![CDATA[Cписок городов страны, региона:]]></lines>
+<lines name="edit_city" descr=""><![CDATA[Изменение страны, региона, города:]]></lines>
+<lines name="edit_region" descr=""><![CDATA[Изменение страны, региона:]]></lines>
+<lines name="edit_country" descr=""><![CDATA[Изменение страны:]]></lines>
+<lines name="empty" descr=""><![CDATA[Cписок стран пуст]]></lines>
+<lines name="empty_city" descr=""><![CDATA[Cписок городов пуст]]></lines>
+<lines name="empty_region" descr=""><![CDATA[Cписок регионов пуст]]></lines>
+<lines name="number" descr=""><![CDATA[N/N]]></lines>
+<lines name="name" descr=""><![CDATA[Cтрана]]></lines>
+<lines name="country" descr=""><![CDATA[Cтрана]]></lines>
+<lines name="add" descr=""><![CDATA[Добавить]]></lines>
+<lines name="add_city" descr=""><![CDATA[Добавить]]></lines>
+<lines name="add_region" descr=""><![CDATA[Добавить]]></lines>
+<lines name="city" descr=""><![CDATA[Город]]></lines>
+<lines name="new_city" descr=""><![CDATA[Новый город]]></lines>
+<lines name="region" descr=""><![CDATA[Регион]]></lines>
+<lines name="new_region" descr=""><![CDATA[Новый регион]]></lines>
+<lines name="back_to_countries" descr=""><![CDATA[Вернуться к списку стран]]></lines>
+<lines name="back_to_regions" descr=""><![CDATA[Вернуться к списку регионов]]></lines>
+<lines name="country_select" descr=""><![CDATA[Выберете страну]]></lines>
+<lines name="confirm_delete" descr=""><![CDATA[Вы действительно хотите удалить запись?]]></lines>
+<lines name="help_countries_intro" descr=""><![CDATA[Это список стран, установленных на Вашем сайте. Вы можете]]></lines>
+<lines name="help_countries_install" descr=""><![CDATA[установить новые страны]]></lines>
+<lines name="help_countries" descr=""><![CDATA[, перейдя по ссылке. Если ссылка недоступна, значит вы переименовали папку 'www.yourdomain.com/install/' (где www.yourdomain.com это адрес вашего сайта) после установки сайта, для установки стран Вам необходимо вернуть прежнее название папке 'www.yourdomain.com/install/'.<ol><li>Вы можете добавить страны вручную, наберите название страны в секцию “Страна: ” и нажмите “Добавить”.</li><li>Для просмотра, добавления, изменения, удаления регионов и городов страны, нажмите на имя-линк страны в списке.</li></ol>]]></lines>
+<lines name="help_regions" descr=""><![CDATA[Здесь вы можете добавить, изменить или удалить регионы. Для перехода к списку городов региона нажмите на имя-линк региона в списке.]]></lines>
+<lines name="help_cities" descr=""><![CDATA[Здесь вы можете добавить, изменить или удалить города.]]></lines>
+<lines name="help_edit" descr=""><![CDATA[Измените название и нажмите “Сохранить” для сохранения изменений.]]></lines></data>

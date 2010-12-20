@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="comment" descr=""><![CDATA[Forgot your usernmae or password? Indicate your email address please. Our system will generate and send you a new password]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="contact" descr=""><![CDATA[Contact us]]></lines>
+	<lines name="link_text_1" descr=""><![CDATA[Return to the member login page]]></lines>
+	<lines name="link_text_2" descr=""><![CDATA[Close the window]]></lines>
+</data>

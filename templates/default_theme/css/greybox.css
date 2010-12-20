@@ -1,0 +1,114 @@
+/* Last-Modified: 23/06/06 01:24:27 */
+
+/**
+ * Current style
+ */
+.GB_t_frame {
+  color: #444;
+  font-size: 12px;
+}
+
+.GB_content {
+  background-color: #fff;
+  border: 3px solid #ccc;
+  border-top: 2px solid #ccc;
+}
+
+.GB_loader {
+  color: #616161;
+  background-color: #fff;
+}
+
+.GB_header {
+  border-bottom: 1px solid #ccc;
+}
+
+.GB_caption {
+  font-weight: bold;
+}
+
+/**
+ * Base stuff
+ */
+#GB_overlay {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#GB_window {
+  font-family: helvetica, verdana, sans-serif;
+  left: 0;
+  top: 0;
+  font-size: 1px;
+  position: absolute;
+  overflow: visible;
+  z-index: 150;
+}
+
+#GB_frame {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+
+/**
+ * Content
+ */
+.GB_t_frame {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.GB_content {
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  margin-bottom: 25px;
+  z-index: 155;
+}
+
+.GB_loader {
+  z-index: 500;
+  left: 6px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/**
+ * Header
+ */
+.GB_caption {
+  position: absolute;
+  text-align: left;
+}
+
+.GB_header {
+  vertical-align: middle;
+  padding: 5px 4px 5px 4px;
+  margin: 0;
+}
+
+.GB_close {
+  z-index: 200;
+  float: right;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.GB_close img {
+  width: 11px;
+  height: 11px;
+  margin-right: 3px;
+}
+
+.GB_container {
+  margin: 0;
+  padding: 0;
+}

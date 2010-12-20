@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Users management]]></lines>
+<lines name="empry_result" descr=""><![CDATA[Empty result]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="birthday" descr=""><![CDATA[Birth date]]></lines>
+<lines name="email" descr=""><![CDATA[Email]]></lines>
+<lines name="nick" descr=""><![CDATA[Login]]></lines>
+<lines name="name" descr=""><![CDATA[Name]]></lines>
+<lines name="date_reg" descr=""><![CDATA[Registration date]]></lines>
+<lines name="date_last" descr=""><![CDATA[Last login]]></lines>
+<lines name="status" descr=""><![CDATA[Status]]></lines>
+<lines name="active" descr=""><![CDATA[Active]]></lines>
+<lines name="access" descr=""><![CDATA[Access]]></lines>
+<lines name="delete" descr=""><![CDATA[Delete]]></lines>
+<lines name="list_form" descr=""><![CDATA[Users List]]></lines>
+<lines name="edit_form" descr=""><![CDATA[Edit user]]></lines>
+<lines name="sname" descr=""><![CDATA[Last name]]></lines>
+<lines name="login" descr=""><![CDATA[User login]]></lines>
+<lines name="phone" descr=""><![CDATA[Phone]]></lines>
+<lines name="login_count" descr=""><![CDATA[Login count]]></lines>
+<lines name="incorrect_field" descr=""><![CDATA[Incorrect field]]></lines>
+<lines name="change_pass" descr=""><![CDATA[Change password]]></lines>
+<lines name="password" descr=""><![CDATA[Password]]></lines>
+<lines name="ver_password" descr=""><![CDATA[Re-Password]]></lines>
+<lines name="send_to_user" descr=""><![CDATA[Send to user]]></lines>
+<lines name="login_exists" descr=""><![CDATA[Login already exists]]></lines>
+<lines name="email_exists" descr=""><![CDATA[Email already exists]]></lines>
+<lines name="del_confirm" descr=""><![CDATA[Delete this user?]]></lines>
+<lines name="del_upload_confirm" descr=""><![CDATA[Delete upload?]]></lines>
+<lines name="del_ad_confirm" descr=""><![CDATA[Delete this listing?]]></lines>
+<lines name="rental_ads" descr=""><![CDATA[Rental listings]]></lines>
+<lines name="available" descr=""><![CDATA[Available date]]></lines>
+<lines name="movedate" descr=""><![CDATA[Move-in-date]]></lines>
+<lines name="location" descr=""><![CDATA[Location]]></lines>
+<lines name="people_count" descr=""><![CDATA[People count]]></lines>
+<lines name="about_me" descr=""><![CDATA[About me and my preferences for place to live]]></lines>
+<lines name="about_us" descr=""><![CDATA[About us and our preferences for place to live]]></lines>
+<lines name="i_have_text" descr=""><![CDATA[People preferences and my residence information]]></lines>
+<lines name="age" descr=""><![CDATA[Age]]></lines>
+<lines name="payment" descr=""><![CDATA[Payment]]></lines>
+<lines name="deposit" descr=""><![CDATA[Deposit]]></lines>
+<lines name="square" descr=""><![CDATA[Square]]></lines>
+<lines name="comment" descr=""><![CDATA[Additional comments]]></lines>
+<lines name="uploads" descr=""><![CDATA[Uploads]]></lines>
+<lines name="no_photos" descr=""><![CDATA[No photos]]></lines>
+<lines name="headline" descr=""><![CDATA[Personal headline]]></lines>
+<lines name="zip_code" descr=""><![CDATA[Zip code]]></lines>
+<lines name="street_cross" descr=""><![CDATA[Cross streets]]></lines>
+<lines name="adress" descr=""><![CDATA[Address]]></lines>
+<lines name="or_more" descr=""><![CDATA[or more]]></lines>
+<lines name="wake_up" descr=""><![CDATA[Wake up]]></lines>
+<lines name="go_to_bed" descr=""><![CDATA[Go to bed]]></lines>
+<lines name="user_field_1" descr=""><![CDATA[Registered as]]></lines>
+<lines name="user_field_2" descr=""><![CDATA[Private person]]></lines>
+<lines name="user_field_3" descr=""><![CDATA[Real Estate company]]></lines>
+<lines name="user_field_4" descr=""><![CDATA[Agent of Real Estate company]]></lines>
+<lines name="company_name" descr=""><![CDATA[Company name]]></lines>
+<lines name="company_url" descr=""><![CDATA[Company site]]></lines>
+<lines name="weekday_str" descr=""><![CDATA[Business days]]></lines>
+<lines name="work_time" descr=""><![CDATA[Business hours]]></lines>
+<lines name="lunch_time" descr=""><![CDATA[Lunch time]]></lines>
+<lines name="logo_path" descr=""><![CDATA[Logo]]></lines>
+<lines name="mail_link" descr=""><![CDATA[Member's correspondence]]></lines>
+<lines name="from" descr=""><![CDATA[From]]></lines>
+<lines name="to" descr=""><![CDATA[To]]></lines>
+<lines name="time" descr=""><![CDATA[Time]]></lines>
+<lines name="body" descr=""><![CDATA[Text]]></lines>
+<lines name="user_type" descr=""><![CDATA[User type]]></lines>
+<lines name="user_type_1" descr=""><![CDATA[Private person]]></lines>
+<lines name="user_type_2" descr=""><![CDATA[Real Estate company]]></lines>
+<lines name="user_type_3" descr=""><![CDATA[Agent of company]]></lines>
+<lines name="admin" descr=""><![CDATA[Administrator]]></lines>
+<lines name="guest" descr=""><![CDATA[Guest]]></lines>
+<lines name="user_list_help" descr=""><![CDATA[Here you can find information about any site member, view member's profile, to check his/her coorespondence, remove indecorous listings.<br>Putting a tick in the field "Access" or removing it you can activate or deactivate the members status in the system.]]></lines>
+<lines name="user_profile_help" descr=""><![CDATA[You are viewing the profile of the member.]]></lines>
+<lines name="mailbox" descr=""><![CDATA[Correspondence]]></lines>
+<lines name="user_ads" descr=""><![CDATA[Listings]]></lines>
+<lines name="empty" descr=""><![CDATA[Empty]]></lines>
+<lines name="empty_ads" descr=""><![CDATA[Empty]]></lines>
+<lines name="user_mail_help" descr=""><![CDATA[You are viewing the whole correspondence of the member with other members of the site.]]></lines>
+<lines name="user_ads_help" descr=""><![CDATA[Here you can view and remove member's listings.]]></lines>
+<lines name="user_import_help" descr=""><![CDATA[If you have a users database and you want to import it, please send a request to our Support Service.]]></lines>
+<lines name="user_need" descr=""><![CDATA[Rents property]]></lines>
+<lines name="user_have" descr=""><![CDATA[Leases property]]></lines>
+<lines name="user_sell" descr=""><![CDATA[Sells property]]></lines>
+<lines name="user_buy" descr=""><![CDATA[Buys property]]></lines>
+<lines name="about_realty" descr=""><![CDATA[About property]]></lines>
+<lines name="planirovka" descr=""><![CDATA[Photos (planning)]]></lines>
+<lines name="general_photo" descr=""><![CDATA[Photos (general)]]></lines>
+<lines name="video" descr=""><![CDATA[Video]]></lines>
+<lines name="my_preferences" descr=""><![CDATA[My preferences]]></lines>
+<lines name="link_ads" descr=""><![CDATA[Listings]]></lines>
+<lines name="time_begin" descr=""><![CDATA[]]></lines>
+<lines name="time_end" descr=""><![CDATA[-]]></lines>
+<lines name="user_info" descr=""><![CDATA[Member's profile]]></lines>
+<lines name="user_statistics" descr=""><![CDATA[Member's statistics]]></lines>
+<lines name="add_user_help" descr=""><![CDATA[Here you can add user.]]></lines>
+<lines name="letter_search_help" descr=""><![CDATA[Search by first symbol of the member's E-mail]]></lines>	
+<lines name="empty_result" descr=""><![CDATA[Unfortunately, search results are empty. Try to change]]></lines>
+<lines name="empty_res_search_criteria" descr=""><![CDATA[search criteria]]></lines>
+<lines name="del_user_confirm" descr=""><![CDATA[Do you really want to delete this user? When deleting a user, all user information is deleted: listings, payments statistics and correspondence. User is also deleted from other users contact lists.]]></lines>
+<lines name="admin_approve_not_complete" descr=""><![CDATA[wasn't approved]]></lines>
+<lines name="admin_approve_decline" descr=""><![CDATA[was blocked]]></lines>
+<lines name="spended" descr=""><![CDATA[Balance<br>(spent)]]></lines>
+<lines name="interface_language" descr=""><![CDATA[Interface language]]></lines>
+<lines name="country" descr=""><![CDATA[Country]]></lines>
+<lines name="region" descr=""><![CDATA[Region]]></lines>
+<lines name="city" descr=""><![CDATA[City]]></lines>
+<lines name="address" descr=""><![CDATA[Address]]></lines>
+<lines name="zipcode" descr=""><![CDATA[Postal code]]></lines>
+<lines name="ip_country" descr=""><![CDATA[Choose a country...]]></lines>
+<lines name="ip_region" descr=""><![CDATA[Choose a region...]]></lines>
+<lines name="ip_load_region" descr=""><![CDATA[Regions load...]]></lines>
+<lines name="ip_city" descr=""><![CDATA[Choose a city...]]></lines>
+<lines name="ip_load_city" descr=""><![CDATA[Cities load...]]></lines>
+<lines name="time_begin" descr=""><![CDATA[from]]></lines>
+<lines name="time_end" descr=""><![CDATA[till]]></lines>
+<lines name="na_days" descr=""><![CDATA[Not available days]]></lines>
+<lines name="reserve_days" descr=""><![CDATA[Booked days]]></lines>
+<lines name="empty_days" descr=""><![CDATA[Available days]]></lines>
+<lines name="empty_period" descr=""><![CDATA[Available]]></lines>
+<lines name="calendar" descr=""><![CDATA[Calendar]]></lines>
+<lines name="calendar_name" descr=""><![CDATA[Booking calendar]]></lines>
+<lines name="choose_company" descr=""><![CDATA[Choose company]]></lines>
+<lines name="hint_3" descr=""><![CDATA[You should choose a company whose agent you would like to become. Selected company will receive a message with a request for agent's approval. You can also leave the field 'Company' empty, in this case any company ca send you an invitation to become their agent.]]></lines>
+<lines name="prev_month" descr=""><![CDATA[prev month]]></lines>
+<lines name="next_month" descr=""><![CDATA[next month]]></lines>
+<lines name="prev_year" descr=""><![CDATA[prev year]]></lines>
+<lines name="next_year" descr=""><![CDATA[next year]]></lines>
+
+<lines name="work_days" descr=""><![CDATA[Working days]]></lines>
+<lines name="work_time" descr=""><![CDATA[Working hours]]></lines>
+<lines name="hint_3" descr=""><![CDATA[You should choose a company whose agent you would like to become. Selected company will receive a message with a request for agent's approval. You can also leave the field 'Company' empty, in this case any company ca send you an invitation to become their agent.]]></lines>
+<lines name="user_choose" descr=""><![CDATA[Company choice]]></lines>
+<lines name="not_approve" descr=""><![CDATA[The company has not approved cooperation request yet]]></lines>
+<lines name="your_photo" descr=""><![CDATA[Photo]]></lines>
+<lines name="agency_url" descr=""><![CDATA[Company site(url)]]></lines>
+<lines name="agency_logo" descr=""><![CDATA[Company logo]]></lines>
+<lines name="location" descr=""><![CDATA[Location]]></lines>
+<lines name="need_delete_realtor" descr=""><![CDATA[To be able to change user's type, he should not be an agent of some company]]></lines>
+<lines name="need_delete_agents" descr=""><![CDATA[To change user's type, he shouldn't have any agents]]></lines>
+<lines name="delete_agents" descr=""><![CDATA[To deactivate user's profile, he shouldn't have any agents]]></lines>
+<lines name="delete_realtor" descr=""><![CDATA[To deactivate user's profile, he shouldn;t be an agent of some company]]></lines>
+<lines name="decline_company" descr=""><![CDATA[Cancel company's offer]]></lines>
+<lines name="change_company" descr=""><![CDATA[Edit company]]></lines>
+<lines name="delete_company" descr=""><![CDATA[Remove company]]></lines>
+<lines name="na_agency_1" descr=""><![CDATA[Company]]></lines>
+<lines name="na_agency_2" descr=""><![CDATA[was not found]]></lines>
+<lines name="na_agency_3" descr=""><![CDATA[Empty field is not acceptable]]></lines>
+<lines name="with_company_1" descr=""><![CDATA[With the company]]></lines>
+<lines name="with_company_2" descr=""><![CDATA[the member is already in contact with.]]></lines>
+<lines name="incorrect_time_interval" descr=""><![CDATA[interval was indicated incorrectly]]></lines>
+<lines name="password_requirement" descr=""><![CDATA[password should contain from 4 till 10 symbols]]></lines>
+<lines name="payment_history" descr=""><![CDATA[User payments history]]></lines>
+<lines name="spent_history" descr=""><![CDATA[List of write-offs]]></lines>
+<lines name="pay_manual" descr=""><![CDATA[Manual funds addition]]></lines>
+<lines name="balance" descr=""><![CDATA[Current balance]]></lines>
+<lines name="add_for" descr=""><![CDATA[Amount]]></lines>
+<lines name="add_on" descr=""><![CDATA[Add]]></lines>
+<lines name="incorrect_input_field" descr=""><![CDATA[Incorrect amount]]></lines>
+<lines name="add_to_all" descr=""><![CDATA[Add funds to all users]]></lines>
+<lines name="pay_manual_all" descr=""><![CDATA[Funds additions to all users]]></lines>
+<lines name="add_to_all_help" descr=""><![CDATA[Here you can add some definite amount of funds to all members with a click of a mouse! Enter amount and click "Add". Attention, be accurate while doing this operation since you won't be able to cancel it once you process it. If you choose an option "Send a notification about funds addition", every member will receive such a message. If there are alot of members, it may take long and server may get overloaded.]]></lines>
+<lines name="use_alert" descr=""><![CDATA[Send a notification about funds added to an account]]></lines>
+<lines name="use_only_private_user_type" descr=""><![CDATA[Option 'Use 'Agent of company' user type' is disabled.]]></lines>
+<lines name="no_funds" descr=""><![CDATA[No funds]]></lines>
+</data>

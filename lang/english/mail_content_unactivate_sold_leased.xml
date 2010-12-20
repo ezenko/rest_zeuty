@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Your listing on [site_name] became inactive]]></lines>
+<lines name="unactivate_ad" descr=""><![CDATA[Administrator of the site [site_name] disable the possibility of setting status "Sold" or "Leased". When this status is disabled, all listings that had status "Sold" or "Leased" become inactive and are not displayed in search results. Your listing is inactive now.]]></lines>
+<lines name="for_activate" descr=""><![CDATA[To change the status, please login on [site_name] and follow the link]]></lines>
+</data>

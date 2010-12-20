@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="no_contacts" descr=""><![CDATA[Leider ist Ihr Kontaktsverzeichniss leer]]></lines>
+	<lines name="menu_rental_his_4" descr=""><![CDATA[Ich passe Ihren Kriterien]]></lines>
+	<lines name="num_messages_1" descr=""><![CDATA[Mitteilungen]]></lines>
+	<lines name="num_messages_2" descr=""><![CDATA[Mitteilung]]></lines>
+	<lines name="num_messages_3" descr=""><![CDATA[Mitteilung]]></lines>
+	<lines name="new_messages" descr=""><![CDATA[uugelesen]]></lines>
+	<lines name="black_err" descr=""><![CDATA[Sie wurden zur Black Liste dieses Mitgliedes hinzugefügt und Sie dürfen nicht ihm/ihr Mitteilungen senden]]></lines>
+	<lines name="user_in_black_err" descr=""><![CDATA[Dieses Mitglied  ist in Ihrer Black Liste, er kann nicht Mitteilungen von Ihnen lesen und Mitteilungen an Sie schicken ]]></lines>
+	<lines name="close_window" descr=""><![CDATA[Fenster schließen]]></lines>
+	<lines name="your_are_in_black" descr=""><![CDATA[Hat Sie yur Black Liste hinzugefügt]]></lines>
+	<lines name="user_is_in_your_black" descr=""><![CDATA[In Ihrer Black Liste]]></lines>
+	<lines name="offline" descr=""><![CDATA[Offline]]></lines>
+	<lines name="online" descr=""><![CDATA[Online jetzt]]></lines>
+	<lines name="no_ads_from_user" descr=""><![CDATA[Es gibt keine Anzeigen]]></lines>
+	<lines name="ads_from_user" descr=""><![CDATA[Anzeigen des Mitgliedes]]></lines>
+	<lines name="inbox" descr=""><![CDATA[Posteingang]]></lines>
+	<lines name="outbox" descr=""><![CDATA[Postausgang]]></lines>
+	<lines name="deleted" descr=""><![CDATA[Abgelöscht]]></lines>
+	<lines name="compose" descr=""><![CDATA[Senden]]></lines>
+	<lines name="delete" descr=""><![CDATA[Löschen]]></lines>
+	<lines name="from" descr=""><![CDATA[Von]]></lines>
+	<lines name="subject" descr=""><![CDATA[Betreff]]></lines>
+	<lines name="date" descr=""><![CDATA[Datum]]></lines>
+	<lines name="empty" descr=""><![CDATA[Es gibt keine Mitteilungen in Ihrem Briefkasten]]></lines>
+	<lines name="received_email" descr=""><![CDATA[Empfangene Mitteilungen]]></lines>
+	<lines name="to" descr=""><![CDATA[Zu]]></lines>
+	<lines name="was_read" descr=""><![CDATA[Gelesen]]></lines>
+	<lines name="no" descr=""><![CDATA[Nein]]></lines>
+	<lines name="yes" descr=""><![CDATA[Ja]]></lines>
+	<lines name="del" descr=""><![CDATA[Ablöschen]]></lines>
+	<lines name="resend" descr=""><![CDATA[Wieder senden]]></lines>
+	<lines name="reply" descr=""><![CDATA[Antworten]]></lines>
+	<lines name="email_history" descr=""><![CDATA[mitteilungenverlauf]]></lines>
+	<lines name="login" descr=""><![CDATA[Name des Mitgliedes]]></lines>
+	<lines name="age" descr=""><![CDATA[Alter]]></lines>
+	<lines name="date_last_login" descr=""><![CDATA[Letzte Anmeldung]]></lines>
+	<lines name="status" descr=""><![CDATA[Status]]></lines>
+	<lines name="add_to_hot" descr=""><![CDATA[Zur Hot Liste hinzufügen]]></lines>
+	<lines name="add_to_black" descr=""><![CDATA[Zur Schwarzen Liste hinzufügen]]></lines>
+	<lines name="deleted_mails" descr=""><![CDATA[Abgelöschte Mitteilungen]]></lines>
+	<lines name="to_from" descr=""><![CDATA[Zu / Von]]></lines>
+	<lines name="userads_text" descr=""><![CDATA[Anzeigen des Mitgliedes]]></lines>
+	<lines name="status_text" descr=""><![CDATA[Status]]></lines>
+<lines name="check_account_info" descr=""><![CDATA[Prüfen Sie Ihre Kontaktdaten. Sie können sie hier bearbeiten, die Veränderungen treten In Kraft, nachdem Sie die Taste um Mitteilung zu senden anklicken.]]></lines>	
+	<lines name="fname" descr=""><![CDATA[Vorname]]></lines>
+	<lines name="sname" descr=""><![CDATA[Familienname]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="phone" descr=""><![CDATA[Telefon]]></lines>
+	<lines name="incorrect_field" descr=""><![CDATA[Falsches Feld]]></lines>
+	<lines name="email_exists" descr=""><![CDATA[Diese Email existiert bereits]]></lines>
+	<lines name="clear_history" descr=""><![CDATA[Geschichte leeren]]></lines>	
+	<lines name="are_you_sure" descr=""><![CDATA[Möchten Sie wirklich die Geschichte löschen?]]></lines>
+</data>

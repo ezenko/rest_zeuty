@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="export_main_help" descr=""><![CDATA[Area for managing export of your site listings in an XML feed. Read and follow the instructions for each XML feed. <br>Currently you can export listings in the following extensions: ZIF(Zillow Interchange Format), TFF(Trulia Feed Format), Hotpads Feed XML and Google Data Feed.<br><br>
+	To enable export of your listings, you will need to setup a cron file admin_cron_make_feed.php for creating XML file and its updating. You will also need to create an account in corresponding services, where you will need to indicate the link to this file or send this link by email. The details can be found following the links displayed in the right bottom corner.]]></lines>
+	<lines name="feed_type_0" descr=""><![CDATA[ZIF Format]]></lines>	
+	<lines name="feed_type_1" descr=""><![CDATA[TFF Format]]></lines>	
+	<lines name="feed_type_2" descr=""><![CDATA[Hotpads Format]]></lines>	
+	<lines name="feed_type_3" descr=""><![CDATA[Google Feed Data]]></lines>			
+	<lines name="read_more" descr=""><![CDATA[Need more information about ]]></lines>				
+	<lines name="read_more_on" descr=""><![CDATA[?]]></lines>	
+	<lines name="path_to_file" descr=""><![CDATA[Link to export file]]></lines>		
+	<lines name="feed_not_found" descr=""><![CDATA[Cron-file was not setup/created on the server.]]></lines>			
+	<lines name="how_to" descr=""><![CDATA[Recommendations and advice]]></lines>
+	<lines name="feed_help_0" descr=""><![CDATA[The peculiarity of exporting your listings to Zillow is in the fact that this resource is designed for listings for sale in the USA only. Consequently there are certain limitations for listings in export file:<br><ul>1. Only listings for sale are exported. Listings of the tipe "Looking to lease", "Looking to rent" or "Looking to buy" will not be exported.<br>2. The exported listinga should include 5(!) and only 5-sign zip-code.<br>3. The following info should be included in the listing description Street, where the property is located and its cost.</ul>]]></lines>
+	<lines name="feed_help_1" descr=""><![CDATA[Listings export in Trulia format. Support listings with USA location	<br><ul>1. Obligatory fields are  Property type, listings location, Site name(you can enter any site name that you would like to be indicated in the exported file) property address and its status - sold, for sale or for lease. All these fields are generated automatically so there is no necessity to change anything in the listings.<br>2. The exported file includes listings of the operation "Looking to lease" and "Looking to sell".</ul>]]></lines>
+	<lines name="feed_help_2" descr=""><![CDATA[Export of listings supported by Hotpads.com. Functions for property listings in the USA. Below you can see the obligatory fields:<br><ul>1. Company name(there is a way to edit this field, look below)<br>2. Contact phone number and/or email</ul><br> Listings of the operation "Looking to lease" and "Looking to buy" are supported.]]></lines>
+	<lines name="feed_help_3" descr=""><![CDATA[Export of listings into format RSS 2.0 - creation of your own RSS feed. Suitable for listings export in any country. Obligatory fields:<br><ul>1. Title and description of the listing. This info is taken from headline and comment of the listing description. If these fields are not  entered, the infromation is taken from the fields of the form<br>2. Type of operation - "Looking to sell" and "Looking to lease"<br>3. Location of the property in the format street, city, region, postal code, country<br>4. Price for every listing</ul>]]></lines>	
+	<lines name="choose_parameters" descr=""><![CDATA[Parameters that can be modified]]></lines>	
+	<lines name="site_name" descr=""><![CDATA[Site name]]></lines>	
+	<lines name="title_rss" descr=""><![CDATA[Your RSS feed parameters]]></lines>	
+	<lines name="description_rss" descr=""><![CDATA[Your RSS feed description]]></lines>		
+	<lines name="ads_title_rss" descr=""><![CDATA[Title of the listing( if blank - field 'headline' is used)]]></lines>	
+	<lines name="ads_description_rss" descr=""><![CDATA[Listing description( if blank - field 'comment' is used	)]]></lines>	
+</data>

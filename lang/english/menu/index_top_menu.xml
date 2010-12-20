@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<item name="registration" href="/registration.php" id="mhi_registration"><![CDATA[Registration]]></item>
+	<item name="search" href="/quick_search.php"><![CDATA[Search]]></item>
+	<item name="news" href="/news.php"><![CDATA[News]]></item>
+</menu>

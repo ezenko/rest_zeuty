@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="Тема письма"><![CDATA[Данные Вашего профайла на [site_name] изменены]]></lines>
+<lines name="reg_congratulate" descr=""><![CDATA[Администратор сайта изменил данные Вашего профайла на [site_name].]]></lines>
+<lines name="reg_params" descr=""><![CDATA[Используйте следующие данные для входа]]></lines>
+<lines name="login" descr=""><![CDATA[Логин]]></lines>
+<lines name="password" descr=""><![CDATA[Пароль]]></lines>
+</data>

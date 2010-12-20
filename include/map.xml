@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map>
+	<section name="index" link="./index.php">	
+		<subsection name="registration" link="./registration.php" id="mhi_registration"></subsection>	
+	</section>
+	<section name="homepage" link="./homepage.php" id="hide_from_unreg">	
+		<subsection name="edit_rentals" link="./rentals.php?sel=list_ads"></subsection>	
+		<subsection name="match_my_rent" link="./homepage.php?sel=match_my&amp;section=rent" id="mhi_match_me"></subsection>					
+		<subsection name="services" link="./services.php" id="mhi_services">		
+			<item name="charge" link="./services.php?sel=group"></item> 
+			<item name="top_search" link="./services.php?sel=top_search"></item> 
+			<item name="slideshow" link="./services.php?sel=slideshow"></item> 
+			<item name="featured" link="./services.php?sel=featured"></item> 
+			<item name="sell_lease_payment" link="./services.php?sel=sell_lease" id="use_sell_lease_payment"></item>
+			<item name="payment_form" link="./services.php?sel=payment_form"></item> 
+			<item name="payment_history" link="./services.php?sel=payment_history"></item> 
+		</subsection>
+		<subsection name="search_preferences" link="./search_preferences.php"></subsection>
+		<subsection name="my_contacts" link="">
+			<item name="menu_rental_my_1" link="./homepage.php?sel=viewed_my"></item>
+			<item name="menu_rental_my_2" link="./homepage.php?sel=hotlisted_me"></item>
+			<item name="menu_rental_my_3" link="./homepage.php?sel=inter_me"></item>
+			<item name="blacklisted_me" link="./homepage.php?sel=blacklisted_me"></item>
+			<item name="menu_rental_his_1" link="./homepage.php?sel=viewed_their"></item>
+			<item name="menu_rental_his_2" link="./homepage.php?sel=hotlisted_them"></item>
+			<item name="menu_rental_his_3" link="./homepage.php?sel=inter_them"></item>
+			<item name="blacklisted_them" link="./homepage.php?sel=blacklisted_them"></item>
+		</subsection>		
+	</section>	
+	<section name="my_profile" link="" id="hide_from_unreg">
+		<subsection name="edit_profile" link="./account.php"></subsection>
+		<subsection name="edit_password" link="./account.php?sel=edit_password"></subsection>		
+		<subsection name="account_deactivate" link="./account.php?sel=deactivate" id="user_deactivate"></subsection>				
+		<subsection name="account_activate" link="./account.php?sel=activate" id="user_activate"></subsection>				
+	</section>	
+	<section name="mailbox" link="mailbox.php" id="mhi_my_messages"></section>	
+	<section name="search" link="">
+		<subsection name="quick_search" link="./quick_search.php"></subsection>
+		<subsection name="power_searchr" link="./power_searchr.php" id="hide_from_unreg"></subsection>			
+		<subsection name="power_searchr_saved" link="./power_searchr.php#saved_search" id="hide_from_unreg"></subsection>					
+		<subsection name="power_searchr_by_name" link="./power_searchr.php#search_by_name" id="hide_from_unreg"></subsection>							
+		<subsection name="search_online" link="./quick_search.php?sel=online" id="mhi_online"></subsection>
+		<subsection name="search_new_members" link="./quick_search.php?sel=new_members" id="mhi_new_members"></subsection>
+		<subsection name="search_most_active" link="./quick_search.php?sel=most_active" id="mhi_most_active"></subsection>			
+	</section>
+	<section name="news" link="./news.php"></section>
+	<section name="info_top" link=""></section>
+	<section name="contact" link="./contact.php"></section>
+	<section name="map" link="./map.php"></section>	
+	<section name="info_bottom" link=""></section>
+	<section name="logoff" link="./index.php?sel=logoff" id="hide_from_unreg"></section>
+</map>

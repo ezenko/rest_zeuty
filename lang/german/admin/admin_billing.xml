@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="razdel_name" descr=""><![CDATA[Abrechnung]]></lines>
+	<lines name="editform" descr=""><![CDATA[Benutzerkonto]]></lines>
+	<lines name="list" descr=""><![CDATA[Benutzerliste]]></lines>
+	<lines name="list_user" descr=""><![CDATA[Benutzer]]></lines>
+	<lines name="list_group" descr=""><![CDATA[Gruppenmitgliedschaftspreis]]></lines>
+	<lines name="group_cost_help" descr=""><![CDATA[Hier stellen Sie Periode und Preis für Nutzung der Moduls und Funktionen in der bezahlten Mitglieder Gruppe ein.]]></lines>
+	<lines name="new_group_period_cost" descr=""><![CDATA[Neue Periode und Preis]]></lines>
+	<lines name="set_group_period_cost" descr=""><![CDATA[Gruppen und Gruppenkosten]]></lines>
+	<lines name="list_settings" descr=""><![CDATA[Zahlungseinstellungen]]></lines>
+	<lines name="empty" descr=""><![CDATA[Benutzerliste ist leer]]></lines>
+	<lines name="empty_payments" descr=""><![CDATA[Leer]]></lines>
+	<lines name="empty_user" descr=""><![CDATA[Benutzerliste ist leer]]></lines>
+	<lines name="empty_group" descr=""><![CDATA[Gruppenliste ist leer]]></lines>
+	<lines name="number" descr=""><![CDATA[Nr]]></lines>
+	<lines name="name" descr=""><![CDATA[Name]]></lines>
+	<lines name="login" descr=""><![CDATA[Login]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="date_entry" descr=""><![CDATA[Datum]]></lines>
+	<lines name="entry" descr=""><![CDATA[Eintragung]]></lines>
+	<lines name="type" descr=""><![CDATA[Typ]]></lines>
+	<lines name="account" descr=""><![CDATA[Konto]]></lines>
+	<lines name="present_group" descr=""><![CDATA[Gruppen]]></lines>
+	<lines name="razdel_group" descr=""><![CDATA[Gruppen]]></lines>
+	<lines name="group" descr=""><![CDATA[Gruppe]]></lines>
+	<lines name="users_group" descr=""><![CDATA[Gruppe]]></lines>
+	<lines name="add_entry" descr=""><![CDATA[Hinzufügen]]></lines>
+	<lines name="remove_entry" descr=""><![CDATA[Löschen]]></lines>
+	<lines name="dont_change_group" descr=""><![CDATA[Nicht die Gruppe wechseln]]></lines>
+	<lines name="change_group" descr=""><![CDATA[Zur anderen Gruppe wechseln]]></lines>
+	<lines name="cost" descr=""><![CDATA[Preis/Stunde]]></lines>
+	<lines name="addable" descr=""><![CDATA[Dem Benutzer erlauben, sich zu einer Gruppe hinzuzufügen]]></lines>
+	<lines name="currency" descr=""><![CDATA[Währung]]></lines>
+	<lines name="settings" descr=""><![CDATA[Zahlungssystemeinstellungen]]></lines>
+	<lines name="option_general" descr=""><![CDATA[Hauptparameter]]></lines>
+	<lines name="option_card" descr=""><![CDATA[Kreditkarteneinstellungen]]></lines>
+	<lines name="payment_type" descr=""><![CDATA[Zahlungstyp]]></lines>
+	<lines name="payment_type_account" descr=""><![CDATA[Benutzerkonto benutzen]]></lines>
+	<lines name="payment_type_period" descr=""><![CDATA[Periodenzahlungen benutzen]]></lines>
+	<lines name="period" descr=""><![CDATA[Periode]]></lines>
+	<lines name="pay" descr=""><![CDATA[Preis]]></lines>
+	<lines name="period_type" descr=""><![CDATA[Mitgliedschaftstyp]]></lines>
+	<lines name="add_to_period" descr=""><![CDATA[Benutzer zu der Gruppe hinzufügen]]></lines>
+	<lines name="free" descr=""><![CDATA[Frei]]></lines>
+	<lines name="add_period" descr=""><![CDATA[Hinzufügen]]></lines>
+	<lines name="periods_day" descr=""><![CDATA[Tag(e)]]></lines>
+	<lines name="periods_week" descr=""><![CDATA[Woche(n)]]></lines>
+	<lines name="periods_month" descr=""><![CDATA[Monat(e)]]></lines>
+	<lines name="periods_year" descr=""><![CDATA[Jahr(e)]]></lines>
+	<lines name="option_2checkout" descr=""><![CDATA[2checkout Einstellungen]]></lines>
+	<lines name="option_paypal" descr=""><![CDATA[Paypal Einstellungen]]></lines>
+	<lines name="option_ccbill" descr=""><![CDATA[CCBill Einstellungen]]></lines>
+	<lines name="option_chronopay" descr=""><![CDATA[ChronoPay Einstellungen]]></lines>
+	<lines name="option_authorizenet" descr=""><![CDATA[authorize.net Einstellungen]]></lines>
+	<lines name="option_egold" descr=""><![CDATA[E-gold Einstellungen]]></lines>
+	<lines name="option_usaepay" descr=""><![CDATA[USAepay Einstellungen]]></lines>
+	<lines name="option_worldpay" descr=""><![CDATA[WorldPay Einstellungen]]></lines>
+	<lines name="option_webmoney" descr=""><![CDATA[WebMoney Einstellungen]]></lines>
+	<lines name="option_paysat" descr=""><![CDATA[PaySat Einstellungen]]></lines>
+	<lines name="option_esec" descr=""><![CDATA[E-sec Einstellungen]]></lines>
+	<lines name="option_ipos" descr=""><![CDATA[iPos Einstellungen]]></lines>
+	<lines name="use" descr=""><![CDATA[Dieses Zahlungssystem aktiv machen]]></lines>
+	<lines name="2checkout_seller_id" descr=""><![CDATA[2CheckOut ID]]></lines>
+	<lines name="paypal_seller_id" descr=""><![CDATA[PayPal Email]]></lines>
+	<lines name="ccbill_seller_id" descr=""><![CDATA[CCBill ID]]></lines>
+	<lines name="ccbill_seller_sub_id" descr=""><![CDATA[CCBill Sub ID]]></lines>
+	<lines name="ccbill_form_name" descr=""><![CDATA[CCBill Form Name]]></lines>
+	<lines name="ccbill_language" descr=""><![CDATA[CCBill Sprache]]></lines>
+	<lines name="ccbill_allowed_types" descr=""><![CDATA[CCBill erlaubte Type]]></lines>
+	<lines name="ccbill_subscription_type_id" descr=""><![CDATA[CCBill Abonnementtyp ID]]></lines>
+	<lines name="chronopay_seller_id" descr=""><![CDATA[ChronoPay ID]]></lines>
+	<lines name="authorizenet_seller_id" descr=""><![CDATA[authorize.net ID]]></lines>
+	<lines name="authorizenet_key" descr=""><![CDATA[authorize.net Schlüssel]]></lines>
+	<lines name="authorizenet_key_comment" descr=""><![CDATA[authorize.net Schlüsselkommentare]]></lines>
+	<lines name="egold_seller_id" descr=""><![CDATA[E-gold ID]]></lines>
+	<lines name="usaepay_seller_id" descr=""><![CDATA[USAepay ID]]></lines>
+	<lines name="worldpay_seller_id" descr=""><![CDATA[WorldPay ID]]></lines>
+	<lines name="webmoney_seller_id" descr=""><![CDATA[WebMoney ID]]></lines>
+	<lines name="paysat_seller_id" descr=""><![CDATA[PaySat ID]]></lines>
+	<lines name="esec_seller_id" descr=""><![CDATA[E-sec ID]]></lines>
+	<lines name="ipos_seller_id" descr=""><![CDATA[iPos ID]]></lines>
+	<lines name="refresh_date" descr=""><![CDATA[Datum der letzten Betragsaktualisierung]]></lines>
+	<lines name="account_billing" descr=""><![CDATA[Kontoabrechnung]]></lines>
+	<lines name="pages" descr=""><![CDATA[Seiten]]></lines>
+	<lines name="listing_pays" descr=""><![CDATA[Erfolgreiche und gescheiterte Zahlungen]]></lines>
+	<lines name="listing_pays_2" descr=""><![CDATA[Abtrennungen für bezahlte Services]]></lines>
+	<lines name="u_name" descr=""><![CDATA[Mitgliedsname]]></lines>
+	<lines name="u_email" descr=""><![CDATA[Email]]></lines>
+	<lines name="count_curr" descr=""><![CDATA[Betrag]]></lines>
+	<lines name="currency" descr=""><![CDATA[Währung]]></lines>
+	<lines name="date_sended" descr=""><![CDATA[Zeit]]></lines>
+	<lines name="pay_status" descr=""><![CDATA[Status]]></lines>
+	<lines name="paysystem" descr=""><![CDATA[System]]></lines>
+	<lines name="service" descr=""><![CDATA[Operation]]></lines>
+	<lines name="user_account" descr=""><![CDATA[Mitgliedskonto]]></lines>
+	<lines name="add_user_account" descr=""><![CDATA[Geldmittel auf Mitgliedskonto legen]]></lines>
+	<lines name="service_1" descr=""><![CDATA[Geldmittel aufs Konto legen]]></lines>
+	<lines name="service_2" descr=""><![CDATA[Bonus erhalten]]></lines>
+	<lines name="spend_serv_1" descr=""><![CDATA[in Suchergebnissen hochbringen]]></lines>
+	<lines name="spend_serv_2" descr=""><![CDATA[Slideshow]]></lines>
+	<lines name="spend_serv_3" descr=""><![CDATA[Spitzenleiter in der Region]]></lines>
+	<lines name="spend_serv_4" descr=""><![CDATA[Mitgliedschaftszahlung]]></lines>
+	<lines name="spend_serv_5" descr=""><![CDATA[Verkauf- und Vermietanzeigen]]></lines>
+	<lines name="spend_serv_6" descr=""><![CDATA[Geldmittel anderem Mitglied überweisen]]></lines>
+	<lines name="spended_1" descr=""><![CDATA[Zahlung für &quot;Anzeige in Suchergebnissen hochbringen&quot;]]></lines>
+	<lines name="spended_2" descr=""><![CDATA[Zahlung für &quot;Anzeige in Suchergebnissen kennzeichnen&quot;]]></lines>
+	<lines name="spended_3" descr=""><![CDATA[Zahlung für &quot;Anzeige in Suchergebnissen als Spitzenleiter in der Region kennzeichnen&quot;]]></lines>
+	<lines name="spended_4" descr=""><![CDATA[Zahlung für Seitenmitgliedschaft]]></lines>
+	<lines name="spended_5" descr=""><![CDATA[Zahlungen für Verkauf- und Vermietanzeigen]]></lines>
+	<lines name="spended_6" descr=""><![CDATA[Geldmittel anderem Mitglied überweisen]]></lines>
+	<lines name="empty_pays" descr=""><![CDATA[Liste ist leer]]></lines>
+	<lines name="delete" descr=""><![CDATA[Löschen]]></lines>
+	<lines name="list_spended_help" descr=""><![CDATA[Hier sehen Sie alle Mitgliederzahlungen für bezahlte Services.]]></lines>
+	<lines name="list_payments_help" descr=""><![CDATA[Hier finden Sie Informationen über Mitgliederzahlungen chronologisch gelistet. Sie können auch Zahlungen akzeptieren oder ablehnen, die manuell akzeptiert werden sollen.]]></lines>
+	<lines name="billing_settings_help" descr=""><![CDATA[Hier sehen und bearbeiten Sie Ihre Zahlungssystemparameter, die nötig sind, um Zahlungen von Seitenmitgliedern zu bekommen.]]></lines>
+	<lines name="billing_history_help" descr=""><![CDATA[Hier beobachten Sie alle von Benutzern unternommene Transaktionen: Geldmittel aufs Konto legen, Abtrennungen für bezahlte Services.]]></lines>
+	<lines name="user_history_help" descr=""><![CDATA[Hier beobachten Sie alle von dem Benutzer unternommene Transaktionen: Geldmittel aufs Konto legen, Abtrennungen für bezahlte Services.]]></lines>
+	<lines name="pay_approve" descr=""><![CDATA[Manuelle Akzeptierung]]></lines>
+	<lines name="letter_search_help" descr=""><![CDATA[Suchen nach dem ersten Symbol der Mitglieds-Email]]></lines>
+	<lines name="paysys_settings_help" descr=""><![CDATA[Hier stellen Sie Parameter der Zahlungssystem ein, um Zahlungen auf Ihrern Seite automatisch zu bekommen. Markieren Sie die Möglichkeit "Dieses Zahlungssystem aktiv machen" und erlauben Sie damit Ihren Benutzern, Geldmittel auf Ihre Kontos zu legen mit Hilfe dieses Zahlungssystems.]]></lines>
+	<lines name="user_type" descr=""><![CDATA[Typ]]></lines>
+	<lines name="user_type_1" descr=""><![CDATA[Privatperson]]></lines>
+	<lines name="user_type_2" descr=""><![CDATA[Immobilienmakler]]></lines>
+	<lines name="user_type_3" descr=""><![CDATA[Unternehmensagent]]></lines>
+	<lines name="admin" descr=""><![CDATA[Administrator]]></lines>
+	<lines name="guest" descr=""><![CDATA[Gast]]></lines>
+	<lines name="payments" descr=""><![CDATA[Zahlungen]]></lines>
+	<lines name="history_text_1" descr=""><![CDATA[Vorauszahlung]]></lines>
+	<lines name="history_text_2" descr=""><![CDATA[Geldmittelüberweisung von einem Mitglied]]></lines>
+	<lines name="status_send" descr=""><![CDATA[Nicht gezahlt]]></lines>
+	<lines name="status_fail" descr=""><![CDATA[Zahlungsfehler]]></lines>
+	<lines name="status_approve" descr=""><![CDATA[Gezahlt]]></lines>
+	<lines name="view" descr=""><![CDATA[Ansehen]]></lines>
+	<lines name="payment_name" descr=""><![CDATA[Zahlungsname]]></lines>
+	<lines name="date_send" descr=""><![CDATA[Datum]]></lines>
+	<lines name="status" descr=""><![CDATA[Status]]></lines>
+	<lines name="entries" descr=""><![CDATA[Kontobilanzauffüllung]]></lines>
+	<lines name="spended" descr=""><![CDATA[Abschnitte]]></lines>
+	<lines name="receipts" descr=""><![CDATA[Geldmittelüberweisung von anderen Mitgliedern]]></lines>
+	<lines name="were_not" descr=""><![CDATA[wurden nicht bearbeitet]]></lines>
+	<lines name="on_account" descr=""><![CDATA[Kontobilanz]]></lines>
+	<lines name="of_user" descr=""><![CDATA[vom Mitglied]]></lines>
+	<lines name="users_group" descr=""><![CDATA[Gruppe]]></lines>
+	<lines name="empty_result" descr=""><![CDATA[Leider sind Suchergebnisse leer. Versuchen Sie es anders]]></lines>
+	<lines name="empty_res_search_criteria" descr=""><![CDATA[Suchkriterien]]></lines>
+	<lines name="period_exist" descr=""><![CDATA[Solche Bezahltmitgliedschaftsperiode ist schon vorhanden. Ändern Sie Periodeneinstellungen und versuchen sie nochmal zu speichern.]]></lines>
+	<lines name="wrong_fields" descr=""><![CDATA[Unzulässige Feldwerte.]]></lines>
+	<lines name="sec_group_payment" descr=""><![CDATA[Gruppenmitgliedschaftspreise]]></lines>
+	<lines name="sec_pay_services" descr=""><![CDATA[Bezahlte Services]]></lines>
+	<lines name="membership_pay_services_help" descr=""><![CDATA[Hier verwalten Sie bezahlte Services der Seite.]]></lines>
+	<lines name="option_smscoin" descr=""><![CDATA[SmsCoin Einstellungen]]></lines>
+	<lines name="smscoin_purse_id" descr=""><![CDATA[ID von SMS Bank]]></lines>
+	<lines name="smscoin_secret_code" descr=""><![CDATA[Sicherheitscode]]></lines>
+	<lines name="smscoin_operator" descr=""><![CDATA[Operator]]></lines>
+	<lines name="smscoin_tarif" descr=""><![CDATA[Liste der Tarife]]></lines>
+	<lines name="smscoin_tarif_list" descr=""><![CDATA[Servicepreis für ein Mitglied]]></lines>
+	<lines name="smscoin_tarif_help" descr=""><![CDATA[Um SmsCoin auf Ihrer Seite aktiv zu machen:<ul><li>Geben Sie Details von dem Mobilfunkoperator ein, die in Ihrer SMS Bank erscheinen werden (Sie haben diese Details hier angegeben: http://smscoin.net/purses/edit/id_of_sms_bank/, wo id_of_sms_bank - für Ihre SMS Bank ID steht). </li><li>Wählen Sie die Tarifenliste, die Ihren Benutzern erhältlich sein werden, aus der Liste der vorhandenen Tarifen (Tarifenliste finden Sie hier: <a href="http://smscoin.com/info/worldwide/" target=_blank>http://smscoin.com/info/worldwide/</a>).</li></ul>Zahlungen mit SmsCoin werden Ihren Seitenbenutzern <b>nicht zugänglich sein</b>, bis Sie mindestens einen Mobilfunkoperator und einen Wert in die Liste dieses Operator-Services hinzufügen.<br><br><b>Wichtig:</b> In der Services-Liste merken Sie sich die <b>Währung</b>, die in dem &quot;Service-Preis für ein Mitglied&quot; Feld erscheint. Damit das Zahlungssystem korrekt auf der Seite funktioniert, die Währung in diesem Feld soll mit der Währung der Seite übereinstimmen - ]]></lines>
+	<lines name="delete_action" descr=""><![CDATA[Löschen]]></lines>
+	<lines name="smscoin_new_tarif" descr=""><![CDATA[Neuen Tarif hinzufügen]]></lines>
+	<lines name="smscoin_oper_tarif" descr=""><![CDATA[von Operator]]></lines>
+	<lines name="smscoin_add_operator" descr=""><![CDATA[Mobilfunkoperator hinzufügen]]></lines>
+	<lines name="smscoin_add_tarif" descr=""><![CDATA[Preis für Aktivierung der Operatorservices hinzufügen]]></lines>
+	<lines name="total_count" descr=""><![CDATA[Anzahl der Überweisungen zwischen Mitgliedern]]></lines>
+	<lines name="total_transfer" descr=""><![CDATA[, beträgt eine Summe von]]></lines>
+	<lines name="total_commission" descr=""><![CDATA[. Kommissionen beibehalten]]></lines>
+	<lines name="from_period" descr=""><![CDATA[Für eine Periode von ]]></lines>
+	<lines name="to_period" descr=""><![CDATA[ bis ]]></lines>
+	<lines name="trans_transfer" descr=""><![CDATA[ Überweisungen gemacht]]></lines>
+	<lines name="trans_approved" descr=""><![CDATA[Überweisungen bearbeitet]]></lines>
+	<lines name="trans_failed" descr=""><![CDATA[Überweisungen gescheitert]]></lines>
+	<lines name="trans_send" descr=""><![CDATA[Überweisungen, die zu genehmigen sind]]></lines>
+	<lines name="currency_abbr" descr=""><![CDATA[Abkürzung]]></lines>
+	<lines name="currency_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="currency_symbol" descr=""><![CDATA[Währungssymbol]]></lines>
+	<lines name="currency_symbol_view" descr=""><![CDATA[Zeigen]]></lines>
+	<lines name="add" descr=""><![CDATA[Hinzufügen]]></lines>
+	<lines name="confirm_delete" descr=""><![CDATA[Sind Sie sicher, dass Sie diese Eingabe löschen wollen?]]></lines>
+	<lines name="option_manual" descr=""><![CDATA[Manuelle Zahlungseinstellungen]]></lines>
+	<lines name="manual_information" descr=""><![CDATA[Information über die Zahlung]]></lines>
+	<lines name="history_text_3" descr=""><![CDATA[Geldmittel bei Administrator hinzufügen]]></lines>
+	<lines name="payment_information" descr=""><![CDATA[Information über manuelle Geldmittelüberweisung]]></lines>
+	<lines name="user_info" descr=""><![CDATA[Datenform]]></lines>
+	<lines name="approved" descr=""><![CDATA[Akzeptieren]]></lines>
+	<lines name="declined" descr=""><![CDATA[Ablehnen]]></lines>
+	<lines name="processing_error" descr=""><![CDATA[Fehlerverarbeitung]]></lines>
+	<lines name="smscoin_seller_id" descr=""><![CDATA[ID von SMS Bank]]></lines>
+</data>

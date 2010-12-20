@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="site_name" descr="Value for [site_name] variable, used in all system alert files for users and administrator"><![CDATA[PG RealEstate]]></lines>
+<lines name="hey" descr=""><![CDATA[Hallo,]]></lines>
+<lines name="subject_separator" descr="Delimiter between the subject of the message and the text"><![CDATA[----------------------------------------------]]></lines>
+<lines name="signature_intro" descr=""><![CDATA[Day-and-night yours]]></lines>
+<lines name="unsubscribe" descr=""><![CDATA[Wenn Sie keinen Wunsch haben solche Mitteilungen von PG RealEstate zu bekommen, bitte verändern Sie diese Einstellung]]></lines>
+<lines name="link_to_developer" descr=""><![CDATA[]]></lines>
+</data>

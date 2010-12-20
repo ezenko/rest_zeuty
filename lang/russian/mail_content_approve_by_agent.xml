@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[У вас новый агент]]></lines>
+<lines name="site_name" descr=""><![CDATA[PG RealEstate]]></lines>
+<lines name="hey" descr=""><![CDATA[Hello,]]></lines>
+<lines name="text_0" descr=""><![CDATA[Пользователь]]></lines>
+<lines name="text_1" descr=""><![CDATA[принял предложение вашей компании]]></lines>
+<lines name="text_2" descr=""><![CDATA[и теперь является вашим агентом. Полный список своих агентов вы можете посмотреть, перейдя по следующей ссылке]]></lines>
+</data>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="menu_rental_my_1" descr=""><![CDATA[Meinen Profil angesehen]]></lines>
+	<lines name="menu_rental_my_2" descr=""><![CDATA[Mich zu Hotliste hinzugefügt]]></lines>
+	<lines name="menu_rental_my_3" descr=""><![CDATA[Interessiert an mir]]></lines>
+	<lines name="menu_rental_my_4" descr=""><![CDATA[Entsprechen meinen Kriterien]]></lines>
+	<lines name="menu_rental_his_1" descr=""><![CDATA[Von mir angesehenen Profile]]></lines>
+	<lines name="menu_rental_his_2" descr=""><![CDATA[Meine Hotliste]]></lines>
+	<lines name="menu_rental_his_3" descr=""><![CDATA[Profile, die mich interessieren]]></lines>
+	<lines name="menu_rental_his_4" descr=""><![CDATA[Ich entspreche ihren Kriterien]]></lines>	
+</data>

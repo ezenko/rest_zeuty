@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="save" descr=""><![CDATA[Save]]></lines>
+	<lines name="search" descr=""><![CDATA[Search]]></lines>
+	<lines name="back" descr=""><![CDATA[Back]]></lines>
+	<lines name="add" descr=""><![CDATA[Add]]></lines>
+	<lines name="users_list" descr=""><![CDATA[Users list]]></lines>
+	<lines name="delete" descr=""><![CDATA[Remove]]></lines>
+	<lines name="login" descr=""><![CDATA[Login]]></lines>
+	<lines name="options" descr=""><![CDATA[Options]]></lines>
+	<lines name="update" descr=""><![CDATA[Refresh]]></lines>
+	<lines name="upload" descr=""><![CDATA[Load]]></lines>
+	<lines name="open" descr=""><![CDATA[Open]]></lines>
+	<lines name="edit" descr=""><![CDATA[Edit]]></lines>
+	<lines name="refresh" descr=""><![CDATA[Refresh]]></lines>
+	<lines name="rent_ads" descr=""><![CDATA[Users listings]]></lines>
+	<lines name="comunicate" descr=""><![CDATA[Contact the user]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Remove]]></lines>
+	<lines name="close" descr=""><![CDATA[Close]]></lines>
+	<lines name="send" descr=""><![CDATA[Send]]></lines>
+	<lines name="submit_all" descr=""><![CDATA[Confirm all]]></lines>
+	<lines name="add_new_user" descr=""><![CDATA[Add user]]></lines>
+	<lines name="update_user" descr=""><![CDATA[Edit user]]></lines>
+	<lines name="remove_user" descr=""><![CDATA[Remove user]]></lines>
+	<lines name="continue" descr=""><![CDATA[Continue]]></lines>
+	<lines name="cancel" descr=""><![CDATA[Cancel]]></lines>
+	<lines name="load" descr=""><![CDATA[Load]]></lines>
+	<lines name="submit" descr=""><![CDATA[Confirm]]></lines>
+	<lines name="change" descr=""><![CDATA[Change]]></lines>
+	<lines name="show_messages" descr=""><![CDATA[Show messages]]></lines>
+	<lines name="clear_filter" descr=""><![CDATA[Clear the filter]]></lines>
+	<lines name="show_chats" descr=""><![CDATA[Show chats]]></lines>
+	<lines name="add_new_bot" descr=""><![CDATA[Add a bot]]></lines>
+	<lines name="install_bots" descr=""><![CDATA[Set bots]]></lines>
+	<lines name="logoff" descr=""><![CDATA[Logoff]]></lines>
+	<lines name="add_topic" descr=""><![CDATA[Add topic]]></lines>
+	<lines name="add_story" descr=""><![CDATA[Add article]]></lines>
+	<lines name="goto_help" descr=""><![CDATA[Help]]></lines>		
+	<lines name="goto_support" descr=""><![CDATA[Contact Support Team]]></lines>	
+	<lines name="change" descr=""><![CDATA[Change]]></lines>	
+	<lines name="view" descr=""><![CDATA[View]]></lines>
+	<lines name="chooseTo" descr=""><![CDATA[Choose for display]]></lines>
+	<lines name="users_import" descr=""><![CDATA[Users import]]></lines>
+	<lines name="approve" descr=""><![CDATA[Approve]]></lines>
+	<lines name="decline" descr=""><![CDATA[Decline]]></lines>
+	<lines name="add_group" descr=""><![CDATA[Add new group]]></lines>
+	<lines name="copy" descr=""><![CDATA[Copy]]></lines>
+	<lines name="show_sp" descr=""><![CDATA[Make sponsored]]></lines>
+	<lines name="select_all" descr=""><![CDATA[Select all]]></lines>
+	<lines name="deselect_all" descr=""><![CDATA[Select none]]></lines>
+	<lines name="to_default" descr=""><![CDATA[Set]]></lines>
+	<lines name="preview" descr=""><![CDATA[View]]></lines>
+	<lines name="watermark_default" descr=""><![CDATA[Reset to default settings]]></lines>	
+	<lines name="create" descr=""><![CDATA[Create]]></lines>	
+	<lines name="turn_on" descr=""><![CDATA[Turn on]]></lines>	
+	<lines name="turn_off" descr=""><![CDATA[Turn off]]></lines>	
+	<lines name="logo_default" descr=""><![CDATA[Reset to default settings]]></lines>	
+	<lines name="mark" descr=""><![CDATA[Book]]></lines>
+	<lines name="add_agents" descr=""><![CDATA[Add agents]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Remove listing]]></lines>
+	<lines name="create_feed_file" descr=""><![CDATA[Create Feed File]]></lines>
+	<lines name="update_feed_file" descr=""><![CDATA[Update Feed File]]></lines>
+	<lines name="view_details" descr=""><![CDATA[Details]]></lines>
+	<lines name="choose" descr=""><![CDATA[Choose]]></lines>
+</data>

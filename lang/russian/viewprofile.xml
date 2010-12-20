@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="move_in_date" descr=""><![CDATA[Дата переезда]]></lines>
+<lines name="no_photos" descr=""><![CDATA[Без фото]]></lines>
+<lines name="more_ad" descr=""><![CDATA[Все объявления этого пользователя]]></lines>
+<lines name="more_ad_from" descr=""><![CDATA[Все объявления]]></lines>
+<lines name="location" descr=""><![CDATA[Расположение]]></lines>
+<lines name="add_to_hotlist" descr=""><![CDATA[В избранное]]></lines>
+<lines name="add_to_blacklist" descr=""><![CDATA[В черный список]]></lines>
+<lines name="contact_user" descr=""><![CDATA[Связаться с ним]]></lines>
+<lines name="contact_with" descr=""><![CDATA[Связаться с]]></lines>
+<lines name="contact_admin" descr=""><![CDATA[Пожаловаться на пользователя]]></lines>
+<lines name="interest" descr=""><![CDATA[Выразить интерес]]></lines>
+<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+<lines name="about_me" descr=""><![CDATA[Обо мне]]></lines>
+<lines name="about_us" descr=""><![CDATA[О нас]]></lines>
+<lines name="max_payment" descr=""><![CDATA[Арендная плата]]></lines>
+<lines name="available_date" descr=""><![CDATA[Доступна с]]></lines>
+<lines name="deposit" descr=""><![CDATA[Предоплата]]></lines>
+<lines name="square" descr=""><![CDATA[Площадь]]></lines>
+<lines name="payment" descr=""><![CDATA[Плата]]></lines>
+<lines name="country" descr=""><![CDATA[Страна]]></lines>
+<lines name="region" descr=""><![CDATA[Регион]]></lines>
+<lines name="city" descr=""><![CDATA[Город]]></lines>
+<lines name="zipcode" descr=""><![CDATA[Индекс]]></lines>
+<lines name="streets" descr=""><![CDATA[Улицы]]></lines>
+<lines name="general" descr=""><![CDATA[Основное]]></lines>
+<lines name="photo" descr=""><![CDATA[Фото]]></lines>
+<lines name="comments" descr=""><![CDATA[Комментарии]]></lines>
+<lines name="people_count" descr=""><![CDATA[Люди]]></lines>
+<lines name="age" descr=""><![CDATA[Возраст]]></lines>
+<lines name="add_comments" descr=""><![CDATA[Дополнительный комментарий]]></lines>
+<lines name="wake_up" descr=""><![CDATA[Просыпается]]></lines>
+<lines name="go_to_bed" descr=""><![CDATA[Ложится спать]]></lines>
+<lines name="headline" descr=""><![CDATA[Заголовок]]></lines>
+<lines name="contact" descr=""><![CDATA[Контакты]]></lines>
+<lines name="phone" descr=""><![CDATA[Телефон]]></lines>
+<lines name="company_name" descr=""><![CDATA[Компания]]></lines>
+<lines name="company_url" descr=""><![CDATA[Сайт компании]]></lines>
+<lines name="workdays" descr=""><![CDATA[Дни работы]]></lines>
+<lines name="worktime" descr=""><![CDATA[Часы работы]]></lines>
+<lines name="lunchtime" descr=""><![CDATA[Обед]]></lines>
+<lines name="subway_min" descr=""><![CDATA[До метро не более]]></lines>
+<lines name="minutes" descr=""><![CDATA[минут]]></lines>
+<lines name="interested" descr=""><![CDATA[Вы выразили интерес]]></lines>
+<lines name="not_filled" descr=""><![CDATA[Не заполнено]]></lines>
+<lines name="subway_name" descr=""><![CDATA[Станция метро]]></lines>
+<lines name="auction_1" descr=""><![CDATA[Торг возможен]]></lines>
+<lines name="auction_2" descr=""><![CDATA[Торг невозможен]]></lines>
+<lines name="month_payment" descr=""><![CDATA[Стоимость аренды <br>за 1 месяц]]></lines>
+<lines name="month_payment_inline" descr=""><![CDATA[Стоимость аренды за 1 месяц]]></lines>
+<lines name="price" descr=""><![CDATA[Цена]]></lines>
+<lines name="from" descr=""><![CDATA[от]]></lines>
+<lines name="upto" descr=""><![CDATA[до]]></lines>
+<lines name="from_1" descr=""><![CDATA[c]]></lines>
+<lines name="upto_1" descr=""><![CDATA[по]]></lines>
+<lines name="auction_possible" descr=""><![CDATA[торг возможен]]></lines>
+<lines name="auction_inpossible" descr=""><![CDATA[торг невозможен]]></lines>
+<lines name="floor" descr=""><![CDATA[этаж]]></lines>
+<lines name="floor_variants" descr=""><![CDATA[Предлагать только варианты]]></lines>
+<lines name="floor_num_max_limitation" descr=""><![CDATA[Количество этажей в доме не должно превышать]]></lines>
+<lines name="property_floor_number" descr=""><![CDATA[Номер этажа]]></lines>
+<lines name="total_floor_num" descr=""><![CDATA[Всего этажей]]></lines>
+<lines name="of_floors" descr=""><![CDATA[этажей]]></lines>
+<lines name="year_build" descr=""><![CDATA[Год постройки]]></lines>
+<lines name="live_square" descr=""><![CDATA[Жилая площадь]]></lines>
+<lines name="total_square" descr=""><![CDATA[Общая площадь]]></lines>
+<lines name="land_square" descr=""><![CDATA[Площадь земельного участка]]></lines>
+<lines name="move_date" descr=""><![CDATA[Доступна с]]></lines>
+<lines name="cross_streets" descr=""><![CDATA[На пересечении улиц]]></lines>
+<lines name="photo_exist" descr=""><![CDATA[Наличие фото]]></lines>
+<lines name="video_exist" descr=""><![CDATA[Наличие видео]]></lines>
+<lines name="only_with" descr=""><![CDATA[обязательно]]></lines>
+<lines name="account_about_me" descr=""><![CDATA[Обо мне]]></lines>
+<lines name="account_about_us" descr=""><![CDATA[О нас]]></lines>
+<lines name="about_realty" descr=""><![CDATA[О недвижимости]]></lines>
+<lines name="nickname" descr=""><![CDATA[Имя пользователя]]></lines>
+<lines name="fname" descr=""><![CDATA[Имя]]></lines>
+<lines name="sname" descr=""><![CDATA[Фамилия]]></lines>
+<lines name="birthday" descr=""><![CDATA[Дата рождения]]></lines>
+<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+<lines name="phone" descr=""><![CDATA[Телефон]]></lines>
+<lines name="incorrect_field" descr=""><![CDATA[Некорректное поле]]></lines>
+<lines name="incorrect_date" descr=""><![CDATA[Некорректная дата]]></lines>
+<lines name="login_exists" descr=""><![CDATA[Имя пользователя уже используется]]></lines>
+<lines name="email_exists" descr=""><![CDATA[E-mail уже используется]]></lines>
+<lines name="old_password" descr=""><![CDATA[Старый пароль]]></lines>
+<lines name="new_password" descr=""><![CDATA[Новый пароль]]></lines>
+<lines name="new_password_verify" descr=""><![CDATA[Повторите пароль]]></lines>
+<lines name="wrong_password" descr=""><![CDATA[Неверный старый пароль]]></lines>
+<lines name="company_name" descr=""><![CDATA[Имя компании]]></lines>
+<lines name="company_url" descr=""><![CDATA[Сайт (url)]]></lines>
+<lines name="company_rent_count" descr=""><![CDATA[Количество вариантов недвижимости]]></lines>
+<lines name="company_how_know" descr=""><![CDATA[Как вы узнали о нас]]></lines>
+<lines name="company_quests_comments" descr=""><![CDATA[Ваши вопросы и комментарии]]></lines>
+<lines name="work_days" descr=""><![CDATA[Дни работы]]></lines>
+<lines name="work_time" descr=""><![CDATA[Время работы]]></lines>
+<lines name="lunch_time" descr=""><![CDATA[Обед]]></lines>
+<lines name="private_person" descr=""><![CDATA[Частное лицо]]></lines>
+<lines name="agency" descr=""><![CDATA[Риэлтор]]></lines>
+<lines name="agent" descr=""><![CDATA[Агент компании]]></lines>
+<lines name="our_logo" descr=""><![CDATA[Логотип компании или фото агента]]></lines>
+<lines name="look_for" descr=""><![CDATA[Мои предпочтения]]></lines>
+<lines name="about_buyer" descr=""><![CDATA[о покупателе]]></lines>
+<lines name="about_leaser" descr=""><![CDATA[об арендаторе]]></lines>
+<lines name="video" descr=""><![CDATA[Видео]]></lines>
+<lines name="map" descr=""><![CDATA[Карта]]></lines>
+<lines name="location" descr=""><![CDATA[Расположение]]></lines>
+<lines name="adress" descr=""><![CDATA[Адрес]]></lines>
+<lines name="i_need" descr=""><![CDATA[Арендует]]></lines>
+<lines name="i_have" descr=""><![CDATA[Сдает в аренду]]></lines>
+<lines name="i_buy" descr=""><![CDATA[Покупает]]></lines>
+<lines name="i_sell" descr=""><![CDATA[Продаёт]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Стоимость аренды за 1 месяц]]></lines>
+<lines name="unregistered_group_err" descr=""><![CDATA[Контактная информация доступна только]]></lines>
+<lines name="reg_users" descr=""><![CDATA[зарегистрированным пользователям]]></lines>
+<lines name="no_video" descr=""><![CDATA[Без видео]]></lines>
+<lines name="reg_now_text" descr=""><![CDATA[Пройти регистрацию]]></lines>
+<lines name="planirovka" descr=""><![CDATA[Планировка]]></lines>
+<lines name="general_photo" descr=""><![CDATA[Общие]]></lines>
+<lines name="print_profile" descr=""><![CDATA[Версия для печати]]></lines>
+<lines name="group_err_no_link" descr=""><![CDATA[Контактная информация доступна оплатившим абоненскую плату.]]></lines>
+<lines name="unreg_group_no_link" descr=""><![CDATA[Контактная информация доступна только зарегистрированным пользователям]]></lines>
+<lines name="print_form_copyright" descr=""><![CDATA[&copy; 2009 <b>PilotGroup.NET</b>]]></lines>
+<lines name="user_type" descr=""><![CDATA[Зарегистрирован как]]></lines>
+<lines name="comparison" descr=""><![CDATA[Сравнение объявлений]]></lines>
+<lines name="ad_is_not_active" descr=""><![CDATA[Объявление неактивно и больше не учавствует в поиске]]></lines>
+<lines name="back_to_ads_search" descr=""><![CDATA[&#171; К поиску объявлений]]></lines>	
+<lines name="back_to_transfer" descr=""><![CDATA[&#171; Назад к форме перевода средств]]></lines>
+<lines name="back_to_this_transfer" descr=""><![CDATA[&#171; Перевести средства]]></lines>
+<lines name="calendar" descr=""><![CDATA[Календарь]]></lines>
+<lines name="calendar_name" descr=""><![CDATA[Календарь бронирования]]></lines>
+<lines name="view_calendar" descr=""><![CDATA[Смотреть через календарь]]></lines>
+<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+<lines name="time_end" descr=""><![CDATA[до]]></lines>
+<lines name="empty" descr=""><![CDATA[Свободна]]></lines>
+<lines name="na_days" descr=""><![CDATA[Недоступные дни]]></lines>
+<lines name="reserve_days" descr=""><![CDATA[Забронированные дни]]></lines>
+<lines name="empty_days" descr=""><![CDATA[Свободные дни]]></lines>
+<lines name="back_to_choose_company" descr=""><![CDATA[&#171; Вернуться к форме выбора компнании]]></lines>
+<lines name="choose_company_as_agency" descr=""><![CDATA[&#171; Выбрать как риэлтора компанию]]></lines>
+<lines name="prev_month" descr=""><![CDATA[месяц]]></lines>
+<lines name="next_month" descr=""><![CDATA[месяц]]></lines>
+<lines name="prev_year" descr=""><![CDATA[год]]></lines>
+<lines name="next_year" descr=""><![CDATA[год]]></lines>
+<lines name="back_to_choose_agent" descr=""><![CDATA[&#171; Вернуться к форме выбора агентов]]></lines>
+<lines name="choose_user_as_agent" descr=""><![CDATA[&#171; Выбрать как агента пользователя]]></lines>
+<lines name="about_company" descr=""><![CDATA[О компании]]></lines>
+<lines name="photo" descr=""><![CDATA[Фотография]]></lines>
+<lines name="video_without_preview" descr=""><![CDATA[видеофайл(а,ов) без превью]]></lines>
+</data>

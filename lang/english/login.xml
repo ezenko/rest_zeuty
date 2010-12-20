@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="nickname" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="password" descr=""><![CDATA[Password]]></lines>
+	<lines name="button_submit" descr=""><![CDATA[Submit]]></lines>
+	<lines name="remember_me" descr=""><![CDATA[Remember me]]></lines>
+	<lines name="lost_password" descr=""><![CDATA[Forgot password?]]></lines>
+	<lines name="login_for_edit" descr=""><![CDATA[Please login to be able to edit your alerts subscription]]></lines>
+	<lines name="reg_text" descr=""><![CDATA[Are you new to this site? Registration is simple<br>and will take just a minute.<br>Present your property to our targeted audience.<br>]]></lines>
+	<lines name="reg_link_text" descr=""><![CDATA[Register]]></lines>
+</data>

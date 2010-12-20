@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="text_header" descr=""><![CDATA[Abgemeldete Mitglieder haben die Mäglichkeit, Anzeigen hinzuzufügen , contacting other site members and accessing their contact information.<br>Registration is easy and takes just a couple of minutes.]]></lines>
+	<lines name="create_nick" descr=""><![CDATA[Benuzername]]></lines>
+	<lines name="hint_nick" descr=""><![CDATA[Muss einig sein und  3-12 letters and/or numbers.]]></lines>
+	<lines name="create_pass" descr=""><![CDATA[Passwort]]></lines>
+	<lines name="hint_pass" descr=""><![CDATA[Bestätigt den geborgenen Eingang zu Ihrem Profil. Muß 4-10 Buchstaben und/oder Zahlen enthalten.]]></lines>
+	<lines name="verify_pass" descr=""><![CDATA[Passwort bestätigen]]></lines>
+	<lines name="first_name" descr=""><![CDATA[Vorname]]></lines>
+	<lines name="last_name" descr=""><![CDATA[Familienname]]></lines>
+	<lines name="birth_date" descr=""><![CDATA[Geburtsdatum]]></lines>
+	<lines name="hint_birth" descr=""><![CDATA[Benutzt nur für zugangszwecke.]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="hint_email" descr=""><![CDATA[Email wird nur dafür benutzt, um Ihnen Mitteilungen und Warnungen zu senden. E-mail Adresse ist für die Mitglieder der Site nicht sichtbar.]]></lines>
+	<lines name="verify_email" descr=""><![CDATA[E-mail bestätigen]]></lines>
+	<lines name="registration_pin" descr=""><![CDATA[Anmeldung PIN-code]]></lines>
+	<lines name="phone" descr=""><![CDATA[Telefon]]></lines>
+	<lines name="i_reg_as" descr=""><![CDATA[Ich melde mich an als]]></lines>
+	<lines name="private_person" descr=""><![CDATA[Privatperson]]></lines>
+	<lines name="agency" descr=""><![CDATA[Immobilienagentur]]></lines>
+	<lines name="agent_of_agency" descr=""><![CDATA[Agent der Immobilienagentur]]></lines>
+	<lines name="private_text_1" descr=""><![CDATA[Sie können nur 1 Anzeige hinzufügen.]]></lines>
+	<lines name="agency_text_1" descr=""><![CDATA[Sie können unbegrenzte Zahl der Anzeigen hinzufügen.]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Unternehmensname]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Die SIte Ihres Unternehmens (url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Zahl der Anzeigen]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Wie haben SIe uns gefunden]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Ihre Fragen und Kommentare]]></lines>
+	<lines name="work_days" descr=""><![CDATA[Werktage]]></lines>
+	<lines name="work_time" descr=""><![CDATA[Geschäftsstunden]]></lines>
+	<lines name="lunch_time" descr=""><![CDATA[Mittagspause]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[]]></lines>
+	<lines name="time_end" descr=""><![CDATA[-]]></lines>
+	<lines name="show_info" descr=""><![CDATA[Meine Kontaktsinformation andered Mitgliedern zeigen]]></lines>
+	<lines name="dialog_text_1" descr=""><![CDATA[Ich suche nach]]></lines>
+	<lines name="dialog_text_2" descr=""><![CDATA[Vermietung]]></lines>
+	<lines name="dialog_text_3" descr=""><![CDATA[Miete]]></lines>
+	<lines name="buy" descr=""><![CDATA[Kauf]]></lines>
+	<lines name="sell" descr=""><![CDATA[Verkauf]]></lines>
+	<lines name="not_selected" descr=""><![CDATA[>>]]></lines>
+	<lines name="our_logo" descr=""><![CDATA[Ihr Logo]]></lines>
+	<lines name="our_logo_hint" descr=""><![CDATA[Logotyp wird in den Anzeigen Ihres Unternehmens gezeigt.]]></lines>
+	<lines name="company" descr=""><![CDATA[Name des Unternehmens]]></lines>
+	<lines name="address" descr=""><![CDATA[Addresse]]></lines>
+	<lines name="post_code" descr=""><![CDATA[Postleitzahl]]></lines>
+	<lines name="country" descr=""><![CDATA[Land]]></lines>
+	<lines name="region" descr=""><![CDATA[Region]]></lines>
+	<lines name="city" descr=""><![CDATA[Stadt]]></lines>
+	<lines name="choose_company" descr=""><![CDATA[Unternehmen wählen]]></lines>
+	<lines name="hint_3" descr=""><![CDATA[Sie müssen das Unternehmen wählen, dessen Agenten Sie werden möchten. Das Unternehmen wird Ihre Anfrage bekommen. Sie kännen auch dieses Feld leer lassen. In diesem Fall kann jedes Unternehmen Ihnen sein Angebot - Agent zu werden - schicken.]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Wahl des Unternehmens]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Mitglied suchen]]></lines>
+	<lines name="search_help_company" descr=""><![CDATA[Identifizierungsdaten des Mitglieds suchen: Vorname, Familienname, Untenehmensbezeichnung.]]></lines>
+	<lines name="search_help_agent" descr=""><![CDATA[Identifizierungsdaten des Mitglieds suchen: Vorname, Familienname, Email.]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Anzeigen]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Geldmittel hinzufügen]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Name des unternehmens]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[Es gibt keine Ergebnisse, die Ihren Kriterien passen]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Fehlen]]></lines>
+	<lines name="pages" descr=""><![CDATA[Seiten]]></lines>
+	<lines name="already_choose" descr=""><![CDATA[Sie sind schon im KOntakt mit diesem Untenehmen, Details sind auf der Seite Mein Makler erreichbar.]]></lines>
+	<lines name="need_agree" descr=""><![CDATA[Bitte notieren Sie, dass Sie mit den Geschäftsbedingungen der Site einverstanden sind.]]></lines>
+	<lines name="enter_valid_company" descr=""><![CDATA[Sie haben den Namen des unternehmens eingetragen, das auf der Site nicht angemeldet ist. Wählen Sie das Unternehmen aus der Liste oder lassen dieses Feld leer.]]></lines>
+	<lines name="with_company_1" descr=""><![CDATA[Mit dem Unternehmen]]></lines>
+	<lines name="with_company_2" descr=""><![CDATA[Sie stehen schon im Kontakt mit. Details sind auf der Seite Mein Makler.]]></lines>
+	<lines name="need_search_criteria" descr=""><![CDATA[Bitte tragen Sie die Suchkriterien ein]]></lines>
+		<lines name="agreement_1" descr=""><![CDATA[Ich habe AGB]]></lines>
+	<lines name="agreement_2" descr=""><![CDATA[gelesen und einverstanden]]></lines>
+	<lines name="agreement_3" descr=""><![CDATA[. Ich bin wenigstens 18 Jahre alt.]]></lines>
+	<lines name="number" descr=""><![CDATA[#]]></lines>
+</data>

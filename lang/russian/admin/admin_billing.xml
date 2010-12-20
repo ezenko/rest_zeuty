@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="razdel_name" descr=""><![CDATA[Billing]]></lines>
+	<lines name="editform" descr=""><![CDATA[User Account]]></lines>
+	<lines name="list" descr=""><![CDATA[Users list]]></lines>
+	<lines name="list_user" descr=""><![CDATA[Users entry]]></lines>
+	<lines name="list_group" descr=""><![CDATA[Стоимость членства в группе]]></lines>
+	<lines name="group_cost_help" descr=""><![CDATA[Задайте период и стоимость использования платных модулей и функций в группе платных пользователей.]]></lines>
+	<lines name="new_group_period_cost" descr=""><![CDATA[Установление нового периода и стоимости]]></lines>
+	<lines name="set_group_period_cost" descr=""><![CDATA[Установленные группы и стоимости]]></lines>	
+	<lines name="list_settings" descr=""><![CDATA[Payment settings]]></lines>
+	<lines name="empty" descr=""><![CDATA[Users list is empty]]></lines>
+	<lines name="empty_payments" descr=""><![CDATA[Отсутствуют]]></lines>
+	<lines name="empty_user" descr=""><![CDATA[Entries list is empty]]></lines>
+	<lines name="empty_group" descr=""><![CDATA[Groups list empty]]></lines>
+	<lines name="number" descr=""><![CDATA[№]]></lines>
+	<lines name="name" descr=""><![CDATA[Имя]]></lines>
+	<lines name="login" descr=""><![CDATA[Login]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="date_entry" descr=""><![CDATA[Date]]></lines>
+	<lines name="entry" descr=""><![CDATA[Entry]]></lines>
+	<lines name="type" descr=""><![CDATA[Type]]></lines>
+	<lines name="account" descr=""><![CDATA[Account]]></lines>
+	<lines name="present_group" descr=""><![CDATA[Groups]]></lines>
+	<lines name="razdel_group" descr=""><![CDATA[Группы пользователей]]></lines>
+	<lines name="group" descr=""><![CDATA[Группа]]></lines>
+	<lines name="users_group" descr=""><![CDATA[Группа пользователей]]></lines>
+	<lines name="add_entry" descr=""><![CDATA[Add]]></lines>
+	<lines name="remove_entry" descr=""><![CDATA[Remove]]></lines>
+	<lines name="dont_change_group" descr=""><![CDATA[Don't change group]]></lines>
+	<lines name="change_group" descr=""><![CDATA[Move to another group]]></lines>
+	<lines name="cost" descr=""><![CDATA[Cost/Hour]]></lines>
+	<lines name="addable" descr=""><![CDATA[Allow user to add himself or herself to a group]]></lines>
+	<lines name="currency" descr=""><![CDATA[Currency]]></lines>
+	<lines name="settings" descr=""><![CDATA[Я хочу настроить]]></lines>
+	<lines name="option_general" descr=""><![CDATA[Основные параметры]]></lines>
+	<lines name="option_card" descr=""><![CDATA[Credit card settings]]></lines>
+	<lines name="payment_type" descr=""><![CDATA[Payment type]]></lines>
+	<lines name="payment_type_account" descr=""><![CDATA[Use user account]]></lines>
+	<lines name="payment_type_period" descr=""><![CDATA[Use payment by periods]]></lines>
+	<lines name="period" descr=""><![CDATA[Период]]></lines>
+	<lines name="pay" descr=""><![CDATA[Стоимость]]></lines>
+	<lines name="period_type" descr=""><![CDATA[Membership type]]></lines>
+	<lines name="add_to_period" descr=""><![CDATA[Add user to group]]></lines>
+	<lines name="free" descr=""><![CDATA[Free]]></lines>
+	<lines name="add_period" descr=""><![CDATA[Добавить]]></lines>
+	<lines name="periods_day" descr=""><![CDATA[день(ей)]]></lines>
+	<lines name="periods_week" descr=""><![CDATA[неделя(ь)]]></lines>
+	<lines name="periods_month" descr=""><![CDATA[месяц(ев)]]></lines>
+	<lines name="periods_year" descr=""><![CDATA[год(лет)]]></lines>
+	<lines name="option_2checkout" descr=""><![CDATA[2checkout параметры]]></lines>
+	<lines name="option_paypal" descr=""><![CDATA[Paypal параметры]]></lines>
+	<lines name="option_ccbill" descr=""><![CDATA[CCBill параметры]]></lines>
+	<lines name="option_chronopay" descr=""><![CDATA[ChronoPay параметры]]></lines>
+	<lines name="option_authorizenet" descr=""><![CDATA[authorize.net параметры]]></lines>
+	<lines name="option_egold" descr=""><![CDATA[E-gold параметры]]></lines>
+	<lines name="option_usaepay" descr=""><![CDATA[USAepay параметры]]></lines>
+	<lines name="option_worldpay" descr=""><![CDATA[WorldPay параметры]]></lines>
+	<lines name="option_webmoney" descr=""><![CDATA[WebMoney параметры]]></lines>
+	<lines name="option_paysat" descr=""><![CDATA[PaySat параметры]]></lines>
+	<lines name="option_esec" descr=""><![CDATA[E-sec параметры]]></lines>
+	<lines name="option_ipos" descr=""><![CDATA[iPos параметры]]></lines>	
+	<lines name="option_manual" descr=""><![CDATA[Параметры ручного перевода]]></lines>	
+	<lines name="use" descr=""><![CDATA[Включить прием платежей через эту систему]]></lines>
+	<lines name="2checkout_seller_id" descr=""><![CDATA[2CheckOut id]]></lines>
+	<lines name="smscoin_seller_id" descr=""><![CDATA[ID of sms bank]]></lines>	
+	<lines name="paypal_seller_id" descr=""><![CDATA[PayPal email]]></lines>		
+	<lines name="ccbill_seller_id" descr=""><![CDATA[CCBill id]]></lines>
+	<lines name="ccbill_seller_sub_id" descr=""><![CDATA[CCBill Sub ID]]></lines>
+	<lines name="ccbill_form_name" descr=""><![CDATA[CCBill Form Name]]></lines>
+	<lines name="ccbill_language" descr=""><![CDATA[CCBill language]]></lines>
+	<lines name="ccbill_allowed_types" descr=""><![CDATA[CCBill allowed types]]></lines>
+	<lines name="ccbill_subscription_type_id" descr=""><![CDATA[CCBill subscription type ID]]></lines>
+	<lines name="chronopay_seller_id" descr=""><![CDATA[ChronoPay id]]></lines>
+	<lines name="authorizenet_seller_id" descr=""><![CDATA[authorize.net id]]></lines>
+	<lines name="authorizenet_key" descr=""><![CDATA[authorize.net key]]></lines>
+	<lines name="authorizenet_key_comment" descr=""><![CDATA[authorize.net key comment]]></lines>
+	<lines name="egold_seller_id" descr=""><![CDATA[E-gold id]]></lines>
+	<lines name="usaepay_seller_id" descr=""><![CDATA[USAepay id]]></lines>
+	<lines name="worldpay_seller_id" descr=""><![CDATA[WorldPay id]]></lines>
+	<lines name="webmoney_seller_id" descr=""><![CDATA[WebMoney id]]></lines>
+	<lines name="paysat_seller_id" descr=""><![CDATA[PaySat id]]></lines>
+	<lines name="esec_seller_id" descr=""><![CDATA[E-sec id]]></lines>
+	<lines name="ipos_seller_id" descr=""><![CDATA[iPos id]]></lines>	
+	<lines name="manual_information" descr=""><![CDATA[Информация о платеже(реквизиты и т.п.)]]></lines>	
+	<lines name="refresh_date" descr=""><![CDATA[Дата последнего обновления суммы]]></lines>
+	<lines name="account_billing" descr=""><![CDATA[Account billing]]></lines>
+	<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+	<lines name="listing_pays" descr=""><![CDATA[Проплаты и попытки проплат]]></lines>
+	<lines name="listing_pays_2" descr=""><![CDATA[Списания за платные услуги]]></lines>
+	<lines name="u_name" descr=""><![CDATA[Имя пользователя]]></lines>
+	<lines name="u_email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="count_curr" descr=""><![CDATA[Сумма]]></lines>
+	<lines name="currency" descr=""><![CDATA[Национальная валюта сайта]]></lines>
+	<lines name="date_sended" descr=""><![CDATA[Время]]></lines>
+	<lines name="pay_status" descr=""><![CDATA[Статус]]></lines>
+	<lines name="paysystem" descr=""><![CDATA[Система]]></lines>
+	<lines name="service" descr=""><![CDATA[Операция]]></lines>
+	<lines name="user_account" descr=""><![CDATA[Счет пользователя]]></lines>
+	<lines name="add_user_account" descr=""><![CDATA[Пополнить счет пользователя]]></lines>
+	<lines name="service_1" descr=""><![CDATA[пополнение счета]]></lines>
+	<lines name="service_2" descr=""><![CDATA[получение бонуса]]></lines>
+	<lines name="spend_serv_1" descr=""><![CDATA[поднятие в поиске]]></lines>
+	<lines name="spend_serv_2" descr=""><![CDATA[слайдшоу]]></lines>
+	<lines name="spend_serv_3" descr=""><![CDATA[лидер региона]]></lines>
+	<lines name="spend_serv_4" descr=""><![CDATA[абонентская плата]]></lines>
+	<lines name="spend_serv_5" descr=""><![CDATA[объявления о продаже и сдаче в аренду]]></lines>
+	<lines name="spend_serv_6" descr=""><![CDATA[перевод средств другому пользователю]]></lines>
+	<lines name="spended_1" descr=""><![CDATA[Списание за услугу &quot;Поднимите &quot;наверх&quot; объявление в поиске&quot;]]></lines>
+	<lines name="spended_2" descr=""><![CDATA[Списание за услугу &quot;Выделить объявление в поиске&quot;]]></lines>
+	<lines name="spended_3" descr=""><![CDATA[Списание за услугу &quot;Выделить объявление в регионе&quot;]]></lines>
+	<lines name="spended_4" descr=""><![CDATA[Списание в счёт абонентской платы]]></lines>
+	<lines name="spended_5" descr=""><![CDATA[Списание за размещение объявлений о продаже и сдаче в аренду]]></lines>	
+	<lines name="spended_6" descr=""><![CDATA[Перевод средств другому пользователю]]></lines>
+	<lines name="empty_pays" descr=""><![CDATA[Список пуст]]></lines>
+	<lines name="delete" descr=""><![CDATA[Удалить]]></lines>	
+	<lines name="list_spended_help" descr=""><![CDATA[Здесь отображены все списания за платные услуги, которые провели пользователи.]]></lines>
+	<lines name="list_payments_help" descr=""><![CDATA[Здесь отображена вся информация о платежах пользователей в хронологическом порядке. Вы можете подтвердить или отклонить платежи, требующие ручного подтверждения.]]></lines>
+	<lines name="billing_settings_help" descr=""><![CDATA[Здесь вы можете настроить параметры платежных систем для приема платежей от ваших пользователей.]]></lines>
+	<lines name="billing_history_help" descr=""><![CDATA[Вы можете увидеть все произведенные пользователями операции: пополнение счета, списания за платные услуги.]]></lines>
+	<lines name="user_history_help" descr=""><![CDATA[Вы можете увидеть все произведенные пользователем операции: пополнение счета, списания за платные услуги.]]></lines>
+	<lines name="pay_approve" descr=""><![CDATA[Ручное подтверждение]]></lines>	
+	<lines name="letter_search_help" descr=""><![CDATA[Поиск по первой букве в E-mail пользователя]]></lines>		
+	<lines name="paysys_settings_help" descr=""><![CDATA[Настройте параметры платежной системы для автоматического приема платежей на ваш сайт. Отметив опцию "Включить прием платежей через эту систему" вы разрешите пользователям пополнять счета через выбранную платежную систему.]]></lines>		
+	<lines name="user_type" descr=""><![CDATA[Тип]]></lines>
+	<lines name="user_type_1" descr=""><![CDATA[Частное лицо]]></lines>
+	<lines name="user_type_2" descr=""><![CDATA[Риэлтор]]></lines>
+	<lines name="user_type_3" descr=""><![CDATA[Агент компании]]></lines>
+	<lines name="admin" descr=""><![CDATA[Администратор]]></lines>
+	<lines name="guest" descr=""><![CDATA[Гость]]></lines>
+	<lines name="payments" descr=""><![CDATA[Платежи]]></lines>	
+	<lines name="history_text_1" descr=""><![CDATA[Авансовый платеж]]></lines>
+	<lines name="history_text_2" descr=""><![CDATA[Перевод средств от пользователя]]></lines>
+	<lines name="history_text_3" descr=""><![CDATA[Пополнение счета администратором]]></lines>
+	<lines name="status_send" descr=""><![CDATA[Не оплачен]]></lines>
+	<lines name="status_fail" descr=""><![CDATA[Ошибка платежа]]></lines>
+	<lines name="status_approve" descr=""><![CDATA[Оплачен]]></lines>
+	<lines name="view" descr=""><![CDATA[Просмотреть]]></lines>
+	<lines name="payment_name" descr=""><![CDATA[Тип платежа]]></lines>
+	<lines name="date_send" descr=""><![CDATA[Дата]]></lines>
+	<lines name="status" descr=""><![CDATA[Состояние]]></lines>
+	<lines name="entries" descr=""><![CDATA[Поступления на счет]]></lines>
+	<lines name="spended" descr=""><![CDATA[Списания со счета]]></lines>
+	<lines name="receipts" descr=""><![CDATA[Переводы от других пользователей]]></lines>
+	<lines name="were_not" descr=""><![CDATA[не осуществлялись]]></lines>
+	<lines name="on_account" descr=""><![CDATA[Сумма на счете пользователя]]></lines>
+	<lines name="of_user" descr=""><![CDATA[пользователя]]></lines>	
+	<lines name="users_group" descr=""><![CDATA[Группа пользователей]]></lines>	
+	<lines name="empty_result" descr=""><![CDATA[К сожалению, ничего не найдено по вашему запросу. Попробуйте изменить]]></lines>
+	<lines name="empty_res_search_criteria" descr=""><![CDATA[настройки поиска]]></lines>	
+	<lines name="period_exist" descr=""><![CDATA[Такой период использования платных модулей и функций группы уже существует. Измените настройки нового периода, и повторите попытку сохранения.]]></lines>
+	<lines name="wrong_fields" descr=""><![CDATA[Неверные значения полей.]]></lines>
+	<lines name="sec_group_payment" descr=""><![CDATA[Стоимость членства в группах]]></lines>	
+	<lines name="sec_pay_services" descr=""><![CDATA[Платные услуги]]></lines>	
+	<lines name="membership_pay_services_help" descr=""><![CDATA[Здесь Вы можете изменить стоимость платных функций сайта.]]></lines>	
+	<lines name="option_smscoin" descr=""><![CDATA[SmsCoin параметры]]></lines>
+	<lines name="smscoin_purse_id" descr=""><![CDATA[ID смс:банка]]></lines>
+	<lines name="smscoin_secret_code" descr=""><![CDATA[Секретный код]]></lines>
+	<lines name="smscoin_operator" descr=""><![CDATA[Оператор]]></lines>
+	<lines name="smscoin_tarif" descr=""><![CDATA[Список тарифов]]></lines>
+	<lines name="smscoin_tarif_list" descr=""><![CDATA[Стоимость услуги для абонента не включая НДС]]></lines>
+	<lines name="smscoin_tarif_help" descr=""><![CDATA[Для использования SmsCoin на Вашем сайте:<ul><li>Добавьте оператора, который используется в вашем смс:банке (Вы отметили его при настройке свойств Вашего смс:банка по ссылке http://smscoin.net/purses/edit/id_смс_банка/, где id_смс_банка - id смс:банка). </li><li>Сформируйте список тарифов, которыми могут пользоваться клиенты Вашего сайта из списка возможных тарифов этого оператора (список тарифов доступен по адресу <a href="http://smscoin.com/info/worldwide/" target=_blank>http://smscoin.com/info/worldwide/</a>).</li></ul>Платежи через SmsCoin <b>не будут доступны</b> для Ваших клиентов, пока Вы не добавите хотя бы одного оператора и одно значение в список стоимости услуг этого оператора.<br><br><b>Важно:</b> При просмотре списка тарифов обратите внимание на <b>валюту</b>, указанную в поле &quot;Стоимость услуги для абонента не включая НДС&quot;. Для корректной работы системы платежей сайта валюта, указаная в этом поле должна совпадать с валютой Вашего сайта - ]]></lines>	
+	<lines name="delete_action" descr=""><![CDATA[Удаление]]></lines>
+	<lines name="smscoin_new_tarif" descr=""><![CDATA[Добавить стоимость услуги]]></lines>
+	<lines name="smscoin_oper_tarif" descr=""><![CDATA[оператора]]></lines>
+	<lines name="smscoin_add_operator" descr=""><![CDATA[Добавить оператора]]></lines>
+	<lines name="smscoin_add_tarif" descr=""><![CDATA[Добавьте стоимость для активации услуг оператора]]></lines>	
+	<lines name="total_count" descr=""><![CDATA[Количество переводов между пользователями]]></lines>	
+	<lines name="total_transfer" descr=""><![CDATA[, на сумму]]></lines>
+	<lines name="total_commission" descr=""><![CDATA[. Удержанная коммиссия]]></lines>		
+	<lines name="from_period" descr=""><![CDATA[За период с ]]></lines>		
+	<lines name="to_period" descr=""><![CDATA[ по ]]></lines>		
+	<lines name="trans_transfer" descr=""><![CDATA[ обработано транзакций]]></lines>		
+	<lines name="trans_approved" descr=""><![CDATA[Зачислено транзакций]]></lines>		
+	<lines name="trans_failed" descr=""><![CDATA[Отклонено транзакций]]></lines>	
+	<lines name="trans_send" descr=""><![CDATA[Находится на рассмотрении транзакций]]></lines>
+	<lines name="currency_abbr" descr=""><![CDATA[Аббревиатура]]></lines>	
+	<lines name="currency_name" descr=""><![CDATA[Название]]></lines>
+	<lines name="currency_symbol" descr=""><![CDATA[Обозначение]]></lines>
+	<lines name="currency_symbol_view" descr=""><![CDATA[Отображение]]></lines>	
+	<lines name="add" descr=""><![CDATA[Добавить]]></lines>
+	<lines name="confirm_delete" descr=""><![CDATA[Вы действительно хотите удалить запись?]]></lines>
+	<lines name="payment_information" descr=""><![CDATA[Информация о переводе средств "вручную"]]></lines>	
+	<lines name="user_info" descr=""><![CDATA[Данные формы]]></lines>
+	<lines name="approved" descr=""><![CDATA[Одобрен]]></lines>	
+	<lines name="declined" descr=""><![CDATA[Отклонен]]></lines>
+	<lines name="processing_error" descr=""><![CDATA[Ошибка обработки]]></lines>
+</data>

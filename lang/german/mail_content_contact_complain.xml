@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="E-mail subject"><![CDATA[[site_name] - Kontaktsform (Anklage über den Benutzer) wurde gefüllt]]></lines>
+	<lines name="name" descr=""><![CDATA[Name des Mitgliedes]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail des Mitgliedes]]></lines>
+	<lines name="complaint_reason" descr=""><![CDATA[Die Ursache der Anklage]]></lines>
+	<lines name="complaint_0" descr=""><![CDATA[benutzt jemandes Foto]]></lines>
+	<lines name="complaint_1" descr=""><![CDATA[veröffentlicht falsche Kontaktdaten]]></lines>
+	<lines name="complaint_2" descr=""><![CDATA[versendet Schimpfwörter und and Drohungen]]></lines>
+	<lines name="complaint_3" descr=""><![CDATA[versendet Vorschläge für bezahlte Adult Services]]></lines>
+	<lines name="complaint_4" descr=""><![CDATA[fordert Geldüberweisung oder Kreditkarten]]></lines>
+	<lines name="complaint_5" descr=""><![CDATA[versendet Spam]]></lines>
+	<lines name="complaint_6" descr=""><![CDATA[Andere]]></lines>
+	<lines name="your_comment" descr=""><![CDATA[Kommentare]]></lines>
+	<lines name="href" descr=""><![CDATA[Link]]></lines>			
+</strings>

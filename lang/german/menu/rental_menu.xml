@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<item name="edit_rentals" href="/rentals.php?sel=list_ads"><![CDATA[Meine Anzeigen]]></item>
+	<item name="matchmyrent" href="/homepage.php?sel=match_my&amp;section=rent" id="mhi_match_me"><![CDATA[Treffvariante]]></item>
+	<item name="services" href="/services.php" id="mhi_services"><![CDATA[Bezahlte Services]]></item>
+	<item name="agents" href="/agents.php"><![CDATA[Meine Agenten]]></item>
+	<item name="realtor" href="/agents.php"><![CDATA[Mein Immobilienmakler]]></item>
+	<item name="search_preferences" href="/search_preferences.php"><![CDATA[Meine Suchbevorzugungen]]></item>
+</menu>

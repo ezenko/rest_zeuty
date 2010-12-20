@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="button_deactivate" descr=""><![CDATA[Деактивировать]]></lines>
+	<lines name="addition_comment" descr=""><![CDATA[Дополнительный комментарий]]></lines>
+	<lines name="nickname" descr=""><![CDATA[Имя пользователя]]></lines>
+	<lines name="fname" descr=""><![CDATA[Ваше имя]]></lines>
+	<lines name="sname" descr=""><![CDATA[Ваша фамилия]]></lines>
+	<lines name="birthday" descr=""><![CDATA[Дата рождения]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="phone" descr=""><![CDATA[Телефон]]></lines>
+	<lines name="incorrect_field" descr=""><![CDATA[Некорректное поле]]></lines>
+	<lines name="incorrect_date" descr=""><![CDATA[Некорректная дата]]></lines>
+	<lines name="login_exists" descr=""><![CDATA[Имя пользователя уже используется]]></lines>
+	<lines name="email_exists" descr=""><![CDATA[E-mail уже используется]]></lines>
+	<lines name="old_password" descr=""><![CDATA[Старый пароль]]></lines>
+	<lines name="new_password" descr=""><![CDATA[Новый пароль]]></lines>
+	<lines name="new_password_verify" descr=""><![CDATA[Повторите пароль]]></lines>
+	<lines name="wrong_password" descr=""><![CDATA[Неверный старый пароль]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Имя компании]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Ваш сайт (url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Количество вариантов недвижимости]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Как вы узнали о нас]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Ваши вопросы и комментарии]]></lines>
+	<lines name="work_days" descr=""><![CDATA[Дни работы]]></lines>
+	<lines name="work_time" descr=""><![CDATA[Время работы]]></lines>
+	<lines name="lunch_time" descr=""><![CDATA[Обед]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[С]]></lines>
+	<lines name="time_end" descr=""><![CDATA[до]]></lines>
+	<lines name="private_person" descr=""><![CDATA[частное лицо]]></lines>
+	<lines name="agency" descr=""><![CDATA[риэлтор]]></lines>
+	<lines name="our_logo" descr=""><![CDATA[Логотип компании или Ваша фотография]]></lines>
+	<lines name="no_answer" descr=""><![CDATA[оставить без ответа]]></lines>
+	<lines name="sel_all_text" descr=""><![CDATA[Выделить все опции]]></lines>
+	<lines name="unsel_all_text" descr=""><![CDATA[Снять все выделения]]></lines>
+	<lines name="unsel_radio_text" descr=""><![CDATA[Снять выделение]]></lines>
+	<lines name="you_registered_as" descr=""><![CDATA[Вы зарегистрированы как]]></lines>
+	<lines name="subheader" descr=""><![CDATA[Информация данного раздела видна другим посетителям, а внесённые здесь изменения дублируются во всех ваших объявлениях.]]></lines>
+	<lines name="activate" descr=""><![CDATA[Активировать профайл]]></lines>
+	<lines name="deactivate" descr=""><![CDATA[Деактивировать профайл]]></lines>
+	<lines name="deactivated_profile" descr=""><![CDATA[Ваш профайл деактивирован, все ваши объявления неактивны и не учавствуют в поиске. После активизации профайла пройдитесь по списку ваших объявлений, при необходимости сделайте их активными.]]></lines>
+	<lines name="admin_approve_not_complete" descr=""><![CDATA[Модератор ещё не одобрил файл]]></lines>
+	<lines name="admin_approve_decline" descr=""><![CDATA[Модератор запретил файл для показа]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+	<lines name="time_end" descr=""><![CDATA[до]]></lines>
+	<lines name="empty" descr=""><![CDATA[Свободна]]></lines>
+	<lines name="interface_language" descr=""><![CDATA[Язык интерфейса]]></lines>
+	<lines name="interface_language_help" descr=""><![CDATA[Язык, на который переключается интерфейс сайта после авторизации, все системные сообщения присылаются на этом же языке.]]></lines>	
+	<lines name="country" descr=""><![CDATA[Страна]]></lines>
+	<lines name="address" descr=""><![CDATA[Адрес]]></lines>
+	<lines name="city" descr=""><![CDATA[Город]]></lines>
+	<lines name="region" descr=""><![CDATA[Регион]]></lines>
+	<lines name="map" descr=""><![CDATA[Карта]]></lines>
+	<lines name="post_code" descr=""><![CDATA[Индекс]]></lines>	
+	<lines name="agent_of_agency" descr=""><![CDATA[агент компании]]></lines>
+	<lines name="choose_company" descr=""><![CDATA[Выбрать компанию]]></lines>
+	<lines name="hint_3" descr=""><![CDATA[Вам необходимо выбрать компанию, агентом которой вы хотите стать. На почтовой ящик этой компании придет письмо для подтверждения/отклонения вашей персоны как агента. Если вы уже являетесь агентом какой либо компании или подали заявку на это, то вы можете удалить эту компанию как своего риэлтора или, соответственно, отозвать заявку. В этом случае вы станете свободным агентом и любая компания сможет присылать вам приглашения стать их агентом. В случае если сейчас вы не являетесь агентом какой либо компании и не подавали заявок, то можете оставить это поле пустым. Так вы станете свободным агентом. Также вы можете сменить компанию. В этом случае на электронный адрес предыдущей компании придет письмо о том, что вы больше не являетесь ее агентом.]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Выбор компании]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Поиск пользователя]]></lines>
+	<lines name="search_help" descr=""><![CDATA[Для поиска введите идентифицирующие пользователя данные: имя, фамилия,  название компании.]]></lines>
+	<lines name="number" descr=""><![CDATA[№]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Имя]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Объявления]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Пополнение счета]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Название компании]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[По вашему запросу ничего не найдено]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Отсутствуют]]></lines>
+	<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+	<lines name="not_approve" descr=""><![CDATA[Компания еще не обработала вашу заявку на предмет сотрудничества]]></lines>
+	<lines name="your_photo" descr=""><![CDATA[Ваша фотография]]></lines>
+	<lines name="agency_url" descr=""><![CDATA[Сайт(url) компании]]></lines>
+	<lines name="agency_logo" descr=""><![CDATA[Логотип компании]]></lines>
+	<lines name="location" descr=""><![CDATA[Расположение]]></lines>
+	<lines name="need_delete_realtor" descr=""><![CDATA[Для того чтобы поменять свой тип вам необходимо удалить себя из списка агентов компании ]]></lines>
+	<lines name="need_delete_agents" descr=""><![CDATA[Для того чтобы поменять свой тип вам необходимо очистить свой список агентов]]></lines>
+	<lines name="delete_agents" descr=""><![CDATA[Перед деактивацией своего аккаунта необходимо очистить список своих агентов]]></lines>
+	<lines name="delete_realtor" descr=""><![CDATA[Перед деактивацией своего аккаунта необходимо удалить себя из списка агентов]]></lines>
+	<lines name="decline_company" descr=""><![CDATA[Отозвать предложение компании]]></lines>
+	<lines name="change_company" descr=""><![CDATA[Изменить компанию]]></lines>
+	<lines name="delete_company" descr=""><![CDATA[Удалить компанию]]></lines>
+	<lines name="na_agency_1" descr=""><![CDATA[Компания]]></lines>
+	<lines name="na_agency_2" descr=""><![CDATA[не найдена]]></lines>
+	<lines name="na_agency_3" descr=""><![CDATA[Пустое поле недопустимо]]></lines>
+	<lines name="with_company_1" descr=""><![CDATA[С компанией]]></lines>
+	<lines name="with_company_2" descr=""><![CDATA[у вас уже установлен контакт.]]></lines>
+	<lines name="incorrect_time_interval" descr=""><![CDATA[Не правильно указан интервал]]></lines>
+</data>

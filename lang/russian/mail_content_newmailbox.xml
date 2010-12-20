@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="Тема письма"><![CDATA[Вам отправлено новое сообщение на [site_name]]]></lines>
+<lines name="text" descr=""><![CDATA[Сообщение было послано от]]></lines>
+</data>

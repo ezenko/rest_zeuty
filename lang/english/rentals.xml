@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="rental_link" descr=""><![CDATA[Add your listing.]]></lines>
+<lines name="need_room_big" descr=""><![CDATA[Looking to rent]]></lines>
+<lines name="have_room_big" descr=""><![CDATA[Looking to lease]]></lines>
+<lines name="buy_realty_big" descr=""><![CDATA[Looking to buy]]></lines>
+<lines name="sell_realty_big" descr=""><![CDATA[Looking to sell]]></lines>
+<lines name="page_header_step_1" descr=""><![CDATA[Location]]></lines>
+<lines name="step_1_choose" descr=""><![CDATA[Choose necessary]]></lines>
+<lines name="need_room" descr=""><![CDATA[Looking to rent]]></lines>
+<lines name="have_room" descr=""><![CDATA[Looking to lease]]></lines>
+<lines name="sell_realty" descr=""><![CDATA[Looking to sell]]></lines>
+<lines name="buy_realty" descr=""><![CDATA[Looking to buy]]></lines>
+<lines name="planirovka_header" descr=""><![CDATA[Planning]]></lines>
+<lines name="select_country" descr=""><![CDATA[In country]]></lines>
+<lines name="select_region" descr=""><![CDATA[In region]]></lines>
+<lines name="select_city" descr=""><![CDATA[In city]]></lines>
+<lines name="site_link" descr=""><![CDATA[Home]]></lines>
+<lines name="next_step" descr=""><![CDATA[Next]]></lines>
+<lines name="back_step" descr=""><![CDATA[Back]]></lines>
+<lines name="page_header_step_3" descr=""><![CDATA[REAL ESTATE PREFERENCE]]></lines>
+<lines name="page_header_step_3_buy" descr=""><![CDATA[REAL ESTATE PREFERENCE]]></lines>
+<lines name="move_date" descr=""><![CDATA[Available from]]></lines>
+<lines name="live_square" descr=""><![CDATA[Live Square]]></lines>
+<lines name="total_square" descr=""><![CDATA[Total square]]></lines>
+<lines name="land_square" descr=""><![CDATA[Land square]]></lines>
+<lines name="page_header_step_4" descr=""><![CDATA[ABOUT MYSELF]]></lines>
+<lines name="total_people" descr=""><![CDATA[Total people]]></lines>
+<lines name="just_me" descr=""><![CDATA[Just me]]></lines>
+<lines name="three_or_more" descr=""><![CDATA[3 or more]]></lines>
+<lines name="age" descr=""><![CDATA[Age]]></lines>
+<lines name="to" descr=""><![CDATA[to]]></lines>
+<lines name="page_header_step_5" descr=""><![CDATA[UPLOAD PHOTO]]></lines>
+<lines name="photo_word" descr=""><![CDATA[Use a form to upload photos from your computer to our site]]></lines>
+<lines name="upload_file" descr=""><![CDATA[Add new file]]></lines>
+<lines name="photo_max_count" descr=""><![CDATA[The number of files you can upload]]></lines>
+<lines name="photo_max_size" descr=""><![CDATA[Maximal photo size]]></lines>
+<lines name="video_max_size" descr=""><![CDATA[Maximal video size]]></lines>
+<lines name="kb" descr=""><![CDATA[KB]]></lines>
+<lines name="max_height" descr=""><![CDATA[Maximal height]]></lines>
+<lines name="max_width" descr=""><![CDATA[Maximal weight]]></lines>
+<lines name="finish" descr=""><![CDATA[Finish]]></lines>
+<lines name="comments" descr=""><![CDATA[Comments]]></lines>
+<lines name="available_move_date" descr=""><![CDATA[Available from]]></lines>
+<lines name="month_payment" descr=""><![CDATA[Rent price <br>for 1 month]]></lines>
+<lines name="price" descr=""><![CDATA[Price]]></lines>
+<lines name="price_min_more_max" descr=""><![CDATA[Minimal payment can't be maximal]]></lines>
+<lines name="deposit_min_more_max" descr=""><![CDATA[Minimal upfront payment can't be maximal]]></lines>
+<lines name="live_square_min_more_max" descr=""><![CDATA[Minimal live square can't be maximal]]></lines>
+<lines name="total_square_min_more_max" descr=""><![CDATA[Minimal total square can't be more than maximal]]></lines>
+<lines name="land_square_min_more_max" descr=""><![CDATA[Minimal land square can't be more than maximal]]></lines>
+<lines name="year_build_min_more_max" descr=""><![CDATA[Minimal year of construction can't be more than maximal]]></lines>
+<lines name="floor_min_more_max" descr=""><![CDATA[Minimal floor can't be more than maximal]]></lines>
+<lines name="min" descr=""><![CDATA[minimal]]></lines>
+<lines name="max" descr=""><![CDATA[maximal]]></lines>
+<lines name="deposit" descr=""><![CDATA[Up-front payment]]></lines>
+<lines name="page_header_step_3_have" descr=""><![CDATA[REAL ESTATE DESCRIPTION]]></lines>
+<lines name="page_header_step_3_sell" descr=""><![CDATA[REAL ESTATE DESCRIPTION]]></lines>
+<lines name="page_header_step_4_have" descr=""><![CDATA[UPLOAD PHOTO]]></lines>
+<lines name="page_header_step_5_have" descr=""><![CDATA[PREFERENCES]]></lines>
+<lines name="page_header_step_6" descr=""><![CDATA[ADDITIONAL COMMENT]]></lines>
+<lines name="page_header_step_6_have" descr=""><![CDATA[ADDITIONAL COMMENT]]></lines>
+<lines name="page_header_step_8" descr=""><![CDATA[HEADLINE]]></lines>
+<lines name="page_header_step_8_have" descr=""><![CDATA[HEADLINE]]></lines>
+<lines name="no_photos" descr=""><![CDATA[No photo]]></lines>
+<lines name="empty_result" descr=""><![CDATA[Empty search results]]></lines>
+<lines name="edit" descr=""><![CDATA[Edit]]></lines>
+<lines name="edit_descr" descr=""><![CDATA[Edit description]]></lines>
+<lines name="delete" descr=""><![CDATA[Remove]]></lines>
+<lines name="zip_code" descr=""><![CDATA[Zip-code]]></lines>
+<lines name="cross_streets" descr=""><![CDATA[On cross streets]]></lines>
+<lines name="adress" descr=""><![CDATA[Address]]></lines>
+<lines name="gender_wrong" descr=""><![CDATA[Too many values 'Gender' chosen!]]></lines>
+<lines name="occupation_wrong" descr=""><![CDATA[Too many values 'Occupation' chosen!]]></lines>
+<lines name="with_photo" descr=""><![CDATA[with photo]]></lines>
+<lines name="photo_exist" descr=""><![CDATA[Photo]]></lines>
+<lines name="video_exist" descr=""><![CDATA[Video]]></lines>
+<lines name="only_with" descr=""><![CDATA[Obligatory]]></lines>
+<lines name="who" descr=""><![CDATA[Who]]></lines>
+<lines name="w_need_room" descr=""><![CDATA[rent Real Estate]]></lines>
+<lines name="w_have_room" descr=""><![CDATA[lease Real Estate]]></lines>
+<lines name="add_rent_link_text" descr=""><![CDATA[Add listing]]></lines>
+<lines name="where_loc" descr=""><![CDATA[Location]]></lines>
+<lines name="more" descr=""><![CDATA[more]]></lines>
+<lines name="menu_rental_my_1" descr=""><![CDATA[Viewed my profile]]></lines>
+<lines name="menu_rental_my_2" descr=""><![CDATA[Added me into Hot List]]></lines>
+<lines name="menu_rental_my_3" descr=""><![CDATA[Interested in me]]></lines>
+<lines name="menu_rental_my_4" descr=""><![CDATA[Match me]]></lines>
+<lines name="menu_rental_his_1" descr=""><![CDATA[Viewed their profiles]]></lines>
+<lines name="menu_rental_his_2" descr=""><![CDATA[Added into Hot List]]></lines>
+<lines name="menu_rental_his_3" descr=""><![CDATA[Interested in them]]></lines>
+<lines name="menu_rental_his_4" descr=""><![CDATA[I match them]]></lines>
+<lines name="plan_text" descr=""><![CDATA[Upload planning photo]]></lines>
+<lines name="view" descr=""><![CDATA[View]]></lines>
+<lines name="location" descr=""><![CDATA[Location]]></lines>
+<lines name="no_ad" descr=""><![CDATA[No listing]]></lines>
+<lines name="ad_text_1" descr=""><![CDATA[About Real Estate]]></lines>
+<lines name="ad_text_1_2" descr=""><![CDATA[Desired Property Description]]></lines>
+<lines name="ad_text_2" descr=""><![CDATA[About myself]]></lines>
+<lines name="ad_text_3" descr=""><![CDATA[My preferences]]></lines>
+<lines name="ad_text_4" descr=""><![CDATA[Photo]]></lines>
+<lines name="ad_text_5" descr=""><![CDATA[Comments]]></lines>
+<lines name="ad_text_6" descr=""><![CDATA[Planning]]></lines>
+<lines name="people_count" descr=""><![CDATA[Total people]]></lines>
+<lines name="available_date" descr=""><![CDATA[Available from]]></lines>
+<lines name="home_text_4" descr=""><![CDATA[You are inactive user.]]></lines>
+<lines name="home_text_5" descr=""><![CDATA[Some site searvices can be unavailable for you.]]></lines>
+<lines name="home_text_6" descr=""><![CDATA[Activate]]></lines>
+<lines name="home_text_8" descr=""><![CDATA[You are an active user.]]></lines>
+<lines name="period_left" descr=""><![CDATA[days left]]></lines>
+<lines name="home_text_9" descr=""><![CDATA[Extend activity.]]></lines>
+<lines name="your_ad_is" descr=""><![CDATA[Your listing is]]></lines>
+<lines name="active" descr=""><![CDATA[Active]]></lines>
+<lines name="active_2" descr=""><![CDATA[Active up]]></lines>
+<lines name="inactive" descr=""><![CDATA[Inactive]]></lines>
+<lines name="activate" descr=""><![CDATA[Activate for search]]></lines>
+<lines name="activate_2" descr=""><![CDATA[Activate for search on period]]></lines>
+<lines name="activate_2_days" descr=""><![CDATA[days]]></lines>
+<lines name="deactivate" descr=""><![CDATA[Deactivate in search]]></lines>
+<lines name="subway_min" descr=""><![CDATA[Minimal Distance for subway]]></lines>
+<lines name="minutes" descr=""><![CDATA[minutes]]></lines>
+<lines name="for_agency" descr=""><![CDATA[for Real Estate agents]]></lines>
+<lines name="no_answer" descr=""><![CDATA[Leave without answer]]></lines>
+<lines name="not_filled" descr=""><![CDATA[not completed]]></lines>
+<lines name="get_bonus" descr=""><![CDATA[Complete listing and get bonus to your account]]></lines>
+<lines name="list_text_1" descr=""><![CDATA[You are registered as]]></lines>
+<lines name="user_type_1" descr=""><![CDATA[Private person]]></lines>
+<lines name="user_type_2" descr=""><![CDATA[Real Estate company]]></lines>
+<lines name="user_type_3" descr=""><![CDATA[Agent of Real Estate company]]></lines>
+<lines name="list_text_2" descr=""><![CDATA[Edit]]></lines>
+<lines name="list_text_3" descr=""><![CDATA[Your registration status]]></lines>
+<lines name="list_text_4_1" descr=""><![CDATA[Would you like to buy, sell, rent or lease Real Estate? ]]></lines>
+<lines name="list_text_4_2" descr=""><![CDATA[Add your listings]]></lines>
+<lines name="import_listings" descr=""><![CDATA[Import listings]]></lines>
+<lines name="true_delete_ad" descr=""><![CDATA[Are you sure you want to delete this listing?]]></lines>
+<lines name="list_text_5" descr=""><![CDATA[Added]]></lines>
+<lines name="list_text_6" descr=""><![CDATA[variants]]></lines>
+<lines name="list_text_7" descr=""><![CDATA[You can add or refresh your Real Estate database automatically via database import.<br>All added variants will be published with your registration data.<br>All other variants will be refreshed. Correspondence and leasers will be saved.]]></lines>
+<lines name="list_text_8" descr=""><![CDATA[Import/refresh database]]></lines>
+<lines name="list_text_9" descr=""><![CDATA[Your database is being uploaded. Please, wait]]></lines>
+<lines name="no_file_selected" descr=""><![CDATA[File is not selected]]></lines>
+<lines name="rent_type_1" descr=""><![CDATA[Rent type]]></lines>
+<lines name="rent_type_2" descr=""><![CDATA[For rent]]></lines>
+<lines name="sel_all_text" descr=""><![CDATA[Select all options]]></lines>
+<lines name="unsel_all_text" descr=""><![CDATA[Clear all options]]></lines>
+<lines name="unsel_radio_text" descr=""><![CDATA[Uncheck]]></lines>
+<lines name="page_header_step_5" descr=""><![CDATA[Upload photo]]></lines>
+<lines name="subway_name" descr=""><![CDATA[Subway name]]></lines>
+<lines name="add_type" descr=""><![CDATA[Listing type]]></lines>
+<lines name="add_type_need" descr=""><![CDATA[Rent Real Estate]]></lines>
+<lines name="add_type_have" descr=""><![CDATA[Lease Real Estate]]></lines>
+<lines name="add_type_buy" descr=""><![CDATA[Buy Real Estate]]></lines>
+<lines name="add_type_sell" descr=""><![CDATA[Sell Real Estate]]></lines>
+<lines name="from" descr=""><![CDATA[from]]></lines>
+<lines name="upto" descr=""><![CDATA[to]]></lines>
+<lines name="from_1" descr=""><![CDATA[from]]></lines>
+<lines name="upto_1" descr=""><![CDATA[to]]></lines>
+<lines name="auction_possible" descr=""><![CDATA[Price negotiating is possible]]></lines>
+<lines name="auction_inpossible" descr=""><![CDATA[Price negotiating is not possible]]></lines>
+<lines name="floor" descr=""><![CDATA[floor]]></lines>
+<lines name="floor_variants" descr=""><![CDATA[Offer only variants]]></lines>
+<lines name="floor_num_max_limitation" descr=""><![CDATA[Number of floors in the house should not exceed]]></lines>
+<lines name="property_floor_number" descr=""><![CDATA[Floor number]]></lines>
+<lines name="total_floor_num" descr=""><![CDATA[Total number of floors]]></lines>
+<lines name="of_floors" descr=""><![CDATA[floors]]></lines>
+<lines name="year_build" descr=""><![CDATA[Year of construction]]></lines>
+<lines name="account_subheader" descr=""><![CDATA[Information in this section is visible for other users. Added changes duplicate in all your listings.]]></lines>
+<lines name="account_about_me" descr=""><![CDATA[About myself]]></lines>
+<lines name="account_about_us" descr=""><![CDATA[About us]]></lines>
+<lines name="nickname" descr=""><![CDATA[Username]]></lines>
+<lines name="fname" descr=""><![CDATA[Your name]]></lines>
+<lines name="sname" descr=""><![CDATA[Your last name]]></lines>
+<lines name="birthday" descr=""><![CDATA[Date of birth]]></lines>
+<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+<lines name="phone" descr=""><![CDATA[Phone]]></lines>
+<lines name="incorrect_field" descr=""><![CDATA[Incorrect field]]></lines>
+<lines name="incorrect_date" descr=""><![CDATA[Incorrect date]]></lines>
+<lines name="login_exists" descr=""><![CDATA[username is already in use]]></lines>
+<lines name="email_exists" descr=""><![CDATA[E-mail is already in use]]></lines>
+<lines name="old_password" descr=""><![CDATA[Old password]]></lines>
+<lines name="new_password" descr=""><![CDATA[New password]]></lines>
+<lines name="new_password_verify" descr=""><![CDATA[Repeat password]]></lines>
+<lines name="wrong_password" descr=""><![CDATA[Wrong old password]]></lines>
+<lines name="company_name" descr=""><![CDATA[Company name]]></lines>
+<lines name="company_url" descr=""><![CDATA[Your site (url)]]></lines>
+<lines name="company_rent_count" descr=""><![CDATA[Number of Real Estate variants]]></lines>
+<lines name="company_how_know" descr=""><![CDATA[How did you find us]]></lines>
+<lines name="company_quests_comments" descr=""><![CDATA[Your questions and comments]]></lines>
+<lines name="work_days" descr=""><![CDATA[Work days]]></lines>
+<lines name="work_time" descr=""><![CDATA[Work time]]></lines>
+<lines name="lunch_time" descr=""><![CDATA[Lunch time]]></lines>
+<lines name="time_begin" descr=""><![CDATA[from]]></lines>
+<lines name="time_end" descr=""><![CDATA[to]]></lines>
+<lines name="private_person" descr=""><![CDATA[Private person]]></lines>
+<lines name="agency" descr=""><![CDATA[Real Estate agent]]></lines>
+<lines name="our_logo" descr=""><![CDATA[Your logo]]></lines>
+<lines name="no_answer" descr=""><![CDATA[Leave without answer]]></lines>
+<lines name="you_registered_as" descr=""><![CDATA[You are registered as]]></lines>
+<lines name="subheader" descr=""><![CDATA[Information in this section is visible for other users. Added changes duplicate in all your listings.]]></lines>	
+<lines name="about_buyer" descr=""><![CDATA[about buyer]]></lines>
+<lines name="about_leaser" descr=""><![CDATA[about tenant]]></lines>
+<lines name="place_text_1" descr=""><![CDATA[Listing is at ]]></lines>
+<lines name="place_text_2" descr=""><![CDATA[ place]]></lines>
+<lines name="place_text_3" descr=""><![CDATA[Listing is inactive and is not used in search]]></lines>
+<lines name="link_text_1" descr=""><![CDATA[Lift «up»?]]></lines>
+<lines name="link_text_2" descr=""><![CDATA[Select in search]]></lines>
+<lines name="link_text_3" descr=""><![CDATA[Select in region]]></lines>
+<lines name="viewed" descr=""><![CDATA[Viewed today]]></lines>
+<lines name="monthly" descr=""><![CDATA[for a month]]></lines>
+<lines name="page_header_step_upload_video" descr=""><![CDATA[Upload video]]></lines>
+<lines name="no_video" descr=""><![CDATA[No video]]></lines>
+<lines name="ad_text_video" descr=""><![CDATA[Video]]></lines>
+<lines name="video_word" descr=""><![CDATA[Use a form to upload video file from your computer to our site]]></lines>
+<lines name="zipcode" descr=""><![CDATA[Zip-code]]></lines>
+<lines name="add_comments" descr=""><![CDATA[Comments]]></lines>
+<lines name="please_choose" descr=""><![CDATA[Please choose]]></lines>
+<lines name="deactivate_file" descr=""><![CDATA[Deactivate]]></lines>
+<lines name="activate_file" descr=""><![CDATA[Activate]]></lines>
+<lines name="active_file" descr=""><![CDATA[Allowed for showing]]></lines>
+<lines name="inactive_file" descr=""><![CDATA[Hidden]]></lines>
+<lines name="upload_photo_limitations" descr=""><![CDATA[It is prohibited to upload:<ul><li>Photos of children and someone else's photos;</li><li>Photos of animals or cartoons;</li><li>Adult photos (obscene images).</li></ul>]]></lines>
+<lines name="upload_video_limitations" descr=""><![CDATA[It is prohibited to upload:<ul><li>Video files with children and someone else's videos;</li><li>Videos of animals;</li><li>Adult video (obscene videos).</li></ul>]]></lines>
+<lines name="photo_extensions" descr=""><![CDATA[Accepted file types]]></lines>
+<lines name="video_extensions" descr=""><![CDATA[Accepted file types]]></lines>
+<lines name="use_photo_approve" descr=""><![CDATA[Photo will be available and visible to site users after moderator approvement.]]></lines>
+<lines name="use_video_approve" descr=""><![CDATA[File will be available and visible to site users after moderator approvement.]]></lines>
+<lines name="admin_approve_not_complete" descr=""><![CDATA[The file wasn't approved by moderator yet]]></lines>
+<lines name="admin_approve_complete" descr=""><![CDATA[The file was approved by moderator]]></lines>
+<lines name="admin_approve_decline" descr=""><![CDATA[The file was blocked by moderator]]></lines>
+<lines name="sell_lease_need_pay" descr=""><![CDATA[Posting listings for sale and for lease is paid service.]]></lines>
+<lines name="go_to_sell_lease" descr=""><![CDATA[Go to payment page]]></lines>
+<lines name="activate_alert" descr=""><![CDATA[Before activation it is necessary to fill in obligatory fields in the section About Property.]]></lines>
+<lines name="private_ads_limit_intro" descr=""><![CDATA[Limitation is set for]]></lines>
+<lines name="private_ads_limit_message" descr=""><![CDATA[listings from private persons. Change the status in your profile from "Private person" to "Real Estate company" or to "Agent of Real Estate company" to be able to publish listings without limitations.]]></lines>
+<lines name="change_status" descr=""><![CDATA[Change status]]></lines>
+<lines name="your_ads_cnt" descr=""><![CDATA[you have created]]></lines>
+<lines name="listings" descr=""><![CDATA[listings]]></lines>
+<lines name="ads_limit_activate_alert" descr=""><![CDATA[To activate a listing, in your profile change status &quot;Private Person&quot; to &quot;Realtor&quot;.]]></lines>
+<lines name="your_ad_have" descr=""><![CDATA[your listing]]></lines>
+<lines name="your_ad_status_yes" descr=""><![CDATA[is displayed with status]]></lines>
+<lines name="your_ad_status_do_yes" descr=""><![CDATA[Display with status]]></lines>
+<lines name="your_ad_status_do_no" descr=""><![CDATA[Remove status]]></lines>
+<lines name="your_ad_status_sold" descr=""><![CDATA[Sold]]></lines>
+<lines name="your_ad_status_leased" descr=""><![CDATA[Leased]]></lines>
+<lines name="headline" descr=""><![CDATA[Headline]]></lines>
+<lines name="noheadline" descr=""><![CDATA[No headline]]></lines>
+<lines name="country" descr=""><![CDATA[Country]]></lines>
+<lines name="region" descr=""><![CDATA[Region]]></lines>
+<lines name="city" descr=""><![CDATA[City]]></lines>
+<lines name="address" descr=""><![CDATA[Address]]></lines>
+<lines name="zipcode" descr=""><![CDATA[Postal code]]></lines>
+<lines name="add_event" descr=""><![CDATA[Add booking period]]></lines>
+<lines name="adding_event" descr=""><![CDATA[Booking period addition]]></lines>
+<lines name="editing_event" descr=""><![CDATA[Booking period modification]]></lines>
+<lines name="add_time_period" descr=""><![CDATA[Indicate time frame for new booking period]]></lines>
+<lines name="start_date" descr=""><![CDATA[Book from]]></lines>
+<lines name="end_date" descr=""><![CDATA[Bоok till]]></lines>
+<lines name="reserved_yet" descr=""><![CDATA[Book periods]]></lines>
+<lines name="reserved_from" descr=""><![CDATA[Occupied from]]></lines>
+<lines name="reserved_to" descr=""><![CDATA[till]]></lines>
+<lines name="edit_time_period" descr=""><![CDATA[Enter new time frame for this period]]></lines>
+<lines name="time" descr=""><![CDATA[Time]]></lines>
+<lines name="view_calendar" descr=""><![CDATA[View in calendar]]></lines>
+<lines name="time_begin" descr=""><![CDATA[from]]></lines>
+<lines name="time_end" descr=""><![CDATA[till]]></lines>
+<lines name="empty" descr=""><![CDATA[Available]]></lines>
+<lines name="na_days" descr=""><![CDATA[Not available days]]></lines>
+<lines name="reserve_days" descr=""><![CDATA[Booked days]]></lines>
+<lines name="empty_days" descr=""><![CDATA[Available days]]></lines>
+<lines name="mark_ad" descr=""><![CDATA[Make listing featured]]></lines>
+<lines name="ad_in_search" descr=""><![CDATA[Activity in search]]></lines>
+<lines name="search_position" descr=""><![CDATA[Appearance in search results]]></lines>
+<lines name="back_to_ads_list" descr=""><![CDATA[&#171; Listings page]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Rent payment for 1 month]]></lines>
+<lines name="prev_month" descr=""><![CDATA[prev month]]></lines>
+<lines name="next_month" descr=""><![CDATA[next month]]></lines>
+<lines name="about_company" descr=""><![CDATA[About company]]></lines>
+<lines name="photo" descr=""><![CDATA[Photo]]></lines>
+<lines name="company_logo" descr=""><![CDATA[Company logo]]></lines>
+<lines name="no_approved" descr=""><![CDATA[not approved]]></lines>
+<lines name="back_to_edit" descr=""><![CDATA[&#171; To listing modification]]></lines>		
+<lines name="saved" descr=""><![CDATA[Saved]]></lines>		
+</data>

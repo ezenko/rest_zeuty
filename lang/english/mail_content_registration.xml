@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[Thank you for your registration on [site_name]]]></lines>
+<lines name="reg_congratulate" descr=""><![CDATA[We congratulate you on your registration on [site_name]]]></lines>
+<lines name="reg_params" descr=""><![CDATA[While registering you have entered the following data to access the site]]></lines>
+<lines name="login" descr=""><![CDATA[Login]]></lines>
+<lines name="password" descr=""><![CDATA[Password]]></lines>
+<lines name="confirmation_link" descr=""><![CDATA[Click this link, to confirm your registration]]></lines>
+</data>

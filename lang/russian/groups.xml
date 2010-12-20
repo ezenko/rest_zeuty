@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="1" descr="admin_group_name"><![CDATA[Администратор]]></lines>
+	<lines name="2" descr="guest_group_name"><![CDATA[Гость]]></lines>
+	<lines name="3" descr="free_users_group_name"><![CDATA[Бесплатные пользователи]]></lines>
+	<lines name="4" descr="paying_group_name"><![CDATA[Платные пользователи]]></lines>
+	<lines name="r" descr="type_name_1"><![CDATA[Администратор]]></lines>
+	<lines name="g" descr="type_name_2"><![CDATA[Гость]]></lines>
+	<lines name="d" descr="type_name_3"><![CDATA[По умолчанию]]></lines>
+	<lines name="f" descr="type_name_4"><![CDATA[&nbsp;]]></lines>
+</data>

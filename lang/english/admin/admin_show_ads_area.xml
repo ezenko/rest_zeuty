@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="show_ads_area_help" descr=""><![CDATA[You can setup the display of the listings on your site pages listed below.<br>Choose one of 2 available ways of listings display: by <B>4 listings </B>per a row (in the case we advise to set evenly even number for the value of the field &quot;Number of listings per a page&quot;, so that every row had 4 listings) or by a list (listings will follow one another, every listing is in a new row).]]></lines>		
+	<lines name="index" descr=""><![CDATA[Index page]]></lines>
+	<lines name="quick_search" descr=""><![CDATA[Search page]]></lines>		
+	<lines name="homepage" descr=""><![CDATA[My Real Estate]]></lines>		
+	<lines name="for_unregistered" descr=""><![CDATA[before registration]]></lines>
+	<lines name="for_registered" descr=""><![CDATA[after registration]]></lines>	
+	<lines name="show_as" descr=""><![CDATA[Show]]></lines>	
+	<lines name="row" descr=""><![CDATA[By rows]]></lines>
+	<lines name="list" descr=""><![CDATA[By list]]></lines>	
+	<lines name="ads_number" descr=""><![CDATA[Number of listings per a page]]></lines>		
+	<lines name="max_views" descr=""><![CDATA[Most popular by number of views]]></lines>	
+	<lines name="admin_choose" descr=""><![CDATA[Sponsored]]></lines>		
+	<lines name="last_added" descr=""><![CDATA[Latest added]]></lines>	
+	<lines name="off" descr=""><![CDATA[Make inactive]]></lines>		
+	<lines name="invalid_ads_number" descr=""><![CDATA[Number of listings should be a counting number starting with 1 upto ]]></lines>		
+	<lines name="positive_int_not_more_than" descr=""><![CDATA[Value of the field should be sa counting number no more than]]></lines>
+</data>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_header" descr=""><![CDATA[Параметры сайта]]></lines>
+	<lines name="page_subheader" descr=""><![CDATA[Настройки]]></lines>
+	<lines name="button_save" descr=""><![CDATA[Save]]></lines>
+	<lines name="section_admin" descr=""><![CDATA[Личный кабинет]]></lines>
+	<lines name="section_langedit" descr=""><![CDATA[Национальные языки сайта]]></lines>
+	<lines name="section_countries" descr=""><![CDATA[Поиск в странах]]></lines>
+	<lines name="section_site_mode" descr=""><![CDATA[Режим работы сайта]]></lines>
+	<lines name="site_email" descr=""><![CDATA[Email, на который будут<br>отправляться системные уведомления]]></lines>
+	<lines name="login" descr=""><![CDATA[Логин]]></lines>
+	<lines name="fname" descr=""><![CDATA[Имя]]></lines>
+	<lines name="sname" descr=""><![CDATA[Фамилия]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail, на который будут<br>отправляться сообщения, как владельцу объявлений]]></lines>
+	<lines name="phone" descr=""><![CDATA[Телефон]]></lines>
+	<lines name="you_registered_as" descr=""><![CDATA[Вы зарегистрированы как]]></lines>
+	<lines name="agency" descr=""><![CDATA[Риэлтор]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Имя компании]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Ваш сайт (url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Количество вариантов недвижимости]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Как вы узнали о нас]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Ваши вопросы и комментарии]]></lines>
+	<lines name="our_logo" descr=""><![CDATA[Логотип компании или Ваша фотография]]></lines>
+	<lines name="work_days" descr=""><![CDATA[Дни работы]]></lines>
+	<lines name="work_time" descr=""><![CDATA[Время работы]]></lines>
+	<lines name="lunch_time" descr=""><![CDATA[Обед]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+	<lines name="time_end" descr=""><![CDATA[до]]></lines>
+	<lines name="private_person" descr=""><![CDATA[Частное лицо]]></lines>
+	<lines name="birthday" descr=""><![CDATA[Дата рождения]]></lines>
+	<lines name="sel_all_text" descr=""><![CDATA[Выделить все опции]]></lines>
+	<lines name="unsel_all_text" descr=""><![CDATA[Снять все выделения]]></lines>
+	<lines name="unsel_radio_text" descr=""><![CDATA[Снять выделение]]></lines>
+	<lines name="no_answer" descr=""><![CDATA[оставить без ответа]]></lines>
+	<lines name="incorrect_field" descr=""><![CDATA[Некорректное поле]]></lines>
+	<lines name="incorrect_date" descr=""><![CDATA[Некорректная дата]]></lines>
+	<lines name="login_exists" descr=""><![CDATA[Имя пользователя уже используется]]></lines>
+	<lines name="email_exists" descr=""><![CDATA[E-mail уже используется]]></lines>
+	<lines name="section_uploads" descr=""><![CDATA[Uploads Settings]]></lines>
+	<lines name="thumb_image" descr=""><![CDATA[Предосмотр фотографий пользователя]]></lines>
+	<lines name="max_width" descr=""><![CDATA[Максимальная ширина в пикселях]]></lines>
+	<lines name="max_height" descr=""><![CDATA[Максимальная высота в пикселях]]></lines>
+	<lines name="max_size" descr=""><![CDATA[Максимальный размер в килобайтах]]></lines>
+	<lines name="photo_max_user_count" descr=""><![CDATA[Максимальное количество фотографий на 1 объявление во вкладке "Фотографии"]]></lines>
+	<lines name="plan_photo_max_user_count" descr=""><![CDATA[Максимальное количество фотографий на 1 объявление во вкладке "Планировка"]]></lines>
+	<lines name="other" descr=""><![CDATA[Other]]></lines>
+	<lines name="use_image_resize" descr=""><![CDATA[Использовать автоматическую подгонку размера (ресайз) изображений]]></lines>
+	<lines name="video" descr=""><![CDATA[Видеоролики пользователя]]></lines>
+	<lines name="use_video_approve" descr=""><![CDATA[Модерация загружаемых видеороликов (при отключении все не рассмотренные файлы автоматически одобряются для показа)]]></lines>
+	<lines name="photos" descr=""><![CDATA[Фотографии пользователя]]></lines>
+	<lines name="use_photo_approve" descr=""><![CDATA[Модерация загружаемых фотографий (при отключении все не рассмотренные файлы автоматически одобряются для показа)]]></lines>
+	<lines name="photo_folder" descr=""><![CDATA[Фотографии пользователей]]></lines>
+	<lines name="default_photo" descr=""><![CDATA[Default photo]]></lines>
+	<lines name="button_upload" descr=""><![CDATA[Upload]]></lines>
+	<lines name="section_icons" descr=""><![CDATA[Icons]]></lines>
+	<lines name="icons_folder" descr=""><![CDATA[Icons folder]]></lines>
+	<lines name="no_icons" descr=""><![CDATA[No icons! You can add icons using the fom below]]></lines>
+	<lines name="delete" descr=""><![CDATA[Delete]]></lines>
+	<lines name="show_this_icon" descr=""><![CDATA[Show this icon]]></lines>
+	<lines name="upload_icon" descr=""><![CDATA[Upload icon]]></lines>
+	<lines name="edit_langfiles" descr=""><![CDATA[Редактирование языковых файлов]]></lines>
+	<lines name="select_langfile" descr=""><![CDATA[Выберите языковой файл]]></lines>
+	<lines name="description" descr=""><![CDATA[Description]]></lines>
+	<lines name="link_on" descr=""><![CDATA[Link on]]></lines>
+	<lines name="value" descr=""><![CDATA[Значения]]></lines>
+	<lines name="choose_language" descr=""><![CDATA[Выберите языковую версию &#187;]]></lines>
+	<lines name="choose_part" descr=""><![CDATA[Я хочу изменить &#187;]]></lines>
+	<lines name="default_language" descr=""><![CDATA[Язык сайта по умолчанию]]></lines>
+	<lines name="default_site_language" descr=""><![CDATA[Доступные языковые версии сайта]]></lines>
+	<lines name="new_site_language" descr=""><![CDATA[Добавить новую языковую версию сайта]]></lines>
+	<lines name="new_name" descr=""><![CDATA[Название языка]]></lines>
+	<lines name="slideshow" descr=""><![CDATA[Слайдшоу]]></lines>
+	<lines name="slideshow_folder" descr=""><![CDATA[Слайдшоу фотографий]]></lines>
+	<lines name="password" descr=""><![CDATA[Пароль]]></lines>
+	<lines name="new_password" descr=""><![CDATA[Новый пароль]]></lines>
+	<lines name="repassword" descr=""><![CDATA[Повтор пароля]]></lines>
+	<lines name="oldpassword" descr=""><![CDATA[Старый пароль]]></lines>
+	<lines name="index_theme_path" descr=""><![CDATA[Дизайн-тема раздела пользователя]]></lines>
+	<lines name="admin_theme_path" descr=""><![CDATA[Дизайн-тема раздела администратора]]></lines>
+	<lines name="index_theme_css_path" descr=""><![CDATA[CSS]]></lines>
+	<lines name="index_theme_images_path" descr=""><![CDATA[Изображения]]></lines>
+	<lines name="menu_path" descr=""><![CDATA[Меню]]></lines>
+	<lines name="use_registration_confirmation" descr=""><![CDATA[Использовать подтверждение регистрации]]></lines>
+	<lines name="admin_rows_per_page" descr=""><![CDATA[Строк в различных таблицах раздела администратора]]></lines>
+	<lines name="news_per_page" descr=""><![CDATA[Новостей в разделе пользователя]]></lines>
+	<lines name="date_format" descr=""><![CDATA[Формат даты]]></lines>
+	<lines name="users_num_page" descr=""><![CDATA[Пользователей в разделе пользователя (на страницах Черный список, Избранное, и т.п.)]]></lines>
+	<lines name="reference_numpage" descr=""><![CDATA[Справочников в разделе администратора]]></lines>
+	<lines name="min_age_limit" descr=""><![CDATA[Минимальный возраст]]></lines>
+	<lines name="max_age_limit" descr=""><![CDATA[Максимальный возраст]]></lines>
+	<lines name="ads_num_page" descr=""><![CDATA[Объявлений в разделе пользователя (в списке объявлений пользователя, при поиске)]]></lines>
+	<lines name="max_ads_admin" descr=""><![CDATA[Количество объявлений на странице в разделе администратора]]></lines>
+	<lines name="admin_user_ads_numpage" descr=""><![CDATA[Объявлений поиска в разделе администратора]]></lines>
+	<lines name="section_misc" descr=""><![CDATA[Разное]]></lines>
+	<lines name="one_country_text" descr=""><![CDATA[Cтрана по умолчанию в формах поиска]]></lines>
+	<lines name="countries" descr=""><![CDATA[Установленные страны]]></lines>
+	<lines name="change_countries" descr=""><![CDATA[Изменить список стран в поиске]]></lines>
+	<lines name="countries_not_installed" descr=""><![CDATA[Ни одна страна не установлена, для работоспособности сайта необходимо установить хотя бы одну страну.]]></lines>
+	<lines name="install_countries" descr=""><![CDATA[Перейти на страницу установки стран.]]></lines>
+	<lines name="turn_on" descr=""><![CDATA[Включить]]></lines>
+	<lines name="turn_off" descr=""><![CDATA[Выключить]]></lines>
+	<lines name="settings_admin_help" descr=""><![CDATA[Вы можете изменить информацию администратора: пароль доступа, e-mail для получения служебных сообщений, ваши персональные данные. Язык интерфейса - это язык, на который переключается интерфейс сайта после авторизации, все системные сообщения на Ваш личный Email присылаются на этом же языке.]]></lines>
+	<lines name="settings_countries_help" descr=""><![CDATA[Укажите страны, в которых ваши посетители будут проводить операции по недвижимости.<br>Если вы хотите, чтобы одна из стран была по умолчанию выбрана во всех формах поиска на сайте, выберите ее в списке и отметьте опцию "Cтрана по умолчанию в формах поиска".<br>Через опцию "Изменить список стран в поиске" вы можете добавить или удалить нужные страны.]]></lines>
+	<lines name="settings_langedit_help" descr=""><![CDATA[Здесь вы можете изменить доступность языковых версий сайта для ваших пользователей, а также создать новую версию сайта, например, немецкую, французскую, испанскую. Пользователи сайта имеют возможность переключения между языковыми версиями сайта, отмеченными в списке доступных версий.<br>При добавлении языковой версии сайта все языковые файлы нового языка коприуются из папки с файлами для английского языка, поэтому после добавления новой языковой версии сайта вам следует перейти в раздел "Редактирование меню и содержания" для перевода файлов нового языка.]]></lines>
+	<lines name="settings_langeditfile_help" descr=""><![CDATA[Здесь происходит изменение информационного содержания сайта в пользовательской части и части администратора (изменение языковых версий сайта).]]></lines>
+	<lines name="settings_misc_help" descr=""><![CDATA[Настройка различных параметров сайта.]]></lines>
+	<lines name="settings_thumb_image_help" descr=""><![CDATA[Размер фотографии пользователя в объявлении при выводе результатов поиска. Уменьшенная копия первой из загруженных пользователем фотографии.]]></lines>
+	<lines name="settings_photos_help" descr=""><![CDATA[Параметры показа фотографий пользователя в объявлении, вкладки "Фотографии" и "Планировка".]]></lines>
+	<lines name="settings_video_help" descr=""><![CDATA[Параметры показа видеороликов пользователя в объявлении, вкладка "Видео".]]></lines>
+	<lines name="settings_slideshow_help" descr=""><![CDATA[Параметры показа слайдшоу фотографий пользователей, воспользовавшихся платной услугой "Выделить объявление в поиске".]]></lines>
+	<lines name="settings_icons_help" descr=""><![CDATA[Часто пользователи публикуют свои объявления без фотографий. Это снижает привлекательность вашего сайта и объявлений пользователя. Для исправления этой ситуации система автоматически вставляет иконку, соответствующую категории пользователя, в его объявление.<br>Вы можете заменить иконки системы на новые.]]></lines>
+	<lines name="settings_site_mode_help" descr=""><![CDATA[Выберите нужный режим работы сайта. <br><br>Сайт может работать в 3-х режимах:<ol><li>Портал Недвижимости</li><li>Сайт компании по работе с недвижимостью</li><li>Ваш собственный режим</li></ol>Полная версия сайта - это режим <b>Портал Недвижимости</b>.<br><br>В режиме <b>Сайт компании по работе с недвижимостью</b> отключены (не отображаются), некоторые разделы и ссылки.<br>Особенности режима:<ol><li>Регистрация для внешних пользователей невозможна. Скрыты все сообщения о необходимости пройти регистрацию, например, для доступа к контактной информации владельцев объявлений, вместо сообщения выводятся контакты.</li><li>Администратор может добавить пользователя-риэлтора в интерфейсе администратора. Добавленный пользователь может залогиниться на сайт из формы логина администратора, при этом он попадёт в часть сайта для зарегистрированных пользователей. Эта область похожа на область для зарегистрированных пользователей режима "Портал Недвижимости" с ограниченными возможностями. Здесь новый пользователь сможет разместить свои объявления.</li><li>На сайте возможно размещение объявлений только о продаже или сдаче в аренду недвижимости.</li><li>В формах поиска указываются операции только о покупке и аренде недвижимости.</li><li>Недоступны платные услуги.</li><li>Недоступно занесение объявлений в избранное, чёрный список, возможноcть "выразить интерес" к объявлению.</li><li>При просмотре объявления пользователь может отправить письмо на личный E-mail владельцу объявления (при этом E-mail скрыт и в формах не отображается). Раздел "Мои сообщения" недоступен, т.к. его использование предполагает прохождение регистрации, недоступной в данном режиме.</li></ol>Настройки первых двух режимов не доступны для изменений, но Вы можете переключиться в <b>Ваш собственный режим</b>, и настроить его в соответствии с предназначением Вашего сервиса. Если Вы <u>отключаете платные услуги</u>, проверьте, имеют ли доступ ко всем модулям пользователи Бесплатной группы.<br>Если Вы отключите некоторые из типов операций (продажа, покупка, сдача в аренду, аренда), то при редактировании объявлений этих типов пользователям будет предложено сохранить их под другим типом операции).<br><br>В случае переключения режима сайта вся ранее внесенная информация сохраняется и быстро восстанавливается после переключения обратно.<br><br>Для добавления объявлений о недвижимости в режиме "Сайт компании по работе с недвижимостью" или "Ваш собственный режим", если вы сделали недоступной регистрацию, добавьте пользователя - <u>риэлтора</u> или <u>агента компании</u> в интерфейсе администратора.]]></lines>
+	<lines name="edit_part_user" descr=""><![CDATA[содержание пользовательского раздела]]></lines>
+	<lines name="edit_part_admin" descr=""><![CDATA[содержание раздела администратора]]></lines>
+	<lines name="edit_part_menu" descr=""><![CDATA[названия меню в разделе пользователя]]></lines>
+	<lines name="settings_path" descr=""><![CDATA[Пути загрузки файлов]]></lines>
+	<lines name="settings_num_at_page" descr=""><![CDATA[Количество выводимых на страницу]]></lines>
+	<lines name="settings_age" descr=""><![CDATA[Поле "Возраст" в разделе пользователей. Дата]]></lines>
+	<lines name="settings_other" descr=""><![CDATA[Прочее]]></lines>
+	<lines name="settings_icons" descr=""><![CDATA[Иконки пользователя]]></lines>
+	<lines name="default_photo_male" descr=""><![CDATA[Мужчина]]></lines>
+	<lines name="default_photo_female" descr=""><![CDATA[Женщина]]></lines>
+	<lines name="default_photo_fwithc" descr=""><![CDATA[Семья с детьми]]></lines>
+	<lines name="default_photo_fwithoutc" descr=""><![CDATA[Семья без детей]]></lines>
+	<lines name="default_photo_agency" descr=""><![CDATA[Риэлтор]]></lines>
+	<lines name="default_photo_man" descr=""><![CDATA[Пол не указан]]></lines>
+	<lines name="choose_site_mode" descr=""><![CDATA[Выберите режим работы сайта]]></lines>
+	<lines name="service" descr=""><![CDATA[Портал Недвижимости]]></lines>
+	<lines name="separate_reagent" descr=""><![CDATA[Сайт компании по работе с недвижимостью]]></lines>
+	<lines name="hide_features" descr=""><![CDATA[Список недоступных(скрытых) разделов и функций]]></lines>
+	<lines name="admin_defined" descr=""><![CDATA[Ваш собственный режим]]></lines>
+	<lines name="show_contact_for_free_users" descr=""><![CDATA[Показ контактной информации в объявлениях зарегистрированным пользователям, находящимся в бесплатной группе]]></lines>
+	<lines name="show_contact_for_unreg_users" descr=""><![CDATA[Показ контактной информации в объявлениях незарегистрированным пользователям]]></lines>
+	<lines name="section_maps" descr=""><![CDATA[Географические карты]]></lines>
+	<lines name="settings_maps_help" descr=""><![CDATA[Выберите используемый на Вашем сайте сервис географических карт местности. Установите значение ключа для использования сервиса и сохраните изменения.]]></lines>
+	<lines name="google" descr=""><![CDATA[<a href=http://code.google.com/apis/maps/signup.html target="blank">Google Maps</a>]]></lines>
+	<lines name="yahoo" descr=""><![CDATA[<a href=http://maps.yahoo.com/ target="blank">Yahoo Maps</a>]]></lines>
+	<lines name="mapquest" descr=""><![CDATA[<a href=http://www.mapquest.com/ target="blank">MapQuest</a>]]></lines>
+	<lines name="microsoft" descr=""><![CDATA[<a href=http://maps.live.com/ target="blank">Microsoft Virtual Earth</a>]]></lines>
+	<lines name="app_id_not_used" descr=""><![CDATA[не требуется]]></lines>
+	<lines name="maps_used" descr=""><![CDATA[Использовать]]></lines>
+	<lines name="maps_name" descr=""><![CDATA[Название]]></lines>
+	<lines name="maps_app_id" descr=""><![CDATA[Ключ для использования сервиса]]></lines>
+	<lines name="use_maps_in_viewprofile" descr=""><![CDATA[Показывать карту при просмотре полного описания объвления]]></lines>
+	<lines name="use_maps_in_search_results" descr=""><![CDATA[Показывать карту в результатах поиска  (только для Google Maps)]]></lines>
+	<lines name="add_new_language_help" descr=""><![CDATA[<p>Для добавления нового языка введите латинскими буквами название языка в соответствующее поле и выберите базовый язык, файлы которого станут основой для перевода на добавленный вами язык.</p><p>Допустим, вы хотите добавить французский язык, а переводить на французский вы предпочитаете с английского.<br>Наберите в поле название языка french. Выберите в качестве базового языка английский.<br> После нажатия на кнопку сохранения произойдет следующее:<ul><li>в папке /lang будет создана папка с названием нового языка /french, в которую будут скопированы все файлы английского языка (/lang/english);</li><li>в файлы /menu/lang_menu.xml, /menu/admin_lang_menu.xml каждого из существующих в системе языков, будет добавлена строка french.</li></ul>После добавления языка вам предстоит:<ul><li>для каждого языка перевести строку french в файлах /menu/lang_menu.xml, /menu/admin_lang_menu.xml (относящемуся к файлам в меню "названия меню в разделе пользователя" при выборе раздела для редактирования языковой версии);</li><li>перевести все файлы языка french.</li></ul></p> ]]></lines>
+	<lines name="base_language" descr=""><![CDATA[Базовый язык]]></lines>
+	<lines name="confirm_delete" descr=""><![CDATA[Вы уверены, что хотите удалить языковую версию сайта]]></lines>
+	<lines name="password_change" descr=""><![CDATA[Изменение пароля]]></lines>
+	<lines name="admin_info" descr=""><![CDATA[Изменение личных данных]]></lines>
+	<lines name="private_person_ads_limit" descr=""><![CDATA[Лимит объявлений для частых лиц]]></lines>
+	<lines name="settings_private_person_ads_limit_help" descr=""><![CDATA[Вы можете установить ограничение на количество публикуемых объявлений для частных лиц. Например, John Smith, частное лицо, не сможет опубликовать более 3-х объявлений. Ему будет предложено именить в своем профайле статус "Частное лицо" на "Риэлтор" или на "Агент". После смены статуса ограничение на количество объявлений снимается. <br>Ввод ограничения полезен для получения более точной статистики по количеству риэлторов и частных лиц среди пользователей Вашего сервиса.]]></lines>
+	<lines name="use_private_person_ads_limit" descr=""><![CDATA[Лимит объявлений для частых лиц]]></lines>
+	<lines name="number_private_person_ads_limit" descr=""><![CDATA[Количество объявлений]]></lines>
+	<lines name="section_server_errors" descr=""><![CDATA[Ошибки сервера]]></lines>
+	<lines name="settings_server_errors_help" descr=""><![CDATA[В этом разделе Вы можете отредактировать сообщения, которые увидят пользователи сервиса при возникновении ошибок сервера, указанных в таблице. Вы можете перевести текст сообщения на все языки сервиса, переключаясь по ссылкам с названиями языков в cтроке "Язык интерфейса".<br>В столбце "Сообщение для пользователя" редактируется сообщение, которое увидит пользователь при возникновении ошибки. Если Вы захотите вернуть текст сообщения, отображаемый для страницы по умолчанию, нажмите на кнопку "Установить" в столбце "Сообщение по умолчанию". Для сохранения текста отредактированных сообщений нажмите на кнопку "Сохранить".<br>Чтобы увидеть, как будет выглядить страница ошибки сервера для пользователя, нажмите на кнопку "Просмотреть" , и страница с ошибкой откроется в новом окне.]]></lines>
+	<lines name="interface_lang" descr=""><![CDATA[Язык интерфейса]]></lines>
+	<lines name="position_number" descr=""><![CDATA[Код ошибки]]></lines>
+	<lines name="description" descr=""><![CDATA[Описание]]></lines>
+	<lines name="error_message" descr=""><![CDATA[Сообщение для пользователя]]></lines>
+	<lines name="error_to_default" descr=""><![CDATA[Сообщение по умолчанию]]></lines>
+	<lines name="page_preview" descr=""><![CDATA[Просмотр]]></lines>
+	<lines name="metatag_page" descr=""><![CDATA[Страница]]></lines>
+	<lines name="metatag_title" descr=""><![CDATA[Заголовок]]></lines>
+	<lines name="metatag_description" descr=""><![CDATA[Описание]]></lines>
+	<lines name="metatag_keywords" descr=""><![CDATA[Ключевые слова]]></lines>
+	<lines name="section_metatags" descr=""><![CDATA[SEO метатеги страниц]]></lines>
+	<lines name="settings_metatags_help" descr=""><![CDATA[Проведите поисковую оптимизацию сайта - задайте значения основных метатегов (Title, Keywords и Description) для каждой страницы. Вы можете перевести метатеги на все языки сервиса, переключаясь по ссылкам с названиями языков в cтроке "Язык интерфейса".<br>Чтобы увидеть страницу, для которой Вы редактируете метатеги, нажмите на кнопку "Просмотреть" , и страница откроется в новом окне.<br>Нажмите на кнопку "Сохранить" для сохранения изменённых значений.]]></lines>
+	<lines name="section_watermark" descr=""><![CDATA[Настройки watermark]]></lines>
+	<lines name="settings_watermark_help" descr=""><![CDATA[В этом разделе вы можете включать watermark на загружаемые изображения, а также производить настройку параметров.]]></lines>
+	<lines name="name_watermark" descr=""><![CDATA[Watermark]]></lines>
+	<lines name="use_watermark" descr=""><![CDATA[Watermark для фото]]></lines>
+	<lines name="resize_watermark" descr=""><![CDATA[Параметры resize watermark]]></lines>
+	<lines name="width_watermark" descr=""><![CDATA[Ширина]]></lines>
+	<lines name="height_watermark" descr=""><![CDATA[Высота]]></lines>
+	<lines name="pixels" descr=""><![CDATA[пикселей]]></lines>
+	<lines name="text_watermark" descr=""><![CDATA[Используя текст]]></lines>
+	<lines name="image_watermark" descr=""><![CDATA[Используя изображение]]></lines>
+	<lines name="watermark_to_default" descr=""><![CDATA[Настройки по умолчанию]]></lines>
+	<lines name="current_watermark" descr=""><![CDATA[Текущая watermark]]></lines>
+	<lines name="create_watermark" descr=""><![CDATA[Создать watermark]]></lines>
+	<lines name="watermark_on" descr=""><![CDATA[Включен]]></lines>
+	<lines name="watermark_off" descr=""><![CDATA[Выключен]]></lines>
+	<lines name="section_logotype" descr=""><![CDATA[Логотип]]></lines>
+	<lines name="settings_logotype_help" descr=""><![CDATA[В этом разделе вы можете изменить стандартные изображения логотипов и слогана, а также альтернативные тексты для них, на Ваши собственные. При сохранении загруженных Вами изображений система автоматически обрезает их до подходящих под стандартный дизайн размеров.<br>Для каждой языковой версии сайта можно задать уникальные настройки логотипов, переключаясь по ссылкам с названиями языков в cтроке "Язык интерфейса".]]></lines>
+	<lines name="logotype" descr=""><![CDATA[Логотип (главный)]]></lines>
+	<lines name="homelogo" descr=""><![CDATA[Логотип (на главной странице зарегистрированного пользователя)]]></lines>
+	<lines name="slogan" descr=""><![CDATA[Слоган (на главной странице зарегистрированного пользователя)]]></lines>
+	<lines name="alt_text" descr=""><![CDATA[Альтернативный текст]]></lines>
+	<lines name="download_new" descr=""><![CDATA[Загрузить новый]]></lines>
+	<lines name="preview" descr=""><![CDATA[Просмотр главной страницы]]></lines>
+	<lines name="preview_index" descr=""><![CDATA[До регистрации]]></lines>
+	<lines name="preview_homepage" descr=""><![CDATA[После регистрации (Мой RealEstate)]]></lines>
+	<lines name="logo_image" descr=""><![CDATA[Изображение]]></lines>
+	<lines name="logo_to_default" descr=""><![CDATA[Настройки по умолчанию]]></lines>
+	<lines name="price_format" descr=""><![CDATA[Формат вывода цен]]></lines>
+	<lines name="settings_price_format_help" descr=""><![CDATA[Разделитель тысяч в отображении цен]]></lines>
+	<lines name="thousands_separator" descr=""><![CDATA[Разделитель]]></lines>
+	<lines name="space_sep" descr=""><![CDATA[Пробел]]></lines>
+	<lines name="empty_sep" descr=""><![CDATA[Без разделителя]]></lines>
+	<lines name="comma_sep" descr=""><![CDATA[Запятая]]></lines>
+	<lines name="example" descr=""><![CDATA[Пример]]></lines>
+	<lines name="use_sold_leased_status" descr=""><![CDATA[Использовать статусы "Продано" и "Сдано в аренду"]]></lines>
+	<lines name="sold_leased_status" descr=""><![CDATA[Cтатусы "Продано" и "Сдано в аренду"]]></lines>
+	<lines name="sold_leased_status_help" descr=""><![CDATA[Используйте переключатель для того чтобы установить возможность присвоения объявлениям статусов "Продано" и "Сдано в аренду". Такие объявления так же будут участвовать в поиске и отображаться в его результатах. Их статус будет отмечен специальной иконкой рядом с объявлением. При отключении этого статуса, все объявления, имевшие статус "Продано" или "Сдано в аренду" становятся неактивными и не участвуют в поиске.]]></lines>
+	<lines name="interface_language" descr=""><![CDATA[Язык интерфейса]]></lines>
+	<lines name="headline_preview" descr=""><![CDATA[Приветствия в описании объявлений]]></lines>
+	<lines name="headline_preview_help" descr=""><![CDATA[Приветствие отображается в блоке описания объявления при поиске. Отображается только некоторое количество символов, которое задается ниже.]]></lines>
+	<lines name="headline_preview_size" descr=""><![CDATA[Количество отображаемых символов приветствия(headline)]]></lines>
+	<lines name="ads_activity_period" descr=""><![CDATA[Период активности объявлений]]></lines>
+	<lines name="ads_activity_period_help" descr=""><![CDATA[Укажите период публикации объявления с момента его активирования в результатах поиска. По истечении срока оно автоматически выключится из показов. Соответственно не будет видно в результатах поиска. Чтобы его показывать вновь клиент должен его вручную в показ через ссылку "Сделать доступным для поиска на <указанное вами число> дней". Это ограничение не влияет на объявления со статусом "Продано". Для их выключения требуется ручная деактивация.]]></lines>
+	<lines name="use_ads_activity_period" descr=""><![CDATA[Использовать период активности объявлений]]></lines>
+	<lines name="ads_activity_period_indays" descr=""><![CDATA[Период активности объявлений в днях]]></lines>
+	<lines name="ffmpeg_module" descr=""><![CDATA[Модуль ffmpeg]]></lines>
+	<lines name="settings_ffmpeg_module_help" descr=""><![CDATA[Укажите максимальный размер загружаемых файлов и допустимую продолжительность. Чем больше размер файла тем выше качество. Все загружаемые видеоролики конвертируются в формат .FLV.]]></lines>
+	<lines name="use_ffmpeg" descr=""><![CDATA[Используйте ffmpeg модуль]]></lines>
+	<lines name="path_to_ffmpeg" descr=""><![CDATA[Путь до ffmpeg модуля (Video2Flash опция):]]></lines>
+	<lines name="flv_output_dimension" descr=""><![CDATA[Flv выходное расширение]]></lines>
+	<lines name="flv_output_audio_sampling_rate" descr=""><![CDATA[Flv выходная частота сэмплирования звука]]></lines>
+	<lines name="flv_output_audio_bit_rate" descr=""><![CDATA[Flv выходной аудио битрэйт звука]]></lines>
+	<lines name="flv_output_foto_dimension" descr=""><![CDATA[Flv выходное расширение фото]]></lines>
+	<lines name="ffmpeg_empty_parameter" descr=""><![CDATA[Параметры ffmpeg модуля пусты]]></lines>
+	<lines name="example_path_to_ffmpeg" descr=""><![CDATA[/usr/bin/ffmpeg/]]></lines>
+	<lines name="example_flv_output_dimension" descr=""><![CDATA[320x240]]></lines>
+	<lines name="example_flv_output_audio_sampling_rate" descr=""><![CDATA[44100]]></lines>
+	<lines name="example_flv_output_audio_bit_rate" descr=""><![CDATA[12]]></lines>
+	<lines name="example_flv_output_foto_dimension" descr=""><![CDATA[120x72]]></lines>
+	<lines name="video_max_user_count" descr=""><![CDATA[Максимальное количество видеороликов на 1 объявление во вкладке "Видео"]]></lines>
+	<lines name="country" descr=""><![CDATA[Страна]]></lines>
+	<lines name="region" descr=""><![CDATA[Регион]]></lines>
+	<lines name="city" descr=""><![CDATA[Город]]></lines>
+	<lines name="address" descr=""><![CDATA[Адрес]]></lines>
+	<lines name="zipcode" descr=""><![CDATA[Индекс]]></lines>
+	<lines name="ip_country" descr=""><![CDATA[Выберите страну...]]></lines>
+	<lines name="ip_region" descr=""><![CDATA[Выберите регион...]]></lines>
+	<lines name="ip_load_region" descr=""><![CDATA[Загрузка регионов...]]></lines>
+	<lines name="ip_city" descr=""><![CDATA[Выберите город...]]></lines>
+	<lines name="ip_load_city" descr=""><![CDATA[Загрузка городов...]]></lines>
+	<lines name="settings_sq_format_help" descr=""><![CDATA[Используемая на сайте единица измерения площади]]></lines>
+	<lines name="sq_format" descr=""><![CDATA[Единица измерения площади]]></lines>
+	<lines name="settings_sq_format_help" descr=""><![CDATA[Используемая на сайте единица измерения площади]]></lines>
+	<lines name="use_maps_in_account" descr=""><![CDATA[Показывать карту при редактировании профайла пользователя ]]></lines>
+	<lines name="account_subscribtion" descr=""><![CDATA[Я хочу получать уведомления]]></lines>
+	<lines name="agent_of_agency" descr=""><![CDATA[Агент компании]]></lines>
+	<lines name="choose_company" descr=""><![CDATA[Выбрать компанию]]></lines>
+	<lines name="hint_3" descr=""><![CDATA[Вам необходимо выбрать компанию, агентом которой вы хотите стать. На почтовой ящик этой компании придет письмо для подтверждения/отклонения вашей персоны как агента. Если вы уже являетесь агентом какой либо компании или подали заявку на это, то вы можете удалить эту компанию как своего риэлтора или, соответственно, отозвать заявку. В этом случае вы станете свободным агентом и любая компания сможет присылать вам приглашения стать их агентом. В случае если сейчас вы не являетесь агентом какой либо компании и не подавали заявок, то можете оставить это поле пустым. Так вы станете свободным агентом. Также вы можете сменить компанию. В этом случае на электронный адрес предыдущей компании придет письмо о том, что вы больше не являетесь ее агентом.]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Выбор компании]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Поиск пользователя]]></lines>
+	<lines name="search_help" descr=""><![CDATA[Для поиска введите идентифицирующие пользователя данные: имя, фамилия,  название компании.]]></lines>
+	<lines name="number" descr=""><![CDATA[№]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Имя]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Объявления]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Пополнение счета]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Название компании]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[По вашему запросу ничего не найдено]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Отсутствуют]]></lines>
+	<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+	<lines name="not_approve" descr=""><![CDATA[Компания еще не обработала вашу заявку на предмет сотрудничества]]></lines>
+	<lines name="your_photo" descr=""><![CDATA[Ваша фотография]]></lines>
+	<lines name="agency_url" descr=""><![CDATA[Сайт(url) компании]]></lines>
+	<lines name="agency_logo" descr=""><![CDATA[Логотип компании]]></lines>
+	<lines name="location" descr=""><![CDATA[Расположение]]></lines>
+	<lines name="need_delete_realtor" descr=""><![CDATA[Для того чтобы поменять свой тип вам необходимо удалить себя из списка агентов компании ]]></lines>
+	<lines name="need_delete_agents" descr=""><![CDATA[Для того чтобы поменять свой тип вам необходимо очистить свой список агентов]]></lines>
+	<lines name="delete_agents" descr=""><![CDATA[Перед деактивацией своего аккаунта необходимо очистить список своих агентов]]></lines>
+	<lines name="delete_realtor" descr=""><![CDATA[Перед деактивацией своего аккаунта необходимо удалить себя из списка агентов]]></lines>
+	<lines name="decline_company" descr=""><![CDATA[Отозвать предложение компании]]></lines>
+	<lines name="change_company" descr=""><![CDATA[Изменить компанию]]></lines>
+	<lines name="delete_company" descr=""><![CDATA[Удалить компанию]]></lines>
+	<lines name="na_agency_1" descr=""><![CDATA[Компания]]></lines>
+	<lines name="na_agency_2" descr=""><![CDATA[не найдена]]></lines>
+	<lines name="na_agency_3" descr=""><![CDATA[Пустое поле недопустимо]]></lines>
+	<lines name="admin_approve_not_complete" descr=""><![CDATA[Администратор ещё не одобрил файл]]></lines>
+	<lines name="admin_approve_decline" descr=""><![CDATA[Администратор запретил файл для показа]]></lines>
+	<lines name="with_company_1" descr=""><![CDATA[С компанией]]></lines>
+	<lines name="with_company_2" descr=""><![CDATA[у вас уже установлен контакт.]]></lines>
+	<lines name="incorrect_time_interval" descr=""><![CDATA[Не правильно указан интервал]]></lines>
+	<lines name="search_string_help" descr=""><![CDATA[Форма поиска определенной строки по всем языковым файлам указанной языковой версии сайта (может быть очень полезна, если Вы хотите заменить определённое слово или предложение во всех языковых файлах).]]></lines>
+	<lines name="search_for_title" descr=""><![CDATA[Поиск]]></lines>
+	<lines name="in_lang" descr=""><![CDATA[в]]></lines>
+	<lines name="site_version" descr=""><![CDATA[языковой версии]]></lines>
+	<lines name="find_in" descr=""><![CDATA[Искать в]]></lines>
+	<lines name="search_for" descr=""><![CDATA[строку]]></lines>
+	<lines name="file_name" descr=""><![CDATA[Название файла]]></lines>
+	<lines name="find_in_strings" descr=""><![CDATA[Строки совпадений]]></lines>
+	<lines name="no_matches" descr=""><![CDATA[Совпадений не найдено]]></lines>
+	<lines name="nothing_to_search" descr=""><![CDATA[Пожалуйста, укажите языковую версию и строку поиска!]]></lines>
+	<lines name="cur_position" descr=""><![CDATA[Расположение валюты в записи цены]]></lines>
+	<lines name="begin_position" descr=""><![CDATA[в начале]]></lines>
+	<lines name="end_position" descr=""><![CDATA[в конце]]></lines>	
+	<lines name="cur_format" descr=""><![CDATA[Формат отображения валюты]]></lines>
+	<lines name="cur_abbr" descr=""><![CDATA[аббривеатура]]></lines>
+	<lines name="cur_symbol" descr=""><![CDATA[символ]]></lines>	
+	<lines name="user_types_mode" descr=""><![CDATA[Типы пользователей сайта]]></lines>	
+	<lines name="user_types_mode_help" descr=""><![CDATA[Используя переключатель можно включить использование на сайте таких типов пользователей, как Агент. Будьте внимательны, все пользователи, зарегестрированные как Агент, автоматически станут Частными Лицами, как только будет выключена эта опция.]]></lines>	
+	<lines name="use_agent_user_type" descr=""><![CDATA[Использовать тип 'Агент компании']]></lines>	
+	<lines name="use_only_private_user_type" descr=""><![CDATA[Выключена опция Использовать тип 'Агент компании'.]]></lines>	
+	<lines name="saved" descr=""><![CDATA[Сохранено]]></lines>	
+	<lines name="not_integer" descr=""><![CDATA[Ошибка: пожалуйста введите целое положительное число]]></lines>				
+	<lines name="empty_str" descr=""><![CDATA[Ошибка: найдено пустое поле]]></lines>					
+	
+</data>

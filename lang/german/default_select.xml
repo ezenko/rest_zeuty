@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="hp_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="hp_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="hp_loading_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="hp_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="hp_load_city" descr=""><![CDATA[Städte loading...]]></lines>
+	<lines name="ip_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="ip_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="ip_load_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="ip_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="ip_load_city" descr=""><![CDATA[Städte loading...]]></lines>	
+	<lines name="sl_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="sl_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="sl_load_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="sl_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="sl_load_city" descr=""><![CDATA[Städte loading...]]></lines>	
+	<lines name="ps_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="ps_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="ps_load_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="ps_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="ps_load_city" descr=""><![CDATA[Städte loading...]]></lines>
+	<lines name="psr_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="psr_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="psr_load_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="psr_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="psr_load_city" descr=""><![CDATA[Städte loading...]]></lines>
+	<lines name="rnte_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="rnte_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="rnte_load_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="rnte_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="rnte_load_city" descr=""><![CDATA[Städte loading...]]></lines>
+	<lines name="rnte_load_subway" descr=""><![CDATA[U-Bahnstationen loading...]]></lines>
+	<lines name="rnte_subway" descr=""><![CDATA[Bitte U-Bahnstation wählen...]]></lines>
+	<lines name="rmte_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="rmte_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="rmte_load_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="rmte_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="rmte_load_city" descr=""><![CDATA[Städte loading...]]></lines>
+	<lines name="rmte_load_subway" descr=""><![CDATA[U-Bahnstationen loading...]]></lines>
+	<lines name="rmte_subway" descr=""><![CDATA[Bitte U-Bahnstation wählen...]]></lines>
+	<lines name="qs_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="qs_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="qs_load_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="qs_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="qs_load_city" descr=""><![CDATA[Städte loading...]]></lines>
+	<lines name="quote" descr=""><![CDATA[Zitate]]></lines>
+	<lines name="said" descr=""><![CDATA[sagte]]></lines>
+	<lines name="base" descr=""><![CDATA[<font class="error_div">Unzulässiges Datenbankformat!</font> Bitte prüfen Sie, ob das Format korrekt ist oder nehmen Sie mit uns <a href="./contact.php?sel=for_agency">Kontakt</a> auf.]]></lines>
+	<lines name="bonus_intro" descr=""><![CDATA[Füllen Sie Ihre Anzeige aus und bekommen Punkte für freie extra Funktionalitäten, die Ihre Anzeige bemerkenswert machen werden!<br><br>Je ausführlicher die Anzeige, desto mehr Punkte Sie bekommen:]]></lines>
+	<lines name="bonus_you_recieve" descr=""><![CDATA[]]></lines>
+	<lines name="bonus_more" descr=""><![CDATA[mehr als ]]></lines>
+	<lines name="bonus_conclusion" descr=""><![CDATA[Die Gesamtsumme der Punkte wird aus mindestens 1 Kriterium in Ihrem Anzeigenfragebogen ausgezählt. <br>"Keine Antwort" zählt nicht mit.<br><br>Sie können Ihre Punkte in "Bezahlten Services" der Seite verbrauchen.]]></lines>	
+	<lines name="indicator_text_2" descr=""><![CDATA[Ihre Anzeige ist ausgefüllt zum ]]></lines>
+	<lines name="indicator_text_3" descr=""><![CDATA[Sie können extra Bonus von ]]></lines>
+	<lines name="indicator_text_4" descr=""><![CDATA[auf Ihr Konto bekommen]]></lines>
+	<lines name="star_alt" descr=""><![CDATA[Die Anzeige ist obenauf in den Suchergebnissen auf ]]></lines>
+	<lines name="logo_alt" descr=""><![CDATA[RealEstate - Immobilien Miete, Kauf und Verkauf]]></lines>
+	<lines name="select_subway" descr=""><![CDATA[Bitte U-Bahnstation wählen]]></lines>
+	<lines name="unread_messages" descr=""><![CDATA[Ungelesene Meldungen]]></lines>
+		<lines name="blacklisted_them" descr=""><![CDATA[Meine schwarze Liste]]></lines>
+	<lines name="blacklisted_me" descr=""><![CDATA[haben mich zur schwarzen Liste hinzugefügt]]></lines>
+	<lines name="days_1" descr=""><![CDATA[Tage]]></lines>
+	<lines name="days_2" descr=""><![CDATA[Tag]]></lines>
+	<lines name="days_3" descr=""><![CDATA[Tag]]></lines>
+	<lines name="featured_alt" descr=""><![CDATA[Spitzenreiter in Region]]></lines>
+	<lines name="slideshowed_alt" descr=""><![CDATA[Slideshow]]></lines>
+	<lines name="welcome_1" descr=""><![CDATA[, wir gratulieren Ihnen zur erfolgreichen Anmeldung!]]></lines>
+	<lines name="welcome_3" descr=""><![CDATA[Leider haben Sie keine hinzugefügten Anzeigen]]></lines>
+	<lines name="add_rent_text" descr=""><![CDATA[Anzeige hinzufügen]]></lines>
+	<lines name="cost" descr=""><![CDATA[Kosten]]></lines>
+	<lines name="date_reg" descr=""><![CDATA[Modifikationsdatum]]></lines>
+	<lines name="link_text_1" descr=""><![CDATA[Ihre Anzeige]]></lines>
+	<lines name="link_text_2" descr=""><![CDATA[ist auf]]></lines>
+	<lines name="link_text_3" descr=""><![CDATA[Platz]]></lines>
+	<lines name="link_text_4" descr=""><![CDATA[Aufrufe]]></lines>
+	<lines name="link_text_5" descr=""><![CDATA[heute]]></lines>
+	<lines name="link_text_6" descr=""><![CDATA[in dem Monat]]></lines>
+	<lines name="link_text_7" descr=""><![CDATA[Anzeige hochbringen?]]></lines>
+	<lines name="viewed_top_text_alert" descr=""><![CDATA[Das System zählt Geschäftigkeit aller angemeldeten und unangemeldeten Seitenbenutzern. Deshalb kann die Anzahl der gezeigten Benutzern anders sein, als bei verzeichneten Benutzern.]]></lines>
+	<lines name="back_link_text" descr=""><![CDATA[Bitte ändern Sie Suchkriterien]]></lines>
+	<lines name="more_link_text" descr=""><![CDATA[Mehr ansehen &#187;]]></lines>
+	<lines name="no_stories" descr=""><![CDATA[Es gibt keine Artikel]]></lines>
+	<lines name="contact_for_reg" descr=""><![CDATA[Kontaktinformationen sind nur angemeldeten Benutzern zugänglich]]></lines>
+	<lines name="pls_select" descr=""><![CDATA[Bitte wählen]]></lines>
+	<lines name="group_err" descr=""><![CDATA[Kontaktinformationen sind nur den <a href='services.php?sel=group'>bezahlten Benutzern</a> zugänglich.]]></lines>
+	<lines name="call_him" descr=""><![CDATA[Telefon]]></lines>
+	<lines name="menu" descr=""><![CDATA[Menü]]></lines>
+	<lines name="back_to_search" descr=""><![CDATA[&#171; Zurück zu Suchform]]></lines>	
+	<lines name="enable_javascript" descr=""><![CDATA[Ihr Internet Browser unterstützt JavaScript nicht. Bitte aktivieren Sie JavaScript oder benutzen Sie anderen Browser, um korrekte Arbeitsweise gewährzuleisten.]]></lines>
+	<lines name="add_to_comparison_list" descr=""><![CDATA[Zu Vergleichsliste hinzufügen]]></lines>	
+	<lines name="in_your_comparison_list" descr=""><![CDATA[In Ihrer Vergleichsliste]]></lines>	
+	<lines name="comparison_list" descr=""><![CDATA[Vergleichsliste]]></lines>	
+	<lines name="compare" descr=""><![CDATA[Vergleichen]]></lines>				
+	<lines name="clear_comparison_list" descr=""><![CDATA[Leeren]]></lines>
+	<lines name="rent" descr=""><![CDATA[Mietet]]></lines>				
+	<lines name="lease" descr=""><![CDATA[Vermietet]]></lines>				
+	<lines name="buy" descr=""><![CDATA[Kauft]]></lines>				
+	<lines name="sell" descr=""><![CDATA[Verkauft]]></lines>					
+	<lines name="not_set" descr=""><![CDATA[—]]></lines>						
+	<lines name="no_value" descr=""><![CDATA[—]]></lines>	
+	<lines name="delete_from_comparison" descr=""><![CDATA[Aus der Vergleichsliste entfernen]]></lines>			
+	<lines name="keyword_search" descr=""><![CDATA[Stichwörtersuche]]></lines>
+	<lines name="sponsored_alt" descr=""><![CDATA[In der Liste gesponsert]]></lines>
+	<lines name="button_search" descr=""><![CDATA[Suchen!]]></lines>
+	<lines name="keyword_search_help" descr=""><![CDATA[Suchen nach Anzeigenbeschreibung, Schlagzeilen, Kommentaren, hochgeladenen Dateien, Standort und Autoreninformationen.]]></lines>	
+	<lines name="hide" descr=""><![CDATA[Verbergen]]></lines>	
+	<lines name="slideshow" descr=""><![CDATA[Slideshow der Anzeigenfotos]]></lines>	
+	<lines name="default_photo_male_alt" descr=""><![CDATA[Mann]]></lines>	
+	<lines name="default_photo_female_alt" descr=""><![CDATA[Frau]]></lines>	
+	<lines name="default_photo_fwithc_alt" descr=""><![CDATA[Familie mit Kindern]]></lines>	
+	<lines name="default_photo_fwithoutc_alt" descr=""><![CDATA[Familie ohne Kinder]]></lines>	
+	<lines name="default_photo_agency_alt" descr=""><![CDATA[Immobilienmakler]]></lines>	
+	<lines name="default_photo_man_alt" descr=""><![CDATA[Geschlecht ist nicht angedeutet]]></lines>	
+	<lines name="sold_alt" descr=""><![CDATA[Verkauft]]></lines>
+	<lines name="leased_alt" descr=""><![CDATA[Vermietet]]></lines>
+	<lines name="other_period" descr=""><![CDATA[Andere verfügbare Zeiträume]]></lines>
+	<lines name="home_page" descr=""><![CDATA[Homepage]]></lines>
+	<lines name="order_by" descr=""><![CDATA[Sortieren nach]]></lines>	
+	<lines name="sorter_by_max_view" descr=""><![CDATA[Popularität]]></lines>		
+	<lines name="sorter_by_date_move" descr=""><![CDATA[Umzugsdatum]]></lines>
+	<lines name="view_by_calendar" descr=""><![CDATA[Im Kalender ansehen]]></lines>
+	<lines name="pages" descr=""><![CDATA[Seiten]]></lines>		
+	<lines name="address" descr=""><![CDATA[Die angegebene Adresse]]></lines>
+	<lines name="was_not_found" descr=""><![CDATA[wurde nicht gefunden]]></lines>	
+	<lines name="with_photo" descr=""><![CDATA[mit Foto]]></lines>
+	<lines name="with_video" descr=""><![CDATA[mit Video]]></lines>
+	<lines name="more_qs_opt" descr=""><![CDATA[Mehr Optionen]]></lines>
+	<lines name="less_qs_opt" descr=""><![CDATA[weniger Optionen]]></lines>
+	<lines name="with_photo_first" descr=""><![CDATA[Anzeigen mit Foto erst zeigen]]></lines>
+	<lines name="group_err_1" descr=""><![CDATA[Kontaktinformation ist verfГјgbar fГјr ]]></lines>
+	<lines name="group_err_2" descr=""><![CDATA[Paid Benutzer]]></lines>
+	<lines name="group_err_3" descr=""><![CDATA[ nur.]]></lines>
+	<lines name="base_1" descr=""><![CDATA[Falsches Datenbankformat!]]></lines>
+	<lines name="base_2" descr=""><![CDATA[ PrГјfen Sie bitte, ob es korrekt ist oder ]]></lines>
+	<lines name="base_3" descr=""><![CDATA[melden Sie sich bei uns]]></lines>
+</data>

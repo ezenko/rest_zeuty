@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="help" descr=""><![CDATA[Hilfe:]]></lines>	
+<lines name="fast_navigation" descr=""><![CDATA[Schneller Bereichübergang auf dieser Seite]]></lines>
+<lines name="number" descr=""><![CDATA[Nr]]></lines>
+<lines name="title_edit" descr=""><![CDATA[Bearbeiten]]></lines>
+<lines name="interface_lang" descr=""><![CDATA[Interfacesprache]]></lines>
+<lines name="unactive_lang" descr=""><![CDATA[nicht aktiv]]></lines>
+<lines name="title_delete" descr=""><![CDATA[Löschen]]></lines>
+<lines name="pages" descr=""><![CDATA[Seiten]]></lines>
+</data>

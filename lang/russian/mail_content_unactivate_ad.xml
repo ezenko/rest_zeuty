@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="Тема письма"><![CDATA[Истёк срок активности Вашего объявления на [site_name]]]></lines>
+<lines name="unactivate_ad" descr=""><![CDATA[Истёк срок активности Вашего объявления на [site_name]. Теперь Ваше объявление неактивно и не учавствует в поиске.]]></lines>
+<lines name="for_activate" descr=""><![CDATA[Для изменения статуса активности объявления пройдите авторизацию на [site_name] и перейдите по ссылке]]></lines>
+</data>

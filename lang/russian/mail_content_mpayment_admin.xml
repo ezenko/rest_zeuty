@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[На вашем сайте поступила заявка на проведение ручного платежа]]></lines>
+<lines name="text_0" descr=""><![CDATA[На вашем сайте]]></lines>
+<lines name="text_1" descr=""><![CDATA[поступила заявка на проведение ручного платежа. Данные по платежу следующие]]></lines>
+<lines name="name" descr=""><![CDATA[Имя]]></lines>
+<lines name="login" descr=""><![CDATA[Логин]]></lines>
+<lines name="email" descr=""><![CDATA[Email]]></lines>
+<lines name="date" descr=""><![CDATA[Дата перевода]]></lines>
+<lines name="amount" descr=""><![CDATA[Перевод на сумму в]]></lines>
+<lines name="form_data" descr=""><![CDATA[Дополнительная информация]]></lines>
+<lines name="text_2" descr=""><![CDATA[После проверки данного платежа, вы можете его принять или отклонить в секции «Список поступлений» вашей администраторской панели.]]></lines>
+</data>

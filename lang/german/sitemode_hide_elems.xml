@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="mhi_registration" descr=""><![CDATA[Registration ist auf der Seite nicht verfügbar. Administrator kann den Benutzer aus der Adminkonsole hinzufügen.]]></lines>
+	<lines name="mhi_ad_buy" descr=""><![CDATA[Anzeigenhinzufügung des "Möchte kaufen" Types ist nicht verfügbar.]]></lines>
+	<lines name="mhi_ad_rent" descr=""><![CDATA[Anzeigenhinzufügung des 'Möchte mieten' Types ist nicht verfügbar.]]></lines>
+	<lines name="mhi_ad_sell" descr=""><![CDATA[Anzeigenhinzufügung für Verkauf ist nicht verfügbar..]]></lines>
+	<lines name="mhi_ad_lease" descr=""><![CDATA[Anzeigenhinzufügung des 'Möchte pachten' Types ist nicht verfügbar..]]></lines>
+	<lines name="mhi_addfriend_link" descr=""><![CDATA[Hot-Liste ist nicht verfügbar.]]></lines>
+	<lines name="mhi_blacklist_link" descr=""><![CDATA[Black-Liste ist nicht verfügbar.]]></lines>
+	<lines name="mhi_interest_link" descr=""><![CDATA[Option 'Interesse an Anzeige zeigen' ist nicht verfügbar.]]></lines>
+	<lines name="mhi_my_messages" descr=""><![CDATA[Sektion "Meine Nachrichten" ist nicht verfügbar. Wenn der Benutzer die Anzeige eines anderen Benutzers ansieht, kann er eine Email an Anzeigebesitzer senden (E-mail wird unsichtbar und in Formen nicht dargestellt).]]></lines>
+	<lines name="mhi_services" descr=""><![CDATA[ALle bezahlte Services sind deaktiviert.]]></lines>
+	<lines name="mhi_contact_agency" descr=""><![CDATA[Kooperationsangebot für Makler wird unsichtbar (spezielle Form, um sich bei Admin zu melden).]]></lines>
+	<lines name="mhi_complain_link" descr=""><![CDATA[Option für Beschwerde über Benutzer ist deaktiviert.]]></lines>
+	<lines name="mhi_match_me" descr=""><![CDATA[Sektion 'Die zu meinen Kriterien passen' ist nicht verfügbar.]]></lines>
+	<lines name="mhi_online" descr=""><![CDATA[Suche nach Online-Benutzer wird unsichtbar sein.]]></lines>
+	<lines name="mhi_new_members" descr=""><![CDATA[Suche nach neue Benutzer wird unsichtbar sein.]]></lines>
+	<lines name="mhi_most_active" descr=""><![CDATA[Suche nach meist aktive Benutzer wird unsichtbar sein.]]></lines>
+</data>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="E-mail subject"><![CDATA[[site_name] - contact form in Your listing was filled]]></lines>
+	<lines name="contact_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="contact_email" descr=""><![CDATA[E-mail]]></lines>	
+	<lines name="message_text" descr=""><![CDATA[Message]]></lines>	
+	<lines name="contact_href" descr=""><![CDATA[Contact form in your listing was filled]]></lines>	
+</strings>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_news_add_subheader" descr=""><![CDATA[Nachrichten hinzufügen]]></lines>
+	<lines name="page_news_edit_subheader" descr=""><![CDATA[Nachrichten bearbeiten]]></lines>	
+	<lines name="page_feeds_add_subheader" descr=""><![CDATA[RSS Feed hinzufügen]]></lines>
+	<lines name="page_feeds_edit_subheader" descr=""><![CDATA[RSS Feed bearbeiten]]></lines>	
+	<lines name="site_news" descr=""><![CDATA[Ihre Nachrichten]]></lines>
+	<lines name="feeds_news" descr=""><![CDATA[RSS Feed Nachrichten]]></lines>
+	<lines name="add_site_news" descr=""><![CDATA[Nachrichten hinzufügen]]></lines>
+	<lines name="edit_site_news" descr=""><![CDATA[Nachrichten bearbeiten]]></lines>
+	<lines name="add_rss" descr=""><![CDATA[RSS Feed hinzufügen]]></lines>
+	<lines name="edit_rss" descr=""><![CDATA[RSS Feed ändern]]></lines>
+	<lines name="number" descr=""><![CDATA[Nr]]></lines>
+	<lines name="date" descr=""><![CDATA[Datum der Veröffentlichung]]></lines>
+	<lines name="text" descr=""><![CDATA[Text]]></lines>
+	<lines name="title" descr=""><![CDATA[Titel]]></lines>
+	<lines name="status" descr=""><![CDATA[Status]]></lines>	
+	<lines name="to_publish" descr=""><![CDATA[Veröffentlichen]]></lines>
+	<lines name="feeds_status" descr=""><![CDATA[Nachrichten importieren]]></lines>	
+	<lines name="del_confirm" descr=""><![CDATA[Sind Sie sicher, dass Sie Nachrichten löschen wollen?]]></lines>
+	<lines name="no_site_news" descr=""><![CDATA[Es gibt keine Nachrichten]]></lines>
+	<lines name="total_news" descr=""><![CDATA[Nachrichten total]]></lines>
+	<lines name="site_feeds" descr=""><![CDATA[RSS Feeds]]></lines>
+	<lines name="rss_date" descr=""><![CDATA[Aktualisierungsdatum]]></lines>
+	<lines name="rss_link" descr=""><![CDATA[RSS Feed Link]]></lines>
+	<lines name="rss_status" descr=""><![CDATA[Status]]></lines>
+	<lines name="del_feed_confirm" descr=""><![CDATA[Sind Sie sicher, dass Sie diesen RSS Feed löschen wollen?]]></lines>
+	<lines name="add_news" descr=""><![CDATA[Nachrichten hinzufügen]]></lines>
+	<lines name="add_feed" descr=""><![CDATA[RSS Feed hinzufügen]]></lines>
+	<lines name="max_news" descr=""><![CDATA[Höchstanzahl der <br>importierten Nachrichten von der Seite]]></lines>
+	<lines name="update_feeds" descr=""><![CDATA[Alle RSS Feeds aktualisieren]]></lines>
+	<lines name="update_feed" descr=""><![CDATA[RSS Feed aktualisieren]]></lines>
+	<lines name="news_count" descr=""><![CDATA[Importierte Nachrichten]]></lines>
+	<lines name="news_feeds_help" descr=""><![CDATA[Hier verwalten Sie die Seitennachrichten, die im Bereich "Nachrichten" veröffentlicht werden.<br>Alle Nachrichten werden chronologisch aufgestellt.<br>Im Bereich "Ihre Nachrichten" veröffentlichen Sie Ihre eigenen Nachrichten.<br>Sie können "RSS feeds" einstellen, um Nachrichten von anderen Nachrichten exportierenden Seiten zu veröffentlichen.]]></lines> 
+	<lines name="news_help" descr=""><![CDATA[Veröffentlichen Sie Ihre Nachrichten oder bereiten Sie sie für Veröffentlichung vor.]]></lines> 	
+	<lines name="feeds_help" descr=""><![CDATA[RSS Feed hinzufügen. Nachrichten werden so oft importiert, wie Sie es in Crontab einstellen.]]></lines> 	
+	<lines name="published" descr=""><![CDATA[Veröffentlicht]]></lines>	
+	<lines name="not_published" descr=""><![CDATA[Nicht veröffentlicht]]></lines>		
+	<lines name="min_feeds_news" descr=""><![CDATA[Mindestanzahl der importierten Nachrichten]]></lines>				
+	<lines name="edit_header" descr=""><![CDATA[Bearbeiten]]></lines>				
+</data>

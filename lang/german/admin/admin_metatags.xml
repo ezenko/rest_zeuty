@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="admin_badwords_title" descr=""><![CDATA[RealEstate Adminmodus - Schimpfwörter]]></lines>
+	<lines name="admin_billing_title" descr=""><![CDATA[RealEstate Adminmodus - Abrechnungen]]></lines>
+	<lines name="admin_groups_title" descr=""><![CDATA[RealEstate Adminmodus - Gruppenverwaltung]]></lines>
+	<lines name="admin_homepage_title" descr=""><![CDATA[RealEstate Adminmodus - Homepage]]></lines>
+	<lines name="admin_login_title" descr=""><![CDATA[RealEstate Adminmodus - Willkommen]]></lines>
+	<lines name="admin_references_title" descr=""><![CDATA[RealEstate Adminmodus - Referenzen-Editor]]></lines>
+	<lines name="admin_settings_title" descr=""><![CDATA[RealEstate Adminmodus - Einstellungsverwaltung]]></lines>
+	<lines name="admin_users_title" descr=""><![CDATA[RealEstate Adminmodus - Benutzerverwaltung]]></lines>
+	<lines name="admin_rentals_title" descr=""><![CDATA[RealEstate Adminmodus - Anzeigenverwaltung]]></lines>
+	<lines name="admin_show_ads_area_title" descr=""><![CDATA[RealEstate Adminmodus - Reihenfolge der ausgestellten Anzeigen]]></lines>
+	<lines name="admin_sponsors_title" descr=""><![CDATA[RealEstate Adminmodus - Sponsorbekanntgabe]]></lines>
+	<lines name="admin_info_manager_title" descr=""><![CDATA[RealEstate Adminmodus - Informationsverwaltung]]></lines>
+	<lines name="admin_mails_title" descr=""><![CDATA[RealEstate Adminmodus - Benachrichtigungen]]></lines>
+	<lines name="admin_agents_title" descr=""><![CDATA[RealEstate Adminmodus - ]]></lines>
+	<lines name="agents_title" descr=""><![CDATA[RealEstate Admin Modus - Meine Vertreter/Mein Makler ]]></lines>
+	<lines name="admin_pay_services_title" descr=""><![CDATA[RealEstate Admin Modus - Rechnnungen]]></lines>
+	<lines name="admin_news_title" descr=""><![CDATA[RealEstate Admin Modus - Ihre Nachrichten, RSS feeds]]></lines>
+	<lines name="admin_upload_title" descr=""><![CDATA[RealEstate Admin Modus - Hochgeladene Dateien]]></lines>
+	<lines name="admin_countries_title" descr=""><![CDATA[RealEstate Admin Modus - Referenzen - Länder]]></lines>
+</data>

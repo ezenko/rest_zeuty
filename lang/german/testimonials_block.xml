@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="paperclip_text" descr=""><![CDATA[Wir sing froh. Ihre Meinung zu bekommen, um Sie besser zu bedienen.<br><br><noindex><a href=contact.php>Lassen Sie ihren Rückblick hier.</a></noindex>]]></lines>
+	<lines name="featured_rent_head" descr=""><![CDATA[Führer]]></lines>
+	<lines name="stavka" descr=""><![CDATA[Angebot]]></lines>
+	<lines name="featured_period" descr=""><![CDATA[führt]]></lines>
+	<lines name="hours" descr=""><![CDATA[Std.]]></lines>
+	<lines name="minutes" descr=""><![CDATA[Min.]]></lines>
+	<lines name="seconds" descr=""><![CDATA[Sek.]]></lines>
+	<lines name="days" descr=""><![CDATA[Tage.]]></lines>
+	<lines name="in_region" descr=""><![CDATA[in der Region]]></lines>
+</data>

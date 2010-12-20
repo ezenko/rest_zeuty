@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="i_search" descr=""><![CDATA[I search for]]></lines>
+<lines name="who" descr=""><![CDATA[Those who]]></lines>
+<lines name="age" descr=""><![CDATA[Age]]></lines>
+<lines name="to" descr=""><![CDATA[to]]></lines>
+<lines name="need_room" descr=""><![CDATA[rent]]></lines>
+<lines name="have_room" descr=""><![CDATA[lease]]></lines>
+<lines name="buy_realty" descr=""><![CDATA[buy]]></lines>
+<lines name="sell_realty" descr=""><![CDATA[sell]]></lines>
+<lines name="select_country" descr=""><![CDATA[In country]]></lines>
+<lines name="select_region" descr=""><![CDATA[In region]]></lines>
+<lines name="select_city" descr=""><![CDATA[In city]]></lines>
+<lines name="payment" descr=""><![CDATA[Maximal payment]]></lines>
+<lines name="with_photo_first" descr=""><![CDATA[show listings with photo first]]></lines>
+<lines name="with_video" descr=""><![CDATA[with video]]></lines>
+<lines name="save_power_search" descr=""><![CDATA[Save Advanced Search Criteria as]]></lines>
+<lines name="default_search_name" descr=""><![CDATA[Search 1]]></lines>
+<lines name="load_power_search" descr=""><![CDATA[Upload my Search Criteria]]></lines>
+<lines name="results" descr=""><![CDATA[Search results]]></lines>
+<lines name="empty_result" descr=""><![CDATA[Unfortunately, search results are empty. Try to change]]></lines>
+<lines name="search_criteria" descr=""><![CDATA[search criteria]]></lines>
+<lines name="i_need" descr=""><![CDATA[Rent]]></lines>
+<lines name="i_have" descr=""><![CDATA[Lease]]></lines>
+<lines name="i_buy" descr=""><![CDATA[Buy]]></lines>
+<lines name="i_sell" descr=""><![CDATA[Sell]]></lines>
+<lines name="about_me" descr=""><![CDATA[About myself]]></lines>
+<lines name="about_us" descr=""><![CDATA[About us]]></lines>
+<lines name="look_for" descr=""><![CDATA[Looks for]]></lines>
+<lines name="max_payment" descr=""><![CDATA[Maximal payment]]></lines>
+<lines name="available_date" descr=""><![CDATA[Available from]]></lines>
+<lines name="move_in_date" descr=""><![CDATA[Move date]]></lines>
+<lines name="location" descr=""><![CDATA[Located]]></lines>
+<lines name="search_new_members" descr=""><![CDATA[Search new users]]></lines>
+<lines name="search_by_nick" descr=""><![CDATA[Search by user name]]></lines>
+<lines name="nickname" descr=""><![CDATA[user name]]></lines>
+<lines name="date_reg" descr=""><![CDATA[registration date]]></lines>
+<lines name="date_last" descr=""><![CDATA[last login date]]></lines>
+<lines name="add_to_hotlist" descr=""><![CDATA[Add to Hot List]]></lines>
+<lines name="add_to_blacklist" descr=""><![CDATA[Add to Black List]]></lines>
+<lines name="contact_user" descr=""><![CDATA[Contact]]></lines>
+<lines name="contact_admin" descr=""><![CDATA[Complain]]></lines>
+<lines name="interest" descr=""><![CDATA[Show interest]]></lines>
+<lines name="add" descr=""><![CDATA[Add listing]]></lines>
+<lines name="sel_all_text" descr=""><![CDATA[Mark all options]]></lines>
+<lines name="unsel_all_text" descr=""><![CDATA[Clear all options]]></lines>
+<lines name="menu_text_1" descr=""><![CDATA[Advanced Search]]></lines>
+<lines name="menu_text_2" descr=""><![CDATA[Quick Search]]></lines>
+<lines name="link_text_1" descr=""><![CDATA[Switch to Quick Search]]></lines>
+<lines name="month_payment" descr=""><![CDATA[Rent price <br> for 1 month]]></lines>
+<lines name="price" descr=""><![CDATA[Price]]></lines>
+<lines name="from" descr=""><![CDATA[from]]></lines>
+<lines name="upto" descr=""><![CDATA[to]]></lines>
+<lines name="auction_possible" descr=""><![CDATA[Auction is possible]]></lines>
+<lines name="auction_inpossible" descr=""><![CDATA[Auction is impossible]]></lines>
+<lines name="deposit" descr=""><![CDATA[Upfront payment]]></lines>
+<lines name="year_build" descr=""><![CDATA[Year of construction]]></lines>
+<lines name="from_1" descr=""><![CDATA[from]]></lines>
+<lines name="upto_1" descr=""><![CDATA[to]]></lines>
+<lines name="live_square" descr=""><![CDATA[Live square]]></lines>
+<lines name="total_square" descr=""><![CDATA[Total square]]></lines>
+<lines name="land_square" descr=""><![CDATA[Land square]]></lines>
+<lines name="floor" descr=""><![CDATA[Floor]]></lines>
+<lines name="search_floor_variants" descr=""><![CDATA[Search only variants]]></lines>
+<lines name="floor_num_max_limitation" descr=""><![CDATA[Number of floors in the house should not exceed]]></lines>
+<lines name="of_floors" descr=""><![CDATA[floors]]></lines>
+<lines name="subway_min" descr=""><![CDATA[maximal distance to subway]]></lines>
+<lines name="minutes" descr=""><![CDATA[minutes]]></lines>
+<lines name="not_earlier" descr=""><![CDATA[not earlier]]></lines> 
+<lines name="price_min_more_max" descr=""><![CDATA[Minimal payment can't be maximal]]></lines>
+<lines name="deposit_min_more_max" descr=""><![CDATA[Minimal upfront payment can't be maximal]]></lines>
+<lines name="live_square_min_more_max" descr=""><![CDATA[Minimal live square can't be maximal]]></lines>
+<lines name="total_square_min_more_max" descr=""><![CDATA[Minimal total square can't be maximal]]></lines>
+<lines name="land_square_min_more_max" descr=""><![CDATA[Minimal land square area can't be more than maximal]]></lines>
+<lines name="year_build_min_more_max" descr=""><![CDATA[Minimal year of construction can't be more than maximal]]></lines>
+<lines name="floor_min_more_max" descr=""><![CDATA[Minimal floor can't be more than maximal]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Rent payment for 1 month]]></lines>
+<lines name="back_to_search" descr=""><![CDATA[&#171; Back to search form]]></lines>
+<lines name="powersearch_by_saved_search" descr=""><![CDATA[Search by saved advanced search criteria]]></lines>	
+<lines name="powersearch_by_user_name" descr=""><![CDATA[Search by user name]]></lines>
+<lines name="find_num" descr=""><![CDATA[There are no results matching your criteria]]></lines>
+<lines name="time_begin" descr=""><![CDATA[from]]></lines>
+<lines name="time_end" descr=""><![CDATA[till]]></lines>
+<lines name="empty" descr=""><![CDATA[Available]]></lines>
+</data>

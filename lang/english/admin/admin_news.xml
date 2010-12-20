@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_news_add_subheader" descr=""><![CDATA[Add news]]></lines>
+	<lines name="page_news_edit_subheader" descr=""><![CDATA[Edit news]]></lines>	
+	<lines name="page_feeds_add_subheader" descr=""><![CDATA[Add RSS feed]]></lines>
+	<lines name="page_feeds_edit_subheader" descr=""><![CDATA[Edit RSS feed]]></lines>	
+	<lines name="site_news" descr=""><![CDATA[Your news]]></lines>
+	<lines name="feeds_news" descr=""><![CDATA[RSS feed news]]></lines>
+	<lines name="add_site_news" descr=""><![CDATA[Add news]]></lines>
+	<lines name="edit_site_news" descr=""><![CDATA[Edit news]]></lines>
+	<lines name="add_rss" descr=""><![CDATA[Add RSS feed]]></lines>
+	<lines name="edit_rss" descr=""><![CDATA[Edit RSS feed]]></lines>
+	<lines name="number" descr=""><![CDATA[№]]></lines>
+	<lines name="date" descr=""><![CDATA[Publication date]]></lines>
+	<lines name="text" descr=""><![CDATA[Text]]></lines>
+	<lines name="title" descr=""><![CDATA[Subject]]></lines>
+	<lines name="status" descr=""><![CDATA[Status]]></lines>	
+	<lines name="to_publish" descr=""><![CDATA[Publish]]></lines>
+	<lines name="feeds_status" descr=""><![CDATA[Import news]]></lines>	
+	<lines name="del_confirm" descr=""><![CDATA[Are you sure you want to remove the news?]]></lines>
+	<lines name="no_site_news" descr=""><![CDATA[There are no news]]></lines>
+	<lines name="total_news" descr=""><![CDATA[News total]]></lines>
+	<lines name="site_feeds" descr=""><![CDATA[RSS feeds]]></lines>
+	<lines name="rss_date" descr=""><![CDATA[Refresh date]]></lines>
+	<lines name="rss_link" descr=""><![CDATA[Rss feed link]]></lines>
+	<lines name="rss_status" descr=""><![CDATA[Status]]></lines>
+	<lines name="del_feed_confirm" descr=""><![CDATA[Are yoiu sure you want to remove this RSS feed?]]></lines>
+	<lines name="add_news" descr=""><![CDATA[Add news]]></lines>
+	<lines name="add_feed" descr=""><![CDATA[Add RSS feed]]></lines>
+	<lines name="max_news" descr=""><![CDATA[Maximal number of<br>imported news from the site]]></lines>
+	<lines name="update_feeds" descr=""><![CDATA[Refresh all RSS feeds]]></lines>
+	<lines name="update_feed" descr=""><![CDATA[Refresh RSS feed]]></lines>
+	<lines name="news_count" descr=""><![CDATA[Imported news]]></lines>
+	<lines name="news_feeds_help" descr=""><![CDATA[Here you can manage the news on the site listed in the section "News".<br>All news are posted in chronological order.<br>In the section "Your news" you publish your own news.<br>You can set "RSS feeds" to publish news from other sites that export news.]]></lines> 
+	<lines name="news_help" descr=""><![CDATA[Publish your news or prepare it for publishing.]]></lines> 	
+	<lines name="feeds_help" descr=""><![CDATA[Add RSS feed. News will be imported so often as you set in a Crontab.]]></lines> 	
+	<lines name="published" descr=""><![CDATA[Published]]></lines>	
+	<lines name="not_published" descr=""><![CDATA[Not Published]]></lines>		
+	<lines name="min_feeds_news" descr=""><![CDATA[Minimal number of the imported news]]></lines>				
+	<lines name="edit_header" descr=""><![CDATA[Editing]]></lines>				
+</data>

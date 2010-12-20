@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="help" descr=""><![CDATA[Помощь:]]></lines>	
+<lines name="fast_navigation" descr=""><![CDATA[Переход по блокам на этой странице]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="title_edit" descr=""><![CDATA[Редактирование]]></lines>
+<lines name="interface_lang" descr=""><![CDATA[Язык интерфейса]]></lines>
+<lines name="unactive_lang" descr=""><![CDATA[неактивен]]></lines>
+<lines name="title_delete" descr=""><![CDATA[Удаление]]></lines>
+<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+</data>

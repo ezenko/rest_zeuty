@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="page_header" descr=""><![CDATA[Content management]]></lines>
+<lines name="page_edit_subheader" descr=""><![CDATA[Reference editing ]]></lines>
+<lines name="page_editopt_subheader" descr=""><![CDATA[Reference values editing]]></lines>
+<lines name="pages" descr=""><![CDATA[pages]]></lines>
+<lines name="number" descr=""><![CDATA[№]]></lines>
+<lines name="reference" descr=""><![CDATA[Reference]]></lines>
+<lines name="references" descr=""><![CDATA[References]]></lines>
+<lines name="subreference" descr=""><![CDATA[Reference]]></lines>
+<lines name="empty" descr=""><![CDATA[Empty result]]></lines>
+<lines name="name" descr=""><![CDATA[Name]]></lines>
+<lines name="sorter" descr=""><![CDATA[Order]]></lines>
+<lines name="confirm" descr=""><![CDATA[Remove this reference?]]></lines>
+<lines name="option" descr=""><![CDATA[Option]]></lines>
+<lines name="add_option" descr=""><![CDATA[New option]]></lines>
+<lines name="delete" descr=""><![CDATA[Remove]]></lines>
+<lines name="type" descr=""><![CDATA[Type]]></lines>
+<lines name="one_variant" descr=""><![CDATA[One variant]]></lines>
+<lines name="multi" descr=""><![CDATA[Multi-select]]></lines>
+<lines name="des_type" descr=""><![CDATA[Design type]]></lines>
+<lines name="checkbox" descr=""><![CDATA[checkbox]]></lines>
+<lines name="select" descr=""><![CDATA[select]]></lines>
+<lines name="about_me" descr=""><![CDATA[concerns me/my property]]></lines>
+<lines name="about_search_item" descr=""><![CDATA[concerns what I am looking for]]></lines>
+<lines name="list_help" descr=""><![CDATA[References is a list of characteristics for describing the property. Depending on the reference purpose, these references are used on the site pages in the search forms, in the forms of profile creation and listing submit.]]></lines>	
+<lines name="not_editable_help" descr=""><![CDATA[<b>This reference type is protected from editing.</b> You can change its name and the list of its options. It is not possible to add new references or edit other references settings except those respresented as the references are used in the search forms on the site, in the forms of profile creation and listing submit.]]></lines>	
+<lines name="edit_subref_help" descr=""><![CDATA[Here you can set ther values of the parameters responsible for references display in the forms on the site pages.<br>In the field <b>Type</b> you should set the number of the possible answers (marked options) of the reference used when the form is filled. <br><b>Design</b> defines the way answers for the references are displayed on the forms of the site: <ul style="margin-top:0px; margin-bottom:0px;"><li>Choosing <span style="text-decoration:underline">select</span> will make variants of answers displayed in the drop-down menu, for example
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<td>
+		<select name="sel_1">
+			<option value="1">answer 1</option>
+			<option value="2" selected="selected">answer 2</option>
+			<option value="3">answer 3</option>						
+		</select>
+	</td>
+	<td style="padding-left: 10px;">(if the value of the field Type - one variant)</td>
+</tr>
+</table> or
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<td>
+		<select multiple="multiple" name="sel_2">
+			<option value="1" selected="selected">answer 1</option>
+			<option value="2" selected="selected">answer 2</option>
+			<option value="3">answer 3</option>						
+		</select>
+	</td>
+	<td style="padding-left: 10px;">(if the value of the field type - multi-select)</td>
+</tr>
+</table>
+</li><li>If <span style="text-decoration:underline">checkbox</span> is chosen, all the variants of answers will be displayed in the form one by one and the member will need to mark the necessary variants of answers, for example
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<td><input type=radio class=radio name=ex2 value=1/></td><td>answer 1</td>
+	<td><input type=radio class=radio name=ex2 value=2 checked/></td><td>answer 2</td>
+	<td><input type=radio class=radio name=ex2 value=3/></td><td>answer 3</td>
+	<td style=padding-left: 10px;>(if the value of the field Type - One variant)</td>
+</tr>
+</table> or
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<td><input type=checkbox class=checkbox name=ex1 value=1 checked/></td><td>answer 1</td>
+	<td><input type=checkbox class=checkbox name=ex1 value=2 checked/></td><td>answer 2</td>
+	<td><input type=checkbox class=checkbox name=ex1 value=3/></td><td>answer 3</td>
+	<td style="padding-left: 10px;">(if the value of the field Type - multi-select)</td>
+</tr>
+</table>
+</li></ul>
+<b>Order</b> - the order of the references display (in the search forms on the site, in the forms of profile creation and listing submit).]]></lines>	
+<lines name="my_preferences_help" descr=""><![CDATA[Note: while the user fills in the section "My Preferences" in the listings the reference will be displayed with the following settings: Type=Multi-select, Design=Checkbox, regardless of the parameters set for thу reference. The case is that users references can always contain a few variants of answers.]]></lines>	
+<lines name="edit_subrefopt_help" descr=""><![CDATA[Here you can edit the list of the values (variants of answers) for the reference.]]></lines>	
+<lines name="spr_type" descr=""><![CDATA[Property type]]></lines>
+<lines name="spr_apartment" descr=""><![CDATA[About property]]></lines>
+<lines name="spr_description" descr=""><![CDATA[Numerical value]]></lines>
+<lines name="spr_period" descr=""><![CDATA[Rent period]]></lines>
+<lines name="spr_deactivate" descr=""><![CDATA[Deactivation reason]]></lines>
+<lines name="spr_gender" descr=""><![CDATA[Sex]]></lines>
+<lines name="spr_people" descr=""><![CDATA[About the person]]></lines>
+<lines name="spr_language" descr=""><![CDATA[Languages spoken]]></lines>
+</data>

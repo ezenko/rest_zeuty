@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="Тема письма"><![CDATA[Спасибо за регистрацию на [site_name]]]></lines>
+<lines name="reg_congratulate" descr=""><![CDATA[Примите наши поздравления! Вы только что зарегистрировались на [site_name].]]></lines>
+<lines name="reg_params" descr=""><![CDATA[При регистрации Вы указали следующие параметры для входа]]></lines>
+<lines name="login" descr=""><![CDATA[Логин]]></lines>
+<lines name="password" descr=""><![CDATA[Пароль]]></lines>
+<lines name="confirmation_link" descr=""><![CDATA[Перейдите по этой ссылке для подтверждения регистрации]]></lines>
+</data>

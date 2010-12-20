@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="E-mail subject"><![CDATA[You have a new agent]]></lines>
+<lines name="site_name" descr=""><![CDATA[PG RealEstate]]></lines>
+<lines name="hey" descr=""><![CDATA[Hello,]]></lines>
+<lines name="text_0" descr=""><![CDATA[Member]]></lines>
+<lines name="text_1" descr=""><![CDATA[accepted your company's offer]]></lines>
+<lines name="text_2" descr=""><![CDATA[and is now your agent. Full list of your agents is available here]]></lines>
+</data>

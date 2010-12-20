@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="mhi_registration" descr=""><![CDATA[Регистрация на сайте недоступна. Администратор может добавить пользователя-риэлтора через свою панель.]]></lines>
+	<lines name="mhi_ad_buy" descr=""><![CDATA[Размещение объявлений о покупке недоступно.]]></lines>
+	<lines name="mhi_ad_rent" descr=""><![CDATA[Размещение объявлений о желании арендовать недоступно.]]></lines>
+	<lines name="mhi_ad_sell" descr=""><![CDATA[Размещение объявлений о продаже недоступно.]]></lines>
+	<lines name="mhi_ad_lease" descr=""><![CDATA[Размещение объявлений о сдаче в аренду недоступно.]]></lines>
+	<lines name="mhi_addfriend_link" descr=""><![CDATA[Недоступен список Избранных объявлений.]]></lines>
+	<lines name="mhi_blacklist_link" descr=""><![CDATA[Недоступен Чёрный список объявлений.]]></lines>
+	<lines name="mhi_interest_link" descr=""><![CDATA[Недоступна возможность выразить интерес к объявлению.]]></lines>
+	<lines name="mhi_my_messages" descr=""><![CDATA[Раздел "Мои сообщения" недоступен. При просмотре объявления пользователь может отправить письмо на личный E-mail владельцу объявления (при этом E-mail скрыт и в формах не отображается).]]></lines>
+	<lines name="mhi_services" descr=""><![CDATA[Отключены все платные услуги.]]></lines>
+	<lines name="mhi_contact_agency" descr=""><![CDATA[Скрыто предложение о сотрудничестве для риэлторов (специальная форма связи с администратором).]]></lines>
+	<lines name="mhi_complain_link" descr=""><![CDATA[Возможность пожаловаться на пользователя отключена.]]></lines>
+	<lines name="mhi_match_me" descr=""><![CDATA[Раздел "Подходящие мне объявления" недоступен.]]></lines>
+	<lines name="mhi_online" descr=""><![CDATA[Скрыт поиск пользователей online.]]></lines>
+	<lines name="mhi_new_members" descr=""><![CDATA[Скрыт поиск новых пользователей.]]></lines>
+	<lines name="mhi_most_active" descr=""><![CDATA[Скрыт поиск наиболее активных пользователей.]]></lines>
+</data>

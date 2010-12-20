@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="auth_failed" descr=""><![CDATA[Incorrect username or password]]></lines>
+	<lines name="auth_access_1" descr=""><![CDATA[Unfortunately, your access to system is blocked. Please, address ]]></lines>
+	<lines name="auth_access_2" descr=""><![CDATA[support team]]></lines>
+	<lines name="auth_access_3" descr=""><![CDATA[ for further details.]]></lines>
+	<lines name="invalid_date" descr=""><![CDATA[Incorrect date]]></lines>
+	<lines name="empty_fields" descr=""><![CDATA[Did you forget to enter something? * Fields are required. ]]></lines>
+	<lines name="fill_empty_fields" descr=""><![CDATA[Please fill in required fields in the form. Then try to save again.]]></lines>
+	<lines name="wrong_login" descr=""><![CDATA[Incorrect username]]></lines>
+	<lines name="wrong_email" descr=""><![CDATA[Incorrect e-mail address]]></lines>
+	<lines name="wrong_pass" descr=""><![CDATA[Incorrect password]]></lines>
+	<lines name="email_not_eq" descr=""><![CDATA[Incorrect confirmation e-mail]]></lines>
+	<lines name="pass_not_eq" descr=""><![CDATA[Incorrect confirmation password]]></lines>
+	<lines name="pass_eq_login" descr=""><![CDATA[Username and password should be different]]></lines>
+	<lines name="login_exist" descr=""><![CDATA[This username is already in use]]></lines>
+	<lines name="email_exist" descr=""><![CDATA[User with such email already exists. Use different contact info.]]></lines>
+	<lines name="invalid_pin" descr=""><![CDATA[Incorrect registration PIN-code]]></lines>
+	<lines name="invalid_keystring" descr=""><![CDATA[Incorrect PIN-code]]></lines>	
+	<lines name="mail_error" descr=""><![CDATA[Recipient e-mail address is invalid. Your message wasn't delivered.]]></lines>
+	<lines name="email_was_sent" descr=""><![CDATA[Your message is successfully sent]]></lines>
+	<lines name="error_not_user" descr=""><![CDATA[Such user already exists]]></lines>
+	<lines name="error_confirm_user" descr=""><![CDATA[Your registration is already confirmed]]></lines>
+	<lines name="success_confirm_user" descr=""><![CDATA[Your registration is successfully confirmed]]></lines>
+	<lines name="error_not_email" descr=""><![CDATA[Invalid e-mail address]]></lines>
+	<lines name="success_lost_pass_email" descr=""><![CDATA[Information is successfully updated and sent to your email address.]]></lines>
+	<lines name="invalid_to" descr=""><![CDATA[Incorrect user name in 'to' field]]></lines>
+	<lines name="empty_subject" descr=""><![CDATA[Please, specify message subject]]></lines>
+	<lines name="empty_body" descr=""><![CDATA[Please, specify message body]]></lines>
+	<lines name="your_in_blacklist" descr=""><![CDATA[You're blocked - your message can't be sent to this user.]]></lines>
+	<lines name="mail_was_resend" descr=""><![CDATA[Your message is again successfully sent]]></lines>
+	<lines name="failed_resend" descr=""><![CDATA[Your message is not sent again]]></lines>
+	<lines name="del_file" descr=""><![CDATA[Your photo is successfully removed]]></lines>
+	<lines name="cant_delete" descr=""><![CDATA[Unfortunately, you can't remove this photo]]></lines>
+	<lines name="cant_upload" descr=""><![CDATA[Unfortunately, you can't upload more photos]]></lines>
+	<lines name="invalid_photo_type" descr=""><![CDATA[Unacceptable photo format]]></lines>
+	<lines name="invalid_photo_size" descr=""><![CDATA[Unacceptable photo size]]></lines>
+	<lines name="invalid_photo_width" descr=""><![CDATA[Unacceptable photo width]]></lines>
+	<lines name="invalid_photo_height" descr=""><![CDATA[Unacceptable photo height]]></lines>
+	<lines name="upload_err" descr=""><![CDATA[Upload error. Please, try again.]]></lines>
+	<lines name="file_upload" descr=""><![CDATA[File is successfully uploaded. Please, wait till moderator reviews it.]]></lines>
+	<lines name="file_upload_without_approve" descr=""><![CDATA[File is successfully uploaded.]]></lines>
+	<lines name="exists_option" descr=""><![CDATA[Such option already exists]]></lines>
+	<lines name="exists_reference" descr=""><![CDATA[Such feedback already exists]]></lines>
+	<lines name="completed" descr=""><![CDATA[Your listing is successfull activated]]></lines>
+	<lines name="limit_ad" descr=""><![CDATA[Unfortunately, you can add only 1 listing]]></lines>
+	<lines name="invalid_login" descr=""><![CDATA[Unacceptable format or empty login]]></lines>
+	<lines name="invalid_pass" descr=""><![CDATA[Unacceptable password format]]></lines>
+	<lines name="invalid_login_length" descr=""><![CDATA[Unacceptable login length]]></lines>
+	<lines name="invalid_pass_length" descr=""><![CDATA[Unacceptable password length]]></lines>
+	<lines name="invalid_ver_pass" descr=""><![CDATA[Incorrect confirmation password]]></lines>
+	<lines name="invalid_first_name" descr=""><![CDATA[Unacceptable user name format]]></lines>
+	<lines name="invalid_last_name" descr=""><![CDATA[Unacceptable last name format]]></lines>
+	<lines name="invalid_email" descr=""><![CDATA[Unacceptable e-mail format]]></lines>
+	<lines name="invalid_ver_email" descr=""><![CDATA[Incorrect confirmation e-mail address]]></lines>
+	<lines name="invalid_user_type" descr=""><![CDATA['I register as' field is not specified]]></lines>
+	<lines name="incorrect_field" descr=""><![CDATA[Incorrect field]]></lines>
+	<lines name="incorrect_date" descr=""><![CDATA[Incorrect date]]></lines>
+	<lines name="no_slideshow_photos" descr=""><![CDATA[Unfortunately, you have no photos for a slide-show.]]></lines>
+	<lines name="inactive_account_1" descr=""><![CDATA[Your profile is inactive. Your can ]]></lines>
+	<lines name="inactive_account_2" descr=""><![CDATA[activate it now]]></lines>
+	<lines name="inactive_account_3" descr=""><![CDATA[.]]></lines>
+	<lines name="no_confirm" descr=""><![CDATA[Please, check your mail-box and confirm registration.]]></lines>	
+	<lines name="no_status_1" descr=""><![CDATA[Unfortunately, your registration information is de-activated by moderator. ]]></lines>
+	<lines name="no_status_2" descr=""><![CDATA[Contact us]]></lines>
+	<lines name="no_status_3" descr=""><![CDATA[ for further details or register again.]]></lines>
+	<lines name="no_access_1" descr=""><![CDATA[ Unfortunately, you don't have access to this page. In order to access it you may need ]]></lines>
+	<lines name="no_access_2" descr=""><![CDATA[to move to a different group of members]]></lines>
+	<lines name="no_access_3" descr=""><![CDATA[ making a membership payment.]]></lines>
+	<lines name="email_exists" descr=""><![CDATA[This e-mail address is already in use]]></lines>
+	<lines name="login_exists" descr=""><![CDATA[This username is already in use]]></lines>
+	<lines name="min_more_max" descr=""><![CDATA[Minimum price can't exceed maximum price]]></lines>
+	<lines name="error_repass" descr=""><![CDATA[Incorrect confirmation password]]></lines>
+	<lines name="error_oldpass" descr=""><![CDATA[Incorrect old password]]></lines>
+	<lines name="admin_pass_changed" descr=""><![CDATA[Admin password is changed]]></lines>
+	<lines name="cant_read_file" descr=""><![CDATA[Can't read file]]></lines>
+	<lines name="cant_write_file" descr=""><![CDATA[Can't write file]]></lines>
+	<lines name="badword" descr=""><![CDATA[Specified information includes unacceptable words or phrases.]]></lines>
+	<lines name="mailbox_badword" descr=""><![CDATA[Your message includes unacceptable words or phrases.]]></lines>
+	<lines name="age_censored" descr=""><![CDATA[At least 18 years old users are admitted to registration.]]></lines>
+	<lines name="date_small_now" descr=""><![CDATA[Date prior to current date is unacceptable]]></lines>
+	<lines name="invalid_start_date" descr=""><![CDATA[Event start time can't be later than event end time.]]></lines>
+	<lines name="more_photo" descr=""><![CDATA[It's necessary to upload at least 2 photos to have a slide-show.]]></lines>
+	<lines name="no_money" descr=""><![CDATA[Insufficient funds on your account]]></lines>
+	<lines name="your_ad_was_topsearched" descr=""><![CDATA[Your listing was added to top of search results.]]></lines>
+	<lines name="your_ad_was_slideshowed" descr=""><![CDATA[Your listing was noticed in search results.]]></lines>
+	<lines name="unknown_error" descr=""><![CDATA[System error. Please, try again.]]></lines>
+	<lines name="no_headline" descr=""><![CDATA[Empty welcome message]]></lines>
+	<lines name="small_curr" descr=""><![CDATA[Your rate should be higher than current leader rate]]></lines>
+	<lines name="no_photo_for_feature" descr=""><![CDATA[There are no photos in the chosen listing]]></lines>
+	<lines name="you_was_featured" descr=""><![CDATA[Congratulations, your listing is at the top of your region search results! Let you hold this position as longer as possible!]]></lines>
+	<lines name="bill_is_small" descr=""><![CDATA[Insufficient funds on your account]]></lines>
+	<lines name="small_percent" descr=""><![CDATA[Your listing isn't complete enough to get credits for additional features.]]></lines>
+	<lines name="bonus_recieved" descr=""><![CDATA[You've got credits on your account!]]></lines>
+	<lines name="new_subcategory_added" descr=""><![CDATA[New subject is successfully added!]]></lines>
+	<lines name="new_post_added" descr=""><![CDATA[New message is successfully added!]]></lines>
+	<lines name="success_payment" descr=""><![CDATA[Successful authorization! Please, check your account a bit later.]]></lines>
+	<lines name="fail_payment" descr=""><![CDATA[Payment sysyem error. Please, contact administrator.]]></lines>
+	<lines name="pass_changed" descr=""><![CDATA[Your password is successully changed.]]></lines>
+	<lines name="too_much_descr_selected" descr=""><![CDATA[Multiple options are unaccceptable for 1 person]]></lines>
+	<lines name="too_much_descr_selected_for_two" descr=""><![CDATA[More than 2 options are unacceptable for 2 persons.]]></lines>
+	<lines name="you_reg_data_changed_1" descr=""><![CDATA[Your profile is changed. You're registered as a Private person now.]]></lines>
+	<lines name="you_reg_data_changed_2" descr=""><![CDATA[Your profile is changed. You're registered as a Real Estate company now.]]></lines>
+	<lines name="you_reg_data_changed_3" descr=""><![CDATA[Your registration information is saved.]]></lines>
+	<lines name="you_reg_data_changed_4" descr=""><![CDATA[Your profile is changed. You're registered as an Agent of Real Estate company now.]]></lines>
+	<lines name="user_reg_data_changed_1" descr=""><![CDATA[Member's profile was modified. Now the member is registered as Private person.]]></lines>
+	<lines name="user_reg_data_changed_2" descr=""><![CDATA[Member's profile was modified. Now the member is registered as Real Estate company]]></lines>
+	<lines name="user_reg_data_changed_3" descr=""><![CDATA[User's profile was successfully changed.]]></lines>
+	<lines name="user_reg_data_changed_4" descr=""><![CDATA[Member's profile was modified. Now the member is registered as Agent of Real Estate company]]></lines>
+	<lines name="invalid_video_type" descr=""><![CDATA[Unacceptable video format]]></lines>
+	<lines name="invalid_video_size" descr=""><![CDATA[Unacceptable video size]]></lines>
+	<lines name="group_get" descr=""><![CDATA[Membership payment was withdrawn from your account.]]></lines>
+	<lines name="price_min_more_max" descr=""><![CDATA[Minimum price can't exceed maximum price]]></lines>
+	<lines name="min_payment_error" descr=""><![CDATA[Incorrect value in "Minimum price" field]]></lines>
+	<lines name="max_payment_error" descr=""><![CDATA[Incorrect value in "Maximum price" field]]></lines>
+	<lines name="lang_saved" descr=""><![CDATA[Languages visibility was saved]]></lines>
+	<lines name="lang_empty_parameters" descr=""><![CDATA[Some parameters are empty]]></lines>
+	<lines name="lang_exists" descr=""><![CDATA[Such language already exists]]></lines>
+	<lines name="lang_cant_chmod" descr=""><![CDATA[Error, please set chmod 0777 for new language files and folders manually]]></lines>
+	<lines name="lang_added" descr=""><![CDATA[Language was added]]></lines>
+	<lines name="one_lang_active" descr=""><![CDATA[At least one language must be active!]]></lines>
+	<lines name="empty_group_name" descr=""><![CDATA[Please enter groups name!]]></lines>
+		<lines name="not_positive_float_number" descr=""><![CDATA[Field value should be a positive number, use decimal point &quot;.&quot; for dividing solid number from broken one!]]></lines>
+	<lines name="wrong_group_trial_period" descr=""><![CDATA[Number of days for free group membership should be a solid positive number!]]></lines>
+	<lines name="smscoin_tarif_exist" descr=""><![CDATA[You are attempting to add an existing cost for thisd operator's service!]]></lines>
+	<lines name="smscoin_incorrect_tarif_value" descr=""><![CDATA[Value for the cost of a rate should be a positive number, use symbol &quot;.&quot; for dividing solid number from broken one!]]></lines>
+	<lines name="activate_alert" descr=""><![CDATA[Fill in obligatory fields in the section About property.]]></lines>
+	<lines name="incorrect_language_name" descr=""><![CDATA[Language name should consist of latin letters only!]]></lines>
+	<lines name="could_not_del_last_lang" descr=""><![CDATA[At least one language should be active on the site!]]></lines>
+	<lines name="lang_deleted" descr=""><![CDATA[The language was successfully removed]]></lines>	
+	<lines name="info_new_caption_range" descr=""><![CDATA[&#145;Title&#145; field should contain from 3 to 255 symbols!]]></lines>
+	<lines name="info_new_content_range" descr=""><![CDATA[&#145;Information page content&#145; field should contain from 10 to 50000 symbols!]]></lines>
+	<lines name="info_successfull_copy" descr=""><![CDATA[Section and all subsections have been successfully copied into other languages!]]></lines>
+	<lines name="not_font" descr=""><![CDATA[Not all font parameters have been entered!]]></lines>
+	<lines name="not_image" descr=""><![CDATA[Image was not chosen!]]></lines>
+
+	<lines name="need_registration_1" descr=""><![CDATA[Please, ]]></lines>		
+	<lines name="need_registration_2" descr=""><![CDATA[register]]></lines>		
+	<lines name="need_registration_3" descr=""><![CDATA[, to access the requested page.]]></lines>		
+	<lines name="int_error" descr=""><![CDATA[Amount of ransfer should be a solid positive number]]></lines>	
+	<lines name="few_balance" descr=""><![CDATA[Your account balance does not allow you to make a payment]]></lines>	
+	<lines name="successful_transfer" descr=""><![CDATA[Payment was processed]]></lines>	
+	<lines name="negative_number_error" descr=""><![CDATA[Amount of payment should a solid positive number]]></lines>	
+	<lines name="min_transfer_error" descr=""><![CDATA[Minimal transfer amount is]]></lines>	
+	<lines name="err_not_valid_period" descr=""><![CDATA[You indicated wrong period, end date should be greater than the start date of period.]]></lines>	
+	<lines name="err_reserved_yet" descr=""><![CDATA[The period you indicated crosses already booked ones.]]></lines>	
+	<lines name="err_not_valid_period2" descr=""><![CDATA[You indicated wrong start date, you can book periods with srat date not earlier than today.]]></lines>	
+	<lines name="err_period_added" descr=""><![CDATA[The period has been successfully booked.]]></lines>	
+	<lines name="err_not_available_period" descr=""><![CDATA[Date of booking should exceed the date of availability.]]></lines>	
+	<lines name="successful_edit" descr=""><![CDATA[Changes are saved.]]></lines>	
+	<lines name="exists_country" descr=""><![CDATA[Such country already exists]]></lines>	
+	<lines name="exists_city" descr=""><![CDATA[Such city already exists]]></lines>	
+	<lines name="exists_region" descr=""><![CDATA[Such region already exists]]></lines>
+	<lines name="map_error" descr=""><![CDATA[The map is not displayed correctly in Opera browser.Please use another browser to view the map correctly.]]></lines>	
+	<lines name="na_agency" descr=""><![CDATA[Such company was not found]]></lines>	
+	<lines name="currency_not_deleted" descr=""><![CDATA[The only available currency cannot be removed]]></lines>
+	<lines name="currensy_is_present" descr=""><![CDATA[Such currency already exists]]></lines>
+	<lines name="invalid_time" descr=""><![CDATA[Working and lunch hours were entered incorrectly. The data was not saved.]]></lines>		
+	<lines name="empty_permission" descr=""><![CDATA[Group permissions were not set]]></lines>		
+	<lines name="success_save" descr=""><![CDATA[Changes are successfully saved]]></lines>		
+	<lines name="invalid_fields" descr=""><![CDATA[Incorrect fields value]]></lines>		
+	<lines name="need_perm_to_feed_folder" descr=""><![CDATA[Please change permissios on folder include/feeds_export on "is writable"]]></lines>
+	<lines name="feed_template_none" descr=""><![CDATA[Feed template is not found]]></lines>		
+	<lines name="need_perm_to_feed_file" descr=""><![CDATA[Change permission on feed file to 777]]></lines>
+	<lines name="successful_creating" descr=""><![CDATA[Export file successfully was created(was updated)]]></lines>	
+	<lines name="at_least_one_operation_type" descr=""><![CDATA[At least one operation type (to buy, to sell, to rent or to lease) should be enabled!]]></lines>		
+	<lines name="incorrect_rss_field" descr=""><![CDATA[One or more field of form incorrect or empty: field "Title" should contain from 1 to 80 symols!]]></lines>	
+	<lines name="manual_submit" descr=""><![CDATA[The submitted form was forwarded to administrator. Once it is verified, you will get a notification.]]></lines>	
+</data>

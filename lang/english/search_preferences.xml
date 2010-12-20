@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="preferences_help" descr=""><![CDATA[Set search preferences and search forms of the site will be filled in automatically. If you change the values of the form fields, your new search preferences will get saved automatically.]]></lines>
+	<lines name="i_want" descr=""><![CDATA[I want]]></lines>
+	<lines name="qs_i_need" descr=""><![CDATA[to rent]]></lines>
+	<lines name="qs_i_have" descr=""><![CDATA[to lease]]></lines>
+	<lines name="qs_i_sell" descr=""><![CDATA[to sell]]></lines>
+	<lines name="qs_i_buy" descr=""><![CDATA[to buy]]></lines>	
+	<lines name="costs_min" descr=""><![CDATA[Price min]]></lines>
+	<lines name="upto" descr=""><![CDATA[max]]></lines><lines name="payment" descr=""><![CDATA[Maximum price]]></lines>
+	<lines name="where_loc" descr=""><![CDATA[Location]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Move date from]]></lines>
+	<lines name="choose" descr=""><![CDATA[Please choose]]></lines>	
+	<lines name="button_search" descr=""><![CDATA[Search!]]></lines>
+	<lines name="empty_preferred_list" descr=""><![CDATA[There are no location search preferences set.]]></lines>
+	<lines name="empty_location_history" descr=""><![CDATA[There is no search history.]]></lines>
+	<lines name="clean_search_preferences" descr=""><![CDATA[Reset all the search preferences]]></lines>		
+	<lines name="clean_search_history" descr=""><![CDATA[Remove search history]]></lines>
+	<lines name="make_preferred" descr=""><![CDATA[Add to search preferences]]></lines>
+	<lines name="make_primary" descr=""><![CDATA[Make primary]]></lines>
+	<lines name="is_primary" descr=""><![CDATA[Primary]]></lines>
+	<lines name="primary_comment" descr=""><![CDATA[All locations you search on the site get saved in the search history. <br><b>Search history</b> can be used for creating location preferences in search . You can set one of your location search preferences as primary. <b>Primary search location</b> will be used by default in all the search forms. <br>Click the link with search location to make it fill in the form and start search with these parameters.]]></lines>	
+	<lines name="preferred_location" descr=""><![CDATA[Preferred search locations]]></lines>
+	<lines name="location_history" descr=""><![CDATA[Search history]]></lines>
+	<lines name="add_to_search_location" descr=""><![CDATA[To add a new search location into the list, start the search]]></lines>	
+	<lines name="primary_search_location" descr=""><![CDATA[Primary search location]]></lines>
+</data>

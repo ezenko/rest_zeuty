@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="mails_edit" descr=""><![CDATA[Редактирование уведомления]]></lines>									
+<lines name="admin_help_1" descr=""><![CDATA[Список уведомлений, которые получает администратор сайта на E-mail, указанный в ]]></lines>
+<lines name="admin_help_2" descr=""><![CDATA[настройках]]></lines>		
+<lines name="admin_help_3" descr=""><![CDATA[, как E-mail, на который будут отправляться системные уведомления.]]></lines>		
+<lines name="user_help" descr=""><![CDATA[Список уведомлений, которые получают пользователи. Если для письма отписка невозможна, то все пользователи сайта по умолчанию подписаны на получение этого письма.]]></lines>	
+<lines name="sys_alerts_from" descr=""><![CDATA[Все системные рассылки для пользователей проводятся от отправителя]]></lines>	
+<lines name="alerts_from_email" descr=""><![CDATA[E-mail]]></lines>	
+<lines name="alerts_from_name" descr=""><![CDATA[Имя]]></lines>	
+<lines name="sys_from_email_help_1" descr=""><![CDATA[E-mail, указанный в ]]></lines>	
+<lines name="sys_from_email_help_2" descr=""><![CDATA[настройках]]></lines>	
+<lines name="sys_from_email_help_3" descr=""><![CDATA[как E-mail, на который будут отправляться системные уведомления.]]></lines>
+<lines name="sys_from_name_help" descr=""><![CDATA[Значение переменной [site_name], которая используется во всех языковых файлах писем; изменяется в общем для всех уведомлений языковом файле, для её редактирования перейдите на изменения любого из писем]]></lines>	
+<lines name="user_alerts_help" descr=""><![CDATA[Администратору письма отправляются на]]></lines>	
+<lines name="user_alerts_from" descr=""><![CDATA[Все уведомления от пользователей администратору приходят от Email пользователя, заполнившего форму контакта, от имени этого пользователя или от отправителя]]></lines>	
+<lines name="admin_name_help" descr=""><![CDATA[Имя и Фамилия, указанные в <a href="./admin_settings.php?section=admin">настройках</a>]]></lines>	
+<lines name="admin_name_help_1" descr=""><![CDATA[Имя и Фамилия, указанные в ]]></lines>	
+<lines name="admin_name_help_2" descr=""><![CDATA[настройках]]></lines>	
+<lines name="mail_content_deactivate" descr=""><![CDATA[Причина деактивации пользователя]]></lines>
+<lines name="mail_content_contact_agency" descr=""><![CDATA[Онлайн форма контакта для агенста недвижимости]]></lines>
+<lines name="mail_content_contact_complain" descr=""><![CDATA[Онлайн форма контакта с администратором - жалоба на пользователя]]></lines>
+<lines name="mail_content_contact_form" descr=""><![CDATA[Онлайн форма контакта для предложений от пользователей по улучшению сайта]]></lines>
+<lines name="mail_content_money_end" descr=""><![CDATA[Заканчиваются деньги на счете]]></lines>
+<lines name="mail_content_match" descr=""><![CDATA[Уведомление о появлении подходящего варианта]]></lines>
+<lines name="mail_content_money_add" descr=""><![CDATA[Зачисление денег на счёт]]></lines>
+<lines name="mail_content_registration_by_admin" descr=""><![CDATA[Регистрация пользователя администратором]]></lines>
+<lines name="mail_content_profile_change_by_admin" descr=""><![CDATA[Изменение данных в профайле пользователя администратором]]></lines>
+<lines name="mail_content_lost_pass" descr=""><![CDATA[Письмо пользователю, забывшему пароль]]></lines>
+<lines name="mail_content_newmailbox" descr=""><![CDATA[Уведомление в случае получения нового сообщения]]></lines>
+<lines name="mail_content_registration" descr=""><![CDATA[Поздравление нового пользователя с регистрацией, письмо также может содержать ссылку для подтверждения регистрации, если подтверждение регистрации включено на сайте]]></lines>
+<lines name="mail_content_viewme" descr=""><![CDATA[Уведомление при просмотре объявления пользователя посетителями сайта]]></lines>
+<lines name="mail_content_interme" descr=""><![CDATA[Уведомление в случае, если другой пользователь выразил интерес к объявлению]]></lines>
+<lines name="mail_content_unactivate_ad" descr=""><![CDATA[Уведомление о том, что истек срок активности объявления, в случае, если включена настройка `Период активности объявления`]]></lines>
+<lines name="mail_content_unactivate_sold_leased" descr=""><![CDATA[Уведомление о том, что объявление пользователя, имевшее статус `Продано` или `Сдано в аренду`, стало неактивным, так как администратор отключил возможность присвоения объявлениям этих статусов]]></lines>
+<lines name="mail_content_contact_user" descr=""><![CDATA[Онлайн форма контакта по объявлению пользователя, доступна только во втором режиме работы сайта - `Сайт компании по работе с недвижимостью`]]></lines>
+<lines name="mail_content_approve_by_agent" descr=""><![CDATA[Уведомление компании о том, что ползователь принял ее предложение стать агентом]]></lines>
+<lines name="mail_content_approve_by_realtor" descr=""><![CDATA[Уведомление пользователю о том, что компания приняла его предложение стать ее агентом]]></lines>
+<lines name="mail_content_decline_by_agent" descr=""><![CDATA[Уведомление компании о том, что пользователь отклонил предложение стать ее агентом]]></lines>
+<lines name="mail_content_decline_by_realtor" descr=""><![CDATA[Уведомление пользователю о том, что компания отклонила предложение стать ее агентом]]></lines>
+<lines name="mail_content_delete_by_agent" descr=""><![CDATA[Уведомление компании о том, что пользователь удалил себя из списка агентов]]></lines>
+<lines name="mail_content_delete_by_agent_1" descr=""><![CDATA[Уведомление о том, что пользователь отклонил предложение компании стать ее агентом]]></lines>
+<lines name="mail_content_delete_by_agent_2" descr=""><![CDATA[Уведомление компании о том, что пользователь отозвал свою заявку с желанием стать агентом этой компании]]></lines>
+<lines name="mail_content_delete_by_realtor" descr=""><![CDATA[Уведомление пользователю о том, что компания удалила его из своего списка агентов]]></lines>
+<lines name="mail_content_delete_offer_by_realtor" descr=""><![CDATA[Уведомление пользователю о том, что компания отозвала свое предложение стать ее агентом]]></lines>
+<lines name="mail_content_invite_to_realtor" descr=""><![CDATA[Приглашение от компании стать ее агентом]]></lines>
+<lines name="mail_content_new_agent" descr=""><![CDATA[Уведомление компании о том, что пользователь желает стать ее агентом]]></lines>
+<lines name="mail_content_birthday" descr=""><![CDATA[Поздравление пользователя с днем рождения]]></lines>
+<lines name="unsubscribe_possible" descr=""><![CDATA[Возможна подписка/отписка]]></lines>
+<lines name="preview_sname" descr=""><![CDATA[Имя]]></lines>	  
+<lines name="preview_fname" descr=""><![CDATA[Фамилия]]></lines>	  
+<lines name="preview_login" descr=""><![CDATA[Логин/Имя]]></lines>	  
+<lines name="preview_password" descr=""><![CDATA[Пароль]]></lines>	  		
+<lines name="preview_add_on_account" descr=""><![CDATA[10]]></lines>	  
+<lines name="preview_account" descr=""><![CDATA[50]]></lines>	  
+<lines name="preview_confirm_link" descr=""><![CDATA[Ссылка для подтверждения]]></lines>	  
+<lines name="mail_description" descr=""><![CDATA[Описание письма]]></lines>
+<lines name="users_cnt" descr=""><![CDATA[Подписано пользователей]]></lines>
+<lines name="mail_text" descr=""><![CDATA[Содержание письма]]></lines>	  
+<lines name="edit_lang_files" descr=""><![CDATA[Редактирование языковых файлов, относящихся к этому письму]]></lines>	  
+<lines name="lang_content" descr=""><![CDATA[Языковой файл письма]]></lines>	
+<lines name="lang_content_help" descr=""><![CDATA[Файл содержит языковые строки, относящиеся к редактируемому письму]]></lines>	
+<lines name="lang_default_select" descr=""><![CDATA[Общий языковой файл]]></lines>	  
+<lines name="lang_default_select_help" descr=""><![CDATA[Файл содержит общие языковые строки для всех писем]]></lines>	  			  
+<lines name="edit_help" descr=""><![CDATA[В блоке "Содержание письма" Вы можете увидеть, как будет выглядить письмо. Для наглядности в текст письма вставлены тестовые данные (например, информация о пользователе - имя, фамилия, логин, пароль, и .т.п.)<br>Каждый пользователь получает письма на языке, указанном в его профайле в качестве языка интерфейса. Переведите письма на каждый из языков сервиса, переключаясь по ссылкам с названиями языков в cтроке "Язык интерфейса".]]></lines>	  
+<lines name="agent_name" descr=""><![CDATA[Имя Фамилия]]></lines>	
+<lines name="company_name_user" descr=""><![CDATA[Имя Фамилия]]></lines>	
+<lines name="link" descr=""><![CDATA[Ссылка]]></lines>	
+<lines name="company_name" descr=""><![CDATA[Название_компании]]></lines>	
+</data>

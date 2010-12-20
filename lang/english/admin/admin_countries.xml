@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="razdel_name" descr=""><![CDATA[Reference Lists]]></lines>
+<lines name="editform_city" descr=""><![CDATA[Edit City]]></lines>
+<lines name="list" descr=""><![CDATA[Countries List]]></lines>
+<lines name="list_region" descr=""><![CDATA[List of regions:]]></lines>
+<lines name="list_city" descr=""><![CDATA[List of cities of the region/country:]]></lines>
+<lines name="edit_city" descr=""><![CDATA[Modification of country/region/city:]]></lines>
+<lines name="edit_region" descr=""><![CDATA[Modification of country, region:]]></lines>
+<lines name="edit_country" descr=""><![CDATA[Modification of country:]]></lines>
+<lines name="empty" descr=""><![CDATA[Countries list is empty]]></lines>
+<lines name="empty_city" descr=""><![CDATA[Cities list is empty]]></lines>
+<lines name="empty_region" descr=""><![CDATA[Regions list is empty]]></lines>
+<lines name="number" descr=""><![CDATA[N/N]]></lines>
+<lines name="name" descr=""><![CDATA[Country]]></lines>
+<lines name="country" descr=""><![CDATA[Country]]></lines>
+<lines name="add" descr=""><![CDATA[Add]]></lines>
+<lines name="add_city" descr=""><![CDATA[Add]]></lines>
+<lines name="add_region" descr=""><![CDATA[Add]]></lines>
+<lines name="city" descr=""><![CDATA[City]]></lines>
+<lines name="new_city" descr=""><![CDATA[New city]]></lines>
+<lines name="region" descr=""><![CDATA[Region]]></lines>
+<lines name="new_region" descr=""><![CDATA[New region]]></lines>
+<lines name="back_to_countries" descr=""><![CDATA[Return to the countries' list]]></lines>
+<lines name="back_to_regions" descr=""><![CDATA[Return to the regions' list]]></lines>
+<lines name="country_select" descr=""><![CDATA[Select a country]]></lines>
+<lines name="confirm_delete" descr=""><![CDATA[Are you sure you want to delete this entry?]]></lines>
+<lines name="help_countries_intro" descr=""><![CDATA[This is the list of countries installed on your site. You can]]></lines>
+<lines name="help_countries_install" descr=""><![CDATA[install new countries]]></lines>
+<lines name="help_countries" descr=""><![CDATA[, following the link. If the link is not available, it means that you have renasmed the folder 'www.yourdomain.com/install/' (where www.yourdomain.com is your site address) after your site installation, to be able to install countries you should rename the folder back to 'www.yourdomain.com/install/'.<ol><li>You can add countries manually, enter the name of the country in the field “Country: ” and click “Add”.</li><li>To view, add, remove regions and cities of the country, click the name of the country in the list.</li></ol>]]></lines>
+<lines name="help_regions" descr=""><![CDATA[Here you can add, edit or remove regions. To go to the list of cities of the region, click the link of tge region in the list.]]></lines>
+<lines name="help_cities" descr=""><![CDATA[Here you can add, edit or remove cities.]]></lines>
+<lines name="help_edit" descr=""><![CDATA[Change the name and clcik “Save” to save the changes.]]></lines>
+</data>

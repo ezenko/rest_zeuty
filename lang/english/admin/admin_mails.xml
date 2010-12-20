@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="mails_edit" descr=""><![CDATA[Notifications management]]></lines>									
+<lines name="admin_help_1" descr=""><![CDATA[List of notifications sent to site administrator's E-mail, indicated in ]]></lines>
+<lines name="admin_help_2" descr=""><![CDATA[settings]]></lines>		
+<lines name="admin_help_3" descr=""><![CDATA[, as E-mail, to which all system notifications are sent.]]></lines>		
+<lines name="user_help" descr=""><![CDATA[List of notifications received by site members. If there is no unsubscription from notification available, then all site members will receive this notification by default.]]></lines>	
+<lines name="sys_alerts_from" descr=""><![CDATA[All users system notifications are done from sender.]]></lines>	
+<lines name="alerts_from_email" descr=""><![CDATA[E-mail]]></lines>	
+<lines name="alerts_from_name" descr=""><![CDATA[Name]]></lines>	
+<lines name="sys_from_email_help_1" descr=""><![CDATA[E-mail, indicated in ]]></lines>	
+<lines name="sys_from_email_help_2" descr=""><![CDATA[settings]]></lines>	
+<lines name="sys_from_email_help_3" descr=""><![CDATA[, as E-mail, to which system notifications will be sent]]></lines>	
+<lines name="sys_from_name_help" descr=""><![CDATA[Value for the variable [site_name] which is used in all mail language files; it is modified in a shared language file, to edit it go to management of any site mail templates]]></lines>	
+<lines name="user_alerts_help" descr=""><![CDATA[Messages sent to administrator are delivered to]]></lines>	
+<lines name="user_alerts_from" descr=""><![CDATA[All members notifications to administrator are sent from members email address, who filled in contact form]]></lines>	
+<lines name="admin_name_help_1" descr=""><![CDATA[Name and surname  listed in ]]></lines>	
+<lines name="admin_name_help_2" descr=""><![CDATA[settings]]></lines>	
+<lines name="mail_content_deactivate" descr=""><![CDATA[Reason for member's deactivation]]></lines>
+<lines name="mail_content_contact_agency" descr=""><![CDATA[Online contact form for real estate agency]]></lines>
+<lines name="mail_content_contact_complain" descr=""><![CDATA[Online contact form with administrator - complaint on a member]]></lines>
+<lines name="mail_content_contact_form" descr=""><![CDATA[Online contact form from members with suggestions on improving the site]]></lines>
+<lines name="mail_content_money_end" descr=""><![CDATA[Funds on your account are about to expire]]></lines>
+<lines name="mail_content_match" descr=""><![CDATA[Notification on new matching variant]]></lines>
+<lines name="mail_content_money_add" descr=""><![CDATA[Adding funds to account]]></lines>
+<lines name="mail_content_registration_by_admin" descr=""><![CDATA[User's registration by administrator]]></lines>
+<lines name="mail_content_profile_change_by_admin" descr=""><![CDATA[Changes in user's profile by administrator]]></lines>
+<lines name="mail_content_lost_pass" descr=""><![CDATA[A message to a user regarding forgotten password]]></lines>
+<lines name="mail_content_newmailbox" descr=""><![CDATA[A message informing of a new message in a mailbox]]></lines>
+<lines name="mail_content_registration" descr=""><![CDATA[User's congratulation on registration on the site; this message can also contain a link for registration confirmation, if this option is turned on on the site]]></lines>
+<lines name="mail_content_viewme" descr=""><![CDATA[Notification sent to a member if his listing was view by other members]]></lines>
+<lines name="mail_content_interme" descr=""><![CDATA[Notification sent to a member if someone interested in listings he offer]]></lines>
+<lines name="mail_content_unactivate_ad" descr=""><![CDATA[Notification informing that members listing became inactive (active period is over) in case, if `Listing activity period` option is turned on]]></lines>
+<lines name="mail_content_unactivate_sold_leased" descr=""><![CDATA[Notification informing that members' listings with status  `Sold` or `Leased`, became inactive when site administrator turned off the opportunity of adding such types of status]]></lines>
+<lines name="mail_content_contact_user" descr=""><![CDATA[Online contact form from the listing, available only in second mode of site operation - `A separate realtor or real estate agent/broker`]]></lines>
+<lines name="mail_content_approve_by_agent" descr=""><![CDATA[Company's notification informing that the user accepted their offer to become an agent]]></lines>
+<lines name="mail_content_approve_by_realtor" descr=""><![CDATA[Member's notification informing that the company accepted his request to become an agent]]></lines>
+<lines name="mail_content_decline_by_agent" descr=""><![CDATA[Company's notification informing that the member didn't accept company's offer to become their agent]]></lines>
+<lines name="mail_content_decline_by_realtor" descr=""><![CDATA[Member's notification informing that the company declined his request to become their agent]]></lines>
+<lines name="mail_content_delete_by_agent" descr=""><![CDATA[Company's notification informing that a member removed himself from the list of their agents]]></lines>
+<lines name="mail_content_delete_by_agent_1" descr=""><![CDATA[Notification informing that a member did not accept company's offer to become their agent]]></lines>
+<lines name="mail_content_delete_by_agent_2" descr=""><![CDATA[Company's notification informing that a member canceled his request to become an agent of the company]]></lines>
+<lines name="mail_content_delete_by_realtor" descr=""><![CDATA[Member's notification informing that a company removed him from the list of their agents]]></lines>
+<lines name="mail_content_delete_offer_by_realtor" descr=""><![CDATA[Member's notification informing that a company cancelled their proposal to become their agent]]></lines>
+<lines name="mail_content_invite_to_realtor" descr=""><![CDATA[Invitation fro a company to become their agent]]></lines>
+<lines name="mail_content_new_agent" descr=""><![CDATA[Company's notification informing that a member wants to become their agent]]></lines>
+<lines name="mail_content_birthday" descr=""><![CDATA[Member's congratulation on Birthday]]></lines>
+<lines name="unsubscribe_possible" descr=""><![CDATA[Subscribe/unsubscribe options availble]]></lines>
+<lines name="preview_sname" descr=""><![CDATA[Name]]></lines>	  
+<lines name="preview_fname" descr=""><![CDATA[Surname]]></lines>	  
+<lines name="preview_login" descr=""><![CDATA[Login]]></lines>	  
+<lines name="preview_password" descr=""><![CDATA[Password]]></lines>	  		
+<lines name="preview_add_on_account" descr=""><![CDATA[10]]></lines>	  
+<lines name="preview_account" descr=""><![CDATA[50]]></lines>	  
+<lines name="preview_confirm_link" descr=""><![CDATA[Confirmation link]]></lines>	  
+<lines name="mail_description" descr=""><![CDATA[Message description]]></lines>
+<lines name="users_cnt" descr=""><![CDATA[Subscribed members]]></lines>
+<lines name="mail_text" descr=""><![CDATA[Message body]]></lines>	  
+<lines name="edit_lang_files" descr=""><![CDATA[Language files management related to this message]]></lines>	  
+<lines name="lang_content" descr=""><![CDATA[Message langauge file]]></lines>	
+<lines name="lang_content_help" descr=""><![CDATA[File includes language lines related to the modified message]]></lines>	
+<lines name="lang_default_select" descr=""><![CDATA[General language file]]></lines>	  
+<lines name="lang_default_select_help" descr=""><![CDATA[File includes general language lines for all messages]]></lines>	  			  
+<lines name="edit_help" descr=""><![CDATA[In section "Message body" you can view, how message will look like. We have included test data into the body for you to preview they look(for example, member's info - name, surname, login, password, etc)<br>Every member will receive messages in the language of their site interface. Translate messages into all languages of the service, clicking the links with language names in the line "Language interface".]]></lines>	  
+<lines name="agent_name" descr=""><![CDATA[Name Surname]]></lines>	
+<lines name="company_name_user" descr=""><![CDATA[Name Surname]]></lines>	
+<lines name="link" descr=""><![CDATA[Link]]></lines>	
+<lines name="company_name" descr=""><![CDATA[Company_name]]></lines>	
+</data>

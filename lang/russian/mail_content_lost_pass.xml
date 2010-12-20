@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="subject" descr="Тема письма"><![CDATA[Ваш новый пароль на [site_name]]]></lines>
+<lines name="text_1" descr=""><![CDATA[Ваши регистрационные данные на [site_name] изменены.]]></lines>
+<lines name="login" descr=""><![CDATA[Логин]]></lines>
+<lines name="password" descr=""><![CDATA[Пароль]]></lines>
+</data>

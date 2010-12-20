@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="move_in_date" descr=""><![CDATA[Einziehungsdatum]]></lines>
+<lines name="no_photos" descr=""><![CDATA[Ohne Foto]]></lines>
+<lines name="more_ad" descr=""><![CDATA[Alle Anzeigen dieses Mitgliedes]]></lines>
+<lines name="location" descr=""><![CDATA[Position]]></lines>
+<lines name="add_to_hotlist" descr=""><![CDATA[Zu der Hot Liste hinzufügen]]></lines>
+<lines name="add_to_blacklist" descr=""><![CDATA[Zu der Schwarzen Liste hinzufügen]]></lines>
+<lines name="contact_user" descr=""><![CDATA[Mitglied anwenden]]></lines>
+<lines name="contact_with" descr=""><![CDATA[Kontakt]]></lines>
+<lines name="contact_admin" descr=""><![CDATA[Sich über den Benuzer beklagen]]></lines>
+<lines name="interest" descr=""><![CDATA[Ihre Interesse zeigen]]></lines>
+<lines name="pages" descr=""><![CDATA[Seiten]]></lines>
+<lines name="about_me" descr=""><![CDATA[Über mich selbst]]></lines>
+<lines name="about_us" descr=""><![CDATA[Über uns]]></lines>
+<lines name="max_payment" descr=""><![CDATA[Mietepreis]]></lines>
+<lines name="available_date" descr=""><![CDATA[Gültig von]]></lines>
+<lines name="deposit" descr=""><![CDATA[Vorauszahlung]]></lines>
+<lines name="square" descr=""><![CDATA[Fläche]]></lines>
+<lines name="payment" descr=""><![CDATA[Zahlung]]></lines>
+<lines name="country" descr=""><![CDATA[Land]]></lines>
+<lines name="region" descr=""><![CDATA[Region]]></lines>
+<lines name="city" descr=""><![CDATA[Stadt]]></lines>
+<lines name="zipcode" descr=""><![CDATA[Postleitzahl]]></lines>
+<lines name="streets" descr=""><![CDATA[Straßen]]></lines>
+<lines name="general" descr=""><![CDATA[Haupt]]></lines>
+<lines name="photo" descr=""><![CDATA[Foto]]></lines>
+<lines name="comments" descr=""><![CDATA[Kommentare]]></lines>
+<lines name="people_count" descr=""><![CDATA[Menschen]]></lines>
+<lines name="age" descr=""><![CDATA[Alter]]></lines>
+<lines name="add_comments" descr=""><![CDATA[Zusatzlicher Kommentar]]></lines>
+<lines name="wake_up" descr=""><![CDATA[Erwacht]]></lines>
+<lines name="go_to_bed" descr=""><![CDATA[Gehst schlafen]]></lines>
+<lines name="headline" descr=""><![CDATA[Schlagzeile]]></lines>
+<lines name="contact" descr=""><![CDATA[Kontakte]]></lines>
+<lines name="phone" descr=""><![CDATA[Telefon]]></lines>
+<lines name="company_name" descr=""><![CDATA[Unternehmen]]></lines>
+<lines name="company_url" descr=""><![CDATA[Unternehmenssite]]></lines>
+<lines name="workdays" descr=""><![CDATA[Werktage]]></lines>
+<lines name="worktime" descr=""><![CDATA[Geschäftsstunden]]></lines>
+<lines name="lunchtime" descr=""><![CDATA[Mittagspause]]></lines>
+<lines name="subway_min" descr=""><![CDATA[UßBahn zu erreichen, man braucht nicht mehr als]]></lines>
+<lines name="minutes" descr=""><![CDATA[Minuten]]></lines>
+<lines name="interested" descr=""><![CDATA[Sie haben Ihr Interesse gezeigt]]></lines>
+<lines name="not_filled" descr=""><![CDATA[ist nicht gefüllt]]></lines>
+<lines name="subway_name" descr=""><![CDATA[U-Bahn-Station]]></lines>
+<lines name="auction_1" descr=""><![CDATA[Preisverhandlung ist möglich]]></lines>
+<lines name="auction_2" descr=""><![CDATA[Preisverhandlung ist unmöglich]]></lines>
+<lines name="month_payment" descr=""><![CDATA[Mietepreis <br>pro 1 Monat]]></lines>
+<lines name="month_payment_inline" descr=""><![CDATA[Mietepreis pro 1 Monat]]></lines>
+<lines name="price" descr=""><![CDATA[Preis]]></lines>
+<lines name="from" descr=""><![CDATA[von]]></lines>
+<lines name="upto" descr=""><![CDATA[bis zu]]></lines>
+<lines name="from_1" descr=""><![CDATA[von]]></lines>
+<lines name="upto_1" descr=""><![CDATA[bis zu]]></lines>
+<lines name="auction_possible" descr=""><![CDATA[Preisverhandlung ist möglich]]></lines>
+<lines name="auction_inpossible" descr=""><![CDATA[Preisverhandlung ist unmöglich]]></lines>
+<lines name="floor" descr=""><![CDATA[Stock]]></lines>
+<lines name="floor_variants" descr=""><![CDATA[Varianten des Abgebots ]]></lines>
+<lines name="floor_num_max_limitation" descr=""><![CDATA[Die Zahl der Stöcke muß nicht größer sein als]]></lines>
+<lines name="property_floor_number" descr=""><![CDATA[Zahl der Stöcke]]></lines>
+<lines name="total_floor_num" descr=""><![CDATA[Gesamtzahl der Stöcke]]></lines>
+<lines name="of_floors" descr=""><![CDATA[Stöcke]]></lines>
+<lines name="year_build" descr=""><![CDATA[Baujahr]]></lines>
+<lines name="live_square" descr=""><![CDATA[Wohnraum]]></lines>
+<lines name="total_square" descr=""><![CDATA[Gesamtfläche]]></lines>
+<lines name="land_square" descr=""><![CDATA[Landfläche/Fläche des Grundstücks]]></lines>
+<lines name="move_date" descr=""><![CDATA[Erreichbar von]]></lines>
+<lines name="cross_streets" descr=""><![CDATA[Befindet sich Located auf der Kreuzung der Straßen]]></lines>
+<lines name="photo_exist" descr=""><![CDATA[mit Foto]]></lines>
+<lines name="video_exist" descr=""><![CDATA[mit Video]]></lines>
+<lines name="only_with" descr=""><![CDATA[obligatorisch]]></lines>
+<lines name="account_about_me" descr=""><![CDATA[Über mich]]></lines>
+<lines name="account_about_us" descr=""><![CDATA[Über uns]]></lines>
+<lines name="about_realty" descr=""><![CDATA[Über Real Estate]]></lines>
+<lines name="nickname" descr=""><![CDATA[Mitgliedsname]]></lines>
+<lines name="fname" descr=""><![CDATA[Vorname]]></lines>
+<lines name="sname" descr=""><![CDATA[Familienname]]></lines>
+<lines name="birthday" descr=""><![CDATA[Geburtsdatum]]></lines>
+<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+<lines name="phone" descr=""><![CDATA[Telefone]]></lines>
+<lines name="incorrect_field" descr=""><![CDATA[Falsches Feld]]></lines>
+<lines name="incorrect_date" descr=""><![CDATA[Falsches Datum]]></lines>
+<lines name="login_exists" descr=""><![CDATA[Solch einen Nicknamen benutzt man bereits]]></lines>
+<lines name="email_exists" descr=""><![CDATA[Diese E-mail ist schon benuztz]]></lines>
+<lines name="old_password" descr=""><![CDATA[Altes Passwort]]></lines>
+<lines name="new_password" descr=""><![CDATA[Neues Passwort]]></lines>
+<lines name="new_password_verify" descr=""><![CDATA[Passwort wiederholen]]></lines>
+<lines name="wrong_password" descr=""><![CDATA[Falsches altes Passwort]]></lines>
+<lines name="company_name" descr=""><![CDATA[Unternehmensname]]></lines>
+<lines name="company_url" descr=""><![CDATA[Site (url)]]></lines>
+<lines name="company_rent_count" descr=""><![CDATA[Die Zahl der Immobilienvarianten]]></lines>
+<lines name="company_how_know" descr=""><![CDATA[Wie haben Sie uns gefunden?]]></lines>
+<lines name="company_quests_comments" descr=""><![CDATA[Ihre fragen und Kommentare]]></lines>
+<lines name="work_days" descr=""><![CDATA[Werktage]]></lines>
+<lines name="work_time" descr=""><![CDATA[Geschäftsstunden]]></lines>
+<lines name="lunch_time" descr=""><![CDATA[Mittagspause]]></lines>
+<lines name="private_person" descr=""><![CDATA[Privatperson]]></lines>
+<lines name="agency" descr=""><![CDATA[Immobilienagentur]]></lines>
+<lines name="agent" descr=""><![CDATA[Agent des Unternehmens]]></lines>
+<lines name="our_logo" descr=""><![CDATA[Logo des Unternehmens oder Agentenfoto]]></lines>
+<lines name="look_for" descr=""><![CDATA[Meine Preferenzen]]></lines>
+<lines name="about_buyer" descr=""><![CDATA[Über den Käufer]]></lines>
+<lines name="about_leaser" descr=""><![CDATA[About the Mieter]]></lines>
+<lines name="video" descr=""><![CDATA[Video]]></lines>
+<lines name="map" descr=""><![CDATA[Karte]]></lines>
+<lines name="location" descr=""><![CDATA[Position]]></lines>
+<lines name="adress" descr=""><![CDATA[Adresse]]></lines>
+<lines name="i_need" descr=""><![CDATA[Mietet]]></lines>
+<lines name="i_have" descr=""><![CDATA[Vermietet]]></lines>
+<lines name="i_buy" descr=""><![CDATA[Kauft]]></lines>
+<lines name="i_sell" descr=""><![CDATA[Verkauft]]></lines>
+<lines name="month_payment_in_line" descr=""><![CDATA[Mietepreis pro 1 Monat]]></lines>
+<lines name="unregistered_group_err" descr=""><![CDATA[Kontaksinformation is erreichbar nur für]]></lines>
+<lines name="reg_users" descr=""><![CDATA[angemeldete Benutzer]]></lines>
+<lines name="no_video" descr=""><![CDATA[ohne Video]]></lines>
+<lines name="reg_now_text" descr=""><![CDATA[Jetzt anmelden]]></lines>
+<lines name="planirovka" descr=""><![CDATA[Planung]]></lines>
+<lines name="general_photo" descr=""><![CDATA[Generell]]></lines>
+<lines name="print_profile" descr=""><![CDATA[Druckversion]]></lines>
+<lines name="group_err_no_link" descr=""><![CDATA[Kontaksinformation ist nur für bezahlte Benutzer erreichbar.]]></lines>
+<lines name="unreg_group_no_link" descr=""><![CDATA[Kontaksinformation ist nur für angemeldete Benutzer erreichbar]]></lines>
+<lines name="user_type" descr=""><![CDATA[Angemeldet als]]></lines>
+<lines name="comparison" descr=""><![CDATA[Anzeigen vergleichen]]></lines>
+<lines name="ad_is_not_active" descr=""><![CDATA[Anzeige ist unaktiv und ist in der Suche nicht benutzt]]></lines>
+<lines name="back_to_ads_search" descr=""><![CDATA[&#171; Zu ser Such der Anzeigen]]></lines>	
+<lines name="back_to_transfer" descr=""><![CDATA[&#171; Zurück zu der Geldtransferform]]></lines>
+<lines name="back_to_this_transfer" descr=""><![CDATA[&#171; Geldtransfer]]></lines>
+<lines name="calendar" descr=""><![CDATA[Kalender]]></lines>
+<lines name="calendar_name" descr=""><![CDATA[Reservierungskalender]]></lines>
+<lines name="view_calendar" descr=""><![CDATA[Im Kalender ansehen]]></lines>
+<lines name="time_begin" descr=""><![CDATA[von]]></lines>
+<lines name="time_end" descr=""><![CDATA[bis]]></lines>
+<lines name="empty" descr=""><![CDATA[erreichbar]]></lines>
+<lines name="na_days" descr=""><![CDATA[Nicht erreichbare Tage]]></lines>
+<lines name="reserve_days" descr=""><![CDATA[Reservierte Tage]]></lines>
+<lines name="empty_days" descr=""><![CDATA[Erreichbare Tage]]></lines>
+<lines name="back_to_choose_company" descr=""><![CDATA[&#171; Zurück zu derSeite mit der Unternehmenswahl]]></lines>
+<lines name="choose_company_as_agency" descr=""><![CDATA[&#171; Unternehmen als Ihren Realtor wählen]]></lines>
+<lines name="prev_month" descr=""><![CDATA[voriger Monat]]></lines>
+<lines name="next_month" descr=""><![CDATA[nächster Monat]]></lines>
+<lines name="prev_year" descr=""><![CDATA[voriges Jahr]]></lines>
+<lines name="next_year" descr=""><![CDATA[nächstes Jahr]]></lines>
+<lines name="back_to_choose_agent" descr=""><![CDATA[&#171; Zurück zu der Seite um Agenten zu wählen]]></lines>
+<lines name="choose_user_as_agent" descr=""><![CDATA[&#171; Mitglies als Ihren Agenten zu wählen]]></lines>
+<lines name="about_company" descr=""><![CDATA[Über unternehmen]]></lines>
+<lines name="photo" descr=""><![CDATA[Foto]]></lines>
+<lines name="video_without_preview" descr=""><![CDATA[video Dateien ohne Vorschau]]></lines>
+<lines name="more_ad_from" descr=""><![CDATA[Alle Anzeigen von]]></lines>
+<lines name="print_form_copyright" descr=""><![CDATA[&copy; 2009 <b>PilotGroup.NET</b>]]></lines>
+</data>

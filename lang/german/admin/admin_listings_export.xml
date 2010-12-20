@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="export_main_help" descr=""><![CDATA[Bereich für die Steuerung Ihrer Anzeigenexport auf der Site in XML Feed. Lesen Sie und folgen Sie den Anweisungen für jedes XML feed. <br>Zur Zeit können Sie Anzeigen in folgende Extensionen exportieren: ZIF(Zillow Interchange Format), TFF(Trulia Feed Format), Hotpads Feed XML und Google Datenfeed.<br><br>Um Export Ihrer Anzeigen zu machen, brauchen Sie Cron File admin_cron_make_feed.php für Schaffung XML Datei und Ihrer Updating aktivieren. Sie brauchen auch ein Konto für entsprechenden Service zu schaffen, wo Sie Link zu diesem File angeben müssen oder diesen Link bei Email schicken. Details kann man finden, wenn man den Links am rechten underen Eck folgt.]]></lines>
+	<lines name="feed_type_0" descr=""><![CDATA[ZIF Format]]></lines>	
+	<lines name="feed_type_1" descr=""><![CDATA[TFF Format]]></lines>	
+	<lines name="feed_type_2" descr=""><![CDATA[Hotpads Format]]></lines>	
+	<lines name="feed_type_3" descr=""><![CDATA[Google Datenfeed]]></lines>			
+	<lines name="read_more" descr=""><![CDATA[Brauchen Sie mehr Information über]]></lines>				
+	<lines name="read_more_on" descr=""><![CDATA[?]]></lines>	
+	<lines name="path_to_file" descr=""><![CDATA[Link für Datenexport]]></lines>		
+	<lines name="feed_not_found" descr=""><![CDATA[Cron-file wurde nicht bestimmt/geschaffen auf dem Server.]]></lines>			
+	<lines name="how_to" descr=""><![CDATA[Empfehlungen und Ratschläge]]></lines>
+	<lines name="feed_help_0" descr=""><![CDATA[Die Besonderheit von Export Ihrer Anzeigen zu Zillow besteht darin, daß dieses Hilfsmittel speziell für Verkaufsanzeigen nur in den USA gestaltet ist. Somit gibt es bestimmte Begrenzungen für Anzeigen in Exportfilen:<br><ul>1.Nur Anzeigen für Verkauf sind zu exportiert. Anzeigentypen  "Ich miete", "Ich vermiete" oder  "Ich kaufe" passen nicht.<br>2. Die exportierten Anzeigen müssen 5(!) und nur 5-stellige Postleitzahl einschließen.<br>3. Folgende information muß in der Anzeigebeschreibung  angegeben sein: Straße, wo sich die Immobilie befindet und Ihr Preis.</ul>]]></lines>
+	<lines name="feed_help_1" descr=""><![CDATA[Anzeigen Export in Trulia Format. Anzeigen mit der USA als Position passen<br><ul>1. Obligatorische Felder sind Immobilieтtyp, Position der Anzeige, Siteтame(Sie können belibige Sitename angeben,  die in der exportierten Datei identifiziert wird) Addresse der Immobilie und Ihr Status - verkauft, zum Verkauf oder Miete. Alle diese Felder sind automatisch generiert, so ist es nicht notwendig etwas in der Anzeige zu verändern.<br>2. Die exportiertem Daten schließen Anzeigeoperation  "Ich miete" und Ich verkaufe" ein.</ul>]]></lines>
+	<lines name="feed_help_2" descr=""><![CDATA[Export von Anzeigen ünterstützt bei Hotpads.com. Funktioniert für Immobilienanzeigen in den USA. Unten können Sie obligatorische Felder sehen:<br><ul>1.Unternehmensbezeichnung(es gibt Möglichkeit dieses Feld zu bearbeiten, Sehen Sie unten)<br>2. Telefonnummer und/oder Email Adresse</ul><br> Anzeigen "Ich vermiete" und "Ich kaufe" sind erreichbar.]]></lines>
+	<lines name="feed_help_3" descr=""><![CDATA[Export der Anzeigen in RSS 2.0 Format- Schaffen Sie Ihr eigenes RSS Feed. Passt für Anzeigenexport für jedes Land. Obligatorische Felder:<br><ul>1. Titel und Beschreibung der Anzeige. Diese Information kommt aus der Überschrift und Kommentar der Anzeigebeschreibung. Wenn die Felder nicht angegeben sind, kommt diese Information aus der Form <br>2.Typ der Operation - "Ich verkaufe" und "Ich miete"<br>3. Lage der Immobilie im Format Straße, Stadt, Region, Postleitzahl, Land<br>4. Preis für jede Anzeige</ul>]]></lines>	
+	
+	<lines name="choose_parameters" descr=""><![CDATA[Parameter, die verändert sein können]]></lines>	
+	<lines name="site_name" descr=""><![CDATA[Site Name]]></lines>	
+	<lines name="title_rss" descr=""><![CDATA[Parameter Ihres RSS Feed]]></lines>	
+	<lines name="description_rss" descr=""><![CDATA[Beschreibung Ihres Feed]]></lines>		
+	<lines name="ads_title_rss" descr=""><![CDATA[Titel der Anzeige( wenn leer - Feld 'Überschrift' wird benutzt)]]></lines>	
+	<lines name="ads_description_rss" descr=""><![CDATA[Beschreibung der Anzeige( wenn leer - Feld 'Kommentar' wird benutzt)]]></lines>	
+</data>

@@ -1,0 +1,3 @@
+<Files ~ "\.(tpl|xml)$">
+allow from all
+</Files>

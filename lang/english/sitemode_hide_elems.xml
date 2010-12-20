@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="mhi_registration" descr=""><![CDATA[Registration is not available on site. Administrator can add a user-realtor via administrator's panel.]]></lines>
+	<lines name="mhi_ad_buy" descr=""><![CDATA[Posting listings of the type "Looking to buy" is not available.]]></lines>
+	<lines name="mhi_ad_rent" descr=""><![CDATA[Posting listing of the type 'Looking to rent' is not available.]]></lines>
+	<lines name="mhi_ad_sell" descr=""><![CDATA[Posting listing for sale is not available..]]></lines>
+	<lines name="mhi_ad_lease" descr=""><![CDATA[Posting listing of the type 'Looking to lease' is not available..]]></lines>
+	<lines name="mhi_addfriend_link" descr=""><![CDATA[Hot List is not available.]]></lines>
+	<lines name="mhi_blacklist_link" descr=""><![CDATA[Black list is not available.]]></lines>
+	<lines name="mhi_interest_link" descr=""><![CDATA[Option 'Show interest in the listing' is not available.]]></lines>
+	<lines name="mhi_my_messages" descr=""><![CDATA[Section "My messages" is not available. While viewing the listing a user can send an email to listing owner's private email (E-mail will be hidden and not displayed in forms).]]></lines>
+	<lines name="mhi_services" descr=""><![CDATA[All paid services ar disabled.]]></lines>
+	<lines name="mhi_contact_agency" descr=""><![CDATA[Cooperation offer for realtors will be hidden (a special form for contacting administrator).]]></lines>
+	<lines name="mhi_complain_link" descr=""><![CDATA[Option of complaining on a member is disabled.]]></lines>
+	<lines name="mhi_match_me" descr=""><![CDATA[Section 'Matching my criteria' is not available.]]></lines>
+	<lines name="mhi_online" descr=""><![CDATA[Search for online members will be hidden.]]></lines>
+	<lines name="mhi_new_members" descr=""><![CDATA[Search for new members will be hidden.]]></lines>
+	<lines name="mhi_most_active" descr=""><![CDATA[Search for most active members will be hidden.]]></lines>
+</data>

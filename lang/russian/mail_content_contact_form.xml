@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<lines name="subject" descr="Тема письма"><![CDATA[[site_name] - заполнена форма контакта]]></lines>
+	<lines name="message_subject" descr=""><![CDATA[Тема сообщения]]></lines>	
+	<lines name="message_text" descr=""><![CDATA[Текст сообщения]]></lines>	
+</strings>

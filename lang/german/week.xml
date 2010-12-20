@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="1" descr="Monday"><![CDATA[Montag]]></lines>
+	<lines name="2" descr="Tuesday"><![CDATA[Dienstag]]></lines>
+	<lines name="3" descr="Wednesday"><![CDATA[Mittwoch]]></lines>
+	<lines name="4" descr="Thursday"><![CDATA[Donnerstag]]></lines>
+	<lines name="5" descr="Friday"><![CDATA[Freitag]]></lines>
+	<lines name="6" descr="Saturday"><![CDATA[Sonnabend]]></lines>
+	<lines name="7" descr="Sunday"><![CDATA[Sonntag]]></lines>
+</data>

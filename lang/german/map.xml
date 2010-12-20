@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="index" descr=""><![CDATA[Indexseite]]></lines>
+<lines name="registration" descr=""><![CDATA[Anmeldung]]></lines>
+<lines name="homepage" descr=""><![CDATA[Mein RealEstate]]></lines>
+<lines name="edit_rentals" descr=""><![CDATA[Meine Anzeigen]]></lines>
+<lines name="match_my_rent" descr=""><![CDATA[Variantenm die meinen Kriterien passen]]></lines>
+
+<lines name="services" descr=""><![CDATA[Bezahlte Dienste]]></lines>
+<lines name="top_search" descr=""><![CDATA[Hochheben und Quote;Auf und Quote; Ihre Anzeige in der Suche]]></lines>
+<lines name="slideshow" descr=""><![CDATA[Machen Sie Ihre Listing notiert in der Suche]]></lines>
+<lines name="featured" descr=""><![CDATA[Machen Sie Ihre Anzeige motiert im Region]]></lines>
+<lines name="charge" descr=""><![CDATA[Mitgliederbeitrag]]></lines>
+<lines name="sell_lease_payment" descr=""><![CDATA[Kosten um die Anzeigen für Verkauf und Vermieten]]></lines>
+<lines name="payment_form" descr=""><![CDATA[Geldmittel zu Ihrem Konto hinzufügen]]></lines>
+<lines name="payment_history" descr=""><![CDATA[Verlauf der Zahlungen]]></lines>
+
+<lines name="search_preferences" descr=""><![CDATA[Meine Suchpreferenzen]]></lines>
+
+<lines name="my_contacts" descr=""><![CDATA[Mein Kontaksverzeichniss]]></lines>
+<lines name="menu_rental_my_1" descr=""><![CDATA[Haben mein Profil durchgesehen]]></lines>
+<lines name="menu_rental_my_2" descr=""><![CDATA[Haben mich zur Hot Liste hinzugefügt]]></lines>
+<lines name="menu_rental_my_3" descr=""><![CDATA[Interessieren sich für mich]]></lines>
+<lines name="blacklisted_me" descr=""><![CDATA[Haben mich zur Schwarzen Listen hinzugefügt]]></lines>
+<lines name="menu_rental_his_1" descr=""><![CDATA[Ich have Ihre Profile durchgesehen]]></lines>
+<lines name="menu_rental_his_2" descr=""><![CDATA[Ich habe sie zu meiner Hot Liste hinzugefügt]]></lines>
+<lines name="menu_rental_his_3" descr=""><![CDATA[Ich interessiere mich für]]></lines>
+<lines name="blacklisted_them" descr=""><![CDATA[Meine Schwarze Liste]]></lines>
+
+<lines name="my_profile" descr=""><![CDATA[Mein Profil]]></lines>
+<lines name="edit_profile" descr=""><![CDATA[Profileditor]]></lines>
+<lines name="edit_password" descr=""><![CDATA[Passwort verändern]]></lines>
+<lines name="account_deactivate" descr=""><![CDATA[Profil deaktivieren]]></lines>
+<lines name="account_activate" descr=""><![CDATA[Profile aktivieren]]></lines>
+
+<lines name="mailbox" descr=""><![CDATA[Meine Mitteilungen]]></lines>
+
+<lines name="search" descr=""><![CDATA[Suche]]></lines>
+<lines name="quick_search" descr=""><![CDATA[Schnelle Suche]]></lines>
+<lines name="power_searchr" descr=""><![CDATA[Erweiterte Suche]]></lines>
+<lines name="power_searchr_saved" descr=""><![CDATA[Suchen nach den erweiterten Suchkriterien]]></lines>
+<lines name="power_searchr_by_name" descr=""><![CDATA[Nach Bentzername suchen]]></lines>
+<lines name="search_online" descr=""><![CDATA[Online jetzt]]></lines>
+<lines name="search_new_members" descr=""><![CDATA[Neue Mitglieder]]></lines>
+<lines name="search_most_active" descr=""><![CDATA[Die aktivsten Mitglieder]]></lines>
+
+<lines name="news" descr=""><![CDATA[Nachrichten]]></lines>
+
+<lines name="contact" descr=""><![CDATA[Kontakt]]></lines>
+<lines name="map" descr=""><![CDATA[Inhaltsübersicht]]></lines>
+
+<lines name="logoff" descr=""><![CDATA[Abmeldung]]></lines>
+<lines name="charge" descr=""><![CDATA[Mitgliedschaft-Upgrade]]></lines>
+</data>

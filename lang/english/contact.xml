@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_header" descr=""><![CDATA[Your feedback or improvement suggestion will help to make our service better. Feel free to contact site adninistrator if you have questions or need assistance.]]></lines>
+	<lines name="subject" descr=""><![CDATA[Subject]]></lines>
+	<lines name="name" descr=""><![CDATA[Your name]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="body" descr=""><![CDATA[Message]]></lines>
+	<lines name="for_agency" descr=""><![CDATA[For realtors]]></lines>
+	<lines name="text_top" descr=""><![CDATA[We are interested in cooperation with Real Estate agencies. Do you have a wide range of Real Estate listings? We are ready to help - your listings will be publicated automatically.]]></lines>
+	<lines name="text_top_mhi_registration" descr=""><![CDATA[If you are interested in posting your listings on our resource, fill in the form below. We will review your information and create an account for you in our system for posting your listings.]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Company name]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Your company site (url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Number of listings]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[How did you find us]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Your questions and comments]]></lines>
+	<lines name="company_contact_person" descr=""><![CDATA[Contact person]]></lines>
+	<lines name="company_phone" descr=""><![CDATA[Phone number]]></lines>
+	<lines name="company_email" descr=""><![CDATA[E-mail address]]></lines>
+	<lines name="contact" descr=""><![CDATA[Fill in online form]]></lines>
+	<lines name="show_link_text" descr=""><![CDATA[View ready listing sample]]></lines>
+	<lines name="complaint_0" descr=""><![CDATA[uses somebody's photos]]></lines>
+	<lines name="complaint_1" descr=""><![CDATA[posts user contacts]]></lines>
+	<lines name="complaint_2" descr=""><![CDATA[sends abuse and threats]]></lines>
+	<lines name="complaint_3" descr=""><![CDATA[offers paid adult services]]></lines>
+	<lines name="complaint_4" descr=""><![CDATA[requests money transfer or payment cards]]></lines>
+	<lines name="complaint_5" descr=""><![CDATA[sends spam]]></lines>
+	<lines name="complaint_6" descr=""><![CDATA[other]]></lines>
+	<lines name="default_subj" descr=""><![CDATA[RealEstate - complaint]]></lines>
+	<lines name="text_2" descr=""><![CDATA[Some users may send spam, offer money transfers or defraud of payment card pin-code. We'll be grateful if you imform us of such cases]]></lines>
+	<lines name="complaint_reason" descr=""><![CDATA[This user]]></lines>
+	<lines name="your_comment" descr=""><![CDATA[Details]]></lines>
+	<lines name="comment_hint" descr=""><![CDATA[Please, describe what made you complain. Complaints without detailed description won't be reviewed.]]></lines>
+	<lines name="ad_href" descr=""><![CDATA[A link]]></lines>	
+	<lines name="need_realty" descr=""><![CDATA[Rents]]></lines>
+	<lines name="have_realty" descr=""><![CDATA[Leases]]></lines>
+	<lines name="sell_realty" descr=""><![CDATA[Sells]]></lines>
+	<lines name="buy_realty" descr=""><![CDATA[Buys]]></lines>
+	<lines name="month_payment_inline" descr=""><![CDATA[Rent fee per 1 month]]></lines>
+	<lines name="price" descr=""><![CDATA[Price]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Move date]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Available from]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[from]]></lines>
+	<lines name="time_end" descr=""><![CDATA[till]]></lines>
+	<lines name="empty" descr=""><![CDATA[Available]]></lines>
+	<lines name="keystring" descr=""><![CDATA[PIN-code]]></lines>	
+</data>

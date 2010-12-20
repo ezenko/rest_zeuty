@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<page name="account">
+		<title><![CDATA[PG Immobilien Solution | Mein Profil]]></title>
+		<description><![CDATA[Profil ansehen. Profil bearbeiten, Ihr Passwirt verändern, Profil deaktivieren/activieren. Immobilien: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden.]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immobilien, Eigentum, Meilen, Häuser suchen, Vermieten, Miete, Anzeige der Miete]]></keywords>
+	</page>
+	<page name="alert">
+		<title><![CDATA[PG Real Estate Solution | Zugang verboten]]></title>
+		<description><![CDATA[Fehlerseite.Zugang verboten. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="blacklist">
+		<title><![CDATA[PG Real Estate Solution | Schwarze Liste]]></title>
+		<description><![CDATA[Schwarze Liste der Benutzer, deren Mitteilungen Sie blockiert haben. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="compare">
+		<title><![CDATA[PG Real Estate Solution | Anzeigenvergleich]]></title>
+		<description><![CDATA[Anzeigenvergleich. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="confirm">
+		<title><![CDATA[PG Real Estate Solution | Anmeldung bestätigen]]></title>
+		<description><![CDATA[Anmeldung bestätigen. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="contact">
+		<title><![CDATA[PG Real Estate Solution | Online Kontaktsform ]]></title>
+		<description><![CDATA[Online Kontaktsform. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="error">
+		<title><![CDATA[PG Real Estate Solution | Fehler]]></title>
+		<description><![CDATA[Fehlerseite. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="homepage">
+		<title><![CDATA[PG Real Estate Solution | Homepage]]></title>
+		<description><![CDATA[Ihre Homepage. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="hotlist">
+		<title><![CDATA[PG Real Estate Solution | Hot Liste ]]></title>
+		<description><![CDATA[Lister der besten Anzeigen für den schnellen Zugang. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="index">
+		<title><![CDATA[PG Real Estate Solution | Immobilien kaufen, verkaufen, vermieten und mieten]]></title>
+		<description><![CDATA[Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="mailbox">
+		<title><![CDATA[PG Real Estate Solution | Meine Mitteilungen]]></title>
+		<description><![CDATA[Möglichkeit mit anderen Benutzern zu kommunizieren. Mitteilungen durchsehen. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="news">
+		<title><![CDATA[PG Real Estate Solution | Nachrichten]]></title>
+		<description><![CDATA[Portak und Immobiliennachrichten sehen. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="power_searchr">
+		<title><![CDATA[PG Real Estate Solution | Erweiterte Suche ]]></title>
+		<description><![CDATA[Erweiterte Suche von Immobilien. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="quick_search">
+		<title><![CDATA[PG Real Estate Solution | Schnelle Suche]]></title>
+		<description><![CDATA[Schelle Suche. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="registration">
+		<title><![CDATA[PG Real Estate Solution | Immobilien kaufen, verkaufen, mieten oder vermieten]]></title>
+		<description><![CDATA[Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="rentals">
+		<title><![CDATA[PG Real Estate Solution | Meine Anzeigen]]></title>
+		<description><![CDATA[Ihre Anzeigen schaffen, bearbeiten, löschen. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="search_preferences">
+		<title><![CDATA[PG Real Estate Solution | Suchpreferenzen der Mitglieder ]]></title>
+		<description><![CDATA[Suchpreferenzen der Mitglieder steuern. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="services">
+		<title><![CDATA[PG Real Estate Solution | Bezahlte Services]]></title>
+		<description><![CDATA[Bezahlte Services benutzen. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="viewprofile">
+		<title><![CDATA[PG Real Estate Solution | Profil]]></title>
+		<description><![CDATA[Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="map">
+		<title><![CDATA[PG Real Estate Solution | Website]]></title>
+		<description><![CDATA[Website. Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+	<page name="agents">
+		<title><![CDATA[PG Real Estate Solution | Angentenwahl]]></title>
+		<description><![CDATA[Real Estate: Hilft Ihnen Immobilien von Ihren Träumen zu finden . Immobilie ohne Sorgen finden]]></description>
+		<keywords><![CDATA[Immobilie, Makler, Häuser für Verkauf, Haus für Verkauf, Haus finden, Immobilienanueigen, Eigentumswohnungen, Stadthäuser, Immoy, mls, search homes, lease, rent, rental listing]]></keywords>
+	</page>
+</data>

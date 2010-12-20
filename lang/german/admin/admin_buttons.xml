@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="save" descr=""><![CDATA[Speichern]]></lines>
+	<lines name="search" descr=""><![CDATA[Suchen]]></lines>
+	<lines name="back" descr=""><![CDATA[Zurück]]></lines>
+	<lines name="add" descr=""><![CDATA[Hinzufügen]]></lines>
+	<lines name="users_list" descr=""><![CDATA[Benutzerliste]]></lines>
+	<lines name="delete" descr=""><![CDATA[Entfernen]]></lines>
+	<lines name="login" descr=""><![CDATA[Login]]></lines>
+	<lines name="options" descr=""><![CDATA[Möglichkeiten]]></lines>
+	<lines name="update" descr=""><![CDATA[Aktualisieren]]></lines>
+	<lines name="upload" descr=""><![CDATA[Laden]]></lines>
+	<lines name="open" descr=""><![CDATA[Öffnen]]></lines>
+	<lines name="edit" descr=""><![CDATA[Bearbeiten]]></lines>
+	<lines name="refresh" descr=""><![CDATA[Aktualisieren]]></lines>
+	<lines name="rent_ads" descr=""><![CDATA[Benutzeranzeigen]]></lines>
+	<lines name="comunicate" descr=""><![CDATA[Benutzer kontaktieren]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Löschen]]></lines>
+	<lines name="close" descr=""><![CDATA[Schließen]]></lines>
+	<lines name="send" descr=""><![CDATA[Senden]]></lines>
+	<lines name="submit_all" descr=""><![CDATA[Alle bestätigen]]></lines>
+	<lines name="add_new_user" descr=""><![CDATA[Benutzer hinzufügen]]></lines>
+	<lines name="update_user" descr=""><![CDATA[Benutzer bearbeiten]]></lines>
+	<lines name="remove_user" descr=""><![CDATA[Benutzer entfernen]]></lines>
+	<lines name="continue" descr=""><![CDATA[Fortsetzen]]></lines>
+	<lines name="cancel" descr=""><![CDATA[Annullieren]]></lines>
+	<lines name="load" descr=""><![CDATA[Laden]]></lines>
+	<lines name="submit" descr=""><![CDATA[Bestätigen]]></lines>
+	<lines name="change" descr=""><![CDATA[Ändern]]></lines>
+	<lines name="show_messages" descr=""><![CDATA[Meldungen zeigen]]></lines>
+	<lines name="clear_filter" descr=""><![CDATA[Filter leeren]]></lines>
+	<lines name="show_chats" descr=""><![CDATA[Chats zeigen]]></lines>
+	<lines name="add_new_bot" descr=""><![CDATA[Bot hinzufügen]]></lines>
+	<lines name="install_bots" descr=""><![CDATA[Bots einstellen]]></lines>
+	<lines name="logoff" descr=""><![CDATA[Abmelden]]></lines>
+	<lines name="add_topic" descr=""><![CDATA[Thema hinzufügen]]></lines>
+	<lines name="add_story" descr=""><![CDATA[Artikel hinzufügen]]></lines>
+	<lines name="goto_help" descr=""><![CDATA[Hilfe]]></lines>
+	<lines name="goto_support" descr=""><![CDATA[Kundenbetreuungsdienst kontaktieren]]></lines>
+	<lines name="change" descr=""><![CDATA[Ändern]]></lines>
+	<lines name="view" descr=""><![CDATA[Ansehen]]></lines>
+	<lines name="chooseTo" descr=""><![CDATA[Zum Anzeigen wählen]]></lines>
+	<lines name="users_import" descr=""><![CDATA[Benutzerimport]]></lines>
+	<lines name="approve" descr=""><![CDATA[Genehmigen]]></lines>
+	<lines name="decline" descr=""><![CDATA[Ablehnen]]></lines>
+	<lines name="add_group" descr=""><![CDATA[Neue Gruppe hinzufügen]]></lines>
+	<lines name="copy" descr=""><![CDATA[Kopieren]]></lines>
+	<lines name="show_sp" descr=""><![CDATA[Gesponsert machen]]></lines>
+	<lines name="select_all" descr=""><![CDATA[Alle markieren]]></lines>
+	<lines name="deselect_all" descr=""><![CDATA[Alle abmarkieren]]></lines>
+	<lines name="to_default" descr=""><![CDATA[Einstellen]]></lines>
+	<lines name="preview" descr=""><![CDATA[Ansehen]]></lines>
+	<lines name="watermark_default" descr=""><![CDATA[Zurück zu Standardeinstellungen]]></lines>
+	<lines name="create" descr=""><![CDATA[Erstellen]]></lines>
+	<lines name="turn_on" descr=""><![CDATA[Anschalten]]></lines>
+	<lines name="turn_off" descr=""><![CDATA[Ausschalten]]></lines>
+	<lines name="logo_default" descr=""><![CDATA[Zurück zu Standardeinstellungen]]></lines>
+	<lines name="mark" descr=""><![CDATA[Buchen]]></lines>
+	<lines name="add_agents" descr=""><![CDATA[Agenten hinzufügen]]></lines>
+	<lines name="delete_ad" descr=""><![CDATA[Anzeige löschen]]></lines>
+	<lines name="create_feed_file" descr=""><![CDATA[Datenfeed schaffen]]></lines>
+	<lines name="update_feed_file" descr=""><![CDATA[Datenfeed updaten]]></lines>
+	<lines name="view_details" descr=""><![CDATA[Details]]></lines>
+	<lines name="choose" descr=""><![CDATA[Wählen]]></lines>
+</data>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="edit_file" descr=""><![CDATA[Редактировать]]></lines>
+<lines name="badwords_help" descr=""><![CDATA[Укажите список нежелательных слов. Пользователи, которые будут использовать эти слова в своих сообщениях не смогут отправить их. Слова и фразы должны быть разделены символом ','.]]></lines>	
+</data>

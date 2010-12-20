@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="help" descr=""><![CDATA[This is the area for pages (sections) management of top and bottom menus of the site before registration and after it.<br>
+Modification is not available for:<ul style="margin-top:0px; margin-bottom:0px;">
+<li>the following parts <b>of the top menu</b> before registration: "Registration", "Search", "News"; after registration: "My RealEstate", "Search", "News";</li>
+<li>parts <b>of the bottom menu</b> before registration and after it: "Contacts".</li>
+</ul>
+To create a new section in top or bottom menu, click the button "Add a section". You will be transferred to a page of WYSIWYG-editor, where you will be able to add its name and section's content.<br>
+To add a new subsection, click the button "Change: ?" in the table 'Subsections'. You will be transferred to a page of subsections of the selected section. Subsections management (creation, modification, sorting, removal) is similar to sections management.<br><br>
+In members' area links to subsections are displayed in list order on the page of the section after the text of section content. When you choose a definite subsection, its content will be shown under the list of subsections on the page of the selected section.<br><br>
+Newly added section can be adopted for all site language versions., just copy the content of the section into other languages (in other languages the section will be inactive by default), click the language link and edit the content of the section and its subsections.<br>
+You can change the position of sections and subsections using the arrows ‘One level higher‘ and ‘One level lower‘. You can also move a section from bottom menu into top one andf vice versa pressing corresponding buttons<br><br>
+It is recommended to create no more than  2 sections in top menu, as top menu includes 3 non-editable sections , despaite of those created by you. In bottom menu the number of sections is not limited.
+]]></lines>
+<lines name="add_section" descr=""><![CDATA[Add section]]></lines>
+<lines name="caption" descr=""><![CDATA[Section Name]]></lines>
+<lines name="subsect_caption" descr=""><![CDATA[Subsection Name]]></lines>
+<lines name="to_publish" descr=""><![CDATA[Publish]]></lines>
+<lines name="position_number" descr=""><![CDATA[Position]]></lines>
+<lines name="publish_title" descr=""><![CDATA[Publish]]></lines>
+<lines name="top_menu" descr=""><![CDATA[Top menu sections]]></lines>				
+<lines name="bottom_menu" descr=""><![CDATA[Bottom menu sections]]></lines>				
+<lines name="move" descr=""><![CDATA[Move]]></lines>
+<lines name="delete" descr=""><![CDATA[Remove]]></lines>
+<lines name="copy_to_langs" descr=""><![CDATA[Copy into other languages]]></lines>	
+<lines name="move_up" descr=""><![CDATA[One level higher]]></lines>				
+<lines name="move_down" descr=""><![CDATA[One leverl lower]]></lines>
+<lines name="to_top_menu" descr=""><![CDATA[Into top menu]]></lines>				
+<lines name="to_bottom_menu" descr=""><![CDATA[into bottom menu]]></lines>				
+<lines name="del_section_confirm" descr=""><![CDATA[Are you sure you want to remove the section?]]></lines>
+<lines name="and_subsections" descr=""><![CDATA[and all its subsections]]></lines>
+<lines name="subsections" descr=""><![CDATA[Subsections]]></lines>
+<lines name="add_subsection" descr=""><![CDATA[Add Subsection]]></lines>
+<lines name="del_subsection_confirm" descr=""><![CDATA[Are you sure you want to remove gthe subsection?]]></lines>
+<lines name="sect_subsections" descr=""><![CDATA[Section subsections]]></lines>
+<lines name="preview" descr=""><![CDATA[Main page preview]]></lines>
+<lines name="preview_index" descr=""><![CDATA[Before registration]]></lines>
+<lines name="preview_homepage" descr=""><![CDATA[After registration (My RealEstate)]]></lines>
+<lines name="metatags" descr=""><![CDATA[Metatags]]></lines>
+<lines name="description" descr=""><![CDATA[Description]]></lines>
+<lines name="keywords" descr=""><![CDATA[Keywords]]></lines>
+</data>

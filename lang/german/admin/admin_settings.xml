@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="page_header" descr=""><![CDATA[Seite-Einstellungen]]></lines>
+	<lines name="page_subheader" descr=""><![CDATA[Einstellungen]]></lines>
+	<lines name="button_save" descr=""><![CDATA[Speichern]]></lines>
+	<lines name="section_admin" descr=""><![CDATA[Mein Account-Information]]></lines>
+	<lines name="section_langedit" descr=""><![CDATA[Seitensprachen]]></lines>
+	<lines name="section_countries" descr=""><![CDATA[Länderverwaltung]]></lines>
+	<lines name="section_site_mode" descr=""><![CDATA[Seitenmodus]]></lines>
+	<lines name="site_email" descr=""><![CDATA[Email, zu welcher <br>alle Systembenachrichtigungen gesendet werden]]></lines>
+	<lines name="login" descr=""><![CDATA[Login]]></lines>
+	<lines name="fname" descr=""><![CDATA[Vorname]]></lines>
+	<lines name="sname" descr=""><![CDATA[Name]]></lines>
+	<lines name="email" descr=""><![CDATA[Email, zu welcher <br>Meldungen bezüglich Ihrer Anzeigen gesendet werden]]></lines>
+	<lines name="phone" descr=""><![CDATA[Telefon]]></lines>
+	<lines name="you_registered_as" descr=""><![CDATA[Sie sind angemeldet als]]></lines>
+	<lines name="agency" descr=""><![CDATA[Immobilienagentur]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Unternehmensname]]></lines>
+	<lines name="company_url" descr=""><![CDATA[Seite Ihres Unternehmens (Url)]]></lines>
+	<lines name="company_rent_count" descr=""><![CDATA[Anzeigenanzahl]]></lines>
+	<lines name="company_how_know" descr=""><![CDATA[Woher haben Sie über uns erfahren?]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Fragen und Kommentare]]></lines>
+	<lines name="our_logo" descr=""><![CDATA[Unternehmenslogotyp oder Ihr Foto]]></lines>
+	<lines name="company_quests_comments" descr=""><![CDATA[Fragen und Kommentare]]></lines>
+	<lines name="work_days" descr=""><![CDATA[Arbeitstage]]></lines>
+	<lines name="work_time" descr=""><![CDATA[Arbeitsstunden]]></lines>
+	<lines name="lunch_time" descr=""><![CDATA[Mittagspause]]></lines>
+	<lines name="time_begin" descr=""></lines>
+	<lines name="time_end" descr=""><![CDATA[-]]></lines>
+	<lines name="private_person" descr=""><![CDATA[Privatperson]]></lines>
+	<lines name="birthday" descr=""><![CDATA[Geburtsdatum]]></lines>
+	<lines name="sel_all_text" descr=""><![CDATA[Alle Möglichkeiten wählen]]></lines>
+	<lines name="unsel_all_text" descr=""><![CDATA[Alles abmarkieren]]></lines>
+	<lines name="unsel_radio_text" descr=""><![CDATA[Abmarkieren]]></lines>
+	<lines name="no_answer" descr=""><![CDATA[Keine Antwort geben]]></lines>
+	<lines name="incorrect_field" descr=""><![CDATA[Falsches Feld]]></lines>
+	<lines name="incorrect_date" descr=""><![CDATA[Unzulässiges Datum]]></lines>
+	<lines name="login_exists" descr=""><![CDATA[Dieser Name wird schon benutzt]]></lines>
+	<lines name="email_exists" descr=""><![CDATA[Diese Email wird schon benutzt]]></lines>
+	<lines name="section_uploads" descr=""><![CDATA[Hochladeeinstellungen]]></lines>
+	<lines name="thumb_image" descr=""><![CDATA[Mitgliedsfoto vorschauen]]></lines>
+	<lines name="max_width" descr=""><![CDATA[Höchstbreite in Pixeln]]></lines>
+	<lines name="max_height" descr=""><![CDATA[Höchstlänge in Pixeln]]></lines>
+	<lines name="max_size" descr=""><![CDATA[Höchstgröße in Kb]]></lines>
+	<lines name="photo_max_user_count" descr=""><![CDATA[Höchstanzahl der Fotos pro 1 Anzeige, Unterbereich "Foto"]]></lines>
+	<lines name="plan_photo_max_user_count" descr=""><![CDATA[Höchstanzahl der Fotos pro 1 Anzeige, Unterbereich "Planieren"]]></lines>
+	<lines name="other" descr=""><![CDATA[Sonstiges]]></lines>
+	<lines name="use_image_resize" descr=""><![CDATA[Bildgrößenänderung aktivieren]]></lines>
+	<lines name="video" descr=""><![CDATA[Mitgliedsvideos]]></lines>
+	<lines name="use_video_approve" descr=""><![CDATA[Genehmigung der hochgeladenen Videos aktivieren (wenn diese Möglichkeit nicht aktiv ist, werden alle hochgeladenen Dateien automatisch genehmigt)]]></lines>
+	<lines name="photos" descr=""><![CDATA[Mitgliedsfotos]]></lines>
+	<lines name="use_photo_approve" descr=""><![CDATA[Genehmigung der hochgeladenen Fotos aktivieren (wenn diese Möglichkeit nicht aktiv ist, werden alle hochgeladenen Dateien automatisch genehmigt)]]></lines>
+	<lines name="photo_folder" descr=""><![CDATA[Mitgliederfotos]]></lines>
+	<lines name="default_photo" descr=""><![CDATA[Standardfoto]]></lines>
+	<lines name="button_upload" descr=""><![CDATA[Hochladen]]></lines>
+	<lines name="section_icons" descr=""><![CDATA[Icons]]></lines>
+	<lines name="icons_folder" descr=""><![CDATA[Iconsverzeichnis]]></lines>
+	<lines name="no_icons" descr=""><![CDATA[Es gibt keine Icons. Sie können Icons mit der Form unten hinzufügen]]></lines>
+	<lines name="delete" descr=""><![CDATA[Löschen]]></lines>
+	<lines name="show_this_icon" descr=""><![CDATA[Dieses Icon zeigen]]></lines>
+	<lines name="upload_icon" descr=""><![CDATA[Icon hochladen]]></lines>
+	<lines name="edit_langfiles" descr=""><![CDATA[Sprachendateienverwaltung]]></lines>
+	<lines name="select_langfile" descr=""><![CDATA[Sprachendatei wählen]]></lines>
+	<lines name="description" descr=""><![CDATA[Beschreibung]]></lines>
+	<lines name="link_on" descr=""><![CDATA[Link on]]></lines>
+	<lines name="value" descr=""><![CDATA[Werte]]></lines>
+	<lines name="choose_language" descr=""><![CDATA[Wählen Sie die Sprachenversion &#187;]]></lines>
+	<lines name="choose_part" descr=""><![CDATA[Ich möchte ändern &#187;]]></lines>
+	<lines name="default_language" descr=""><![CDATA[Seitensprache standardmäßig]]></lines>
+	<lines name="default_site_language" descr=""><![CDATA[Vorhandene Sprachenversionen der Seite]]></lines>
+	<lines name="new_site_language" descr=""><![CDATA[Seitensprachenversion hinzufügen]]></lines>
+	<lines name="new_name" descr=""><![CDATA[Sprachenname]]></lines>
+	<lines name="slideshow" descr=""><![CDATA[Slideshow]]></lines>
+	<lines name="slideshow_folder" descr=""><![CDATA[Fotosslideshow]]></lines>
+	<lines name="password" descr=""><![CDATA[Passwort]]></lines>
+	<lines name="new_password" descr=""><![CDATA[Neues Passwort]]></lines>
+	<lines name="repassword" descr=""><![CDATA[Passwort bestätigen]]></lines>
+	<lines name="oldpassword" descr=""><![CDATA[Altes Passwort]]></lines>
+	<lines name="index_theme_path" descr=""><![CDATA[Design-Thema im Benutzermodus]]></lines>
+	<lines name="admin_theme_path" descr=""><![CDATA[Design-Thema im Adminmodus]]></lines>
+	<lines name="index_theme_css_path" descr=""><![CDATA[CSS]]></lines>
+	<lines name="index_theme_images_path" descr=""><![CDATA[Bilder]]></lines>
+	<lines name="menu_path" descr=""><![CDATA[Menü]]></lines>
+	<lines name="use_registration_confirmation" descr=""><![CDATA[Anmeldung bestätigen lassen]]></lines>
+	<lines name="admin_rows_per_page" descr=""><![CDATA[Reihenanzahl in verschiedenen Tabellen des Administratorbereiches]]></lines>
+	<lines name="news_per_page" descr=""><![CDATA[Nachrichtenanzahl pro Seite im Benutzermodus]]></lines>
+	<lines name="date_format" descr=""><![CDATA[Datumformat]]></lines>
+	<lines name="users_num_page" descr=""><![CDATA[Benutzer im Benutzermodus (auf der schwarzen Liste, auf der Hotliste, usw.)]]></lines>
+	<lines name="reference_numpage" descr=""><![CDATA[Referenzen im Adminmodus]]></lines>
+	<lines name="min_age_limit" descr=""><![CDATA[Mindestalter]]></lines>
+	<lines name="max_age_limit" descr=""><![CDATA[Höchstalter]]></lines>
+	<lines name="ads_num_page" descr=""><![CDATA[Anzeigen im Benutzermodus (in der Benutzeranzeigenliste, in Suchform)]]></lines>
+	<lines name="max_ads_admin" descr=""><![CDATA[Anzeigenanzahl pro Seite im Administratorbereich]]></lines>
+	<lines name="admin_user_ads_numpage" descr=""><![CDATA[Anzeigen im Adminmodus]]></lines>
+	<lines name="section_misc" descr=""><![CDATA[Seite-Haupeinstellungen]]></lines>
+	<lines name="one_country_text" descr=""><![CDATA[Das gewählte Land standardmäßig in allen Suchformen benutzen]]></lines>
+	<lines name="countries" descr=""><![CDATA[Installierte Länder]]></lines>
+	<lines name="change_countries" descr=""><![CDATA[Länderliste in der Suchform ändern]]></lines>
+	<lines name="countries_not_installed" descr=""><![CDATA[Länder würden nicht installiert! Es ist nötig, mindestens ein Land zu installieren, um die Seite benutzen zu können.]]></lines>
+	<lines name="install_countries" descr=""><![CDATA[Zu Länderinstallationsseite gehen.]]></lines>
+	<lines name="turn_on" descr=""><![CDATA[Einschalten]]></lines>
+	<lines name="turn_off" descr=""><![CDATA[Ausschalten]]></lines>
+	<lines name="settings_admin_help" descr=""><![CDATA[Hier ändern Sie Administratorinformationen: Passwort, Email für Systemmeldungen, Ihre persönlichen Details. Interface-Sprache bedeutet eine Seitensprache nach der Anmeldung, alle Systemmeldungen werden zu Ihrer Email-Adresse auf dieser Sprache gesendet.]]></lines>
+	<lines name="settings_countries_help" descr=""><![CDATA[Bitte deuten Sie Länder an, die auf Ihrer Seite benutzt werden. <br>Wenn Sie eines der Länder standardmäßig für alle Suchformen einstellen wollen, wählen Sie es bitte aus der Liste und aktivieren die Möglichkeit "Das gewählte Land standardmäßig in allen Suchformen benutzen".<br>Mit "Länderliste in der Suchform ändern" können Sie Länder hinzufügen oder entfernen.]]></lines>
+	<lines name="settings_langedit_help" descr=""><![CDATA[Hier stellen Sie Sprachversionen der Seite ein und fügen eine neue Sprachenversion hinzu, zum Beispiel, Deutsch, Französisch, Spanisch. Ihre Seitenbesucher werden die gewünschte Sprache aus der Liste der vorhandenen Sprachen wählen können.<br>Wenn eine neue Sprache zu der Seite hinzugefügt wird, werden alle englischen Sprachendateien in die neuen Sprachendateien kopiert, also wenn Sie eine neue Sprache hinzufügen, gehen Sie zu "Menü und Inhaltsverwaltung" und übersetzen die Dateien der neulich hinzugefügten Sprache.]]></lines>
+	<lines name="settings_langeditfile_help" descr=""><![CDATA[Hier verwalten Sie Informationsinhalt im Benutzer- und Adminmodi (Sprachenversionenverwaltung).]]></lines>
+	<lines name="settings_misc_help" descr=""><![CDATA[Sonstige Seitenverwaltungseinstellungen]]></lines>
+	<lines name="settings_thumb_image_help" descr=""><![CDATA[Größe der Anzeigenbilder, die in Suchergebnissen vorkommen. Eine verminderte Kopie des als erstes hochgeladenen Fotos.]]></lines>
+	<lines name="settings_photos_help" descr=""><![CDATA[Parameter der Fotosvorführung in der Anzeige, Unterbereiche "Foto" und "Planieren".]]></lines>
+	<lines name="settings_video_help" descr=""><![CDATA[Parameter der Videovorführung in der Anzeige, Unterbereich "Video".]]></lines>
+	<lines name="settings_slideshow_help" descr=""><![CDATA[Parameter des Slideshows für den bezahlten Service "Anzeige in Suchergebnissen kennzeichnen".]]></lines>
+	<lines name="settings_icons_help" descr=""><![CDATA[Meistenteils fügen Seitenmitglieder ihre Anzeigen ohne Fotos hinzu. Es macht sowohl die Anzeige als auch die Seite weniger anziehend. Um dies zu vermeiden, fügt das System automatisch ein Icon in die Anzeige ein, das dem Mitgliedstyp entspricht.<br>Sie können Icons mit Ihren eigenen ersetzen.]]></lines>
+	<lines name="settings_site_mode_help" descr=""><![CDATA[Wählen Sie den Modus für die Seite. <br><br>Die Seite kann in 3 Modi funktionieren:<ol><li>Ein Webmaster, der FSBO-Services den Benutzern anbietet</li><li>Seite des einzelnen Maklers oder Immobilienbüros</li><li>Ihr gewünschter Modus</li></ol>Voll funktionierte Version ist Modus, <b>wenn Webmaster seine FSBO-Services den Benutzern anbietet</b>.<br><br>Im Modus <b>des einzelnen Maklers oder Immobilienbüros</b> sind einige Sktionen und Links deaktiviert und nicht dargestellt.<br>Modusbesonderheiten:<ol><li>Registration für Ihre Seitenbenutzer ist nicht verfügbar. Sie müssen sich nicht registrieren, um auf der Seite zu surfen</li><li>Administrator kann den Makler aus der Adminkonsole hinzufügen. Der hinzugefügte Makler kann sich durch Adminkonsole der Seite anmelden und dann wird er zum Teil der registrierten Benutzer übergeführt. Hier kann er seine Anzeigen hinzufügen.</li><li>Nur Immobilie zum Verkauf und zum Pachten ist verfügbar auf der Seite.</li><li>Suchform enthält Suche nur nach Immobilie zum Vekauf und Pachten.</li><li>Bezahlte Services sind nicht eingefügt.</li><li>Die folgenden Optionen sind nicht verfügbar: Hot-Liste, Black-Liste, Interesse an Anzeige zeigen.</li><li>Wenn der Benutzer eine Anzeige ansieht, kann er eine Nachricht an Anzeigebesitzer-Email senden (Email ist unsichtbar und wird in Form nicht dargestellt). Sektion "Meine Nschrichten" ist nicht verfügbar, weil ihr Gebrauch Registrierung erfordert, die in diesem Modus nicht präsentiert ist.</li></ol>Es ist nicht möglich, die Einstellungen der ersten 2 Modi zu verändern, Sie können aber die Einstellungen im <b>gewünschten Modus</b> erstellen und verwalten. Wenn Sie <u>bezahlte Services deaktivieren</u>, prüfen Sie, ob Benutzer der 'Kostenlosen Gruppe' Zugang zu allen Sektionen kriegen.<br>Wenn Sie bestimmte Operationstype (kaufen, verkaufen, mieten, pachten) deaktivieren, wird der Benutzer dazu angeboten, um deaktivierten Typ unter einem anderen Typ der Opration zu speichern.<br><br>Wenn Sie die Seitenopration verändern, wird die ganze Information leicht gespeichert und aufgeriegelt.<br><br>Um eine Anzeige im Modus "Einzelner Makler oder Büro" oder "Ihr gewünschter Modus"hinzuzufügen, wenn Sie Registration deaktiviert haben, fügen Sie einen Benutzer - <u>Makler</u> oder <u>Immobilienbüro</u> in der Adminmodus ein.]]></lines>
+	<lines name="edit_part_user" descr=""><![CDATA[Benutzermodus]]></lines>
+	<lines name="edit_part_admin" descr=""><![CDATA[Adminmodus]]></lines>
+	<lines name="edit_part_menu" descr=""><![CDATA[Menünamen im Benutzermodus]]></lines>
+	<lines name="settings_path" descr=""><![CDATA[Pfad zum Dateihochladen]]></lines>
+	<lines name="settings_num_at_page" descr=""><![CDATA[Nummer der pro Seite dargestellten]]></lines>
+	<lines name="settings_age" descr=""><![CDATA[Feld "Alter" im Benutzermodus. Datum]]></lines>
+	<lines name="settings_other" descr=""><![CDATA[Sonstiges]]></lines>
+	<lines name="settings_icons" descr=""><![CDATA[Benutzericon]]></lines>
+	<lines name="default_photo_male" descr=""><![CDATA[Mann]]></lines>
+	<lines name="default_photo_female" descr=""><![CDATA[Frau]]></lines>
+	<lines name="default_photo_fwithc" descr=""><![CDATA[Familie mit Kindern]]></lines>
+	<lines name="default_photo_fwithoutc" descr=""><![CDATA[Familie ohne Kinder]]></lines>
+	<lines name="default_photo_agency" descr=""><![CDATA[Immobilienagentur]]></lines>
+	<lines name="default_photo_man" descr=""><![CDATA[Geschlecht nicht angegeben]]></lines>
+	<lines name="choose_site_mode" descr=""><![CDATA[Wählen Sie den Seitenmodus]]></lines>
+	<lines name="site_mode_service" descr=""><![CDATA[Ein Seitenverwalter, der FSBO/Pauschalgebühr-Anzeigen Veröffentlichungsservices anbietet]]></lines>
+	<lines name="site_mode_service_descr" descr=""><![CDATA[Online-Service. Möglichkeiten zur: Mitgliederanmeldung und Service für unbeschränkte Kundenanzahl, Privatpersonen (Immobilieninhaber) und Immobilienmakler. Alle Handelsmöglichkeiten sind vorhanden: kaufen, verkaufen, mieten und vermieten. Alle Bezahltservicetype, einschließlich Mitgliederschaft für eine bestimmte Periode mit dem Zugang zu einer der bezahlten Gruppen. Statistik zu Anzeigeaufrufe.]]></lines>
+	<lines name="site_mode_separate_reagent" descr=""><![CDATA[Ein unabhängiger Immobilienmakler oder Agent der Immobilienagentur]]></lines>
+	<lines name="site_mode_separate_reagent_descr" descr=""><![CDATA[Unbeschränkte Anzeigenanzahl. Die folgenden Geschäfte sind möglich: Verkauf, Vermietung. Keine bezahlten Services.]]></lines>
+	<lines name="show_contact_for_free_users" descr=""><![CDATA[Kontaktinformation des Anzeigebesitzers wird den registrierten Benutzern aus der Kostenlosen Gruppe gezeigt]]></lines>
+	<lines name="use_maps_in_viewprofile" descr=""><![CDATA[Karte in Anzeigenschaubereich zeigen]]></lines>
+	<lines name="use_maps_in_search_results" descr=""><![CDATA[Karte in Suchergebnissen zeigen (nur für Google Maps)]]></lines>
+	<lines name="section_maps" descr=""><![CDATA[Karten]]></lines>
+	<lines name="settings_maps_help" descr=""><![CDATA[Wählen Sie Karten, die auf Ihrer Seite benutzt werden. Geben Sie den Sonderschlüssel ein und speichern die Änderungen.]]></lines>
+	<lines name="maps_services" descr=""><![CDATA[Zugängliche Services]]></lines>
+	<lines name="google" descr=""><![CDATA[<a href=http://code.google.com/apis/maps/signup.html target="blank">Google Maps</a>]]></lines>
+	<lines name="yahoo" descr=""><![CDATA[<a href=http://maps.yahoo.com/ target="blank">Yahoo Maps</a>]]></lines>
+	<lines name="mapquest" descr=""><![CDATA[<a href=http://www.mapquest.com/ target="blank">MapQuest</a>]]></lines>
+	<lines name="microsoft" descr=""><![CDATA[<a href=http://maps.live.com/ target="blank">Microsoft Virtual Earth</a>]]></lines>
+	<lines name="app_id_not_used" descr=""><![CDATA[brauche es nicht]]></lines>
+	<lines name="maps_used" descr=""><![CDATA[Werden benutzt]]></lines>
+	<lines name="maps_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="maps_app_id" descr=""><![CDATA[Schlüssel für den Kartenservice]]></lines>
+	<lines name="add_new_language_help" descr=""><![CDATA[<p>Um eine neue Sprache hinzuzufügen, geben Sie den Sprachennamen ins entsprechende Feld mit lateinischen Symbolen ein; wählen Sie die Basissprache, deren Datei für die neue Sprache kopiert und übersetzt werden soll.</p><p>Zum Beispiel können Sie Französisch hinzufügen und es auf Englisch basieren.<br>Tippen Sie 'french' ins Sprachennamenfeld. Wählen Sie Englisch als die Basissprache.<br> Nachdem Sie auf "Speichern" klicken, wird <ul><li>im Verzeichnis /lang ein neues Verzeichnis erstellt - /french, alle englishen Sprachdateien werden darin kopiert (/lang/english);</li><li>in die Dateien /menu/lang_menu.xml, /menu/admin_lang_menu.xml wird eine Zeile 'french' eingeschrieben.</li></ul>Nachdem Sie eine neue Sprache hinzufegügt haben, brauchen Sie:<ul><li>die Zeile 'french' für jede Sprache in Dateien /menu/lang_menu.xml, /menu/admin_lang_menu.xml übersetzen (entsprechend den Dateien im Menü "Menünamen im Benutzermodus", und wählen einen Bereich zum Sprachenversion bearbeiten);</li><li>danach übersetzen Sie alle Dateien der französischen Sprache.</li></ul></p> ]]></lines>
+	<lines name="base_language" descr=""><![CDATA[Basissprache]]></lines>
+	<lines name="confirm_delete" descr=""><![CDATA[Sind Sie sicher, dass Sie die Sprachenversion löschen wollen?]]></lines>
+	<lines name="password_change" descr=""><![CDATA[Passwort ändern]]></lines>
+	<lines name="admin_info" descr=""><![CDATA[Persönliche Informationen ändern]]></lines>
+	<lines name="private_person_ads_limit" descr=""><![CDATA[Anzeigenanzahlbeschränkungen für Privatpersonen]]></lines>
+	<lines name="settings_private_person_ads_limit_help" descr=""><![CDATA[Sie können die Anzahl der von Privatpersonen hinzugefügten Anzeigen beschränken. Zum Beispiel wird Otto Schulz, Privatperson, nicht mehr als 3 Anzeigen veröffentlichen können. Er wird eine Meldung auf seine Email bekommen, in der es ihm vorgeschlagen wird, seinen Status von "Privatpersion" zu "Immobilienagentur" oder "Agent der Immobilienagentur" zu ändern. Nachdem der Status geändert ist, wird die Beschränkung deaktiviert. <br>Diese Beschränkung hilft, eine bessere Statistik über Anzahl von Immobilienmaklern und Privatpersonen unter Ihren Seitenbenutzern.]]></lines>
+	<lines name="use_private_person_ads_limit" descr=""><![CDATA[Anzeigenanzahlbeschränkungen für Privatpersonen]]></lines>
+	<lines name="number_private_person_ads_limit" descr=""><![CDATA[Anzeigenanzahl]]></lines>
+	<lines name="section_server_errors" descr=""><![CDATA[Serverfehler]]></lines>
+	<lines name="settings_server_errors_help" descr=""><![CDATA[In diesem Bereich bearbeiten Sie Meldungen, die die Benutzer bekommen werden, wenn es Serverfehler (sieh Tabelle) gibt. Sie können die Meldungen zu allen Interfacesprachen übersetzen - dafür sollen Sie auf Links mit Sprache in der Zeile "Interfacesprache" klicken.<br>In der Spalte "Meldung für den Benutzer" bearbeiten Sie die Meldung, die Benutzer bekommen werden, wenn es Serverfehler gibt. Wenn Sie beschließen, Standardmeldungen zurückzuerhalten, klicken Sie auf "Einstellen" in der Spalte "Standardmeldung". Um Änderungen zu speichern, klicken Sie auf "Speichern".<br>Um die Meldung vorzuschauen, klicken Sie auf "Ansehen", und ein neues Bildschirmfenster mit den Meldungen wird sich öffnen.]]></lines>
+	<lines name="interface_lang" descr=""><![CDATA[Spracheninterface]]></lines>
+	<lines name="position_number" descr=""><![CDATA[Fehlercode]]></lines>
+	<lines name="description" descr=""><![CDATA[Beschreibung]]></lines>
+	<lines name="error_message" descr=""><![CDATA[Meldung für einen Benutzer]]></lines>
+	<lines name="error_to_default" descr=""><![CDATA[Standardmeldung]]></lines>
+	<lines name="page_preview" descr=""><![CDATA[Vorschauen]]></lines>
+	<lines name="metatag_page" descr=""><![CDATA[Seite]]></lines>
+	<lines name="metatag_title" descr=""><![CDATA[Titel]]></lines>
+	<lines name="metatag_description" descr=""><![CDATA[Beschreibung]]></lines>
+	<lines name="metatag_keywords" descr=""><![CDATA[Schlüsselwörter]]></lines>
+	<lines name="section_metatags" descr=""><![CDATA[SEO Metatags]]></lines>
+	<lines name="settings_metatags_help" descr=""><![CDATA[Optimisieren Sie Ihre Seite für Suchmaschinen - fügen Sie Werte für die Hauptseitenmetatags (Titel, Schlüsselwörter und Beschreibung) für jede Seite hinzu. Sie können Metatags auf alle Seitensprachen übersetzen - dafür klicken Sie auf Links mit Sprachennamen in der Zeile "Interfacesprache".<br>Um die bearbeitete Metatagsseite anzusehen, klicken Sie "Ansehen", und es wird sich ein neues Bildschirmfenster öffnen.<br>Klicken Sie auf "Speichren", um Änderungen zu speichern.]]></lines>
+	<lines name="section_watermark" descr=""><![CDATA[Wasserzeicheneinstellungen]]></lines>
+	<lines name="settings_watermark_help" descr=""><![CDATA[Hier schalten Sie das Wasserzeichen ein, das in die hochgeladenen Bilder hinzufegügt wird, und verwalten Wasserzeicheneinstellungen.]]></lines>
+	<lines name="name_watermark" descr=""><![CDATA[Wasserzeichen]]></lines>
+	<lines name="use_watermark" descr=""><![CDATA[Wasserzeichen für Fotos]]></lines>
+	<lines name="resize_watermark" descr=""><![CDATA[Parameter der Wasserzeichengrößeveränderung]]></lines>
+	<lines name="width_watermark" descr=""><![CDATA[Breite]]></lines>
+	<lines name="height_watermark" descr=""><![CDATA[Höhe]]></lines>
+	<lines name="pixels" descr=""><![CDATA[Pixel]]></lines>
+	<lines name="text_watermark" descr=""><![CDATA[Mit dem Text]]></lines>
+	<lines name="image_watermark" descr=""><![CDATA[Mit dem Bild]]></lines>
+	<lines name="watermark_to_default" descr=""><![CDATA[Standardeinstellungen]]></lines>
+	<lines name="current_watermark" descr=""><![CDATA[Aktuelles Wasserzeichen]]></lines>
+	<lines name="create_watermark" descr=""><![CDATA[Wasserzeichen erstellen]]></lines>
+	<lines name="watermark_on" descr=""><![CDATA[Aktiv]]></lines>
+	<lines name="watermark_off" descr=""><![CDATA[Nicht aktiv]]></lines>
+	<lines name="section_logotype" descr=""><![CDATA[Logotyp]]></lines>
+	<lines name="settings_logotype_help" descr=""><![CDATA[In diesem Bereich können Sie Standardbilder für Logotype und Mottos mit Ihren eigenen ersetzen. Wenn Sie Ihre hochgeladenen Bilder speicher, passt das System sie automatisch der Standardgröße ein.<br>Für jede Sprachenversion können Sie einzigartige Logotypeinstellungen erstellen - dafür klicken Sie auf Links mit Sprachennamen in der Zeile "Interfacesprache".]]></lines>
+	<lines name="logotype" descr=""><![CDATA[Logotyp (haupt)]]></lines>
+	<lines name="homelogo" descr=""><![CDATA[Logotyp (auf der Homepage für angemeldete Besucher)]]></lines>
+	<lines name="slogan" descr=""><![CDATA[Motto (auf der Homepage für angemeldete Besucher)]]></lines>
+	<lines name="alt_text" descr=""><![CDATA[Alternativer Text]]></lines>
+	<lines name="download_new" descr=""><![CDATA[Neues hochladen]]></lines>
+	<lines name="preview" descr=""><![CDATA[Homepage vorschauen]]></lines>
+	<lines name="preview_index" descr=""><![CDATA[Vor der Anmeldung]]></lines>
+	<lines name="preview_homepage" descr=""><![CDATA[Nach der Anmeldung (Mein RealEstate)]]></lines>
+	<lines name="logo_image" descr=""><![CDATA[Bild]]></lines>
+	<lines name="logo_to_default" descr=""><![CDATA[Standardeinstellungen]]></lines>
+	<lines name="price_format" descr=""><![CDATA[Format der Kostenanzeige]]></lines>
+	<lines name="settings_price_format_help" descr=""><![CDATA[Tausende-Trennsymbol in den Kosten]]></lines>
+	<lines name="thousands_separator" descr=""><![CDATA[Trennsymbol]]></lines>
+	<lines name="space_sep" descr=""><![CDATA[Leerzeichen]]></lines>
+	<lines name="empty_sep" descr=""><![CDATA[Ohre Trennsymbol]]></lines>
+	<lines name="comma_sep" descr=""><![CDATA[Komma]]></lines>
+	<lines name="example" descr=""><![CDATA[Beispiel]]></lines>
+	<lines name="use_sold_leased_status" descr=""><![CDATA[Status "Verkauft" und "Vermietet" aktivieren]]></lines>
+	<lines name="sold_leased_status" descr=""><![CDATA[Status "Verkauft" und "Vermietet"]]></lines>
+	<lines name="sold_leased_status_help" descr=""><![CDATA[Hier stellen Sie Anzeigenstatus "Verkauft" und "Vermietet" ein. Solche Anzeigen werden auch aktiv während der Suche sein, und in Suchergebnissen angezeigt. Ihr Status wird mit besonderem Icon neben der Anzeige vorgezeigt. Wenn Sie diese Status deaktivieren, werden alle Anzeigen mit Status "Verkauft" und "Vermietet" nicht aktiv und sie werden nicht an der Suche teilnehmen.]]></lines>
+	<lines name="interface_language" descr=""><![CDATA[Interfacesprache]]></lines>
+	<lines name="headline_preview" descr=""><![CDATA[Schlagzeile in Anzeigenbeschreibung]]></lines>
+	<lines name="headline_preview_help" descr=""><![CDATA[Schlagzeile wird in Anzeigenbeschreibung in den Suchergebnissen gezeigt. Eine bestimmte Symbolenanzahl kann angezeigt werden, Sie können sie unten einstellen.]]></lines>
+	<lines name="headline_preview_size" descr=""><![CDATA[Symbolenanzahl in der Schlagzeile]]></lines>
+	<lines name="ads_activity_period" descr=""><![CDATA[Anzeigenaktivitätsdauer]]></lines>
+	<lines name="use_ads_activity_period" descr=""><![CDATA[Anzeigenaktivitätsdauer aktivieren]]></lines>
+	<lines name="ads_activity_period_indays" descr=""><![CDATA[Anzeigenaktivitätsdauer in Tagen]]></lines>
+	<lines name="ads_activity_period_help" descr=""><![CDATA[Stellen Sie die Anzeigenaktivitätsdauer ab dem Datum ein, wenn sie aktiv wird. Nachdem diese Periode ausläuft, wird die Anzeige automatisch inaktiv und kommt nicht in den Suchergebnissen vor. Um sie wieder zu aktivieren, soll der Benutzer "Anzeige in den Suchergebnissen vorkommen lassen für <Zahl, die Sie bestimmt haben> Tage" markieren. Diese Beschränkung geht nicht die Anzeigen mit dem Status "Verkauft" an. Sie werden von der Hand deaktiviert.]]></lines>
+	<lines name="ffmpeg_module" descr=""><![CDATA[FFmpeg Modul]]></lines>
+	<lines name="settings_ffmpeg_module_help" descr=""><![CDATA[Stellen Sie die Höchstgröße der hochgeladenen Dateien und ihre Höchstlänge ein. Je größer die Datei, desto besser die Qualität. Alle hochgeladenen Videodateien werden zu .FLV Format konvertiert.]]></lines>
+	<lines name="use_ffmpeg" descr=""><![CDATA[Ffmpeg Modul aktivieren (für Video2Flash)]]></lines>
+	<lines name="path_to_ffmpeg" descr=""><![CDATA[Pfad zu Ffmpeg Modul (Video2Flash)]]></lines>
+	<lines name="flv_output_dimension" descr=""><![CDATA[Flv output Ausmaß]]></lines>
+	<lines name="flv_output_audio_sampling_rate" descr=""><![CDATA[Flv output Audio-Abtastfrequenz]]></lines>
+	<lines name="flv_output_audio_bit_rate" descr=""><![CDATA[Flv output Audio-Bitfrequenz]]></lines>
+	<lines name="flv_output_foto_dimension" descr=""><![CDATA[Flv output Fotoausmaß]]></lines>
+	<lines name="ffmpeg_empty_parameter" descr=""><![CDATA[Ffmpeg Modul Leerparameter]]></lines>
+	<lines name="example_path_to_ffmpeg" descr=""><![CDATA[/usr/bin/ffmpeg/]]></lines>
+	<lines name="example_flv_output_dimension" descr=""><![CDATA[320x240]]></lines>
+	<lines name="example_flv_output_audio_sampling_rate" descr=""><![CDATA[44100]]></lines>
+	<lines name="example_flv_output_audio_bit_rate" descr=""><![CDATA[12]]></lines>
+	<lines name="example_flv_output_foto_dimension" descr=""><![CDATA[120x72]]></lines>
+	<lines name="video_max_user_count" descr=""><![CDATA[Höchstanzahl der Videos pro 1 Anzeige, Unterbereich "Video"]]></lines>
+	<lines name="country" descr=""><![CDATA[Land]]></lines>
+	<lines name="region" descr=""><![CDATA[Region]]></lines>
+	<lines name="city" descr=""><![CDATA[Stadt]]></lines>
+	<lines name="address" descr=""><![CDATA[Adresse]]></lines>
+	<lines name="zipcode" descr=""><![CDATA[Postleitzahl]]></lines>
+	<lines name="ip_country" descr=""><![CDATA[Bitte Land wählen...]]></lines>
+	<lines name="ip_region" descr=""><![CDATA[Bitte Region wählen...]]></lines>
+	<lines name="ip_load_region" descr=""><![CDATA[Regionen loading...]]></lines>
+	<lines name="ip_city" descr=""><![CDATA[Bitte Stadt wählen...]]></lines>
+	<lines name="ip_load_city" descr=""><![CDATA[Städte loading...]]></lines>
+	<lines name="sq_format" descr=""><![CDATA[Flächenmaß]]></lines>
+	<lines name="settings_sq_format_help" descr=""><![CDATA[Flächenmaß auf der Seite]]></lines>
+	<lines name="use_maps_in_account" descr=""><![CDATA[Karte im Benutzerprofil benutzen]]></lines>
+	<lines name="account_subscribtion" descr=""><![CDATA[Ich möchte Benachrichtigungen bekommen, wenn]]></lines>
+	<lines name="agent_of_agency" descr=""><![CDATA[Agent der Immobilienagentur]]></lines>
+	<lines name="choose_company" descr=""><![CDATA[Unternehmen wählen]]></lines>
+	<lines name="hint_3" descr=""><![CDATA[Sie sollen Unternehmen wählen, dessen Agent sie werden möchten. Das Unternehmen wird Ihre Anfrage bekommen und genehmigen / ablehnen. Wenn Sie aktuell Agent eines Unternehmens sind, oder Ihre Anfrage darüber gesendet haben, können Sie dieses Unternehmen löschen oder Ihre Anfrage entziehen.In diesem Fall werden Sie ein unabhängiger Agent, und jede Agentur wird Ihnen Stellenangebot schicken können. Falls Sie noch kein Agent sind und noch keine Anfragen versandt haben, können Sie dieses Feld leer lassen. Danach werden Sie unabhängiger Agent. Sie können auch Unternehmen wechseln. In diesem Fall wird das Unternehmen, dessen Agent Sie waren, darüber informiert, dass Sie nicht mehr sein Agent sind.]]></lines>
+	<lines name="user_choose" descr=""><![CDATA[Unternehmenswahl]]></lines>
+	<lines name="user_search" descr=""><![CDATA[Nach dem Mitglied suchen]]></lines>
+	<lines name="search_help" descr=""><![CDATA[Um Suche zu starten, geben Sie Identifizierungsdetails ein: Vorname, Name, Unternehmensname.]]></lines>
+	<lines name="number" descr=""><![CDATA[#]]></lines>
+	<lines name="user_name" descr=""><![CDATA[Name]]></lines>
+	<lines name="user_ads" descr=""><![CDATA[Anzeigen]]></lines>
+	<lines name="user_payment" descr=""><![CDATA[Geldmittel hinzufügen]]></lines>
+	<lines name="company_name" descr=""><![CDATA[Unternehmensname]]></lines>
+	<lines name="empty_search" descr=""><![CDATA[Es gibt keine Treffervarianten]]></lines>
+	<lines name="empty_ads" descr=""><![CDATA[Fehlend]]></lines>
+	<lines name="pages" descr=""><![CDATA[Seiten]]></lines>
+	<lines name="not_approve" descr=""><![CDATA[Das Unternehmen hat Ihre Anfrage noch nicht genehmigt.]]></lines>
+	<lines name="your_photo" descr=""><![CDATA[Ihr Foto]]></lines>
+	<lines name="agency_url" descr=""><![CDATA[Unternehmensseite (Url)]]></lines>
+	<lines name="agency_logo" descr=""><![CDATA[Unternehmenslogotyp]]></lines>
+	<lines name="location" descr=""><![CDATA[Standort]]></lines>
+	<lines name="need_delete_realtor" descr=""><![CDATA[Um Ihren Typ zu ändern, sollen Sie sich aus der Liste von Unternehmensagenten entfernen]]></lines>
+	<lines name="need_delete_agents" descr=""><![CDATA[Um Ihren Typ zu ändern, sollen Sie Ihre Agentenliste leeren]]></lines>
+	<lines name="delete_agents" descr=""><![CDATA[Vor der Deaktivierung leeren Sie Ihre Agentenliste]]></lines>
+	<lines name="delete_realtor" descr=""><![CDATA[Vor der Kontodeaktivierung sollen Sie sich aus der Liste von Unternehmensagenten entfernen]]></lines>
+	<lines name="decline_company" descr=""><![CDATA[Agentenangebot entziehen]]></lines>
+	<lines name="change_company" descr=""><![CDATA[Unternehmen wechseln]]></lines>
+	<lines name="delete_company" descr=""><![CDATA[Unternehmen löschen]]></lines>
+	<lines name="na_agency_1" descr=""><![CDATA[Unternehmen]]></lines>
+	<lines name="na_agency_2" descr=""><![CDATA[wurde nicht gefunden]]></lines>
+	<lines name="na_agency_3" descr=""><![CDATA[Das leere Feld ist unzulässig]]></lines>
+	<lines name="admin_approve_not_complete" descr=""><![CDATA[Das Foto wurde noch nicht von dem Administrator genehmigt]]></lines>
+	<lines name="admin_approve_decline" descr=""><![CDATA[Das Foto wurde von dem Administrator blockiert]]></lines>
+	<lines name="with_company_1" descr=""><![CDATA[Mit Unternehmen]]></lines>
+	<lines name="with_company_2" descr=""><![CDATA[Sie arbeiten schon zusammen.]]></lines>
+	<lines name="incorrect_time_interval" descr=""><![CDATA[Der Zeitabstand wurde falsch eingestellt]]></lines>
+	<lines name="service" descr=""><![CDATA[Ein Webmaster, der FSBO-Services den Benutzern anbietet]]></lines>
+	<lines name="separate_reagent" descr=""><![CDATA[Der einzelne Maklers oder Immobilienbüro]]></lines>
+	<lines name="hide_features" descr=""><![CDATA[Deaktivierte Sektionen und Funktionen]]></lines>
+	<lines name="admin_defined" descr=""><![CDATA[Ihr gewünschter Modus]]></lines>
+	<lines name="show_contact_for_unreg_users" descr=""><![CDATA[Kontaktinformation des Anzeigebesitzers wird den nicht registrierten Benutzern gezeigt]]></lines>
+	<lines name="search_string_help" descr=""><![CDATA[Language interface search form. It allows you to find the necessary word or word combination from site language interface. The option may be useful to change some word(s) or word combination(s) in all language files.]]></lines>
+	<lines name="search_for_title" descr=""><![CDATA[Suche nach]]></lines>
+	<lines name="in_lang" descr=""><![CDATA[in]]></lines>
+	<lines name="site_version" descr=""><![CDATA[Seitenversion]]></lines>
+	<lines name="find_in" descr=""><![CDATA[Suche in]]></lines>
+	<lines name="search_for" descr=""><![CDATA[nach]]></lines>
+	<lines name="file_name" descr=""><![CDATA[Feilenname]]></lines>
+	<lines name="find_in_strings" descr=""><![CDATA[Find in strings]]></lines>
+	<lines name="no_matches" descr=""><![CDATA[Keine passenden Varianten gefunden]]></lines>
+	<lines name="nothing_to_search" descr=""><![CDATA[Wählen Sie bitte die Sprachversion und geben Sie Suchreihe an!]]></lines>
+	<lines name="cur_position" descr=""><![CDATA[Position des Währungssymbol im Preis]]></lines>
+	<lines name="begin_position" descr=""><![CDATA[Bevor dem Preis]]></lines>
+	<lines name="end_position" descr=""><![CDATA[Nach dem Preis]]></lines>
+	<lines name="cur_format" descr=""><![CDATA[Format der Währungsdarstellung]]></lines>
+	<lines name="cur_abbr" descr=""><![CDATA[Abbreviatur]]></lines>
+	<lines name="cur_symbol" descr=""><![CDATA[Symbol]]></lines>
+	<lines name="user_types_mode" descr=""><![CDATA[Typen der Seitenbenutzer]]></lines>
+	<lines name="user_types_mode_help" descr=""><![CDATA[Wenn Sie den Benutzertyp 'Büromakler' deaktivieren, wird die Übereinstimmung zwischen Makler und Kompanie auf der Seite deaktiviert. Benutzer mit Benutzertyp 'Makler' kann sich darum bewerben, um Büromakler zu werden. Kompany/Büro kann wiederum Makler einladen, ein Makler der Firma zu werden.<br> 	Passen Sie auf, dass wenn Sie solchen aktiven Benutzertyp wie Makler der Kompanie deaktivieren - erscheinen alle Seitenbenutzer im Status 'Private Benutzer' automatisch.]]></lines>
+	<lines name="use_agent_user_type" descr=""><![CDATA[gebrauchen Sie Benutzertyp 'Makler der Kompanie' <br>(das ermöglicht Übereinstimmung zwischen Makler und Firma)]]></lines>
+	<lines name="use_only_private_user_type" descr=""><![CDATA[Option 'Benutzertyp 'Makler der Kompanie' gebrauchen' ist deaktiviert.]]></lines>
+	<lines name="saved" descr=""><![CDATA[Gespeichert]]></lines>
+	<lines name="not_integer" descr=""><![CDATA[Fehler: geben Sie bitte einen Wert, der mehr als '0' ist!]]></lines>
+	<lines name="empty_str" descr=""><![CDATA[Fehler: leeres Feld!]]></lines>
+</data>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<item name="contact" href="/contact.php"><![CDATA[Контакты]]></item>
+	<item name="map" href="/map.php"><![CDATA[Карта сайта]]></item>	
+</menu>

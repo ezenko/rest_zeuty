@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="header_text_site_mode_11" descr=""><![CDATA[<font class=index_logo_header>С помощью RealEstate вы можете:</font><br><br>Сэкономить время. Быстро купить,<br> продать, арендовать или сдать в<br> аренду недвижимость.<br><br>Сэкономить деньги. Найти<br> наилучший вариант недвижимости<br> по оптимальной цене.]]></lines>
+	<lines name="header_text_site_mode_21" descr=""><![CDATA[<font class=index_logo_header>С помощью RealEstate вы можете:</font><br><br>Сэкономить время. Быстро купить<br> или арендовать недвижимость.<br><br>Сэкономить деньги. Найти<br> наилучший вариант недвижимости<br> по оптимальной цене.]]></lines>
+	<lines name="header_text_site_mode_31" descr=""><![CDATA[<font class=index_logo_header>С помощью RealEstate вы можете:</font><br><br>Сэкономить время. Быстро купить,<br> продать, арендовать или сдать в<br> аренду недвижимость.<br><br>Сэкономить деньги. Найти<br> наилучший вариант недвижимости<br> по оптимальной цене.]]></lines>	
+	<lines name="header_text_site_mode_10" descr=""><![CDATA[<font class=index_logo_header>С помощью RealEstate вы можете:</font><br><br>Сэкономить время. Быстро купить, продать, арендовать или сдать в аренду недвижимость.<br><br>Сэкономить деньги. Найти<br> наилучший вариант недвижимости по оптимальной цене.]]></lines>
+	<lines name="header_text_site_mode_20" descr=""><![CDATA[<font class=index_logo_header>С помощью RealEstate вы можете:</font><br><br>Сэкономить время. Быстро купить или арендовать недвижимость.<br>Сэкономить деньги. Найти<br> наилучший вариант недвижимости<br> по оптимальной цене.]]></lines>
+	<lines name="header_text_site_mode_30" descr=""><![CDATA[<font class=index_logo_header>С помощью RealEstate вы можете:</font><br><br>Сэкономить время. Быстро купить, продать, арендовать или сдать в аренду недвижимость.<br><br>Сэкономить деньги. Найти<br> наилучший вариант недвижимости по оптимальной цене.]]></lines>	
+	<lines name="why_register" descr=""><![CDATA[Зачем регистрироваться?]]></lines>
+	<lines name="email" descr=""><![CDATA[E-mail]]></lines>
+	<lines name="email_hint" descr=""><![CDATA[RealEstate будет присылать интересующие вас варианты. Ваша информация останется конфиденциальной]]></lines>
+	<lines name="move_date" descr=""><![CDATA[Переезд не раньше]]></lines>
+	<lines name="button_search" descr=""><![CDATA[Искать!]]></lines>
+	<lines name="member_login" descr=""><![CDATA[Вход для зарегистрированных]]></lines>
+	<lines name="member_login_2" descr=""><![CDATA[Добавить мое объявление]]></lines>
+	<lines name="rental" descr=""><![CDATA[жилье]]></lines>
+	<lines name="i_find" descr=""><![CDATA[Я ищу]]></lines>
+	<lines name="where_loc" descr=""><![CDATA[Где искать]]></lines>
+	<lines name="rubrika" descr=""><![CDATA[В рубрике]]></lines>
+	<lines name="i_want" descr=""><![CDATA[Я хочу]]></lines>
+	<lines name="qs_i_need" descr=""><![CDATA[арендовать]]></lines>
+	<lines name="qs_i_have" descr=""><![CDATA[сдать в аренду]]></lines>
+	<lines name="qs_i_sell" descr=""><![CDATA[продать]]></lines>
+	<lines name="qs_i_buy" descr=""><![CDATA[купить]]></lines>	
+	<lines name="i_need" descr=""><![CDATA[Арендует]]></lines>
+	<lines name="i_have" descr=""><![CDATA[Сдает в аренду]]></lines>
+	<lines name="i_buy" descr=""><![CDATA[Покупает]]></lines>
+	<lines name="i_sell" descr=""><![CDATA[Продаёт]]></lines>
+	<lines name="choose" descr=""><![CDATA[Пожалуйста выберите]]></lines>	
+	<lines name="price" descr=""><![CDATA[Цена]]></lines>
+	<lines name="from" descr=""><![CDATA[от]]></lines>
+	<lines name="upto" descr=""><![CDATA[до]]></lines>
+	<lines name="auction_possible" descr=""><![CDATA[торг возможен]]></lines>
+	<lines name="auction_inpossible" descr=""><![CDATA[торг невозможен]]></lines>
+	<lines name="month_payment_in_line" descr=""><![CDATA[Стоимость аренды за 1 месяц]]></lines>
+	<lines name="available_date" descr=""><![CDATA[Доступна с]]></lines>
+	<lines name="move_in_date" descr=""><![CDATA[Дата переезда]]></lines>
+	<lines name="last_results" descr=""><![CDATA[Последние объявления]]></lines>
+	<lines name="pages" descr=""><![CDATA[страницы]]></lines>
+	<lines name="costs_min" descr=""><![CDATA[Стоимость от]]></lines>
+	<lines name="upto" descr=""><![CDATA[до]]></lines>
+	<lines name="min" descr=""><![CDATA[от]]></lines>
+	<lines name="max_views" descr=""><![CDATA[Самые популярные по количеству просмотров]]></lines>
+	<lines name="admin_choose" descr=""><![CDATA[Спонсорские]]></lines>
+	<lines name="last_added" descr=""><![CDATA[Последние добавленные]]></lines>
+	<lines name="time_begin" descr=""><![CDATA[с]]></lines>
+	<lines name="time_end" descr=""><![CDATA[до]]></lines>
+	<lines name="empty" descr=""><![CDATA[Свободна]]></lines>
+</data>
