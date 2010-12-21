@@ -1,10 +1,13 @@
 {include file="$gentemplates/site_top.tpl"}
+    <div id="middle-container">
 <table cellpadding="0" cellspacing="0" border="0">
 <tr>
+    <!--
 	<td class="left" valign="top">
 		{include file="$gentemplates/homepage_hotlist.tpl"}
 	</td>
 	<td class="delimiter">&nbsp;</td>
+	-->
 	<td class="main" valign="top">
 		<table cellpadding="0" cellspacing="0" border="0" width="100%">
 		{if $banner.center}
@@ -18,7 +21,7 @@
 			</td>
 		</tr>
 		{/if}
-		<tr><td class="header"><b>{$section.caption}</b></td></tr>
+		<tr><td class="header"><h2>{$section.caption}</h2></td></tr>
 		<tr><td><hr></td></tr>
 		<tr>
 			<td class="page_content">{$section.content}</td>
@@ -59,6 +62,7 @@
 	</td>
 </tr>
 </table>
+</div>
 {literal}
 <script language="javascript">
 	function ShowHideDiv(elem_id) {

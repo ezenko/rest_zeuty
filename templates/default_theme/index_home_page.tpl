@@ -1,4 +1,7 @@
 {include file="$gentemplates/site_top.tpl"}
+    <div id="middle-container">
+          <h2>Сочи - о курорте, вступительная статья</h2>
+
 	<table cellpadding="0" cellspacing="0" width="100%" border="0">
 	<tr>
 		<td align="left">
@@ -86,4 +89,5 @@ function checkDate(name) {
 	}
 </script>
 {/literal}
+</div>
 {include file="$gentemplates/site_footer.tpl"}

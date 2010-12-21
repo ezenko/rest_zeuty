@@ -1,37 +1,94 @@
-		</td></tr>
-		</table>
-	</td>
-</tr>
-<tr valign="top">
-	<td width="100%" height="30" class="empty_line">&nbsp;</td>
-</tr>
-<tr valign="top">
-	<td width="100%" height="5" class="bottom_footer_line">&nbsp;</td>
-</tr>
-<tr valign="top">
-	<td align="center">
-		<table cellpadding="10" cellspacing="0" width="{if $page_name == "index"}720{else}948{/if}px" border="0">
-		<tr>
-			<td width="100%" align="center">
-			{section name=m loop=$bottom_menu}
-			{if !$smarty.section.m.last}<noindex>{/if}<a class="bottom_menu" href="{$bottom_menu[m].href}">{$bottom_menu[m].value}</a>{if !$smarty.section.m.last}</noindex>{/if}{if !$smarty.section.m.last}&nbsp;&nbsp;&#8212;&nbsp;&nbsp;{/if}
-			{/section}
-		</td></tr>
-		</table>
-	</td>
-</tr>
-<tr>
-	<td align="center">
-	  <!-- banner bottom -->
-	  	{if $banner.bottom}
-		<div style="margin-top: 10px; margin-bottom: 10px;" align="center">
-			{$banner.bottom}
-		</div>
-	  	{/if}
-	  	<!-- /banner bottom -->
-	</td>
-</tr>
-</table>
-</div>
+        <div id="right-container">
+        	<div id="tourist" class="clearfix">
+            <h2>Активный отдых</h2>
+            <ul>
+              <li><a class="folder-item">Серфинг</a></li>
+            	<li><a class="folder-item">Дайвинг</a></li>
+            	<li><a class="folder-item">Горнолыжный отдых</a></li>
+            	<li><a class="folder-item">Лыжные походы</a></li>
+            	<li><a class="folder-item">Рыбалка</a></li>
+            	<li><a class="folder-item">Фотоохота</a></li>
+            	<li><a class="folder-item">Прыжки с парашутом</a></li>
+            	<li><a class="folder-item">Горный туризм</a></li>
+            	<li><a class="folder-item">Водный туризм</a></li>
+            	<li><a class="folder-item">Эскурсионные туры</a></li>
+            	<li><a class="folder-item">Конный туризм</a></li>
+            	<li><a class="folder-item">Вело туризм</a></li>
+            	<li><a class="folder-item">Джипинг</a></li>
+              <li><a class="folder-item">Спелео туризм</a></li>
+              <li><a class="folder-item">Скалолазание</a></li>
+              <li><a class="folder-item">Туристические походы</a></li>
+              <li><a class="folder-item">Места боевой славы</a></li>
+            </ul>
+          </div>
+          <div id="hot-tours" class="clearfix">
+          	<h2 class="gold">Горящие предложения</h2>
+            <div class="clearfix scrollable">
+            	<a class="prev"></a>
+              <div class="container">
+              	<div class="item">
+                	<img alt="" src="img/fake/img1.jpg" />
+                  <span class="title">Сочи</span>
+                  <span class="price">Антигуа: от 670$</span>
+                  <a class="order">Заказать</a>
+                </div>
+                <div class="item">
+                	<img alt="" src="img/fake/img1.jpg" />
+                  <span class="title">Сочи</span>
+                  <span class="price">Антигуа: от 670$</span>
+                  <a class="order">Заказать</a>
+                </div>
+              </div>
+              <a class="next"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom-container">
+      <div id="pre-footer" class="clearfix">
+        <div class="centered-content clearfix">
+          <div class="header clearfix">
+            <span class="title">Развлечения</span>
+            <a class="all">Все развлечения</a>
+          </div>
+          <div class="scrollable">
+            <div class="container clearfix">
+              <div class="item">
+                <img alt="" src="img/fake/img1.jpg" />
+              </div>
+              <div class="item">
+                <img alt="" src="img/fake/img1.jpg" />
+              </div>
+              <div class="item">
+                <img alt="" src="img/fake/img1.jpg" />
+              </div>
+              <div class="item">
+                <img alt="" src="img/fake/img1.jpg" />
+              </div>
+              <div class="item">
+                <img alt="" src="img/fake/img1.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="centered-content glass-block clearfix">
+            <div id="rights">
+              2011&nbsp;&copy;&nbsp;Your company name. Все права защищены.
+            </div>
+            <div id="f-menu">
+              <ul>
+                {section name=m loop=$bottom_menu}
+                <li><a href="{$bottom_menu[m].href}">{$bottom_menu[m].value}</a></li>
+                {/section}
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>

@@ -1,5 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 	<title>{if $page_title}{$page_title}{else}{$lang.title}{/if}</title>
 	<meta http-equiv="Content-Language" content="{$default_lang}">
@@ -11,7 +12,7 @@
 	<meta name="description" content="{if $page_description}{$page_description}{else}{$lang.description}{/if}">
 	<meta name="keywords" content="{if $page_keywords}{$page_keywords}{else}{$lang.keywords}{/if}">
 	<link href="{$site_root}{$template_root}{$template_css_root}/greybox.css" rel="stylesheet" type="text/css" media="all">
-	<link href="{$site_root}{$template_root}{$template_css_root}/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="{$site_root}{$template_root}{$template_css_root}/core.css" rel="stylesheet" type="text/css" media="all">
 	<link href="{$site_root}{$template_root}{$template_css_root}/lightbox.css" rel="stylesheet" type="text/css" media="screen">
 {if $head_add}
 	{foreach from=$head_add item=add_code}
@@ -77,125 +78,210 @@ function InComparisonList() {
 </head>
 
 <body style="margin: 0px;" onload="get_parseGET(); InComparisonList();{if (($data.user_type eq 2 || ($data.user_type eq 3 && $data.agency_approve eq 1)) && $data.id_country && $data.in_base && $use_maps_in_account)||($use_maps_in_viewprofile && $profile.country_name && $view eq 'general' && (($registered eq 1 && $group_type eq 1) || ($registered eq 1 && $contact_for_free) || $mhi_registration || $contact_for_unreg) && ($profile.in_base || $profile.company_data.in_base))||(($profile.type eq 2  || $profile.type eq 4) && $view eq 'map' && $data.in_base && $use_maps_in_viewprofile)} getMapGlobal(&quot;{$map.name}&quot;, &quot;map_container&quot;, &quot;{$profile.adress}&quot;, &quot;{$profile.city_name}&quot;, &quot;{$profile.region_name}&quot;, &quot;{$profile.country_name}&quot;, &quot;{$profile.lat}&quot;, &quot;{$profile.lon}&quot;);{/if}">
-<table cellpadding="0" cellspacing="0" width="100%" border="0">
-<tr valign="top">
-	<td align="center">
-		<noscript><div style="padding-top: 10px;"><font class="error">{$lang.default_select.enable_javascript}</font><div></noscript>
-		<table cellpadding="0" cellspacing="0" class={if $section_name == "index"}"index_page"{else}"page"{/if} border="0">
-		<tr>
-			<td height="48" align="left">
-				<a href='{$server}{$site_root}/{if $registered}homepage.php{else}index.php{/if}' class="home_link">{$lang.default_select.home_page}</a>
-				<!--{section name=m loop=$lang_menu}
-				{if $lang_menu[m].vis eq 1}
-				<a class="lang_menu{if $lang_menu[m].id_lang eq $lang_code}_active{/if}" href="{$file_name}?lang_code={$lang_menu[m].id_lang}{$add_to_lang}">{$lang_menu[m].value}</a>&nbsp;
-				{/if}
-				{/section}-->
-			</td>
-			<td height="48" align="right">
-				{strip}
-				<font class="hidden">
-				{if $registered}
-					<font class="text"><b>{$user[1]}</b></font>&nbsp;&nbsp;<font class="text">|</font>&nbsp;
-					<span id="comparison_str" {if !$comparison_ids_cnt}style="display: none;"{/if}>
-					&nbsp;<a href="{$server}{$site_root}/compare.php">{$lang.default_select.comparison_list} ({$comparison_ids_cnt})</a>
-					&nbsp;&nbsp;<font class="text">|</font>&nbsp;
-					</span>							
-					{if $lang_menu}
-						<select onchange="document.location.href = '{$file_name}?lang_code='+this.value+'{$add_to_lang}'">
-						{section name=m loop=$lang_menu}
-							{if $lang_menu[m].vis eq 1}
-								<option value="{$lang_menu[m].id_lang}" {if $lang_menu[m].id_lang eq $lang_code}selected{/if}>{$lang_menu[m].value}</option>
-							{/if}
-						{/section}
-						</select>					
-						&nbsp;&nbsp;<font class="text">|</font>
-					{/if}
-					{if !$mhi_services}
-						{if $period_rest>0}{if $lang_menu}&nbsp;&nbsp;{/if}<font class="text">{$lang.headers.period_rest}:</font>&nbsp;<font class="text"><a href="services.php?sel=group">{$period_rest}&nbsp;{if $day_id eq 1}{$lang.default_select.days_1}{elseif $day_id eq 2}{$lang.default_select.days_2}{elseif $day_id eq 3}{$lang.default_select.days_3}{/if}</a>&nbsp;&nbsp;<font class="text">|</font>{if !$lang_menu}&nbsp;&nbsp;{/if}{/if}
-						{if $lang_menu}&nbsp;&nbsp;{/if}<font class="text">{$lang.headers.user_account}:</font>&nbsp;<a href="./services.php" {if $section_name == 'services'}  class="user_menu_link_active" {/if}>{$cur_symbol} {$user_account}</a>&nbsp;&nbsp;<font class="text">|</font>
-					{/if}
-					{section name=m loop=$homepage_user_menu}
-						{if $smarty.section.m.index}&nbsp;&nbsp;<font class="text">|</font>{/if}&nbsp;&nbsp;<a href="{$homepage_user_menu[m].href}" {if $homepage_user_menu[m].onclick} onClick="{$homepage_user_menu[m].onclick}" {/if} {if $section_name == $homepage_user_menu[m].name} class="user_menu_link_active" {/if}>{$homepage_user_menu[m].value}</a>
-						{if $homepage_user_menu[m].new>0}&nbsp;<img src="{$site_root}{$template_root}{$template_images_root}/mail_alert.gif" border="0" vspace="0" hspace="0" alt="{$lang.default_select.unread_messages}">{/if}
-					{/section}
-				{else}			
-					<span id="comparison_str" {if !$comparison_ids_cnt}style="display: none;"{/if}>
-					<a href="{$server}{$site_root}/compare.php">{$lang.default_select.comparison_list} ({$comparison_ids_cnt})</a>
-					&nbsp;&nbsp;<font class="text">|</font>&nbsp;&nbsp;
-					</span>		
-					{if $lang_menu}
-						<select onchange="document.location.href = '{$file_name}?lang_code='+this.value+'{$add_to_lang}'">
-						{section name=m loop=$lang_menu}
-							{if $lang_menu[m].vis eq 1}
-								<option value="{$lang_menu[m].id_lang}" {if $lang_menu[m].id_lang eq $lang_code}selected{/if}>{$lang_menu[m].value}</option>
-							{/if}
-						{/section}
-						</select>												
-						{if $index_user_menu}			
-						&nbsp;&nbsp;<font class="text">|</font>&nbsp;&nbsp;
-						{/if}
-					{/if}
-					{section name=m loop=$index_user_menu}
-						{if $smarty.section.m.index}&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{/if}<a href="{$index_user_menu[m].href}" {if $index_user_menu[m].onclick} onClick="{$index_user_menu[m].onclick}" {/if}>{$index_user_menu[m].value}</a>
-					{/section}
-				{/if}
-				</font>
-				{/strip}
-			</td>
-		</tr>
-		</table>
-	</td>
-</tr>
-<tr valign="top">
-	<td width="100%" height="9" class="top_header_line">&nbsp;</td>
-</tr>
-<tr valign="top">
-	<td align="center">
-		<table cellpadding="0" cellspacing="0" class={if $section_name == "index"}"index_page"{else}"page"{/if} border="0">
-		<tr><td height="48">
-			<table cellpadding="0" cellspacing="0" border="0">
-			<tr>
-				<td class="left" align="left" valign="middle">
-					<!--//logo-->
-					<a href="{$server}{$site_root}/"><img src="{$site_root}{$template_root}{$template_images_root}/{$logo_settings.logotype.img}" border="0" alt="{$logo_settings.logotype.alt}"></a>
-				</td>
-				<td class="delimiter">&nbsp;</td>
-				<td class={if $section_name == "index"}"index_main"{else}"main"{/if}>
-					<!--//top menu-->
-					<table cellpadding="0" cellspacing="0" width="100%" border="0">
-						<tr valign="top">
-							{if $registered}
-								{assign var="menu_name" value=$homepage_top_menu}
-							{else}
-								{if $section_name == "index"}
-									{assign var="menu_name" value=$index_page_menu}
-								{else}
-									{assign var="menu_name" value=$index_top_menu}
-								{/if}
-							{/if}
-							{assign var="total" value="100"}
-							{section name=m loop=$menu_name}
-								<td align="center" width="{$total/$smarty.section.m.total}%">
-									<table cellpadding="0" cellspacing="0" width="100%" border="0">
-									<tr><td height="14" align="center" {if $section_name == $menu_name[m].name}class="top_menu_item_active"{/if}>&nbsp;</td></tr>
-									<tr><td height="23" align="center" {if $section_name == $menu_name[m].name}class="top_menu_item_active"{elseif $smarty.section.m.first && $section_name == $menu_name[m.index_next].name}class="top_menu_item_left"{elseif $smarty.section.m.first && $section_name != $menu_name[m.index_next].name}class="top_menu_item_first"{elseif $section_name != $menu_name[m.index_next].name}class="top_menu_item_right"{/if} style="padding: 0px 10px 0px 10px;"><a class="top_menu_link{if $section_name == $menu_name[m].name}_active{/if}" href="{$menu_name[m].href}">{$menu_name[m].value}</a></td></tr>
-									<tr><td height="11" align="center" {if $section_name == $menu_name[m].name}class="top_menu_item_active"{/if}>&nbsp;</td></tr>
-									</table>
-								</td>
-							{/section}
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<tr><td colspan="3" height="{if $section_name == "index"}4{else}25{/if}"></td></tr>
-			{if $section_name != "index"}
-			<tr>
-				<td height="4" class="left_header_line">&nbsp;</td>
-				<td height="4" class="empty_line">&nbsp;</td>
-				<td height="4" class="main_header_line">&nbsp;</td>
-			</tr>
-			<tr><td colspan="3" height="4" class="empty_line">&nbsp;</td></tr>
-			{/if}
-			</table>
-		</td></tr>
-		<tr><td align="left">
+
+<div id="container">
+  	<div id="header">
+    	<div id="top-decorate-line">
+      </div>
+      <div id="navi-container">
+      	<div id="navi" class="centered-content">
+        	<div class="free-space clearfix">
+        		<ul class="clearfix">
+            	<!--
+            	<li><a id="logo"><img alt="" src="img/core/logo.png" /></a></li>
+              -->
+                {if $registered}
+                    {assign var="menu_name" value=$homepage_top_menu}
+                {else}
+                    {if $section_name == "index"}
+                        {assign var="menu_name" value=$index_page_menu}
+                    {else}
+                        {assign var="menu_name" value=$index_top_menu}
+                    {/if}
+                {/if}
+                {assign var="total" value="100"}
+                {section name=m loop=$menu_name}
+                    <li><a {if $section_name == $menu_name[m].name}class="active"{/if} href="{$menu_name[m].href}" {if $menu_name[m].onclick neq ''}onclick="{$menu_name[m].onclick}"{/if}>{$menu_name[m].value}</a></li>
+                {/section}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="intro">
+    	<div class="centered-content">
+      	<div class="free-space">
+        	<div id="special-block" class="clearfix">
+        		<img alt="" src="img/fake/img1.jpg" />
+            <a class="specials">
+            	<span class="title">Египет от</span>
+              <br />
+              <span class="price">278$&nbsp;&nbsp;&nbsp;5*&nbsp;&nbsp;&nbsp;7/8</span>
+            </a>
+            <a class="more-specials">
+            	ещё больше акций
+            </a>
+          </div>
+        </div>
+        <div class="free-space">
+        	<div id="tours-block">
+          	<div class="tour-item">
+            	<a class="specials">
+              	<span class="title">Анталия от</span>
+                <span class="price">285$</span>
+              </a>
+            </div>
+            <div class="tour-item">
+            	<a class="specials">
+              	<span class="title">ОАЭ от</span>
+                <span class="price">285$</span>
+              </a>
+            </div>
+            <div class="tour-item">
+            	<a class="specials">
+              	<span class="title">Турция от</span>
+                <span class="price">285$</span>
+              </a>
+            </div>
+            <div class="tour-item">
+            	<a class="specials">
+              	<span class="title">Тунис от</span>
+                <span class="price">285$</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="widgets" class="clearfix">
+    	<div class="centered-content clearfix">
+        <div id="w-search" class="glass-block">
+          <div class="free-space">
+            <div class="clearfix">
+            	<span class="title">Поиск</span>
+              <a class="action">Искать</a>
+            </div>
+            <div class="content clearfix">
+            	<div class="row">
+              	<div class="field">
+                  <label for="t1">Курорт, город, страна</label>
+                  <input type="text" id="t1" />
+                </div>
+                <div class="field">
+                	<label for="t2">Категория</label>
+                  <input type="text" id="t2" />
+                </div>
+                <div class="field last">
+                	<label>Стоимость</label><br/ >
+                  <input type="text" id="ff" class="from" value="от" />
+                  <input type="text" id="tt" class="to" value="до" />
+                </div>
+              </div>
+              <div class="row row-last">
+              	<div class="field">
+                  <label for="y1">Поиск по объекту</label>
+                  <input type="text" id="y1" />
+                </div>
+                <div class="field">
+                	<input type="radio" id="r1" />
+                  <label for="r1">летний отдых</label>
+                  <br/>
+                	<input type="radio" id="r2" />
+                  <label for="r2">зимний отдых</label>
+                  <br/>
+                	<input type="radio" id="r3" />
+                  <label for="r3">только с фото</label>
+                  <br/>
+                  <input type="radio" id="r4" />
+                  <label for="r4">без посредников</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="w-wheather" class="glass-block">
+        	<div class="city">
+          	<div class="free-space">
+            	<div class="clearfix">
+              	<span class="title">Популярные курорты</span>
+              </div>
+              <div class="content cities clearfix">
+              	<div class="clearfix">
+              	<a class="weather-city sunny">Сочи</a>
+                <a class="weather-city sunny">Туапсе</a>
+                <a class="weather-city cloud">Сочи</a>
+                <a class="weather-city cloud">Туапсе</a>
+                <a class="weather-city cold last">Сочи</a>
+                <a class="weather-city shine last">Туапсе</a>
+                </div>
+                <a class="all-cities">Все курорты</a>
+              </div>
+            </div>
+          </div>
+          <div class="weather">
+          	<div class="free-space">
+            	<div class="clearfix">
+              	<span class="title">Погода</span>
+              </div>
+              <div class="content clearfix">
+              	<img alt="" src="img/icons/Sun.png" />
+                <img alt="" src="img/icons/Wind.png" />
+                <div class="clearfix">
+                	<input type="text" value="Сочи" />
+                </div>
+                <div class="clearfix">
+                	<label>Сегодня, днем +38, ночью +23</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main-content" class="clearfix">
+    	<div class="centered-content clearfix">
+        <div id="left-container">
+        	<!--
+          <div class="glass-block">
+            <div class="free-space">
+            	<ul>
+              	<li><a class="home-link">Главная</a></li>
+                <li><a class="item-link">Санаторий</a></li>
+                <li><a class="item-link">Пансионаты</a></li>
+                <li><a class="item-link">Мини-гостиницы</a></li>
+                <li><a class="item-link">Кемпинги</a></li>
+                <li><a class="item-link">Гостевые дома</a></li>
+                <li><a class="item-link">Жилье</a></li>
+              </ul>
+            </div>
+          </div>
+          -->
+          <div id="entertainment" class="clearfix">
+          	<h2>Тематический отдых</h2>
+            <ul>
+            	<li><a class="folder-item">Отдых дикарем</a></li>
+            	<li><a class="folder-item">Пляжные туры</a></li>
+            	<li><a class="folder-item">Праздничные туры</a></li>
+            	<li><a class="folder-item">Автобусные туры</a></li>
+            	<li><a class="folder-item">Бизнес туры</a></li>
+            	<li><a class="folder-item">Паломнические туры</a></li>
+            	<li><a class="folder-item">Горнолыжные туры</a></li>
+            	<li><a class="folder-item">Детский отдых</a></li>
+            	<li><a class="folder-item">Романтические туры</a></li>
+            	<li><a class="folder-item">Эскурсионные туры</a></li>
+            	<li><a class="folder-item">Круизные туры</a></li>
+            	<li><a class="folder-item">Лечебные туры</a></li>
+            	<li><a class="folder-item">Активный отдых</a></li>
+              <li><a class="folder-item">Семейный отдых</a></li>
+              <li><a class="folder-item">Ночные клубы</a></li>
+              <li><a class="folder-item">Аквапарки</a></li>
+              <li><a class="folder-item">Морские прогулки</a></li>
+              <li><a class="folder-item">Эскурсии</a></li>
+              <li><a class="folder-item">Советы</a></li>
+              <li><a class="folder-item">Фотогалерея</a></li>
+              <li><a class="folder-item">Достопримечательности</a></li>
+            </ul>
+          </div>
+        </div>
+
+

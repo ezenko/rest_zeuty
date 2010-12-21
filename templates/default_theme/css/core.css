@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+/*	font-size: 100%;
+	vertical-align: baseline; */
+	background:transparent;
+	font-family:Arial;
+	font-size:14px;
+	color:#274b67;
+	cursor:default
+}
+
+body {background:transparent url(../img/core/bg.jpg) repeat scroll center 0}
+
+
+/* Float clearfix */
+.clearfix:after 			{content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0}
+.clearfix 						{display:inline-block}
+html[xmlns] .clearfix {display:block}
+* html .clearfix 			{height:1%}
+
+
+/* Core */
+.free-space {padding:0 20px}
+.centered-content {position:relative; margin:0 auto; width:1000px; overflow:visible}
+.last {margin-bottom:0px !important}
+.glass-block {background:url(../img/core/blockbg.png) no-repeat scroll center top; border:1px solid #f5f0e1; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; -moz-box-shadow:0 0 5px 1px #666}
+
+
+.container {display:inline-block}
+.container .item img {border:3px solid #fff; width:177px; height:128px}
+.container .item span.title {display:block; padding:4px 0 2px; color:#097c00; font-size:16px; line-height:24px}
+.container .item span.price {display:block; padding:2px 0 2px}
+.container .item a.order {display:inline-block; padding:4px 0 1px; font-size:14px; border-bottom:1px dashed #274b67}
+.container .item a.order:hover {text-decoration:none}
+
+
+#container {width:100%; min-width:1000px; background:url(../img/core/top-bg.jpg) no-repeat scroll center 0}
+	#header {height:118px; width:100%}
+		#logo {}
+		#top-decorate-line {height:34px; width:100%; overflow:visible; background:#006091 url(../img/core/header_sprite_34_41_41.png) repeat-x scroll 0 0}
+		#navi-container {height:41px; width:100%; background:transparent url(../img/core/header_sprite_34_41_41.png) repeat-x scroll 0 -34px}
+			#navi ul {list-style:inside none none}
+			#navi ul li {float:left; height:40px}
+			#navi ul li a {padding:7px 15px 12px; font-size:16px; color:#fff}
+			#navi ul li a.active {border:solid 1px #99b15b; border-top:none 0px transparent; background:url(../img/core/header_sprite_34_41_41.png) repeat-x scroll 0 -75px; color:#005e8f}
+	#intro {height:268px; width:100%}
+		#special-block {width:490px}
+		#special-block img {float:left; margin-right:20px; height:109px; width:146px; border:3px solid #fff}
+		#special-block a.specials span.title {line-height:16px}
+		#special-block a.specials span.price {line-height:44px}
+		#special-block a.more-specials {display:inline-block; margin-top:25px; padding-left:35px; background:url(../img/icons/icn_arrow.png) no-repeat scroll 0 0; height:27px; line-height:26px; font-style:italic}
+		#tours-block {margin-top:20px; width:490px}
+		#tours-block .tour-item {float:left; width:240px}
+	#widgets {width:100%}
+		#w-search, #w-wheather {float:left; width:441px}
+		#w-wheather {float:right; width:520px}
+		#w-search .free-space, #w-wheather .free-space {padding:20px 25px}
+		#w-search .title, #w-wheather .title {float:left; font:20px Arial, Helvetica, sans-serif; color:#274b67}
+		#w-search .action, #w-wheather .action {float:right; padding-top:2px; border-bottom:1px dashed #274b67; font-size:16px}
+		#w-search .content, #w-wheather .content {margin-top:15px}
+		#w-search .row {float:left; width:45%}
+		#w-search .row-last {margin-left:10%}
+		#w-wheather .city {float:left; width:55%}
+		#w-wheather .weather {float:left; width:45%}
+		#w-search input[type="text"] {width:155px}
+		#w-search input[type="text"].from {display:inline-block; width:50px}
+		#w-search input[type="text"].to {display:inline-block; margin-left:30px; width:50px;}
+		#w-search .field, #w-wheather .field {margin-bottom:7px}
+		#w-wheather img {width:88px; height:88px}
+		#w-wheather input {margin:10px 0 17px}
+		#w-wheather .cities {margin-top:25px}
+		#w-wheather a.all-cities {display:inline-block; margin-top:20px; font-size:12px; text-decoration:none}
+		#w-wheather a.all-cities:hover {text-decoration:underline}
+	#main-content {margin-top:30px}		
+		#left-container {float:left; margin-right:30px; width:236px}
+			#left-container .free-space {padding:20px 25px}
+			#left-container ul li {display:inline-block; list-style:none; margin:7px 0; width:100%}
+			#left-container a.home-link,
+			#left-container a.item-link {display:inline-block; background:url(../img/icons/list_icns.png) no-repeat scroll 0 0; padding-left:28px; height:18px; line-height:18px; font-weight:bold}
+			#left-container a.item-link {background-position:0 -50px; font-weight:normal}
+			#entertainment {margin-top:0}
+			#hot-tours {margin-top:15px}
+			#entertainment ul,
+			#tourist ul {display:inline-block; margin-top:10px}
+			#entertainment ul li,
+			#tourist ul li {display:inline-block; list-style:none; margin:3px 0; width:100%}
+			#entertainment a.folder-item,
+			#tourist a.folder-item {background:url(../img/icons/folder_icns.png) no-repeat scroll 0 0; padding-left:35px; height:24px; line-height:26px}
+			#tourist a.folder-item {background-position:0 -50px}
+		#middle-container {float:left; margin-right:30px; width:506px}
+		#right-container {float:left; width:198px}
+			#right-container .scrollable {margin:10px auto 0; width:183px}
+			#right-container .container .item {margin:15px 0; padding-bottom:15px; border-bottom:1px dashed #999}
+			#right-container a.next,
+			#right-container a.prev {display:inline-block; width:183px; height:22px; background:url(../img/icons/buttons.png) no-repeat scroll 0 -44px}
+			#right-container a.next:hover {background-position:0 -66px}
+			#right-container a.prev {background-position:0 0}
+			#right-container a.prev:hover {background-position:0 -22px}
+	#bottom-container {background:url(../img/core/footer.jpg) no-repeat scroll center bottom}
+	#pre-footer {margin-top:20px}
+		#pre-footer .header {margin-bottom:10px}
+		#pre-footer .header span.title {float:left; display:inline-block; margin-left:3px; font-size:20px; font-weight:normal; line-height:24px}
+		#pre-footer .header a.all {float:right; margin-right:5px; line-height:24px}
+		#pre-footer .scrollable {overflow:hidden}
+		#pre-footer .container {width:8000px}
+		#pre-footer .container .item {float:left; margin-right:20px}
+	#footer {margin:25px 0 0; padding-bottom:30px}
+	#footer #rights {float:left; padding:20px}
+	#footer #f-menu {float:right; width:270px; padding:7px 0 3px}
+		#f-menu li {display:block; float:left; width:50%; margin-bottom:7px}
+		#f-menu li a {display:inline-block; font-size:12px}
+
+
+h2 {font-size:20px; font-weight:normal; line-height:24px; border-bottom:1px dashed #274b67; padding-bottom:8px}
+h2.gold {color:#ab6d00; border-color:#ab6d00}
+h2.simple {border-bottom:0 none}
+
+/* Anchors */
+a {display:block; text-decoration:none; cursor:pointer}
+a:hover {text-decoration:underline}
+a.specials {display:inline-block}
+a.specials span.title {font-size:18px; font-style:italic; cursor:pointer}
+a.specials span.price {font-size:30px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-style:italic; white-space:nowrap; cursor:pointer}
+
+a.weather-city {display:inline-block; float:left; background:url(../img/icons/weather_icn.png) no-repeat scroll 0 0; padding-left:30px; margin-bottom:25px; width:88px; height:22px; line-height:22px; color:#097c00; text-decoration:none}
+a.weather-city:hover {text-decoration:underline}
+a.sunny {background-position:0 0}
+a.cloud {background-position:0 -50px}
+a.cold {background-position:0 -100px}
+a.shine {background-position:0 -150px}
+
+label {display:inline-block; margin-bottom:3px; margin-left:5px; font-size:12px}
+label[for] {cursor:pointer}
+
+input[type="text"] {height:23px; border:0; background:url(../img/icons/forms.png) no-repeat scroll 0 0; padding:3px 10px; color:#8d8e8e}
+input[type="radio"] {margin-bottom:10px}

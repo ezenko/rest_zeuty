@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
-	<item name="registration" href="/registration.php" id="mhi_registration"><![CDATA[Регистрация]]></item>
-	<item name="search" href="/quick_search.php"><![CDATA[Поиск]]></item>
-	<item name="news" href="/news.php"><![CDATA[Новости]]></item>
+	<item name="index" href="/index.php"><![CDATA[Главная]]></item>
+	<item name="registration" href="/registration.php"><![CDATA[Недвижимость]]></item>
+	<item name="photo" href="/quick_search.php"><![CDATA[Фото]]></item>
+	<item name="forum" href="/news.php"><![CDATA[Форум]]></item>
+    <item name="map" href="/map.php"><![CDATA[Карта]]></item>
+    <item name="login" href="/login.php" id="mhi_registration" onclick="return GB_show('', '[href]', 230, 400)"><![CDATA[Войти]]></item>
+    <item name="contact" href="/contact.php"><![CDATA[Контакты]]></item>
 </menu>

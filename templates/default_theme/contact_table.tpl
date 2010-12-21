@@ -1,6 +1,8 @@
 {include file="$gentemplates/site_top.tpl"}
+    <div id="middle-container">
 <table cellpadding="0" cellspacing="0" border="0">
 <tr>
+    <!--
 	<td class="left" valign="top">
 		<table>
 			<tr>
@@ -20,6 +22,7 @@
 		</table>
 	</td>
 	<td class="delimiter">&nbsp;</td>
+	-->
 	<td class="main" valign="top">
 		<!-- banner center -->
 	  	{if $banner.center}
@@ -28,8 +31,7 @@
 		 <!-- /banner center -->
 		<table cellpadding="0" cellspacing="0" border="0" width="100%">
 		{if $par ne 'for_agency'}
-		<tr><td colspan="2" class="header"><b>{$lang.headers.contact}</b></td></tr>
-		<tr><td colspan="2"><hr></td></tr>
+		<tr><td colspan="2" class="header"><h2>{$lang.headers.contact}</h2></td></tr>
 		<tr>
 			<td width="15">&nbsp;</td>
 			<td>{$lang.content.page_header}</td>
@@ -272,4 +274,5 @@
 	}
 </script>
 {/literal}
+    </div>
 {include file="$gentemplates/site_footer.tpl"}
