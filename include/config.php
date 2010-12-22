@@ -1,14 +1,14 @@
 <?php
-	$config["server"] = "";
+	$config["server"] = "http://rest";
 	$config["site_root"] = "";
-	$config["site_path"] = "";
+	$config["site_path"] = "X:/home/rest/www";
 
 	$config["useoledb"] = 1;
 	$config["dbtype"] = "mysql";
 	$config["dbhost"] = "localhost";
 	$config["dbuname"] = "root";
 	$config["dbpass"] = "";
-	$config["dbname"] = "";
+	$config["dbname"] = "realestate";
 
 	$config["table_prefix"] = "re_";
 		

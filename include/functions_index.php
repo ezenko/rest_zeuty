@@ -18,7 +18,7 @@
  * @return void
  */
 function IndexHomePage($content_name, $section_name="", $is_module=0) {
-	global $config, $dbconn, $smarty, $user, $lang;
+	global $config, $dbconn, $smarty, $user, $lang, $REFERENCES;
 	$smarty->assign("user", $user);
 	$smarty->assign("content_name", $content_name);
 
@@ -95,6 +95,13 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
 	$smarty->assign("comparison_ids", GetUserComparisonIds());
 	$smarty->assign("comparison_ids_cnt", count(GetUserComparisonIds()));
 
+    $used_references = array("rest");
+    foreach ($REFERENCES as $arr) {
+        if (in_array($arr["key"], $used_references)) {
+            $smarty->assign($arr["key"], GetRefSearchArray($arr["spr_table"], $arr["val_table"], ''));
+        }
+    }
+    
 	return;
 }
 

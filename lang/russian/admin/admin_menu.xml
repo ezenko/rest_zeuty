@@ -17,6 +17,7 @@
 	<lines name="sponsors_announcements" descr=""><![CDATA[Спонсорские объявления]]></lines>
 	<lines name="references" descr=""><![CDATA[Справочники]]></lines>
 	<lines name="references_countries" descr=""><![CDATA[Страны]]></lines>
+    <lines name="references_theme_rest" descr=""><![CDATA[Отдых]]></lines>
 	<lines name="references_property_type" descr=""><![CDATA[Вид недвижимости]]></lines>
 	<lines name="references_numerical_values" descr=""><![CDATA[Числовые значения]]></lines>
 	<lines name="references_about_property" descr=""><![CDATA[О недвижимости]]></lines>

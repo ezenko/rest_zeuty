@@ -36,6 +36,7 @@
 			<subitem name="uploads_approve" img="/images/menu/icons/upload_settings.gif" href="/admin/admin_upload.php" onclick="" />		
 		</item>
 		<item name="references" img="/images/menu/icons/reference.gif" href="">
+            <subitem name="references_theme_rest" img="/images/menu/icons/take_tour.gif" href="/admin/admin_references.php?section=theme_rest" onclick=""></subitem>
 			<subitem name="references_countries" img="/images/menu/icons/countries.gif" href="/admin/admin_countries.php" onclick=""></subitem>
 			<subitem name="bad_words" img="/images/menu/icons/bad_words.gif" href="/admin/admin_badwords.php" onclick=""></subitem>	
 			<subitem name="references_property_type" img="/images/menu/icons/property_type.gif" href="/admin/admin_references.php?section=type" onclick=""></subitem>

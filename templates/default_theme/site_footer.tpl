@@ -2,23 +2,13 @@
         	<div id="tourist" class="clearfix">
             <h2>Активный отдых</h2>
             <ul>
-              <li><a class="folder-item">Серфинг</a></li>
-            	<li><a class="folder-item">Дайвинг</a></li>
-            	<li><a class="folder-item">Горнолыжный отдых</a></li>
-            	<li><a class="folder-item">Лыжные походы</a></li>
-            	<li><a class="folder-item">Рыбалка</a></li>
-            	<li><a class="folder-item">Фотоохота</a></li>
-            	<li><a class="folder-item">Прыжки с парашутом</a></li>
-            	<li><a class="folder-item">Горный туризм</a></li>
-            	<li><a class="folder-item">Водный туризм</a></li>
-            	<li><a class="folder-item">Эскурсионные туры</a></li>
-            	<li><a class="folder-item">Конный туризм</a></li>
-            	<li><a class="folder-item">Вело туризм</a></li>
-            	<li><a class="folder-item">Джипинг</a></li>
-              <li><a class="folder-item">Спелео туризм</a></li>
-              <li><a class="folder-item">Скалолазание</a></li>
-              <li><a class="folder-item">Туристические походы</a></li>
-              <li><a class="folder-item">Места боевой славы</a></li>
+                {foreach from=$rest item=r}
+                  {if $r.id eq 2}
+                    {foreach from=$r.opt item=opt}
+            	    <li><a class="folder-item">{$opt.name}</a></li>
+            	    {/foreach}
+            	  {/if}
+                {/foreach}
             </ul>
           </div>
           <div id="hot-tours" class="clearfix">

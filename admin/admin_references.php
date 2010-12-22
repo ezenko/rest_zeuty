@@ -95,6 +95,13 @@ switch($section){
 		$html = true;
 		$lang_file_name = "admin_references";
 		break;
+    case "theme_rest":
+		$editable = false;
+		$spr_table = SPR_THEME_REST_TABLE;
+		$values_table = VALUES_THEME_REST_TABLE;
+		$html = true;
+		$lang_file_name = "admin_references";
+		break;
 	default:
 		$editable = true;
 		$spr_table = SPR_APARTMENT_TABLE;
@@ -148,7 +155,7 @@ function ListSpr($err = ""){
 				FROM ".$spr_table." a left join
 				".REFERENCE_LANG_TABLE." b on b.table_key='".$table_key."' and b.id_reference=a.id
 				order by a.sorter ".$limit_str;
-	$rs = $dbconn->Execute($strSQL);
+    $rs = $dbconn->Execute($strSQL);
 	$i = 0;
 	if($rs->RowCount()>0){
 		while(!$rs->EOF){

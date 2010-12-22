@@ -259,27 +259,13 @@ function InComparisonList() {
           <div id="entertainment" class="clearfix">
           	<h2>Тематический отдых</h2>
             <ul>
-            	<li><a class="folder-item">Отдых дикарем</a></li>
-            	<li><a class="folder-item">Пляжные туры</a></li>
-            	<li><a class="folder-item">Праздничные туры</a></li>
-            	<li><a class="folder-item">Автобусные туры</a></li>
-            	<li><a class="folder-item">Бизнес туры</a></li>
-            	<li><a class="folder-item">Паломнические туры</a></li>
-            	<li><a class="folder-item">Горнолыжные туры</a></li>
-            	<li><a class="folder-item">Детский отдых</a></li>
-            	<li><a class="folder-item">Романтические туры</a></li>
-            	<li><a class="folder-item">Эскурсионные туры</a></li>
-            	<li><a class="folder-item">Круизные туры</a></li>
-            	<li><a class="folder-item">Лечебные туры</a></li>
-            	<li><a class="folder-item">Активный отдых</a></li>
-              <li><a class="folder-item">Семейный отдых</a></li>
-              <li><a class="folder-item">Ночные клубы</a></li>
-              <li><a class="folder-item">Аквапарки</a></li>
-              <li><a class="folder-item">Морские прогулки</a></li>
-              <li><a class="folder-item">Эскурсии</a></li>
-              <li><a class="folder-item">Советы</a></li>
-              <li><a class="folder-item">Фотогалерея</a></li>
-              <li><a class="folder-item">Достопримечательности</a></li>
+                {foreach from=$rest item=r}
+                  {if $r.id eq 1}
+                    {foreach from=$r.opt item=opt}
+            	    <li><a class="folder-item">{$opt.name}</a></li>
+            	    {/foreach}
+            	  {/if}
+                {/foreach}
             </ul>
           </div>
         </div>

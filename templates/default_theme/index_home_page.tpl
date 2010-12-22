@@ -1,6 +1,6 @@
 {include file="$gentemplates/site_top.tpl"}
     <div id="middle-container">
-          <h2>Сочи - о курорте, вступительная статья</h2>
+          <h2>РЎРѕС‡Рё - Рѕ РєСѓСЂРѕСЂС‚Рµ, РІСЃС‚СѓРїРёС‚РµР»СЊРЅР°СЏ СЃС‚Р°С‚СЊСЏ</h2>
 
 	<table cellpadding="0" cellspacing="0" width="100%" border="0">
 	<tr>
@@ -40,7 +40,7 @@
 		</tr>
 	{/if}
 	<!-- /last offers -->
-	
+
 	<tr>
 		<td>&nbsp;</td>
 	</tr>
