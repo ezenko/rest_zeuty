@@ -1,25 +1,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>{if $page_title}{$page_title}{else}{$lang.title}{/if}</title>
-	<meta http-equiv="Content-Language" content="{$default_lang}">
-	<meta http-equiv="Content-Type" content="text/html; charset={$charset}">
-	<meta http-equiv="expires" content="0">
-	<meta http-equiv="pragma" content="no-cache">
-	<meta name="revisit-after" content="3 days">
-	<meta name="robot" content="All">
-	<meta name="description" content="{if $page_description}{$page_description}{else}{$lang.description}{/if}">
-	<meta name="keywords" content="{if $page_keywords}{$page_keywords}{else}{$lang.keywords}{/if}">
-	<link href="{$site_root}{$template_root}{$template_css_root}/greybox.css" rel="stylesheet" type="text/css" media="all">
-	<link href="{$site_root}{$template_root}{$template_css_root}/core.css" rel="stylesheet" type="text/css" media="all">
-	<link href="{$site_root}{$template_root}{$template_css_root}/lightbox.css" rel="stylesheet" type="text/css" media="screen">
-{if $head_add}
+    
+    <meta name="description" content="{if $page_description}{$page_description}{else}{$lang.description}{/if}" />
+	<meta name="keywords" content="{if $page_keywords}{$page_keywords}{else}{$lang.keywords}{/if}" />
+    
+  <link rel="stylesheet" type="text/css" href="{$site_root}{$template_root}{$template_css_root}/core.css" />
+  <link rel="stylesheet" type="text/css" href="{$site_root}{$template_root}{$template_css_root}/jquery.linkselect.css" />
+  <link href="{$site_root}{$template_root}{$template_css_root}/greybox.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="{$site_root}{$template_root}{$template_css_root}/core.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="{$site_root}{$template_root}{$template_css_root}/lightbox.css" rel="stylesheet" type="text/css" media="screen"/>
+  
+  {if $head_add}
 	{foreach from=$head_add item=add_code}
 		{$add_code}
 	{/foreach}
-{/if}
-	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/location.js"></script>
+  {/if}
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdn.jquerytools.org/1.2.5/tiny/jquery.tools.min.js"></script>
+  <script type="text/javascript" src="{$site_root}{$template_root}/js/jquery.linkselect.min.js"></script>
+  <script type="text/javascript" src="{$site_root}{$template_root}/js/jquery.rotate.js"></script>
+  
+    <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/location.js"></script>
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/comparison_list.js"></script>
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/md5.js"></script>
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/AmiJS.js"></script>
@@ -27,7 +32,28 @@
 	<script language="JavaScript" type="text/javascript">
 		var GB_IMG_DIR = "{$site_root}{$template_root}{$template_images_root}/greybox/";
 	</script>
-	{literal}
+    
+  {literal}
+  <script type="text/javascript">
+  	$(document).ready(function() {
+			$('select').linkselect();
+			
+			$('#special-block').list_ticker({speed:5000, effect:'fade'});
+			$("ul.tabs").tabs("div.panes > div");
+			$("#right-container .scrollable").scrollable({ vertical: true, mousewheel: true });
+			$("#pre-footer .scrollable").scrollable({ vertical: false, mousewheel: true });
+		});
+		
+		window.onload = 
+  	window.onresize = function() { resizeContent(); };
+		
+		function resizeContent() {
+			var blockWidth = $('#widgets > .centered-content').width();
+			var serachBlockWidth = $('#w-search').width();
+			$('#w-wheather').width(blockWidth - serachBlockWidth - 35);
+		}
+  </script>
+  	
 <script language="JavaScript" type="text/javascript">
 	var _GET_Keys;
 	var _GET_Values;
@@ -77,19 +103,15 @@ function InComparisonList() {
 {/literal}
 </head>
 
-<body style="margin: 0px;" onload="get_parseGET(); InComparisonList();{if (($data.user_type eq 2 || ($data.user_type eq 3 && $data.agency_approve eq 1)) && $data.id_country && $data.in_base && $use_maps_in_account)||($use_maps_in_viewprofile && $profile.country_name && $view eq 'general' && (($registered eq 1 && $group_type eq 1) || ($registered eq 1 && $contact_for_free) || $mhi_registration || $contact_for_unreg) && ($profile.in_base || $profile.company_data.in_base))||(($profile.type eq 2  || $profile.type eq 4) && $view eq 'map' && $data.in_base && $use_maps_in_viewprofile)} getMapGlobal(&quot;{$map.name}&quot;, &quot;map_container&quot;, &quot;{$profile.adress}&quot;, &quot;{$profile.city_name}&quot;, &quot;{$profile.region_name}&quot;, &quot;{$profile.country_name}&quot;, &quot;{$profile.lat}&quot;, &quot;{$profile.lon}&quot;);{/if}">
-
-<div id="container">
+<body onload="get_parseGET(); InComparisonList();{if (($data.user_type eq 2 || ($data.user_type eq 3 && $data.agency_approve eq 1)) && $data.id_country && $data.in_base && $use_maps_in_account)||($use_maps_in_viewprofile && $profile.country_name && $view eq 'general' && (($registered eq 1 && $group_type eq 1) || ($registered eq 1 && $contact_for_free) || $mhi_registration || $contact_for_unreg) && ($profile.in_base || $profile.company_data.in_base))||(($profile.type eq 2  || $profile.type eq 4) && $view eq 'map' && $data.in_base && $use_maps_in_viewprofile)} getMapGlobal(&quot;{$map.name}&quot;, &quot;map_container&quot;, &quot;{$profile.adress}&quot;, &quot;{$profile.city_name}&quot;, &quot;{$profile.region_name}&quot;, &quot;{$profile.country_name}&quot;, &quot;{$profile.lat}&quot;, &quot;{$profile.lon}&quot;);{/if}">
+	<div id="container">
   	<div id="header">
     	<div id="top-decorate-line">
       </div>
       <div id="navi-container">
       	<div id="navi" class="centered-content">
-        	<div class="free-space clearfix">
-        		<ul class="clearfix">
-            	<!--
-            	<li><a id="logo"><img alt="" src="img/core/logo.png" /></a></li>
-              -->
+        	<div class="cont free-space clearfix">
+          	<a id="logo"><img alt="" src="img/core/logo.png" /></a>
                 {if $registered}
                     {assign var="menu_name" value=$homepage_top_menu}
                 {else}
@@ -100,8 +122,12 @@ function InComparisonList() {
                     {/if}
                 {/if}
                 {assign var="total" value="100"}
+                <ul id="menu" class="clearfix">
                 {section name=m loop=$menu_name}
                     <li><a {if $section_name == $menu_name[m].name}class="active"{/if} href="{$menu_name[m].href}" {if $menu_name[m].onclick neq ''}onclick="{$menu_name[m].onclick}"{/if}>{$menu_name[m].value}</a></li>
+                    {if !$smarty.section.m.last}
+                    <li><span>|</span></li>
+                    {/if}
                 {/section}
             </ul>
           </div>
@@ -112,19 +138,54 @@ function InComparisonList() {
     	<div class="centered-content">
       	<div class="free-space">
         	<div id="special-block" class="clearfix">
-        		<img alt="" src="img/fake/img1.jpg" />
-            <a class="specials">
-            	<span class="title">Египет от</span>
-              <br />
-              <span class="price">278$&nbsp;&nbsp;&nbsp;5*&nbsp;&nbsp;&nbsp;7/8</span>
-            </a>
-            <a class="more-specials">
-            	ещё больше акций
-            </a>
-          </div>
+          	<div class="r_item clearfix">
+              <img alt="" src="img/fake/img1.jpg" />
+              <a class="specials">
+                <span class="title">1Египет от</span>
+                <br />
+                <span class="price">278$&nbsp;&nbsp;&nbsp;5*&nbsp;&nbsp;&nbsp;7/8</span>
+              </a>
+              <a class="more-specials">
+                ещё больше акций
+              </a>
+            </div>
+          	<div class="r_item clearfix">
+              <img alt="" src="img/fake/img1.jpg" />
+              <a class="specials">
+                <span class="title">2Египет от</span>
+                <br />
+                <span class="price">278$&nbsp;&nbsp;&nbsp;5*&nbsp;&nbsp;&nbsp;7/8</span>
+              </a>
+              <a class="more-specials">
+                ещё больше акций
+              </a>
+            </div>
+          	<div class="r_item clearfix">
+              <img alt="" src="img/fake/img1.jpg" />
+              <a class="specials">
+                <span class="title">3Египет от</span>
+                <br />
+                <span class="price">278$&nbsp;&nbsp;&nbsp;5*&nbsp;&nbsp;&nbsp;7/8</span>
+              </a>
+              <a class="more-specials">
+                ещё больше акций
+              </a>
+            </div>
+          	<div class="r_item clearfix">
+              <img alt="" src="img/fake/img1.jpg" />
+              <a class="specials">
+                <span class="title">4Египет от</span>
+                <br />
+                <span class="price">278$&nbsp;&nbsp;&nbsp;5*&nbsp;&nbsp;&nbsp;7/8</span>
+              </a>
+              <a class="more-specials">
+                ещё больше акций
+              </a>
+            </div>
+        	</div>
         </div>
         <div class="free-space">
-        	<div id="tours-block">
+        	<div id="tours-block" class="clearfix">
           	<div class="tour-item">
             	<a class="specials">
               	<span class="title">Анталия от</span>
@@ -155,119 +216,244 @@ function InComparisonList() {
     </div>
     <div id="widgets" class="clearfix">
     	<div class="centered-content clearfix">
-        <div id="w-search" class="glass-block">
-          <div class="free-space">
-            <div class="clearfix">
-            	<span class="title">Поиск</span>
-              <a class="action">Искать</a>
-            </div>
-            <div class="content clearfix">
-            	<div class="row">
-              	<div class="field">
-                  <label for="t1">Курорт, город, страна</label>
-                  <input type="text" id="t1" />
+      	<ul class="tabs clearfix">
+        	<li class="m1"><a href="#">Отдых дикарем</a></li>
+        	<li class="m2"><a href="#">Активный отдых</a></li>
+        	<li class="m3"><a href="#">Туры</a></li>
+        	<li class="m4"><a href="#">Недвижимость</a></li>
+        </ul>
+        <div id="w-search" class="glass-block panes">
+        	<div>
+            <div class="free-space">
+              <div class="clearfix">
+                <span class="title">Поиск</span>
+                <a class="action">Искать</a>
+              </div>
+              <div class="content clearfix">
+                <div class="row row-first">
+                  <div class="field">
+                    <label for="t1">Откуда</label>
+                    <select id="t1">
+                      <option>Hello</option>
+                      <option>Hello 1</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="t2">Поиск по ID</label>
+                    <select id="t2">
+                      <option>Hello</option>
+                      <option>Hello 1</option>
+                    </select>
+                  </div>
+                  <!--
+                  <div class="field last">
+                    <label>Стоимость</label><br/ >
+                    <input type="text" id="ff" class="from" value="от" />
+                    <input type="text" id="tt" class="to" value="до" />
+                  </div>
+                  -->
                 </div>
-                <div class="field">
-                	<label for="t2">Категория</label>
-                  <input type="text" id="t2" />
+                <div class="row">
+                  <div class="field">
+                    <label for="y1">Куда</label>
+                    <select id="y1">
+                      <option>Hello</option>
+                      <option>Hello 1</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="y2">Регион</label>
+                    <select id="y2">
+                      <option>Hello</option>
+                      <option>Hello 1</option>
+                    </select>
+                  </div>
+                  <!--
+                  <div class="field">
+                    <input type="radio" id="r1" />
+                    <label for="r1">летний отдых</label>
+                    <br/>
+                    <input type="radio" id="r2" />
+                    <label for="r2">зимний отдых</label>
+                    <br/>
+                    <input type="radio" id="r3" />
+                    <label for="r3">только с фото</label>
+                    <br/>
+                    <input type="radio" id="r4" />
+                    <label for="r4">без посредников</label>
+                  </div>
+                  -->
                 </div>
-                <div class="field last">
-                	<label>Стоимость</label><br/ >
-                  <input type="text" id="ff" class="from" value="от" />
-                  <input type="text" id="tt" class="to" value="до" />
+                <div class="row">
+                  <div class="field">
+                    <label for="c1">Курорт</label>
+                    <select id="c1">
+                      <option>Hello</option>
+                      <option>Hello 1</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="c2">Расположение</label>
+                    <select id="c2">
+                      <option>Hello</option>
+                      <option>Hello 1</option>
+                    </select>
+                  </div>
                 </div>
               </div>
-              <div class="row row-last">
-              	<div class="field">
-                  <label for="y1">Поиск по объекту</label>
-                  <input type="text" id="y1" />
-                </div>
-                <div class="field">
-                	<input type="radio" id="r1" />
-                  <label for="r1">летний отдых</label>
-                  <br/>
-                	<input type="radio" id="r2" />
-                  <label for="r2">зимний отдых</label>
-                  <br/>
-                	<input type="radio" id="r3" />
-                  <label for="r3">только с фото</label>
-                  <br/>
-                  <input type="radio" id="r4" />
-                  <label for="r4">без посредников</label>
-                </div>
-              </div>
             </div>
+          </div>
+          <div>
+          	another content 2
+          </div>
+          <div>
+          	another content 3
+          </div>
+          <div>
+          	another content 4
           </div>
         </div>
         <div id="w-wheather" class="glass-block">
-        	<div class="city">
-          	<div class="free-space">
-            	<div class="clearfix">
-              	<span class="title">Популярные курорты</span>
-              </div>
-              <div class="content cities clearfix">
-              	<div class="clearfix">
-              	<a class="weather-city sunny">Сочи</a>
-                <a class="weather-city sunny">Туапсе</a>
-                <a class="weather-city cloud">Сочи</a>
-                <a class="weather-city cloud">Туапсе</a>
-                <a class="weather-city cold last">Сочи</a>
-                <a class="weather-city shine last">Туапсе</a>
+        	<table border="0">
+          	<tr>
+            	<td>
+                <div class="city">
+                  <div class="free-space">
+                    <div class="clearfix">
+                      <span class="title">Популярные</span>
+                    </div>
+                    <div class="content cities">
+                      <div class="cities-container clearfix">
+                        <div class="cities-cell">
+                          <a class="weather-city sunny">Новороссийск</a>
+                          <a class="weather-city cloud">Туапсе</a>
+                        </div>
+                        <div class="cities-cell">
+                          <a class="weather-city cold">Сочи</a>
+                          <a class="weather-city shine">Туапсе</a>
+                        </div>
+                        <div class="cities-cell">
+                          <a class="weather-city cold">Сочи</a>
+                          <a class="weather-city shine">Туапсе</a>
+                        </div>
+                        <div class="cities-cell">
+                          <a class="weather-city cold">Сочи</a>
+                          <a class="weather-city shine">Туапсе</a>
+                        </div>
+                        <div class="cities-cell">
+                          <a class="weather-city cold">Сочи</a>
+                          <a class="weather-city shine">Туапсе</a>
+                        </div>
+                        <div class="cities-cell">
+                          <a class="weather-city cold">Сочи</a>
+                          <a class="weather-city shine">Туапсе</a>
+                        </div>
+                      </div>
+                      <a class="all-cities">Все курорты</a>
+                    </div>
+                  </div>
                 </div>
-                <a class="all-cities">Все курорты</a>
-              </div>
-            </div>
-          </div>
-          <div class="weather">
-          	<div class="free-space">
-            	<div class="clearfix">
-              	<span class="title">Погода</span>
-              </div>
-              <div class="content clearfix">
-              	<img alt="" src="img/icons/Sun.png" />
-                <img alt="" src="img/icons/Wind.png" />
-                <div class="clearfix">
-                	<input type="text" value="Сочи" />
+          		</td>
+          		<td width="234px">
+                <div class="weather">
+                  <div class="free-space">
+                    <div class="content clearfix">
+                      <img alt="" src="img/icons/Sun.png" />
+                      <img alt="" src="img/icons/Wind.png" />
+                      <div class="clearfix">
+                        <select id="w_city">
+                          <option>Сочи</option>
+                        </select>
+                      </div>
+                      <div class="clearfix">
+                        <label>Сегодня, днем +38, ночью +23</label>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="clearfix">
-                	<label>Сегодня, днем +38, ночью +23</label>
-                </div>
-              </div>
-            </div>
-          </div>
+          		</td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
     <div id="main-content" class="clearfix">
     	<div class="centered-content clearfix">
         <div id="left-container">
-        	<!--
-          <div class="glass-block">
-            <div class="free-space">
-            	<ul>
-              	<li><a class="home-link">Главная</a></li>
-                <li><a class="item-link">Санаторий</a></li>
-                <li><a class="item-link">Пансионаты</a></li>
-                <li><a class="item-link">Мини-гостиницы</a></li>
-                <li><a class="item-link">Кемпинги</a></li>
-                <li><a class="item-link">Гостевые дома</a></li>
-                <li><a class="item-link">Жилье</a></li>
-              </ul>
-            </div>
-          </div>
-          -->
-          <div id="entertainment" class="clearfix">
-          	<h2>Тематический отдых</h2>
+			<div id="entertainment" class="clearfix">
+				<h2>Тематический отдых</h2>
+				<ul>
+                    {foreach from=$rest item=r}
+                      {if $r.id eq 1}
+                        {foreach from=$r.opt item=opt}
+                	    <li><a class="folder-item">{$opt.name}</a></li>
+                	    {/foreach}
+                	  {/if}
+                    {/foreach}
+                </ul>
+                </div>
+        </div>
+        <div id="right-container">
+        	<div id="tourist" class="clearfix">
+            <h2>Активный отдых</h2>
             <ul>
-                {foreach from=$rest item=r}
-                  {if $r.id eq 1}
-                    {foreach from=$r.opt item=opt}
-            	    <li><a class="folder-item">{$opt.name}</a></li>
-            	    {/foreach}
-            	  {/if}
-                {/foreach}
+              <li><a class="folder-item">Серфинг</a></li>
+            	<li><a class="folder-item">Дайвинг</a></li>
+            	<li><a class="folder-item">Горнолыжный отдых</a></li>
+            	<li><a class="folder-item">Лыжные походы</a></li>
+            	<li><a class="folder-item">Рыбалка</a></li>
+            	<li><a class="folder-item">Фотоохота</a></li>
+            	<li><a class="folder-item">Прыжки с парашутом</a></li>
+            	<li><a class="folder-item">Горный туризм</a></li>
+            	<li><a class="folder-item">Водный туризм</a></li>
+            	<li><a class="folder-item">Эскурсионные туры</a></li>
+            	<li><a class="folder-item">Конный туризм</a></li>
+            	<li><a class="folder-item">Вело туризм</a></li>
+            	<li><a class="folder-item">Джипинг</a></li>
+              <li><a class="folder-item">Спелео туризм</a></li>
+              <li><a class="folder-item">Скалолазание</a></li>
+              <li><a class="folder-item">Туристические походы</a></li>
+              <li><a class="folder-item">Места боевой славы</a></li>
             </ul>
           </div>
+          <div id="hot-tours" class="clearfix">
+          	<h2 class="gold">Горящие предложения</h2>
+            <a class="prev"></a>
+            <div class="clearfix scrollable vertical">
+              <div class="items-container">
+              	<div>
+                  <div class="item">
+                    <img alt="" src="img/fake/img1.jpg" />
+                    <span class="title">Сочи</span>
+                    <span class="price">Антигуа: от 670$</span>
+                    <a class="order">Заказать</a>
+                  </div>
+                  <div class="item">
+                    <img alt="" src="img/fake/img1.jpg" />
+                    <span class="title">Сочи</span>
+                    <span class="price">Антигуа: от 670$</span>
+                    <a class="order">Заказать</a>
+                  </div>
+                </div>
+              	<div>
+                  <div class="item">
+                    <img alt="" src="img/fake/img1.jpg" />
+                    <span class="title">Сочи 3333</span>
+                    <span class="price">Антигуа: от 670$</span>
+                    <a class="order">Заказать</a>
+                  </div>
+                  <div class="item">
+                    <img alt="" src="img/fake/img1.jpg" />
+                    <span class="title">Сочи 444</span>
+                    <span class="price">Антигуа: от 670$</span>
+                    <a class="order">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="next"></a>
+          </div>
         </div>
+
 
 

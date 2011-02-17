@@ -1,6 +1,6 @@
 {include file="$gentemplates/site_top.tpl"}
     <div id="middle-container">
-          <h2>Сочи - о курорте, вступительная статья</h2>
+          <h2>Раздел : Отчёт о путешествиях</h2>
 
 	<table cellpadding="0" cellspacing="0" width="100%" border="0">
 	<tr>

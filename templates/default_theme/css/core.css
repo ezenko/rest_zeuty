@@ -32,28 +32,30 @@ html[xmlns] .clearfix {display:block}
 
 /* Core */
 .free-space {padding:0 20px}
-.centered-content {position:relative; margin:0 auto; width:1000px; overflow:visible}
+.centered-content {position:relative; width:96%; max-width:1560px; margin:0 auto; overflow:visible}
 .last {margin-bottom:0px !important}
-.glass-block {background:url(../img/core/blockbg.png) no-repeat scroll center top; border:1px solid #f5f0e1; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; -moz-box-shadow:0 0 5px 1px #666}
+.glass-block {background:url(../img/core/blockbg.png) no-repeat scroll center top; border:1px solid #f5f0e1; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; -moz-box-shadow:0 0 5px 1px #666; -webkit-box-shadow:0 0 5px 1px #666; box-shadow:0 0 5px 1px #666}
+.img-border {border:3px solid #fff}
+.tooltip {border:1px solid #704700; background-color:#f7efde; color:#492f00; padding:3px 5px; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:0 0 2px 1px #666; -webkit-box-shadow:0 0 2px 1px #666; box-shadow:0 0 5px 1px #666}
+
+.items-container .item img {border:3px solid #fff; width:177px; height:128px}
+.items-container .item span.title {display:block; padding:4px 0 2px; color:#097c00; font-size:16px; line-height:24px}
+.items-container .item span.price {display:block; padding:2px 0 2px}
+.items-container .item a.order {display:inline-block; padding:4px 0 1px; font-size:14px; border-bottom:1px dashed #274b67}
+.items-container .item a.order:hover {text-decoration:none}
 
 
-.container {display:inline-block}
-.container .item img {border:3px solid #fff; width:177px; height:128px}
-.container .item span.title {display:block; padding:4px 0 2px; color:#097c00; font-size:16px; line-height:24px}
-.container .item span.price {display:block; padding:2px 0 2px}
-.container .item a.order {display:inline-block; padding:4px 0 1px; font-size:14px; border-bottom:1px dashed #274b67}
-.container .item a.order:hover {text-decoration:none}
-
-
-#container {width:100%; min-width:1000px; background:url(../img/core/top-bg.jpg) no-repeat scroll center 0}
+#container {margin:0 auto; width:100%; min-width:1024px; background:url(../img/core/top-bg.jpg) no-repeat scroll center 0}
 	#header {height:118px; width:100%}
-		#logo {}
+		#logo {position:absolute; top:-15px}
 		#top-decorate-line {height:34px; width:100%; overflow:visible; background:#006091 url(../img/core/header_sprite_34_41_41.png) repeat-x scroll 0 0}
 		#navi-container {height:41px; width:100%; background:transparent url(../img/core/header_sprite_34_41_41.png) repeat-x scroll 0 -34px}
-			#navi ul {list-style:inside none none}
-			#navi ul li {float:left; height:40px}
-			#navi ul li a {padding:7px 15px 12px; font-size:16px; color:#fff}
-			#navi ul li a.active {border:solid 1px #99b15b; border-top:none 0px transparent; background:url(../img/core/header_sprite_34_41_41.png) repeat-x scroll 0 -75px; color:#005e8f}
+			#navi .cont {position:relative}
+			#navi ul {list-style:inside none none; display:inline-block; float:left; margin-left:200px}
+			#navi ul li {float:left; display:block; height:40px}
+			#navi ul li span {display:inline-block; color:#fff; margin:0 5px; padding-top:6px; font-size:16px}
+			#navi ul li a {padding:5px 8px; font-size:14px; color:#fff; margin-top:4px}
+			#navi ul li a.active {border:solid 1px #99b15b; border-top:none 0px transparent; color:#005e8f; background-color:#f7c70b; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px}
 	#intro {height:268px; width:100%}
 		#special-block {width:490px}
 		#special-block img {float:left; margin-right:20px; height:109px; width:146px; border:3px solid #fff}
@@ -63,33 +65,43 @@ html[xmlns] .clearfix {display:block}
 		#tours-block {margin-top:20px; width:490px}
 		#tours-block .tour-item {float:left; width:240px}
 	#widgets {width:100%}
-		#w-search, #w-wheather {float:left; width:441px}
-		#w-wheather {float:right; width:520px}
+		ul.tabs {margin:0 0 1px 0px}
+		ul.tabs li {float:left; background:url(../img/core/blockbg.png) no-repeat scroll center center; border:1px solid #fafafa; margin-right:5px; list-style-position:inside; list-style-type:none; -moz-border-radius-topleft:6px; -moz-border-radius-topright:6px; -webkit-border-top-right-radius:6px; -webkit-border-top-left-radius:6px; border-top-right-radius:6px; border-top-left-radius:6px; -moz-box-shadow:0px 1px 3px 1px #666; -webkit-box-shadow:0px 1px 3px 1px #666; box-shadow:0px 1px 3px 1px #666}
+		ul.tabs li a {font:bold 14px/22px Arial, Helvetica, sans-serif; padding:3px 10px; -moz-border-radius-topleft:6px; -moz-border-radius-topright:6px; -webkit-border-top-right-radius:6px; -webkit-border-top-left-radius:6px; border-top-right-radius:6px; border-top-left-radius:6px}
+		ul.tabs li a.current {background-color:#ffc200}
+		#w-search, #w-wheather {float:left; width:641px; -moz-box-shadow:0 1px 4px 1px #666; -webkit-box-shadow:0 1px 4px 1px #666; box-shadow:0 1px 4px 1px #666}
+		#w-search {-moz-border-radius-topleft:0px}
+		#w-wheather {float:right; width:520px; height:187px}
 		#w-search .free-space, #w-wheather .free-space {padding:20px 25px}
 		#w-search .title, #w-wheather .title {float:left; font:20px Arial, Helvetica, sans-serif; color:#274b67}
 		#w-search .action, #w-wheather .action {float:right; padding-top:2px; border-bottom:1px dashed #274b67; font-size:16px}
-		#w-search .content, #w-wheather .content {margin-top:15px}
-		#w-search .row {float:left; width:45%}
-		#w-search .row-last {margin-left:10%}
-		#w-wheather .city {float:left; width:55%}
-		#w-wheather .weather {float:left; width:45%}
+		#w-search .content {margin-top:15px}
+		#w-search .row {float:left; width:30%; margin-left:3%}
+		#w-search .row-first {margin-left:0%}
+		#w-wheather .weather {max-width:250px; width:234px}
+		#w-wheather .city .free-space {padding:18px 10px 20px 25px}
+		#w-wheather .weather .free-space {padding-top:18px}
 		#w-search input[type="text"] {width:155px}
 		#w-search input[type="text"].from {display:inline-block; width:50px}
 		#w-search input[type="text"].to {display:inline-block; margin-left:30px; width:50px;}
 		#w-search .field, #w-wheather .field {margin-bottom:7px}
 		#w-wheather img {width:88px; height:88px}
-		#w-wheather input {margin:10px 0 17px}
-		#w-wheather .cities {margin-top:25px}
-		#w-wheather a.all-cities {display:inline-block; margin-top:20px; font-size:12px; text-decoration:none}
+		#w-wheather #w_city_link {margin:10px 0}
+		#w-wheather div.cities {margin-top:5px; overflow:hidden}
+		#w-wheather div.cities-container {overflow:hidden; height:90px; margin-top:12px}
+		#w-wheather div.cities-cell {float:left; width:148px}
+		#w-wheather a.all-cities {display:inline-block; margin-top:9px; font-size:12px; text-decoration:none}
 		#w-wheather a.all-cities:hover {text-decoration:underline}
+		#w-wheather table {margin:0}
+		#w-wheather table tbody tr td {border:0px solid #274B67; padding:0; text-align:left; vertical-align:top}
 	#main-content {margin-top:30px}		
-		#left-container {float:left; margin-right:30px; width:236px}
+		#left-container {float:left; width:236px}
 			#left-container .free-space {padding:20px 25px}
 			#left-container ul li {display:inline-block; list-style:none; margin:7px 0; width:100%}
 			#left-container a.home-link,
 			#left-container a.item-link {display:inline-block; background:url(../img/icons/list_icns.png) no-repeat scroll 0 0; padding-left:28px; height:18px; line-height:18px; font-weight:bold}
 			#left-container a.item-link {background-position:0 -50px; font-weight:normal}
-			#entertainment {margin-top:0}
+			#entertainment {margin-top:0px}
 			#hot-tours {margin-top:15px}
 			#entertainment ul,
 			#tourist ul {display:inline-block; margin-top:10px}
@@ -98,23 +110,38 @@ html[xmlns] .clearfix {display:block}
 			#entertainment a.folder-item,
 			#tourist a.folder-item {background:url(../img/icons/folder_icns.png) no-repeat scroll 0 0; padding-left:35px; height:24px; line-height:26px}
 			#tourist a.folder-item {background-position:0 -50px}
-		#middle-container {float:left; margin-right:30px; width:506px}
-		#right-container {float:left; width:198px}
+		#middle-container {margin-right:228px; margin-left:266px}
+			#middle-holder {margin-top:10px}
+			#middle-holder h3, #middle-holder h3.simple {margin-top:18px; font:normal normal 16px/18px Arial, Helvetica, sans-serif; color:#097c00}
+			#middle-holder h3.simple {margin-top:0}
+			#middle-holder p {margin-top:13px}
+			#middle-holder a {font:bold normal 14px/24px Arial, Helvetica, sans-serif; text-decoration:none}
+			#middle-holder a:hover {text-decoration:underline}
+			#middle-holder .map-holder {margin-top:15px}
+		#right-container {float:right; width:198px}
+			#right-container .vertical {position:relative; overflow:hidden;	height:460px; width:183px; border-top:1px solid #ddd}
 			#right-container .scrollable {margin:10px auto 0; width:183px}
-			#right-container .container .item {margin:15px 0; padding-bottom:15px; border-bottom:1px dashed #999}
+			#right-container .items-container {position:absolute; height:20000em;	margin:0px; top:-15px}
+			#right-container .items-container .item {margin:15px 0; padding-bottom:15px; border-bottom:1px dashed #999}
 			#right-container a.next,
-			#right-container a.prev {display:inline-block; width:183px; height:22px; background:url(../img/icons/buttons.png) no-repeat scroll 0 -44px}
+			#right-container a.prev {display:inline-block; width:183px; height:22px; background:url(../img/icons/buttons.png) no-repeat scroll 0 -44px; margin:0 0 0 5px}
 			#right-container a.next:hover {background-position:0 -66px}
-			#right-container a.prev {background-position:0 0}
+			#right-container a.prev {background-position:0 0; margin:15px 0 0 5px}
 			#right-container a.prev:hover {background-position:0 -22px}
-	#bottom-container {background:url(../img/core/footer.jpg) no-repeat scroll center bottom}
+	#bottom-container {position:relative; background:url(../img/core/corn-l.gif) no-repeat scroll left bottom}
+	#bottom-image-corner {position:absolute; bottom:0; right:0; width:100%; height:100%; background:url(../img/core/corn-r.gif) no-repeat scroll right bottom}
 	#pre-footer {margin-top:20px}
 		#pre-footer .header {margin-bottom:10px}
 		#pre-footer .header span.title {float:left; display:inline-block; margin-left:3px; font-size:20px; font-weight:normal; line-height:24px}
 		#pre-footer .header a.all {float:right; margin-right:5px; line-height:24px}
-		#pre-footer .scrollable {overflow:hidden}
-		#pre-footer .container {width:8000px}
-		#pre-footer .container .item {float:left; margin-right:20px}
+		#pre-footer .header a.next,
+		#pre-footer .header a.prev {float:left; display:inline-block; margin:1px 0 0 9px; background:url(../img/icons/buttons.png) no-repeat scroll 0 -88px; width:22px; height:22px}
+		#pre-footer .header a.next {background-position:0 -132px; margin-left:5px}
+		#pre-footer .header a.prev:hover {background-position:0 -110px}
+		#pre-footer .header a.next:hover {background-position:0 -154px}
+		#pre-footer .scrollable {position:relative; overflow:hidden; height:140px}
+		#pre-footer .items-container {position:absolute; width:8000px}
+		#pre-footer .items-container .item {float:left; margin-right:20px}
 	#footer {margin:25px 0 0; padding-bottom:30px}
 	#footer #rights {float:left; padding:20px}
 	#footer #f-menu {float:right; width:270px; padding:7px 0 3px}
@@ -133,7 +160,7 @@ a.specials {display:inline-block}
 a.specials span.title {font-size:18px; font-style:italic; cursor:pointer}
 a.specials span.price {font-size:30px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-style:italic; white-space:nowrap; cursor:pointer}
 
-a.weather-city {display:inline-block; float:left; background:url(../img/icons/weather_icn.png) no-repeat scroll 0 0; padding-left:30px; margin-bottom:25px; width:88px; height:22px; line-height:22px; color:#097c00; text-decoration:none}
+a.weather-city {display:inline-block; background:url(../img/icons/weather_icn.png) no-repeat scroll 0 0; padding-left:25px; margin:10px 0; width:95px; height:22px; line-height:22px; color:#097c00; text-decoration:none; text-align:left}
 a.weather-city:hover {text-decoration:underline}
 a.sunny {background-position:0 0}
 a.cloud {background-position:0 -50px}
@@ -145,3 +172,123 @@ label[for] {cursor:pointer}
 
 input[type="text"] {height:23px; border:0; background:url(../img/icons/forms.png) no-repeat scroll 0 0; padding:3px 10px; color:#8d8e8e}
 input[type="radio"] {margin-bottom:10px}
+
+
+/* Avia page */
+#avia-form {margin-top:40px}
+#avia-form .field-row, #train-form .field-row {display:inline-block; margin-top:15px; width:100%}
+#avia-form .hfield {float:left; width:356px}
+#avia-form .qfield, #train-form .qfield {float:left; width:175px}
+#avia-form .field a {float:left}
+#avia-form .field .radio-container {float:left; width:210px}
+
+#avia-form .separator , #train-form .separator {border-top:dashed 1px #838e8d; padding-top:15px}
+
+	#avia-form .hfield #s_from_link {width:210px !important}
+	#avia-form .hfield #l_to {margin-left:20px}
+	#avia-form .hfield #s_to_link {margin-left:20px; width:210px !important}
+	
+	#avia-form .field #l_away {float:left; margin-right:37px; line-height:30px}
+	#avia-form .field #l_back {float:left; margin-right:10px; line-height:30px}
+	#avia-form .field #s_away1_link,
+	#avia-form .field #s_away3_link,
+	#avia-form .field #s_back1_link,
+	#avia-form .field #s_back3_link {width:98px !important}
+	#avia-form .field #s_away2_link,
+	#avia-form .field #s_back2_link {margin-left:15px; width:142px !important}
+	#avia-form .field #s_away3_link,
+	#avia-form .field #s_back3_link {margin-left:15px}
+	#avia-form .field #l_avia,
+	#avia-form .field #l_class,
+	#avia-form .field #l_nflight {float:left; display:inline-block; width:160px; line-height:30px}
+	#avia-form .field #l_nflight {line-height:18px}
+	#avia-form .field #s_avia_link,
+	#avia-form .field #s_class_link {float:left; width:180px !important}
+	
+	#avia-form .qfield label,
+	#train-form .qfield label {display:block; margin-bottom:4px}
+	#avia-form .qfield a,
+	#train-form .qfield a {width:85px !important}
+	
+	#avia-form .field .radio-container label {vertical-align:2px}
+	
+/* Catalog page */
+#pg {display:inline-block; margin-top:20px}
+#catalog {display:inline-block; width:100%}
+#catalog .row {display:inline-block; margin-bottom:20px; width:100%}
+#catalog .item {float:left; display:inline-block; margin:10px}
+	#catalog .item img {float:left; margin-right:20px}
+	#catalog .item .desc {float:left}
+	#catalog .item .desc h4 {font-size:14px; font-weight:normal; color:#097C00; margin-bottom:15px}
+	#catalog .item .desc span {display:block; font-size:12px; line-height:14px}
+#catalog .item.last {float:left; margin-right:0}
+	#catalog .item span {display:inline-block; margin-top:7px}
+
+/* More */
+.photo-gallery {display:inline-block; margin:5px 0}
+.photo-gallery .item {float:left; margin:10px; width:150px}
+.photo-gallery .item img {max-width:146px}
+
+.suit-header {display:inline-block; margin-top:10px; width:100%}
+	.suit-header-block {display:block; background:url("../img/core/panel-bg.png") repeat-x scroll 0 0 transparent; padding:7px 10px; border:1px solid #f3f3f3; outline:1px solid #c5b9a0; cursor:pointer}
+	.suit-header-block a.status {display:inline-block; float:left; margin:2px 7px 0 0; width:14px; height:14px; background:url(../img/icons/plusminus.gif) no-repeat scroll 0 0}
+	.suit-header-block a.status.close {background-position:0 -50px}
+	.suit-header-block span.s_id {float:left; font:16px/18px Arial,Helvetica,sans-serif; color:#097C00; cursor:pointer}
+	.suit-header-block span.s_name {float:right; font:16px/18px Arial,Helvetica,sans-serif; color:#ab6d00; cursor:pointer}
+.suit-header div.s_preview {clear:both}
+.suit-body {display:inline-block; width:100%}
+	.suit-body .tabs li {-moz-box-shadow:0px 1px 3px 1px #666; -webkit-box-shadow:0px 1px 3px 1px #666; box-shadow:0px 1px 3px 1px #666}
+	.suit-body .glass-block {-moz-box-shadow:0 1px 4px 1px #666; -webkit-box-shadow:0 1px 4px 1px #666; box-shadow:0 1px 4px 1px #666; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; background-image:none}
+
+.suit-description {float:left; padding:10px 15px}
+.suit-description .row {display:inline-block; margin-bottom:3px; width:100%}
+.suit-description .gallery {margin-top:5px}
+.suit-description label.title {margin:0 2px 0 0 !important; font:bold normal 14px/18px Arial, Helvetica, sans-serif}
+.suit-description span.desc {font:normal 14px/18px Arial, Helvetica, sans-serif}
+.suit-description a.all {float:right; font-weight:normal !important}
+
+.icons-holder {display:inline-block; margin:5px 0 10px; width:100%}
+.icons-holder a.icon {float:left; width:34px; height:37px; margin-right:10px}
+.icons-holder a.bath {background:url(../img/icons/icn_bath.png) no-repeat scroll 0 0}
+.icons-holder a.condition {background:url(../img/icons/icn_condition.png) no-repeat scroll 0 0}
+.icons-holder a.tv {background:url(../img/icons/icn_tv.png) no-repeat scroll 0 0}
+.icons-holder a.fridge {background:url(../img/icons/icn_refregirator.png) no-repeat scroll 0 0}
+.icons-holder a.wifi {background:url(../img/icons/icn_wifi.png) no-repeat scroll 0 0}
+.icons-holder a.bana {background:url(../img/icons/icn_bana.png) no-repeat scroll 0 0}
+.icons-holder a.parking {background:url(../img/icons/icn_parking.png) no-repeat scroll 0 0}
+.icons-holder a.map {background:url(../img/icons/icn_map.png) no-repeat scroll 0 0}
+.icons-holder a.pool {background:url(../img/icons/icn_pool.png) no-repeat scroll 0 0}
+.icons-holder a.eat {background:url(../img/icons/icn_eat.png) no-repeat scroll 0 0}
+.icons-holder a.ice {background:url(../img/icons/icn_ice.png) no-repeat scroll 0 0}
+
+table {width:100%; margin:5px 0 10px}
+table thead tr td {background-color:#274b67; color:#fff; text-align:center; padding:3px 0}
+table tbody tr td {border:solid 1px #274b67; text-align:center; padding:2px 0}
+
+/* Train page */
+#train-form {margin:20px 0 30px 0}
+#train-form .qfield .search {margin:26px 0 0 20px}
+
+#dates {margin-top:10px}
+a.date {float:left; margin-right:20px; font-weight:normal !important}
+a.date.selected {font-weight:bold !important}
+
+table#train {margin-top:15px}
+table#train thead td {vertical-align:top; padding:7px 0 1px}
+table#train tbody td {text-align:left; vertical-align:top;}
+table#train tbody td .free-space {padding:7px 5px}
+table#train tbody td label {margin:0; font-size:14px; vertical-align:2px}
+table#train tbody td label.small {color:#274b67}
+table#train tbody td label.time {font-weight:bold; padding:4px 0 0 0}
+table#train tbody td.from label.small {margin-left:25px}
+
+table#train td.from {width:34%}
+table#train td.days {width:12%}
+table#train td.away {width:21%}
+table#train td.arrive {width: 21%}
+table#train td.time {width:12%}
+
+table#train td label.small {color:#fff; font:normal 11px/20px Arial, Helvetica, sans-serif}
+
+.tags {width:500px; height:500px; background:#000}
+.tags * {color:#fff !important}

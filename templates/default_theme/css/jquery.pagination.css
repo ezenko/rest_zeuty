@@ -1,0 +1,79 @@
+.pagination {
+	font-size: 80%;
+}
+        
+.pagination a {
+	text-decoration: none;
+	color: #274b67;
+}
+
+.pagination a, .pagination span {
+	display: block;
+	border-right:none;
+	float: left;
+	padding: 0.3em 0.5em;
+	margin-bottom: 5px;
+	margin-left:5px;
+	min-width:1em;
+	text-align:center;
+	font:normal 12px Arial !important;
+	background:transparent url(../img/core/paging.png) repeat-x scroll 0 0;
+	border: 1px solid #f6f1e6;
+	outline: 1px solid #c4b99f;
+}
+
+.pagination span[class] {
+	background: #ab6d00 url(../img/core/paging.png) repeat-x scroll 0 0;
+	border: 1px solid #f6f1e6;
+	outline: 1px solid #c4b99f;
+}
+
+.pagination a:hover {
+	color:#ab6d00;
+	text-decoration: none !important;
+}
+
+.pagination .current {
+	color: #fff; 
+	background-color:#ad781c;
+}
+
+.pagination .current.prev, .pagination .current.next {
+	color:#999; 
+	background-color:transparent;
+	margin-left: 10px
+}
+
+.pagination .prev {
+	width:22px;
+	margin-left: 0px;
+	margin-right: 10px
+}
+
+.pagination a.prev:hover {
+	width:22px;
+}
+
+.pagination a.prev:active {
+	width:22px;
+}
+
+.pagination .next {
+	width:25px;
+	margin-left: 15px
+}
+
+.pagination a.next:hover {
+	width:25px;
+}
+
+.pagination a.next:active {
+	background-position:right -272px;
+	width:25px;
+}
+
+.pagination span {
+	background:none;
+	border: none;
+	outline: 0
+}
