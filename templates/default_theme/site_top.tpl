@@ -44,7 +44,7 @@
 			$("#pre-footer .scrollable").scrollable({ vertical: false, mousewheel: true });
 		});
 		
-		window.onload = 
+		
   	window.onresize = function() { resizeContent(); };
 		
 		function resizeContent() {
@@ -103,7 +103,7 @@ function InComparisonList() {
 {/literal}
 </head>
 
-<body onload="get_parseGET(); InComparisonList();{if (($data.user_type eq 2 || ($data.user_type eq 3 && $data.agency_approve eq 1)) && $data.id_country && $data.in_base && $use_maps_in_account)||($use_maps_in_viewprofile && $profile.country_name && $view eq 'general' && (($registered eq 1 && $group_type eq 1) || ($registered eq 1 && $contact_for_free) || $mhi_registration || $contact_for_unreg) && ($profile.in_base || $profile.company_data.in_base))||(($profile.type eq 2  || $profile.type eq 4) && $view eq 'map' && $data.in_base && $use_maps_in_viewprofile)} getMapGlobal(&quot;{$map.name}&quot;, &quot;map_container&quot;, &quot;{$profile.adress}&quot;, &quot;{$profile.city_name}&quot;, &quot;{$profile.region_name}&quot;, &quot;{$profile.country_name}&quot;, &quot;{$profile.lat}&quot;, &quot;{$profile.lon}&quot;);{/if}">
+<body onload="resizeContent();get_parseGET(); InComparisonList();{if (($data.user_type eq 2 || ($data.user_type eq 3 && $data.agency_approve eq 1)) && $data.id_country && $data.in_base && $use_maps_in_account)||($use_maps_in_viewprofile && $profile.country_name && $view eq 'general' && (($registered eq 1 && $group_type eq 1) || ($registered eq 1 && $contact_for_free) || $mhi_registration || $contact_for_unreg) && ($profile.in_base || $profile.company_data.in_base))||(($profile.type eq 2  || $profile.type eq 4) && $view eq 'map' && $data.in_base && $use_maps_in_viewprofile)} getMapGlobal(&quot;{$map.name}&quot;, &quot;map_container&quot;, &quot;{$profile.adress}&quot;, &quot;{$profile.city_name}&quot;, &quot;{$profile.region_name}&quot;, &quot;{$profile.country_name}&quot;, &quot;{$profile.lat}&quot;, &quot;{$profile.lon}&quot;);{/if}">
 	<div id="container">
   	<div id="header">
     	<div id="top-decorate-line">
@@ -397,23 +397,13 @@ function InComparisonList() {
         	<div id="tourist" class="clearfix">
             <h2>Активный отдых</h2>
             <ul>
-              <li><a class="folder-item">Серфинг</a></li>
-            	<li><a class="folder-item">Дайвинг</a></li>
-            	<li><a class="folder-item">Горнолыжный отдых</a></li>
-            	<li><a class="folder-item">Лыжные походы</a></li>
-            	<li><a class="folder-item">Рыбалка</a></li>
-            	<li><a class="folder-item">Фотоохота</a></li>
-            	<li><a class="folder-item">Прыжки с парашутом</a></li>
-            	<li><a class="folder-item">Горный туризм</a></li>
-            	<li><a class="folder-item">Водный туризм</a></li>
-            	<li><a class="folder-item">Эскурсионные туры</a></li>
-            	<li><a class="folder-item">Конный туризм</a></li>
-            	<li><a class="folder-item">Вело туризм</a></li>
-            	<li><a class="folder-item">Джипинг</a></li>
-              <li><a class="folder-item">Спелео туризм</a></li>
-              <li><a class="folder-item">Скалолазание</a></li>
-              <li><a class="folder-item">Туристические походы</a></li>
-              <li><a class="folder-item">Места боевой славы</a></li>
+                {foreach from=$rest item=r}
+                  {if $r.id eq 2}
+                    {foreach from=$r.opt item=opt}
+            	    <li><a class="folder-item">{$opt.name}</a></li>
+            	    {/foreach}
+            	  {/if}
+                {/foreach}
             </ul>
           </div>
           <div id="hot-tours" class="clearfix">

@@ -690,7 +690,7 @@ function GetRefSearchArray($spr_table, $value_table, $data='', $lang_add = 1){
 		/**
 		 * there are only integer values in SPR_DESCRIPTION_TABLE, so sort by id
 		 */
-		$strSQL_opt .= ($spr_table == SPR_DESCRIPTION_TABLE) ? "id" : "name";
+		$strSQL_opt .= ($spr_table == SPR_DESCRIPTION_TABLE || $spr_table == SPR_THEME_REST_TABLE) ? "id" : "name";
 
 		$rs_opt = $dbconn->Execute($strSQL_opt);
 		$j = 0;
