@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
     <item name="index" href="/index.php"><![CDATA[Главная]]></item>
-    <item name="tours" href="/tours.php"><![CDATA[Туры]]></item>
-    <item name="place" href="/place.php"><![CDATA[Курорты]]></item>
     <item name="dik" href="/dik.php"><![CDATA[Отдых дикарем]]></item>
-	<item name="registration" href="/registration.php" id="mhi_registration"><![CDATA[Недвижимость]]></item>
-	<item name="forum" href="/news.php"><![CDATA[Форум]]></item>
-    <item name="photo" href="/quick_search.php"><![CDATA[Галерея]]></item>
+    <item name="active" href="/active.php"><![CDATA[Активный отдых]]></item>
+    <item name="tours" href="/tours.php"><![CDATA[Туры]]></item>
+    <item name="registration" href="/registration.php" id="mhi_registration"><![CDATA[Недвижимость]]></item>
+	<item name="forum" href="http://gotravel.su/forum"><![CDATA[Форум]]></item>
+    <item name="photo" href="http://gotravel.su/forum/index.php?/gallery/"><![CDATA[Галерея]]></item>
     <!--item name="map" href="/map.php"><![CDATA[Карта]]></item-->
-    <item name="login" href="/login.php" id="mhi_registration" onclick="return GB_show('', '[href]', 230, 400)"><![CDATA[Войти]]></item>
+    <item name="login" href="/login.php" id="mhi_registration" onclick="return GB_show('', '[href]', 230, 400)"><![CDATA[Войти/Регистрация]]></item>
     <!--item name="contacts" href="/contact.php"><![CDATA[Контакты]]></item-->
 </menu>
