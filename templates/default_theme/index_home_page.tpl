@@ -1,8 +1,12 @@
 {include file="$gentemplates/site_top.tpl"}
     <div id="middle-container">
           <h2>Раздел : Отчёт о путешествиях</h2>
-
-	<table cellpadding="0" cellspacing="0" width="100%" border="0">
+{literal}
+<style>
+#middle-container .main_page_table td { border: none;}
+</style>
+{/literal}
+	<table cellpadding="0" cellspacing="0" width="100%" border="0" class="main_page_table">
 	<tr>
 		<td align="left">
 			<table cellpadding="0" cellspacing="0" width="100%" border="0" height="160" style="background-image: url('{$site_root}{$template_root}{$template_images_root}/realestatemain.jpg'); background-repeat: no-repeat;">
