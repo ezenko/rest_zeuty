@@ -111,7 +111,7 @@ function InComparisonList() {
       <div id="navi-container">
       	<div id="navi" class="centered-content">
         	<div class="cont free-space clearfix">
-          	<a id="logo"><img alt="" src="img/core/logo.png" /></a>
+          	<a id="logo"><img alt="" src="{$site_root}{$template_root}/img/core/logo.png" /></a>
                 {if $registered}
                     {assign var="menu_name" value=$homepage_top_menu}
                 {else}
