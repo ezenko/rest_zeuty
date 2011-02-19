@@ -47,10 +47,10 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 			 {else}
 			 	{$lang.content.rental_ad_edit} 
 			 	{if $choise}&nbsp;|&nbsp;{/if}
-			 	{if $choise eq '1'}{$lang.content.need_room_big}
-				{elseif $choise eq '2'}{$lang.content.have_room_big}
-				{elseif $choise eq '3'}{$lang.content.buy_realty_big}
-				{elseif $choise eq '4'}{$lang.content.sell_realty_big}
+			 	{if $choise eq '1'}{$lang.content.category_wild_big}
+				{elseif $choise eq '2'}{$lang.content.category_realty_big}
+				{elseif $choise eq '3'}{$lang.content.category_tours_big}
+				{elseif $choise eq '4'}{$lang.content.category_active_big}
 				{/if}
 			 {/if}			
 			{/strip}</font>
@@ -78,22 +78,22 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 					{strip}
 					{if !$mhi_ad_buy}
 						{if !$choise || $choise==3 || $choise==1 || !$id_ad}
-						<input type="radio" name="choise" value="3" onclick="Hide(3);" {if $choise==3}checked{/if}>&nbsp;{$lang.content.buy_realty}&nbsp;&nbsp;	
+						<input type="radio" name="choise" value="3" {if $choise==3}checked{/if}>&nbsp;{$lang.content.category_tours}&nbsp;&nbsp;	
 						{/if}
 					{/if}
 					{if !$mhi_ad_sell}
 						{if !$choise || $choise==4 || $choise==2  || !$id_ad}
-							<input type="radio" name="choise" value="4" checked onclick="Show(4);" {if $choise==4}checked{/if}>&nbsp;{$lang.content.sell_realty}&nbsp;&nbsp;
+							<input type="radio" name="choise" value="4" checked {if $choise==4}checked{/if}>&nbsp;{$lang.content.category_active}&nbsp;&nbsp;
 						{/if}
 					{/if}	
 					{if !$mhi_ad_rent}
 						{if !$choise || $choise==3 || $choise==1  || !$id_ad}
-						<input type="radio" name="choise" value="1" onclick="Hide(1);" {if $choise==1}checked{/if}>&nbsp;{$lang.content.need_room}&nbsp;&nbsp;
+						<input type="radio" name="choise" value="1" {if $choise==1}checked{/if}>&nbsp;{$lang.content.category_wild}&nbsp;&nbsp;
 						{/if}
 					{/if}
 					{if !$mhi_ad_lease}
 						{if !$choise || $choise==4 || $choise==2  || !$id_ad}
-							<input type="radio" name="choise" value="2" onclick="Show(2);" {if $choise==2}checked{/if}>&nbsp;{$lang.content.have_room}
+							<input type="radio" name="choise" value="2" {if $choise==2}checked{/if}>&nbsp;{$lang.content.category_realty}
 						{/if}
 					{/if}
 					{/strip}
@@ -164,42 +164,6 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 						</tr>
 					</table>
 					{/if}
-					</td>
-				</tr>
-				<tr id="zip_code_div_1" {if ($choise eq 1 || $choise eq 3) || !($choise)} style="display: none;" {/if}>
-					<td width="100%">
-						<table cellpadding="0" cellspacing="0" width="100%" border="0">
-						<tr>
-							<td height="27" align="left" width="100">{$lang.content.zip_code}&nbsp;:</td>
-							<td><input type="text" class="str" value="{$data.zip_code}" name="zip_code" style="width: 60px;" maxlength="7"></td>
-							<td id="zip_code_error" class="error" style="display: none;">{$lang.content.incorrect_field}</td>
-						</tr>
-						</table>
-					</td>
-				</tr>
-				<tr id="street_div_1" {if ($choise eq 1 || $choise eq 3) || !($choise)} style="display: none;" {/if}>
-					<td width="100%">
-						<table cellpadding="0" cellspacing="0" width="100%" border="0">
-						<tr>
-							<td height="27" align="left" width="100">{$lang.content.cross_streets}&nbsp;:</td>
-							<td>
-								<input type="text" class="str" value="{$data.cross_streets_1}" name="cross_streets_1" style="width: 100px;">&nbsp;&
-								<input type="text" class="str" value="{$data.cross_streets_2}" name="cross_streets_2" style="width: 100px;">
-							</td>
-						</tr>
-						</table>
-					</td>
-				</tr>
-				<tr id="adress_div_1" {if ($choise eq 1 || $choise eq 3) || !($choise)} style="display: none;" {/if}>
-					<td width="100%">
-						<table cellpadding="0" cellspacing="0" width="100%" border="0">
-						<tr>
-							<td height="27" align="left" width="100">{$lang.content.adress}&nbsp;:</td>
-							<td>
-								<input type="text" class="str" value="{$data.adress}" name="adress" style="width: 223px;">
-							</td>
-						</tr>
-						</table>
 					</td>
 				</tr>
 				<tr>
@@ -1388,6 +1352,50 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 	</table>
 	</form>
 </TD></TR>
+{elseif $form.sel eq 'step_type'}
+<TR><TD>
+	<!--//STEP 6-->
+	<form method="POST" name="step_type" id="step_type" action="">
+	<input name="choise" type="hidden" value="{$choise}">
+	<input name="id_ad" type="hidden" value="{$id_ad}">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td class="subsection_title"><b>{$lang.content.page_header_step_type}</b></td>
+		</tr>
+	</table>
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr>
+			<td>
+			<table cellpadding="5" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td style="padding-top: 10px;">
+              <input type="radio" name="offer_type" onclick="hideParents();" value="parent" {if !$parent_id} checked="checked" {/if} />{$lang.content.type_parent}<br />
+              <input type="radio" name="offer_type" value="child" onclick="showParents();" {if $parent_id} checked="checked" {/if} {if !$parents_available} disabled="disabled" {/if}  />{$lang.content.type_child}<br />
+              {if $parents_available}
+              <div id="parent_id"  id="parent_id" {if !$parent_id} style="display: none;"{/if}>
+                <span>{$lang.content.parent_choose}: </span>
+                <select name="parent_id">
+                  {foreach from=$parents_available item=item}
+                    <option value="{$item.id}" {if $item.id eq $parent_id} selected="selected" {/if}>{$item.headline}</option>
+                  {/foreach}
+                </select>
+              </div>
+              {/if}
+              <input type="hidden" name="is_parent" id="is_parent" value="1" />
+          </td>
+				</tr>	
+				<tr>
+					<td>
+						<input type="button" value="{$lang.buttons.save}" class="button_3" onclick="javascript: document.step_type.action='{$form.next_link}'; document.step_type.submit();">
+					</td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+	</form>
+</TD></TR>
+	
 	{elseif $form.sel eq 'upload_video'}
 <TR><TD>
 	<!--//UPLOAD VIDEO-->

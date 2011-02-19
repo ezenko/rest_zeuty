@@ -9,6 +9,10 @@
 	<lines name="buy_realty" descr=""><![CDATA[Я покупаю]]></lines>
 	<lines name="need_room" descr=""><![CDATA[Я арендую]]></lines>
 	<lines name="have_room" descr=""><![CDATA[Я сдаю в аренду]]></lines>
+  <lines name="category_tours" descr=""><![CDATA[Туры]]></lines>
+	<lines name="category_active" descr=""><![CDATA[Активный отдых]]></lines>
+	<lines name="category_wild" descr=""><![CDATA[Отдых дикарем]]></lines>
+	<lines name="category_realty" descr=""><![CDATA[Недвижимость]]></lines>
 	<lines name="select_country" descr=""><![CDATA[В стране]]></lines>
 	<lines name="select_region" descr=""><![CDATA[В регионе]]></lines>
 	<lines name="select_city" descr=""><![CDATA[В городе]]></lines>
@@ -39,7 +43,7 @@
 	<lines name="deactivate" descr=""><![CDATA[Приостановить в Поиске]]></lines>	<lines name="location" descr=""><![CDATA[Расположение]]></lines>
 	<lines name="subway_name" descr=""><![CDATA[Станция метро]]></lines>
 	<lines name="no_ad" descr=""><![CDATA[Нет объявления]]></lines>
-	<lines name="ad_text_1" descr=""><![CDATA[О недвижимости]]></lines>
+	<lines name="ad_text_1" descr=""><![CDATA[Описание]]></lines>
 	<lines name="ad_text_1_2" descr=""><![CDATA[Желаемое жилье]]></lines>
 	<lines name="ad_text_2" descr=""><![CDATA[Обо мне]]></lines>
 	<lines name="ad_text_3" descr=""><![CDATA[Мои предпочтения]]></lines>
@@ -111,21 +115,25 @@
 	<lines name="lunch_time" descr=""><![CDATA[Обед]]></lines>
 	<lines name="time_begin" descr=""><![CDATA[С]]></lines>
 	<lines name="time_end" descr=""><![CDATA[до]]></lines>
-	<lines name="comments" descr=""><![CDATA[Комментарий]]></lines>
+	<lines name="comments" descr=""><![CDATA[Введите краткое описание]]></lines>
 	<lines name="need_room_big" descr=""><![CDATA[Я арендую недвижимость]]></lines>
 	<lines name="have_room_big" descr=""><![CDATA[Я сдаю в аренду недвижимость]]></lines>
 	<lines name="buy_realty_big" descr=""><![CDATA[Я куплю недвижимость]]></lines>
 	<lines name="sell_realty_big" descr=""><![CDATA[Я продам недвижимость]]></lines>
+  <lines name="need_room_big" descr=""><![CDATA[Отдых дикарем]]></lines>
+	<lines name="have_room_big" descr=""><![CDATA[Недвижимость]]></lines>
+	<lines name="buy_realty_big" descr=""><![CDATA[Туры]]></lines>
+	<lines name="sell_realty_big" descr=""><![CDATA[Активный отдых]]></lines>
 	<lines name="page_header_step_3" descr=""><![CDATA[Предпочтения недвижимости]]></lines>
 	<lines name="page_header_step_3_buy" descr=""><![CDATA[Предпочтения недвижимости]]></lines>
 	<lines name="page_header_step_3_have" descr=""><![CDATA[Описание недвижимости]]></lines>
 	<lines name="page_header_step_3_sell" descr=""><![CDATA[Описание недвижимости]]></lines>
 	<lines name="page_header_step_4_have" descr=""><![CDATA[Загрузка фото]]></lines>
 	<lines name="page_header_step_5_have" descr=""><![CDATA[Предпочтения]]></lines>
-	<lines name="page_header_step_6" descr=""><![CDATA[Дополнительный комментарий]]></lines>
-	<lines name="page_header_step_6_have" descr=""><![CDATA[Дополнительный комментарий]]></lines>
-	<lines name="page_header_step_8" descr=""><![CDATA[ПРИВЕТСТВИЕ]]></lines>
-	<lines name="page_header_step_8_have" descr=""><![CDATA[ПРИВЕТСТВИЕ]]></lines>
+	<lines name="page_header_step_6" descr=""><![CDATA[Общая информация]]></lines>
+	<lines name="page_header_step_6_have" descr=""><![CDATA[Общая информация]]></lines>
+	<lines name="page_header_step_8" descr=""><![CDATA[НАЗВАНИЕ]]></lines>
+	<lines name="page_header_step_8_have" descr=""><![CDATA[НАЗВАНИЕ]]></lines>
 	<lines name="incorrect_field" descr=""><![CDATA[Некорректное поле]]></lines>
 	<lines name="incorrect_date" descr=""><![CDATA[Некорректная дата]]></lines>
 	<lines name="price_min_more_max" descr=""><![CDATA[Минимальная плата не может быть больше максимальной]]></lines>
@@ -180,8 +188,8 @@
 	<lines name="page_header_step_4" descr=""><![CDATA[Обо мне]]></lines>
 	<lines name="page_header_step_upload_video" descr=""><![CDATA[Загрузка видео]]></lines>
 	<lines name="subheader" descr=""><![CDATA[Информация данного раздела видна другим посетителям, а внесённые здесь изменения дублируются во всех ваших объявлениях.]]></lines>
-	<lines name="activate_alert" descr=""><![CDATA[Перед активацией нужно заполнить обязательные поля в разделе О недвижимости.]]></lines>
-	<lines name="headline" descr=""><![CDATA[Приветствие]]></lines>
+	<lines name="activate_alert" descr=""><![CDATA[Перед активацией нужно заполнить обязательные поля в разделе Описание.]]></lines>
+	<lines name="headline" descr=""><![CDATA[Название]]></lines>
 	<lines name="feature_btn_text" descr=""><![CDATA[Поставить!]]></lines>
 	<lines name="featured_text1" descr=""><![CDATA[Укажите <b>сумму</b>, которую Вы желате поставить, чтобы стать "Лидером региона", введите <b>приветствие</b> ниже и нажмите &quot;Поставить!&quot;]]></lines>
 	<lines name="your_ad_have" descr=""><![CDATA[Ваше объявление]]></lines>
@@ -196,8 +204,8 @@
 	<lines name="sponsored_alt" descr=""><![CDATA[В списке спонсорских]]></lines>
 	<lines name="featured_alt" descr=""><![CDATA[Region leader]]></lines>
 	<lines name="slideshowed_alt" descr=""><![CDATA[Slideshow]]></lines>
-	<lines name="headline" descr=""><![CDATA[Приветствие]]></lines>
-	<lines name="noheadline" descr=""><![CDATA[Приветствия нет]]></lines>
+	<lines name="headline" descr=""><![CDATA[Название]]></lines>
+	<lines name="noheadline" descr=""><![CDATA[Нет названия]]></lines>
 	<lines name="video_max_user_count" descr=""><![CDATA[Максимальное количество видеофайлов в одном объявлении]]></lines>
 	<lines name="country" descr=""><![CDATA[Страна]]></lines>
 	<lines name="region" descr=""><![CDATA[Регион]]></lines>
@@ -245,5 +253,12 @@
 	<lines name="admin_approve_not_complete" descr=""><![CDATA[Файл не одобрен]]></lines>
 	<lines name="admin_approve_decline" descr=""><![CDATA[Запрещен для показа]]></lines>
 	<lines name="back_to_edit" descr=""><![CDATA[&#171;К редактированию объявления]]></lines>			
-	<lines name="saved" descr=""><![CDATA[Сохранено]]></lines>		
+	<lines name="saved" descr=""><![CDATA[Сохранено]]></lines>
+  <lines name="general_info" descr=""><![CDATA[Общая информация]]></lines>  		
+  <lines name="offer_type" descr=""><![CDATA[Тип предложения]]></lines>
+  <lines name="type_parent" descr=""><![CDATA[Родительская карточка (гостиница, пансионат)]]></lines>
+  <lines name="type_child" descr=""><![CDATA[Дочерняя карточка (номер, комната)]]></lines>
+  <lines name="type_not_set" descr=""><![CDATA[Не указано]]></lines>
+  <lines name="parent" descr=""><![CDATA[Родитель]]></lines>
+  <lines name="parent_choose" descr=""><![CDATA[Выберите родителя]]></lines>
 </data>

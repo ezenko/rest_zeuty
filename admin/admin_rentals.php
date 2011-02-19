@@ -88,6 +88,7 @@ switch($sel){
 	case "step_6":			UserAd("step_6"); break;
 	case "step_7":			UserAd("step_7"); break;
 	case "step_8":			UserAd("step_8"); break;
+  case "step_type":			UserAd("step_type"); break;
 	case "listing_position":UserAd("listing_position"); break;	
 	case "upload_video":	UserAd("upload_video"); break;
 	case "calendar":		CalendarAd("add_event");break;
@@ -104,6 +105,7 @@ switch($sel){
 	case "7":				SaveProfile("7"); break;
 	case "8":				SaveProfile("8"); break;
 	case "finish":			SaveProfile("finish"); break;
+  case "finish_2":			SaveProfile("finish_2"); break;
 
 	case "upload_photo":	UploadPhoto($_GET["back"]); break;
 	case "js_upload":		JsUpload();break;
@@ -216,7 +218,8 @@ function MyAd ($id_ad='', $par='') {
 				count.name as country_name, reg.name as region_name, cit.name as city_name, ut.login, ut.user_type, 
 				hlt.id_friend, blt.id_enemy, tsat.type as topsearched,
 				tsat.date_begin as topsearch_date_begin, tsat.date_end as topsearch_date_end,
-				a.status, sp.status as spstatus, ft.id as featured 
+				a.status, sp.status as spstatus, ft.id as featured,
+        count.id as count_id, cit.id as cit_id, reg.id as reg_id
 				FROM ".RENT_ADS_TABLE." a
 				LEFT JOIN ".USERS_RENT_LOCATION_TABLE." urlt ON a.id=urlt.id_ad
 				LEFT JOIN ".COUNTRY_TABLE." count ON count.id=urlt.id_country
@@ -238,13 +241,36 @@ function MyAd ($id_ad='', $par='') {
 	$profile["featured"] = $row["featured"];
 	$profile["date_unactive"] =$row["date_unactive"];
 	
-		
+	$strSQL = "SELECT rent.parent_id, rent_parent.headline FROM ".RENT_ADS_TABLE." rent 
+             LEFT JOIN ".RENT_ADS_TABLE." rent_parent ON rent.parent_id = rent_parent.id
+             WHERE rent.id_user='1' AND rent.id='".$id_ad."'";
+	$rs = $dbconn->Execute($strSQL);
+	$headline = stripslashes($rs->fields[1]);
+  $parent_id = stripslashes($rs->fields[0]);
+  $profile['parent_id'] = $parent_id;
+  if ($parent_id) {
+    $profile['parent'] = $headline;
+  }
 	if (utf8_strlen($row["headline"]) > GetSiteSettings("headline_preview_size")) {
 		$profile["headline"] = stripslashes($row["headline"]);
 	} else {
 		$profile["headline"] = stripslashes($row["headline"]);
 	}
-
+  
+  $strParentsSQL = "SELECT 	a.id, a.headline
+				      FROM ".RENT_ADS_TABLE." a, ".USERS_RENT_LOCATION_TABLE." urlt, ".COUNTRY_TABLE." count,
+                   ".REGION_TABLE." reg, ".CITY_TABLE." cit, ".USERS_TABLE." ut
+              WHERE a.id=urlt.id_ad AND urlt.id_country = count.id AND urlt.id_region = reg.id AND urlt.id_city = cit.id
+              AND count.id=" . $row['count_id'] . " AND reg.id=" . $row['reg_id'] . " AND a.id_user = ut.id
+              AND cit.id=" . $row['cit_id'] . " AND ut.id=" . $row['id_user'] . " AND a.parent_id = 0
+              AND a.id != " . $row['id'];
+	$rsPar = $dbconn->Execute($strParentsSQL);
+	while(!$rsPar->EOF){
+	 $rowPar = $rsPar->GetRowAssoc(false);
+   $profile['parents_available'][] = $rowPar;
+   $rsPar->MoveNext();
+  }
+  
 	/*
 	if ($row["subway_id"]>0){
 		$strSQL = "SELECT name FROM ".SUBWAY_SPR_TABLE." WHERE id='".$row["subway_id"]."' ";
@@ -998,6 +1024,65 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 			$smarty->assign("choise", $choise);
 			$smarty->assign("id_ad", $id_ad);
 			break;	
+   case "step_type":
+			$form["next_link"] = $file_name."?sel=finish_2";
+			$smarty->assign("add_to_lang", "&amp;sel=add_rent");
+			$form["back_link"] = $file_name."?sel=finish";
+
+			$strSQL = "SELECT rent.parent_id, rent_parent.headline FROM ".RENT_ADS_TABLE." rent 
+                 LEFT JOIN ".RENT_ADS_TABLE." rent_parent ON rent.parent_id = rent_parent.id
+                 WHERE rent.id_user='1' AND rent.id='".$id_ad."'";
+			$rs = $dbconn->Execute($strSQL);
+
+			$headline = stripslashes($rs->fields[1]);
+      $parent_id = stripslashes($rs->fields[0]);
+      
+      
+      $strSQL = "	SELECT 	a.id, a.id_user, a.type, DATE_FORMAT(a.movedate, '".$config["date_format"]."' ) as movedate,
+				a.people_count, a.comment, a.sold_leased_status, a.headline, a.date_unactive, 
+				a.with_photo, a.with_video,
+				urlt.zip_code, urlt.street_1, urlt.street_2, urlt.adress,
+				count.name as country_name, reg.name as region_name, cit.name as city_name, ut.login, ut.user_type, 
+				hlt.id_friend, blt.id_enemy, tsat.type as topsearched,
+				tsat.date_begin as topsearch_date_begin, tsat.date_end as topsearch_date_end,
+				a.status, sp.status as spstatus, ft.id as featured,
+        count.id as count_id, cit.id as cit_id, reg.id as reg_id
+				FROM ".RENT_ADS_TABLE." a
+				LEFT JOIN ".USERS_RENT_LOCATION_TABLE." urlt ON a.id=urlt.id_ad
+				LEFT JOIN ".COUNTRY_TABLE." count ON count.id=urlt.id_country
+				LEFT JOIN ".REGION_TABLE." reg ON reg.id=urlt.id_region
+				LEFT JOIN ".CITY_TABLE." cit ON cit.id=urlt.id_city
+				LEFT JOIN ".USERS_TABLE." ut ON ut.id=a.id_user
+				LEFT JOIN ".HOTLIST_TABLE." hlt on a.id_user=hlt.id_friend and hlt.id_user='1'
+				LEFT JOIN ".BLACKLIST_TABLE." blt on a.id_user=blt.id_enemy and blt.id_user='1'
+				LEFT JOIN ".TOP_SEARCH_ADS_TABLE." tsat ON tsat.id_ad=a.id AND tsat.type='1'
+				LEFT JOIN ".FEATURED_TABLE." ft ON ft.id_ad=a.id
+				LEFT JOIN ".SPONSORS_ADS_TABLE." sp ON sp.id_ad=a.id 
+				WHERE a.id='".$id_ad."' ";
+    	$rs = $dbconn->Execute($strSQL);
+    	$row = $rs->GetRowAssoc(false);
+      
+      $strParentsSQL = "SELECT 	a.id, a.headline
+				      FROM ".RENT_ADS_TABLE." a, ".USERS_RENT_LOCATION_TABLE." urlt, ".COUNTRY_TABLE." count,
+                   ".REGION_TABLE." reg, ".CITY_TABLE." cit, ".USERS_TABLE." ut
+              WHERE a.id=urlt.id_ad AND urlt.id_country = count.id AND urlt.id_region = reg.id AND urlt.id_city = cit.id
+              AND count.id=" . $row['count_id'] . " AND reg.id=" . $row['reg_id'] . " AND a.id_user = ut.id
+              AND cit.id=" . $row['cit_id'] . " AND ut.id=" . $row['id_user'] . " AND a.parent_id = 0
+              AND a.id != " . $row['id'];
+    	$rsPar = $dbconn->Execute($strParentsSQL);
+      $parents_available = array();
+    	while(!$rsPar->EOF){
+    	 $rowPar = $rsPar->GetRowAssoc(false);
+       $parents_available[] = $rowPar;
+       $rsPar->MoveNext();
+      }
+      
+			$smarty->assign("headline", $headline);
+      $smarty->assign("parent_id", $parent_id);
+      $smarty->assign("parents_available", $parents_available);
+			$smarty->assign("choise", $choise);
+			$smarty->assign("id_ad", $id_ad);
+			break;	
 
 		case "upload_video":
 
@@ -1561,6 +1646,16 @@ function SaveProfile($par){
 		case "finish":
 			$headline = strip_tags($_POST["headline"]);
 			$strSQL = "UPDATE ".RENT_ADS_TABLE." set headline='".addslashes($headline)."' WHERE id='".$id_ad."' ";
+			$dbconn->Execute($strSQL);
+			$err = "completed";
+		break;
+    case "finish_2":
+			if ($_POST['offer_type'] == 'parent') {
+			 $parent_id = 0;
+			} else {
+			 $parent_id = $_POST['parent_id'];
+			}
+			$strSQL = "UPDATE ".RENT_ADS_TABLE." set parent_id='".intval($parent_id)."' WHERE id='".$id_ad."' ";
 			$dbconn->Execute($strSQL);
 			$err = "completed";
 		break;

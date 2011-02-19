@@ -24,7 +24,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 		<table cellpadding="0" cellspacing="0" border="0" width="100%">
 			<tr valign="top">
 				<td class="section_title"><b>{$lang.content.rental_ad_edit}&nbsp;|&nbsp;				
-				{$lang.content.have_room_big}			
+				{$lang.content.category_realty_big}			
 				</b></td>
 			</tr>
 			<tr valign="top">
