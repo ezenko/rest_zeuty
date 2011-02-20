@@ -324,7 +324,7 @@ function MyAd ($id_ad='', $par='') {
 		$profile["city_name"] = $row["city_name"];
 	}
 
-	$used_references = array("info", "gender", "people", "language", "period", "realty_type", "description");
+	$used_references = array("info", "gender", "people", "language", "period", "realty_type", "description", "theme_rest");
 	foreach ($REFERENCES as $arr) {
 		if (in_array($arr["key"], $used_references)) {
 
@@ -728,7 +728,7 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 			//переменная для DefaultFieldName (работа со склонениями)
 			$lang_add = ($choise == 1 || $choise == 3) ? "2" : "";
 
-			$used_references = array("info", "period", "realty_type", "description");
+			$used_references = array("info", "period", "realty_type", "description", "theme_rest");
 			foreach ($REFERENCES as $arr) {
 				if (in_array($arr["key"], $used_references)) {
 					$spr_order = ($arr["key"] == "description") ? "id" : "name";
@@ -1399,6 +1399,7 @@ function SaveProfile($par){
 							subway_min='".intval($_REQUEST["subway_min"])."',
 							min_year_build='".intval($_REQUEST["min_year_build"])."',
 							max_year_build='".intval($_REQUEST["max_year_build"])."'
+              furniture='".mysql_real_escape_string($_REQUEST["furniture"])."'
 							WHERE id_ad='".$id_ad."' AND id_user='1' ";
 				$dbconn->Execute($strSQL);
 				$strSQL = "UPDATE ".RENT_ADS_TABLE." SET
@@ -1428,12 +1429,12 @@ function SaveProfile($par){
 							WHERE id_ad='".$id_ad."' AND id_user='1' ";
 				$dbconn->Execute($strSQL);
 			}
-			$used_references = array("info", "period", "realty_type", "description");
+			$used_references = array("info", "period", "realty_type", "description", "theme_rest");
 			
 			foreach ($REFERENCES as $arr) {
 				if (in_array($arr["key"], $used_references)) {
 					$tmp_info = (isset($_REQUEST[$arr["key"]]) && !empty($_REQUEST[$arr["key"]])) ? $_REQUEST[$arr["key"]] : array();
-					$tmp_spr = (isset($_REQUEST["spr_".$arr["key"]])) ? $_REQUEST["spr_".$arr["key"]] : "";				
+					$tmp_spr = (isset($_REQUEST["spr_".$arr["key"]])) ? $_REQUEST["spr_".$arr["key"]] : "";	
 					if(isset($tmp_info) && is_array($tmp_spr)){
 						SprTableEditAdmin($arr["spr_user_table"], $id_ad, $tmp_spr, $tmp_info);
 					}

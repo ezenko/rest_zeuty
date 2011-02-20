@@ -261,4 +261,5 @@
   <lines name="type_not_set" descr=""><![CDATA[Не указано]]></lines>
   <lines name="parent" descr=""><![CDATA[Родитель]]></lines>
   <lines name="parent_choose" descr=""><![CDATA[Выберите родителя]]></lines>
+  <lines name="furniture" descr=""><![CDATA[Мебель]]></lines>
 </data>
