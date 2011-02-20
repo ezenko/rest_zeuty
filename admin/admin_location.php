@@ -20,6 +20,8 @@ if ( (!isset($_GET["sel"])) || (!isset($_GET["sec"])) ) exit;
 
 $sec = $_GET["sec"];
 $sel = $_GET["sel"];
+$add_select = !isset($_GET['no_sel']);
+
 $lang["default_select"] = GetLangContent("default_select");
 switch($sec){
 	case "hp":
@@ -83,7 +85,8 @@ switch($sel){
 		echo "</select>";
 		break;
 	case "region":
-		echo "<select name=\"".$select_region_name."\" ".$select_style." onchange=\"javascript: SelectCity('".$sec."', this.value, document.getElementById('city_div'),'".$lang["default_select"][$sec."_load_city"]."' );\">";
+        if($add_select)
+		  echo "<select name=\"".$select_region_name."\" ".$select_style." onchange=\"javascript: SelectCity('".$sec."', this.value, document.getElementById('city_div'),'".$lang["default_select"][$sec."_load_city"]."' );\">";
 		echo "<option value=\"\">".$lang["default_select"][$sec."_region"]."</option>";
 		if (isset($_GET["id_country"])){
 			$rs = $dbconn->Execute("SELECT * FROM ".REGION_TABLE." WHERE id_country='".intval($_GET["id_country"])."' ORDER BY name");
@@ -96,10 +99,12 @@ switch($sel){
 				$rs->MoveNext();
 			}
 		}
-		echo "</select>";
+        if($add_select)
+		  echo "</select>";
 		break;
 	case "city":
-		echo "<select name=\"".$select_city_name."\" ".$select_style.">";
+        if($add_select)
+		  echo "<select name=\"".$select_city_name."\" ".$select_style.">";
 		echo "<option value=\"0\">".$lang["default_select"][$sec."_city"]."</option>";
 		if (isset($_GET["id_region"])){
 			$rs = $dbconn->Execute("SELECT * FROM ".CITY_TABLE." WHERE id_region='".intval($_GET["id_region"])."' ORDER BY name");
@@ -112,7 +117,8 @@ switch($sel){
 				$rs->MoveNext();
 			}
 		}
-		echo "</select>";
+        if($add_select)
+		  echo "</select>";
 		break;
 	case "login":
 		$login = ($_GET["login"]);

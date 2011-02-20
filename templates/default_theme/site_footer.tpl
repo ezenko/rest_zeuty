@@ -12,27 +12,11 @@
           </div>
           <div class="scrollable">
             <div class="items-container clearfix">
+              {foreach item=r from=$entertaiments}
               <div class="item">
-                <img alt="" src="img/fake/img1.jpg" />
+                <a href="/entertainment.php?id={$r.id}"><img alt="{$r.caption}" title="{$r.caption}" src="/uploades/entertaiments/{$r.image}" /></a>
               </div>
-              <div class="item">
-                <img alt="" src="img/fake/img1.jpg" />
-              </div>
-              <div class="item">
-                <img alt="" src="img/fake/img1.jpg" />
-              </div>
-              <div class="item">
-                <img alt="" src="img/fake/img1.jpg" />
-              </div>
-              <div class="item">
-                <img alt="" src="img/fake/img1.jpg" />
-              </div>
-              <div class="item">
-                <img alt="" src="img/fake/img1.jpg" />
-              </div>
-              <div class="item">
-                <img alt="" src="img/fake/img1.jpg" />
-              </div>
+              {/foreach}
             </div>
           </div>
         </div>

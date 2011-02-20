@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+<lines name="help" descr=""><![CDATA[
+Здесь редактируются развлечения.<br>
+Можно что нить написать еще.
+]]></lines>
+<lines name="add_section" descr=""><![CDATA[Добавить развлечение]]></lines>
+<lines name="caption" descr=""><![CDATA[Название развлечения]]></lines>
+<lines name="position_number" descr=""><![CDATA[Позиция]]></lines>
+<lines name="publish_title" descr=""><![CDATA[Опубликовать]]></lines>
+<lines name="bottom_menu" descr=""><![CDATA[Развлечения]]></lines>				
+<lines name="move" descr=""><![CDATA[Перенести]]></lines>
+<lines name="delete" descr=""><![CDATA[Удалить]]></lines>
+<lines name="image" descr=""><![CDATA[Картинка]]></lines>
+<lines name="copy_to_langs" descr=""><![CDATA[Копировать в другие языки]]></lines>	
+<lines name="move_up" descr=""><![CDATA[На уровень выше]]></lines>				
+<lines name="move_down" descr=""><![CDATA[На уровень ниже]]></lines>
+<lines name="del_section_confirm" descr=""><![CDATA[Вы уверены, что хотите удалить развлечение]]></lines>
+<lines name="preview" descr=""><![CDATA[Просмотр главной страницы]]></lines>
+<lines name="preview_index" descr=""><![CDATA[До регистрации]]></lines>
+<lines name="preview_homepage" descr=""><![CDATA[После регистрации (Мой RealEstate)]]></lines>
+<lines name="metatags" descr=""><![CDATA[Метатеги]]></lines>
+<lines name="description" descr=""><![CDATA[Описание]]></lines>
+<lines name="keywords" descr=""><![CDATA[Ключевые слова]]></lines>
+<lines name="category" descr=""><![CDATA[Тип развлечения]]></lines>
+<lines name="country" descr=""><![CDATA[Страна]]></lines>
+	<lines name="region" descr=""><![CDATA[Регион]]></lines>
+	<lines name="city" descr=""><![CDATA[Город]]></lines>
+	<lines name="ip_country" descr=""><![CDATA[Выберите страну...]]></lines>
+	<lines name="ip_region" descr=""><![CDATA[Выберите регион...]]></lines>
+	<lines name="ip_load_region" descr=""><![CDATA[Загрузка регионов...]]></lines>
+	<lines name="ip_city" descr=""><![CDATA[Выберите город...]]></lines>
+	<lines name="ip_load_city" descr=""><![CDATA[Загрузка городов...]]></lines>
+</data>

@@ -86,41 +86,43 @@ function XMLMenu( $root ) {
 
 	$menu = array();
 	$cnt = 0;
-	foreach ( $root->children as $node ) {
-		switch($node->tag) {
-			case "item":
-				$menu[$cnt] = array();
-				$menu[$cnt]["name"] = $node->attrs["name"];
-				$menu[$cnt]["value"] = $node->value;
-				if (!empty($node->attrs["href"])) {
-					$menu[$cnt]["href"] = $config["site_root"].$node->attrs["href"];
-				}
-				if (!empty($node->attrs["onclick"])) {
-					$menu[$cnt]["onclick"] = str_replace("[href]",$menu[$cnt]["href"],$node->attrs["onclick"]);
-					//$menu[$cnt]["href"] = "#";
-				}
-				if (!empty($node->attrs["id_lang"])) {
-					$menu[$cnt]["id_lang"] = $node->attrs["id_lang"];
-				}
-				if (!empty($node->attrs["all"]) && isset($config["inbox_all"])) {
-					$menu[$cnt]["all"] = str_replace("[all]",$config["inbox_all"], $node->attrs["all"]);
-				}
-				if (!empty($node->attrs["new"]) && isset($config["inbox_new"])) {
-					$menu[$cnt]["new"] = str_replace("[new]",$config["inbox_new"], $node->attrs["new"]);
-				}
-				if (!empty($node->attrs["id"])) {
-					$menu[$cnt]["id"] = $node->attrs["id"];
-				}
-
-				if (is_array($mode_hide_common_ids) && isset($menu[$cnt]["id"]) && in_array($menu[$cnt]["id"], $mode_hide_common_ids)) {
-					//if this item of menu is hided - depend on site mode
-					unset($menu[$cnt]);
-				} else {
-					$cnt++;
-				}
-				break;
-		}
-	}
+    if(count($root->children)) {
+    	foreach ( $root->children as $node ) {
+    		switch($node->tag) {
+    			case "item":
+    				$menu[$cnt] = array();
+    				$menu[$cnt]["name"] = $node->attrs["name"];
+    				$menu[$cnt]["value"] = $node->value;
+    				if (!empty($node->attrs["href"])) {
+    					$menu[$cnt]["href"] = $config["site_root"].$node->attrs["href"];
+    				}
+    				if (!empty($node->attrs["onclick"])) {
+    					$menu[$cnt]["onclick"] = str_replace("[href]",$menu[$cnt]["href"],$node->attrs["onclick"]);
+    					//$menu[$cnt]["href"] = "#";
+    				}
+    				if (!empty($node->attrs["id_lang"])) {
+    					$menu[$cnt]["id_lang"] = $node->attrs["id_lang"];
+    				}
+    				if (!empty($node->attrs["all"]) && isset($config["inbox_all"])) {
+    					$menu[$cnt]["all"] = str_replace("[all]",$config["inbox_all"], $node->attrs["all"]);
+    				}
+    				if (!empty($node->attrs["new"]) && isset($config["inbox_new"])) {
+    					$menu[$cnt]["new"] = str_replace("[new]",$config["inbox_new"], $node->attrs["new"]);
+    				}
+    				if (!empty($node->attrs["id"])) {
+    					$menu[$cnt]["id"] = $node->attrs["id"];
+    				}
+    
+    				if (is_array($mode_hide_common_ids) && isset($menu[$cnt]["id"]) && in_array($menu[$cnt]["id"], $mode_hide_common_ids)) {
+    					//if this item of menu is hided - depend on site mode
+    					unset($menu[$cnt]);
+    				} else {
+    					$cnt++;
+    				}
+    				break;
+    		}
+    	}
+    }
 	return $menu;
 }
 

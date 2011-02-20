@@ -29,6 +29,7 @@
 	<section name="content_management">		
 		<item name="sections_management" img="/images/menu/icons/area_editor.gif" href="">
 			<subitem name="info_manager" img="/images/menu/icons/terms.gif" href="/admin/admin_info_manager.php" onclick="" />
+            <subitem name="entertaiment" img="/images/menu/icons/content_edit.gif" href="/admin/admin_entertaiment.php" onclick="" />
 			<subitem name="news_feeds" img="/images/menu/icons/rss.gif" href="/admin/admin_news.php" onclick="" />
 			<subitem name="menu_and_content" img="/images/menu/icons/content_edit.gif" href="/admin/admin_settings.php?section=langeditfile" onclick="" />
 			<subitem name="site_languages" img="/images/menu/icons/nationalities.gif" href="/admin/admin_settings.php?section=langedit" onclick="" />

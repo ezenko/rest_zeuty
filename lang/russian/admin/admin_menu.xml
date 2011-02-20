@@ -44,6 +44,7 @@
 	<lines name="member_alerts" descr=""><![CDATA[Уведомления пользователя]]></lines>
 	<lines name="show_ads_area" descr=""><![CDATA[Порядок показа объявлений]]></lines>
 	<lines name="info_manager" descr=""><![CDATA[Разделы]]></lines>
+    <lines name="entertaiment" descr=""><![CDATA[Развлечения]]></lines>
 	<lines name="server_errors" descr=""><![CDATA[Ошибки сервера]]></lines>
 	<lines name="metatags" descr=""><![CDATA[SEO метатеги страниц]]></lines>
 	<lines name="watermark_settings" descr=""><![CDATA[Настройки watermark]]></lines>

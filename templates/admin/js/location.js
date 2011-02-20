@@ -79,6 +79,29 @@ function SelectRegion2(section, id_country, destination, destination2, text, tex
     }
 }
 
+function SelectRegion3(section, id_country, destination, destination2, text, text2) {
+	InitXMLHttpRequest();
+	if (id_country != '') {
+		if (req) {
+			req.onreadystatechange = function() {
+				if (req.readyState == 4) {
+					destination.innerHTML = req.responseText;
+				} else {
+					destination.innerHTML = "<option>"+text+"</option>";
+				}
+			}
+			req.open("GET", "admin_location.php?sec=" + section + "&sel=region&no_sel=1&id_country=" + id_country, true);
+			req.send(null);
+		} else {
+			destination.innerHTML = 'Browser unable to create XMLHttp Object';
+		}
+	} else {
+		req.open('GET', 'admin_location.php?sec=' + section + '&sel=region&no_sel=1', false);
+	    req.send(null);
+    	destination.innerHTML = req.responseText;
+	}
+    destination2.innerHTML = "<option>"+text2+"</option>";
+}
 
 function SelectCity(section, id_region, destination, text){
 	InitXMLHttpRequest();
@@ -132,6 +155,32 @@ function SelectCity2(section, id_region, destination, text, destination2){
     }
     if ((section == 'rnte') || (section == 'rmte')){
     	destination2.innerHTML = "";
+    }
+}
+
+function SelectCity3(section, id_region, destination, text){
+	InitXMLHttpRequest();
+    if (id_region != '') {
+		// Load the result from the response page
+	    if (req){
+			req.onreadystatechange = function() {
+				if (req.readyState == 4) {
+					destination.innerHTML = req.responseText;
+				} else {
+					destination.innerHTML = "<option>"+text+"</option>";
+				}
+			}
+	       req.open('GET', 'admin_location.php?sec=' + section + '&sel=city&no_sel=1&id_region=' + id_region, true);
+	       req.send(null);
+	    }
+	    else{
+	       destination.innerHTML = 'Browser unable to create XMLHttp Object';
+	    }
+    }
+    else {
+    	req.open('GET', 'admin_location.php?sec=' + section + '&sel=city&no_sel=1', false);
+		req.send(null);
+    	destination.innerHTML = req.responseText;
     }
 }
 

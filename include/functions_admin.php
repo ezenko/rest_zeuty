@@ -356,6 +356,7 @@ function IsFileAllowed($id_user, $file, $lang_type=""){
 	$mod_arr = GetPermissionsUser($id_user);
 
 	$strSQL = "select id from ".MODULE_FILE_TABLE." where file='".$file."' ";
+    
 	$rs = $dbconn->Execute($strSQL);
 	$id_module = $rs->fields[0];
 

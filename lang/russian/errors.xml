@@ -130,6 +130,7 @@
 <lines name="lang_deleted" descr=""><![CDATA[Язык успешно удалён]]></lines>
 <lines name="info_new_caption_range" descr=""><![CDATA[Поле &#145;Заголовок&#145; должно содержать от 3 до 255 символов!]]></lines>
 <lines name="info_new_content_range" descr=""><![CDATA[&#145;Текстовое поле&#145; должно содержать от 10 до 50000 символов!]]></lines>
+<lines name="entertaiment_image" descr=""><![CDATA[Ошибка загрузки изображения]]></lines>
 <lines name="info_successfull_copy" descr=""><![CDATA[Раздел и все его подразделы успешно скопированы в другие языки!]]></lines>
 <lines name="not_font" descr=""><![CDATA[Введены не все параметры шрифта!]]></lines>
 <lines name="not_image" descr=""><![CDATA[Не выбрано изображение!]]></lines>
