@@ -147,47 +147,11 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_6&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
 		</tr>
 		<tr><td colspan="2"><hr class="listing"></td></tr>
-
-		{if $profile.type eq '2'}
-		<tr><td colspan="2"><hr class="listing"></td></tr>
-		<tr>
-			<td>
-				<table cellpadding="3" cellspacing="0">
-					<tr>							
-						<td width="200">	
-						<b>{$lang.content.reserved_yet}:</b>		
-						</td>															
-					</tr>	
-				</table>
- 			</td>
-			<td  align="right" valign="top" width="100" style="padding-right:20px;">
-							<a href="{$file_name}?sel=calendar&amp;id_ad={$profile.id}">{$lang.content.add_event}</a>
-			</td>				
-		</tr>		
-		{foreach from=$profile.reserve_days item=item key=key}
-		<tr>			
-				
-			<td style="padding-left:205px;" valign="middle">
-				<table cellpadding="3" cellspacing="0" border="0">
-				<tr>
-					<td align="left">
-						<b>{$lang.content.reserved_from}</b> &nbsp;{$item.start}&nbsp; <b>{$lang.content.reserved_to}</b> &nbsp;{$item.end}				</td>					
-				</tr>
-				</table>
-			</td>	
-			<td  align="right" valign="middle" width="100" style="padding-right:20px;">
-							<a href="{$file_name}?sel=edit_event&amp;id_ad={$profile.id}&amp;id_event={$item.id}">{$lang.buttons.change}</a>&nbsp;<a href="{$file_name}?sel=delete_event&amp;id_ad={$profile.id}&amp;id_event={$item.id}">{$lang.buttons.delete}</a>
-			</td>		
-		</tr>
-		{/foreach}		
-		
-		{/if}
-		<tr><td colspan="2"><hr class="listing"></td></tr>
 		{if $no_ad ne 1}
 		<tr>
 			<td>
 				<table cellpadding="3" cellspacing="0" border="0" class="table_top">
-				{if ($profile.type eq '2' || $profile.type eq '4')}
+				{if ($profile.type eq '2' || $profile.type eq '4' || $profile.type eq '1')}
 				<!-- have/sell realty -->
 					{if $profile.min_payment>0}
 						<tr>
@@ -289,7 +253,15 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 							</tr>
 						{/section}
 						<!-- /info -->
-
+            <!-- theme rest -->
+						{section name=b loop=$profile.theme_rest}
+							<tr>
+								<td><b>{$profile.theme_rest[b].name}:&nbsp;</b></td>
+								<td>{section name=c loop=$profile.theme_rest[b].fields}{$profile.theme_rest[b].fields[c]}{if !$smarty.section.c.last},&nbsp;{/if}{/section}
+								</td>
+							</tr>
+						{/section}
+						<!-- /theme rest -->
 					{else}
 						<tr>
 							<td height="15" width="200"><b>{$lang.content.ad_text_1}:</b>&nbsp;</td>
@@ -445,7 +417,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 		<tr><td colspan="2"><hr class="listing"></td></tr>
 	{/if}
 		
-		{if $profile.type eq 2 || $profile.type eq 4}
+		{if $profile.type eq 1 || $profile.type eq 2 || $profile.type eq 4}
 		{if $no_ad ne 1}
 		<tr>
 			<td>
@@ -497,7 +469,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 					</td></tr>
 				</table>
 			</td>
-			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a {if ($profile.type eq 2 || $profile.type eq 4)} href="{$file_name}?sel=step_4&amp;id_ad={$profile.id}" {else} href="{$file_name}?sel=step_5&amp;id_ad={$profile.id}" {/if}>{$lang.buttons.change}</a></td>
+			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a {if ($profile.type eq 1 || $profile.type eq 2 || $profile.type eq 4)} href="{$file_name}?sel=step_4&amp;id_ad={$profile.id}" {else} href="{$file_name}?sel=step_5&amp;id_ad={$profile.id}" {/if}>{$lang.buttons.change}</a></td>
 		</tr>
 		{else}
 		<tr>
@@ -515,7 +487,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 		<tr><td colspan="2"><hr class="listing"></td></tr>
 		{/if}	
 		<!-- video -->
-		{if $profile.type eq 2 || $profile.type eq 4}
+		{if $profile.type eq 1 || $profile.type eq 2 || $profile.type eq 4}
 		<tr>
 			<td>
 				<table cellpadding="3" cellspacing="0" border="0" class="table_top">

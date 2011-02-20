@@ -342,6 +342,7 @@ function MyAd ($id_ad='', $par='') {
 			}
 		}
 	}
+
 	/**
 	 * account info
 	 */
@@ -502,7 +503,7 @@ function MyAd ($id_ad='', $par='') {
 		$profile["plan_thumb_file"][$j] = $profile["plan_file"][$j];
 	}
 	$settings_price = GetSiteSettings(array('cur_position', 'cur_format'));
-	if ($profile["type"] == "1" || $profile["type"] == "3") {
+	if ($profile["type"] == "3") {
 
 		$strSQL_payment = " SELECT min_payment, max_payment, auction, min_deposit, max_deposit,
 							min_live_square, max_live_square, min_total_square, max_total_square,
@@ -535,14 +536,15 @@ function MyAd ($id_ad='', $par='') {
 		$profile["min_year_build"] = $row_payment["min_year_build"];
 		$profile["max_year_build"] = $row_payment["max_year_build"];
 
-	} elseif ($profile["type"] == "2" || $profile["type"] == "4") {
+	} elseif ($profile["type"] == "1" || $profile["type"] == "2" || $profile["type"] == "4") {
 		/**
 		 * храним фиксированные значения для объявлений типа сдам в аренду, продам
 		 * в min_<field_name>
 		 */
-		$strSQL_payment = "	SELECT min_payment, auction, min_deposit,
+		$strSQL_payment = "SELECT min_payment, auction, min_deposit,
 							min_live_square, min_total_square,
-							min_land_square, min_floor, floor_num, subway_min, min_year_build
+							min_land_square, min_floor, floor_num, subway_min, min_year_build,
+              furniture
 							FROM ".USERS_RENT_PAYS_TABLE."
 							WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
 		$rs_payment = $dbconn->Execute($strSQL_payment);
@@ -561,6 +563,7 @@ function MyAd ($id_ad='', $par='') {
 		$profile["floor_num"] = $row_payment["floor_num"];
 		$profile["subway_min"] = $row_payment["subway_min"];
 		$profile["min_year_build"] = $row_payment["min_year_build"];
+    $profile["furniture"] = $row_payment["furniture"];
 	}
 
 	$strSQL_age = "SELECT his_age_1, his_age_2 FROM ".USERS_RENT_AGES_TABLE." WHERE id_user='".$profile["id_user"]."' AND id_ad='".$profile["id"]."' ";
@@ -587,7 +590,6 @@ function MyAd ($id_ad='', $par='') {
 	}
 
 	$smarty->assign("profile", $profile);
-
 	$smarty->assign("file_name", $file_name);
 	$smarty->display(TrimSlash($config["admin_theme_path"])."/admin_rental_ad_display.tpl");
 
@@ -726,7 +728,7 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 			$smarty->assign("add_to_lang", "&amp;sel=add_rent");
 
 			//переменная для DefaultFieldName (работа со склонениями)
-			$lang_add = ($choise == 1 || $choise == 3) ? "2" : "";
+			$lang_add = ($choise == 3) ? "2" : "";
 
 			$used_references = array("info", "period", "realty_type", "description", "theme_rest");
 			foreach ($REFERENCES as $arr) {
@@ -735,7 +737,7 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 					$smarty->assign($arr["key"], GetReferenceArray($arr["spr_table"], $arr["val_table"], $arr["key"], $data, $lang_add, $spr_order));
 				}
 			}
-
+    
 			if ($data["move_day"]>0){
 				$day = $data["move_day"];
 				$month = $data["move_month"];
@@ -762,7 +764,7 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 			$smarty->assign("add_to_lang", "&amp;sel=add_rent");
 			$form["back_link"] = $file_name."?sel=step_3";
 
-			if ($choise=="2" || $choise=="4") {
+			if ($choise=="1" || $choise=="2" || $choise=="4") {
 				$settings = GetSiteSettings(array('use_image_resize','photo_max_size','photo_max_width','photo_max_height','photo_max_user_count','default_photo','photo_folder', 'use_photo_approve'));
 
 				if ($settings["use_image_resize"]){
@@ -834,7 +836,7 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 			$form["next_link"] = $file_name."?sel=6";
 			$smarty->assign("add_to_lang", "&amp;sel=add_rent");
 			$form["back_link"] = $file_name."?sel=step_4";
-			if ($choise=="1" || $choise=="3"){
+			if ($choise=="3"){
 				$settings = GetSiteSettings(array('use_image_resize','photo_max_size','photo_max_width','photo_max_height','photo_max_user_count','default_photo','photo_folder', 'use_photo_approve'));
 
 				if ($settings["use_image_resize"]){
@@ -895,7 +897,7 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 				$smarty->assign("upload", $upload);
 				$smarty->assign("upload_count", sizeof($upload));
 				$smarty->assign("data", $data);
-			} elseif ($choise=="2" || $choise=="4"){
+			} elseif ($choise=="1" || $choise=="2" || $choise=="4"){
 				$data = $_SESSION["step_5"];
 				$max_age = GetSiteSettings('max_age_limit');
 				$min_age = GetSiteSettings('min_age_limit');
@@ -1380,7 +1382,7 @@ function SaveProfile($par){
 				exit;
 			}*/
 			//i need/buy realty
-			if ($_POST["choise"]=="1" || $_POST["choise"]=="3") {
+			if ($_POST["choise"]=="3") {
 				$strSQL = "	UPDATE ".USERS_RENT_PAYS_TABLE." SET
 							min_payment='".intval($_REQUEST["min_payment"])."',
 							max_payment='".intval($_REQUEST["max_payment"])."',
@@ -1398,7 +1400,7 @@ function SaveProfile($par){
 							floor_num='".intval($_REQUEST["floor_num"])."',
 							subway_min='".intval($_REQUEST["subway_min"])."',
 							min_year_build='".intval($_REQUEST["min_year_build"])."',
-							max_year_build='".intval($_REQUEST["max_year_build"])."'
+							max_year_build='".intval($_REQUEST["max_year_build"])."',
               furniture='".mysql_real_escape_string($_REQUEST["furniture"])."'
 							WHERE id_ad='".$id_ad."' AND id_user='1' ";
 				$dbconn->Execute($strSQL);
@@ -1407,7 +1409,7 @@ function SaveProfile($par){
 						   with_video='".(($_REQUEST["with_video"] == "on") ? 1 : 0)."'
 						   WHERE id_user='1' AND id='".$id_ad."' ";
 				$dbconn->Execute($strSQL);
-			} elseif ($_POST["choise"]=="2" || $_POST["choise"]=="4") {
+			} elseif ($_POST["choise"]=="1" || $_POST["choise"]=="2" || $_POST["choise"]=="4") {
 				//i have/sell realty
 				$min_payment = intval($_REQUEST["min_payment"]);
 				if (!$min_payment) {
@@ -1415,6 +1417,7 @@ function SaveProfile($par){
 					EditProfile("step_3", "empty_fields");
 					exit;
 				}
+
 				$strSQL = "	UPDATE ".USERS_RENT_PAYS_TABLE." SET
 							min_payment='".intval($_REQUEST["min_payment"])."',
 							auction='".intval($_REQUEST["auction"])."',
@@ -1425,7 +1428,8 @@ function SaveProfile($par){
 							min_floor='".intval($_REQUEST["min_floor"])."',
 							floor_num='".intval($_REQUEST["floor_num"])."',
 							subway_min='".intval($_REQUEST["subway_min"])."',
-							min_year_build='".intval($_REQUEST["min_year_build"])."'
+							min_year_build='".intval($_REQUEST["min_year_build"])."',
+              furniture='".mysql_real_escape_string($_REQUEST["furniture"])."'
 							WHERE id_ad='".$id_ad."' AND id_user='1' ";
 				$dbconn->Execute($strSQL);
 			}
@@ -1435,6 +1439,7 @@ function SaveProfile($par){
 				if (in_array($arr["key"], $used_references)) {
 					$tmp_info = (isset($_REQUEST[$arr["key"]]) && !empty($_REQUEST[$arr["key"]])) ? $_REQUEST[$arr["key"]] : array();
 					$tmp_spr = (isset($_REQUEST["spr_".$arr["key"]])) ? $_REQUEST["spr_".$arr["key"]] : "";	
+          
 					if(isset($tmp_info) && is_array($tmp_spr)){
 						SprTableEditAdmin($arr["spr_user_table"], $id_ad, $tmp_spr, $tmp_info);
 					}
@@ -1732,7 +1737,7 @@ function JsUpload(){
 	if(intval($upload_count) >= intval($limit)){
 		$err = "cant_upload";
 		
-	}else{
+	} else {
 		switch ($upload_type){
 			case "f":
 			case "plan":
@@ -1743,8 +1748,7 @@ function JsUpload(){
 			case "v":
 				$err = SaveUploadForm($upload, 0, $upload_comment, 'v', $id_ad, 1);
 				break;	
-		}
-		
+		}		
 	}
 	
 	if ($err == "file_upload_without_approve" || $err == "file_upload"){		
@@ -1753,7 +1757,6 @@ function JsUpload(){
 		echo $lang["errors"][$err];
 	}
 }
-
 function UploadPlan($back){
 	global $smarty, $config, $dbconn, $auth;
 
@@ -2160,7 +2163,7 @@ function UserAd($par=''){
 		$ad["movedate"] = mktime(0,0,0, date("m"), date("d")+1, date("Y"));
 	}
 
-	$used_references = array("info", "period", "realty_type", "description");
+	$used_references = array("info", "period", "realty_type", "description", "theme_rest");
 	foreach ($REFERENCES as $arr) {
 		if (in_array($arr["key"], $used_references)) {
 			$data_1[$arr["key"]] = SprTableSelectAdmin($arr["spr_user_table"], $id_ad, 1, $arr["spr_table"]);
@@ -2175,7 +2178,7 @@ function UserAd($par=''){
 		}
 	}
 
-	if ($ad["type"] == "1" || $ad["type"] == "3") {
+	if ($ad["type"] == "3") {
 		$strSQL = "SELECT id_country, id_region, id_city, zip_code, street_1, street_2, adress FROM ".USERS_RENT_LOCATION_TABLE." WHERE id_user='1' AND id_ad='".$id_ad."' ";
 		$rs = $dbconn->Execute($strSQL);
 		$row = $rs->GetRowAssoc(false);
@@ -2229,7 +2232,7 @@ function UserAd($par=''){
 		$data_2["total_people"] = $ad["people_count"];
 
 		$_SESSION["step_4"] = $data_2;
-	} elseif ($ad["type"] == "2" || $ad["type"] == "4") {
+	} elseif ($ad["type"] == "1" || $ad["type"] == "2" || $ad["type"] == "4") {
 		$strSQL = "SELECT id_country, id_region, id_city, zip_code, street_1, street_2, adress FROM ".USERS_RENT_LOCATION_TABLE." WHERE id_user='1' AND id_ad='".$id_ad."' ";
 		$rs = $dbconn->Execute($strSQL);
 		$row = $rs->GetRowAssoc(false);
@@ -2250,7 +2253,7 @@ function UserAd($par=''){
 
 		$strSQL = "	SELECT min_payment, auction, min_deposit,
 					min_live_square, min_total_square,
-					min_land_square, min_floor, floor_num, subway_min, min_year_build
+					min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture
 					FROM ".USERS_RENT_PAYS_TABLE."
 					WHERE id_ad='".$id_ad."' AND id_user='1'";
 		$rs = $dbconn->Execute($strSQL);
@@ -2266,6 +2269,7 @@ function UserAd($par=''){
 		$data_1["floor_num"] = $row["floor_num"];
 		$data_1["subway_min"] = $row["subway_min"];
 		$data_1["min_year_build"] = $row["min_year_build"];
+    $data_1["furniture"] = $row["furniture"];
 
 		$_SESSION["from_edit"] = 1;
 		$_SESSION["step_3"] = $data_1;

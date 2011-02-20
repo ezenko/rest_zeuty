@@ -1512,7 +1512,6 @@ function GetReferenceArray($spr_table, $value_table, $area, $data='', $lang_add=
 						LEFT JOIN ".REFERENCE_LANG_TABLE." b on b.table_key='".$_val."' and b.id_reference=a.id
 						WHERE a.id_spr='".$rs->fields[0]."'
 						ORDER BY $order_by";
-
 		$rs_opt = $dbconn->Execute($strSQL_opt);
 		$j = 0;
 		while(!$rs_opt ->EOF){
@@ -1546,12 +1545,14 @@ function SprTableEditAdmin($table, $id_ad, $spr, $values){
 	global $dbconn, $user;
 
 	$dbconn->Execute("DELETE FROM ".$table." WHERE id_ad='".$id_ad."'");
+  $keys = array_keys($values);  
 	for($i=0; $i<count($spr); $i++){
-		if (isset($values[$i])){
-			for($j=0; $j<count($values[$i]); $j++){
-				if ($values[$i][$j]>0) {
+
+		if (isset($values[$keys[$i]])){
+			for($j=0; $j<count($values[$keys[$i]]); $j++){
+				if ($values[$keys[$i]][$j]>0) {
 					$dbconn->Execute("	INSERT INTO ".$table." (id_ad, id_user, id_spr, id_value)
-										VALUES ('".$id_ad."', '1', '".$spr[$i]."', '".$values[$i][$j]."')");
+										VALUES ('".$id_ad."', '1', '".$spr[$keys[$i]]."', '".$values[$keys[$i]][$j]."')");
 				}
 			}
 		}

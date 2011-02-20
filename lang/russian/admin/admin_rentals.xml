@@ -256,8 +256,8 @@
 	<lines name="saved" descr=""><![CDATA[Сохранено]]></lines>
   <lines name="general_info" descr=""><![CDATA[Общая информация]]></lines>  		
   <lines name="offer_type" descr=""><![CDATA[Тип предложения]]></lines>
-  <lines name="type_parent" descr=""><![CDATA[Родительская карточка (гостиница, пансионат)]]></lines>
-  <lines name="type_child" descr=""><![CDATA[Дочерняя карточка (номер, комната)]]></lines>
+  <lines name="type_parent" descr=""><![CDATA[Родительская карточка (гостиница, пансионат, тур)]]></lines>
+  <lines name="type_child" descr=""><![CDATA[Дочерняя карточка (номер, комната, точка маршрута)]]></lines>
   <lines name="type_not_set" descr=""><![CDATA[Не указано]]></lines>
   <lines name="parent" descr=""><![CDATA[Родитель]]></lines>
   <lines name="parent_choose" descr=""><![CDATA[Выберите родителя]]></lines>

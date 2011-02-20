@@ -48,8 +48,8 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 			 	{$lang.content.rental_ad_edit} 
 			 	{if $choise}&nbsp;|&nbsp;{/if}
 			 	{if $choise eq '1'}{$lang.content.category_wild_big}
-				{elseif $choise eq '2'}{$lang.content.category_realty_big}
-				{elseif $choise eq '3'}{$lang.content.category_tours_big}
+				{elseif $choise eq '3'}{$lang.content.category_realty_big}
+				{elseif $choise eq '2'}{$lang.content.category_tours_big}
 				{elseif $choise eq '4'}{$lang.content.category_active_big}
 				{/if}
 			 {/if}			
@@ -78,7 +78,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 					{strip}
 					{if !$mhi_ad_buy}
 						{if !$choise || $choise==3 || $choise==1 || !$id_ad}
-						<input type="radio" name="choise" value="3" {if $choise==3}checked{/if}>&nbsp;{$lang.content.category_tours}&nbsp;&nbsp;	
+						<input type="radio" name="choise" value="3" {if $choise==3}checked{/if}>&nbsp;{$lang.content.category_realty}&nbsp;&nbsp;	
 						{/if}
 					{/if}
 					{if !$mhi_ad_sell}
@@ -93,7 +93,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 					{/if}
 					{if !$mhi_ad_lease}
 						{if !$choise || $choise==4 || $choise==2  || !$id_ad}
-							<input type="radio" name="choise" value="2" {if $choise==2}checked{/if}>&nbsp;{$lang.content.category_realty}
+							<input type="radio" name="choise" value="2" {if $choise==2}checked{/if}>&nbsp;{$lang.content.category_tours}
 						{/if}
 					{/if}
 					{/strip}
@@ -195,49 +195,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 		<tr>
 			<td>
 			<table cellpadding="5" cellspacing="0" border="0" width="100%">
-			{if ($choise eq '1' || $choise eq '3')}
-			{if $choise eq '1'}
-				<!-- period -->
-				{section name=f loop=$period}
-					{if $period[f].visible_in ne 3}<!--visibility checking-->
-						<tr>
-							<td width="110" valign="top" style="padding-top: 10px;" {if $smarty.section.f.index is not div by 2 && $period[f].des_type ne 2}bgcolor="#eeeff3"{/if}>{$period[f].name}:&nbsp;<input type=hidden name="spr_period[{$period[f].num}]" value="{$period[f].id}"></td>
-							{if $period[f].des_type eq 2}
-							<td align="left">
-								<select id="period{$period[f].num}" name="period[{$period[f].num}][]"  style="width:150px" {if $period[f].type eq 2}multiple{/if}>
-								<option value="" {if !$item.sel} selected {/if} >{$lang.content.no_answer}</option>
-								{foreach item=item from=$period[f].opt}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.name}</option>{/foreach}
-								</select>
-							</td>
-							{else}
-							<td align="left" {if $smarty.section.f.index is not div by 2}bgcolor="#eeeff3"{/if}>
-								<table cellpadding="2" cellspacing="0" border="0">
-								{section name=s loop=$period[f].opt}
-								{if $smarty.section.s.index is div by 4}<tr>{/if}
-								<td width="15" height="30"><input type="checkbox" name="period[{$period[f].num}][]" value="{$period[f].opt[s].value}"  {if $period[f].opt[s].sel} checked {/if}></td>
-								<td width="130">{$period[f].opt[s].name}</td>
-								{if $smarty.section.s.index_next is div by 4 || $smarty.section.s.last}</tr>{/if}
-								{/section}
-								</table>
-							</td>
-							{/if}
-						</tr>
-						{if $period[f].des_type ne 2}
-						<tr {if $smarty.section.f.index is not div by 2}bgcolor="#eeeff3"{/if}>
-							<td colspan="2" style="padding-left: 5px;">
-								<table cellpadding="0" cellspacing="0">
-								<tr>
-									<td><span class="blue_link" onclick="javascript: SelAll('period',{$smarty.section.f.index}, 'step_3');">{$lang.content.sel_all_text}</span></td>
-									<td style="padding-left: 5px;"><span class="blue_link" onclick="UnSelAll('period',{$smarty.section.f.index}, 'step_3');">{$lang.content.unsel_all_text}</span></td>
-								</tr>
-								</table>
-							</td>
-						</tr>
-						{/if}
-					{/if}
-				{/section}
-				<!-- /period -->
-			{/if}
+			{if ($choise eq '3')}
 			<!-- deposit -->
 			<tr>
 				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.deposit}:</td>
@@ -698,9 +656,9 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 			<!-- /info -->
       <!-- theme_rest -->
 			{section name=f loop=$theme_rest}
-				{if $theme_rest[f].visible_in eq 3}<!--visibility checking-->
+				{if $theme_rest[f].visible_in eq $choise}<!--visibility checking-->
 					<tr>
-						<td width="110" valign="top" style="padding-top: 10px;" {if $smarty.section.f.index is not div by 2 && $theme_rest[f].des_type ne 2}bgcolor="#eeeff3"{/if}>{$theme_rest[f].name}:&nbsp;<input type=hidden name="spr_info[{$theme_rest[f].num}]" value="{$theme_rest[f].id}"></td>
+						<td width="110" valign="top" style="padding-top: 10px;" {if $smarty.section.f.index is not div by 2 && $theme_rest[f].des_type ne 2}bgcolor="#eeeff3"{/if}>{$theme_rest[f].name}:&nbsp;<input type=hidden name="spr_theme_rest[{$theme_rest[f].num}]" value="{$theme_rest[f].id}"></td>
 						{if $theme_rest[f].des_type eq 2}
 						<td align="left">
 							<select id="info{$theme_rest[f].num}" name="theme_rest[{$theme_rest[f].num}][]"  style="width:150px" {if $theme_rest[f].type eq 2}multiple{/if}>
@@ -767,7 +725,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 		<tr>
 			<td>
 			<table cellpadding="5" cellspacing="0" border="0" width="100%">
-				{if ($choise eq '2' || $choise eq '4')}
+				{if ($choise eq '1' || $choise eq '2' || $choise eq '4')}
 					<tr>
 						<td colspan="2">{$lang.content.photo_word}</td>
 					</tr>
@@ -1231,7 +1189,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 </TD></TR>
 {elseif $form.sel eq 'step_8'}
 <TR><TD>
-	<!--//STEP 6-->
+	<!--//STEP 8-->
 	<form method="POST" name="step_8" id="step_8" action="">
 	<input name="choise" type="hidden" value="{$choise}">
 	<input name="id_ad" type="hidden" value="{$id_ad}">
@@ -1263,7 +1221,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 </TD></TR>
 {elseif $form.sel eq 'step_type'}
 <TR><TD>
-	<!--//STEP 6-->
+	<!--//STEP type-->
 	<form method="POST" name="step_type" id="step_type" action="">
 	<input name="choise" type="hidden" value="{$choise}">
 	<input name="id_ad" type="hidden" value="{$id_ad}">
@@ -1542,14 +1500,14 @@ function CheckStep(step) {
 		 **/
 
 		choise = document.getElementById("choise").value;
-		if (choise == 1 || choise == 3) {
+		if (choise == 3) {
 			if (CheckRangeIntegerFields(step) != true) {
 				err_cnt++;
 			}
 			if (CheckIntegerFields(step, choise) != true) {
 				err_cnt++;
 			}
-		} else if (choise == 2 || choise == 4) {
+		} else if (choise == 2 || choise == 4 || choise == 1) {
 			if (CheckIntegerFields(step, choise) != true) {
 				err_cnt++;
 			}
@@ -1575,9 +1533,11 @@ function CheckRangeIntegerFields( step ){
 			min_name = "min_" + id_arr[i];
 			max_name = "max_" + id_arr[i];
 			min_value = document.getElementById(min_name).value;
-			max_value = document.getElementById(max_name).value;
-
-
+			if (document.getElementById(max_name) != null) {
+		    max_value = document.getElementById(max_name).value;
+			} else {
+		    max_value = '';
+			}
 			if (id_arr[i] == 'payment') {
 				/* mandatory field */
 				if (min_value.search(reg_expr[id_arr[i]]) ==-1) {
@@ -1635,10 +1595,10 @@ function CheckRangeIntegerFields( step ){
 
 function CheckIntegerFields( step, choise ){
 	if (step == "step_3") {
-		if (choise == 1 || choise == 3) {
+		if (choise == 3) {
 			var id_arr = new Array('floor_num', 'subway_min');
 			var reg_expr = new Array();
-		} else if (choise == 2 || choise == 4) {
+		} else if (choise == 1 || choise == 2 || choise == 4) {
 			var id_arr = new Array('min_payment');
 			var reg_expr = new Array();
 			reg_expr['min_payment'] = '^[1-9]+[0-9]*$';
