@@ -209,3 +209,11 @@ function ShowSubways(section, city_id, destination, text, text2){
 		destination.innerHTML = '';
 	}
 }
+
+function showParents() {
+  document.getElementById('parent_id').style.display = 'block';
+}
+
+function hideParents() {
+  document.getElementById('parent_id').style.display = 'none';  
+}

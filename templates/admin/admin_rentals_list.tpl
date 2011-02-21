@@ -59,10 +59,10 @@
 										<table cellpadding="0" cellspacing="0" border="0">
 											<tr>
 												<td height="23" valign="top">
-													{if $item.type eq 1}{$lang.content.need_room}
-													{elseif $item.type eq 2}{$lang.content.have_room}
-													{elseif $item.type eq 3}{$lang.content.buy_realty}
-													{elseif $item.type eq 4}{$lang.content.sell_realty}
+													{if $item.type eq 1}{$lang.content.category_wild}
+													{elseif $item.type eq 2}{$lang.content.category_realty}
+													{elseif $item.type eq 3}{$lang.content.category_tours}
+													{elseif $item.type eq 4}{$lang.content.category_active}
 													{/if}
 													{$item.realty_type}
 													{if $item.movedate}&nbsp;&nbsp;&nbsp;{$lang.content.move_date}&nbsp;-&nbsp;{$item.movedate}{if $item.type eq 2}&nbsp;<a href='{$site_root}/admin/admin_rentals.php?sel=calendar&id_ad={$item.id}'>{$lang.content.view_by_calendar}</a>{/if}{/if}

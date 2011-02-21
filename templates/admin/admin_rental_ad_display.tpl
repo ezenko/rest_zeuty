@@ -32,68 +32,16 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 		</table>				
 		<hr class="listing">
 		<table cellpadding="0" cellspacing="0" border="0" width="100%">		
-		
 		{if $no_ad ne 1}
 		<tr>
 			<td>
 				<table cellpadding="3" cellspacing="0">
 					<tr>
-						<td height="15" width="200"><b>{$lang.content.ad_in_search}:</b></td>
-						<td>{strip}
-							{if $use_ads_activity_period && ($profile.sold_leased_status != 1)}
-								{if $profile.status eq 1}
-									{$lang.content.active_2}&nbsp;{$profile.date_unactive}
-								{else}
-									{$lang.content.inactive}
-								{/if}															
-							{else}	
-								{if $profile.status eq 1}{$lang.content.active}{else}{$lang.content.inactive}{/if}						
-							{/if}								
-							{if $profile.status eq 1 && (($profile.type eq '2' || $profile.type eq '4') && $use_sold_leased_status)}	
-								{if $profile.sold_leased_status eq 1}						
-									({$lang.content.your_ad_status_yes}&nbsp;					
-									{if $profile.type eq '4'}
-										&quot;{$lang.content.your_ad_status_sold}&quot;
-									{else}
-										&quot;{$lang.content.your_ad_status_leased}&quot;
-									{/if})
-								{/if}											
-							{/if}
-						{/strip}			
-						</td>
-					</tr>					
-				</table>
-			</td>
-			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$server}{$site_root}/admin/admin_rentals.php?sel=listing_position&id_ad={$profile.id}">{$lang.buttons.change}</a></td>
-		</tr>
-		{/if}
-		<tr><td colspan="2"><hr class="listing"></td></tr>
-		<tr>			
-			<td>
-				<table cellpadding="3" cellspacing="0">
-					<tr>
-						<td height="15" width="200"><b>{$lang.content.headline}:</b></td>
-						{if $profile.headline}
-						<td>{$profile.headline}</td>						
-						{else}
-						<td class="error">{$lang.content.noheadline}</td>
-						{/if}						
-					</tr>					
-				</table>
-			</td>
-			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_8&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
-		</tr>
-		<tr><td colspan="2"><hr class="listing"></td></tr>
-		{if $no_ad ne 1}
-		<tr>
-			<td>
-				<table cellpadding="3" cellspacing="0">
-					<tr>
-						<td colspan="2">
-							<b>{if $profile.type eq '1'}{$lang.content.need_room}
-							{elseif $profile.type eq '2'}{$lang.content.have_room}
-							{elseif $profile.type eq '3'}{$lang.content.buy_realty}
-							{elseif $profile.type eq '4'}{$lang.content.sell_realty}
+						<td colspan="2" style="font-size: 14px;">
+							<b>{if $profile.type eq '1'}{$lang.content.category_wild}
+							{elseif $profile.type eq '2'}{$lang.content.category_realty}
+							{elseif $profile.type eq '3'}{$lang.content.category_tours}
+							{elseif $profile.type eq '4'}{$lang.content.category_active}
 							{/if}</b>
 						</td>
 					</tr>
@@ -101,7 +49,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 						<td width="200" height="15"><b>{$lang.content.location}:</b>&nbsp;</td>
 						<td>{$profile.country_name}{if $profile.region_name},&nbsp;&nbsp;{$profile.region_name}{/if}{if $profile.city_name},&nbsp;&nbsp;{$profile.city_name}{/if}</td>
 					</tr>
-					{if ($profile.type eq '2' || $profile.type eq 4)}
+					{if $profile.type eq 2}
 						{if $profile.zip_code}
 						<tr>
 							<td height="15"><b>{$lang.content.zip_code}:&nbsp;</b></td>
@@ -128,6 +76,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 					</tr>
 					{/if}
 				</table>
+        <hr class="listing">
 			</td>
 			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_1&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
 		</tr>
@@ -140,10 +89,65 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 						<td class="error">{$lang.content.no_ad}</td>
 					</tr>
 				</table>
+        <hr class="listing">
  			</td>
 			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=add_rent">{$lang.buttons.change}</a></td>
 		</tr>
 		{/if}
+    <tr><td colspan="2"><hr class="listing"></td></tr>
+		<tr>			
+			<td>
+				<table cellpadding="3" cellspacing="0">
+					<tr>
+						<td height="15" width="200"><b>{$lang.content.offer_type}:</b></td>
+						<td>
+              {if !$profile.parent_id}
+                {$lang.content.type_parent}
+              {/if}
+              {if $profile.parent_id}
+                {$lang.content.type_child}
+                <br />{$lang.content.parent}: {$profile.parent}
+              {/if}
+            </td>						
+					</tr>					
+				</table>
+			</td>
+			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_type&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
+		</tr>
+		<tr><td colspan="2"><hr class="listing"></td></tr>
+		<tr>			
+			<td>
+				<table cellpadding="3" cellspacing="0">
+					<tr>
+						<td height="15" width="200"><b>{$lang.content.headline}:</b></td>
+						{if $profile.headline}
+						  <td>{$profile.headline}</td>						
+						{else}
+						  <td class="error">{$lang.content.noheadline}</td>
+						{/if}						
+					</tr>					
+				</table>
+			</td>
+			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_8&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
+		</tr>
+		<tr><td colspan="2"><hr class="listing"></td></tr>
+    <tr>			
+			<td>
+				<table cellpadding="3" cellspacing="0">
+					<tr>
+						<td height="15" width="200"><b>{$lang.content.general_info}:</b></td>
+						{if $profile.comment}
+						  <td>{$profile.comment}</td>						
+						{else}
+						  <td class="error">{$lang.content.general_info}</td>
+						{/if}						
+					</tr>					
+				</table>
+			</td>
+			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_6&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
+		</tr>
+		<tr><td colspan="2"><hr class="listing"></td></tr>
+
 		{if $profile.type eq '2'}
 		<tr><td colspan="2"><hr class="listing"></td></tr>
 		<tr>
@@ -438,139 +442,9 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 		{/if}
 		<tr><td colspan="2"><hr class="listing"></td></tr>
 		{if $profile.type eq 2 || $profile.type eq 4}
-		{if $no_ad ne 1}
-		<tr>
-			<td>
-				<table cellpadding="3" cellspacing="0" border="0" class="table_top">
-					<tr><td>
-							{if $profile.plan_photo_id}
-							{$lang.content.ad_text_6}:&nbsp;
-							<table cellpadding="3" cellspacing="3" border="0">
-								{section name=ph loop=$profile.plan_photo_id}
-								{if $smarty.section.ph.index is div by 3}<tr>{/if}
-								<td valign="top" width="{$thumb_width+10}">
-									<table cellpadding="0" cellspacing="0" border="0">
-									<tr>
-										<td height="{$thumb_height+10}" width="{$thumb_width+10}" style=" border: 1px solid #cccccc; vertical-align: middle;" align="center">
-											{if $profile.plan_view_link[ph]}<a href="{$profile.plan_file[ph]}" rel="lightbox[profile_plan]" title="{$profile.plan_user_comment[ph]}">{/if}
-											<img src='{$profile.plan_thumb_file[ph]}' style="border: none;" align="absmiddle">
-											{if $profile.photo_view_link[ph]}</a>{/if}
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 2px;">{strip}
-											{if $profile.plan_user_comment[ph]}{$profile.plan_user_comment[ph]}<br>{/if}
-											{if $profile.plan_status[ph]==1}{*{$lang.content.active_file}<br>*}{else}<font class="error_small">- {$lang.content.inactive_file}</font><br>{/if}
-											{if $profile.use_photo_approve}
-												{if $profile.plan_admin_approve[ph] == 0}
-													<font class="error_small">- {$lang.content.admin_approve_not_complete}</font>
-												{elseif $profile.plan_admin_approve[ph] == 1}
-													{*$lang.content.admin_approve_acepted*}
-												{elseif $profile.plan_admin_approve[ph] == 2}
-													<font class="error_small">- {$lang.content.admin_approve_decline}</font>
-												{/if}
-											{/if}
-											{/strip}
-										</td>
-									</tr>
-									</table>
-								</td>
-								{/section}
-								{if $smarty.section.ph.index_next is div by 3 || $smarty.section.ph.last}</tr>{/if}
-							</table>
-							{else}
-							<table cellpadding="0" cellspacing="0">
-							<tr>
-								<td width="200"><b>{$lang.content.ad_text_6}:</b></td>
-								<td style="padding-left: 6px;"><font class="error">{$lang.content.no_photos}</font></td>
-							</tr>
-							</table>
-							{/if}
-					</td></tr>
-				</table>
-			</td>
-			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_7&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
-		</tr>
-		{else}
-		<tr>
-			<td>
-				<table cellpadding="0" cellspacing="0">
-					<tr>
-						<td height="15" width="200"><b>{$lang.content.ad_text_6}:</b>&nbsp;</td>
-						<td class="error">{$lang.content.no_ad}</td>
-					</tr>
-				</table>
- 			</td>
-			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=edit_ad">{$lang.buttons.change}</a></td>
-		</tr>
-		{/if}
 		<tr><td colspan="2"><hr class="listing"></td></tr>
 	{/if}
-		{if $no_ad ne 1}
-			{if !($profile.account.user_type eq 2 && ($profile.type eq 1 || $profile.type eq 3))}
-				{if ($profile.type eq 2 || $profile.type eq 4)}
-				<tr>
-					<td>
-						<table cellpadding="3" cellspacing="0" border="0" class="table_top">
-							{if $profile.his_age_1>0}
-								<tr>
-									<td colspan="2">{$lang.content.ad_text_3} ({if $profile.type eq 2}{$lang.content.about_leaser}{else if $profile.type eq 4}{$lang.content.about_buyer}{/if})</td>
-								</tr>
-								<tr>
-									<td width="200"><b>{$lang.content.age}:&nbsp;</b></td>
-									<td>{$profile.his_age_1}-{$profile.his_age_2}</td>
-								</tr>
-								{section name=b loop=$profile.gender_match}
-								<tr>
-									<td><b>{$profile.gender_match[b].name}:&nbsp;</b></td>
-									<td>{section name=c loop=$profile.gender_match[b].fields}{$profile.gender_match[b].fields[c]}{if !$smarty.section.c.last},&nbsp;{/if}{/section}
-									</td>
-								</tr>
-								{/section}
-								{section name=b loop=$profile.people_match}
-								<tr>
-									<td><b>{$profile.people_match[b].name}:&nbsp;</b></td>
-									<td>{section name=c loop=$profile.people_match[b].fields}{$profile.people_match[b].fields[c]}{if !$smarty.section.c.last},&nbsp;{/if}{/section}
-									</td>
-								</tr>
-								{/section}
-								{section name=b loop=$profile.language_match}
-								<tr>
-									<td><b>{$profile.language_match[b].name}:&nbsp;</b></td>
-									<td>{section name=c loop=$profile.language_match[b].fields}{$profile.language_match[b].fields[c]}{if !$smarty.section.c.last},&nbsp;{/if}{/section}
-									</td>
-								</tr>
-								{/section}
-							{else}
-							<tr>
-								<td height="15" width="200"><b>{$lang.content.ad_text_3}<br>({if $profile.type eq 2}{$lang.content.about_leaser}{else if $profile.type eq 4}{$lang.content.about_buyer}{/if}):</b></td>
-								<td class="error">{$lang.content.not_filled}</td>
-							</tr>
-							{/if}
-						</table>
-					</td>
-					{if ($profile.type eq 2 || $profile.type eq 4)}
-					<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_5&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
-					{else}
-					<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_4&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
-					{/if}
-				</tr>
-				<tr><td colspan="3"><hr class="listing"></td></tr>
-				{/if}
-			{/if}
-		{else}
-		<tr>
-			<td>
-				<table cellpadding="0" cellspacing="0">
-					<tr>
-						<td height="15" width="200"><b>{$lang.content.ad_text_2}:</b>&nbsp;</td>
-						<td class="error">{$lang.content.no_ad}</td>
-					</tr>
-				</table>
- 			</td>
-			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=edit_ad">{$lang.buttons.change}</a></td>
-		</tr>
-		{/if}
+		
 		{if $profile.type eq 2 || $profile.type eq 4}
 		{if $no_ad ne 1}
 		<tr>
@@ -926,34 +800,6 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="admin_settings.php?section=admin&redirect={$profile.id}">{$lang.buttons.change}</a></td>
 		</tr>
 		<!-- /account info -->
-		<tr><td colspan="2"><hr class="listing"></td></tr>
-		{if $no_ad ne 1}
-		<tr>
-			<td>
-				<table cellpadding="3" cellspacing="0" border="0" class="table_top">
-					<tr>
-						<td><b>{$lang.content.comments}:&nbsp;</b></td>
-						<td>{$profile.comment}</td>
-					</tr>
-				</table>
-			</td>
-			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_6&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
-		</tr>
-		
-		{else}
-		<tr>
-			<td>
-				<table cellpadding="0" cellspacing="0">
-					<tr>
-						<td height="15" width="200"><b>{$lang.content.ad_text_5}:</b>&nbsp;</td>
-						<td class="error">{$lang.content.no_ad}</td>
-					</tr>
-				</table>
- 			</td>
-			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=edit_ad">{$lang.buttons.change}</a></td>
-		</tr>
-		{/if}
-		</tr>
 		</table>
 	</td>
 </tr>
