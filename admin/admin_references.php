@@ -155,6 +155,7 @@ function ListSpr($err = ""){
 				FROM ".$spr_table." a left join
 				".REFERENCE_LANG_TABLE." b on b.table_key='".$table_key."' and b.id_reference=a.id
 				order by a.sorter ".$limit_str;
+                
     $rs = $dbconn->Execute($strSQL);
 	$i = 0;
 	if($rs->RowCount()>0){

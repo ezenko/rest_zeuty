@@ -10,8 +10,8 @@
 * @version $Revision: 1.3 $ $Date: 2008/10/24 14:18:54 $
 **/
 
-ini_set("display_errors", "0");
-error_reporting(E_ALL);
+ini_set("display_errors", "1");
+error_reporting(E_ALL & ~E_NOTICE);
 
 ini_set("default_charset", "utf8");
 
