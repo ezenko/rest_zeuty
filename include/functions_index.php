@@ -708,7 +708,7 @@ function GetRefSearchArray($spr_table, $value_table, $data='', $lang_add = 1){
 		}
 		$rs->MoveNext();
 		$i++;
-	}print_r($arr);
+	}
 	return $arr;
 }
 
