@@ -1,0 +1,1 @@
+ALTER TABLE `re_user_rent_pays` ADD `payment_not_season` INT UNSIGNED NULL;
