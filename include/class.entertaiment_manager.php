@@ -101,7 +101,7 @@ class EntertaimentManager {
 	 * @return array
 	 */
 	function GetEntertaimentList($language_id) {
-		$sql_query = "SELECT id, sequence, caption ".
+		$sql_query = "SELECT id, sequence, caption, image ".
 					 "FROM ".ENTERTAIMENT_TABLE." ".
 					 "WHERE language_id = '$language_id' ";
 		

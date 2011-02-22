@@ -108,14 +108,13 @@ switch ( $sel ) {
                 $im = $_FILES['image'];
                 if($im['name']) {
                     $target_path = "/uploades/entertaiments/";
-        
-                    $target_path = $target_path . basename( $im['name']); 
+                    $fileName = time() . '_'. basename( $im['name']);
+                    $target_path = $target_path . $fileName; 
         
                     if(!move_uploaded_file($im['tmp_name'], $config['site_path'].$target_path)) {
-                        echo 'err'; echo $config['site_path'].$target_path;
                         $errors[] = "entertaiment_image";
                     }
-                    $image = $im['name'];
+                    $image = $fileName;
                 }
             }
             
@@ -255,14 +254,13 @@ switch ( $sel ) {
                 $im = $_FILES['image'];
                 if($im['name']) {
                     $target_path = "/uploades/entertaiments/";
-        
-                    $target_path = $target_path . basename( $im['name']); 
+                    $fileName = time() . '_'. basename( $im['name']);
+                    $target_path = $target_path . $fileName; 
         
                     if(!move_uploaded_file($im['tmp_name'], $config['site_path'].$target_path)) {
-                        echo 'err'; echo $config['site_path'].$target_path;
                         $errors[] = "entertaiment_image";
                     }
-                    $image = $im['name'];
+                    $image = $fileName;
                 }
                 
 				$type_id = $_REQUEST["type"];

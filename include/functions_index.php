@@ -102,6 +102,11 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
         }
     }
     
+    require_once ('class.entertaiment_manager.php');
+    $entertaiment_manager = new EntertaimentManager();
+    
+    $smarty->assign("entertaiments", $entertaiment_manager->GetEntertaimentList($config['default_lang']));
+    
 	return;
 }
 

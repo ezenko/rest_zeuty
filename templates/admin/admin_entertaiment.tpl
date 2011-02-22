@@ -98,7 +98,7 @@
                 {if $image}
                 <tr>
 					<td width="10%">&nbsp;</td>
-					<td><img src="{$image}" alt="{$caption}" border="0" /></td>
+					<td><img src="/uploades/entertaiments/{$image}" alt="{$caption}" border="0" /></td>
 				</tr>
                 {/if}
 				<tr>
