@@ -508,12 +508,14 @@ function MyAd ($id_ad='', $par='') {
 		$strSQL_payment = " SELECT min_payment, max_payment, auction, min_deposit, max_deposit,
 							min_live_square, max_live_square, min_total_square, max_total_square,
 							min_land_square, max_land_square, min_floor,  max_floor, floor_num, subway_min,
-							min_year_build, max_year_build
+							min_year_build, max_year_build, payment_not_season
 							FROM ".USERS_RENT_PAYS_TABLE."
 							WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
 		$rs_payment = $dbconn->Execute($strSQL_payment);
 		$row_payment = $rs_payment->GetRowAssoc(false);
-		$profile["min_payment"] = PaymentFormat($row_payment["min_payment"]);
+		$profile["payment_not_season"] = PaymentFormat($row_payment["payment_not_season"]);
+		$profile["payment_not_season_show"] = FormatPrice($profile["payment_not_season"], $settings_price["cur_position"], $settings_price["cur_format"]);
+    $profile["min_payment"] = PaymentFormat($row_payment["min_payment"]);
 		$profile["min_payment_show"] = FormatPrice($profile["min_payment"], $settings_price["cur_position"], $settings_price["cur_format"]);
 		$profile["max_payment"] = PaymentFormat($row_payment["max_payment"]);
 		$profile["max_payment_show"] = FormatPrice($profile["max_payment"], $settings_price["cur_position"], $settings_price["cur_format"]);
@@ -544,12 +546,14 @@ function MyAd ($id_ad='', $par='') {
 		$strSQL_payment = "SELECT min_payment, auction, min_deposit,
 							min_live_square, min_total_square,
 							min_land_square, min_floor, floor_num, subway_min, min_year_build,
-              furniture
+              furniture, payment_not_season
 							FROM ".USERS_RENT_PAYS_TABLE."
 							WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
 		$rs_payment = $dbconn->Execute($strSQL_payment);
 		$row_payment = $rs_payment->GetRowAssoc(false);
-		$profile["min_payment"] = PaymentFormat($row_payment["min_payment"]);
+		$profile["payment_not_season"] = PaymentFormat($row_payment["payment_not_season"]);
+		$profile["payment_not_season_show"] = FormatPrice($profile["payment_not_season"], $settings_price["cur_position"], $settings_price["cur_format"]);
+    $profile["min_payment"] = PaymentFormat($row_payment["min_payment"]);
 		
 		$profile["min_payment_show"] = FormatPrice($profile["min_payment"], $settings_price["cur_position"], $settings_price["cur_format"]);
 		if($profile["min_payment"]<=0){$profile["act_status"]=0;}else{$profile["act_status"]=1;}
@@ -1039,8 +1043,19 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 			$headline = stripslashes($rs->fields[1]);
       $parent_id = stripslashes($rs->fields[0]);
       
-      
-      $strSQL = "	SELECT 	a.id, a.id_user, a.type, DATE_FORMAT(a.movedate, '".$config["date_format"]."' ) as movedate,
+      if ($choise == 2) {
+        $strParentsSQL = "SELECT 	a.id, a.headline
+  				      FROM ".RENT_ADS_TABLE." a 
+                WHERE a.parent_id = 0 AND a.id != " . $row['id'] . " AND type='2'";
+      	$rsPar = $dbconn->Execute($strParentsSQL);
+        $parents_available = array();
+      	while(!$rsPar->EOF){
+      	 $rowPar = $rsPar->GetRowAssoc(false);
+         $parents_available[] = $rowPar;
+         $rsPar->MoveNext();
+        }
+      } else {
+        $strSQL = "	SELECT 	a.id, a.id_user, a.type, DATE_FORMAT(a.movedate, '".$config["date_format"]."' ) as movedate,
 				a.people_count, a.comment, a.sold_leased_status, a.headline, a.date_unactive, 
 				a.with_photo, a.with_video,
 				urlt.zip_code, urlt.street_1, urlt.street_2, urlt.adress,
@@ -1061,23 +1076,26 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 				LEFT JOIN ".FEATURED_TABLE." ft ON ft.id_ad=a.id
 				LEFT JOIN ".SPONSORS_ADS_TABLE." sp ON sp.id_ad=a.id 
 				WHERE a.id='".$id_ad."' ";
-    	$rs = $dbconn->Execute($strSQL);
-    	$row = $rs->GetRowAssoc(false);
-      
-      $strParentsSQL = "SELECT 	a.id, a.headline
-				      FROM ".RENT_ADS_TABLE." a, ".USERS_RENT_LOCATION_TABLE." urlt, ".COUNTRY_TABLE." count,
-                   ".REGION_TABLE." reg, ".CITY_TABLE." cit, ".USERS_TABLE." ut
-              WHERE a.id=urlt.id_ad AND urlt.id_country = count.id AND urlt.id_region = reg.id AND urlt.id_city = cit.id
-              AND count.id=" . $row['count_id'] . " AND reg.id=" . $row['reg_id'] . " AND a.id_user = ut.id
-              AND cit.id=" . $row['cit_id'] . " AND ut.id=" . $row['id_user'] . " AND a.parent_id = 0
-              AND a.id != " . $row['id'];
-    	$rsPar = $dbconn->Execute($strParentsSQL);
-      $parents_available = array();
-    	while(!$rsPar->EOF){
-    	 $rowPar = $rsPar->GetRowAssoc(false);
-       $parents_available[] = $rowPar;
-       $rsPar->MoveNext();
+      	$rs = $dbconn->Execute($strSQL);
+      	$row = $rs->GetRowAssoc(false);
+        
+        $strParentsSQL = "SELECT 	a.id, a.headline
+  				      FROM ".RENT_ADS_TABLE." a, ".USERS_RENT_LOCATION_TABLE." urlt, ".COUNTRY_TABLE." count,
+                     ".REGION_TABLE." reg, ".CITY_TABLE." cit, ".USERS_TABLE." ut
+                WHERE a.id=urlt.id_ad AND urlt.id_country = count.id AND urlt.id_region = reg.id AND urlt.id_city = cit.id
+                AND count.id=" . $row['count_id'] . " AND reg.id=" . $row['reg_id'] . " AND a.id_user = ut.id
+                AND cit.id=" . $row['cit_id'] . " AND ut.id=" . $row['id_user'] . " AND a.parent_id = 0
+                AND a.id != " . $row['id'] . " AND a.type = '" . $choise . "'";
+      	$rsPar = $dbconn->Execute($strParentsSQL);
+        $parents_available = array();
+      	while(!$rsPar->EOF){
+      	 $rowPar = $rsPar->GetRowAssoc(false);
+         $parents_available[] = $rowPar;
+         $rsPar->MoveNext();
+        }
       }
+      
+      
       
 			$smarty->assign("headline", $headline);
       $smarty->assign("parent_id", $parent_id);
@@ -1419,7 +1437,8 @@ function SaveProfile($par){
 				}
 
 				$strSQL = "	UPDATE ".USERS_RENT_PAYS_TABLE." SET
-							min_payment='".intval($_REQUEST["min_payment"])."',
+							payment_not_season='".intval($_REQUEST["payment_not_season"])."',
+              min_payment='".intval($_REQUEST["min_payment"])."',
 							auction='".intval($_REQUEST["auction"])."',
 							min_deposit='".intval($_REQUEST["min_deposit"])."',
 							min_live_square='".intval($_REQUEST["min_live_square"])."',

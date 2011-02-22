@@ -494,7 +494,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 			{else}<!-- have / sell realty -->
 			<!-- price -->
 			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{if $choise eq '2'}{$lang.content.month_payment}{else}{$lang.content.price}{/if}:&nbsp;<font class="error">*</font></td>
+				<td width="110" valign="top" style="padding-top: 10px;">{if $choise eq '2'}{$lang.content.price_season}{else}{$lang.content.price}{/if}:&nbsp;<font class="error">*</font></td>
 				<td align="left">
 					<table cellpadding="0" cellspacing="0" border="0">
 					<tr>
@@ -506,6 +506,21 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 					</table>
 				</td>
 			</tr>
+        {if $choise eq 2}
+          <tr>
+    				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.price_not_season}: </td>
+    				<td align="left">
+    					<table cellpadding="0" cellspacing="0" border="0">
+    					<tr>
+    						<td align="right"><input type="text" class="str" name="payment_not_season" id="payment_not_season" value="{$data.payment_not_season}" size="7">&nbsp;{$cur}</td>
+    						<td>
+    							<span name="payment_not_season_error" id="payment_not_season_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+    						</td>
+    					</tr>
+    					</table>
+    				</td>
+    			</tr>
+        {/if}
 			<!-- /price -->
       <!-- furniture -->
 			<tr>

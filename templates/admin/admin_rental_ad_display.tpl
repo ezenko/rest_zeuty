@@ -158,19 +158,16 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 							<td colspan="2">{$lang.content.ad_text_1}</td>
 						</tr>
 						<tr>
-							<td width="200"><b>{if $profile.type eq 2}{$lang.content.month_payment}{else}{$lang.content.price}{/if}:&nbsp;</b></td>
-							<td>{$profile.min_payment_show}&nbsp;({if $profile.auction eq '1'}{$lang.content.auction_possible}{else}{$lang.content.auction_inpossible}{/if})</td>
+							<td width="200"><b>{if $profile.type eq 2}{$lang.content.price_season}{else}{$lang.content.price}{/if}:&nbsp;</b></td>
+							<td>{$profile.min_payment_show}</td>
 						</tr>
 						{if $profile.type eq 2}
-							<!-- period -->
-							{section name=b loop=$profile.period}
-								<tr>
-									<td><b>{$profile.period[b].name}:&nbsp;</b></td>
-									<td>{section name=c loop=$profile.period[b].fields}{$profile.period[b].fields[c]}{if !$smarty.section.c.last},&nbsp;{/if}{/section}
-									</td>
-								</tr>
-							{/section}
-							<!-- /period -->
+							<!-- payment not season -->
+							<tr>
+  							<td width="200"><b>{$lang.content.price_not_season}:&nbsp;</b></td>
+  							<td>{$profile.payment_not_season_show}</td>
+  						</tr>
+							<!-- /payment not season -->
 						{/if}
 						{if $profile.min_deposit > 0}
 						<tr>

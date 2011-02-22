@@ -52,6 +52,8 @@
 	<lines name="ad_text_6" descr=""><![CDATA[Планировка]]></lines>
 	<lines name="available_move_date" descr=""><![CDATA[Доступна с]]></lines>
 	<lines name="month_payment" descr=""><![CDATA[Стоимость аренды <br>за 1 месяц]]></lines>
+  <lines name="price_not_season" descr=""><![CDATA[Цена (не сезон)]]></lines>
+  <lines name="price_season" descr=""><![CDATA[Цена (сезон)]]></lines>
 	<lines name="price" descr=""><![CDATA[Цена]]></lines>
 	<lines name="from" descr=""><![CDATA[от]]></lines>
 	<lines name="upto" descr=""><![CDATA[до]]></lines>
