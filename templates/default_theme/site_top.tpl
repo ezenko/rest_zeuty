@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="{$site_root}{$template_root}{$template_css_root}/jquery.linkselect.css" />
   <link href="{$site_root}{$template_root}{$template_css_root}/greybox.css" rel="stylesheet" type="text/css" media="all"/>
 	<link href="{$site_root}{$template_root}{$template_css_root}/core.css" rel="stylesheet" type="text/css" media="all"/>
-	<link href="{$site_root}{$template_root}{$template_css_root}/lightbox.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link href="{$site_root}{$template_root}{$template_css_root}/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen"/>
   
   {if $head_add}
 	{foreach from=$head_add item=add_code}

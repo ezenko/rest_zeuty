@@ -29,7 +29,7 @@
 <lines name="comments" descr=""><![CDATA[Комментарии]]></lines>
 <lines name="people_count" descr=""><![CDATA[Люди]]></lines>
 <lines name="age" descr=""><![CDATA[Возраст]]></lines>
-<lines name="add_comments" descr=""><![CDATA[Дополнительный комментарий]]></lines>
+<lines name="add_comments" descr=""><![CDATA[Общая информация]]></lines>
 <lines name="wake_up" descr=""><![CDATA[Просыпается]]></lines>
 <lines name="go_to_bed" descr=""><![CDATA[Ложится спать]]></lines>
 <lines name="headline" descr=""><![CDATA[Заголовок]]></lines>
