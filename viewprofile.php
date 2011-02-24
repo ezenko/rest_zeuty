@@ -97,6 +97,21 @@ function ListProfile($sect, $id_ad) {
 	$profile = Ad($id_ad, $user[0], $file_name, $sect);
 
 	if ($profile["id_user"] != 0) {
+	   
+        //get childs
+        $strSQL = "SELECT id FROM ".RENT_ADS_TABLE." a WHERE parent_id = '$id_ad'";
+        $rs = $dbconn->Execute($strSQL);
+		if ($rs->fields[0]>0) {
+			$i = 0;
+			while(!$rs->EOF) {
+				$row = $rs->GetRowAssoc(false);
+				$child_profile[$i] = Ad($row['id'], $user[0], $file_name, $sect);
+				$rs->MoveNext();
+				$i++;
+			}
+		}
+        $profile['childs'] = $child_profile;
+        
 		/**
 		 * update profile visit counter
 		 */

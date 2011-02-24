@@ -1,5 +1,238 @@
 {include file="$gentemplates/site_top.tpl"}
 
+<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript">
+{literal}
+$(document).ready(function() {
+			
+			$("a.icon").tooltip({
+				offset: [-6, 0],
+				onShow: function() {
+					this.getTrigger().fadeTo("slow", 0.8);
+				}
+			});
+			
+			$('.suit-header').each(function() {
+				var suitHeader = $(this);
+				$('.suit-header-block', this).toggle(
+					function() {
+						$(suitHeader).next().slideUp();
+						$('.status', this).addClass('close');
+					},
+					function() {
+						$(suitHeader).next().slideDown();
+						$('.status', this).removeClass('close');
+					}
+				);
+			});
+            $('.photo-gallery a').lightBox({
+                {/literal}
+                imageLoading: '{$server}{$site_root}{$template_root}/images/lightbox/lightbox-ico-loading.gif', // (string) Path and the name of the loading icon
+                imageBtnPrev: '{$server}{$site_root}{$template_root}/images/lightbox/lightbox-btn-prev.gif', // (string) Path and the name of the prev button image
+                imageBtnNext: '{$server}{$site_root}{$template_root}/images/lightbox/lightbox-btn-next.gif', // (string) Path and the name of the next button image
+                imageBtnClose: '{$server}{$site_root}{$template_root}/images/lightbox/lightbox-btn-close.gif', // (string) Path and the name of the close btn
+                imageBlank: '{$server}{$site_root}{$template_root}/images/lightbox/lightbox-blank.gif', // (string) Path and the n
+                {literal}
+            });
+		});
+{/literal}
+</script>
+	<script>
+	//right vars values from lightbox.js
+	var fileLoadingImage = "{$server}{$site_root}{$template_root}/images/lightbox/loading.gif";
+	var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/lightbox/closelabel.gif";
+
+	</script>
+    
+	
+	
+<div id="middle-container">
+<h2>{$profile.headline_short}</h2>
+
+<div id="middle-holder">
+<img src="{$profile.photo_file[0]}" alt="{$profile.headline_short}" class="img-border" />
+{if $profile.comment}
+	<h3>{$lang.content.add_comments}</h3>
+    <p>
+    	{$profile.comment}
+    </p>
+{/if}
+
+<h3>Фото-обзор варианта</h3>
+<div class="photo-gallery">
+    {section name=ph loop=$profile.photo_id}
+	<div class="item">{if $profile.photo_view_link[ph]}<a href="{$profile.photo_file[ph]}" rel="lightbox[profile_photo_main]" title="{$profile.photo_user_comment[ph]}">{/if}<img src='{$profile.photo_thumb_file[ph]}' class='img-border' alt="{$profile.photo_user_comment[ph]}">{if $profile.photo_view_link[ph]}</a>{/if}	</div>
+    {/section}
+</div>
+
+<div>
+    {foreach from=$profile.description item=desc}
+    <div class="row">
+      <label class="title">{$desc.name}:&nbsp;</label>
+      <span class="desc">{foreach from=$desc.fields name=desc_f item=d_f}{$d_f} {/foreach}</span>
+    </div>
+    {/foreach}
+    {foreach from=$profile.info item=info}
+    <div class="row">
+      <label class="title">{$info.name}:&nbsp;</label>
+      <span class="desc">{foreach from=$info.fields name=info_loop item=d_f}{$d_f}{if !$smarty.foreach.info_loop.last}, {/if}{/foreach}</span>
+    </div>
+    {/foreach}
+</div>
+{foreach from=$profile.childs item=child}
+<div class="suit">
+  <div class="suit-header">
+
+  	<div class="suit-header-block">
+    	<div class="clearfix">
+      	<a class="status"></a>
+        <span class="s_id">{$child.headline}</span>
+        <span class="s_name">Место #0001</span>
+      </div>
+    </div>
+    <div class="s_preview">
+
+      <div class="photo-gallery">
+        {section name=ph loop=$child.photo_id}
+        	<div class="item">{if $child.photo_view_link[ph]}<a href="{$child.photo_file[ph]}" rel="lightbox[profile_photo]" title="{$child.photo_user_comment[ph]}">{/if}<img src='{$child.photo_thumb_file[ph]}' class='img-border' alt="{$child.photo_user_comment[ph]}">{if $child.photo_view_link[ph]}</a>{/if}	</div>
+        {/section}
+      </div>
+    </div>
+  </div>
+  <div class="suit-body">
+    <ul class="tabs clearfix">
+
+      <li><a href="#">Информация</a></li>
+      <li><a href="#">Фото / Видео</a></li>
+      <li><a href="#">На карте</a></li>
+      <li><a href="#">3D-Тур</a></li>
+      <li><a href="#">Бронь</a></li>
+    </ul>
+
+    <div class="glass-block suit-description panes">
+    	<div>
+        {foreach from=$child.description item=desc}
+        <div class="row">
+          <label class="title">{$desc.name}:&nbsp;</label>
+          <span class="desc">{foreach from=$desc.fields name=desc_f item=d_f}{$d_f} {/foreach}</span>
+        </div>
+        {/foreach}
+        {foreach from=$child.info item=info}
+        <div class="row">
+            {if $info.name eq 'Удобства'}
+              <label class="title">Удобства:&nbsp;</label>
+              <div class="icons-holder">
+              {foreach from=$info.fields name=child_info_loop item=d_f}
+              {if $d_f eq 'Ванная'}
+                <a class="icon bath" title="Ванная"></a>
+              {elseif $d_f eq 'Кондиционер'}  
+                <a class="icon condition" title="Кондиционер"></a>
+              {elseif $d_f eq 'ТВ'} 
+                <a class="icon tv" title="ТВ"></a>
+              {elseif $d_f eq 'Холодильник'} 
+                <a class="icon fridge" title="Холодильник"></a>
+              {elseif $d_f eq 'Wi-Fi'} 
+                <a class="icon wifi" title="Wi-Fi"></a>
+              {elseif $d_f eq 'Снег'} 
+                <a class="icon ice" title="Снег"></a>
+              {elseif $d_f eq 'Баня'} 
+                <a class="icon bana" title="Баня"></a>
+              {elseif $d_f eq 'Питание'} 
+                <a class="icon eat" title="Питание"></a>
+              {elseif $d_f eq 'Бассейн'} 
+                <a class="icon pool" title="Бассейн"></a>
+              {elseif $d_f eq 'Карта'} 
+                <a class="icon map" title="Карта"></a>
+              {elseif $d_f eq 'Парковка'} 
+                <a class="icon parking" title="Парковка"></a>
+              {else}
+                нет иконки для {$d_f}
+              {/if}
+              {/foreach}
+                
+              </div>
+            {else}
+            <label class="title">{$info.name}:&nbsp;</label>
+            <span class="desc">{foreach from=$info.fields name=child_info_loop item=d_f}{$d_f}{if !$smarty.foreach.child_info_loop.last}, {/if}{/foreach}</span>
+            {/if}
+        </div>
+        {/foreach}
+        
+        <div class="row">
+          
+        </div>
+        <div class="row">
+
+          <label class="title">Стоимость проживания:&nbsp;</label>
+          <span class="desc">{$child.min_payment_show}</span>
+          <!--
+          <table cellpadding="0" cellspacing="0">
+            <thead>
+              <tr>
+                <td>Май</td>
+                <td>Июнь</td>
+
+                <td>Июль</td>
+                <td>Август</td>
+                <td>Сентябрь</td>
+                <td>Октябрь</td>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <td>1600</td>
+                <td>2000</td>
+                <td>2800</td>
+                <td>3600</td>
+                <td>1600</td>
+
+                <td>1200</td>
+              </tr>
+            </tbody>
+          </table>
+          -->
+        </div>
+        <div class="row">
+          <label class="title">Информация:&nbsp;</label>
+          <span class="desc">{$child.comment}</span>
+
+        </div>
+        <!--
+        <div class="row">
+          <label class="title">Фотографии номера:&nbsp;</label>
+          <a class="all">Посмотреть все</a>
+        </div>
+        -->
+      </div>
+      <div>
+      	    <div class="photo-gallery">
+            {section name=ph loop=$child.photo_id}
+            	<div class="item">{if $child.photo_view_link[ph]}<a href="{$child.photo_file[ph]}" rel="lightbox[profile_photo]" title="{$child.photo_user_comment[ph]}">{/if}<img src='{$child.photo_thumb_file[ph]}' class='img-border' alt="{$child.photo_user_comment[ph]}">{if $child.photo_view_link[ph]}</a>{/if}	</div>
+            {/section}
+      </div>    
+      </div>
+
+      <div>
+      	<div>
+            <img src="http://maps.google.com/maps/api/staticmap?zoom=11&markers=color:green|label:L|Minsk,Belarus&size=490x382&maptype=roadmap&sensor=false" border="0" alt="Map" width="490" height="382" id="map" />  
+        </div>
+      </div>
+      <div>
+      	asdasd
+      </div>
+      <div>
+      	123fdhfgh123
+      </div>
+    </div>
+
+  </div>
+</div>
+{/foreach}
+</div>
+
+{* //old
+
 {if $view eq 'photo'}
 	<script>
 	//right vars values from lightbox.js
@@ -44,7 +277,7 @@
 			<td width="15">&nbsp;</td>
 			{*<td height="{$thumb_height+10}" width="{$thumb_width+10}" valign="middle" align="center" style=" border: 1px solid #cccccc; ">
 				<img src="{$profile.photo_thumb_file[0]}" alt="{$profile.photo_alt[0]}" style="border: none" alt="" >
-			</td>*}
+			</td>* }
 			<td height="{$thumb_big_height+10}" width="{$thumb_big_width+10}" valign="middle" align="center" style=" border: 1px solid #cccccc; ">
 				<img src="{if $profile.photo_thumb_big_file[0]}{$profile.photo_thumb_big_file[0]}{else}{$profile.photo_thumb_file[0]}{/if}" alt="{$profile.photo_alt[0]}" title="{$profile.photo_alt[0]}" style="border: none">
 			</td>
@@ -77,7 +310,7 @@
 								{else}{$lang.content.available_date}{/if}:&nbsp;<strong>{$profile.movedate}</strong>
 								{*
 								{if $profile.type eq 2}&nbsp;<a href='{$site_root}/viewprofile.php?id={$profile.id}&view=calendar'>{$lang.default_select.view_by_calendar}</a>{/if}{/if}
-								*}					
+								* }					
 								{/if}		
 							</td>
 						</tr>								
@@ -95,7 +328,7 @@
 							</td>
 						</tr>
 						{/if}
-						*}
+						* }
 						</table>
 					</td>
 					<td valign="top" align="right">						
@@ -217,7 +450,7 @@
 											</td>
 										{/if}
 									{if $links_cnt is div by 2}</tr><tr>{/if}	
-									*}
+									* }
 										{if !$mhi_complain_link}
 										{assign var=links_cnt value=$links_cnt+1}
 											<td>
@@ -651,7 +884,7 @@
 						{/if}
 					{/if}
 						{if $profile.account.user_type eq 2}
-							{* realtor *}
+							{* realtor * }
 								<tr>
 									<td><b>{$lang.content.company_name}:</b></td>
 									<td>{$profile.account.company_name}</td>
@@ -748,7 +981,7 @@
 							{/if}
 
 						{elseif $profile.account.user_type eq 1}
-							{* private person *}
+							{* private person * }
 							{if (($registered eq 1 && $group_type eq 1) || ($registered eq 1 && $contact_for_free) || $mhi_registration || $contact_for_unreg) }
 								{if $profile.account.birth_day != '00'}
 									<tr>
@@ -779,7 +1012,7 @@
 								{/section}
 							{/if}
 						{elseif $profile.account.user_type eq 3}
-							{* agent of company *}	
+							{* agent of company * }	
 								{if $profile.company_data.company_name}		
 								<tr>
 									<td colspan="2">{$lang.content.about_company}</td>
@@ -1137,6 +1370,7 @@
 {include file="$gentemplates/viewmap.tpl"}
 {/if}
 
+*}
 {include file="$gentemplates/site_footer.tpl"}
 {literal}
 <script>
