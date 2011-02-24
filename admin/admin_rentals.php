@@ -536,7 +536,15 @@ function MyAd ($id_ad='', $par='') {
       $strSQL_payment = "SELECT * FROM " . USERS_RENT_PAYS_TABLE_BY_MONTH . " WHERE id_ad = " . $profile['id'];
       $rs_payment = $dbconn->Execute($strSQL_payment);
   		$prices = $rs_payment->GetRowAssoc(false);
-      $profile['price'] = $prices;
+      foreach ($prices as $val) {
+        if ($val) {
+          $flag = true;
+          break;          
+        }
+      }
+      if ($flag) {
+        $profile['price'] = $prices;
+      }
     }
      
 		$strSQL_payment = "SELECT min_payment, auction, min_deposit,
@@ -2202,8 +2210,8 @@ function UserAd($par=''){
 		$data_location["cross_streets_2"] = stripslashes($row["street_2"]);
 		$data_location["adress"] = stripslashes($row["adress"]);
 
-		$_SESSION["step_1"] = $data_location;
-
+		$_SESSION["step_1"] = $data_location;   
+    
 		$strSQL = " SELECT min_payment, offer_type, floor, floors, min_flats_square, max_flats_square,
           total_square, ceil_height, sea_distance, term, investor, parking
 					FROM ".USERS_RENT_PAYS_TABLE."
@@ -2230,6 +2238,24 @@ function UserAd($par=''){
 
 		$_SESSION["step_4"] = $data_2;
 	} elseif ($ad["type"] == "1" || $ad["type"] == "2" || $ad["type"] == "4") {
+	 
+    if ($ad['type'] == 1) {
+          
+      $strSQL_payment = "SELECT * FROM " . USERS_RENT_PAYS_TABLE_BY_MONTH . " WHERE id_ad = " . $id_ad;
+      $rs_payment = $dbconn->Execute($strSQL_payment);
+  		$prices = $rs_payment->GetRowAssoc(false);
+      foreach ($prices as $val) {
+        if ($val) {
+          $flag = true;
+          break;          
+        }
+      }
+      if ($flag) {
+        $data_1['price'] = $prices;
+      }
+    
+    }
+    
 		$strSQL = "SELECT id_country, id_region, id_city, zip_code, street_1, street_2, adress FROM ".USERS_RENT_LOCATION_TABLE." WHERE id_user='1' AND id_ad='".$id_ad."' ";
 		$rs = $dbconn->Execute($strSQL);
 		$row = $rs->GetRowAssoc(false);
@@ -2243,7 +2269,6 @@ function UserAd($par=''){
 		$data_location["adress"] = stripslashes($row["adress"]);
 
 		$_SESSION["step_1"] = $data_location;
-
 		$data_1["move_year"] = date("Y", $ad["movedate"]);
 		$data_1["move_month"] = date("m", $ad["movedate"]);
 		$data_1["move_day"] = date("d", $ad["movedate"]);

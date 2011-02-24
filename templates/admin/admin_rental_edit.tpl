@@ -524,18 +524,18 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
                   <td></td>
                 </tr>
                 <tr>
-                  <td><input type="text" style="width: 40px;" name="payment[january]" id="payment_january" value="{$profile.price.january}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[february]" id="payment_february" value="{$profile.price.february}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[march]" id="payment_march" value="{$profile.price.march}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[april]" id="payment_april" value="{$profile.price.april}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[may]" id="payment_may" value="{$profile.price.may}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[june]" id="payment_june" value="{$profile.price.june}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[july]" id="payment_july" value="{$profile.price.july}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[august]" id="payment_august" value="{$profile.price.august}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[september]" id="payment_september" value="{$profile.price.september}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[october]" id="payment_october" value="{$profile.price.october}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[november]" id="payment_november" value="{$profile.price.november}" /></td>
-                  <td><input type="text" style="width: 40px;" name="payment[december]" id="payment_december" value="{$profile.price.december}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[january]" id="payment_january" value="{$data.price.january}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[february]" id="payment_february" value="{$data.price.february}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[march]" id="payment_march" value="{$data.price.march}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[april]" id="payment_april" value="{$data.price.april}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[may]" id="payment_may" value="{$data.price.may}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[june]" id="payment_june" value="{$data.price.june}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[july]" id="payment_july" value="{$data.price.july}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[august]" id="payment_august" value="{$data.price.august}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[september]" id="payment_september" value="{$data.price.september}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[october]" id="payment_october" value="{$data.price.october}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[november]" id="payment_november" value="{$data.price.november}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[december]" id="payment_december" value="{$data.price.december}" /></td>
                   <td>{$cur}</td>
                 </tr>
               </table>
@@ -1392,11 +1392,13 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 					{if $private_person_ads_limit && ($user_ads_cnt > $private_person_ads_limit)}
 						<a href="#" onclick="alert('{$lang.content.ads_limit_activate_alert}');">{$lang.content.activate_2}&nbsp;{$ads_activity_period}&nbsp;{$lang.content.activate_2_days}</a>
 					{else}
-						{if $profile.act_status neq 0}
+						<!--
+            {if $profile.act_status neq 0}
 							<a href="{$file_name}?sel=activate_ad&amp;id_ad={$profile.id}">{$lang.content.activate_2}&nbsp;{$ads_activity_period}&nbsp;{$lang.content.activate_2_days}</a>
 						{else}
 							<a href="#" onclick="alert('{$lang.content.activate_alert}');">{$lang.content.activate_2}&nbsp;{$ads_activity_period}&nbsp;{$lang.content.activate_2_days}</a>
-						{/if}
+						{/if} -->
+            <a href="{$file_name}?sel=activate_ad&amp;id_ad={$profile.id}">{$lang.content.activate_2}&nbsp;{$ads_activity_period}&nbsp;{$lang.content.activate_2_days}</a>            
 					{/if}
 				{/if}
 									
@@ -1408,11 +1410,12 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 					{if $private_person_ads_limit && ($user_ads_cnt > $private_person_ads_limit)}
 						<a href="#" onclick="alert('{$lang.content.ads_limit_activate_alert}');">{$lang.content.activate}</a>
 					{else}
-						{if $profile.act_status neq 0}
+						<!--{if $profile.act_status neq 0}
 							<a href="{$file_name}?sel=activate_ad&amp;id_ad={$profile.id}">{$lang.content.activate}</a>
 						{else}
 							<a href="#" onclick="alert('{$lang.content.activate_alert}');">{$lang.content.activate}</a>
-						{/if}
+						{/if}-->
+            <a href="{$file_name}?sel=activate_ad&amp;id_ad={$profile.id}">{$lang.content.activate}</a>
 					{/if}
 				{/if}				
 			{/if}			
