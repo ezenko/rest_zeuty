@@ -20,7 +20,7 @@
 			</tr>
 			{/if}
 			<tr>
-				<td>{$lang.content.list_text_5}&nbsp;{$num_records}&nbsp;{$lang.content.list_text_6}</td>
+				<td>{$lang.content.list_text_5}&nbsp;{$num_records}&nbsp;{$lang.content.list_text_6} (&nbsp;{$num_records_parent}&nbsp;{$lang.content.parent})</td>
 			</tr>
 			<tr>
 				<td>
@@ -128,6 +128,7 @@
 								<tr>
 									<td colspan="2" valign="top">{strip}
 										<a href="{$item.edit_link}">{$lang.content.edit}</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="{$server}{$site_root}/admin/admin_rentals.php?sel=add_child&id_ad={$item.id}">{$lang.content.add_child}</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 										<a href="{$server}{$site_root}/admin/admin_rentals.php?sel=listing_position&id_ad={$item.id}">{$lang.content.search_position}</a>&nbsp;&nbsp;|&nbsp;&nbsp;										
 										<a href="#" onclick="if (confirm('{$lang.content.true_delete_ad}')) document.location.href='{$file_name}?sel=del&amp;id_ad={$item.id}';">{$lang.buttons.delete}</a>										
 										{/strip}

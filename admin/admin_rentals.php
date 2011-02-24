@@ -164,7 +164,14 @@ function DbOperation() {
 	$rs = $dbconn->Execute($strSQL);
 
 	$num_records = $rs->fields[0];
-	$smarty->assign("num_records", $num_records);
+  $smarty->assign("num_records", $num_records);
+  
+  $strSQL = "SELECT count(id) FROM ".RENT_ADS_TABLE." WHERE id_user='".$auth[0]."' AND parent_id = 0 ";
+	$rs = $dbconn->Execute($strSQL);
+
+	$num_records_parent = $rs->fields[0];
+  $smarty->assign("num_records_parent", $num_records_parent);
+	
 
 	$smarty->assign("add_rent_link", $file_name."?sel=add_rent");
 	$smarty->assign("file_name", $file_name);
@@ -257,6 +264,14 @@ function MyAd ($id_ad='', $par='') {
 		$profile["headline"] = stripslashes($row["headline"]);
 	}
   
+  $strKidsSQL = "SELECT 	a.id, a.headline
+				      FROM ".RENT_ADS_TABLE." a WHERE a.parent_id = " . $row['id'];
+  $rsKid = $dbconn->Execute($strKidsSQL);
+	while(!$rsKid->EOF){
+	 $rowKid = $rsKid->GetRowAssoc(false);
+   $profile['kids'][] = $rowKid;
+   $rsKid->MoveNext();
+  }           
   $strParentsSQL = "SELECT 	a.id, a.headline
 				      FROM ".RENT_ADS_TABLE." a, ".USERS_RENT_LOCATION_TABLE." urlt, ".COUNTRY_TABLE." count,
                    ".REGION_TABLE." reg, ".CITY_TABLE." cit, ".USERS_TABLE." ut

@@ -1150,6 +1150,12 @@ function GetUserAdsAdmin($file_name, $param="", $ad_id_in_array = "", $user_id =
 
 	$num_records = $rs->fields[0];
 	$smarty->assign("num_records", $num_records);
+  
+  $strSQL = "SELECT count(id) FROM ".RENT_ADS_TABLE." WHERE id_user='".$user_id."' AND parent_id = 0 ";
+	$rs = $dbconn->Execute($strSQL);
+
+	$num_records_parent = $rs->fields[0];
+	$smarty->assign("num_records_parent", $num_records_parent);
 
 	$ads_numpage = GetSiteSettings("max_ads_admin");
 	$photo_folder = GetSiteSettings("photo_folder");
@@ -1169,7 +1175,7 @@ function GetUserAdsAdmin($file_name, $param="", $ad_id_in_array = "", $user_id =
 					LEFT JOIN ".REGION_TABLE." rg ON rg.id=urlt.id_region
 					LEFT JOIN ".CITY_TABLE." ct ON ct.id=urlt.id_city
 					LEFT JOIN ".SPONSORS_ADS_TABLE." sp ON sp.id_ad=ra.id
-					WHERE ra.id_user='".$user_id."' GROUP BY ra.id ORDER BY ra.id ".$limit_str;
+					WHERE ra.id_user='".$user_id."' AND ra.parent_id = 0 GROUP BY ra.id ORDER BY ra.id ".$limit_str;
 		$rs = $dbconn->Execute($strSQL);
 		$i = 0;
 		while(!$rs->EOF){

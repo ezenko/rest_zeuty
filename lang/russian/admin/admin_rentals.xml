@@ -84,6 +84,9 @@
   <lines name="parking" descr=""><![CDATA[Паркинг]]></lines>
   <lines name="sell" descr=""><![CDATA[Продажа]]></lines>
   <lines name="rent" descr=""><![CDATA[Аренда]]></lines>
+  <lines name="add_child" descr=""><![CDATA[Добавить дочерний объект]]></lines>
+  <lines name="kids" descr=""><![CDATA[Дочерние объекты]]></lines>
+  <lines name="noname" descr=""><![CDATA[Название не указано]]></lines>
   
 	<lines name="deposit" descr=""><![CDATA[Предоплата]]></lines>
 	<lines name="available_date" descr=""><![CDATA[Доступна с]]></lines>

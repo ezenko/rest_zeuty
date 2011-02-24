@@ -79,10 +79,17 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
   						<td>
                 {if !$profile.parent_id}
                   {$lang.content.type_parent}
+                  {if $profile.kids}
+                    <br />
+                    <b>{$lang.content.kids}:</b><br />
+                    {foreach from=$profile.kids item=kid}
+                      {if $kid.headline}{$kid.headline}{else}{$lang.content.noname}{/if}: <a href="{$file_name}?sel=my_ad&amp;id_ad={$kid.id}">{$lang.buttons.change}</a><br />                    
+                    {/foreach}
+                  {/if}
                 {/if}
                 {if $profile.parent_id}
                   {$lang.content.type_child}
-                  <br />{$lang.content.parent}: {$profile.parent}
+                  <br />{$lang.content.parent}: {$profile.parent} <a href="{$file_name}?sel=my_ad&amp;id_ad={$profile.parent_id}">{$lang.buttons.change}</a><br />
                 {/if}
               </td>						
   					</tr>					
