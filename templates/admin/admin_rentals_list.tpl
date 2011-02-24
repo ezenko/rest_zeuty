@@ -57,7 +57,12 @@
 								<tr>
 									<td>
 										<table cellpadding="0" cellspacing="0" border="0">
-											<tr>
+											{if $item.headline}
+        								<tr>
+        									<td height="23" valign="top" colspan="2" style="font-weight: bold;">{$item.headline}</td>
+        								</tr>							
+						          {/if}
+                      <tr>
 												<td height="23" valign="top">
 													{if $item.type eq 1}{$lang.content.category_wild}
 													{elseif $item.type eq 3}{$lang.content.category_realty}
@@ -118,13 +123,7 @@
 											&nbsp;<a href='{$site_root}/admin/admin_rentals.php?sel=calendar&id_ad={$item.id_ad}'>{$lang.default_select.other_period}</a>
 										</td>
 									</tr>
-								{/if}
-								{if $item.headline}
-								{assign var=rows_after_image value=$rows_after_image+1} 
-								<tr>
-									<td height="23" valign="top" colspan="2">{$item.headline}</td>
-								</tr>
-								{/if}																
+								{/if}															
 								<tr>
 									<td colspan="2" valign="top">{strip}
 										<a href="{$item.edit_link}">{$lang.content.edit}</a>&nbsp;&nbsp;|&nbsp;&nbsp;

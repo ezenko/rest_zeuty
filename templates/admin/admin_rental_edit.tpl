@@ -42,7 +42,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 <TABLE cellpadding="0" cellspacing="0" border="0" width="100%">
 	<tr>
 		<td class="header">{strip}{$lang.menu.realestate} <font class="subheader">| {$lang.menu.realestate} | {$lang.menu.realestate_listings} |&nbsp;
-			 {if $form.sel eq 'step_1'}
+			 {if $form.sel eq 'step_1' or $form.sel eq 'add_child'}
 			 	{if $id_ad}{$lang.content.rental_ad_edit}{else}{$lang.content.rental_ad_new}{/if}
 			 {else}
 			 	{$lang.content.rental_ad_edit} 
@@ -59,11 +59,17 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 	<tr>
 		<td><div class="help_text"><span class="help_title">{$lang.default_select.help}</span>{$lang.content.realestate_listings_help}</div></td>
 	</tr>
-	{if $form.sel eq 'step_1'}
+	{if $form.sel eq 'step_1' or $form.sel eq 'add_child'}
 	<!--//STEP 1-->
 <TR><TD valign="top">
 	<form method="POST" name="step_1" action="">
+  {if $form.sel eq 'step_1'} 
 	<input name="id_ad" type="hidden" value="{$id_ad}">
+  {/if}
+  {if $form.sel eq 'add_child'}
+    <input name="id_ad" type="hidden" value="">
+    <input name="parent_id" type="hidden" value="{$data.parent_id}">
+  {/if}
 	<table cellpadding="0" cellspacing="0" border="0" width="100%">		
 		<tr valign="top">
 			<td class="subsection_title">{$lang.content.page_header_step_1}</td>			
@@ -73,7 +79,8 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 		<tr>
 			<td>
 				<table cellpadding="3" cellspacing="0" border="0" width="100%">
-				<tr>
+        {if $form.sel eq 'step_1'}
+        <tr>
 					<td height="27">
 					{strip}
 					{if !$mhi_ad_buy}
@@ -99,7 +106,15 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 					{/strip}
 					</td>
 				</tr>
-				<tr>
+        {/if}
+				{if $form.sel eq 'add_child'}
+        <tr>
+          <td>
+            <b>{$lang.content.add_child_for}: {$data.parent}</b>
+          </td>
+        </tr>
+        {/if}
+        <tr>
 					<td>
 					<table cellpadding="0" cellspacing="0" border="0" height="25">
 					<tr><td height="27" width="100">{$lang.content.select_country}&nbsp;:<font class="error">&nbsp;*</font></td>
@@ -1902,7 +1917,7 @@ function UpdateUserUpload(act, id_ad, user_upload_id, choise, upload_type, uploa
 </script>
 {/literal}
 
-{if $form.sel eq 'step_1'}
+{if $form.sel eq 'step_1' or $form.sel eq 'add_child'}
 	{literal}
 	<script language="javascript">
 	function Show(pos){

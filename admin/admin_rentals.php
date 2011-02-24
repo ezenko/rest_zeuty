@@ -81,6 +81,7 @@ switch($sel){
 	case "my_ad":			MyAd(); break;
 
 	case "add_rent":		EditProfile("step_1"); break;
+  case "add_child":		EditProfile("add_child"); break;
 	case "step_1":			UserAd("step_1"); break;
 	case "step_3":			UserAd("step_3"); break;
 	case "step_4":			UserAd("step_4"); break;
@@ -250,7 +251,7 @@ function MyAd ($id_ad='', $par='') {
 	
 	$strSQL = "SELECT rent.parent_id, rent_parent.headline FROM ".RENT_ADS_TABLE." rent 
              LEFT JOIN ".RENT_ADS_TABLE." rent_parent ON rent.parent_id = rent_parent.id
-             WHERE rent.id_user='1' AND rent.id='".$id_ad."'";
+             WHERE rent.id_user='1' AND rent.id='".$row['id']."'";
 	$rs = $dbconn->Execute($strSQL);
 	$headline = stripslashes($rs->fields[1]);
   $parent_id = stripslashes($rs->fields[0]);
@@ -624,6 +625,9 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 
 	@$choise = $_POST["choise"]?$_POST["choise"]:$choise;
 	@$id_ad = $_POST["id_ad"]?$_POST["id_ad"]:$id_ad;
+  if ($par == 'add_child') {
+    $parent_id = $_REQUEST["id_ad"]?$_REQUEST["id_ad"]:0;
+  }
         $ajax = isset($_REQUEST["ajax"]) ? intval($_REQUEST["ajax"]) : 0;
 	$smarty->assign("submenu", "edit_rentals");
 
@@ -638,10 +642,12 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 	}
 	switch($par){
 		case "step_1":
+    case "add_child":
 			$data = @$_SESSION["step_1"];
 			$data["from_edit"] = @$_SESSION["from_edit"];
 			$smarty->assign("add_to_lang", "&amp;sel=add_rent");
 			$strSQL = "SELECT id, name FROM ".COUNTRY_TABLE." WHERE 1";
+      
 			$rs = $dbconn->Execute($strSQL);
 			if ($rs->fields[0]>0) {
 				$i = 0;
@@ -657,6 +663,15 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 					$i++;
 				}
 			}
+      
+      if ($par == 'add_child') {
+        $strSQL = "SELECT headline FROM ".RENT_ADS_TABLE." WHERE id = " . $parent_id;
+        $rs = $dbconn->Execute($strSQL);
+        $parent_name = $rs->fields[0];
+        $data['parent'] = $parent_name;
+        $data['parent_id'] = $parent_id;
+      }
+      
 			if ($id_ad){
 				$form["next_link"] = $file_name."?sel=1";
 			} else {
@@ -1348,7 +1363,14 @@ function SaveProfile($par){
 	if (!($par=="save_ad")){
 		$id_ad = (isset($_POST["id_ad"])) ? intval($_POST["id_ad"]) : 0;
 		$choise = (isset($_POST["choise"])) ? intval($_POST["choise"]) : 0;
+	} else {
+	 $parent_id = (isset($_POST["parent_id"])) ? intval($_POST["parent_id"]) : 0;
+   $strSQL = " SELECT `type` FROM ".RENT_ADS_TABLE." WHERE id='".$parent_id."' ";
+   $rs = $dbconn->Execute($strSQL);
+	 $type = $rs->fields[0];
+   $_POST['choise'] = $type;
 	}
+  
 	switch ($par){
 		case "save_ad"://first save
 			$type = intval($_POST["choise"]);
@@ -1359,8 +1381,8 @@ function SaveProfile($par){
 				exit;
 			}			
 			
-			$strSQL = " INSERT INTO ".RENT_ADS_TABLE." (id_user, type, datenow, status, movedate) VALUES ('1','".$type."', now(), '0', DATE_FORMAT(now(), '%Y-%m-%d'))";
-			$dbconn->Execute($strSQL);
+			$strSQL = " INSERT INTO ".RENT_ADS_TABLE." (id_user, parent_id, type, datenow, status, movedate) VALUES ('1','" . $parent_id . "','".$type."', now(), '0', DATE_FORMAT(now(), '%Y-%m-%d'))";
+      $dbconn->Execute($strSQL);
 			$err = "";
 
 			$strSQL = " SELECT MAX(id) FROM ".RENT_ADS_TABLE." WHERE id_user='1' AND type='".intval($_POST["choise"])."' ";
