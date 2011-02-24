@@ -60,8 +60,8 @@
 											<tr>
 												<td height="23" valign="top">
 													{if $item.type eq 1}{$lang.content.category_wild}
-													{elseif $item.type eq 2}{$lang.content.category_realty}
-													{elseif $item.type eq 3}{$lang.content.category_tours}
+													{elseif $item.type eq 3}{$lang.content.category_realty}
+													{elseif $item.type eq 2}{$lang.content.category_tours}
 													{elseif $item.type eq 4}{$lang.content.category_active}
 													{/if}
 													{$item.realty_type}

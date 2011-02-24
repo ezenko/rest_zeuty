@@ -52,16 +52,39 @@
 	<lines name="ad_text_6" descr=""><![CDATA[Планировка]]></lines>
 	<lines name="available_move_date" descr=""><![CDATA[Доступна с]]></lines>
 	<lines name="month_payment" descr=""><![CDATA[Стоимость аренды <br>за 1 месяц]]></lines>
+  <lines name="price_by_month" descr=""><![CDATA[Цена по месяцам]]></lines>
   <lines name="price_not_season" descr=""><![CDATA[Цена (не сезон)]]></lines>
   <lines name="price_season" descr=""><![CDATA[Цена (сезон)]]></lines>
 	<lines name="price" descr=""><![CDATA[Цена]]></lines>
+  <lines name="january" descr=""><![CDATA[Январь]]></lines>
+  <lines name="february" descr=""><![CDATA[Февраль]]></lines>
+  <lines name="march" descr=""><![CDATA[Март]]></lines>
+  <lines name="april" descr=""><![CDATA[Апрель]]></lines>
+  <lines name="may" descr=""><![CDATA[Май]]></lines>
+  <lines name="june" descr=""><![CDATA[Июнь]]></lines>
+  <lines name="july" descr=""><![CDATA[Июль]]></lines>
+  <lines name="august" descr=""><![CDATA[Август]]></lines>
+  <lines name="september" descr=""><![CDATA[Сентябрь]]></lines>
+  <lines name="october" descr=""><![CDATA[Октябрь]]></lines>
+  <lines name="november" descr=""><![CDATA[Ноябрь]]></lines>
+  <lines name="december" descr=""><![CDATA[Декабрь]]></lines>
 	<lines name="from" descr=""><![CDATA[от]]></lines>
 	<lines name="upto" descr=""><![CDATA[до]]></lines>
 	<lines name="from_1" descr=""><![CDATA[c]]></lines>
 	<lines name="upto_1" descr=""><![CDATA[по]]></lines>
 	<lines name="auction_possible" descr=""><![CDATA[торг возможен]]></lines>
 	<lines name="auction_inpossible" descr=""><![CDATA[торг невозможен]]></lines>
-	<lines name="floor" descr=""><![CDATA[этаж]]></lines>
+	<lines name="floor" descr=""><![CDATA[Этаж]]></lines>
+  <lines name="floors" descr=""><![CDATA[Всего этажей]]></lines>
+  <lines name="flats_square" descr=""><![CDATA[Площадь квартир]]></lines>
+  <lines name="ceil_height" descr=""><![CDATA[Высота потолков]]></lines>
+  <lines name="sea_distance" descr=""><![CDATA[Расстояние до моря]]></lines>
+  <lines name="term" descr=""><![CDATA[Срок сдачи]]></lines>
+  <lines name="investor" descr=""><![CDATA[Инвестор]]></lines>
+  <lines name="parking" descr=""><![CDATA[Паркинг]]></lines>
+  <lines name="sell" descr=""><![CDATA[Продажа]]></lines>
+  <lines name="rent" descr=""><![CDATA[Аренда]]></lines>
+  
 	<lines name="deposit" descr=""><![CDATA[Предоплата]]></lines>
 	<lines name="available_date" descr=""><![CDATA[Доступна с]]></lines>
 	<lines name="year_build" descr=""><![CDATA[Год постройки]]></lines>

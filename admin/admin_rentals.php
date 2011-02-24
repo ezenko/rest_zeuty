@@ -505,44 +505,40 @@ function MyAd ($id_ad='', $par='') {
 	$settings_price = GetSiteSettings(array('cur_position', 'cur_format'));
 	if ($profile["type"] == "3") {
 
-		$strSQL_payment = " SELECT min_payment, max_payment, auction, min_deposit, max_deposit,
-							min_live_square, max_live_square, min_total_square, max_total_square,
-							min_land_square, max_land_square, min_floor,  max_floor, floor_num, subway_min,
-							min_year_build, max_year_build, payment_not_season
+		$strSQL_payment = " SELECT min_payment, offer_type, floor, floors, min_flats_square,
+              max_flats_square, total_square, ceil_height, sea_distance, term, investor,
+              parking
 							FROM ".USERS_RENT_PAYS_TABLE."
 							WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
 		$rs_payment = $dbconn->Execute($strSQL_payment);
 		$row_payment = $rs_payment->GetRowAssoc(false);
-		$profile["payment_not_season"] = PaymentFormat($row_payment["payment_not_season"]);
-		$profile["payment_not_season_show"] = FormatPrice($profile["payment_not_season"], $settings_price["cur_position"], $settings_price["cur_format"]);
     $profile["min_payment"] = PaymentFormat($row_payment["min_payment"]);
 		$profile["min_payment_show"] = FormatPrice($profile["min_payment"], $settings_price["cur_position"], $settings_price["cur_format"]);
-		$profile["max_payment"] = PaymentFormat($row_payment["max_payment"]);
-		$profile["max_payment_show"] = FormatPrice($profile["max_payment"], $settings_price["cur_position"], $settings_price["cur_format"]);
-		$profile["act_status"] = ($profile["max_payment"] <= 0) ? 0 : 1;
-		$profile["auction"] = $row_payment["auction"];
-		$profile["min_deposit"] = PaymentFormat($row_payment["min_deposit"]);
-		$profile["min_deposit_show"] = FormatPrice($profile["min_deposit"], $settings_price["cur_position"], $settings_price["cur_format"]);		
-		$profile["max_deposit"] = PaymentFormat($row_payment["max_deposit"]);
-		$profile["max_deposit_show"] = FormatPrice($profile["max_deposit"], $settings_price["cur_position"], $settings_price["cur_format"]);
-		$profile["min_live_square"] = $row_payment["min_live_square"];
-		$profile["max_live_square"] = $row_payment["max_live_square"];
-		$profile["min_total_square"] = $row_payment["min_total_square"];
-		$profile["max_total_square"] = $row_payment["max_total_square"];
-		$profile["min_land_square"] = $row_payment["min_land_square"];
-		$profile["max_land_square"] = $row_payment["max_land_square"];
-		$profile["min_floor"] = $row_payment["min_floor"];
-		$profile["max_floor"] = $row_payment["max_floor"];
-		$profile["floor_num"] = $row_payment["floor_num"];
-		$profile["subway_min"] = $row_payment["subway_min"];
-		$profile["min_year_build"] = $row_payment["min_year_build"];
-		$profile["max_year_build"] = $row_payment["max_year_build"];
+		$profile["offer_type"] = $row_payment["offer_type"];
+		$profile["floor"] = $row_payment["floor"];
+		$profile["floors"] = $row_payment["floors"];
+		$profile["min_flats_square"] = $row_payment["min_flats_square"];
+		$profile["max_flats_square"] = $row_payment["max_flats_square"];
+		$profile["total_square"] = $row_payment["total_square"];
+    $profile["ceil_height"] = $row_payment["ceil_height"];
+    $profile["sea_distance"] = $row_payment["sea_distance"];
+    $profile["term"] = $row_payment["term"];
+    $profile["investor"] = $row_payment["investor"];
+    $profile["parking"] = $row_payment["parking"];
 
 	} elseif ($profile["type"] == "1" || $profile["type"] == "2" || $profile["type"] == "4") {
 		/**
 		 * храним фиксированные значения для объявлений типа сдам в аренду, продам
 		 * в min_<field_name>
 		 */
+    
+    if ($profile['type'] == '1') {
+      $strSQL_payment = "SELECT * FROM " . USERS_RENT_PAYS_TABLE_BY_MONTH . " WHERE id_ad = " . $profile['id'];
+      $rs_payment = $dbconn->Execute($strSQL_payment);
+  		$prices = $rs_payment->GetRowAssoc(false);
+      $profile['price'] = $prices;
+    }
+     
 		$strSQL_payment = "SELECT min_payment, auction, min_deposit,
 							min_live_square, min_total_square,
 							min_land_square, min_floor, floor_num, subway_min, min_year_build,
@@ -1403,39 +1399,41 @@ function SaveProfile($par){
 			if ($_POST["choise"]=="3") {
 				$strSQL = "	UPDATE ".USERS_RENT_PAYS_TABLE." SET
 							min_payment='".intval($_REQUEST["min_payment"])."',
-							max_payment='".intval($_REQUEST["max_payment"])."',
-							auction='".intval($_REQUEST["auction"])."',
-							min_deposit='".intval($_REQUEST["min_deposit"])."',
-							max_deposit='".intval($_REQUEST["max_deposit"])."',
-							min_live_square='".intval($_REQUEST["min_live_square"])."',
-							max_live_square='".intval($_REQUEST["max_live_square"])."',
-							min_total_square='".intval($_REQUEST["min_total_square"])."',
-							max_total_square='".intval($_REQUEST["max_total_square"])."',
-							min_land_square='".intval($_REQUEST["min_land_square"])."',
-							max_land_square='".intval($_REQUEST["max_land_square"])."',
-							min_floor='".intval($_REQUEST["min_floor"])."',
-							max_floor='".intval($_REQUEST["max_floor"])."',
-							floor_num='".intval($_REQUEST["floor_num"])."',
-							subway_min='".intval($_REQUEST["subway_min"])."',
-							min_year_build='".intval($_REQUEST["min_year_build"])."',
-							max_year_build='".intval($_REQUEST["max_year_build"])."',
-              furniture='".mysql_real_escape_string($_REQUEST["furniture"])."'
+							min_flats_square='".floatval($_REQUEST["min_flats_square"])."',
+							max_flats_square='".floatval($_REQUEST["max_flats_square"])."',
+							total_square='".floatval($_REQUEST["total_square"])."',
+							ceil_height='".floatval($_REQUEST["ceil_height"])."',
+							sea_distance='".mysql_real_escape_string($_REQUEST["sea_distance"])."',
+							term='".mysql_real_escape_string($_REQUEST["term"])."',
+							floor='".intval($_REQUEST["floor"])."',
+							floors='".intval($_REQUEST["floors"])."',
+							investor='".mysql_real_escape_string($_REQUEST["investor"])."',
+							parking='".mysql_real_escape_string($_REQUEST["parking"])."',
+              offer_type='".mysql_real_escape_string($_REQUEST["offer_type"])."'
 							WHERE id_ad='".$id_ad."' AND id_user='1' ";
-				$dbconn->Execute($strSQL);
-				$strSQL = "UPDATE ".RENT_ADS_TABLE." SET
-						   with_photo='".(($_REQUEST["with_photo"] == "on") ? 1 : 0)."',
-						   with_video='".(($_REQUEST["with_video"] == "on") ? 1 : 0)."'
-						   WHERE id_user='1' AND id='".$id_ad."' ";
 				$dbconn->Execute($strSQL);
 			} elseif ($_POST["choise"]=="1" || $_POST["choise"]=="2" || $_POST["choise"]=="4") {
 				//i have/sell realty
 				$min_payment = intval($_REQUEST["min_payment"]);
-				if (!$min_payment) {
-					$_SESSION["step_3"] = $_POST;
-					EditProfile("step_3", "empty_fields");
-					exit;
-				}
-
+				
+        if ($_POST['choise'] == 1) {
+          $sql = 'DELETE FROM ' . USERS_RENT_PAYS_TABLE_BY_MONTH . ' WHERE id_ad = ' . intval($id_ad);
+          $dbconn->Execute($strSQL);
+          $sql = 'INSERT INTO ' . USERS_RENT_PAYS_TABLE_BY_MONTH . ' 
+                  VALUES (' . intval($id_ad) . ', ' . intval($_POST['payment']['january']) . ', ' . intval($_POST['payment']['february']) . ',
+                          ' . intval($_POST['payment']['march']) . ', ' . intval($_POST['payment']['april']) . ', ' . intval($_POST['payment']['may']) . ',
+                          ' . intval($_POST['payment']['june']) . ', ' . intval($_POST['payment']['july']) . ', ' . intval($_POST['payment']['august']) . ',
+                          ' . intval($_POST['payment']['september']) . ', ' . intval($_POST['payment']['october']) . ', ' . intval($_POST['payment']['november']) . ',
+                          ' . intval($_POST['payment']['december']) . ')';
+          $dbconn->Execute($sql);
+        } else {
+          if (!$min_payment) {
+  					$_SESSION["step_3"] = $_POST;
+  					EditProfile("step_3", "empty_fields");
+  					exit;
+  				}
+        }
+        
 				$strSQL = "	UPDATE ".USERS_RENT_PAYS_TABLE." SET
 							payment_not_season='".intval($_REQUEST["payment_not_season"])."',
               min_payment='".intval($_REQUEST["min_payment"])."',
@@ -1452,7 +1450,8 @@ function SaveProfile($par){
 							WHERE id_ad='".$id_ad."' AND id_user='1' ";
 				$dbconn->Execute($strSQL);
 			}
-			$used_references = array("info", "period", "realty_type", "description", "theme_rest");
+			
+      $used_references = array("info", "period", "realty_type", "description", "theme_rest");
 			
 			foreach ($REFERENCES as $arr) {
 				if (in_array($arr["key"], $used_references)) {
@@ -1464,6 +1463,7 @@ function SaveProfile($par){
 					}
 				}
 			}
+      
 			$_SESSION["step_3"] = $_POST;
 			$_SESSION["from_edit"] = $data["from_edit"];
 		break;
@@ -2189,14 +2189,6 @@ function UserAd($par=''){
 		}
 	}
 
-	$used_references = array("gender", "people", "language");
-	foreach ($REFERENCES as $arr) {
-		if (in_array($arr["key"], $used_references)) {
-			$data_2[$arr["key"]] = SprTableSelectAdmin($arr["spr_user_table"], $id_ad, 1, $arr["spr_table"]);
-			$data_2[$arr["key"]."_match"] = SprTableSelectAdmin($arr["spr_match_table"], $id_ad, 1, $arr["spr_table"]);
-		}
-	}
-
 	if ($ad["type"] == "3") {
 		$strSQL = "SELECT id_country, id_region, id_city, zip_code, street_1, street_2, adress FROM ".USERS_RENT_LOCATION_TABLE." WHERE id_user='1' AND id_ad='".$id_ad."' ";
 		$rs = $dbconn->Execute($strSQL);
@@ -2212,43 +2204,29 @@ function UserAd($par=''){
 
 		$_SESSION["step_1"] = $data_location;
 
-		$strSQL = " SELECT min_payment, max_payment, auction, min_deposit, max_deposit,
-					min_live_square, max_live_square, min_total_square, max_total_square,
-					min_land_square, max_land_square, min_floor,  max_floor, floor_num, subway_min,
-					min_year_build, max_year_build
+		$strSQL = " SELECT min_payment, offer_type, floor, floors, min_flats_square, max_flats_square,
+          total_square, ceil_height, sea_distance, term, investor, parking
 					FROM ".USERS_RENT_PAYS_TABLE."
 					WHERE id_ad='".$id_ad."' AND id_user='1'";
 
 		$rs = $dbconn->Execute($strSQL);
 		$row = $rs->GetRowAssoc(false);
 		$data_1["min_payment"] = $row["min_payment"];
-		$data_1["max_payment"] = $row["max_payment"];
-		$data_1["act_status"] = ($row["max_payment"] <= 0) ? 0 : 1;		
-		$data_1["auction"] = $row["auction"];
-		$data_1["min_deposit"] = $row["min_deposit"];
-		$data_1["max_deposit"] = $row["max_deposit"];
-		$data_1["min_live_square"] = $row["min_live_square"];
-		$data_1["max_live_square"] = $row["max_live_square"];
-		$data_1["min_total_square"] = $row["min_total_square"];
-		$data_1["max_total_square"] = $row["max_total_square"];
-		$data_1["min_land_square"] = $row["min_land_square"];
-		$data_1["max_land_square"] = $row["max_land_square"];
-		$data_1["min_floor"] = $row["min_floor"];
-		$data_1["max_floor"] = $row["max_floor"];
-		$data_1["floor_num"] = $row["floor_num"];
-		$data_1["subway_min"] = $row["subway_min"];
-		$data_1["min_year_build"] = $row["min_year_build"];
-		$data_1["max_year_build"] = $row["max_year_build"];
+		$data_1["offer_type"] = $row["offer_type"];
+		$data_1["floor"] = $row["floor"];
+		$data_1["floors"] = $row["floors"];
+		$data_1["min_flats_sqare"] = $row["min_flats_sqare"];
+		$data_1["max_flats_square"] = $row["max_flats_square"];
+		$data_1["total_square"] = $row["total_square"];
+		$data_1["ceil_height"] = $row["ceil_height"];
+		$data_1["sea_distance"] = $row["sea_distance"];
+		$data_1["term"] = $row["term"];
+		$data_1["investor"] = $row["investor"];
+		$data_1["parking"] = $row["parking"];
 
-		$data_1["move_year"] = date("Y", $ad["movedate"]);
-		$data_1["move_month"] = date("m", $ad["movedate"]);
-		$data_1["move_day"] = date("d", $ad["movedate"]);
 		$_SESSION["from_edit"] = 1;
 
 		$_SESSION["step_3"] = $data_1;
-
-		
-		$data_2["total_people"] = $ad["people_count"];
 
 		$_SESSION["step_4"] = $data_2;
 	} elseif ($ad["type"] == "1" || $ad["type"] == "2" || $ad["type"] == "4") {

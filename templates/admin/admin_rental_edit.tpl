@@ -196,41 +196,37 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 			<td>
 			<table cellpadding="5" cellspacing="0" border="0" width="100%">
 			{if ($choise eq '3')}
-			<!-- deposit -->
-			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.deposit}:</td>
-				<td align="left">
-					<table cellpadding="0" cellspacing="0" border="0">
-					<tr>
-						<td style="padding: 0px; padding-right: 5px;">{$lang.content.from}</td>
-						<td align="right"><input type="text" class="str" value="{$data.min_deposit}" name="min_deposit" id="min_deposit" style="width: 50px;"'></td>
-						<td style="padding: 0px; padding-left: 5px; padding-right: 5px;">{$lang.content.upto}</td>
-						<td><input type="text" class="str" value="{$data.max_deposit}" name="max_deposit" id="max_deposit" style="width: 50px;"'></td>
-						<td>&nbsp;{$cur}</td>
-						<td>
-							<div class="error" id="min_deposit_error" style="display: none;">&nbsp;&nbsp;{$lang.errors.incorrect_field}</div>
-							<div class="error" id="max_deposit_error" style="display: none;">&nbsp;&nbsp;{$lang.errors.incorrect_field}</div>
-							<div class="error" id="bad_deposit_error" style="display: none;">&nbsp;&nbsp;{$lang.content.deposit_min_more_max}</div>
-						</td>
-					</tr>
-					</table>
-				</td>
-			</tr>
-			<!-- date -->
-			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.move_date}:&nbsp;<font class="error">*</font></td>
-				<td align="left">
-					<select name="move_month">
-					{foreach item=item from=$month}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.name}</option>{/foreach}
-					</select>
-					<select name="move_day">
-					{foreach item=item from=$day}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.value}</option>{/foreach}
-					</select>
-					<select name="move_year">
-					{foreach item=item from=$year}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.value}</option>{/foreach}
-					</select>
-				</td>
-			</tr>
+        <!-- price -->
+        <tr>
+  				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.price}:&nbsp;<font class="error">*</font></td>
+  				<td align="left">
+  					<table cellpadding="0" cellspacing="0" border="0">
+  					<tr>
+  						<td align="right"><input type="text" class="str" name="min_payment" id="min_payment" value="{$data.min_payment}" size="7">&nbsp;{$cur}</td>
+  						<td>
+  							<span name="min_payment_error" id="min_payment_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+  						</td>
+  					</tr>
+  					</table>
+  				</td>
+  			</tr>
+        <!-- /price -->
+        
+        <!-- offer_type -->
+        <tr>
+  				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.offer_type}:&nbsp;<font class="error">*</font></td>
+  				<td align="left">
+  					<table cellpadding="0" cellspacing="0" border="0">
+  					<tr>
+  						<td style="text-align: left;">
+                <input type="radio" name="offer_type" value="sell" {if $data.offer_type eq 'sell' || !$data.offer_type} checked="checked" {/if} /> {$lang.content.sell}<br /><input type="radio" name="offer_type" value="rent" {if $data.offer_type eq 'rent'} checked="checked" {/if}/> {$lang.content.rent}<br />
+              </td>
+  					</tr>
+  					</table>
+  				</td>
+  			</tr>
+        <!-- /offer_type -->
+      
 			<!-- type -->
 			{section name=f loop=$realty_type}
 				{if $realty_type[f].visible_in ne 3}<!--visibility checking-->
@@ -258,29 +254,147 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 				{/if}
 			{/section}
 			<!-- /type -->
-			<!-- year build -->
+			<!-- floor -->
 			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.year_build}:</td>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.floor}:</td>
 				<td align="left">
 					<table cellpadding="0" cellspacing="0" border="0">
 					<tr>
-						<td style="padding: 0px; padding-right: 5px;">{$lang.content.from_1}</td>
-						<td align="right"><input type="text" class="str" value="{$data.min_year_build}" name="min_year_build" id="min_year_build" style="width: 50px;"'></td>
-						<td style="padding: 0px; padding-left: 5px; padding-right: 5px;">{$lang.content.upto_1}</td>
-						<td><input type="text" class="str" value="{$data.max_year_build}" name="max_year_build" id="max_year_build" style="width: 50px;"'></td>
+						<td align="right"><input type="text" class="str" value="{$data.floor}" name="floor" id="floor" style="width: 50px;" /></td>
 						<td>
-							<div class="error" id="min_year_build_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="max_year_build_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="bad_year_build_error" style="display: none;">&nbsp;&nbsp;{$lang.content.year_build_min_more_max}</div>
+							<div class="error" id="floor_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
 						</td>
 					</tr>
 					</table>
 				</td>
 			</tr>
-			<!-- /year build -->
+			<!-- /floor -->
+      <!-- floors -->
+			<tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.floors}:</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td align="right"><input type="text" class="str" value="{$data.floors}" name="floors" id="floors" style="width: 50px;" /></td>
+						<td>
+							<div class="error" id="floors_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- /floors -->
+			<!-- square -->
+			<tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.flats_square}:</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td style="padding: 0px; padding-right: 5px;">{$lang.content.from}</td>
+						<td align="right"><input type="text" class="str" value="{$data.min_flats_square}" name="min_flats_square" id="min_flats_square" style="width: 50px;"/></td>
+						<td style="padding: 0px; padding-left: 5px; padding-right: 5px;">{$lang.content.upto}</td>
+						<td><input type="text" class="str" value="{$data.max_flats_square}" name="max_flats_square" id="max_flats_square" style="width: 50px;"/></td>
+						<td>&nbsp;{$sq_meters}</td>
+						<td align="left">
+							<div class="error" id="flats_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.total_square}:</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td align="right"><input type="text" class="str" value="{$data.total_square}" name="total_square" id="total_square" style="width: 50px;"/></td>
+						<td>&nbsp;{$sq_meters}</td>
+						<td>
+							<div class="error" id="total_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- /square -->
+      <!-- ceil_height -->
+			<tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.ceil_height}:</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td align="right"><input type="text" class="str" value="{$data.ceil_height}" name="ceil_height" id="ceil_height" style="width: 50px;" /></td>
+						<td>
+							<div class="error" id="ceil_height_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- /ceil_height -->
+      <!-- distance to sea -->
+			<tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.sea_distance}:</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td align="right"><input type="text" class="str" value="{$data.sea_distance}" name="sea_distance" id="sea_distance" style="width: 50px;" /></td>
+						<td>
+							<div class="error" id="sea_distance_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- /distance to sea -->
+      <!-- term -->
+			<tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.term}:</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td align="right"><input type="text" class="str" value="{$data.term}" name="term" id="term" style="width: 50px;" /></td>
+						<td>
+							<div class="error" id="term_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- /term -->
+      <!-- investor -->
+			<tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.investor}:</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td align="right"><input type="text" class="str" value="{$data.investor}" name="investor" id="investor" style="width: 50px;" /></td>
+						<td>
+							<div class="error" id="investor_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- /investor -->
+      <!-- parking -->
+			<tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.parking}:</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td align="right"><textarea name="parking" style="width: 200px;">{$data.parking}</textarea></td>
+						<td>
+							<div class="error" id="parking_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- /parking -->
 			<!-- description -->
 			{section name=f loop=$description}
-				{if $description[f].visible_in ne 3}<!--visibility checking-->
+				{if $description[f].visible_in eq 3}<!--visibility checking-->
 					<tr>
 						<td width="110" valign="top" style="padding-top: 10px;" {if $smarty.section.f.index is not div by 2 && $description[f].des_type ne 2}bgcolor="#eeeff3"{/if}>{$description[f].name}:&nbsp;<input type=hidden name="spr_description[{$description[f].num}]" value="{$description[f].id}"></td>
 						{if $description[f].des_type eq 2}
@@ -322,103 +436,9 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 				{/if}
 			{/section}
 			<!-- /description -->
-			<!-- square -->
-			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.live_square}:</td>
-				<td align="left">
-					<table cellpadding="0" cellspacing="0" border="0">
-					<tr>
-						<td style="padding: 0px; padding-right: 5px;">{$lang.content.from}</td>
-						<td align="right"><input type="text" class="str" value="{$data.min_live_square}" name="min_live_square" id="min_live_square" style="width: 50px;"'></td>
-						<td style="padding: 0px; padding-left: 5px; padding-right: 5px;">{$lang.content.upto}</td>
-						<td><input type="text" class="str" value="{$data.max_live_square}" name="max_live_square" id="max_live_square" style="width: 50px;"'></td>
-						<td>&nbsp;{$sq_meters}</td>
-						<td align="left">
-							<div class="error" id="min_live_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="max_live_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="bad_live_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.live_square_min_more_max}</div>
-						</td>
-					</tr>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.total_square}:</td>
-				<td align="left">
-					<table cellpadding="0" cellspacing="0" border="0">
-					<tr>
-						<td style="padding: 0px; padding-right: 5px;">{$lang.content.from}</td>
-						<td align="right"><input type="text" class="str" value="{$data.min_total_square}" name="min_total_square" id="min_total_square" style="width: 50px;"'></td>
-						<td style="padding: 0px; padding-left: 5px; padding-right: 5px;">{$lang.content.upto}</td>
-						<td><input type="text" class="str" value="{$data.max_total_square}" name="max_total_square" id="max_total_square" style="width: 50px;"'></td>
-						<td>&nbsp;{$sq_meters}</td>
-						<td>
-							<div class="error" id="min_total_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="max_total_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="bad_total_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.total_square_min_more_max}</div>
-						</td>
-					</tr>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.land_square}:</td>
-				<td align="left">
-					<table cellpadding="0" cellspacing="0" border="0">
-					<tr>
-						<td style="padding: 0px; padding-right: 5px;">{$lang.content.from}</td>
-						<td align="right"><input type="text" class="str" value="{$data.min_land_square}" name="min_land_square" id="min_land_square" style="width: 50px;"'></td>
-						<td style="padding: 0px; padding-left: 5px; padding-right: 5px;">{$lang.content.upto}</td>
-						<td><input type="text" class="str" value="{$data.max_land_square}" name="max_land_square" id="max_land_square" style="width: 50px;"'></td>
-						<td>&nbsp;{$sq_meters}</td>
-						<td>
-							<div class="error" id="min_land_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="max_land_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="bad_land_square_error" style="display: none;">&nbsp;&nbsp;{$lang.content.land_square_min_more_max}</div>
-						</td>
-					</tr>
-					</table>
-				</td>
-			</tr>
-			<!-- /square -->
-			<!-- floor -->
-			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.floor_variants}:</td>
-				<td align="left">
-					<table cellpadding="0" cellspacing="0" border="0">
-					<tr>
-						<td style="padding: 0px; padding-right: 5px;">{$lang.content.from_1}</td>
-						<td align="right"><input type="text" class="str" value="{$data.min_floor}" name="min_floor" id="min_floor" style="width: 50px;"'></td>
-						<td style="padding: 0px; padding-left: 5px; padding-right: 5px;">{$lang.content.upto_1}</td>
-						<td><input type="text" class="str" value="{$data.max_floor}" name="max_floor" id="max_floor" style="width: 50px;"'></td>
-						<td>&nbsp;{$lang.content.floor}</td>
-						<td>
-							<div class="error" id="min_floor_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="max_floor_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
-							<div class="error" id="bad_floor_error" style="display: none;">&nbsp;&nbsp;{$lang.content.floor_min_more_max}</div>
-						</td>
-					</tr>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.floor_num_max_limitation}:&nbsp;</td>
-				<td><input type="text" class="str" value="{$data.floor_num}" name="floor_num" id="floor_num" style="width: 50px;"'>&nbsp;{$lang.content.of_floors}
-					<span class="error" name="floor_num_error" id="floor_num_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
-				</td>
-			</tr>
-			<!-- /floor -->
-			<!-- subway_min -->
-			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.subway_min}:&nbsp;</td>
-				<td class="text_small" align="left"><input type="text" class="str" name="subway_min" id="subway_min" size="10" value="{$data.subway_min}"'>&nbsp;{$lang.content.minutes}
-					<span class="error" id="subway_min_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
-				</td>
-			</tr>
-			<!-- /subway_min -->
 			<!-- info -->
 			{section name=f loop=$info}
-				{if $info[f].visible_in ne 3}<!--visibility checking-->
+				{if $info[f].visible_in eq 3}<!--visibility checking-->
 					<tr>
 						<td width="110" valign="top" style="padding-top: 10px;" {if $smarty.section.f.index is not div by 2 && $info[f].des_type ne 2}bgcolor="#eeeff3"{/if}>{$info[f].name}:&nbsp;<input type=hidden name="spr_info[{$info[f].num}]" value="{$info[f].id}"></td>
 						{if $info[f].des_type eq 2}
@@ -460,32 +480,6 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 				{/if}
 			{/section}
 			<!-- /info -->
-			<!-- with photo -->
-			<tr>
-				<td width="110" align="absmiddle">{$lang.content.photo_exist}:&nbsp;</td>
-				<td class="text_small" align="left">
-					<table cellpadding="0" cellspacing="0" border="0">
-						<tr>
-							<td align="absmiddle"><input type="checkbox" name="with_photo" id="with_photo" {if $data.with_photo == 1}checked{/if}></td>
-							<td align="absmiddle">{$lang.content.only_with}</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<!-- /with photo -->
-			<!-- with video -->
-			<tr>
-				<td width="110" align="absmiddle">{$lang.content.video_exist}:&nbsp;</td>
-				<td class="text_small" align="left">
-					<table cellpadding="0" cellspacing="0" border="0">
-						<tr>
-							<td align="absmiddle"><input type="checkbox" name="with_video" id="with_video" {if $data.with_video == 1}checked{/if}></td>
-							<td align="absmiddle">{$lang.content.only_with}</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<!-- /with video -->
 			<tr>
 				<td colspan="2" align="left">
 					<input type="button" value="{$lang.buttons.save}" id="next_btn" class="button_3" onclick="{literal}javascript: if (CheckStep('step_3')) {document.step_3.action='{/literal}{$form.next_link}{literal}'; document.step_3.submit();}{/literal}">
@@ -493,19 +487,65 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 			</tr>
 			{else}<!-- have / sell realty -->
 			<!-- price -->
-			<tr>
-				<td width="110" valign="top" style="padding-top: 10px;">{if $choise eq '2'}{$lang.content.price_season}{else}{$lang.content.price}{/if}:&nbsp;<font class="error">*</font></td>
-				<td align="left">
-					<table cellpadding="0" cellspacing="0" border="0">
+        {if $choise eq 2 || $choise eq 4}
+    			<tr>
+    				<td width="110" valign="top" style="padding-top: 10px;">{if $choise eq '2'}{$lang.content.price_season}{else}{$lang.content.price}{/if}:&nbsp;<font class="error">*</font></td>
+    				<td align="left">
+    					<table cellpadding="0" cellspacing="0" border="0">
+    					<tr>
+    						<td align="right"><input type="text" class="str" name="min_payment" id="min_payment" value="{$data.min_payment}" size="7">&nbsp;{$cur}</td>
+    						<td>
+    							<span name="min_payment_error" id="min_payment_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+    						</td>
+    					</tr>
+    					</table>
+    				</td>
+    			</tr>
+        {/if}
+        {if $choise eq 1}
+					<!-- payment by month -->
 					<tr>
-						<td align="right"><input type="text" class="str" name="min_payment" id="min_payment" value="{$data.min_payment}" size="7">&nbsp;{$cur}</td>
+						<td width="200"><b>{$lang.content.price_by_month}:&nbsp;</b></td>
 						<td>
-							<span name="min_payment_error" id="min_payment_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+              <table>
+                <tr>
+                  <td>{$lang.content.january}</td>
+                  <td>{$lang.content.february}</td>
+                  <td>{$lang.content.march}</td>
+                  <td>{$lang.content.april}</td>
+                  <td>{$lang.content.may}</td>
+                  <td>{$lang.content.june}</td>
+                  <td>{$lang.content.july}</td>
+                  <td>{$lang.content.august}</td>
+                  <td>{$lang.content.september}</td>
+                  <td>{$lang.content.october}</td>
+                  <td>{$lang.content.november}</td>
+                  <td>{$lang.content.december}</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><input type="text" style="width: 40px;" name="payment[january]" id="payment_january" value="{$profile.price.january}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[february]" id="payment_february" value="{$profile.price.february}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[march]" id="payment_march" value="{$profile.price.march}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[april]" id="payment_april" value="{$profile.price.april}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[may]" id="payment_may" value="{$profile.price.may}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[june]" id="payment_june" value="{$profile.price.june}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[july]" id="payment_july" value="{$profile.price.july}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[august]" id="payment_august" value="{$profile.price.august}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[september]" id="payment_september" value="{$profile.price.september}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[october]" id="payment_october" value="{$profile.price.october}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[november]" id="payment_november" value="{$profile.price.november}" /></td>
+                  <td><input type="text" style="width: 40px;" name="payment[december]" id="payment_december" value="{$profile.price.december}" /></td>
+                  <td>{$cur}</td>
+                </tr>
+              </table>
+            </td>
+            <td>
+    				  <span name="payment_error" id="payment_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
 						</td>
 					</tr>
-					</table>
-				</td>
-			</tr>
+					<!-- /payment by month -->
+				{/if}
         {if $choise eq 2}
           <tr>
     				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.price_not_season}: </td>
@@ -539,48 +579,6 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 				</td>
 			</tr>
 			<!-- /furniture -->
-			{if $choise eq '2'}
-				<!-- period -->
-				{section name=f loop=$period}
-					{if $period[f].visible_in ne 3}<!--visibility checking-->
-						<tr>
-							<td width="110" valign="top" style="padding-top: 10px;" {if $smarty.section.f.index is not div by 2 && $period[f].des_type ne 2}bgcolor="#eeeff3"{/if}>{$period[f].name}:&nbsp;<input type=hidden name="spr_period[{$period[f].num}]" value="{$period[f].id}"></td>
-							{if $period[f].des_type eq 2}
-							<td align="left">
-								<select id="period{$period[f].num}" name="period[{$period[f].num}][]"  style="width:150px" {if $period[f].type eq 2}multiple{/if}>
-								<option value="" {if !$item.sel} selected {/if} >{$lang.content.no_answer}</option>
-								{foreach item=item from=$period[f].opt}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.name}</option>{/foreach}
-								</select>
-							</td>
-							{else}
-							<td align="left" {if $smarty.section.f.index is not div by 2}bgcolor="#eeeff3"{/if}>
-								<table cellpadding="2" cellspacing="0" border="0">
-								{section name=s loop=$period[f].opt}
-								{if $smarty.section.s.index is div by 4}<tr>{/if}
-								<td width="15" height="30"><input type="checkbox" name="period[{$period[f].num}][]" value="{$period[f].opt[s].value}"  {if $period[f].opt[s].sel} checked {/if}></td>
-								<td width="130">{$period[f].opt[s].name}</td>
-								{if $smarty.section.s.index_next is div by 4 || $smarty.section.s.last}</tr>{/if}
-								{/section}
-								</table>
-							</td>
-							{/if}
-						</tr>
-						{if $period[f].des_type ne 2}
-						<tr {if $smarty.section.f.index is not div by 2}bgcolor="#eeeff3"{/if}>
-							<td colspan="2" style="padding-left: 5px;">
-								<table cellpadding="0" cellspacing="0">
-								<tr>
-									<td><span class="blue_link" onclick="javascript: SelAll('period',{$smarty.section.f.index}, 'step_3');">{$lang.content.sel_all_text}</span></td>
-									<td style="padding-left: 5px;"><span class="blue_link" onclick="UnSelAll('period',{$smarty.section.f.index}, 'step_3');">{$lang.content.unsel_all_text}</span></td>
-								</tr>
-								</table>
-							</td>
-						</tr>
-						{/if}
-					{/if}
-				{/section}
-				<!-- /period -->
-			{/if}
 			<!-- description -->
 			{section name=f loop=$description}
 				{if $description[f].visible_in ne 3}<!--visibility checking-->
@@ -1537,7 +1535,7 @@ function CheckStep(step) {
 
 function CheckRangeIntegerFields( step ){
 	if (step == "step_3") {
-		var id_arr = new Array('payment');
+		var id_arr = new Array();
 		var reg_expr = new Array();
 		reg_expr['payment'] = '^[1-9]+[0-9]*$';
 
@@ -1611,12 +1609,19 @@ function CheckRangeIntegerFields( step ){
 function CheckIntegerFields( step, choise ){
 	if (step == "step_3") {
 		if (choise == 3) {
-			var id_arr = new Array('floor_num', 'subway_min');
+			var id_arr = new Array('min_payment');
 			var reg_expr = new Array();
-		} else if (choise == 1 || choise == 2 || choise == 4) {
+      reg_expr['min_payment'] = '^[1-9]+[0-9]*$';
+		} else if (choise == 2 || choise == 4) {
 			var id_arr = new Array('min_payment');
 			var reg_expr = new Array();
 			reg_expr['min_payment'] = '^[1-9]+[0-9]*$';
+		} else if (choise == 1) {
+		  var id_arr = new Array('payment_january', 'payment_february', 'payment_march', 'payment_april', 'payment_may',
+      'payment_june', 'payment_july', 'payment_august', 'payment_september', 'payment_october', 'payment_november',
+      'payment_december');
+			var reg_expr = new Array();
+			reg_expr['payment'] = '^[1-9]+[0-9]*$';
 		}
 
 		id_arr_cnt = id_arr.length;
@@ -1624,31 +1629,39 @@ function CheckIntegerFields( step, choise ){
 		for (i = 0; i < id_arr_cnt; i++) {
 			name = id_arr[i];
 			value = document.getElementById(name).value;
-
-			if (name == "min_payment") {
-				/* mandatory field */
-				if (value.search(reg_expr[id_arr[i]]) ==-1) {
-					document.getElementById(name + '_error').style.display = '';
+      if (choise == 1) {
+        if (value.search(reg_expr['payment']) ==-1) {
+					document.getElementById('payment_error').style.display = '';
 					error_cnt++;
 				} else {
-					document.getElementById(name + '_error').style.display = 'none';
+					document.getElementById('payment_error').style.display = 'none';
 				}
-			} else if (name == "min_year_build") {
-				/* year build can not be bigger, then current year */
-				if (value != "" && value != 0 && (value.search(reg_expr[id_arr[i]]) ==-1 || value > "{/literal}{$current_year}{literal}")) {
-					document.getElementById(name + '_error').style.display = '';
-					error_cnt++;
-				} else {
-					document.getElementById(name + '_error').style.display = 'none';
-				}
-			} else {
-				if (value != "" && value != 0 && value.search(reg_expr[id_arr[i]]) ==-1) {
-					document.getElementById(name + '_error').style.display = '';
-					error_cnt++;
-				} else {
-					document.getElementById(name + '_error').style.display = 'none';
-				}
-			}
+      } else {
+  			if (name == "min_payment") {
+  				/* mandatory field */
+  				if (value.search(reg_expr[id_arr[i]]) ==-1) {
+  					document.getElementById(name + '_error').style.display = '';
+  					error_cnt++;
+  				} else {
+  					document.getElementById(name + '_error').style.display = 'none';
+  				}
+  			} else if (name == "min_year_build") {
+  				/* year build can not be bigger, then current year */
+  				if (value != "" && value != 0 && (value.search(reg_expr[id_arr[i]]) ==-1 || value > "{/literal}{$current_year}{literal}")) {
+  					document.getElementById(name + '_error').style.display = '';
+  					error_cnt++;
+  				} else {
+  					document.getElementById(name + '_error').style.display = 'none';
+  				}
+  			} else {
+  				if (value != "" && value != 0 && value.search(reg_expr[id_arr[i]]) ==-1) {
+  					document.getElementById(name + '_error').style.display = '';
+  					error_cnt++;
+  				} else {
+  					document.getElementById(name + '_error').style.display = 'none';
+  				}
+  			}
+      }
 		}
 		if (error_cnt == 0) {
 			return true;

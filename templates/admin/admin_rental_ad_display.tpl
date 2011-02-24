@@ -39,8 +39,8 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 					<tr>
 						<td colspan="2" style="font-size: 14px;">
 							<b>{if $profile.type eq '1'}{$lang.content.category_wild}
-							{elseif $profile.type eq '2'}{$lang.content.category_realty}
-							{elseif $profile.type eq '3'}{$lang.content.category_tours}
+							{elseif $profile.type eq '2'}{$lang.content.category_tours}
+							{elseif $profile.type eq '3'}{$lang.content.category_realty}
 							{elseif $profile.type eq '4'}{$lang.content.category_active}
 							{/if}</b>
 						</td>
@@ -49,32 +49,6 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 						<td width="200" height="15"><b>{$lang.content.location}:</b>&nbsp;</td>
 						<td>{$profile.country_name}{if $profile.region_name},&nbsp;&nbsp;{$profile.region_name}{/if}{if $profile.city_name},&nbsp;&nbsp;{$profile.city_name}{/if}</td>
 					</tr>
-					{if $profile.type eq 2}
-						{if $profile.zip_code}
-						<tr>
-							<td height="15"><b>{$lang.content.zip_code}:&nbsp;</b></td>
-							<td>{$profile.zip_code}</td>
-						</tr>
-						{/if}
-						{if $profile.street_1 && $profile.street_2}
-						<tr>
-							<td height="15"><b>{$lang.content.cross_streets}:&nbsp;</b></td>
-							<td>{$profile.street_1}&nbsp;&&nbsp;{$profile.street_2}</td>
-						</tr>
-						{/if}
-						{if $profile.adress}
-						<tr>
-							<td height="15"><b>{$lang.content.adress}:&nbsp;</b></td>
-							<td>{$profile.adress}</td>
-						</tr>
-						{/if}
-					{/if}
-					{if $profile.subway_name}
-					<tr>
-						<td height="15"><b>{$lang.content.subway_name}:</b></td>
-						<td>{$profile.subway_name}</td>
-					</tr>
-					{/if}
 				</table>
         <hr class="listing">
 			</td>
@@ -94,26 +68,30 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=add_rent">{$lang.buttons.change}</a></td>
 		</tr>
 		{/if}
-    <tr><td colspan="2"><hr class="listing"></td></tr>
-		<tr>			
-			<td>
-				<table cellpadding="3" cellspacing="0">
-					<tr>
-						<td height="15" width="200"><b>{$lang.content.offer_type}:</b></td>
-						<td>
-              {if !$profile.parent_id}
-                {$lang.content.type_parent}
-              {/if}
-              {if $profile.parent_id}
-                {$lang.content.type_child}
-                <br />{$lang.content.parent}: {$profile.parent}
-              {/if}
-            </td>						
-					</tr>					
-				</table>
-			</td>
-			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_type&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
-		</tr>
+    
+    {if $profile.type neq '3'}
+      <tr><td colspan="2"><hr class="listing"></td></tr>
+  		<tr>			
+  			<td>
+  				<table cellpadding="3" cellspacing="0">
+  					<tr>
+  						<td height="15" width="200"><b>{$lang.content.offer_type}:</b></td>
+  						<td>
+                {if !$profile.parent_id}
+                  {$lang.content.type_parent}
+                {/if}
+                {if $profile.parent_id}
+                  {$lang.content.type_child}
+                  <br />{$lang.content.parent}: {$profile.parent}
+                {/if}
+              </td>						
+  					</tr>					
+  				</table>
+  			</td>
+  			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_type&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
+  		</tr>
+    {/if}    
+        
 		<tr><td colspan="2"><hr class="listing"></td></tr>
 		<tr>			
 			<td>
@@ -151,16 +129,59 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 		<tr>
 			<td>
 				<table cellpadding="3" cellspacing="0" border="0" class="table_top">
-				{if ($profile.type eq '2' || $profile.type eq '4' || $profile.type eq '1')}
+				{if ($profile.type eq '2' || $profile.type eq '4' || $profile.type eq '1' || $profile.type eq '3')}
 				<!-- have/sell realty -->
-					{if $profile.min_payment>0}
-						<tr>
+					{if $profile.min_payment>0 || $profile.price}
+						{if $profile.type eq 2 || $profile.type eq 4 || $profile.type eq 3}
+            <tr>
 							<td colspan="2">{$lang.content.ad_text_1}</td>
 						</tr>
 						<tr>
 							<td width="200"><b>{if $profile.type eq 2}{$lang.content.price_season}{else}{$lang.content.price}{/if}:&nbsp;</b></td>
 							<td>{$profile.min_payment_show}</td>
 						</tr>
+            {/if}
+            {if $profile.type eq 1}
+							<!-- payment by month -->
+							<tr>
+  							<td width="200"><b>{$lang.content.price_by_month}:&nbsp;</b></td>
+  							<td>
+                  <table>
+                    <tr>
+                      <td>{$lang.content.january}</td>
+                      <td>{$lang.content.february}</td>
+                      <td>{$lang.content.march}</td>
+                      <td>{$lang.content.april}</td>
+                      <td>{$lang.content.may}</td>
+                      <td>{$lang.content.june}</td>
+                      <td>{$lang.content.july}</td>
+                      <td>{$lang.content.august}</td>
+                      <td>{$lang.content.september}</td>
+                      <td>{$lang.content.october}</td>
+                      <td>{$lang.content.november}</td>
+                      <td>{$lang.content.december}</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>{$profile.price.january}</td>
+                      <td>{$profile.price.february}</td>
+                      <td>{$profile.price.march}</td>
+                      <td>{$profile.price.april}</td>
+                      <td>{$profile.price.may}</td>
+                      <td>{$profile.price.june}</td>
+                      <td>{$profile.price.july}</td>
+                      <td>{$profile.price.august}</td>
+                      <td>{$profile.price.september}</td>
+                      <td>{$profile.price.october}</td>
+                      <td>{$profile.price.november}</td>
+                      <td>{$profile.price.december}</td>
+                      <td>{$cur}</td>
+                    </tr>
+                  </table>
+                </td>
+  						</tr>
+							<!-- /payment by month -->
+						{/if}
 						{if $profile.type eq 2}
 							<!-- payment not season -->
 							<tr>
@@ -223,22 +244,40 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 							<td>{$profile.min_land_square}&nbsp;{$sq_meters}</td>
 						</tr>
 						{/if}
-						{if $profile.min_floor}
+						{if $profile.floor}
 						<tr>
-							<td><b>{$lang.content.property_floor_number}:&nbsp;</b></td>
-							<td>{$profile.min_floor}&nbsp;{$lang.content.floor}</td>
+							<td><b>{$lang.content.floor}:&nbsp;</b></td>
+							<td>{$profile.floor}</td>
 						</tr>
 						{/if}
 						{if $profile.floor_num}
 						<tr>
-							<td><b>{$lang.content.total_floor_num}:&nbsp;</b></td>
-							<td>{$profile.floor_num}&nbsp;{$lang.content.of_floors}</td>
+							<td><b>{$lang.content.floors}:&nbsp;</b></td>
+							<td>{$profile.floors}</td>
 						</tr>
 						{/if}
-						{if $profile.subway_min > 0}
+						{if $profile.ceil_height}
 						<tr>
-							<td><b>{$lang.content.subway_min}:&nbsp;</b></td>
-							<td>{$profile.subway_min}&nbsp;{$lang.content.minutes}</td>
+							<td><b>{$lang.content.ceil_height}:&nbsp;</b></td>
+							<td>{$profile.ceil_height}</td>
+						</tr>
+						{/if}
+            {if $profile.sea_distance}
+						<tr>
+							<td><b>{$lang.content.sea_distance}:&nbsp;</b></td>
+							<td>{$profile.sea_distance}</td>
+						</tr>
+						{/if}
+            {if $profile.parking}
+						<tr>
+							<td><b>{$lang.content.parking}:&nbsp;</b></td>
+							<td>{$profile.parking}</td>
+						</tr>
+						{/if}
+            {if $profile.total_square}
+						<tr>
+							<td><b>{$lang.content.total_square}:&nbsp;</b></td>
+							<td>{$profile.total_square}</td>
 						</tr>
 						{/if}
 						<!-- info -->
@@ -262,132 +301,6 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 					{else}
 						<tr>
 							<td height="15" width="200"><b>{$lang.content.ad_text_1}:</b>&nbsp;</td>
-							<td class="error">{$lang.content.not_filled}</td>
-						</tr>
-					{/if}
-				{else}
-				<!-- need/buy realty -->
-					{if $profile.max_payment>0}
-						<tr>
-							<td colspan="2">{$lang.content.ad_text_1_2}</td>
-						</tr>
-						<tr>
-							<td><b>{if $profile.type eq 1}{$lang.content.month_payment}{else}{$lang.content.price}{/if}:&nbsp;</b></td>
-							<td>{$lang.content.from}&nbsp;{$profile.min_payment}&nbsp;{$lang.content.upto}&nbsp;{$profile.max_payment}&nbsp;({if $profile.auction eq '1'}{$lang.content.auction_possible}{else}{$lang.content.auction_inpossible}{/if})</td>
-						</tr>
-						{if $profile.type eq 2}
-							<!-- period -->
-							{section name=b loop=$profile.period}
-								<tr>
-									<td><b>{$profile.period[b].name}:&nbsp;</b></td>
-									<td>{section name=c loop=$profile.period[b].fields}{$profile.period[b].fields[c]}{if !$smarty.section.c.last},&nbsp;{/if}{/section}
-									</td>
-								</tr>
-							{/section}
-							<!-- /period -->
-						{/if}
-						{if $profile.min_deposit > 0 || $profile.max_deposit > 0}
-						<tr>
-							<td><b>{$lang.content.deposit}:</b></td>
-							<td>{if $profile.min_deposit > 0}{$lang.content.from}&nbsp;{$profile.min_deposit}&nbsp;{/if}
-								{if $profile.max_deposit > 0}{$lang.content.upto}&nbsp;{$profile.max_deposit}{/if}</td>
-						</tr>
-						{/if}
-						{if $profile.movedate}
-						<tr>
-							<td width="200"><b>{$lang.content.move_date}:&nbsp;</b></td>
-							<td>{$profile.movedate}</td>
-						</tr>
-						{/if}
-						<!-- realty type -->
-						{section name=b loop=$profile.realty_type}
-							<tr>
-								<td><b>{$profile.realty_type[b].name}:&nbsp;</b></td>
-								<td>{section name=c loop=$profile.realty_type[b].fields}{$profile.realty_type[b].fields[c]}{if !$smarty.section.c.last},&nbsp;{/if}{/section}
-								</td>
-							</tr>
-						{/section}
-						<!-- /realty type -->
-						{if $profile.min_year_build > 0 || $profile.max_year_build > 0}
-						<tr>
-							<td><b>{$lang.content.year_build}:</b></td>
-							<td>{if $profile.min_year_build > 0}{$lang.content.from_1}&nbsp;{$profile.min_year_build}&nbsp;{/if}
-								{if $profile.max_year_build > 0}{$lang.content.upto_1}&nbsp;{$profile.max_year_build}&nbsp;{/if}</td>
-						</tr>
-						{/if}
-						<!-- description -->
-						{section name=b loop=$profile.description}
-							<tr>
-								<td><b>{$profile.description[b].name}:&nbsp;</b></td>
-								<td>{section name=c loop=$profile.description[b].fields}{$profile.description[b].fields[c]}{if !$smarty.section.c.last},&nbsp;{/if}{/section}
-								</td>
-							</tr>
-						{/section}
-						<!-- /description -->
-						{if $profile.min_live_square > 0 || $profile.max_live_square > 0}
-						<tr>
-							<td><b>{$lang.content.live_square}:&nbsp;</b></td>
-							<td>{if $profile.min_live_square > 0}{$lang.content.from}&nbsp;{$profile.min_live_square}&nbsp;{/if}
-								{if $profile.max_live_square > 0}{$lang.content.upto}&nbsp;{$profile.max_live_square}&nbsp;{/if}{$sq_meters}</td>
-						</tr>
-						{/if}
-						{if $profile.min_total_square > 0 || $profile.max_total_square > 0}
-						<tr>
-							<td><b>{$lang.content.total_square}:&nbsp;</b></td>
-							<td>{if $profile.min_total_square > 0}{$lang.content.from}&nbsp;{$profile.min_total_square}&nbsp;{/if}
-								{if $profile.max_total_square > 0}{$lang.content.upto}&nbsp;{$profile.max_total_square}&nbsp;{/if}{$sq_meters}</td>
-						</tr>
-						{/if}
-						{if $profile.min_land_square > 0 || $profile.max_land_square > 0}
-						<tr>
-							<td><b>{$lang.content.land_square}:&nbsp;</b></td>
-							<td>{if $profile.min_land_square > 0}{$lang.content.from}&nbsp;{$profile.min_land_square}&nbsp;{/if}
-								{if $profile.max_land_square > 0}{$lang.content.upto}&nbsp;{$profile.max_land_square}&nbsp;{/if}{$sq_meters}</td>
-						</tr>
-						{/if}
-						{if $profile.min_floor > 0 || $profile.max_floor > 0}
-						<tr>
-							<td><b>{$lang.content.floor_variants}:&nbsp;</b></td>
-							<td>{if $profile.min_floor > 0}{$lang.content.from}&nbsp;{$profile.min_floor}&nbsp;{/if}
-								{if $profile.max_floor > 0}{$lang.content.upto}&nbsp;{$profile.max_floor}&nbsp;{/if}{$lang.content.floor}</td>
-						</tr>
-						{/if}
-						{if $profile.floor_num}
-						<tr>
-							<td><b>{$lang.content.floor_num_max_limitation}:&nbsp;</b></td>
-							<td>{$profile.floor_num}&nbsp;{$lang.content.of_floors}</td>
-						</tr>
-						{/if}
-						{if $profile.subway_min > 0}
-						<tr>
-							<td><b>{$lang.content.subway_min}:&nbsp;</b></td>
-							<td>{$profile.subway_min}&nbsp;{$lang.content.minutes}</td>
-						</tr>
-						{/if}
-						<!-- info -->
-						{section name=b loop=$profile.info}
-							<tr>
-								<td><b>{$profile.info[b].name}:&nbsp;</b></td>
-								<td>{section name=c loop=$profile.info[b].fields}{$profile.info[b].fields[c]}{if !$smarty.section.c.last},&nbsp;{/if}{/section}
-								</td>
-							</tr>
-						{/section}
-						<!-- /info -->
-						{if $profile.with_photo eq '1'}
-						<tr>
-							<td><b>{$lang.content.photo_exist}:&nbsp;</b></td>
-							<td>{$lang.content.only_with}</td>
-						</tr>
-						{/if}
-						{if $profile.with_video eq '1'}
-						<tr>
-							<td><b>{$lang.content.video_exist}:&nbsp;</b></td>
-							<td>{$lang.content.only_with}</td>
-						</tr>
-						{/if}
-					{else}
-						<tr>
-							<td height="15" width="200"><b>{$lang.content.ad_text_1_2}:</b>&nbsp;</td>
 							<td class="error">{$lang.content.not_filled}</td>
 						</tr>
 					{/if}
