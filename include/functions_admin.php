@@ -1349,7 +1349,7 @@ function GetUserAdsAdmin($file_name, $param="", $ad_id_in_array = "", $user_id =
 	}
 
 	if ($ad_id_in_array == ""){
-		$smarty->assign("links", GetLinkArray($num_records, $page, $param, $ads_numpage));
+		$smarty->assign("links", GetLinkArray($num_records_parent, $page, $param, $ads_numpage));
 	}
 
 	if ($ad_id_in_array != "") {
