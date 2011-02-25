@@ -181,6 +181,7 @@ function DbOperation() {
 }
 
 function MyAd ($id_ad='', $par='') {
+
 	global $smarty, $config, $dbconn, $auth, $lang, $multi_lang, $REFERENCES;
 	$smarty->assign("sq_meters", GetSiteSettings('sq_meters'));
 	if (strlen($par)) {
@@ -265,14 +266,14 @@ function MyAd ($id_ad='', $par='') {
 		$profile["headline"] = stripslashes($row["headline"]);
 	}
   
-  $strKidsSQL = "SELECT 	a.id, a.headline
+  $strKidsSQL = "SELECT 	a.id, a.headline, a.status
 				      FROM ".RENT_ADS_TABLE." a WHERE a.parent_id = " . $row['id'];
   $rsKid = $dbconn->Execute($strKidsSQL);
 	while(!$rsKid->EOF){
 	 $rowKid = $rsKid->GetRowAssoc(false);
    $profile['kids'][] = $rowKid;
    $rsKid->MoveNext();
-  }           
+  }         
   $strParentsSQL = "SELECT 	a.id, a.headline
 				      FROM ".RENT_ADS_TABLE." a, ".USERS_RENT_LOCATION_TABLE." urlt, ".COUNTRY_TABLE." count,
                    ".REGION_TABLE." reg, ".CITY_TABLE." cit, ".USERS_TABLE." ut
@@ -2314,12 +2315,13 @@ function UserAd($par=''){
 
 		$strSQL = "	SELECT min_payment, auction, min_deposit,
 					min_live_square, min_total_square,
-					min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture
+					min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season
 					FROM ".USERS_RENT_PAYS_TABLE."
 					WHERE id_ad='".$id_ad."' AND id_user='1'";
 		$rs = $dbconn->Execute($strSQL);
 		$row = $rs->GetRowAssoc(false);
 		$data_1["min_payment"] = $row["min_payment"];
+    $data_1["payment_not_season"] = $row["payment_not_season"];
 		$data_1["act_status"] = ($row["min_payment"] <= 0) ? 0 : 1;		
 		$data_1["auction"] = $row["auction"];
 		$data_1["min_deposit"] = $row["min_deposit"];
