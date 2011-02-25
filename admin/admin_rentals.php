@@ -1364,11 +1364,13 @@ function SaveProfile($par){
 		$id_ad = (isset($_POST["id_ad"])) ? intval($_POST["id_ad"]) : 0;
 		$choise = (isset($_POST["choise"])) ? intval($_POST["choise"]) : 0;
 	} else {
-	 $parent_id = (isset($_POST["parent_id"])) ? intval($_POST["parent_id"]) : 0;
-   $strSQL = " SELECT `type` FROM ".RENT_ADS_TABLE." WHERE id='".$parent_id."' ";
-   $rs = $dbconn->Execute($strSQL);
-	 $type = $rs->fields[0];
-   $_POST['choise'] = $type;
+	 if (isset($_POST['parent_id'])) {
+  	 $parent_id = (isset($_POST["parent_id"])) ? intval($_POST["parent_id"]) : 0;
+     $strSQL = " SELECT `type` FROM ".RENT_ADS_TABLE." WHERE id='".$parent_id."' ";
+     $rs = $dbconn->Execute($strSQL);
+  	 $type = $rs->fields[0];
+     $_POST['choise'] = $type;
+   }
 	}
   
 	switch ($par){
