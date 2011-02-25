@@ -106,6 +106,14 @@ function ListProfile($sect, $id_ad) {
 			while(!$rs->EOF) {
 				$row = $rs->GetRowAssoc(false);
 				$child_profile[$i] = Ad($row['id'], $user[0], $file_name, $sect);
+                if($child_profile[$i]['type'] == 1) {
+                    $strSQL = "SELECT * FROM ".USERS_RENT_PAYS_TABLE_BY_MONTH." a WHERE id_ad = '{$row['id']}'";
+                    $priceRS = $dbconn->Execute($strSQL);
+                    if($priceRS && !$priceRS->EOF) {
+                        $priceRow = $priceRS->GetRowAssoc(false);
+                        $child_profile[$i]['prices'] = $priceRow;
+                    }
+                }
 				$rs->MoveNext();
 				$i++;
 			}

@@ -50,7 +50,9 @@ $(document).ready(function() {
 <h2>{$profile.headline_short}</h2>
 
 <div id="middle-holder">
-<img src="{$profile.photo_file[0]}" alt="{$profile.headline_short}" class="img-border" />
+<center>
+    <img src="{$profile.photo_file[0]}" alt="{$profile.headline_short}" class="img-border" style="max-height:350px;max-width:700px" />
+</center>
 {if $profile.comment}
 	<h3>{$lang.content.add_comments}</h3>
     <p>
@@ -79,7 +81,7 @@ $(document).ready(function() {
     </div>
     {/foreach}
 </div>
-{foreach from=$profile.childs item=child}
+{foreach from=$profile.childs item=child key=k}
 <div class="suit">
   <div class="suit-header">
 
@@ -87,7 +89,7 @@ $(document).ready(function() {
     	<div class="clearfix">
       	<a class="status"></a>
         <span class="s_id">{$child.headline}</span>
-        <span class="s_name">Место #0001</span>
+        <span class="s_name">Место #{$k+1}</span>
       </div>
     </div>
     <div class="s_preview">
@@ -123,21 +125,21 @@ $(document).ready(function() {
               <label class="title">Удобства:&nbsp;</label>
               <div class="icons-holder">
               {foreach from=$info.fields name=child_info_loop item=d_f}
-              {if $d_f eq 'Ванная'}
+              {if $d_f eq 'Ванная' or $d_f eq 'Ванная комната в номере'}
                 <a class="icon bath" title="Ванная"></a>
               {elseif $d_f eq 'Кондиционер'}  
                 <a class="icon condition" title="Кондиционер"></a>
-              {elseif $d_f eq 'ТВ'} 
+              {elseif $d_f eq 'ТВ' or $d_f eq 'Телевизор'} 
                 <a class="icon tv" title="ТВ"></a>
               {elseif $d_f eq 'Холодильник'} 
                 <a class="icon fridge" title="Холодильник"></a>
-              {elseif $d_f eq 'Wi-Fi'} 
+              {elseif $d_f eq 'Wi-Fi' or $d_f eq 'Интернет'} 
                 <a class="icon wifi" title="Wi-Fi"></a>
               {elseif $d_f eq 'Снег'} 
                 <a class="icon ice" title="Снег"></a>
               {elseif $d_f eq 'Баня'} 
                 <a class="icon bana" title="Баня"></a>
-              {elseif $d_f eq 'Питание'} 
+              {elseif $d_f eq 'Питание' or $d_f eq 'Ресторан'} 
                 <a class="icon eat" title="Питание"></a>
               {elseif $d_f eq 'Бассейн'} 
                 <a class="icon pool" title="Бассейн"></a>
@@ -163,35 +165,55 @@ $(document).ready(function() {
         </div>
         <div class="row">
 
-          <label class="title">Стоимость проживания:&nbsp;</label>
+          <label class="title">Стоимость проживания ({$cur}):&nbsp;</label>
+          {if $child.type == 1}
           <span class="desc">{$child.min_payment_show}</span>
-          <!--
+          
           <table cellpadding="0" cellspacing="0">
             <thead>
               <tr>
+                <td>Январь</td>
+                <td>Февраль</td>
+
+                <td>Март</td>
+                <td>Апрель</td>
                 <td>Май</td>
                 <td>Июнь</td>
-
                 <td>Июль</td>
                 <td>Август</td>
                 <td>Сентябрь</td>
                 <td>Октябрь</td>
+                <td>Ноябрь</td>
+                <td>Декабрь</td>
               </tr>
             </thead>
             <tbody>
 
               <tr>
-                <td>1600</td>
-                <td>2000</td>
-                <td>2800</td>
-                <td>3600</td>
-                <td>1600</td>
-
-                <td>1200</td>
+                <td>{$child.prices.january} </td>
+                <td>{$child.prices.february} </td>
+                <td>{$child.prices.march} </td>
+                <td>{$child.prices.april} </td>
+                <td>{$child.prices.may} </td>
+                <td>{$child.prices.june} </td>
+                <td>{$child.prices.july} </td>
+                <td>{$child.prices.august} </td>
+                <td>{$child.prices.september} </td>
+                <td>{$child.prices.october} </td>
+                <td>{$child.prices.november} </td>
+                <td>{$child.prices.december} </td>
               </tr>
             </tbody>
           </table>
-          -->
+          
+          {else}
+          <span class="desc">{$child.min_payment_show} </span>
+          {/if}
+        </div>
+        <div class="row">
+          <label class="title">Мебель:&nbsp;</label>
+          <span class="desc">{$child.furniture}</span>
+
         </div>
         <div class="row">
           <label class="title">Информация:&nbsp;</label>
