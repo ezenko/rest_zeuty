@@ -3667,7 +3667,7 @@ function Ad($id_ad, $id_user, $file_name = "", $sect = "", $order_by_comparison 
 	$ids = (is_array($id_ad)) ? implode("','", $id_ad) : $id_ad;
 
 	$strSQL = "	SELECT DISTINCT(a.id) AS id, a.id_user, a.type, a.status, ".
-			  "	DATE_FORMAT(a.movedate, '".$config["date_format"]."' ) as movedate,
+			  "	DATE_FORMAT(a.datenow, '".$config["date_format"]."' ) as movedate,
 				a.comment, a.with_photo, a.with_video, a.upload_path, a.sold_leased_status, a.headline,
 				urlt.zip_code, urlt.street_1, urlt.street_2, urlt.adress,
 				count.name as country_name, reg.name as region_name, cit.name as city_name, cit.lat as lat, cit.lon as lon,
@@ -3794,16 +3794,17 @@ function Ad($id_ad, $id_user, $file_name = "", $sect = "", $order_by_comparison 
 			$strSQL_payment = "SELECT min_payment, max_payment, auction, min_deposit, max_deposit, ".
 							  "min_live_square, max_live_square, min_total_square, max_total_square, ".
 							  "min_land_square, max_land_square, min_floor,  max_floor, floor_num, subway_min, ".
-							  "min_year_build, max_year_build, furniture ".
+							  "min_year_build, max_year_build, furniture, floor, floors, min_flats_square, max_flats_square, total_square, ceil_height, sea_distance, term, investor, parking " .
 							  "FROM ".USERS_RENT_PAYS_TABLE." ".
 							  "WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
+                              
 		} elseif ($profile["type"] == "2" || $profile["type"] == "4") {
 			/**
 			 * hold fixed values for listings type (lease, sell) in fields min_<field_name>
 			 */
 			$strSQL_payment = "SELECT min_payment, auction, min_deposit, ".
 							  "min_live_square, min_total_square, ".
-							  "min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture ".
+							  "min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season  ".
 							  "FROM ".USERS_RENT_PAYS_TABLE." ".
 							  "WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
 		}
@@ -3825,7 +3826,7 @@ function Ad($id_ad, $id_user, $file_name = "", $sect = "", $order_by_comparison 
 		 * Get references values for the ad
 		 */
 		$lang_add = 2; //describe match variant
-		$used_references = array("info", "gender", "people", "language", "period", "realty_type", "description");
+		$used_references = array("info", "gender", "people", "language", "period", "realty_type", "description", "theme_rest");
 		foreach ($REFERENCES as $arr) {
 			if (in_array($arr["key"], $used_references)) {
 

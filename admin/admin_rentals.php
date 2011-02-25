@@ -792,7 +792,7 @@ function EditProfile($par, $err="", $choise="", $id_ad=""){
 			$smarty->assign("current_year", date("Y"));
 
 			$smarty->assign("data", $data);
-
+print_r($data);
 			$smarty->assign("id_ad", $id_ad);
 			$smarty->assign("choise", $choise);
 
