@@ -56,6 +56,7 @@ if($user[4]==1 && !(isset($_REQUEST["view_from_admin"]) && $_REQUEST["view_from_
 
 	switch ($sel) {
 		case "from_form": NewSearch("from_form"); break;
+        case "category": NewSearch("category"); break;
 		case "search": NewSearch("search"); break;
 		case "online": NewSearch("online"); break;
 		case "new_members": NewSearch("new_members"); break;
@@ -88,7 +89,26 @@ function NewSearch($par='') {
 	else
 	$file_name = "quick_search.php";
 
-	IndexHomePage('quick_search','search');
+    $section_name = 'search';
+    if($par == 'category') {
+        $category_choise = (isset($_REQUEST["choise"]) && intval($_REQUEST["choise"])) ? intval($_REQUEST["choise"]) : 4;
+        
+        switch($category_choise){
+            case 1:
+                $section_name = 'dik';
+                break;
+            case 2:
+                $section_name = 'tours';
+                break;
+            case 3:
+                $section_name = 'realestate';
+                break;
+            case 4:
+                $section_name = 'active';
+                break;
+        }
+    }
+	IndexHomePage('quick_search',$section_name);
 
 	if($user[3] != 1){
 		CreateMenu('homepage_top_menu');
@@ -118,6 +138,32 @@ function NewSearch($par='') {
 	}
 	
 	$smarty->assign("submenu", $par);
+
+    if($par == 'category') {
+        $category_choise = (isset($_REQUEST["choise"]) && intval($_REQUEST["choise"])) ? intval($_REQUEST["choise"]) : 4;
+        
+        if($_SESSION["quick_search_pars"]['choise'] != $category_choise) {
+            unset($_SESSION['quick_search_arr']);
+        }
+        
+        $title = '';
+        switch($category_choise){
+            case 1:
+                $title = 'Отдых дикарем';
+                break;
+            case 2:
+                $title = 'Туры';
+                break;
+            case 3:
+                $title = 'Недвижимость';
+                break;
+            case 4:
+                $title = 'Активный отдых';
+                break;
+        }
+        $smarty->assign('category_title', $title);
+        $smarty->assign('choise', $category_choise);        
+    }
 
 	if ($page<2) {
 		/**
@@ -244,7 +290,6 @@ function NewSearch($par='') {
 					break;
 				}
 				default: {
-					
 					$qsform_more_opt = (isset($_REQUEST["qsform_more_opt"]) && !empty($_REQUEST["qsform_more_opt"])) ? intval($_REQUEST["qsform_more_opt"]) : 0;
 					$choise = (isset($_REQUEST["choise"]) && intval($_REQUEST["choise"])) ? intval($_REQUEST["choise"]) : 4;
 					
@@ -271,7 +316,7 @@ function NewSearch($par='') {
 
 					$payment_str = "";
 					if ($choise == 2 || $choise == 4){
-						//������ ���� ���� min
+						//только поля типа min
 						if ($min_payment > 0) {
 							$payment_str .= " AND (rp.min_payment >= '".$min_payment."' || rp.min_payment = '0')";
 						}
@@ -407,7 +452,8 @@ function NewSearch($par='') {
 						 	".$video_str.$country_str.$region_str.$city_str.$move_date_str.$spr_str.$payment_str."
 							AND u.id=ra.id_user AND u.status='1' AND u.guest_user='0' AND u.active='1' AND ra.status='1'";
 				}
-				
+
+                
 				break;
 			}			
 			
@@ -463,6 +509,7 @@ function NewSearch($par='') {
 	$smarty->assign("sel", $par);
 	$smarty->assign("search_size", $search_size);
 	$smarty->assign("map", GetMapSettings());
+    
 	$smarty->display(TrimSlash($config["index_theme_path"])."/quick_search_table.tpl");
 	exit;
 }
