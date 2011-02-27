@@ -37,15 +37,34 @@ var cur_page = {$page-1};
     
 	{section name=u loop=$search_result}
     <div class="item">
-        <img alt="" src="img/fake/img1.jpg" class="img-border" />
+        <img alt="" src="{$search_result[u].image}" class="img-border" style="cursor: pointer;" onclick="document.location.href='{$search_result[u].viewprofile_link}';" />
         <div class="desc">
-        	<h4>Египет, Шарм-Эль-Шейх</h4>
-          <span>Отель: Антигуа</span>
+        	<h4>{$search_result[u].headline}</h4>
+          <span>Место: {$search_result[u].country_name}, {$search_result[u].region_name}, {$search_result[u].city_name}</span>
+          <!--
           <span>Звезд: 5</span>
           <span>Питание: DBL</span>
-          <span>Стоимость: от 670$</span>
+          -->
+          <span>Стоимость: 
+            {if $search_result[u].id_type == '2'} 
+                {if $search_result[u].payment_not_season}
+                    {if $search_result[u].payment_not_season < $search_result[u].min_payment}
+                        от {$search_result[u].payment_not_season} {$cur}
+                    {else}
+                        от {$search_result[u].min_payment} {$cur}
+                    {/if}
+                {else}
+                    {$search_result[u].min_payment} {$cur}
+                {/if}
+            {elseif $search_result[u].id_type == '3'}
+                {$search_result[u].min_payment} {$cur}
+            {else}
+                {$search_result[u].min_payment} {$cur}    
+            {/if}
+          </span>
         </div>
       </div>
+      {*
 	<table cellpadding="0" cellspacing="0" width="100%" border="0" style="margin-bottom: 10px;margin-top: 0px;">
 	<tr>
 		<td width="15">&nbsp;</td>
@@ -119,7 +138,7 @@ var cur_page = {$page-1};
 					<td>{$lang.default_select.contact_for_reg}.&nbsp;<a href="registration.php">{$lang.content.reg_now_text}</a></td>
 				</tr>
 				{/if}
-				*}
+				* }
 				{if $search_result[u].headline}
 				<tr>
 					<td>{$search_result[u].headline}</td>
@@ -164,6 +183,7 @@ var cur_page = {$page-1};
 	</tr>
 
 	</table>
+    *}
 	{/section}
     </div>
     <center>

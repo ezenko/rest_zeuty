@@ -386,7 +386,7 @@ function InComparisonList() {
                     {foreach from=$rest item=r}
                       {if $r.id eq 1}
                         {foreach from=$r.opt item=opt}
-                	    <li><a class="folder-item">{$opt.name}</a></li>
+                	    <li><a class="folder-item" href="/quick_search.php?sel=category&choise=2&spr_theme_rest[1]={$opt.value}">{$opt.name}</a></li>
                 	    {/foreach}
                 	  {/if}
                     {/foreach}
@@ -400,7 +400,7 @@ function InComparisonList() {
                 {foreach from=$rest item=r}
                   {if $r.id eq 2}
                     {foreach from=$r.opt item=opt}
-            	    <li><a class="folder-item">{$opt.name}</a></li>
+            	    <li><a class="folder-item" href="quick_search.php?sel=category&choise=4&spr_theme_rest[2]={$opt.value}">{$opt.name}</a></li>
             	    {/foreach}
             	  {/if}
                 {/foreach}

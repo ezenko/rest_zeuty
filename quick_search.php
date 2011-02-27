@@ -146,6 +146,15 @@ function NewSearch($par='') {
             unset($_SESSION['quick_search_arr']);
         }
         
+        if(isset($_REQUEST['spr_theme_rest']))
+        {
+            foreach($_REQUEST['spr_theme_rest'] as $k=>$v) {
+                if($_SESSION["quick_search_pars"]["theme_rest"] != $v) {
+                    unset($_SESSION['quick_search_arr']);
+                }
+            }
+        }
+        
         $title = '';
         switch($category_choise){
             case 1:
@@ -378,7 +387,7 @@ function NewSearch($par='') {
 					$_SESSION["quick_search_pars"]["move_day"] = $move_day;
 					$_SESSION["quick_search_pars"]["move_month"] = $move_month;					
 
-					$used_references = array("realty_type", "description");
+					$used_references = array("realty_type", "description", "theme_rest");
 					foreach ($used_references as $key=>$value) {
 						if (isset($_REQUEST["spr_".$value])) {							
 							if ($value == "realty_type" || ($value == "description" && $qsform_more_opt)) {
@@ -394,6 +403,12 @@ function NewSearch($par='') {
 									}							
 								}
 							}
+                            if($value == 'theme_rest') {
+                                foreach ($_REQUEST["spr_".$value] as $k=>$val) {
+                                    $_SESSION["quick_search_pars"]["spr_".$value] = $k;
+    		                        $_SESSION["quick_search_pars"][$value] = $_REQUEST["spr_" .$value][$k];
+                                }
+                            }
 						}	
 					}
 
@@ -445,14 +460,27 @@ function NewSearch($par='') {
 							}	
 						}
 					}
+                    
+                    $used_references = array("theme_rest");
+					foreach ($REFERENCES as $arr) {
+						if (in_array($arr["key"], $used_references)) {
+							if (isset($_REQUEST["spr_".$arr["key"]])) {
+								foreach ( $_REQUEST["spr_".$arr["key"]] as $id_subspr=>$id_value) {
+								    
+									$subspr_name = "spr_".$arr["key"];
+									$spr_str .= " AND ($subspr_name.id_value = '$id_value') ";
+									$spr_table .= " LEFT JOIN ".$arr["spr_user_table"]." $subspr_name ON $subspr_name.id_ad=ra.id AND $subspr_name.id_spr='$id_subspr' ";
+								}
+							}	
+						}
+					}
 
 				$strSQL = "SELECT DISTINCT ra.id
 							FROM ".USERS_TABLE." u ".$video_table.$location_table." , ".RENT_ADS_TABLE." ra ".$spr_table.$payment_table."
 							WHERE ra.type='".$choise."' AND ra.id_user != '".$user[0]."'
 						 	".$video_str.$country_str.$region_str.$city_str.$move_date_str.$spr_str.$payment_str."
-							AND u.id=ra.id_user AND u.status='1' AND u.guest_user='0' AND u.active='1' AND ra.status='1'";
+							AND u.id=ra.id_user AND u.status='1' AND u.guest_user='0' AND u.active='1' AND ra.status='1' AND ra.parent_id='0'";
 				}
-
                 
 				break;
 			}			
@@ -499,7 +527,8 @@ function NewSearch($par='') {
 	}
 
 	$search_size = (isset($_SESSION["quick_search_arr"])) ? sizeof($_SESSION["quick_search_arr"]) : 0;	
-	
+	$choise = (isset($_REQUEST["choise"]) && intval($_REQUEST["choise"])) ? intval($_REQUEST["choise"]) : 4;
+    
 	getSearchArr(isset($_SESSION["quick_search_arr"]) ? $_SESSION["quick_search_arr"] : array(), $file_name, $page, $param, $order_link, $sorter, $sorter_order, $par, isset($region) ? $region : "", isset($choise) ? $choise : "", isset($with_photo_arr) ? $with_photo_arr : "");
 	
 	$smarty->assign("sect", "rent");
