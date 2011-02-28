@@ -2718,7 +2718,10 @@ function getSearchArr($id_arr, $file_name, $page, $param, $order_link, $sorter=0
 		if (!empty($with_photo_arr)){
 			$sorter_str = str_replace("ORDER BY", "ORDER BY with_photo DESC, ", $sorter_str);
 		}
-		
+		$add_fields = "";
+        if($type == '2') {
+            $add_fields = 'urp.payment_not_season, ';
+        }
 		$strSQL = "	SELECT DISTINCT	ra.id, ra.id_user, DATE_FORMAT(ra.movedate,'".$config["date_format"]."') as movedate, ra.type, ra.people_count, ra.room_type, ra.sold_leased_status, ra.status, ra.headline,
 					u.fname, u.phone, u.user_type, tsat.type as topsearched,
 					tsat.date_begin as topsearch_date_begin, tsat.date_end as topsearch_date_end,
@@ -2726,7 +2729,7 @@ function getSearchArr($id_arr, $file_name, $page, $param, $order_link, $sorter=0
 					ct.name as country_name, rt.name as region_name, cit.name as city_name,
 					hlt.id_friend, blt.id_enemy,
 					url.id_region, url.adress as address, 
-					ra.upload_path as slide_path, sp.order_id, sp.status as spstatus,
+					ra.upload_path as slide_path, sp.order_id, sp.status as spstatus, " . $add_fields ."
 					SUM(vst.visits_count) as visits, ft.id as featured". $if_photo."
 					FROM ".RENT_ADS_TABLE." ra
 					".$topsearch_str."
@@ -2776,7 +2779,8 @@ function getSearchArr($id_arr, $file_name, $page, $param, $order_link, $sorter=0
 			
 			if ($search_result[$i]["id_type"] == 2){			
 				$calendar_event = new CalendarEvent();
-				$search_result[$i]["reserve"] = $calendar_event->GetEmptyPeriod($search_result[$i]["id_ad"], $search_result[$i]["id_user"]);	
+				$search_result[$i]["reserve"] = $calendar_event->GetEmptyPeriod($search_result[$i]["id_ad"], $search_result[$i]["id_user"]);
+                $search_result[$i]['payment_not_season'] = $row['payment_not_season'];	
 			}
 
 			$lang_ad = 2; //т.к. выводим информацию о том, что ищет человек
@@ -2796,6 +2800,25 @@ function getSearchArr($id_arr, $file_name, $page, $param, $order_link, $sorter=0
 			$search_result[$i]["max_payment_show"] = FormatPrice($search_result[$i]["max_payment"], $settings_price["cur_position"], $settings_price["cur_format"]);
 			$search_result[$i]["auction"] = $row["auction"];
 
+            if($type == '1') {
+                $strSQL_payment = "SELECT * FROM ".USERS_RENT_PAYS_TABLE_BY_MONTH." a WHERE id_ad in (".
+                    "SELECT id FROM ".RENT_ADS_TABLE." WHERE id ='{$row['id']}' OR parent_id ='{$row['id']}')";
+                $priceRS = $dbconn->Execute($strSQL_payment);
+                $prices = array();
+                if($priceRS) {
+                    while(!$priceRS->EOF) {
+                        $priceRow = $priceRS->GetRowAssoc(false);
+                        $pr = array($priceRow['january'], $priceRow['february'], $priceRow['march'], 
+                            $priceRow['april'], $priceRow['may'], $priceRow['june'], $priceRow['july'], 
+                            $priceRow['august'], $priceRow['september'], $priceRow['october'], 
+                            $priceRow['november'], $priceRow['december']);
+                        $prices = array_merge($prices, $pr);
+                        $priceRS->MoveNext();
+                    }
+                    if(count($prices))
+                        $search_result[$i]["min_payment"] = PaymentFormat(min($prices));
+                }
+            }
 			$strSQL2 = "SELECT upload_path, user_comment FROM ".USERS_RENT_UPLOADS_TABLE." ".
 					   "WHERE id_ad='".$row["id"]."' AND upload_type='f' AND status='1' AND admin_approve='1' ".
 					   "ORDER BY sequence ASC LIMIT 1";
@@ -2855,6 +2878,7 @@ function getSearchArr($id_arr, $file_name, $page, $param, $order_link, $sorter=0
 		}
 		$smarty->assign("links", GetLinkArray($num_records, $page, $file_name."?".$param, $lim_max));
 		$smarty->assign("search_result", $search_result);
+        
 		$smarty->assign("empty_result", 0);
 		
 	} else {
@@ -3667,7 +3691,7 @@ function Ad($id_ad, $id_user, $file_name = "", $sect = "", $order_by_comparison 
 	$ids = (is_array($id_ad)) ? implode("','", $id_ad) : $id_ad;
 
 	$strSQL = "	SELECT DISTINCT(a.id) AS id, a.id_user, a.type, a.status, ".
-			  "	DATE_FORMAT(a.movedate, '".$config["date_format"]."' ) as movedate,
+			  "	DATE_FORMAT(a.datenow, '".$config["date_format"]."' ) as movedate,
 				a.comment, a.with_photo, a.with_video, a.upload_path, a.sold_leased_status, a.headline,
 				urlt.zip_code, urlt.street_1, urlt.street_2, urlt.adress,
 				count.name as country_name, reg.name as region_name, cit.name as city_name, cit.lat as lat, cit.lon as lon,
@@ -3794,16 +3818,17 @@ function Ad($id_ad, $id_user, $file_name = "", $sect = "", $order_by_comparison 
 			$strSQL_payment = "SELECT min_payment, max_payment, auction, min_deposit, max_deposit, ".
 							  "min_live_square, max_live_square, min_total_square, max_total_square, ".
 							  "min_land_square, max_land_square, min_floor,  max_floor, floor_num, subway_min, ".
-							  "min_year_build, max_year_build, furniture ".
+							  "min_year_build, max_year_build, furniture, floor, floors, min_flats_square, max_flats_square, total_square, ceil_height, sea_distance, term, investor, parking " .
 							  "FROM ".USERS_RENT_PAYS_TABLE." ".
 							  "WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
+                              
 		} elseif ($profile["type"] == "2" || $profile["type"] == "4") {
 			/**
 			 * hold fixed values for listings type (lease, sell) in fields min_<field_name>
 			 */
 			$strSQL_payment = "SELECT min_payment, auction, min_deposit, ".
 							  "min_live_square, min_total_square, ".
-							  "min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture ".
+							  "min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season  ".
 							  "FROM ".USERS_RENT_PAYS_TABLE." ".
 							  "WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
 		}
@@ -3825,7 +3850,7 @@ function Ad($id_ad, $id_user, $file_name = "", $sect = "", $order_by_comparison 
 		 * Get references values for the ad
 		 */
 		$lang_add = 2; //describe match variant
-		$used_references = array("info", "gender", "people", "language", "period", "realty_type", "description");
+		$used_references = array("info", "gender", "people", "language", "period", "realty_type", "description", "theme_rest");
 		foreach ($REFERENCES as $arr) {
 			if (in_array($arr["key"], $used_references)) {
 

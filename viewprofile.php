@@ -106,6 +106,8 @@ function ListProfile($sect, $id_ad) {
 			while(!$rs->EOF) {
 				$row = $rs->GetRowAssoc(false);
 				$child_profile[$i] = Ad($row['id'], $user[0], $file_name, $sect);
+                if(empty($child_profile[$i])) unset($child_profile);
+                
                 if($child_profile[$i]['type'] == 1) {
                     $strSQL = "SELECT * FROM ".USERS_RENT_PAYS_TABLE_BY_MONTH." a WHERE id_ad = '{$row['id']}'";
                     $priceRS = $dbconn->Execute($strSQL);
@@ -120,6 +122,12 @@ function ListProfile($sect, $id_ad) {
 		}
         $profile['childs'] = $child_profile;
         
+        $rs = $dbconn->Execute( "SELECT SUM(visits_count) as vc FROM ".RENT_AD_VISIT_TABLE." WHERE id_ad='".$profile["id"]."' " );
+        
+		if ( $rs->fields[0]>0 ) {
+		  $row = $rs->GetRowAssoc(false);
+		  $profile['visits'] = $row['vc'];
+		  }
 		/**
 		 * update profile visit counter
 		 */

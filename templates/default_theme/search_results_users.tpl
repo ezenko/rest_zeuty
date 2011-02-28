@@ -1,7 +1,70 @@
-<table cellpadding="0" cellspacing="0" width="100%" border="0">
-<tr>
-	<td>
+<link rel="stylesheet" type="text/css" href="{$site_root}{$template_root}{$template_css_root}/jquery.pagination.css" />
+<script type="text/javascript" src="{$site_root}{$template_root}/js/jquery.pagination.min.js"></script>
+<script type="text/javascript">
+var cur_page = {$page-1};
+{literal}
+    $(document).ready(function(){
+        $("#pg").pagination({/literal}{$search_size}{literal},
+          {
+            callback: pageFilterCallback,
+            items_per_page: 5,
+            num_display_entries: 5,
+            link_to: '#catalog',
+            num_edge_entries: 2,
+            prev_text: '<',
+            next_text: '>',
+            current_page: cur_page
+          });
+		
+    });   
+    
+    function pageFilterCallback(page_index) {
+        if(page_index != cur_page) {
+            $('#search_res_form').find('input[name=page]').val(page_index+1);
+            $('#search_res_form').submit();
+        }
+        return false;
+    } 
+{/literal}
+</script>
+<form id="search_res_form" style="display:none" action="/quick_search.php">
+    <input type="hidden" name="sel" value="{$sel}"/>
+    <input type="hidden" name="choise" value="{$choise}"/>
+    <input type="hidden" name="page" value="{$page}"/>
+</form>
+<h3>&nbsp;&nbsp;&nbsp;Краткая информация:</h3>
+  	<div id="catalog">
+    
 	{section name=u loop=$search_result}
+    <div class="item">
+        <img alt="" src="{$search_result[u].image}" class="img-border" style="cursor: pointer;" onclick="document.location.href='{$search_result[u].viewprofile_link}';" />
+        <div class="desc">
+        	<h4>{$search_result[u].headline}</h4>
+          <span>Место: {$search_result[u].country_name}, {$search_result[u].region_name}, {$search_result[u].city_name}</span>
+          <!--
+          <span>Звезд: 5</span>
+          <span>Питание: DBL</span>
+          -->
+          <span>Стоимость: 
+            {if $search_result[u].id_type == '2'} 
+                {if $search_result[u].payment_not_season}
+                    {if $search_result[u].payment_not_season < $search_result[u].min_payment}
+                        от {$search_result[u].payment_not_season} {$cur}
+                    {else}
+                        от {$search_result[u].min_payment} {$cur}
+                    {/if}
+                {else}
+                    {$search_result[u].min_payment} {$cur}
+                {/if}
+            {elseif $search_result[u].id_type == '3'}
+                {$search_result[u].min_payment} {$cur}
+            {else}
+                {$search_result[u].min_payment} {$cur}    
+            {/if}
+          </span>
+        </div>
+      </div>
+      {*
 	<table cellpadding="0" cellspacing="0" width="100%" border="0" style="margin-bottom: 10px;margin-top: 0px;">
 	<tr>
 		<td width="15">&nbsp;</td>
@@ -75,7 +138,7 @@
 					<td>{$lang.default_select.contact_for_reg}.&nbsp;<a href="registration.php">{$lang.content.reg_now_text}</a></td>
 				</tr>
 				{/if}
-				*}
+				* }
 				{if $search_result[u].headline}
 				<tr>
 					<td>{$search_result[u].headline}</td>
@@ -119,13 +182,18 @@
 		</tr>
 	</tr>
 
-	{if !$smarty.section.u.last}
-	<tr>
-		<td colspan="5"><hr width="100%"></td>
-	</tr>
-	{/if}
 	</table>
+    *}
 	{/section}
+    </div>
+    <center>
+      <div id="pg" class="clearfix">
+      
+      </div>
+	  <br/><br/><br/>
+	  <!--div id="YMapsID" style="width:600px;height:400px"></div-->
+    </center>
+    {*
 	{if $last_ads && $search_result}
 
 	<table cellpadding="2" cellspacing="2" border="0" width="100%">
@@ -135,21 +203,14 @@
 	</table>
 	{else}
 		{if $links}
-		<table cellpadding="2" cellspacing="2" border="0" class="pages_links">
-			<tr>
-				<td class="text">{$lang.default_select.pages}:
 				{foreach item=item from=$links}
 				<a href="{$item.link}" {if $item.selected} style="font-weight: bold;"{/if}>{$item.name}</a>
 				{/foreach}
-				</td>
-			</tr>
-		</table>
 		{/if}
 	{/if}
 	<!--<hr width="100%">-->
-	</td>
-</tr>
-</table>
+    *}
+
 {if $search_result && $use_maps_in_search_results && $sel && $map.name == "google"}
 {include file="$gentemplates/search_viewmap.tpl"}
 {/if}

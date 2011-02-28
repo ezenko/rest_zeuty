@@ -1,5 +1,16 @@
 {include file="$gentemplates/site_top.tpl"}
-
+<style>
+{literal}
+.parent_desc {
+    margin-top:-20px;
+    padding-bottom:20px
+    } 
+.parent_desc .row {
+    float:left;
+    width: 266px;
+    }
+{/literal}
+</style>
 <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/jquery.lightbox-0.5.js"></script>
 <script type="text/javascript">
 {literal}
@@ -67,19 +78,107 @@ $(document).ready(function() {
     {/section}
 </div>
 
-<div>
+<div class="parent_desc">
+    {if $profile.min_payment_show}
+    <div class="row">
+          <h3>Стоимость</h3>
+          <span class="desc">{$profile.min_payment_show}</span>
+    </div>
+    {/if}
+    {if $profile.payment_not_season}
+    <div class="row">
+          <h3>Стоимость вне сезона</h3>
+          <span class="desc">{$profile.payment_not_season} {$cur}</span>
+    </div>
+    {/if}
     {foreach from=$profile.description item=desc}
     <div class="row">
-      <label class="title">{$desc.name}:&nbsp;</label>
+      <h3>{$desc.name}:&nbsp;</h3>
       <span class="desc">{foreach from=$desc.fields name=desc_f item=d_f}{$d_f} {/foreach}</span>
+    </div>
+    {/foreach}
+    {foreach from=$profile.theme_rest item=desc}
+    <div class="row">
+      <h3>{$desc.name}</h3>
+      <p></p>{foreach from=$desc.fields name=theme_rest_loop item=d_f}{$d_f}{if !$smarty.foreach.theme_rest_loop.last}, {/if}{/foreach}</p>
     </div>
     {/foreach}
     {foreach from=$profile.info item=info}
     <div class="row">
-      <label class="title">{$info.name}:&nbsp;</label>
+      <h3>{$info.name}:&nbsp;</h3>
       <span class="desc">{foreach from=$info.fields name=info_loop item=d_f}{$d_f}{if !$smarty.foreach.info_loop.last}, {/if}{/foreach}</span>
     </div>
     {/foreach}
+    {foreach from=$profile.realty_type item=info}
+    <div class="row">
+      <h3>{$info.name}:&nbsp;</h3>
+      <span class="desc">{foreach from=$info.fields name=info_loop item=d_f}{$d_f}{if !$smarty.foreach.info_loop.last}, {/if}{/foreach}</span>
+    </div>
+    {/foreach}
+    {if $profile.floor}
+    <div class="row">
+      <h3>Этаж:&nbsp;</h3>
+      <span class="desc">{$profile.floor}</span>
+    </div>
+    {/if}
+    {if $profile.floors}
+    <div class="row">
+      <h3>Всего этажей:&nbsp;</h3>
+      <span class="desc">{$profile.floors}</span>
+    </div>
+    {/if}
+    {if $profile.ceil_height}
+    <div class="row">
+      <h3>Высота потолков:&nbsp;</h3>
+      <span class="desc">{$profile.ceil_height}</span>
+    </div>
+    {/if}
+    {if $profile.sea_distance}
+    <div class="row">
+      <h3>Расстояние до моря:&nbsp;</h3>
+      <span class="desc">{$profile.sea_distance}</span>
+    </div>
+    {/if}
+    {if $profile.term}
+    <div class="row">
+      <h3>Срок сдачи:&nbsp;</h3>
+      <span class="desc">{$profile.term}</span>
+    </div>
+    {/if}
+    {if $profile.investor}
+    <div class="row">
+      <h3>Инвестор:&nbsp;</h3>
+      <span class="desc">{$profile.investor}</span>
+    </div>
+    {/if}
+    {if $profile.parking}
+    <div class="row">
+      <h3>Паркинг:&nbsp;</h3>
+      <span class="desc">{$profile.parking}</span>
+    </div>
+    {/if}
+    {if $profile.total_square}
+    <div class="row">
+      <h3>Общая площадь:&nbsp;</h3>
+      <span class="desc">{$profile.total_square}</span>
+    </div>
+    {/if}
+    <div class="row">
+      <h3>Кол-во просмотров:&nbsp;</h3>
+      <span class="desc">{$profile.visits}</span>
+    </div>
+    <div class="row">
+      <h3>Дата публикации:&nbsp;</h3>
+      <span class="desc">{$profile.movedate}</span>
+    </div>
+    <div class="row">
+      <h3>Тур-оператор:&nbsp;</h3>
+      <span class="desc">{$profile.account.company_name}</span>
+    </div>
+    <div class="row">
+      <h3>Уникальный идентификатор объекта (ID):&nbsp;</h3>
+      <span class="desc">{$profile.id}</span>
+    </div>
 </div>
 {foreach from=$profile.childs item=child key=k}
 <div class="suit">
@@ -95,8 +194,10 @@ $(document).ready(function() {
     <div class="s_preview">
 
       <div class="photo-gallery">
-        {section name=ph loop=$child.photo_id}
-        	<div class="item">{if $child.photo_view_link[ph]}<a href="{$child.photo_file[ph]}" rel="lightbox[profile_photo]" title="{$child.photo_user_comment[ph]}">{/if}<img src='{$child.photo_thumb_file[ph]}' class='img-border' alt="{$child.photo_user_comment[ph]}">{if $child.photo_view_link[ph]}</a>{/if}	</div>
+        {section name=ph_ch loop=$child.photo_id}
+            {if $smarty.section.ph_ch.index < 4}
+        	<div class="item">{if $child.photo_view_link[ph_ch]}<a href="{$child.photo_file[ph_ch]}" rel="lightbox[profile_photo]" title="{$child.photo_user_comment[ph_ch]}">{/if}<img src='{$child.photo_thumb_file[ph_ch]}' class='img-border' alt="{$child.photo_user_comment[ph_ch]}">{if $child.photo_view_link[ph_ch]}</a>{/if}	</div>
+            {/if}
         {/section}
       </div>
     </div>
@@ -117,6 +218,12 @@ $(document).ready(function() {
         <div class="row">
           <label class="title">{$desc.name}:&nbsp;</label>
           <span class="desc">{foreach from=$desc.fields name=desc_f item=d_f}{$d_f} {/foreach}</span>
+        </div>
+        {/foreach}
+        {foreach from=$child.theme_rest item=desc}
+        <div class="row">
+          <label class="title">{$desc.name}:&nbsp;</label>
+          <span class="desc">{foreach from=$desc.fields name=theme_rest_loop item=d_f}{$d_f}{if !$smarty.foreach.theme_rest_loop.last}, {/if}{/foreach}</span>
         </div>
         {/foreach}
         {foreach from=$child.info item=info}
@@ -163,9 +270,59 @@ $(document).ready(function() {
         <div class="row">
           
         </div>
+        
+        {if $child.floor}
+        <div class="row">
+          <label class="title">Этаж:&nbsp;</label>
+          <span class="desc">{$child.floor}</span>
+        </div>
+        {/if}
+        {if $child.floors}
+        <div class="row">
+          <label class="title">Всего этажей:&nbsp;</label>
+          <span class="desc">{$child.floors}</span>
+        </div>
+        {/if}
+        {if $child.ceil_height}
+        <div class="row">
+          <label class="title">Высота потолков:&nbsp;</label>
+          <span class="desc">{$child.ceil_height}</span>
+        </div>
+        {/if}
+        
+        {if $child.sea_distance}
+        <div class="row">
+          <label class="title">Расстояние до моря:&nbsp;</label>
+          <span class="desc">{$child.sea_distance}</span>
+        </div>
+        {/if}
+        {if $child.term}
+        <div class="row">
+          <label class="title">Срок сдачи:&nbsp;</label>
+          <span class="desc">{$child.term}</span>
+        </div>
+        {/if}
+        {if $child.investor}
+        <div class="row">
+          <label class="title">Инвестор:&nbsp;</label>
+          <span class="desc">{$child.investor}</span>
+        </div>
+        {/if}
+        {if $child.parking}
+        <div class="row">
+          <label class="title">Паркинг:&nbsp;</label>
+          <span class="desc">{$child.parking}</span>
+        </div>
+        {/if}
+        {if $child.total_square}
+        <div class="row">
+          <label class="title">Общая площадь:&nbsp;</label>
+          <span class="desc">{$child.total_square}</span>
+        </div>
+        {/if}
         <div class="row">
 
-          <label class="title">Стоимость проживания ({$cur}):&nbsp;</label>
+          <label class="title">Стоимость {if $child.type == 4}проживания{/if} ({$cur}):&nbsp;</label>
           {if $child.type == 1}
           <span class="desc">{$child.min_payment_show}</span>
           
@@ -210,16 +367,26 @@ $(document).ready(function() {
           <span class="desc">{$child.min_payment_show} </span>
           {/if}
         </div>
+        {if $child.payment_not_season}
+        <div class="row">
+              <label class="title">Стоимость вне сезона: </label>
+              <span class="desc">{$child.payment_not_season} {$cur}</span>
+        </div>
+        {/if}
+        {if $child.furniture}
         <div class="row">
           <label class="title">Мебель:&nbsp;</label>
           <span class="desc">{$child.furniture}</span>
 
         </div>
+        {/if}
+        {if $child.comment}
         <div class="row">
           <label class="title">Информация:&nbsp;</label>
           <span class="desc">{$child.comment}</span>
 
         </div>
+        {/if}
         <!--
         <div class="row">
           <label class="title">Фотографии номера:&nbsp;</label>
@@ -229,15 +396,17 @@ $(document).ready(function() {
       </div>
       <div>
       	    <div class="photo-gallery">
-            {section name=ph loop=$child.photo_id}
-            	<div class="item">{if $child.photo_view_link[ph]}<a href="{$child.photo_file[ph]}" rel="lightbox[profile_photo]" title="{$child.photo_user_comment[ph]}">{/if}<img src='{$child.photo_thumb_file[ph]}' class='img-border' alt="{$child.photo_user_comment[ph]}">{if $child.photo_view_link[ph]}</a>{/if}	</div>
+            {section name=ph_gal loop=$child.photo_id}
+                {if $smarty.section.ph_gal.index > 3}
+            	<div class="item">{if $child.photo_view_link[ph_gal]}<a href="{$child.photo_file[ph_gal]}" rel="lightbox[profile_photo]" title="{$child.photo_user_comment[ph_gal]}">{/if}<img src='{$child.photo_thumb_file[ph_gal]}' class='img-border' alt="{$child.photo_user_comment[ph_gal]}">{if $child.photo_view_link[ph_gal]}</a>{/if}	</div>
+                {/if}
             {/section}
       </div>    
       </div>
 
       <div>
       	<div>
-            <img src="http://maps.google.com/maps/api/staticmap?zoom=11&markers=color:green|label:L|Minsk,Belarus&size=490x382&maptype=roadmap&sensor=false" border="0" alt="Map" width="490" height="382" id="map" />  
+            <img src="http://maps.google.com/maps/api/staticmap?zoom=11&markers=color:green|label:L|{$child.city_name},{$child.country_name}&size=490x382&maptype=roadmap&sensor=false" border="0" alt="Map" width="490" height="382" id="map" />  
         </div>
       </div>
       <div>

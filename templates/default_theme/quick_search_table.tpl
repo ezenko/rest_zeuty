@@ -1,4 +1,29 @@
 {include file="$gentemplates/site_top.tpl"}
+
+<div id="middle-container">
+  <h2>{if $category_title}{$category_title}{else}Результат поиска{/if} :</h2>
+  <div id="middle-holder">
+	<img src="img/fake/pict.jpg" alt="Сочи - город курорт" class="img-border" />
+	<br/>
+    {if $empty_result eq 1}
+		<table cellpadding="0" cellspacing="0">
+			<tr>				
+				<td width="5" height="27">&nbsp;</td>
+				<td class="error_div">*&nbsp;{$lang.content.empty_result} <a href="{$back_link}">{$lang.content.empty_res_search_criteria}</a></td>			
+			</tr>
+		</table>
+	{else}
+		{if $feature_ad}
+		  {include file="$gentemplates/feature_user.tpl"}
+		{/if}
+		  {include file="$gentemplates/search_results_users.tpl"}
+	{/if}
+	
+    
+  </div>
+  
+</div>
+{*
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
 <tr valign="top">
 	<td class="left">
@@ -101,4 +126,5 @@
 	</td>
 </tr>
 </table>
+*}
 {include file="$gentemplates/site_footer.tpl"}
