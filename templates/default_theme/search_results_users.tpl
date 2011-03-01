@@ -40,7 +40,9 @@ var cur_page = {$page-1};
         <img alt="" src="{$search_result[u].image}" class="img-border" style="cursor: pointer;" onclick="document.location.href='{$search_result[u].viewprofile_link}';" />
         <div class="desc">
         	<h4><a href="{$search_result[u].viewprofile_link}">{$search_result[u].headline}</a></h4>
+          {if $search_result[u].id_type != '2'}   
           <span>Место: {$search_result[u].country_name}, {$search_result[u].region_name}, {$search_result[u].city_name}</span>
+          {/if}
           <!--
           <span>Звезд: 5</span>
           <span>Питание: DBL</span>
@@ -54,12 +56,12 @@ var cur_page = {$page-1};
                         от {$search_result[u].min_payment} {$cur}
                     {/if}
                 {else}
-                    {$search_result[u].min_payment} {$cur}
+                    {if $search_result[u].show_from}от{/if} {$search_result[u].min_payment} {$cur}
                 {/if}
             {elseif $search_result[u].id_type == '3'}
-                {$search_result[u].min_payment} {$cur}
+                {if $search_result[u].show_from}от{/if} {$search_result[u].min_payment} {$cur}
             {else}
-                {$search_result[u].min_payment} {$cur}    
+                {if $search_result[u].show_from}от{/if} {$search_result[u].min_payment} {$cur}    
             {/if}
           </span>
         </div>

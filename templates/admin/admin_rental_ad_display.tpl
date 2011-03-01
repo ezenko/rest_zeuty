@@ -69,7 +69,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 		</tr>
 		{/if}
     
-    {if $profile.type neq '3'}
+    
       <tr><td colspan="2"><hr class="listing"></td></tr>
   		<tr>			
   			<td>
@@ -104,7 +104,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
   			</td>
   			<td width="100" align="right" valign="top" style="padding-right: 20px;"><a href="{$file_name}?sel=step_type&amp;id_ad={$profile.id}">{$lang.buttons.change}</a></td>
   		</tr>
-    {/if}    
+ 
         
 		<tr><td colspan="2"><hr class="listing"></td></tr>
 		<tr>			
@@ -341,7 +341,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 		<tr><td colspan="2"><hr class="listing"></td></tr>
 	{/if}
 		
-		{if $profile.type eq 1 || $profile.type eq 2 || $profile.type eq 4}
+		{if $profile.type eq 1 || $profile.type eq 2 || $profile.type eq 4 || $profile.type eq 3}
 		{if $no_ad ne 1}
 		<tr>
 			<td>
