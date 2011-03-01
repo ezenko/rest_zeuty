@@ -216,10 +216,11 @@ input[type="radio"] {margin-bottom:10px}
 #pg {display:inline-block; margin-top:20px}
 #catalog {display:inline-block; width:100%}
 #catalog .row {display:inline-block; margin-bottom:20px; width:100%}
-#catalog .item {float:left; display:inline-block; margin:10px}
+#catalog .item {float:left; display:inline-block; margin:10px; width: 350px;}
 	#catalog .item img {float:left; margin-right:20px}
-	#catalog .item .desc {float:left}
+	#catalog .item .desc {float:left; width: 120px;}
 	#catalog .item .desc h4 {font-size:14px; font-weight:normal; color:#097C00; margin-bottom:15px}
+    #catalog .item .desc h4 a {font-size:14px; font-weight:normal; color:#097C00;}
 	#catalog .item .desc span {display:block; font-size:12px; line-height:14px}
 #catalog .item.last {float:left; margin-right:0}
 	#catalog .item span {display:inline-block; margin-top:7px}
