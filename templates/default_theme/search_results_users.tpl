@@ -7,7 +7,7 @@ var cur_page = {$page-1};
         $("#pg").pagination({/literal}{$search_size}{literal},
           {
             callback: pageFilterCallback,
-            items_per_page: 5,
+            items_per_page: 8,
             num_display_entries: 5,
             link_to: '#catalog',
             num_edge_entries: 2,
@@ -39,7 +39,7 @@ var cur_page = {$page-1};
     <div class="item">
         <img alt="" src="{$search_result[u].image}" class="img-border" style="cursor: pointer;" onclick="document.location.href='{$search_result[u].viewprofile_link}';" />
         <div class="desc">
-        	<h4>{$search_result[u].headline}</h4>
+        	<h4><a href="{$search_result[u].viewprofile_link}">{$search_result[u].headline}</a></h4>
           <span>Место: {$search_result[u].country_name}, {$search_result[u].region_name}, {$search_result[u].city_name}</span>
           <!--
           <span>Звезд: 5</span>
@@ -54,12 +54,12 @@ var cur_page = {$page-1};
                         от {$search_result[u].min_payment} {$cur}
                     {/if}
                 {else}
-                    {$search_result[u].min_payment} {$cur}
+                    {if $search_result[u].show_from}от{/if} {$search_result[u].min_payment} {$cur}
                 {/if}
             {elseif $search_result[u].id_type == '3'}
-                {$search_result[u].min_payment} {$cur}
+                {if $search_result[u].show_from}от{/if} {$search_result[u].min_payment} {$cur}
             {else}
-                {$search_result[u].min_payment} {$cur}    
+                {if $search_result[u].show_from}от{/if} {$search_result[u].min_payment} {$cur}    
             {/if}
           </span>
         </div>
