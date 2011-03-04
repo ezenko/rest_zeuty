@@ -567,7 +567,7 @@ function MyAd ($id_ad='', $par='') {
 		$strSQL_payment = "SELECT min_payment, auction, min_deposit,
 							min_live_square, min_total_square,
 							min_land_square, min_floor, floor_num, subway_min, min_year_build,
-              furniture, payment_not_season
+              furniture, payment_not_season, days, hotel, route, facilities, meals
 							FROM ".USERS_RENT_PAYS_TABLE."
 							WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
 		$rs_payment = $dbconn->Execute($strSQL_payment);
@@ -584,7 +584,12 @@ function MyAd ($id_ad='', $par='') {
 		$profile["min_live_square"] = $row_payment["min_live_square"];
 		$profile["min_total_square"] = $row_payment["min_total_square"];
 		$profile["min_land_square"] = $row_payment["min_land_square"];
-		$profile["min_floor"] = $row_payment["min_floor"];
+    $profile["days"] = $row_payment["days"];
+    $profile["hotel"] = $row_payment["hotel"];
+    $profile["route"] = $row_payment["route"];
+    $profile["facilities"] = $row_payment["facilities"];
+    $profile["meals"] = $row_payment["meals"];
+    $profile["min_floor"] = $row_payment["min_floor"];
 		$profile["floor_num"] = $row_payment["floor_num"];
 		$profile["subway_min"] = $row_payment["subway_min"];
 		$profile["min_year_build"] = $row_payment["min_year_build"];
@@ -1490,7 +1495,12 @@ function SaveProfile($par){
 							min_live_square='".intval($_REQUEST["min_live_square"])."',
 							min_total_square='".intval($_REQUEST["min_total_square"])."',
 							min_land_square='".intval($_REQUEST["min_land_square"])."',
-							min_floor='".intval($_REQUEST["min_floor"])."',
+              days='".intval($_REQUEST["days"])."',
+              hotel='".intval($_REQUEST["hotel"])."',
+              route='".intval($_REQUEST["route"])."',
+              facilities='".intval($_REQUEST["facilities"])."',
+              meals='".intval($_REQUEST["meals"])."',
+              min_floor='".intval($_REQUEST["min_floor"])."',
 							floor_num='".intval($_REQUEST["floor_num"])."',
 							subway_min='".intval($_REQUEST["subway_min"])."',
 							min_year_build='".intval($_REQUEST["min_year_build"])."',
