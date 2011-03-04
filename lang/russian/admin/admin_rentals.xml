@@ -78,6 +78,7 @@
   <lines name="hotel" descr=""><![CDATA[Отель, количество звезд]]></lines>
   <lines name="route" descr=""><![CDATA[Точки маршрута]]></lines>
   <lines name="facilities" descr=""><![CDATA[Другие удобства]]></lines>
+  <lines name="hot" descr=""><![CDATA[Горячее предложение]]></lines>
   <lines name="meals" descr=""><![CDATA[Питание]]></lines>
 	<lines name="floor" descr=""><![CDATA[Этаж]]></lines>
   <lines name="floors" descr=""><![CDATA[Всего этажей]]></lines>

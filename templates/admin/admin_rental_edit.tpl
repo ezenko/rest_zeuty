@@ -210,6 +210,19 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 		<tr>
 			<td>
 			<table cellpadding="5" cellspacing="0" border="0" width="100%">
+      <tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.hot}:&nbsp;</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td align="right"><input type="checkbox" class="str" name="hot" id="hot" value="1" {if $data.hot eq '1'} checked="checked" {/if} size="7"></td>
+						<td>
+							<span name="hot_error" id="hot_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
 			{if ($choise eq '3')}
         <!-- price -->
         <tr>
