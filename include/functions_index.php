@@ -3844,7 +3844,7 @@ function Ad($id_ad, $id_user, $file_name = "", $sect = "", $order_by_comparison 
 			 */
 			$strSQL_payment = "SELECT min_payment, auction, min_deposit, ".
 							  "min_live_square, min_total_square, ".
-							  "min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season  ".
+							  "min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season, hotel, days, route, facilities, meals  ".
 							  "FROM ".USERS_RENT_PAYS_TABLE." ".
 							  "WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
 		}
