@@ -2819,6 +2819,22 @@ function getSearchArr($id_arr, $file_name, $page, $param, $order_link, $sorter=0
                         $search_result[$i]["min_payment"] = PaymentFormat(min($prices));
                 }
             }
+            elseif(!$row["min_payment"]) {
+                $strSQL_payment = "SELECT min_payment as price FROM ".USERS_RENT_PAYS_TABLE." WHERE id_ad IN(SELECT id FROM ".RENT_ADS_TABLE." WHERE parent_id = '{$row['id']}')";
+                $priceRS = $dbconn->Execute($strSQL_payment);
+                $prices = array();
+                if($priceRS) {
+                    while(!$priceRS->EOF) {
+                        $priceRow = $priceRS->GetRowAssoc(false);
+                        $prices[] = $priceRow['price'];
+                        $priceRS->MoveNext();
+                    }
+                    if(count($prices)){
+                        $search_result[$i]["min_payment"] = PaymentFormat(min($prices));
+                        $search_result[$i]["show_from"] = count($prices > 1) ? 1 : 0;
+                    }
+                }
+            }
 			$strSQL2 = "SELECT upload_path, user_comment FROM ".USERS_RENT_UPLOADS_TABLE." ".
 					   "WHERE id_ad='".$row["id"]."' AND upload_type='f' AND status='1' AND admin_approve='1' ".
 					   "ORDER BY sequence ASC LIMIT 1";
