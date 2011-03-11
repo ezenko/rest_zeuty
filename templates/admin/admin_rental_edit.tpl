@@ -1726,6 +1726,7 @@ function CheckIntegerFields( step, choise ){
 
 		id_arr_cnt = id_arr.length;
 		var error_cnt = 0;
+    id_arr_cnt = 0;
 		for (i = 0; i < id_arr_cnt; i++) {
 			name = id_arr[i];
 			value = document.getElementById(name).value;
