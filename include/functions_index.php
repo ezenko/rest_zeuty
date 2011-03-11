@@ -107,7 +107,98 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
     
     $smarty->assign("entertaiments", $entertaiment_manager->GetEntertaimentList($config['default_lang']));
     
+    $hot = getHot();
+    $smarty->assign("hot", $hot);
 	return;
+}
+
+function getHot()
+{
+    global $dbconn;
+    $settings = GetSiteSettings();
+    $strSQL = "SELECT * FROM ".RENT_ADS_TABLE." a INNER JOIN ".USERS_RENT_PAYS_TABLE." p ON a.id = p.id_ad WHERE a.parent_id=0 AND p.is_hot = 1";
+    if(isset($_REQUEST['choise']))
+    {
+        $strSQL .= " AND a.type='{$_REQUEST['choise']}'";
+    }
+    $rs = $dbconn->Execute($strSQL);
+    $i = 0;
+	while(!$rs->EOF) {
+	   $row = $rs->GetRowAssoc(false);
+       $hot[$i][id] = $row[id]; 
+       $hot[$i][headline] = $row[headline];  
+       $hot[$i][id_type] = $row[type];
+       //$hot[$i] = $row; 
+       $hot[$i]["viewprofile_link"] = "./viewprofile.php?id=".$hot[$i][id];    
+        if($hot[$i][id_type] == '1') {
+            $strSQL_payment = "SELECT * FROM ".USERS_RENT_PAYS_TABLE_BY_MONTH." a WHERE id_ad in (".
+                "SELECT id FROM ".RENT_ADS_TABLE." WHERE id ='{$row['id']}' OR parent_id ='{$row['id']}')";
+                echo $strSQL_payment;
+            $priceRS = $dbconn->Execute($strSQL_payment);
+            $prices = array();
+            if($priceRS) {
+                while(!$priceRS->EOF) {
+                    $priceRow = $priceRS->GetRowAssoc(false);
+                    $pr = array($priceRow['january'], $priceRow['february'], $priceRow['march'], 
+                        $priceRow['april'], $priceRow['may'], $priceRow['june'], $priceRow['july'], 
+                        $priceRow['august'], $priceRow['september'], $priceRow['october'], 
+                        $priceRow['november'], $priceRow['december']);
+                    $prices = array_merge($prices, $pr);
+                    $priceRS->MoveNext();
+                }
+                if(count($prices)) {
+                    $hot[$i]["min_payment"] = PaymentFormat(min($prices));
+                    $hot[$i]["show_from"] = count($prices > 1) ? 1 : 0;
+                }
+            }
+        }
+        elseif(!$row["min_payment"]) {
+            $strSQL_payment = "SELECT min_payment as price FROM ".USERS_RENT_PAYS_TABLE." WHERE id_ad IN(SELECT id FROM ".RENT_ADS_TABLE." WHERE parent_id = '{$row['id']}')";
+            $priceRS = $dbconn->Execute($strSQL_payment);
+            $prices = array();
+            if($priceRS) {
+                while(!$priceRS->EOF) {
+                    $priceRow = $priceRS->GetRowAssoc(false);
+                    $prices[] = $priceRow['price'];
+                    $priceRS->MoveNext();
+                }
+                if(count($prices)){
+                    $hot[$i]["min_payment"] = PaymentFormat(min($prices));
+                    $hot[$i]["show_from"] = count($prices > 1) ? 1 : 0;
+                }
+            }
+        }
+		$strSQL2 = "SELECT upload_path, user_comment FROM ".USERS_RENT_UPLOADS_TABLE." ".
+				   "WHERE id_ad='".$row["id"]."' AND upload_type='f' AND status='1' AND admin_approve='1' ".
+				   "ORDER BY sequence ASC LIMIT 1";
+		$rs2 = $dbconn->Execute($strSQL2);
+
+		if (strlen($row["slide_path"])>1){
+			$hot[$i]["image"] = $settings["photo_folder"]."/".$row["slide_path"];
+			$hot[$i]["alt"] = $lang["default_select"]["slideshow"];
+			$hot[$i]["slideshowed"] = 1;
+		} elseif ($rs2->RowCount() > 0){
+			$img = $rs2->GetRowAssoc(false);
+			$hot[$i]["image"] = $settings["photo_folder"]."/thumb_".$img["upload_path"];
+			$hot[$i]["alt"] = $img["user_comment"];
+		} else {
+			$used_references = array("gender");
+			foreach ($REFERENCES as $arr) {
+				if (in_array($arr["key"], $used_references)) {
+					$name = GetUserGenderIds($arr["spr_user_table"], $search_result[$i]["id_user"], 0, $arr["val_table"]);
+					$search_result[$i][$arr["key"]] = $name;
+				}
+			}
+			$gender_info = getDefaultUserIcon($hot[$i]["user_type"], $hot[$i]["gender"]);
+			$hot[$i]["num_gender"] =  $gender_info["num_gender"];
+			$hot[$i]["image"] =  $settings["photo_folder"]."/".$gender_info["icon_name"];
+			$hot[$i]["alt"] =  $gender_info["icon_alt"];
+		}
+       $rs->MoveNext();
+       $i++;
+    }
+    print_r($hot);
+    return $hot;
 }
 
 /**
@@ -3844,7 +3935,7 @@ function Ad($id_ad, $id_user, $file_name = "", $sect = "", $order_by_comparison 
 			 */
 			$strSQL_payment = "SELECT min_payment, auction, min_deposit, ".
 							  "min_live_square, min_total_square, ".
-							  "min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season  ".
+							  "min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season, hotel, days, route, facilities, meals  ".
 							  "FROM ".USERS_RENT_PAYS_TABLE." ".
 							  "WHERE id_ad='".$profile["id"]."' AND id_user='".$profile["id_user"]."' ";
 		}

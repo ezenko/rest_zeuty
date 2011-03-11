@@ -210,6 +210,19 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 		<tr>
 			<td>
 			<table cellpadding="5" cellspacing="0" border="0" width="100%">
+      <tr>
+				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.hot}:&nbsp;</td>
+				<td align="left">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td align="right"><input type="checkbox" class="str" name="hot" id="hot" value="1" {if $data.hot eq '1'} checked="checked" {/if} size="7"></td>
+						<td>
+							<span name="hot_error" id="hot_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
 			{if ($choise eq '3')}
         <!-- price -->
         <tr>
@@ -516,6 +529,19 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
     					</table>
     				</td>
     			</tr>
+          <tr>
+    				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.days_num}:&nbsp;</td>
+    				<td align="left">
+    					<table cellpadding="0" cellspacing="0" border="0">
+    					<tr>
+    						<td align="right"><input type="text" class="str" name="days" id="days" value="{$data.days}" size="7"></td>
+    						<td>
+    							<span name="days_error" id="days_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+    						</td>
+    					</tr>
+    					</table>
+    				</td>
+    			</tr>
         {/if}
         {if $choise eq 1}
 					<!-- payment by month -->
@@ -570,6 +596,47 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
     						<td align="right"><input type="text" class="str" name="payment_not_season" id="payment_not_season" value="{$data.payment_not_season}" size="7">&nbsp;{$cur}</td>
     						<td>
     							<span name="payment_not_season_error" id="payment_not_season_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+    						</td>
+    					</tr>
+    					</table>
+    				</td>
+    			</tr>
+          <tr>
+    				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.hotel}: </td>
+    				<td align="left">
+    					<table cellpadding="0" cellspacing="0" border="0">
+    					<tr>
+    						<td align="right"><input type="text" class="str" name="hotel" id="hotel" value="{$data.hotel}" size="7"></td>
+    						<td>
+    							<span name="hotel_error" id="hotel_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+    						</td>
+    					</tr>
+    					</table>
+    				</td>
+    			</tr>
+        {/if}
+        {if $choise eq 4}
+          <tr>
+    				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.route}: </td>
+    				<td align="left">
+    					<table cellpadding="0" cellspacing="0" border="0">
+    					<tr>
+    						<td align="right"><input type="text" class="str" name="route" id="route" value="{$data.route}" size="7"></td>
+    						<td>
+    							<span name="route_error" id="route_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+    						</td>
+    					</tr>
+    					</table>
+    				</td>
+    			</tr>
+          <tr>
+    				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.meals}: </td>
+    				<td align="left">
+    					<table cellpadding="0" cellspacing="0" border="0">
+    					<tr>
+    						<td align="right"><input type="text" class="str" name="meals" id="meals" value="{$data.meals}" size="7"></td>
+    						<td>
+    							<span name="meals_error" id="meals_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
     						</td>
     					</tr>
     					</table>
@@ -682,6 +749,21 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 				{/if}
 			{/section}
 			<!-- /info -->
+      {if $choise eq 4}
+          <tr>
+    				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.facilities}: </td>
+    				<td align="left">
+    					<table cellpadding="0" cellspacing="0" border="0">
+    					<tr>
+    						<td align="right"><input type="text" class="str" name="facilities" id="facilities" value="{$data.facilities}" size="7"></td>
+    						<td>
+    							<span name="route_facilities" id="route_facilities" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
+    						</td>
+    					</tr>
+    					</table>
+    				</td>
+    			</tr>
+        {/if}      
       <!-- theme_rest -->
 			{section name=f loop=$theme_rest}
 				{if $theme_rest[f].visible_in eq $choise}<!--visibility checking-->
@@ -1644,6 +1726,7 @@ function CheckIntegerFields( step, choise ){
 
 		id_arr_cnt = id_arr.length;
 		var error_cnt = 0;
+    id_arr_cnt = 0;
 		for (i = 0; i < id_arr_cnt; i++) {
 			name = id_arr[i];
 			value = document.getElementById(name).value;

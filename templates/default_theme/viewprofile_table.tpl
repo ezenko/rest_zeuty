@@ -58,7 +58,9 @@ $(document).ready(function() {
 	
 	
 <div id="middle-container">
-<h2>{$profile.headline_short}</h2>
+
+
+<h2 style="height:24px;"><span style="float:left;font-size:20px">{$profile.headline_short} {$profile.country_name},{$profile.region_name},{$profile.city_name}</span><div style="float:right;">ID {$profile.id}</div></h2>
 
 <div id="middle-holder">
 <center>
@@ -78,6 +80,7 @@ $(document).ready(function() {
     {/section}
 </div>
 
+{*
 <div class="parent_desc">
     {if $profile.min_payment_show}
     <div class="row">
@@ -180,6 +183,7 @@ $(document).ready(function() {
       <span class="desc">{$profile.id}</span>
     </div>
 </div>
+*}
 {foreach from=$profile.childs item=child key=k}
 <div class="suit">
   <div class="suit-header">
@@ -270,6 +274,36 @@ $(document).ready(function() {
         <div class="row">
           
         </div>
+        {if $child.hotel}
+        <div class="row">
+          <label class="title">Отель:&nbsp;</label>
+          <span class="desc">{$child.hotel}</span>
+        </div>
+        {/if}
+        {if $child.days}
+        <div class="row">
+          <label class="title">Количество дней:&nbsp;</label>
+          <span class="desc">{$child.days}</span>
+        </div>
+        {/if}
+        {if $child.facilities}
+        <div class="row">
+          <label class="title">Другие услуги:&nbsp;</label>
+          <span class="desc">{$child.facilities}</span>
+        </div>
+        {/if}
+        {if $child.meals}
+        <div class="row">
+          <label class="title">Питание:&nbsp;</label>
+          <span class="desc">{$child.meals}</span>
+        </div>
+        {/if}
+        {if $child.route}
+        <div class="row">
+          <label class="title">Точки маршрута:&nbsp;</label>
+          <span class="desc">{$child.route}</span>
+        </div>
+        {/if}
         
         {if $child.floor}
         <div class="row">

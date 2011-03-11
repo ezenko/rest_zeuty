@@ -232,10 +232,13 @@ function InComparisonList() {
               <div class="content clearfix">
                 <div class="row row-first">
                   <div class="field">
-                    <label for="t1">Откуда</label>
-                    <select id="t1">
-                      <option>Hello</option>
-                      <option>Hello 1</option>
+                    <label for="t1">Страна</label>
+                    
+                    <select id="rest_country" onchange="SelectRestRegion(this)">
+                        <option value="">{$lang.default_select.ip_country}</option>
+                      {foreach item=item from=$country}
+    					<option value="{$item.id}" {if $country_id eq $item.id} selected {/if}>{$item.name}</option>
+    					{/foreach}
                     </select>
                   </div>
                   <div class="field">
@@ -255,10 +258,9 @@ function InComparisonList() {
                 </div>
                 <div class="row">
                   <div class="field">
-                    <label for="y1">Куда</label>
-                    <select id="y1">
-                      <option>Hello</option>
-                      <option>Hello 1</option>
+                    <label for="rest_region">Регион</label>
+                    <select id="rest_region">
+                      <option value="">{$lang.default_select.ip_region}</option>
                     </select>
                   </div>
                   <div class="field">
@@ -286,10 +288,9 @@ function InComparisonList() {
                 </div>
                 <div class="row">
                   <div class="field">
-                    <label for="c1">Курорт</label>
-                    <select id="c1">
-                      <option>Hello</option>
-                      <option>Hello 1</option>
+                    <label for="rest_city">Курорт</label>
+                    <select id="rest_city">
+                      <option value="">{$lang.default_select.ip_city}</option>
                     </select>
                   </div>
                   <div class="field">
@@ -412,32 +413,34 @@ function InComparisonList() {
             <div class="clearfix scrollable vertical">
               <div class="items-container">
               	<div>
+               {foreach from=$hot item=h key=k}
                   <div class="item">
-                    <img alt="" src="img/fake/img1.jpg" />
-                    <span class="title">Сочи</span>
-                    <span class="price">Антигуа: от 670$</span>
-                    <a class="order">Заказать</a>
+                    <img alt="" src="{$h.image}" />
+                    <span class="title">{$h.headline}</span>
+                    <span class="price">Стоимость: 
+                    {if $h.id_type == '2'} 
+                        {if $h.payment_not_season}
+                            {if $h.payment_not_season < $search_result[u].min_payment}
+                                от {$h.payment_not_season} {$cur}
+                            {else}
+                                от {$h.min_payment} {$cur}
+                            {/if}
+                        {else}
+                            {if $h.show_from}от{/if} {$h.min_payment} {$cur}
+                        {/if}
+                    {elseif $h.id_type == '3'}
+                        {if $h.show_from}от{/if} {$h.min_payment} {$cur}
+                    {else}
+                        {if $h.show_from}от{/if} {$h.min_payment} {$cur}    
+                    {/if}
+                    </span>
+                    <a class="order" href="{$h.viewprofile_link}">Заказать</a>
                   </div>
-                  <div class="item">
-                    <img alt="" src="img/fake/img1.jpg" />
-                    <span class="title">Сочи</span>
-                    <span class="price">Антигуа: от 670$</span>
-                    <a class="order">Заказать</a>
+                  {if $k mod 2}
                   </div>
-                </div>
-              	<div>
-                  <div class="item">
-                    <img alt="" src="img/fake/img1.jpg" />
-                    <span class="title">Сочи 3333</span>
-                    <span class="price">Антигуа: от 670$</span>
-                    <a class="order">Заказать</a>
-                  </div>
-                  <div class="item">
-                    <img alt="" src="img/fake/img1.jpg" />
-                    <span class="title">Сочи 444</span>
-                    <span class="price">Антигуа: от 670$</span>
-                    <a class="order">Заказать</a>
-                  </div>
+                  <div>
+                  {/if}
+               {/foreach}
                 </div>
               </div>
             </div>
