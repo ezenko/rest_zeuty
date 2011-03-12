@@ -18,7 +18,7 @@
  * @return void
  */
 function IndexHomePage($content_name, $section_name="", $is_module=0) {
-	global $config, $dbconn, $smarty, $user, $lang, $REFERENCES;
+	global $config, $dbconn, $smarty, $user, $lang, $REFERENCES, $multi_lang;
 	$smarty->assign("user", $user);
 	$smarty->assign("content_name", $content_name);
 
@@ -102,6 +102,67 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
         }
     }
     
+    if ( ($_SERVER['SCRIPT_NAME'] == '/quick_search.php') || (($_REQUEST["back"]) && intval($_REQUEST["back"])==1))
+    {
+		/**
+		 * Load search settings
+		 */
+		$data = $_SESSION["quick_search_pars"];
+        
+		$used_references = array("realty_type", "description", "theme_rest");
+		foreach ($REFERENCES as $arr) {
+			if (in_array($arr["key"], $used_references)) {
+				$key = $multi_lang->TableKey($arr["spr_table"]);
+				if (!empty($data[$arr["key"]])) {
+					$data[$key] = GetBackData($data[$arr["key"]]);
+				}
+			}
+		}
+		$used_references = array("realty_type", "description", "theme_rest");
+		foreach ($REFERENCES as $arr) {
+			if (in_array($arr["key"], $used_references)) {
+
+				$smarty->assign($arr["key"], GetRefSearchArray($arr["spr_table"], $arr["val_table"], $data));
+			}
+		}
+		$search_pref = $data;
+		GetLocationContent($data["country"], $data["region"]);
+	} else {
+		/**
+		 * Load users' search preferences
+		 */
+		$search_location = GetPrimarySearchLocation($user[0]);
+		GetLocationContent($search_location["id_country"], $search_location["id_region"]);
+		$data["region"] = $search_location["id_region"];
+		$data["city"] = $search_location["id_city"];
+
+		$search_pref = GetSearchPreferences($user[0]);
+		$used_references = array("realty_type", "description", "theme_rest");
+		if ($search_pref) {
+			/**
+			 * load search preferences to references array
+			 */
+			foreach ($REFERENCES as $arr) {
+				if (in_array($arr["key"], $used_references)) {
+					$key = $multi_lang->TableKey($arr["spr_table"]);
+					if ($arr["key"] == "realty_type") {
+						$data[$key][] = $search_pref["realty_type"];
+					} elseif ($arr["key"] == "description") {
+						$data[$key][] = $search_pref["beds_number"];
+						$data[$key][] = $search_pref["bath_number"];
+						$data[$key][] = $search_pref["garage_number"];
+					}
+				}
+			}
+		}
+		foreach ($REFERENCES as $arr) {
+			if (in_array($arr["key"], $used_references)) {
+				$smarty->assign($arr["key"], GetRefSearchArray($arr["spr_table"], $arr["val_table"], $data));
+			}
+		}
+		$data["qsform_more_opt"] = 1;
+	}
+    
     require_once ('class.entertaiment_manager.php');
     $entertaiment_manager = new EntertaimentManager();
     
@@ -121,6 +182,7 @@ function getHot()
     {
         $strSQL .= " AND a.type='{$_REQUEST['choise']}'";
     }
+
     $rs = $dbconn->Execute($strSQL);
     $i = 0;
 	while(!$rs->EOF) {
@@ -133,7 +195,6 @@ function getHot()
         if($hot[$i][id_type] == '1') {
             $strSQL_payment = "SELECT * FROM ".USERS_RENT_PAYS_TABLE_BY_MONTH." a WHERE id_ad in (".
                 "SELECT id FROM ".RENT_ADS_TABLE." WHERE id ='{$row['id']}' OR parent_id ='{$row['id']}')";
-                echo $strSQL_payment;
             $priceRS = $dbconn->Execute($strSQL_payment);
             $prices = array();
             if($priceRS) {
@@ -197,7 +258,7 @@ function getHot()
        $rs->MoveNext();
        $i++;
     }
-    print_r($hot);
+    
     return $hot;
 }
 

@@ -101,63 +101,7 @@ function HomePage($par){
 	$link_count = GetCountForLinks($user[0]);
 	$smarty->assign("link_count",$link_count);
 
-	if (isset($_REQUEST["back"]) && intval($_REQUEST["back"])==1){
-		/**
-		 * Load search settings
-		 */
-		$data = $_SESSION["quick_search_pars"];
-		$used_references = array("realty_type", "description");
-		foreach ($REFERENCES as $arr) {
-			if (in_array($arr["key"], $used_references)) {
-				$key = $multi_lang->TableKey($arr["spr_table"]);
-				if (!empty($data[$arr["key"]])) {
-					$data[$key] = GetBackData($data[$arr["key"]]);
-				}
-			}
-		}
-		$used_references = array("realty_type", "description");
-		foreach ($REFERENCES as $arr) {
-			if (in_array($arr["key"], $used_references)) {
-				$smarty->assign($arr["key"], GetRefSearchArray($arr["spr_table"], $arr["val_table"], $data));
-			}
-		}
-		$search_pref = $data;
-		GetLocationContent($data["country"], $data["region"]);
-	} else {
-		/**
-		 * Load users' search preferences
-		 */
-		$search_location = GetPrimarySearchLocation($user[0]);
-		GetLocationContent($search_location["id_country"], $search_location["id_region"]);
-		$data["region"] = $search_location["id_region"];
-		$data["city"] = $search_location["id_city"];
-
-		$search_pref = GetSearchPreferences($user[0]);
-		$used_references = array("realty_type", "description");
-		if ($search_pref) {
-			/**
-			 * load search preferences to references array
-			 */
-			foreach ($REFERENCES as $arr) {
-				if (in_array($arr["key"], $used_references)) {
-					$key = $multi_lang->TableKey($arr["spr_table"]);
-					if ($arr["key"] == "realty_type") {
-						$data[$key][] = $search_pref["realty_type"];
-					} elseif ($arr["key"] == "description") {
-						$data[$key][] = $search_pref["beds_number"];
-						$data[$key][] = $search_pref["bath_number"];
-						$data[$key][] = $search_pref["garage_number"];
-					}
-				}
-			}
-		}
-		foreach ($REFERENCES as $arr) {
-			if (in_array($arr["key"], $used_references)) {
-				$smarty->assign($arr["key"], GetRefSearchArray($arr["spr_table"], $arr["val_table"], $data));
-			}
-		}
-		$data["qsform_more_opt"] = 1;
-	}			
+				
 	$day = (isset($search_pref["move_day"]) && $search_pref["move_day"]) ? $search_pref["move_day"] : date("d")+1;
 	$month = (isset($search_pref["move_month"]) && $search_pref["move_month"]) ? $search_pref["move_month"] : date("m");
 

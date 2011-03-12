@@ -54,6 +54,9 @@ if($user[4]==1 && !(isset($_REQUEST["view_from_admin"]) && $_REQUEST["view_from_
 		}
 	}
 
+if(isset($_REQUEST['id']) && is_numeric($_REQUEST['id'])) {
+    header("Location: /viewprofile.php?id={$_REQUEST['id']}");
+}
 	switch ($sel) {
 		case "from_form": NewSearch("from_form"); break;
         case "category": NewSearch("category"); break;
@@ -108,7 +111,7 @@ function NewSearch($par='') {
                 break;
         }
     }
-	IndexHomePage('quick_search',$section_name);
+	
 
 	if($user[3] != 1){
 		CreateMenu('homepage_top_menu');
@@ -390,7 +393,7 @@ function NewSearch($par='') {
 					$used_references = array("realty_type", "description", "theme_rest");
 					foreach ($used_references as $key=>$value) {
 						if (isset($_REQUEST["spr_".$value])) {							
-							if ($value == "realty_type" || ($value == "description" && $qsform_more_opt)) {
+							if ($value == "theme_rest" || $value == "realty_type" || ($value == "description" && $qsform_more_opt)) {
 								$_SESSION["quick_search_pars"]["spr_".$value] = $_REQUEST["spr_".$value];
 								$_SESSION["quick_search_pars"][$value] = $_REQUEST[$value];
 							}								 
@@ -403,12 +406,12 @@ function NewSearch($par='') {
 									}							
 								}
 							}
-                            if($value == 'theme_rest') {
+                            /*if($value == 'theme_rest') {
                                 foreach ($_REQUEST["spr_".$value] as $k=>$val) {
-                                    $_SESSION["quick_search_pars"]["spr_".$value] = $k;
-    		                        $_SESSION["quick_search_pars"][$value] = $_REQUEST["spr_" .$value][$k];
+                                    $_SESSION["quick_search_pars"]["spr_".$value] = array($k);
+    		                        $_SESSION["quick_search_pars"][$value] = array($_REQUEST["spr_" .$value][$k]);
                                 }
-                            }
+                            }*/
 						}	
 					}
 
@@ -417,7 +420,7 @@ function NewSearch($par='') {
 					/**
 					 * references value must be equal to entered in search form
 					 */
-					$used_references = array("realty_type");
+					$used_references = array("realty_type", "theme_rest");
 					foreach ($REFERENCES as $arr) {
 						if (in_array($arr["key"], $used_references)) {
 							if (isset($_REQUEST["spr_".$arr["key"]])) {
@@ -461,6 +464,8 @@ function NewSearch($par='') {
 						}
 					}
                     
+                    if($choise == 8)
+                    {
                     $used_references = array("theme_rest");
 					foreach ($REFERENCES as $arr) {
 						if (in_array($arr["key"], $used_references)) {
@@ -474,6 +479,7 @@ function NewSearch($par='') {
 							}	
 						}
 					}
+                    }
 
 				$strSQL = "SELECT DISTINCT ra.id
 							FROM ".USERS_TABLE." u ".$video_table.$location_table." , ".RENT_ADS_TABLE." ra ".$spr_table.$payment_table."
@@ -531,6 +537,7 @@ function NewSearch($par='') {
     
 	getSearchArr(isset($_SESSION["quick_search_arr"]) ? $_SESSION["quick_search_arr"] : array(), $file_name, $page, $param, $order_link, $sorter, $sorter_order, $par, isset($region) ? $region : "", isset($choise) ? $choise : "", isset($with_photo_arr) ? $with_photo_arr : "");
 	
+    IndexHomePage('quick_search',$section_name);
 	$smarty->assign("sect", "rent");
 	$smarty->assign("file_name", $file_name);
 

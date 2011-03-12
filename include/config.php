@@ -8,7 +8,7 @@
 	$config["dbhost"] = "localhost";
 	$config["dbuname"] = "root";
 	$config["dbpass"] = "";
-	$config["dbname"] = "realestate";
+	$config["dbname"] = "rest";
 
 	$config["table_prefix"] = "re_";
 		
