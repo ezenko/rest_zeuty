@@ -749,6 +749,35 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 				{/if}
 			{/section}
 			<!-- /info -->
+      {if $choise eq 1}
+        <!-- type -->
+  			{section name=f loop=$realty_type}
+  				{if $realty_type[f].visible_in ne 3}<!--visibility checking-->
+  					<tr>
+  						<td width="110" valign="top" style="padding-top: 10px;">{$realty_type[f].name}:&nbsp;<font class="error">*</font><input type=hidden name="spr_realty_type[{$realty_type[f].num}]" value="{$realty_type[f].id}"></td>
+  						<td align="left">
+  						{if $realty_type[f].des_type eq 2}
+  							<select id="realty_type{$realty_type[f].num}" name="realty_type[{$realty_type[f].num}][]"  style="width:150px" {if $realty_type[f].type eq 2}multiple{/if}>
+  							<option value="" {if !$item.sel} selected {/if} >{$lang.content.please_choose}</option>
+  							{foreach item=item from=$realty_type[f].opt}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.name}</option>{/foreach}
+  							</select>
+  						{else}
+  							<table cellpadding="2" cellspacing="0" border="0">
+  							{section name=s loop=$realty_type[f].opt}
+  							{if $smarty.section.s.index is div by 4}<tr>{/if}
+  							<td width="15" height="30"><input type="checkbox" name="realty_type[{$realty_type[f].num}][]" value="{$realty_type[f].opt[s].value}"  {if $realty_type[f].opt[s].sel} checked {/if}></td>
+  							<td width="130">{$realty_type[f].opt[s].name}</td>
+  							{if $smarty.section.s.index_next is div by 4 || $smarty.section.s.last}</tr>{/if}
+  							{/section}
+  
+  						{/if}
+  						<div class="error" id="realty_type_error" style="display: none;">&nbsp;&nbsp;{$lang.content.incorrect_field}</div>
+  						</td>
+  					</tr>
+  				{/if}
+  			{/section}
+  			<!-- /type -->
+      {/if}
       {if $choise eq 4}
           <tr>
     				<td width="110" valign="top" style="padding-top: 10px;">{$lang.content.facilities}: </td>
