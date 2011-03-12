@@ -60,6 +60,7 @@ if(isset($_REQUEST['id']) && is_numeric($_REQUEST['id'])) {
 	switch ($sel) {
 		case "from_form": NewSearch("from_form"); break;
         case "category": NewSearch("category"); break;
+        case "tours": NewSearch("tours"); break;
 		case "search": NewSearch("search"); break;
 		case "online": NewSearch("online"); break;
 		case "new_members": NewSearch("new_members"); break;

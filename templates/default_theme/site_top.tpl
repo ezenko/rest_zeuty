@@ -28,7 +28,8 @@
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/comparison_list.js"></script>
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/md5.js"></script>
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/AmiJS.js"></script>
-	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/greybox.js"></script>	
+	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/greybox.js"></script>
+    <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/filter.js"></script>	
 	<script language="JavaScript" type="text/javascript">
 		var GB_IMG_DIR = "{$site_root}{$template_root}{$template_images_root}/greybox/";
 	</script>
@@ -214,100 +215,8 @@ function InComparisonList() {
         </div>
       </div>
     </div>
-    <script>
-    {literal}
-    $(document).ready(function(){
-        
-        
-        
-        $('#rest_country').linkselect( {
-            change: function(li, value, text){
-                $.get('/location2.php?sec=ip&sel=region&id_country=' + value,
-                function(data){
-                    $("#rest_region").linkselect("replaceOptions", data, false);
-                },
-                "json"
-                );
-            }
-        }
-        );
-        $('#rest_region').linkselect( {
-            change: function(li, value, text){
-                $.get('/location2.php?sec=ip&sel=city&id_region=' + value,
-                function(data){
-                    $("#rest_city").linkselect("replaceOptions", data, false);
-                },
-                "json"
-                );
-            }
-        }
-        );
-        
-        $('#rest_city').linkselect();
-        $('#rest_realty').linkselect();
-        
-        $('#rest_submit').click(function(){
-            $form = $('#filterForm');
-            var country = parseInt($('#rest_country').linkselect("val"));
-            var region = parseInt($('#rest_region').linkselect("val"));
-            var city = parseInt($('#rest_city').linkselect("val"));
-            var realty = parseInt($('#rest_realty').linkselect("val"));
-            
-            if(!isNaN(country)) {
-                $form.find('input[name=country]').val(country);
-            }
-            if(!isNaN(region)) {
-                $form.find('input[name=region]').val(region);
-            }
-            if(!isNaN(city)) {
-                $form.find('input[name=city]').val(city);
-            }
-            if(!isNaN(realty)) {
-                $form.find('input[name^=realty_type]').val(realty);
-            }
-            $form.find('input[name=id]').val($('#rest_id').val());
-            $form.find('input[name=choise]').val(1);
-            $form.submit();
-        });
-        
-        $('#active_country').linkselect( {
-            change: function(li, value, text){
-                $.get('/location2.php?sec=ip&sel=region&id_country=' + value,
-                function(data){
-                    $("#active_region").linkselect("replaceOptions", data, false);
-                },
-                "json"
-                );
-            }
-        }
-        );
-        
-        $('#active_region').linkselect();
-        $('#active_theme').linkselect();
-        
-        $('#active_submit').click(function(){
-            $form = $('#filterForm');
-            var country = parseInt($('#active_country').linkselect("val"));
-            var region = parseInt($('#active_region').linkselect("val"));
-            var theme = parseInt($('#active_theme').linkselect("val"));
-            
-            if(!isNaN(country)) {
-                $form.find('input[name=country]').val(country);
-            }
-            if(!isNaN(region)) {
-                $form.find('input[name=region]').val(region);
-            }
-            if(!isNaN(theme)) {
-                $form.find('input[name^=theme_rest]').val(theme);
-            }
-            $form.find('input[name=id]').val($('#active_id').val());
-            $form.find('input[name=choise]').val(4);
-            $form.submit();
-        });
-    });
-    {/literal}
-    </script>
-    <form style="display:none" id="filterForm" action="/quick_search.php?sel=category&from_file=index" method="post">
+    
+    <form style="display:none" id="filterForm" action="/quick_search.php?from_file=index" method="post">
         <input type="hidden" name="country" value=""/>
         <input type="hidden" name="region" value=""/>
         <input type="hidden" name="city" value=""/>
@@ -317,6 +226,7 @@ function InComparisonList() {
         <input type="hidden" name="theme_rest[0][]" value=""/>
         <input type="hidden" name="spr_theme_rest[0]" value="2"/>
         <input type="hidden" name="id" value=""/>
+        <input type="hidden" name="sel" value="category"/>
     </form>
     <div id="widgets" class="clearfix">
     	<div class="centered-content clearfix">
@@ -423,13 +333,7 @@ function InComparisonList() {
                     <label for="t2">Поиск по ID</label>
                     <input type="text" id="active_id" value="" />
                   </div>
-                  <!--
-                  <div class="field last">
-                    <label>Стоимость</label><br/ >
-                    <input type="text" id="ff" class="from" value="от" />
-                    <input type="text" id="tt" class="to" value="до" />
-                  </div>
-                  -->
+                  
                 </div>
                 <div class="row">
                   <div class="field">
@@ -439,21 +343,7 @@ function InComparisonList() {
                     </select>
                   </div>
                   
-                  <!--
-                  <div class="field">
-                    <input type="radio" id="r1" />
-                    <label for="r1">летний отдых</label>
-                    <br/>
-                    <input type="radio" id="r2" />
-                    <label for="r2">зимний отдых</label>
-                    <br/>
-                    <input type="radio" id="r3" />
-                    <label for="r3">только с фото</label>
-                    <br/>
-                    <input type="radio" id="r4" />
-                    <label for="r4">без посредников</label>
-                  </div>
-                  -->
+                  
                 </div>
                 <div class="row">
                   <div class="field">
@@ -473,7 +363,63 @@ function InComparisonList() {
             </div>
           </div>
           <div>
-          	another content 3
+          	<div class="free-space">
+              <div class="clearfix">
+                <span class="title">Поиск</span>
+                <a class="action" id="active_submit">Искать</a>
+              </div>
+              <div class="content clearfix">
+                <div class="row row-first">
+                  <div class="field">
+                    <label for="tours_from">Откуда</label>
+                    
+                    <select id="tours_from">
+                        <option value="">{$lang.default_select.ip_city}</option>
+                      {foreach item=item from=$tours_from}
+    					<option value="{$item.id}" {if $tours_from_id eq $item.id} selected {/if}>{$item.name}</option>
+    					{/foreach}
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="t2">Поиск по ID</label>
+                    <input type="text" id="tour_id" value="" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="field">
+                    <label for="tours_country">Куда (страна)</label>
+                    <select id="tours_country">
+                      <option value="">{$lang.default_select.ip_country}</option>
+                      {foreach item=item from=$tours_country}
+    					<option value="{$item.id}" {if $tours_country_id eq $item.id} selected {/if}>{$item.name}</option>
+    					{/foreach}
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="tours_hotel">Отель</label>
+                    <select id="tours_hotel">
+                      <option value="">{$lang.content.choose}</option>
+                      {foreach item=item from=$tours_hotel}
+    					<option value="{$item.hotel}" {if $tours_hotel_id eq $item.hotel} selected {/if}>{$item.hotel}</option>
+    					{/foreach}
+                    </select>
+                  </div>
+                  
+                </div>
+                <div class="row">
+                  <div class="field">
+                    <label for="tours_city">Курорт</label>
+                      <select id="tours_city">
+                        <option value=""{if $tours_city_id} selected {/if}>{$lang.default_select.ip_city}</option>
+                        {*
+                        {foreach item=item from=$r.opt}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.name}</option>{/foreach}
+                        *}
+                      </select>
+               	  </div>
+                  
+                </div>
+              </div>
+            </div>
           </div>
           <div>
           	another content 4

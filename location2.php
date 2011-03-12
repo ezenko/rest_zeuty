@@ -73,6 +73,26 @@ switch($sel){
 		}
         echo json_encode($city_arr);
 		break;
+    case "tours_city":
+        $city_arr[] = array('value'=> 0, 'text' => $lang["default_select"][$sec."_city"]);
+		if (isset($_GET["id_country"])){
+		  $strSQL = "SELECT c.* FROM ".CITY_TABLE." c ".
+                "INNER JOIN ".USERS_RENT_LOCATION_TABLE." l ON c.id = l.id_city ".
+                "INNER JOIN ".RENT_ADS_TABLE." r ON l.id_ad = r.id ". 
+                "WHERE r.type = 2 AND r.parent_id<>0 AND l.id_country='".intval($_GET["id_country"])."' ORDER BY c.name";
+			$rs = $dbconn->Execute($strSQL);
+                
+			while (!$rs->EOF) {
+				$row = $rs->GetRowAssoc(false);
+				if ($config["lang_ident"]!='ru'){
+					$row["name"] = RusToTranslit($row["name"]);
+				}
+				$city_arr[] = array('value' => $row["id"], 'text' => stripslashes(htmlspecialchars($row["name"])));
+				$rs->MoveNext();
+			}
+		}
+        echo json_encode($city_arr);
+		break;
 	case "login":
 		$login = addslashes($_GET["login"]);
 		$strSQL = "SELECT COUNT(*) FROM ".USERS_TABLE." WHERE login LIKE '".$login."' ";		

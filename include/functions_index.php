@@ -127,6 +127,7 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
 		}
 		$search_pref = $data;
 		GetLocationContent($data["country"], $data["region"]);
+        GetToursContent($data);
 	} else {
 		/**
 		 * Load users' search preferences
@@ -136,6 +137,7 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
 		$data["region"] = $search_location["id_region"];
 		$data["city"] = $search_location["id_city"];
 
+        GetToursContent();
 		$search_pref = GetSearchPreferences($user[0]);
 		$used_references = array("realty_type", "description", "theme_rest");
 		if ($search_pref) {
@@ -163,6 +165,7 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
 		$data["qsform_more_opt"] = 1;
 	}
     
+    
     require_once ('class.entertaiment_manager.php');
     $entertaiment_manager = new EntertaimentManager();
     
@@ -171,6 +174,70 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
     $hot = getHot();
     $smarty->assign("hot", $hot);
 	return;
+}
+
+function getToursContent($data = NULL)
+{
+    global $dbconn, $smarty;
+    $strSQL = "SELECT c.* FROM ".CITY_TABLE." c".
+        " INNER JOIN ".USERS_RENT_LOCATION_TABLE." p ON p.id_city = c.id ".
+        " INNER JOIN ".RENT_ADS_TABLE." a ON a.id = p.id_ad WHERE a.parent_id=0 AND a.type = 2";
+    
+    $rs = $dbconn->Execute($strSQL);
+    $i = 0;
+	while(!$rs->EOF) {
+	   $row = $rs->GetRowAssoc(false);
+       $tours_from[$i] = $row; 
+       
+       $rs->MoveNext();
+       $i++;
+    }
+    $smarty->assign('tours_from', $tours_from);
+    
+    if($data['tours_from'])
+    {
+        $smarty->assign('tours_from_id', $data['tours_from']);
+    }
+    
+    $strSQL = "SELECT c.* FROM ".COUNTRY_TABLE." c".
+        " INNER JOIN ".USERS_RENT_LOCATION_TABLE." p ON p.id_country = c.id ".
+        " INNER JOIN ".RENT_ADS_TABLE." a ON a.id = p.id_ad WHERE a.parent_id<>0 AND a.type = 2";
+    
+    $rs = $dbconn->Execute($strSQL);
+    $i = 0;
+	while(!$rs->EOF) {
+	   $row = $rs->GetRowAssoc(false);
+       $tours_country[$i] = $row; 
+       
+       $rs->MoveNext();
+       $i++;
+    }
+    $smarty->assign('tours_country', $tours_country);
+    
+    if($data['tours_country'])
+    {
+        $smarty->assign('tours_country_id', $data['tours_country']);
+    }
+    
+    $strSQL = "SELECT p.hotel FROM ".USERS_RENT_PAYS_TABLE." p ".
+        " INNER JOIN ".RENT_ADS_TABLE." a ON a.id = p.id_ad WHERE a.parent_id<>0 AND a.type = 2";
+    
+    $rs = $dbconn->Execute($strSQL);
+    $i = 0;
+	while(!$rs->EOF) {
+	   $row = $rs->GetRowAssoc(false);
+       $tours_country[$i] = $row; 
+       
+       $rs->MoveNext();
+       $i++;
+    }
+    $smarty->assign('tours_hotel', $tours_hotel);
+    
+    if($data['tours_hotel'])
+    {
+        $smarty->assign('tours_hotel_id', $data['tours_hotel']);
+    }
+    return;
 }
 
 function getHot()
@@ -206,6 +273,10 @@ function getHot()
                         $priceRow['november'], $priceRow['december']);
                     $prices = array_merge($prices, $pr);
                     $priceRS->MoveNext();
+                }
+                foreach($prices as $k=>$p)
+                {
+                    if($p == 0) unset($prices[$k]);
                 }
                 if(count($prices)) {
                     $hot[$i]["min_payment"] = PaymentFormat(min($prices));
