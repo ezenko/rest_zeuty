@@ -51,6 +51,7 @@ $smarty->assign("cur", GetSiteSettings('site_unit_costunit'));
 if (isset($_REQUEST["sub_sel"]) && !empty($_REQUEST["sub_sel"])) {
 	$smarty->assign("sub_sel", $_REQUEST["sub_sel"]);
 }
+
 if (isset($_REQUEST["err"]) && !empty($_REQUEST["err"])) {
 	GetErrors($_REQUEST["err"]);
 }
@@ -1482,12 +1483,6 @@ function SaveProfile($par){
                           ' . intval($_POST['payment']['september']) . ', ' . intval($_POST['payment']['october']) . ', ' . intval($_POST['payment']['november']) . ',
                           ' . intval($_POST['payment']['december']) . ')';
           $dbconn->Execute($sql);
-        } else {
-          if (!$min_payment) {
-  					$_SESSION["step_3"] = $_POST;
-  					EditProfile("step_3", "empty_fields");
-  					exit;
-  				}
         }
         
 				$strSQL = "	UPDATE ".USERS_RENT_PAYS_TABLE." SET
@@ -2267,7 +2262,7 @@ function UserAd($par=''){
 		$_SESSION["step_1"] = $data_location;   
     
 		$strSQL = " SELECT min_payment, offer_type, floor, floors, min_flats_square, max_flats_square,
-          total_square, ceil_height, sea_distance, term, investor, parking
+          total_square, ceil_height, sea_distance, term, investor, parking, is_hot
 					FROM ".USERS_RENT_PAYS_TABLE."
 					WHERE id_ad='".$id_ad."' AND id_user='1'";
 
@@ -2275,7 +2270,8 @@ function UserAd($par=''){
 		$row = $rs->GetRowAssoc(false);
 		$data_1["min_payment"] = $row["min_payment"];
 		$data_1["offer_type"] = $row["offer_type"];
-		$data_1["floor"] = $row["floor"];
+		$data_1["is_hot"] = $row["is_hot"];
+    $data_1["floor"] = $row["floor"];
 		$data_1["floors"] = $row["floors"];
 		$data_1["min_flats_sqare"] = $row["min_flats_sqare"];
 		$data_1["max_flats_square"] = $row["max_flats_square"];
@@ -2328,13 +2324,14 @@ function UserAd($par=''){
 		$data_1["move_day"] = date("d", $ad["movedate"]);
 
 		$strSQL = "	SELECT min_payment, auction, min_deposit,
-					min_live_square, min_total_square,
+					min_live_square, min_total_square, is_hot,
 					min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season
 					FROM ".USERS_RENT_PAYS_TABLE."
 					WHERE id_ad='".$id_ad."' AND id_user='1'";
 		$rs = $dbconn->Execute($strSQL);
 		$row = $rs->GetRowAssoc(false);
 		$data_1["min_payment"] = $row["min_payment"];
+    $data_1["is_hot"] = $row["is_hot"];
     $data_1["payment_not_season"] = $row["payment_not_season"];
 		$data_1["act_status"] = ($row["min_payment"] <= 0) ? 0 : 1;		
 		$data_1["auction"] = $row["auction"];

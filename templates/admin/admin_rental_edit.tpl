@@ -215,7 +215,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 				<td align="left">
 					<table cellpadding="0" cellspacing="0" border="0">
 					<tr>
-						<td align="right"><input type="checkbox" class="str" name="hot" id="hot" value="1" {if $data.hot eq '1'} checked="checked" {/if} size="7"></td>
+						<td align="right"><input type="checkbox" class="str" name="hot" id="hot" value="1" {if $data.is_hot eq '1'} checked="checked" {/if} size="7"></td>
 						<td>
 							<span name="hot_error" id="hot_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
 						</td>
@@ -1663,6 +1663,7 @@ function CheckStep(step) {
 }
 
 function CheckRangeIntegerFields( step ){
+  return true;
 	if (step == "step_3") {
 		var id_arr = new Array();
 		var reg_expr = new Array();
@@ -1736,6 +1737,7 @@ function CheckRangeIntegerFields( step ){
 }
 
 function CheckIntegerFields( step, choise ){
+  return true;
 	if (step == "step_3") {
 		if (choise == 3) {
 			var id_arr = new Array('min_payment');
