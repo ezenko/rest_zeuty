@@ -28,9 +28,12 @@
 		</tr>
 		{/if}
 		<tr><td class="header"><h2>{$section.caption}</h2></td></tr>
-		<tr><td><hr></td></tr>
+		{if $section.image}
+      <tr><td style="text-align: center;"><img src="/uploades/entertaiments/{$section.image}" style="max-width: 350px;"/></td></tr>
+    {/if}
+    <tr><td><hr></td></tr>
 		<tr>
-			<td class="page_content">{$section.content}</td>
+			<td class="page_content" style="text-align: left;">{$section.content}</td>
 		</tr>
 		</table>
 	</td>
