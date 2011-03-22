@@ -56,6 +56,7 @@ if($user[4]==1 && !(isset($_REQUEST["view_from_admin"]) && $_REQUEST["view_from_
 
 if(isset($_REQUEST['id']) && is_numeric($_REQUEST['id'])) {
     header("Location: /viewprofile.php?id={$_REQUEST['id']}");
+    exit;
 }
 	switch ($sel) {
 		case "from_form": NewSearch("from_form"); break;
@@ -311,7 +312,9 @@ function NewSearch($par='') {
 					$min_payment = (isset($_REQUEST["min_payment"]) && !empty($_REQUEST["min_payment"])) ? intval($_REQUEST["min_payment"]) : 0;
 					$max_payment = (isset($_REQUEST["max_payment"]) && !empty($_REQUEST["max_payment"])) ? intval($_REQUEST["max_payment"]) :0;
 					$country = (isset($_REQUEST["country"]) && !empty($_REQUEST["country"])) ? intval($_REQUEST["country"]) : 0;
-					$region = (isset($_REQUEST["region"]) && !empty($_REQUEST["region"])) ? intval($_REQUEST["region"]) : 0;					
+          $from = (isset($_REQUEST["from"]) && !empty($_REQUEST["from"])) ? intval($_REQUEST["from"]) : 0;
+					$hotel = (isset($_REQUEST["hotel"]) && !empty($_REQUEST["hotel"])) ? mysql_real_escape_string($_REQUEST["hotel"]) : '';
+          $region = (isset($_REQUEST["region"]) && !empty($_REQUEST["region"])) ? intval($_REQUEST["region"]) : 0;					
 					$city = (isset($_REQUEST["city"]) && !empty($_REQUEST["city"])) ? intval($_REQUEST["city"]) : 0;
 					
 					$use_movedate = ($qsform_more_opt && isset($_REQUEST["use_movedate"])) ? intval($_REQUEST["use_movedate"]) : 0;
@@ -350,16 +353,35 @@ function NewSearch($par='') {
 					$location_table = "";
 					$country_str = "";
 					if ($country){
-						$location_table = " , ".USERS_RENT_LOCATION_TABLE." rl ";
-						$country_str = " AND rl.id_ad=ra.id AND rl.id_country='".$country."' ";
+				    if ($choise == 2) {
+				      $country_str = " AND ra.id IN (SELECT DISTINCT parent_id FROM ".RENT_ADS_TABLE." WHERE id IN (
+                              SELECT id_ad FROM ".USERS_RENT_LOCATION_TABLE." WHERE id_country = ".$country.")) ";
+				    } else {
+				      $location_table = " , ".USERS_RENT_LOCATION_TABLE." rl ";
+						  $country_str = " AND rl.id_ad=ra.id AND rl.id_country='".$country."' "; 
+				    }
 					}
 					$region_str = "";
 					if ($region) {
 						$region_str = " AND rl.id_region='".$region."' ";
 					}
+          $from_str = "";
+          if ($from) {
+            $location_table = " , ".USERS_RENT_LOCATION_TABLE." rl ";
+            $from_str = " AND rl.id_ad=ra.id AND rl.id_city='".$from."' ";
+          }
+          $hotel_str = "";
+          if ($hotel) {
+            $hotel_str = " AND ra.id IN (SELECT id_ad FROM ".USERS_RENT_PAYS_TABLE." WHERE hotel LIKE '".$hotel."') ";
+          }
 					$city_str = "";
 					if ($city){
-						$city_str = " AND rl.id_city='".$city."' ";
+				    if ($choise == 2) {
+				      $city_str = " AND ra.id IN (SELECT DISTINCT parent_id FROM ".RENT_ADS_TABLE." WHERE id IN (
+                              SELECT id_ad FROM ".USERS_RENT_LOCATION_TABLE." WHERE id_city = ".$city.")) ";
+				    } else {
+				      $city_str = " AND rl.id_city='".$city."' "; 
+				    }
 					}
 					//move date
 					$move_date_str = "";
@@ -485,7 +507,7 @@ function NewSearch($par='') {
 				$strSQL = "SELECT DISTINCT ra.id
 							FROM ".USERS_TABLE." u ".$video_table.$location_table." , ".RENT_ADS_TABLE." ra ".$spr_table.$payment_table."
 							WHERE ra.type='".$choise."' AND ra.id_user != '".$user[0]."'
-						 	".$video_str.$country_str.$region_str.$city_str.$move_date_str.$spr_str.$payment_str."
+						 	".$video_str.$country_str.$region_str.$city_str.$move_date_str.$spr_str.$payment_str.$from_str.$hotel_str."
 							AND u.id=ra.id_user AND u.status='1' AND u.guest_user='0' AND u.active='1' AND ra.status='1' AND ra.parent_id='0'";
 				}
                 
