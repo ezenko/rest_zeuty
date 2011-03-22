@@ -44,7 +44,7 @@ switch($sel){
 		break;
 	case "region":
         
-		$region_arr[] = array('value' => '', 'text' => $lang["default_select"][$sec."_region"]);
+		$region_arr[] = array('value' => '', 'text' => $lang["default_select"]["all"]);
 		if (isset($_GET["id_country"])){
 			$rs = $dbconn->Execute("SELECT * FROM ".REGION_TABLE." WHERE id_country='".intval($_GET["id_country"])."' ORDER BY name");
 			while (!$rs->EOF) {
@@ -59,7 +59,7 @@ switch($sel){
         echo json_encode($region_arr);
 		break;
 	case "city":
-        $city_arr[] = array('value'=> 0, 'text' => $lang["default_select"][$sec."_city"]);
+        $city_arr[] = array('value'=> 0, 'text' => $lang["default_select"]["all"]);
 		if (isset($_GET["id_region"])){
 			$rs = $dbconn->Execute("SELECT * FROM ".CITY_TABLE." WHERE id_region='".intval($_GET["id_region"])."' ORDER BY name");
 			while (!$rs->EOF) {
@@ -74,7 +74,7 @@ switch($sel){
         echo json_encode($city_arr);
 		break;
     case "tours_city":
-        $city_arr[] = array('value'=> 0, 'text' => $lang["default_select"][$sec."_city"]);
+        $city_arr[] = array('value'=> 0, 'text' => $lang["default_select"]["all"]);
 		if (isset($_GET["id_country"])){
 		  $strSQL = "SELECT c.* FROM ".CITY_TABLE." c ".
                 "INNER JOIN ".USERS_RENT_LOCATION_TABLE." l ON c.id = l.id_city ".

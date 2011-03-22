@@ -79,6 +79,9 @@ function SelectRegion2(section, id_country, destination, destination2, text, tex
     }
 }
 
+function SelectRestRegion(country) {
+	alert(country);
+}
 
 function SelectCity(section, id_region, destination, text){
 	InitXMLHttpRequest();

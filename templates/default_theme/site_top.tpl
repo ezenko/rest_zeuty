@@ -249,7 +249,7 @@ function InComparisonList() {
                     <label for="t1">Страна</label>
                     
                     <select id="rest_country">
-                        <option value="">{$lang.default_select.ip_country}</option>
+                        <option value="">{$lang.default_select.all}</option>
                       {foreach item=item from=$country}
     					<option value="{$item.id}" {if $country_id eq $item.id} selected {/if}>{$item.name}</option>
     					{/foreach}
@@ -271,14 +271,14 @@ function InComparisonList() {
                   <div class="field">
                     <label for="rest_region">Регион</label>
                     <select id="rest_region">
-                      <option value="">{$lang.default_select.ip_region}</option>
+                      <option value="">{$lang.default_select.all}</option>
                     </select>
                   </div>
                   <div class="field">
                     <label for="rest_realty">Размещение</label>
                     {foreach from=$realty_type item=r}
                     <select id="rest_realty">
-                      <option value=""{if !$item.sel} selected {/if}>{$lang.content.choose}</option>
+                      <option value=""{if !$item.sel} selected {/if}>{$lang.default_select.everywhere}</option>
 					  {foreach item=item from=$r.opt}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.name}</option>{/foreach}
                     </select>
                     {/foreach}
@@ -303,7 +303,7 @@ function InComparisonList() {
                   <div class="field">
                     <label for="rest_city">Курорт</label>
                     <select id="rest_city">
-                      <option value="">{$lang.default_select.ip_city}</option>
+                      <option value="">{$lang.default_select.all}</option>
                     </select>
                   </div>
                   
@@ -323,7 +323,7 @@ function InComparisonList() {
                     <label for="active_country">Страна</label>
                     
                     <select id="active_country">
-                        <option value="">{$lang.default_select.ip_country}</option>
+                        <option value="">{$lang.default_select.all}</option>
                       {foreach item=item from=$country}
     					<option value="{$item.id}" {if $country_id eq $item.id} selected {/if}>{$item.name}</option>
     					{/foreach}
@@ -339,7 +339,7 @@ function InComparisonList() {
                   <div class="field">
                     <label for="active_region">Регион</label>
                     <select id="active_region">
-                      <option value="">{$lang.default_select.ip_region}</option>
+                      <option value="">{$lang.default_select.all}</option>
                     </select>
                   </div>
                   
@@ -351,7 +351,7 @@ function InComparisonList() {
                     {foreach from=$theme_rest item=r}
                       {if $r.id eq 2}
                       <select id="active_theme">
-                        <option value=""{if !$item.sel} selected {/if}>{$lang.content.choose}</option>
+                        <option value=""{if !$item.sel} selected {/if}>{$lang.default_select.everywhere}</option>
                         {foreach item=item from=$r.opt}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.name}</option>{/foreach}
                       </select>
                 	  {/if}
@@ -374,7 +374,7 @@ function InComparisonList() {
                     <label for="tours_from">Откуда</label>
                     
                     <select id="tours_from">
-                        <option value="">{$lang.default_select.ip_city}</option>
+                        <option value="">{$lang.default_select.all}</option>
                       {foreach item=item from=$tours_from}
     					<option value="{$item.id}" {if $tours_from_id eq $item.id} selected {/if}>{$item.name}</option>
     					{/foreach}
@@ -389,7 +389,7 @@ function InComparisonList() {
                   <div class="field">
                     <label for="tours_country">Куда (страна)</label>
                     <select id="tours_country">
-                      <option value="">{$lang.default_select.ip_country}</option>
+                      <option value="">{$lang.default_select.all}</option>
                       {foreach item=item from=$tours_country}
     					<option value="{$item.id}" {if $tours_country_id eq $item.id} selected {/if}>{$item.name}</option>
     					{/foreach}
@@ -398,7 +398,7 @@ function InComparisonList() {
                   <div class="field">
                     <label for="tours_hotel">Отель</label>
                     <select id="tours_hotel">
-                      <option value="">{$lang.content.choose}</option>
+                      <option value="">{$lang.default_select.everywhere}</option>
                       {foreach item=item from=$tours_hotel}
     					<option value="{$item.hotel}" {if $tours_hotel_id eq $item.hotel} selected {/if}>{$item.hotel}</option>
     					{/foreach}
@@ -410,7 +410,7 @@ function InComparisonList() {
                   <div class="field">
                     <label for="tours_city">Курорт</label>
                       <select id="tours_city">
-                        <option value=""{if $tours_city_id} selected {/if}>{$lang.default_select.ip_city}</option>
+                        <option value=""{if $tours_city_id} selected {/if}>{$lang.default_select.all}</option>
                         {*
                         {foreach item=item from=$r.opt}<option value="{$item.value}" {if $item.sel}selected{/if}>{$item.name}</option>{/foreach}
                         *}
