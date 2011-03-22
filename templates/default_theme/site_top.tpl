@@ -40,7 +40,19 @@
 			//$('select').linkselect();
 			
 			$('#special-block').list_ticker({speed:5000, effect:'fade'});
-			$("ul.tabs").tabs("div.panes > div");
+			var tabs = $("ul.tabs").tabs("div.panes > div", {initialIndex:{/literal}
+        {if $choise eq 1}
+        0
+        {elseif $choise eq 2}
+        2
+        {elseif $choise eq 3}
+        3
+        {elseif $choise eq 4}
+        1
+        {else}
+        0
+        {/if}
+      {literal}});
 			$("#right-container .scrollable").scrollable({ vertical: true, mousewheel: true });
 			$("#pre-footer .scrollable").scrollable({ vertical: false, mousewheel: true });
 		});
@@ -227,6 +239,8 @@ function InComparisonList() {
         <input type="hidden" name="spr_theme_rest[0]" value="2"/>
         <input type="hidden" name="id" value=""/>
         <input type="hidden" name="sel" value="category"/>
+        <input type="hidden" name="hotel" value=""/>
+        <input type="hidden" name="from" value=""/>
     </form>
     <div id="widgets" class="clearfix">
     	<div class="centered-content clearfix">
@@ -251,8 +265,8 @@ function InComparisonList() {
                     <select id="rest_country">
                         <option value="">{$lang.default_select.ip_country}</option>
                       {foreach item=item from=$country}
-    					<option value="{$item.id}" {if $country_id eq $item.id} selected {/if}>{$item.name}</option>
-    					{/foreach}
+          					     <option value="{$item.id}" {if $country_id eq $item.id} selected {/if}>{$item.name}</option>
+            					{/foreach}
                     </select>
                   </div>
                   <div class="field">
@@ -366,7 +380,7 @@ function InComparisonList() {
           	<div class="free-space">
               <div class="clearfix">
                 <span class="title">Поиск</span>
-                <a class="action" id="active_submit">Искать</a>
+                <a class="action" id="tours_submit">Искать</a>
               </div>
               <div class="content clearfix">
                 <div class="row row-first">
@@ -376,8 +390,8 @@ function InComparisonList() {
                     <select id="tours_from">
                         <option value="">{$lang.default_select.ip_city}</option>
                       {foreach item=item from=$tours_from}
-    					<option value="{$item.id}" {if $tours_from_id eq $item.id} selected {/if}>{$item.name}</option>
-    					{/foreach}
+            					 <option value="{$item.id}" {if $tours_from_id eq $item.id} selected {/if}>{$item.name}</option>
+            					{/foreach}
                     </select>
                   </div>
                   <div class="field">

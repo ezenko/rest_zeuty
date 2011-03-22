@@ -42,6 +42,26 @@ switch($sel){
 		}
 		echo "</select>";
 		break;
+  case "hotel":
+    if (isset($_GET['id_city'])) {
+      $rs = $dbconn->Execute("select hotel from ".USERS_RENT_PAYS_TABLE." where
+                              id_ad IN (SELECT id_ad FROM ".USERS_RENT_LOCATION_TABLE." 
+                              WHERE id_city = " . intval($_GET['id_city']) . " AND hotel != '' AND hotel != NULL 
+                              ORDER BY hotel");
+    } else if (isset($_GET['id_country'])) {
+      $rs = $dbconn->Execute("select hotel from ".USERS_RENT_PAYS_TABLE." where
+                              id_ad IN (SELECT id_ad FROM ".USERS_RENT_LOCATION_TABLE." 
+                              WHERE id_country = " . intval($_GET['id_country']) . " AND hotel != '' AND hotel != NULL 
+                              ORDER BY hotel");
+    }
+    
+    $hotel_arr = array();   
+		while (!$rs->EOF) {
+			$row = $rs->GetRowAssoc(false);
+			$hotel_arr[] = array('value' => stripslashes(htmlspecialchars($row["hotel"])), 'text' => stripslashes(htmlspecialchars($row["hotel"])));
+			$rs->MoveNext();
+		}
+		echo json_encode($hotel_arr);
 	case "region":
         
 		$region_arr[] = array('value' => '', 'text' => $lang["default_select"][$sec."_region"]);

@@ -1462,6 +1462,9 @@ function SaveProfile($par){
 							ceil_height='".floatval($_REQUEST["ceil_height"])."',
 							sea_distance='".mysql_real_escape_string($_REQUEST["sea_distance"])."',
 							term='".mysql_real_escape_string($_REQUEST["term"])."',
+              route='".mysql_real_escape_string($_REQUEST["route"])."',
+              meals='".mysql_real_escape_string($_REQUEST["meals"])."',
+              facilities='".mysql_real_escape_string($_REQUEST["facilities"])."',
 							floor='".intval($_REQUEST["floor"])."',
 							floors='".intval($_REQUEST["floors"])."',
 							investor='".mysql_real_escape_string($_REQUEST["investor"])."',
@@ -1494,11 +1497,11 @@ function SaveProfile($par){
 							min_live_square='".intval($_REQUEST["min_live_square"])."',
 							min_total_square='".intval($_REQUEST["min_total_square"])."',
 							min_land_square='".intval($_REQUEST["min_land_square"])."',
-              days='".intval($_REQUEST["days"])."',
-              hotel='".intval($_REQUEST["hotel"])."',
-              route='".intval($_REQUEST["route"])."',
-              facilities='".intval($_REQUEST["facilities"])."',
-              meals='".intval($_REQUEST["meals"])."',
+              days='".mysql_real_escape_string($_REQUEST["days"])."',
+              hotel='".mysql_real_escape_string($_REQUEST["hotel"])."',
+              route='".mysql_real_escape_string($_REQUEST["route"])."',
+              facilities='".mysql_real_escape_string($_REQUEST["facilities"])."',
+              meals='".mysql_real_escape_string($_REQUEST["meals"])."',
               min_floor='".intval($_REQUEST["min_floor"])."',
 							floor_num='".intval($_REQUEST["floor_num"])."',
 							subway_min='".intval($_REQUEST["subway_min"])."',
@@ -2325,7 +2328,8 @@ function UserAd($par=''){
 
 		$strSQL = "	SELECT min_payment, auction, min_deposit,
 					min_live_square, min_total_square, is_hot,
-					min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season
+					min_land_square, min_floor, floor_num, subway_min, min_year_build, furniture, payment_not_season,
+          meals, route, facilities, days
 					FROM ".USERS_RENT_PAYS_TABLE."
 					WHERE id_ad='".$id_ad."' AND id_user='1'";
 		$rs = $dbconn->Execute($strSQL);
@@ -2342,6 +2346,10 @@ function UserAd($par=''){
 		$data_1["min_floor"] = $row["min_floor"];
 		$data_1["floor_num"] = $row["floor_num"];
 		$data_1["subway_min"] = $row["subway_min"];
+    $data_1["route"] = $row["route"];
+    $data_1["meals"] = $row["meals"];
+    $data_1["days"] = $row["days"];
+    $data_1["facilities"] = $row["facilities"];
 		$data_1["min_year_build"] = $row["min_year_build"];
     $data_1["furniture"] = $row["furniture"];
 

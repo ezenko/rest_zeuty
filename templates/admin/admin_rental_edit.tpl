@@ -534,7 +534,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
     				<td align="left">
     					<table cellpadding="0" cellspacing="0" border="0">
     					<tr>
-    						<td align="right"><input type="text" class="str" name="days" id="days" value="{$data.days}" size="7"></td>
+    						<td align="right"><input type="text" class="str" name="days" id="days" value="{$data.days}" size="20"></td>
     						<td>
     							<span name="days_error" id="days_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
     						</td>
@@ -621,7 +621,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
     				<td align="left">
     					<table cellpadding="0" cellspacing="0" border="0">
     					<tr>
-    						<td align="right"><input type="text" class="str" name="route" id="route" value="{$data.route}" size="7"></td>
+    						<td align="right"><input type="text" class="str" name="route" id="route" value="{$data.route}" size="70"></td>
     						<td>
     							<span name="route_error" id="route_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
     						</td>
@@ -634,7 +634,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
     				<td align="left">
     					<table cellpadding="0" cellspacing="0" border="0">
     					<tr>
-    						<td align="right"><input type="text" class="str" name="meals" id="meals" value="{$data.meals}" size="7"></td>
+    						<td align="right"><input type="text" class="str" name="meals" id="meals" value="{$data.meals}" size="70"></td>
     						<td>
     							<span name="meals_error" id="meals_error" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
     						</td>
@@ -784,7 +784,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
     				<td align="left">
     					<table cellpadding="0" cellspacing="0" border="0">
     					<tr>
-    						<td align="right"><input type="text" class="str" name="facilities" id="facilities" value="{$data.facilities}" size="7"></td>
+    						<td align="right"><input type="text" class="str" name="facilities" id="facilities" value="{$data.facilities}" size="70"></td>
     						<td>
     							<span name="route_facilities" id="route_facilities" style="display: none;" class="error">&nbsp;&nbsp;{$lang.content.incorrect_field}</span>
     						</td>
