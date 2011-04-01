@@ -53,8 +53,15 @@
         0
         {/if}
       {literal}});
-			$("#right-container .scrollable").scrollable({ vertical: true, mousewheel: true });
-			$("#pre-footer .scrollable").scrollable({ vertical: false, mousewheel: true });
+			$("#right-container .scrollable").scrollable({ vertical: true, mousewheel: true, circular: true });
+			$("#pre-footer .scrollable").scrollable({ vertical: false, mousewheel: true, onSeek: function(event){
+			 if(this.getIndex() + 7 > this.getSize()) {
+                $("#pre-footer .scrollable").parent().find('.next').hide();
+             }
+             else {
+                $("#pre-footer .scrollable").parent().find('.next').show();
+             }
+			} });
 		});
 		
 		
@@ -356,10 +363,6 @@ function InComparisonList() {
                       <option value="">{$lang.default_select.all}</option>
                     </select>
                   </div>
-                  
-                  
-                </div>
-                <div class="row">
                   <div class="field">
                     <label for="active_theme">Тема</label>
                     {foreach from=$theme_rest item=r}
@@ -371,6 +374,16 @@ function InComparisonList() {
                 	  {/if}
                     {/foreach}
                   </div>
+                  
+                </div>
+                <div class="row">
+                  <div class="field">
+                    <label for="active_city">Курорт</label>
+                    <select id="active_city">
+                      <option value="">{$lang.default_select.all}</option>
+                    </select>
+                  </div>
+                  
                   
                 </div>
               </div>

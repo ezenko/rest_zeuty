@@ -25,16 +25,21 @@ $(document).ready(function() {
 			
 			$('.suit-header').each(function() {
 				var suitHeader = $(this);
+                $(suitHeader).next().slideUp();
+                $('.status', suitHeader).addClass('close');
+                
 				$('.suit-header-block', this).toggle(
 					function() {
-						$(suitHeader).next().slideUp();
-						$('.status', this).addClass('close');
+					   $(suitHeader).next().slideDown();
+					   $('.status', this).removeClass('close');	
 					},
 					function() {
-						$(suitHeader).next().slideDown();
-						$('.status', this).removeClass('close');
+					   $(suitHeader).next().slideUp();
+					   $('.status', this).addClass('close');
+						
 					}
 				);
+                
 			});
             $('.photo-gallery a').lightBox({
                 {/literal}
@@ -192,7 +197,7 @@ $(document).ready(function() {
     	<div class="clearfix">
       	<a class="status"></a>
         <span class="s_id">{$child.headline}</span>
-        <span class="s_name">Место #{$k+1}</span>
+        <span class="s_name">от {$child.min_payment} {$cur}</span>
       </div>
     </div>
     <div class="s_preview">

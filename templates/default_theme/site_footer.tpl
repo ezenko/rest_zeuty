@@ -12,11 +12,16 @@
           </div>
           <div class="scrollable">
             <div class="items-container clearfix">
-              {foreach item=r from=$entertaiments}
+              {foreach item=r from=$entertaiments key=k}
+              {*if $k mod 3 == 0 and $k != 0}
+              </div><div>
+              {/if*}
               <div class="item">
                 <a href="/entertainment.php?id={$r.id}"><img alt="{$r.caption}" title="{$r.caption}" src="/uploades/entertaiments/{$r.image}" /></a>
               </div>
+              
               {/foreach}
+              
             </div>
           </div>
         </div>

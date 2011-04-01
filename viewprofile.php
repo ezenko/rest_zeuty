@@ -114,7 +114,9 @@ function ListProfile($sect, $id_ad) {
                     if($priceRS && !$priceRS->EOF) {
                         $priceRow = $priceRS->GetRowAssoc(false);
                         $child_profile[$i]['prices'] = $priceRow;
+                        $child_profile[$i]['min_payment'] = min($priceRow);
                     }
+                    
                 }
 				$rs->MoveNext();
 				$i++;

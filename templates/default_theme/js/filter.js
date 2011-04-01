@@ -66,7 +66,18 @@
         }
         );
         
-        $('#active_region').linkselect();
+        $('#active_region').linkselect( {
+            change: function(li, value, text){
+                $.get('/location2.php?sec=ip&sel=city&id_region=' + value,
+                function(data){
+                    $("#active_city").linkselect("replaceOptions", data, false);
+                },
+                "json"
+                );
+            }
+        }
+        );
+        $('#active_city').linkselect();
         $('#active_theme').linkselect();
         
         $('#active_submit').click(function(){
