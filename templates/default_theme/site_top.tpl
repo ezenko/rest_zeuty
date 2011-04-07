@@ -38,7 +38,7 @@
   <script type="text/javascript">
   	$(document).ready(function() {
 			//$('select').linkselect();
-			
+			$('#w_city').linkselect();
 			$('#special-block').list_ticker({speed:5000, effect:'fade'});
 			var tabs = $("ul.tabs").tabs("div.panes > div", {initialIndex:{/literal}
         {if $choise eq 1}
@@ -117,6 +117,11 @@ function InComparisonList() {
 		elem.innerHTML = "{/literal}<b>{$lang.default_select.in_your_comparison_list}</b>{literal}";
 	}
 	{/literal}{/foreach}{literal}
+}
+
+function showCity(id) {
+  $('.details').css('display', 'none');
+  $('#'+id).css('display', 'block');
 }
 
 </script>
@@ -463,30 +468,22 @@ function InComparisonList() {
                     </div>
                     <div class="content cities">
                       <div class="cities-container clearfix">
-                        <div class="cities-cell">
-                          <a class="weather-city sunny">Новороссийск</a>
-                          <a class="weather-city cloud">Туапсе</a>
-                        </div>
-                        <div class="cities-cell">
-                          <a class="weather-city cold">Сочи</a>
-                          <a class="weather-city shine">Туапсе</a>
-                        </div>
-                        <div class="cities-cell">
-                          <a class="weather-city cold">Сочи</a>
-                          <a class="weather-city shine">Туапсе</a>
-                        </div>
-                        <div class="cities-cell">
-                          <a class="weather-city cold">Сочи</a>
-                          <a class="weather-city shine">Туапсе</a>
-                        </div>
-                        <div class="cities-cell">
-                          <a class="weather-city cold">Сочи</a>
-                          <a class="weather-city shine">Туапсе</a>
-                        </div>
-                        <div class="cities-cell">
-                          <a class="weather-city cold">Сочи</a>
-                          <a class="weather-city shine">Туапсе</a>
-                        </div>
+                          {assign var="i" value=0}
+                          {foreach from=$weather item=city}
+                            {if $i%2 eq 0}
+                              <div class="cities-cell">
+                              {assign var="open" value=1}
+                            {/if}
+                              <a class="weather-city {$city.weather.style}">{$city.name}</a>
+                            {assign var="i" value=$i+1}  
+                            {if $i%2 eq 0}
+                              </div>
+                              {assign var="open" value=0}
+                            {/if} 
+                          {/foreach}
+                          {if $open eq 1}
+                            </div>
+                          {/if}
                       </div>
                       <a class="all-cities">Все курорты</a>
                     </div>
@@ -497,16 +494,26 @@ function InComparisonList() {
                 <div class="weather">
                   <div class="free-space">
                     <div class="content clearfix">
-                      <img alt="" src="img/icons/Sun.png" />
-                      <img alt="" src="img/icons/Wind.png" />
+                      {foreach from=$main_weather item=city}
+                        {if $city.name neq 'Сочи'}
+                          <div id="city_{$city.id}" style="display: none;" class="details">
+                        {else}
+                          <div id="city_{$city.id}" class="details">
+                        {/if}
+                          <img alt="" src="/img/weather/{$city.weather.style}.png" />
+                          <img alt="" src="img/icons/Wind.png" />
+                          <div class="clearfix">
+                            <label>Сегодня, {$city.weather.temperature.min} &mdash; {$city.weather.temperature.max} градусов</label>
+                          </div>
+                        </div>
+                      {/foreach}
                       <div class="clearfix">
-                        <select id="w_city">
-                          <option>Сочи</option>
+                        <select id="w_city" onchange="showCity(this.value);">
+                          {foreach from=$main_weather item=city}
+                            <option value="city_{$city.id}" {if $city.name eq 'Сочи'}selected="selected"{/if}>{$city.name}</option>
+                          {/foreach}
                         </select>
-                      </div>
-                      <div class="clearfix">
-                        <label>Сегодня, днем +38, ночью +23</label>
-                      </div>
+                      </div>                      
                     </div>
                   </div>
                 </div>
@@ -539,9 +546,9 @@ function InComparisonList() {
                 {foreach from=$rest item=r}
                   {if $r.id eq 2}
                     {foreach from=$r.opt item=opt}
-            	    <li><a class="folder-item" href="quick_search.php?sel=category&choise=4&spr_theme_rest[0]=2&theme_rest[0][]={$opt.value}">{$opt.name}</a></li>
-            	    {/foreach}
-            	  {/if}
+              	    <li><a class="folder-item" href="quick_search.php?sel=category&choise=4&spr_theme_rest[0]=2&theme_rest[0][]={$opt.value}">{$opt.name}</a></li>
+              	    {/foreach}
+              	  {/if}
                 {/foreach}
             </ul>
           </div>

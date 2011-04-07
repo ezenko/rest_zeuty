@@ -4431,4 +4431,158 @@ function FormatPrice($price, $cur_position, $cur_format){
 	}
 }
 
+/**
+ * Get weather for cities
+ *
+ * @return array
+ */
+function GetCitiesWeather ($count = 4, $city_id = NULL) {
+  global $dbconn;
+  if (is_array($city_id) && !empty($city_id)) {
+    $sql = 'SELECT * FROM ' . CITY_TABLE . ' 
+            WHERE gismeteo IS NOT NULL AND id IN (' . implode(', ', $city_id) . ')
+            ORDER BY name  
+            ';
+  } else if ($city_id) {
+    $sql = 'SELECT * FROM ' . CITY_TABLE . ' 
+            WHERE gismeteo IS NOT NULL AND id = ' . intval($city_id);
+  } else {
+    $sql = 'SELECT * FROM ' . CITY_TABLE . ' 
+            WHERE gismeteo IS NOT NULL 
+            ORDER BY RAND() LIMIT 0, '. intval($count);  
+  }
+  
+  $rs = $dbconn->Execute($sql);
+
+  $data = array();
+  while (!$rs->EOF) {
+    $row = $rs->GetRowAssoc(false);
+    $row['weather'] = GetCityWeather($row['gismeteo']);
+    $data[] = $row;
+    $rs->MoveNext();    
+	}
+  
+  return $data;
+}
+
+function GetCityWeather ($gismeteo_id) {
+  $time1 = strtotime(date('Y-m-d') . ' 02:30');
+  $time2 = strtotime(date('Y-m-d') . ' 08:30');
+  $time3 = strtotime(date('Y-m-d') . ' 14:30');
+  $time4 = strtotime(date('Y-m-d') . ' 20:30');
+  $cur_time = time();
+  
+  if ($cur_time > $time1 && $cur_time < $time2) {
+    $period = 1;
+  } elseif ($cur_time > $time2 && $cur_time < $time3) {
+    $period = 2;
+  } elseif ($cur_time > $time3 && $cur_time < $time4) {
+    $period = 3;
+  } elseif ($cur_time < $time1) {
+    $period = -1;
+  } else {
+    $period = 4;
+  }
+  
+  if ($period != -1) {
+    $file = date('Y_m_d') . '_' . $period . '_' . $gismeteo_id;
+  } else {
+    $file = date('Y_m_d', strtotime('-1 day', time())) . '_' . $period . '_' . $gismeteo_id;
+  }
+  
+  if (is_file(dirname(__FILE__) . '/../cache/' . $file . '.cache')) {
+    $xmlObj = simplexml_load_file(dirname(__FILE__) . '/../cache/' . $file . '.cache');
+  } else {
+    if ($file) {
+      file_put_contents(dirname(__FILE__) . '/../cache/' . $file . '.cache', file_get_contents('http://informer.gismeteo.ru/xml/' . $gismeteo_id . '.xml'));
+      $xmlObj = simplexml_load_file(dirname(__FILE__) . '/../cache/' . $file . '.cache');
+    }
+  }
+  
+  if ($xmlObj) {
+    $weather = $xmlObj->xpath('/MMWEATHER/REPORT/TOWN/FORECAST');
+    $data['forecast'] = $weather[0]->attributes();
+    $data['phenomena'] = $weather[0]->PHENOMENA->attributes();
+    $data['pressure'] = $weather[0]->PRESSURE->attributes();
+    $data['temperature'] = $weather[0]->TEMPERATURE->attributes();
+    $data['wind'] = $weather[0]->WIND->attributes();
+    $data['relwet'] = $weather[0]->RELWET->attributes();
+    $data['heat'] = $weather[0]->HEAT->attributes();
+    $data['style'] = getWeatherImage($data);
+  }
+  return $data;  
+}
+
+function getWeatherImage($data = array()) {
+  if (in_array((string)$data['forecast']['tod'], array('0', '3'))) {
+    $prefix = 'n';
+  } else {
+    $prefix = 'd';
+  }
+  
+  $image_data = $data['phenomena'];
+  switch ((string)$image_data['precipitation']) {
+    case '9' :
+    case '10' : {
+      switch ((string)$image_data['cloudiness']) {
+        case '0' : {
+          $image = 1;
+        }
+          break;
+          
+        case '1' : {
+          $image = 2;
+        }
+          break;
+          
+        case '2' : {
+          $image = 3;
+        }
+          break;
+          
+        case '3' : {
+          $image = 4;
+        }
+          break;  
+        
+        default : {
+          $image = 1;
+        }        
+      }      
+    } 
+      break;
+    
+    case '8' : {
+      if (in_array((string)$image_data['cloudiness'], array('0', '1', '2'))) {
+        $image = 7;
+      } else {
+        $image = 8;
+      }
+    }
+      break;
+    
+    case '7' : {
+      $image = 11;
+    }
+      break;
+      
+    case '6' : {
+      $image = 10;
+    } 
+      break;
+    
+    case '4' :
+    case '5' : {
+      $image = 6;  
+    }
+      break;
+    
+    default : {
+      $image = 1;  
+    }    
+  }
+  
+  return $prefix.$image;
+}
+
 ?>

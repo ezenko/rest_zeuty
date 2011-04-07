@@ -160,12 +160,32 @@ a.specials {display:inline-block}
 a.specials span.title {font-size:18px; font-style:italic; cursor:pointer}
 a.specials span.price {font-size:30px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-style:italic; white-space:nowrap; cursor:pointer}
 
-a.weather-city {display:inline-block; background:url(../img/icons/weather_icn.png) no-repeat scroll 0 0; padding-left:25px; margin:10px 0; width:95px; height:22px; line-height:22px; color:#097c00; text-decoration:none; text-align:left}
+a.weather-city {display:inline-block; padding-left:25px; margin:10px 0; width:95px; height:22px; line-height:22px; color:#097c00; text-decoration:none; text-align:left}
 a.weather-city:hover {text-decoration:underline}
-a.sunny {background-position:0 0}
-a.cloud {background-position:0 -50px}
-a.cold {background-position:0 -100px}
-a.shine {background-position:0 -150px}
+a.d1 {background:url(/img/weather/d1s.png) no-repeat scroll 0 0; }
+a.d2 {background:url(/img/weather/d2s.png) no-repeat scroll 0 0; }
+a.d3 {background:url(/img/weather/d3s.png) no-repeat scroll 0 0; }
+a.d4 {background:url(/img/weather/d4s.png) no-repeat scroll 0 0; }
+a.d5 {background:url(/img/weather/d5s.png) no-repeat scroll 0 0; }
+a.d6 {background:url(/img/weather/d6s.png) no-repeat scroll 0 0; }
+a.d7 {background:url(/img/weather/d7s.png) no-repeat scroll 0 0; }
+a.d8 {background:url(/img/weather/d8s.png) no-repeat scroll 0 0; }
+a.d9 {background:url(/img/weather/d9s.png) no-repeat scroll 0 0; }
+a.d10 {background:url(/img/weather/d10s.png) no-repeat scroll 0 0; }
+a.d11 {background:url(/img/weather/d11s.png) no-repeat scroll 0 0; }
+
+a.n1 {background:url(/img/weather/n1s.png) no-repeat scroll 0 0; }
+a.n2 {background:url(/img/weather/n2s.png) no-repeat scroll 0 0; }
+a.n3 {background:url(/img/weather/n3s.png) no-repeat scroll 0 0; }
+a.n4 {background:url(/img/weather/n4s.png) no-repeat scroll 0 0; }
+a.n5 {background:url(/img/weather/n5s.png) no-repeat scroll 0 0; }
+a.n6 {background:url(/img/weather/n6s.png) no-repeat scroll 0 0; }
+a.n7 {background:url(/img/weather/n7s.png) no-repeat scroll 0 0; }
+a.n8 {background:url(/img/weather/n8s.png) no-repeat scroll 0 0; }
+a.n9 {background:url(/img/weather/n9s.png) no-repeat scroll 0 0; }
+a.n10 {background:url(/img/weather/n10s.png) no-repeat scroll 0 0; }
+a.n11 {background:url(/img/weather/n11s.png) no-repeat scroll 0 0; }
+
 
 label {display:inline-block; margin-bottom:3px; margin-left:5px; font-size:12px}
 label[for] {cursor:pointer}
