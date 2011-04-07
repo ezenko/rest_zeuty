@@ -38,7 +38,14 @@
   <script type="text/javascript">
   	$(document).ready(function() {
 			//$('select').linkselect();
-			$('#w_city').linkselect();
+			$('#w_city').linkselect( 
+        {
+          change: function(li, value, text){
+              $('.details').css('display', 'none');
+              $('#'+value).css('display', 'block');
+          }
+        }
+      );
 			$('#special-block').list_ticker({speed:5000, effect:'fade'});
 			var tabs = $("ul.tabs").tabs("div.panes > div", {initialIndex:{/literal}
         {if $choise eq 1}
@@ -118,12 +125,6 @@ function InComparisonList() {
 	}
 	{/literal}{/foreach}{literal}
 }
-
-function showCity(id) {
-  $('.details').css('display', 'none');
-  $('#'+id).css('display', 'block');
-}
-
 </script>
 {/literal}
 </head>
