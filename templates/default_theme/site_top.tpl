@@ -488,7 +488,7 @@ function InComparisonList() {
                           <a class="weather-city shine">Туапсе</a>
                         </div>
                       </div>
-                      <a class="all-cities">Все курорты</a>
+                      <a class="all-cities" href="/allcities.php">Все курорты</a>
                     </div>
                   </div>
                 </div>

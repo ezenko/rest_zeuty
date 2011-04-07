@@ -262,9 +262,9 @@ input[type="radio"] {margin-bottom:10px}
 .icons-holder a.eat {background:url(../img/icons/icn_eat.png) no-repeat scroll 0 0}
 .icons-holder a.ice {background:url(../img/icons/icn_ice.png) no-repeat scroll 0 0}
 
-table {width:100%; margin:5px 0 10px}
-table thead tr td {background-color:#274b67; color:#fff; text-align:center; padding:3px 0}
-table tbody tr td {border:solid 1px #274b67; text-align:center; padding:2px 0}
+table.tbl {width:100%; margin:5px 0 10px}
+table.tbl thead tr td {background-color:#274b67; color:#fff; text-align:center; padding:3px 0}
+table.tbl tbody tr td {border:solid 1px #274b67; text-align:center; padding:2px 0}
 
 /* Train page */
 #train-form {margin:20px 0 30px 0}
