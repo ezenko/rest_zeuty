@@ -1,13 +1,13 @@
 <?php
-	$config["server"] = "http://rest";
+	$config["server"] = "http://rest.loc";
 	$config["site_root"] = "";
-	$config["site_path"] = "X:/home/rest/www";
+	$config["site_path"] = "/home/zeuty/public_html/rest";
 
 	$config["useoledb"] = 1;
 	$config["dbtype"] = "mysql";
 	$config["dbhost"] = "localhost";
 	$config["dbuname"] = "root";
-	$config["dbpass"] = "";
+	$config["dbpass"] = "fingolfin";
 	$config["dbname"] = "rest";
 
 	$config["table_prefix"] = "re_";
