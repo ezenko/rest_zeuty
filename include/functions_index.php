@@ -21,7 +21,12 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
 	global $config, $dbconn, $smarty, $user, $lang, $REFERENCES, $multi_lang;
 	$smarty->assign("user", $user);
 	$smarty->assign("content_name", $content_name);
-
+  
+  $weather = GetCitiesWeather(8);
+  $smarty->assign("weather", $weather);
+  $smarty->assign("main_weather", GetCitiesWeather(0, array('1799759', '1799806', '1799795', '1799780', '1799826', '1799710', '1799782', '1799771', '1799717',
+                  '1799818', '1799731', '1799727', '1799713', '1799735', '1799751', '1799825', '1799813', '1799739', '1799788', '1799784', '1799800')));
+                  
 	$lang["content"] = ($is_module) ? GetLangContent($section_name."/".$content_name) : GetLangContent($content_name);
 	$lang["headers"] = GetLangContent("headers");
 	$lang["buttons"] = GetLangContent("buttons");

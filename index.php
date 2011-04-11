@@ -140,10 +140,7 @@ function IndexPage(){
 	}else{
 		$smarty->assign("is_default_theme", 0);
 	}
-  $weather = GetCitiesWeather(8);
-  $smarty->assign("weather", $weather);
-  $smarty->assign("main_weather", GetCitiesWeather(0, array('1799759', '1799806', '1799795', '1799780', '1799826', '1799710', '1799782', '1799771', '1799717',
-                  '1799818', '1799731', '1799727', '1799713', '1799735', '1799751', '1799825', '1799813', '1799739', '1799788', '1799784', '1799800')));
+  
 	$smarty->display(TrimSlash($config["index_theme_path"])."/index_home_page.tpl");
 	exit;
 }
