@@ -3043,6 +3043,10 @@ function getSearchArr($id_arr, $file_name, $page, $param, $order_link, $sorter=0
                         $prices = array_merge($prices, $pr);
                         $priceRS->MoveNext();
                     }
+                    foreach($prices as $k=>$p)
+                    {
+                        if($p == 0) unset($prices[$k]);
+                    }
                     if(count($prices))
                         $search_result[$i]["min_payment"] = PaymentFormat(min($prices));
                 }
