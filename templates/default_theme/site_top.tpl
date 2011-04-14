@@ -43,6 +43,7 @@
           change: function(li, value, text){
               $('.details').css('display', 'none');
               $('#'+value).css('display', 'block');
+              $('#w_city_link').text(text);
           }
         }
       );
