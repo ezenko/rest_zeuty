@@ -47,11 +47,22 @@ CreateMenu('lang_menu');
 CreateMenu('bottom_menu');
 CreateMenu('rental_menu');
 
-$rs = $dbconn->Execute("SELECT * FROM ".CITY_TABLE." ORDER BY name");
+$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment FROM ".USERS_RENT_LOCATION_TABLE." l 
+        INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
+        INNER JOIN ".RENT_ADS_TABLE." r ON r.id = l.id_ad
+        WHERE r.type IN (1, 4) and r.parent_id = 0 and r.status = '1'";
+        
+$rs = $dbconn->Execute($strSQL);
 $cities = array();
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
-	$cities[] = $row;
+	$cities[] = array(
+        'id' => $row['id_ad'], 
+        'name' => 'test', 
+        'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
+        'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
+        'name' => $row['headline'],
+        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']));
 	$rs->MoveNext();
 }
 $smarty->assign("map_cities", $cities);

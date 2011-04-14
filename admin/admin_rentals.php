@@ -73,6 +73,7 @@ if ( ($auth[9] == 0) || ($auth[7] == 0) || ($auth[8] == 0)) {
 }
 
 $smarty->assign("sq_meters", GetSiteSettings('sq_meters'));
+
 switch($sel){
 
 	case "upload_plan":		UploadPlan($_GET["back"]); break;
@@ -1475,7 +1476,17 @@ function SaveProfile($par){
 			} elseif ($_POST["choise"]=="1" || $_POST["choise"]=="2" || $_POST["choise"]=="4") {
 				//i have/sell realty
 				$min_payment = intval($_REQUEST["min_payment"]);
-				
+			
+            //geocoding
+            if($_POST['choise'] == 1 || $_POST['choise'] == 4) {
+                $strSQL = "	UPDATE ".USERS_RENT_LOCATION_TABLE." SET
+							lat='".$_REQUEST["lat"]."',
+                            lon='".$_REQUEST["lon"]."'
+                            WHERE id_ad='".$id_ad."' AND id_user='1' ";
+                            
+                $dbconn->Execute($strSQL);
+            }	
+            
         if ($_POST['choise'] == 1) {
           $sql = 'DELETE FROM ' . USERS_RENT_PAYS_TABLE_BY_MONTH . ' WHERE id_ad = ' . intval($id_ad);
           $dbconn->Execute($strSQL);
@@ -2309,7 +2320,7 @@ function UserAd($par=''){
     
     }
     
-		$strSQL = "SELECT id_country, id_region, id_city, zip_code, street_1, street_2, adress FROM ".USERS_RENT_LOCATION_TABLE." WHERE id_user='1' AND id_ad='".$id_ad."' ";
+		$strSQL = "SELECT l.id_country, l.id_region, l.id_city, l.zip_code, l.street_1, l.street_2, l.adress, l.lat, l.lon, c.lat city_lat, c.lon city_lon FROM ".USERS_RENT_LOCATION_TABLE." l INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city WHERE id_user='1' AND id_ad='".$id_ad."' ";
 		$rs = $dbconn->Execute($strSQL);
 		$row = $rs->GetRowAssoc(false);
 		$data_location["country"] = stripslashes($row["id_country"]);
@@ -2321,6 +2332,8 @@ function UserAd($par=''){
 		$data_location["cross_streets_2"] = stripslashes($row["street_2"]);
 		$data_location["adress"] = stripslashes($row["adress"]);
 
+        $data_1["lat"] = $row["lat"] ? $row["lat"] : $row["city_lat"];
+        $data_1["lon"] = $row["lon"] ? $row["lon"] : $row["city_lon"];
 		$_SESSION["step_1"] = $data_location;
 		$data_1["move_year"] = date("Y", $ad["movedate"]);
 		$data_1["move_month"] = date("m", $ad["movedate"]);

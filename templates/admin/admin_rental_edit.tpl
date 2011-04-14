@@ -10,6 +10,7 @@ var fileBottomNavCloseImage = "{$server}{$site_root}{$template_root}/images/ligh
 <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/lightbox/lightbox.js"></script>
 <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/location.js"></script>
 <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/JsHttpRequest.js"></script>
+<script src="http://api-maps.yandex.ru/1.1/index.xml?key=AHKJnU0BAAAAQj_CXQMAlCv8AgcJmzaKCB7rVHM6ewsmexEAAAAAAAAAAACBYbbZI70vJEwOiGOSBjPB-v-wCQ==" type="text/javascript"></script>
 {literal}
 <script>
 function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo, choise, id_file, id_str_file, id_img_file) {
@@ -837,6 +838,41 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 				{/if}
 			{/section}
 			<!-- /theme_rest -->
+            {if $choise eq 1 or $choise eq 4}
+            <!-- geocoding -->
+            <tr>
+				<td colspan="2" align="left">
+                    <script type="text/javascript">
+                    {literal}
+                        window.onload = function () {
+                        var map = new YMaps.Map(document.getElementById("YMapsID"));
+                        map.setCenter(new YMaps.GeoPoint({/literal}{$data.lon},{$data.lat}{literal}), 12);
+                        
+                        map.addControl(new YMaps.TypeControl());
+                        map.addControl(new YMaps.ToolBar());
+                        map.addControl(new YMaps.Zoom());
+                        //map.addControl(new YMaps.MiniMap());
+                        map.addControl(new YMaps.ScaleLine());
+                        map.enableScrollZoom();
+                        var placemark = new YMaps.Placemark(new YMaps.GeoPoint({/literal}{$data.lon},{$data.lat}{literal}), {style : "default#houseIcon", draggable: true});
+                        map.addOverlay(placemark);
+                        
+                        YMaps.Events.observe(placemark, placemark.Events.DragEnd, function (obj) {
+   
+                            var point = obj.getGeoPoint();
+                            document.getElementById('lat').value = (point.getLat());
+                            document.getElementById('lon').value = (point.getLng());
+                        });
+                        }
+                    {/literal}
+                    </script>
+                    <div id="YMapsID" style="width:500px; height: 300px"> </div>
+                    <input type="hidden" id="lat" name="lat" value="{$data.lat}" />
+                    <input type="hidden" id="lon" name="lon" value="{$data.lon}" />
+                </td>
+            </tr>
+            <!-- geocoding -->
+            {/if}
 			<tr>
 				<td colspan="2" align="left">
 					<input type="button" value="{$lang.buttons.save}" class="button_3" onclick="{literal}javascript: if (CheckStep('step_3')) { document.step_3.action='{/literal}{$form.next_link}{literal}'; document.step_3.submit(); }{/literal}"></td>
@@ -893,7 +929,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 											<table cellpadding="0" cellspacing="0">
 											<tr>												
 												<td>	
-													<input type="button"  class="btn_upload" value="{$lang.buttons.choose}">
+													<input type="button"  class="btn_upload" value="{$lang.buttons.choose}" />
 												</td>			
 												<td style="padding-left:10px;">
 													<span id='file_img_photo'></span>
@@ -920,7 +956,7 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 							{$lang.content.photo_extensions}:&nbsp;
 							{foreach from=$data.photo_extensions item=ext name=photo_extensions}
 							{$ext|upper}{if !$smarty.foreach.photo_extensions.last},{else}.{/if}
-							{/foreach}<br><br>
+							{/foreach}<br/><br/>
 							{if $data.use_resize eq 1}
 								<div>{$lang.content.max_height}:&nbsp;{$data.width}</div>
 								<div>{$lang.content.max_width}:&nbsp;{$data.height}</div>
