@@ -50,13 +50,13 @@ CreateMenu('rental_menu');
 $strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment FROM ".USERS_RENT_LOCATION_TABLE." l 
         INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
         INNER JOIN ".RENT_ADS_TABLE." r ON r.id = l.id_ad
-        WHERE r.type IN (1, 4) and r.parent_id = 0 and r.status = '1'";
+        WHERE r.type = 1 and r.parent_id = 0 and r.status = '1'";
         
 $rs = $dbconn->Execute($strSQL);
-$cities = array();
+$active_rest = array();
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
-	$cities[] = array(
+	$active_rest[] = array(
         'id' => $row['id_ad'], 
         'name' => 'test', 
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
@@ -65,8 +65,27 @@ while (!$rs->EOF) {
         'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']));
 	$rs->MoveNext();
 }
-$smarty->assign("map_cities", $cities);
+$smarty->assign("map_active_rest", $active_rest);
 
+$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment FROM ".USERS_RENT_LOCATION_TABLE." l 
+        INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
+        INNER JOIN ".RENT_ADS_TABLE." r ON r.id = l.id_ad
+        WHERE r.type = 4 and r.parent_id = 0 and r.status = '1'";
+        
+$rs = $dbconn->Execute($strSQL);
+$myselt_rest = array();
+while (!$rs->EOF) {
+	$row = $rs->GetRowAssoc(false);
+	$myselt_rest[] = array(
+        'id' => $row['id_ad'], 
+        'name' => 'test', 
+        'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
+        'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
+        'name' => $row['headline'],
+        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']));
+	$rs->MoveNext();
+}
+$smarty->assign("map_myself_rest", $myselt_rest);
 IndexHomePage("map");
 
 $file_name = (isset($_SERVER["PHP_SELF"])) ? AfterLastSlash($_SERVER["PHP_SELF"]) : "info.php";
