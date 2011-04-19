@@ -43,11 +43,12 @@ class EntertaimentManager {
 	 * @param string $menu_position - menu position name
 	 * @return integer
 	 */
-	function AddEntertaiment($language_id, $caption, $content, $image, $type, $country, $region, $city) {
+	function AddEntertaiment($language_id, $caption, $content, $image, $type, $country, $region, $city, $lat, $lon) {
 		$sql_query = "INSERT INTO ".ENTERTAIMENT_TABLE." SET ".
 					  "language_id = '$language_id', image = '".addslashes($image)."', ".
 					  "caption = '".addslashes($caption)."', content = '".addslashes($content)."', city_id = '".$city."', ".
                       "country_id = '".$country."', region_id = '".$region."', type_id = '".$type."', ".
+                      "lat = '".$lat."', lon = '".$lon."', ".
 					  "sequence = '".($this->GetMaxSequence($language_id) + 1)."'";
 		$record_set = $this->_dbconn->Execute($sql_query);
 		return $this->_dbconn->Insert_ID();
@@ -65,10 +66,11 @@ class EntertaimentManager {
 	 * @param integer $status
 	 * @return void
 	 */
-	function EditEntertaiment($id, $caption, $content, $image, $type, $country, $region, $city) {
+	function EditEntertaiment($id, $caption, $content, $image, $type, $country, $region, $city, $lat, $lon) {
 		$sql_query = "UPDATE ".ENTERTAIMENT_TABLE." SET ".
 					 "image = '".addslashes($image)."', content = '".addslashes($content)."', ".
 					 "caption = '".addslashes($caption)."', city_id = '".addslashes($city)."', ".
+                     "lat = '".$lat."', lon = '".$lon."', ".
                      "country_id = '".$country."', region_id = '".$region."', type_id = '".$type."' ".
 				     "WHERE id = '$id'";
 		$record_set = $this->_dbconn->Execute($sql_query);
@@ -116,6 +118,23 @@ class EntertaimentManager {
 		return $pages;
 	}
 
+    function GetEntertaimentListWithCoords($language_id) {
+		$sql_query = "SELECT id, sequence, caption, image, lat, lon ".
+					 "FROM ".ENTERTAIMENT_TABLE." ".
+					 "WHERE language_id = '$language_id' ";
+		
+		$sql_query .= "AND lat > 0 and lon > 0 ORDER BY sequence";
+        
+		$record_set = $this->_dbconn->Execute($sql_query);
+		$pages = array();
+		while (!$record_set->EOF) {
+			$page = $record_set->GetRowAssoc(false);
+			$pages[] = $page;
+			$record_set->MoveNext();
+		}
+        
+		return $pages;
+	}
 	/**
 	 * Get info section by id
 	 *
@@ -125,7 +144,7 @@ class EntertaimentManager {
 	 */
 	function GetEntertaiment($id) {
 		$sql_query = "SELECT id, language_id, sequence, caption, content, ".
-					 "image, type_id, country_id, region_id, city_id ".
+					 "image, type_id, country_id, region_id, city_id, lat, lon ".
 					 "FROM ".ENTERTAIMENT_TABLE." ".
 					 "WHERE id = '$id' ";
 		$record_set = $this->_dbconn->Execute($sql_query);

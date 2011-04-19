@@ -90,6 +90,8 @@ switch ( $sel ) {
         $country_id = "";
         $region_id = "";
         $city_id = "";
+        $lat = "";
+        $lon = "";
         
 		if (isset($_REQUEST["save"]) && $_REQUEST["save"] == 1) {
 			$caption_field = new validator_text_field( "caption", 255 );
@@ -126,7 +128,7 @@ switch ( $sel ) {
             $city_id = $_REQUEST["city"];
 
 			if (count($errors) == 0) {
-				$info_manager->AddEntertaiment($language_id, $caption, $content, $image, $type_id, $country_id, $region_id, $city_id);
+				$info_manager->AddEntertaiment($language_id, $caption, $content, $image, $type_id, $country_id, $region_id, $city_id, $lat, $lon);
 				header("Location: $file_virt_name?language_id=$language_id");
 				exit();
 			}
@@ -237,7 +239,24 @@ switch ( $sel ) {
             $country_id = $section["country_id"];
             $region_id = $section["region_id"];
             $city_id = $section["city_id"];
-
+            $lat = $section["lat"];
+            $lon = $section["lon"];
+            
+            if((!$lat || !$lon) && $city_id)
+            {
+                $strSQL = "SELECT lat, lon FROM ".CITY_TABLE." WHERE id='".$city_id."'";
+    			$rs = $dbconn->Execute($strSQL);
+    			if ($rs->fields[0]>0) {
+    				$i = 0;
+    				while(!$rs->EOF) {
+    					$row = $rs->GetRowAssoc(false);
+    					$lat = $row['lat'];
+                        $lon = $row['lon'];
+    					$rs->MoveNext();
+    					$i++;
+    				}
+    			}
+            }
 			if (isset($_REQUEST["save"]) && $_REQUEST["save"] == 1) {
 				$caption_field = new validator_text_field( "caption", 255 );
 				$caption = $caption_field->field_value;
@@ -267,9 +286,11 @@ switch ( $sel ) {
                 $country_id = $_REQUEST["country"];
                 $region_id = $_REQUEST["region"];
                 $city_id = $_REQUEST["city"];
-
+                $lat = $_REQUEST["lat"];
+                $lon = $_REQUEST["lon"];
+                
 				if (count($errors) == 0) {
-					$info_manager->EditEntertaiment($id, $caption, $content, $image, $type_id, $country_id, $region_id, $city_id);
+					$info_manager->EditEntertaiment($id, $caption, $content, $image, $type_id, $country_id, $region_id, $city_id, $lat, $lon);
 					header("Location: $file_virt_name?language_id=".$_REQUEST["language_id"]);
 					exit();
 				}
@@ -342,7 +363,9 @@ switch ( $sel ) {
             $smarty->assign("region_id", $region_id);
             $smarty->assign("city_id", $city_id);
             $smarty->assign("type_id", $type_id);
-
+            $smarty->assign("lat", $lat);
+            $smarty->assign("lon", $lon);
+            
 			$smarty->assign( "current_lang_id", $_REQUEST["language_id"]);
 
 			$smarty->assign( "tinymce", $tinymce );

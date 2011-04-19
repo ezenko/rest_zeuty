@@ -16,6 +16,7 @@ include "./include/functions_index.php";
 include "./include/functions_common.php";
 include "./include/functions_auth.php";
 include "./include/functions_xml.php";
+include "./include/class.entertaiment_manager.php";
 
 $user = auth_index_user();
 if($user[4]==1 && (isset($_REQUEST["view_from_admin"]) && $_REQUEST["view_from_admin"] == 1)){
@@ -47,45 +48,62 @@ CreateMenu('lang_menu');
 CreateMenu('bottom_menu');
 CreateMenu('rental_menu');
 
-$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment FROM ".USERS_RENT_LOCATION_TABLE." l 
+$strSQL = "SELECT c.* FROM ".CITY_TABLE." c";
+        
+$rs = $dbconn->Execute($strSQL);
+$cities = array();
+while (!$rs->EOF) {
+	$row = $rs->GetRowAssoc(false);
+	$cities[] = array(
+        'id' => $row['id'], 
+        'lat' => $row['lat'], 
+        'lon' => $row['lon'],
+        'name' => $row['name'],
+        'show_on_map' => $row['show_on_map'],
+        'country' => $row['id_country'],
+        'region' => $row['id_region']);
+	$rs->MoveNext();
+}
+$smarty->assign("map_cities", $cities);
+
+
+$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment, r.type FROM ".USERS_RENT_LOCATION_TABLE." l 
         INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
         INNER JOIN ".RENT_ADS_TABLE." r ON r.id = l.id_ad
-        WHERE r.type = 1 and r.parent_id = 0 and r.status = '1'";
+        WHERE r.type IN (1,4) and r.parent_id = 0 and r.status = '1'";
         
 $rs = $dbconn->Execute($strSQL);
 $active_rest = array();
-while (!$rs->EOF) {
-	$row = $rs->GetRowAssoc(false);
-	$active_rest[] = array(
-        'id' => $row['id_ad'], 
-        'name' => 'test', 
-        'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
-        'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
-        'name' => $row['headline'],
-        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']));
-	$rs->MoveNext();
-}
-$smarty->assign("map_active_rest", $active_rest);
-
-$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment FROM ".USERS_RENT_LOCATION_TABLE." l 
-        INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
-        INNER JOIN ".RENT_ADS_TABLE." r ON r.id = l.id_ad
-        WHERE r.type = 4 and r.parent_id = 0 and r.status = '1'";
-        
-$rs = $dbconn->Execute($strSQL);
 $myselt_rest = array();
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
-	$myselt_rest[] = array(
+    if($row['type'] == 4) {
+	$active_rest[] = array(
+        'id' => $row['id_ad'], 
+        'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
+        'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
+        'name' => $row['headline'],
+        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']));
+    }
+    if($row['type'] == 1) {
+    $myselt_rest[] = array(
         'id' => $row['id_ad'], 
         'name' => 'test', 
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
         'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']));
+    }
 	$rs->MoveNext();
 }
+$smarty->assign("map_active_rest", $active_rest);
 $smarty->assign("map_myself_rest", $myselt_rest);
+
+$info_manager = new EntertaimentManager();
+$current_lang_id = (isset($_REQUEST["language_id"]) && !empty($_REQUEST["language_id"])) ? $_REQUEST["language_id"] : $config["default_lang"];
+		
+$smarty->assign("map_entertaiments", $info_manager->GetEntertaimentListWithCoords( $current_lang_id));
+
 IndexHomePage("map");
 
 $file_name = (isset($_SERVER["PHP_SELF"])) ? AfterLastSlash($_SERVER["PHP_SELF"]) : "info.php";

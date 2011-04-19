@@ -120,6 +120,17 @@ switch($sel){
         if($add_select)
 		  echo "</select>";
 		break;
+    case "coords":
+        
+		if (isset($_GET["id_city"])){
+			$rs = $dbconn->Execute("SELECT * FROM ".CITY_TABLE." WHERE id='".intval($_GET["id_city"])."'");
+			while (!$rs->EOF) {
+				$row = $rs->GetRowAssoc(false);
+                echo json_encode(array(lat => $row['lat'], lon => $row['lon']));
+				$rs->MoveNext();
+			}
+		}
+        break;
 	case "login":
 		$login = ($_GET["login"]);
 		$strSQL = "SELECT COUNT(*) FROM ".USERS_TABLE." WHERE login LIKE '".$login."' ";

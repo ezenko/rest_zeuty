@@ -72,6 +72,7 @@
 
 			{elseif $sel == "add_section" || $sel == "edit_section"}
 				{$tinymce}
+                <script src="http://api-maps.yandex.ru/1.1/index.xml?key=AHKJnU0BAAAAQj_CXQMAlCv8AgcJmzaKCB7rVHM6ewsmexEAAAAAAAAAAACBYbbZI70vJEwOiGOSBjPB-v-wCQ==" type="text/javascript"></script>
 				<table cellpadding="0" cellspacing="0" class="form_table">
 				{if $form}
 				<form action="{$form.action}" method="POST" name="{$form.name}" enctype="multipart/form-data">
@@ -141,7 +142,7 @@
 				<tr>
 				<td>{$lang.content.city}:</td>
 					<td id="city_div">
-						<select name="city"  class="location" id="city">
+						<select name="city"  class="location" id="city" onchange="getCityCoords(this.value)">
 						<option value="">{$lang.content.ip_city}</option>
 							{foreach item=item from=$city}
 						<option value="{$item.id}" {if $city_id eq $item.id} selected {/if}>{$item.name}</option>
@@ -149,6 +150,63 @@
 						</select>
 					</td>													
 				</tr>
+                <tr>
+                    <td>
+                        <script type="text/javascript">
+                            var lat = '{$lat}';
+                            var lon = '{$lon}';
+                            if(!lat) lat = 43.582795;
+                            if(!lon) lon = 39.722271;
+                            var map, placemark;
+                        {literal}
+                            window.onload = function () {
+                            map = new YMaps.Map(document.getElementById("YMapsID"));
+                            map.setCenter(new YMaps.GeoPoint(lon, lat), 12);
+                            
+                            map.addControl(new YMaps.TypeControl());
+                            map.addControl(new YMaps.ToolBar());
+                            map.addControl(new YMaps.Zoom());
+                            //map.addControl(new YMaps.MiniMap());
+                            map.addControl(new YMaps.ScaleLine());
+                            map.enableScrollZoom();
+                            placemark = new YMaps.Placemark(new YMaps.GeoPoint(lon, lat), {style : "default#houseIcon", draggable: true});
+                            map.addOverlay(placemark);
+                            
+                            YMaps.Events.observe(placemark, placemark.Events.DragEnd, function (obj) {
+       
+                                var point = obj.getGeoPoint();
+                                document.getElementById('lat').value = (point.getLat());
+                                document.getElementById('lon').value = (point.getLng());
+                            });
+                            }
+                            
+                            function getCityCoords(city_id){
+                            	InitXMLHttpRequest();
+                                if (city_id != '' && city_id != '0') {
+                            		// Load the result from the response page
+                            	    if (req){
+                            			req.onreadystatechange = function() {
+                            				if (req.readyState == 4) {
+                            					eval('var data = ' + req.responseText);
+                                                map.setCenter(new YMaps.GeoPoint(parseFloat(data.lon), parseFloat(data.lat)));
+                                                placemark.setGeoPoint(new YMaps.GeoPoint(parseFloat(data.lon), parseFloat(data.lat)));
+                            				}
+                            			}
+                            	       req.open('GET', 'admin_location.php?sec=hp&sel=coords&no_sel=1&id_city=' + city_id, true);
+                            	       req.send(null);
+                            	    }
+                            	    else{
+                            	       alert('Browser unable to create XMLHttp Object');
+                            	    }
+                                }
+                            }
+                        {/literal}
+                        </script>
+                        <div id="YMapsID" style="width:500px; height: 300px"> </div>
+                        <input type="hidden" id="lat" name="lat" value="{$lat}" />
+                        <input type="hidden" id="lon" name="lon" value="{$lon}" />
+                    </td>
+                </tr>
 				<tr>
 					<td align="left" colspan="2">
 						{if $sel == "add_section" || $sel == "edit_section"}
