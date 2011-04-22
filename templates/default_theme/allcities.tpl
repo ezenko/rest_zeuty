@@ -11,7 +11,7 @@
     
     var entertaiments = [
     {foreach from=$map_entertaiments item=e}
-    {ldelim}id: {$e.id}, name: '{$e.caption}', lat : {$e.lat}, lon : {$e.lon}{rdelim},
+    {ldelim}id: {$e.id}, name: '{$e.caption}', lat : {$e.lat}, lon : {$e.lon}, style : 'rest#e{$e.type_id}id'{rdelim},
     {/foreach}
     ];
     
@@ -76,7 +76,7 @@
         if(document.getElementById('map_city').checked) {
             for(i = 0; i < city_list.length && city_list[i]; i++) {
                 if(city_list[i].show || map.getZoom() >= 10) {
-                    map.addOverlay(createPlaceMark(city_list[i].id, city_list[i].name, city_list[i].lat, city_list[i].lon, '<a href="/quick_search.php?from_file=index&choise=1&city=' + city_list[i].id + '&sel=category&country=' + city_list[i].country + '&region=' + city_list[i].region + '">Отдых дикарем</a>', 'default#lightbluePoint'));
+                    map.addOverlay(createPlaceMark(city_list[i].id, city_list[i].name, city_list[i].lat, city_list[i].lon, '<a href="/quick_search.php?from_file=index&choise=1&city=' + city_list[i].id + '&sel=category&country=' + city_list[i].country + '&region=' + city_list[i].region + '">Отдых дикарем</a>', 'rest#city'));
                 }
             }
         }
@@ -98,7 +98,7 @@
         
         if(document.getElementById('map_entertaiment').checked && map.getZoom() >= 13) {
             for(i = 0; i < entertaiments.length && entertaiments[i]; i++) {
-                map.addOverlay(createPlaceMark(entertaiments[i].id, entertaiments[i].name, entertaiments[i].lat, entertaiments[i].lon, '<a href="/entertainment.php?id=' + entertaiments[i].id + '">' + entertaiments[i].name + '</a>', 'ent'));
+                map.addOverlay(createPlaceMark(entertaiments[i].id, entertaiments[i].name, entertaiments[i].lat, entertaiments[i].lon, '<a href="/entertainment.php?id=' + entertaiments[i].id + '">' + entertaiments[i].name + '</a>', entertaiments[i].style));
             }
         }
         

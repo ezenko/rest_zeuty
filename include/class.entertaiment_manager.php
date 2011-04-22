@@ -119,7 +119,7 @@ class EntertaimentManager {
 	}
 
     function GetEntertaimentListWithCoords($language_id) {
-		$sql_query = "SELECT id, sequence, caption, image, lat, lon ".
+		$sql_query = "SELECT id, sequence, caption, image, lat, lon, type_id ".
 					 "FROM ".ENTERTAIMENT_TABLE." ".
 					 "WHERE language_id = '$language_id' ";
 		
