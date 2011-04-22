@@ -18,6 +18,30 @@ include "./include/functions_auth.php";
 include "./include/functions_xml.php";
 include "./include/class.entertaiment_manager.php";
 
+function GetRealtStyle($type) {
+    switch($type) {
+        case 36:
+            $style = "rest#hotel";
+            break;
+        case 50:
+            $style = "rest#san";
+            break;
+        case 51:
+            $style = "rest#pans";
+            break;
+        case 52:
+            $style = "rest#minihotel";
+            break;
+        case 53:
+            $style = "rest#guesthouse";
+            break;
+        case 54:
+            $style = "rest#camping";
+            break;
+    }
+    return $style;
+}
+
 $user = auth_index_user();
 if($user[4]==1 && (isset($_REQUEST["view_from_admin"]) && $_REQUEST["view_from_admin"] == 1)){
 	if ($_REQUEST["for_unreg_user"] == 1) {
@@ -67,25 +91,35 @@ while (!$rs->EOF) {
 $smarty->assign("map_cities", $cities);
 
 
-$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment, r.type FROM ".USERS_RENT_LOCATION_TABLE." l 
+$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment, t.id_value FROM ".USERS_RENT_LOCATION_TABLE." l 
         INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
         INNER JOIN ".RENT_ADS_TABLE." r ON r.id = l.id_ad
-        WHERE r.type IN (1,4) and r.parent_id = 0 and r.status = '1'";
+        INNER JOIN ".SPR_THEME_REST_USER_TABLE." t ON r.id = t.id_ad
+        WHERE r.type = 4 and r.parent_id = 0 and r.status = '1'";
         
 $rs = $dbconn->Execute($strSQL);
 $active_rest = array();
 $myselt_rest = array();
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
-    if($row['type'] == 4) {
-	$active_rest[] = array(
+    $active_rest[] = array(
         'id' => $row['id_ad'], 
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
-        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']));
-    }
-    if($row['type'] == 1) {
+        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']),
+        'style' => 'rest#a'.$row['id_value'].'id');
+    $rs->MoveNext();
+}
+
+$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment, r.type FROM ".USERS_RENT_LOCATION_TABLE." l 
+        INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
+        INNER JOIN ".RENT_ADS_TABLE." r ON r.id = l.id_ad
+        WHERE r.type = 1 and r.parent_id = 0 and r.status = '1'";
+        
+$rs = $dbconn->Execute($strSQL);
+while (!$rs->EOF) {
+	$row = $rs->GetRowAssoc(false);
     $myselt_rest[] = array(
         'id' => $row['id_ad'], 
         'name' => 'test', 
@@ -93,11 +127,32 @@ while (!$rs->EOF) {
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
         'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']));
-    }
 	$rs->MoveNext();
 }
 $smarty->assign("map_active_rest", $active_rest);
 $smarty->assign("map_myself_rest", $myselt_rest);
+
+$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment, t.id_value FROM ".USERS_RENT_LOCATION_TABLE." l 
+        INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
+        INNER JOIN ".RENT_ADS_TABLE." r ON r.id = l.id_ad
+        INNER JOIN ".SPR_RENT_TYPE_USER_TABLE." t ON r.id = t.id_ad
+        WHERE r.type = 3 and r.parent_id = 0 and r.status = '1'";
+        
+$rs = $dbconn->Execute($strSQL);
+$realtestate = array();
+
+while (!$rs->EOF) {
+	$row = $rs->GetRowAssoc(false);
+    $realtestate[] = array(
+        'id' => $row['id_ad'], 
+        'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
+        'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
+        'name' => $row['headline'],
+        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']),
+        'style' => GetRealtStyle($row['id_value']));
+    $rs->MoveNext();
+}
+$smarty->assign("map_realestate", $realtestate);
 
 $info_manager = new EntertaimentManager();
 $current_lang_id = (isset($_REQUEST["language_id"]) && !empty($_REQUEST["language_id"])) ? $_REQUEST["language_id"] : $config["default_lang"];

@@ -1,5 +1,6 @@
 {include file="$gentemplates/site_top.tpl"}
 <script src="http://api-maps.yandex.ru/1.1/index.xml?key=AHKJnU0BAAAAQj_CXQMAlCv8AgcJmzaKCB7rVHM6ewsmexEAAAAAAAAAAACBYbbZI70vJEwOiGOSBjPB-v-wCQ==" type="text/javascript"></script>
+<script src="{$site_root}{$template_root}/js/map-style.js" type="text/javascript"></script>
 <script type="text/javascript">
 
     var city_list = [
@@ -13,18 +14,35 @@
     {ldelim}id: {$e.id}, name: '{$e.caption}', lat : {$e.lat}, lon : {$e.lon}{rdelim},
     {/foreach}
     ];
+    
+    var realestate = [
+    {foreach from=$map_realestate item=e}
+    {ldelim}id: {$e.id}, name: '{$e.name}', lat : {$e.lat}, lon : {$e.lon}, style: '{$e.style}'{rdelim},
+    {/foreach}
+    ];
     {literal}
+    
+    
     function createPlaceMark(id, name, lat, lot, desc, type) {
-        var plStyle = "default#campingIcon";
-        if(type==2)
-            plStyle = "default#houseIcon";
-        else if(type == 'city')
-            plStyle = "default#hospitalIcon";
-        else if(type == 'ent')
-            plStyle = "default#metroIcon";
-        var pl = new YMaps.Placemark(new YMaps.GeoPoint(lot, lat), {style : plStyle});
+        
+        var pl = new YMaps.Placemark(new YMaps.GeoPoint(lot, lat), {style : type});
         pl.name = name;
         pl.description = '<div style="width:200px">' + desc + '</div>';
+        YMaps.Events.observe(pl, pl.Events.MouseEnter, function (obj) {
+            var style = obj.getStyle();
+            style = style + '2';
+            if(YMaps.Styles.get(style)) {
+                obj.setStyle(style);
+            }
+        });
+        YMaps.Events.observe(pl, pl.Events.MouseLeave, function (obj) {
+            var style = obj.getStyle();
+            style = style.substring(0, style.length - 1);
+            if(YMaps.Styles.get(style)) {
+                obj.setStyle(style);
+            }
+        });
+        
         return pl;
     }
     
@@ -58,7 +76,7 @@
         if(document.getElementById('map_city').checked) {
             for(i = 0; i < city_list.length && city_list[i]; i++) {
                 if(city_list[i].show || map.getZoom() >= 10) {
-                    map.addOverlay(createPlaceMark(city_list[i].id, city_list[i].name, city_list[i].lat, city_list[i].lon, '<a href="/quick_search.php?from_file=index&choise=1&city=' + city_list[i].id + '&sel=category&country=' + city_list[i].country + '&region=' + city_list[i].region + '">Отдых дикарем</a>', 'city'));
+                    map.addOverlay(createPlaceMark(city_list[i].id, city_list[i].name, city_list[i].lat, city_list[i].lon, '<a href="/quick_search.php?from_file=index&choise=1&city=' + city_list[i].id + '&sel=category&country=' + city_list[i].country + '&region=' + city_list[i].region + '">Отдых дикарем</a>', 'default#lightbluePoint'));
                 }
             }
         }
@@ -66,7 +84,7 @@
         if(document.getElementById('map_active').checked && map.getZoom() >= 5) {
             {/literal}
             {foreach item=c from=$map_active_rest}
-            map.addOverlay(createPlaceMark({$c.id}, '<a href="/viewprofile.php?id={$c.id}">{$c.name}</a>', {$c.lat}, {$c.lon}, '{$c.desc}', 1));
+            map.addOverlay(createPlaceMark({$c.id}, '<a href="/viewprofile.php?id={$c.id}">{$c.name}</a>', {$c.lat}, {$c.lon}, '{$c.desc}', '{$c.style}'));
             {/foreach}
             {literal}
         }
@@ -81,6 +99,12 @@
         if(document.getElementById('map_entertaiment').checked && map.getZoom() >= 13) {
             for(i = 0; i < entertaiments.length && entertaiments[i]; i++) {
                 map.addOverlay(createPlaceMark(entertaiments[i].id, entertaiments[i].name, entertaiments[i].lat, entertaiments[i].lon, '<a href="/entertainment.php?id=' + entertaiments[i].id + '">' + entertaiments[i].name + '</a>', 'ent'));
+            }
+        }
+        
+        if(document.getElementById('map_realty').checked && map.getZoom() >= 13) {
+            for(i = 0; i < realestate.length && realestate[i]; i++) {
+                map.addOverlay(createPlaceMark(realestate[i].id, realestate[i].name, realestate[i].lat, realestate[i].lon, '<a href="/entertainment.php?id=' + realestate[i].id + '">' + realestate[i].name + '</a>', realestate[i].style));
             }
         }
     }

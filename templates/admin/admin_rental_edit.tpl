@@ -509,6 +509,41 @@ function jsLoad(value, result_id, id_ad, upload_type, comment, user_upload_photo
 				{/if}
 			{/section}
 			<!-- /info -->
+            {if $choise eq 3}
+            <!-- geocoding -->
+            <tr>
+				<td colspan="2" align="left">
+                    <script type="text/javascript">
+                    {literal}
+                        window.onload = function () {
+                        var map = new YMaps.Map(document.getElementById("YMapsID"));
+                        map.setCenter(new YMaps.GeoPoint({/literal}{$data.lon},{$data.lat}{literal}), 12);
+                        
+                        map.addControl(new YMaps.TypeControl());
+                        map.addControl(new YMaps.ToolBar());
+                        map.addControl(new YMaps.Zoom());
+                        //map.addControl(new YMaps.MiniMap());
+                        map.addControl(new YMaps.ScaleLine());
+                        map.enableScrollZoom();
+                        var placemark = new YMaps.Placemark(new YMaps.GeoPoint({/literal}{$data.lon},{$data.lat}{literal}), {style : "default#houseIcon", draggable: true});
+                        map.addOverlay(placemark);
+                        
+                        YMaps.Events.observe(placemark, placemark.Events.DragEnd, function (obj) {
+   
+                            var point = obj.getGeoPoint();
+                            document.getElementById('lat').value = (point.getLat());
+                            document.getElementById('lon').value = (point.getLng());
+                        });
+                        }
+                    {/literal}
+                    </script>
+                    <div id="YMapsID" style="width:500px; height: 300px"> </div>
+                    <input type="hidden" id="lat" name="lat" value="{$data.lat}" />
+                    <input type="hidden" id="lon" name="lon" value="{$data.lon}" />
+                </td>
+            </tr>
+            <!-- geocoding -->
+            {/if}
 			<tr>
 				<td colspan="2" align="left">
 					<input type="button" value="{$lang.buttons.save}" id="next_btn" class="button_3" onclick="{literal}javascript: if (CheckStep('step_3')) {document.step_3.action='{/literal}{$form.next_link}{literal}'; document.step_3.submit();}{/literal}">
