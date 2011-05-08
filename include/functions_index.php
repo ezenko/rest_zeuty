@@ -176,6 +176,11 @@ function IndexHomePage($content_name, $section_name="", $is_module=0) {
     
     $smarty->assign("entertaiments", $entertaiment_manager->GetEntertaimentList($config['default_lang']));
     
+    require_once ('class.frontpage_manager.php');
+    $frontpage_manager = new FrontpageManager();
+    
+    $smarty->assign("frontpage", $frontpage_manager->GetFrontpageList($config['default_lang']));
+    
     $hot = getHot();
     $smarty->assign("hot", $hot);
 	return;

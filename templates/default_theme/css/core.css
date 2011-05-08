@@ -313,3 +313,29 @@ table#train td label.small {color:#fff; font:normal 11px/20px Arial, Helvetica, 
 
 .tags {width:500px; height:500px; background:#000}
 .tags * {color:#fff !important}
+
+
+.frontpage {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.fp-title {
+  color: #097C00;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.frontpage a {
+  text-decoration: underline;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.fp-image {
+  max-width: 300px;
+  max-height: 200px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  float: left;
+}
