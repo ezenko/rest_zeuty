@@ -73,6 +73,9 @@ $info_manager = new EntertaimentManager();
 $section = $info_manager->GetEntertaiment($id);
 $smarty->assign("section", $section);
 
+$images = $info_manager->GetEntertaimentImages($id);
+$smarty->assign("images", $images);
+
 if ($section["caption"]) {
 	$smarty->assign("page_title", $section["caption"]);
 }

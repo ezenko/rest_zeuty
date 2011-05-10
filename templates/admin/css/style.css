@@ -492,3 +492,17 @@ input.file {
 input.btn_upload {	
 	cursor: pointer;	
 }
+
+div.gallery_image {
+    width: 180px;
+    height: 120px;
+    float: left;
+}
+
+div.gallery_image a {
+    border: solid 1px rgb(204, 204, 204);
+    padding: 5px;
+    width: 160px;
+    height: 110px;
+    display:  inline-block;
+}

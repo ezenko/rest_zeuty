@@ -144,6 +144,7 @@ class Images{
 				$use_approve = $this->settings["use_icon_approve"];
 				break;
 			case "f":
+            case "entertaiment":
 				$folder = $this->settings["photo_folder"];
 				$max_width = $this->settings["photo_max_width"];
 				$max_height = $this->settings["photo_max_height"];
@@ -289,6 +290,9 @@ class Images{
 								
 				$strSQL = "INSERT INTO ".$plan_table." (id_user, id_ad, admin_approve, upload_path, user_comment, sequence) VALUES ('".$id_user."','".$id_ad."', '".$admin_approve."', '".$new_file_name."', '".addslashes($user_comment)."', '$sequence')";
 				$this->dbconn->Execute($strSQL);
+			} elseif ($upload_type == 'entertaiment') {
+				$strSQL = "INSERT INTO ".ENTERTAIMENT_IMAGES_TABLE." (entertaiment_id, image) VALUES ('".$id_ad."', '".$new_file_name."')";
+                $this->dbconn->Execute($strSQL);
 			}
 		} else {
 			$err = "upload_err";

@@ -102,7 +102,51 @@
 					<td><img src="/uploades/entertaiments/{$image}" alt="{$caption}" border="0" /></td>
 				</tr>
                 {/if}
-				<tr>
+                <tr>
+					<td>{$lang.content.address}:</td>
+					<td>
+                        <textarea id="address" name="address" rows="8" cols="40" class="whole_width">{$address}</textarea>
+                    </td>
+				</tr>
+                <tr>
+					<td>{$lang.content.contacts}:</td>
+					<td>
+                        <textarea id="contacts" name="contacts" rows="8" cols="40" class="whole_width">{$contacts}</textarea>
+                    </td>
+				</tr>
+                <tr>
+					<td width="10%">{$lang.content.video}:</td>
+					<td>
+                        <input type="file" name="video" />
+                        {if $video}
+                        <br /><a href="/uploads/video/{$video}">Скачать видео</a>
+                        {/if}
+                    </td>
+				</tr>
+                <tr>
+					<td width="10%">{$lang.content.photo_gallery}:</td>
+					<td>
+                        <div>
+                        {foreach from=$photo_gallery item=im}
+                        <div class="gallery_image"><a href="/uploades/photo/{$im.image}" target="_blank"><img border="0" src="/uploades/photo/thumb_{$im.image}"/></a></div>
+                        {/foreach}
+                        </div>
+                        <div style="clear: both;padding-top:10px">
+                            <script>{literal}
+                            function uploadImage(f) {
+                                if(f.new_image.value != '') {
+                                    f.sel.value = 'add_image';
+                                    return true; 
+                               }
+                               else return false;
+                            }{/literal}
+                            </script>
+                            <input type="file" name="new_image" />
+                            <input type="submit" id="add_image" value="Добавить" onclick="return uploadImage(this.form)" />
+                        </div>
+                    </td>
+				</tr>
+                <tr>
 					<td>{$lang.content.category}:</td>
 					<td>
                         <select name="type">
@@ -151,7 +195,7 @@
 					</td>													
 				</tr>
                 <tr>
-                    <td>
+                    <td colspan="2">
                         <script type="text/javascript">
                             var lat = '{$lat}';
                             var lon = '{$lon}';

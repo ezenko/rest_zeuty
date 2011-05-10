@@ -18,6 +18,7 @@ include "../include/functions_xml.php";
 
 include "../include/class.lang.php";
 include "../include/class.entertaiment_manager.php";
+include "../include/class.images.php";
 include_once "../include/class.fields_validator.php";
 include_once "../tinymce/tinymce.php";
 
@@ -92,7 +93,10 @@ switch ( $sel ) {
         $city_id = "";
         $lat = "";
         $lon = "";
-        
+        $address = "";
+        $contacts = "";
+        $video = "";
+            
 		if (isset($_REQUEST["save"]) && $_REQUEST["save"] == 1) {
 			$caption_field = new validator_text_field( "caption", 255 );
 			$caption = $caption_field->field_value;
@@ -120,15 +124,27 @@ switch ( $sel ) {
                 }
             }
             
-		    $language_id = $_REQUEST["language_id"];
-			
-    		$type_id = $_REQUEST["type"];
+            $v = $_FILES['video'];
+            if($v['name']) {
+                $v_res = $info_manager->SaveUploadForm($v);
+                if($v_res['success'] == 1)
+                    $video = $v_res['file'];
+                else
+                    $errors[] = $v_res['error'];
+            }
+
+			$type_id = $_REQUEST["type"];
             $country_id = $_REQUEST["country"];
             $region_id = $_REQUEST["region"];
             $city_id = $_REQUEST["city"];
-
+            $lat = $_REQUEST["lat"];
+            $lon = $_REQUEST["lon"];
+            $address = $_REQUEST["address"];
+            $contacts = $_REQUEST["contacts"];
+		    $language_id = $_REQUEST["language_id"];
+			
 			if (count($errors) == 0) {
-				$info_manager->AddEntertaiment($language_id, $caption, $content, $image, $type_id, $country_id, $region_id, $city_id, $lat, $lon);
+				$info_manager->AddEntertaiment($language_id, $caption, $content, $image, $type_id, $country_id, $region_id, $city_id, $lat, $lon, $address, $contacts, $video);
 				header("Location: $file_virt_name?language_id=$language_id");
 				exit();
 			}
@@ -239,6 +255,9 @@ switch ( $sel ) {
             $country_id = $section["country_id"];
             $region_id = $section["region_id"];
             $city_id = $section["city_id"];
+            $address = $section["address"];
+            $contacts = $section["contacts"];
+            $video = $section['video'];
             $lat = $section["lat"];
             $lon = $section["lon"];
             
@@ -282,15 +301,26 @@ switch ( $sel ) {
                     $image = $fileName;
                 }
                 
+                $v = $_FILES['video'];
+                if($v['name']) {
+                    $v_res = $info_manager->SaveUploadForm($v);
+                    if($v_res['success'] == 1)
+                        $video = $v_res['file'];
+                    else
+                        $errors[] = $v_res['error'];
+                }
+
 				$type_id = $_REQUEST["type"];
                 $country_id = $_REQUEST["country"];
                 $region_id = $_REQUEST["region"];
                 $city_id = $_REQUEST["city"];
                 $lat = $_REQUEST["lat"];
                 $lon = $_REQUEST["lon"];
+                $address = $_REQUEST["address"];
+                $contacts = $_REQUEST["contacts"];
                 
 				if (count($errors) == 0) {
-					$info_manager->EditEntertaiment($id, $caption, $content, $image, $type_id, $country_id, $region_id, $city_id, $lat, $lon);
+					$info_manager->EditEntertaiment($id, $caption, $content, $image, $type_id, $country_id, $region_id, $city_id, $lat, $lon, $address, $contacts, $video);
 					header("Location: $file_virt_name?language_id=".$_REQUEST["language_id"]);
 					exit();
 				}
@@ -363,6 +393,12 @@ switch ( $sel ) {
             $smarty->assign("region_id", $region_id);
             $smarty->assign("city_id", $city_id);
             $smarty->assign("type_id", $type_id);
+            $smarty->assign("address", $address);
+            $smarty->assign("contacts", $contacts);
+            $smarty->assign("video", $video);
+            
+            $smarty->assign("photo_gallery", $info_manager->GetEntertaimentImages($id));
+            
             $smarty->assign("lat", $lat);
             $smarty->assign("lon", $lon);
             
@@ -407,6 +443,27 @@ switch ( $sel ) {
 	}
 	break;
 
+    case "add_image": { 
+		if (isset($_REQUEST["language_id"]) && !empty($_REQUEST["language_id"]) && isset($_FILES["new_image"])) {
+		  
+			$language_id = $_REQUEST["language_id"];
+			$id = $_REQUEST["id"];
+            
+            $images_obj = new Images($dbconn);
+		    $upload_type = "entertaiment";
+		    $err = $images_obj->UploadImages($_FILES["new_image"], 1, $upload_type, '', 1, '', $id,'entertaiment');
+
+			header("Location: {$file_virt_name}?sel=edit_section&id=" . $id . "&language_id=".$language_id);
+			exit();
+            
+
+		} else {
+			header("Location: $file_virt_name");
+			exit();
+		}
+	}
+	break;
+    
 	default: {
 
 	}

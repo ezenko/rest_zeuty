@@ -12,6 +12,8 @@
 <lines name="move" descr=""><![CDATA[Перенести]]></lines>
 <lines name="delete" descr=""><![CDATA[Удалить]]></lines>
 <lines name="image" descr=""><![CDATA[Картинка]]></lines>
+<lines name="video" descr=""><![CDATA[Видео]]></lines>
+<lines name="photo_gallery" descr=""><![CDATA[Фотогалерея]]></lines>
 <lines name="copy_to_langs" descr=""><![CDATA[Копировать в другие языки]]></lines>	
 <lines name="move_up" descr=""><![CDATA[На уровень выше]]></lines>				
 <lines name="move_down" descr=""><![CDATA[На уровень ниже]]></lines>
@@ -23,6 +25,8 @@
 <lines name="description" descr=""><![CDATA[Описание]]></lines>
 <lines name="keywords" descr=""><![CDATA[Ключевые слова]]></lines>
 <lines name="category" descr=""><![CDATA[Тип развлечения]]></lines>
+<lines name="address" descr=""><![CDATA[Адрес]]></lines>
+<lines name="contacts" descr=""><![CDATA[Контакты]]></lines>
 <lines name="country" descr=""><![CDATA[Страна]]></lines>
 	<lines name="region" descr=""><![CDATA[Регион]]></lines>
 	<lines name="city" descr=""><![CDATA[Город]]></lines>
