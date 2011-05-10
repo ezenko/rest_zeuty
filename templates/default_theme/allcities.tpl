@@ -91,7 +91,7 @@
         if(document.getElementById('map_myself').checked && map.getZoom() >= 13) {
             {/literal}
             {foreach item=c from=$map_myself_rest}
-            map.addOverlay(createPlaceMark({$c.id}, '<a href="/viewprofile.php?id={$c.id}">{$c.name}</a>', {$c.lat}, {$c.lon}, '{$c.desc}', 2));
+            map.addOverlay(createPlaceMark({$c.id}, '<a href="/viewprofile.php?id={$c.id}">{$c.name}</a>', {$c.lat}, {$c.lon}, '{$c.desc}', '{$c.style}'));
             {/foreach}
             {literal}
         }

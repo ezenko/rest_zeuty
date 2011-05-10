@@ -112,9 +112,10 @@ while (!$rs->EOF) {
     $rs->MoveNext();
 }
 
-$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment, r.type FROM ".USERS_RENT_LOCATION_TABLE." l 
+$strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment, t.id_value FROM ".USERS_RENT_LOCATION_TABLE." l 
         INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
         INNER JOIN ".RENT_ADS_TABLE." r ON r.id = l.id_ad
+        INNER JOIN ".SPR_RENT_TYPE_USER_TABLE." t ON r.id = t.id_ad
         WHERE r.type = 1 and r.parent_id = 0 and r.status = '1'";
         
 $rs = $dbconn->Execute($strSQL);
@@ -126,7 +127,8 @@ while (!$rs->EOF) {
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
-        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']));
+        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']),
+        'style' => GetRealtStyle($row['id_value']));
 	$rs->MoveNext();
 }
 $smarty->assign("map_active_rest", $active_rest);
