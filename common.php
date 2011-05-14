@@ -58,6 +58,10 @@ switch ($config["system"]) {
 		break;
 }
 
+ini_set('upload_max_filesize', 32000000);
+ini_set('post_max_size', '32M');
+ini_set('max_execution_time', '8000');
+
 include "constants.php";
 
 include_once "adodb/tohtml.inc.php";
