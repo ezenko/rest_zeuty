@@ -27,7 +27,7 @@
         
         var pl = new YMaps.Placemark(new YMaps.GeoPoint(lot, lat), {style : type});
         pl.name = name;
-        pl.description = '<div style="width:300px">' + desc + '</div>';
+        pl.description = '<div style="width:200px">' + desc + '</div>';
         YMaps.Events.observe(pl, pl.Events.MouseEnter, function (obj) {
             var style = obj.getStyle();
             style = style + '2';
@@ -122,11 +122,11 @@
 <br />
 <center>
     <input type="checkbox" name="map_city" id="map_city" checked="checked" onchange="updateMap()" /> Курорты
-    <input type="checkbox" name="map_myself" id="map_myself" checked="checked" onchange="updateMap()" /> Объекты размещения (Отдых дикарем)
+    <input type="checkbox" name="map_myself" id="map_myself" checked="checked" onchange="updateMap()" /> Объекты размещения
     <input type="checkbox" name="map_active" id="map_active" checked="checked" onchange="updateMap()" /> Активный отдых
     <input type="checkbox" name="map_entertaiment" id="map_entertaiment" checked="checked" onchange="updateMap()" /> Развлечения
     <input type="checkbox" name="map_realty" id="map_realty" checked="checked" onchange="updateMap()" /> Недвижимость
-    <div id="YMapsID" style="width:100%;height:700px;margin-top:20px">
+    <div id="YMapsID" style="width:100%;height:700px;margin-top:20px;border:solid 3px white;">
     </div>
 </center>
 </div>

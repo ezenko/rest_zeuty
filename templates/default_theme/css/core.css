@@ -190,7 +190,20 @@ a.n11 {background:url(/img/weather/n11s.png) no-repeat scroll 0 0; }
 label {display:inline-block; margin-bottom:3px; margin-left:5px; font-size:12px}
 label[for] {cursor:pointer}
 
-input[type="text"] {height:23px; border:0; background:url(../img/icons/forms.png) no-repeat scroll 0 0; padding:3px 10px; color:#8d8e8e}
+input[type="text"] {	
+  display: block;
+	background: transparent url(../img/core/dropdown.png) no-repeat scroll bottom center;
+	border: 1px solid #d4cbbd;
+	width: 300px;
+	max-width: 300px;
+	height: 21px;
+	padding: 3px 10px;
+	text-decoration: none;
+	color: #8D8E8E;
+	font-size: 14px;
+	line-height: 22px;
+	-moz-border-radius: 3px;
+}
 input[type="radio"] {margin-bottom:10px}
 
 

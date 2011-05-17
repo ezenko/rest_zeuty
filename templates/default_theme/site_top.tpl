@@ -269,7 +269,7 @@ function InComparisonList() {
             <div class="free-space">
               <div class="clearfix">
                 <span class="title">Поиск</span>
-                <a class="action" href="/allcities.php" style="text-decoration: none; margin-right: 67px;"><img src="{$site_root}{$template_root}/img/icons/map_magnify.png" style="height: 16px; margin-bottom: -2px; "/> Поиск по карте</a>
+                <a class="action" href="/allcities.php" style="margin-right: 30px; font-size: 20px; margin-top: -3px;"><img src="{$site_root}{$template_root}/img/icons/map_app.png" style="height: 21px; margin-bottom: -2px; "/> Поиск по карте</a>
               </div>
               <div class="content clearfix">
                 <div class="row row-first">
@@ -285,7 +285,7 @@ function InComparisonList() {
                   </div>
                   <div class="field">
                     <label for="t2">Поиск по ID</label>
-                    <input type="text" id="rest_id" value="" />
+                    <input type="text" class="linkselectLink" id="rest_id" value="" />
                   </div>
                   <!--
                   <div class="field last">
@@ -320,7 +320,7 @@ function InComparisonList() {
                     </select>
                   </div>
                   <div class="field">
-                    <a class="action" id="active_submit" style="margin-right: 122px; margin-top: 20px;">Искать</a>
+                    <a class="action" href="/allcities.php" id="active_submit" style="margin-right: 42px; margin-top: 15px; font-size: 20px;"><img src="{$site_root}{$template_root}/img/icons/search.png" style="height: 24px; margin-bottom: -2px; "/> Искать</a>
                   </div>
                 </div>
               </div>
@@ -331,7 +331,7 @@ function InComparisonList() {
               <div class="clearfix">
                 <span class="title">Поиск</span>
                 <!--<a class="action" id="active_submit">Искать</a>-->
-                <a class="action" href="/allcities.php" style="text-decoration: none; margin-right: 67px;"><img src="{$site_root}{$template_root}/img/icons/map_magnify.png" style="height: 16px; margin-bottom: -2px; "/> Поиск по карте</a>
+                <a class="action" href="/allcities.php" style="margin-right: 30px; font-size: 20px; margin-top: -3px;"><img src="{$site_root}{$template_root}/img/icons/map_app.png" style="height: 21px; margin-bottom: -2px; "/> Поиск по карте</a>
               </div>
               <div class="content clearfix">
                 <div class="row row-first">
@@ -379,7 +379,7 @@ function InComparisonList() {
                     </select>
                   </div>
                   <div class="field">
-                    <a class="action" id="active_submit" style="margin-right: 122px; margin-top: 20px;">Искать</a>
+                    <a class="action" href="/allcities.php" id="active_submit" style="margin-right: 42px; margin-top: 15px; font-size: 20px;"><img src="{$site_root}{$template_root}/img/icons/search.png" style="height: 24px; margin-bottom: -2px; "/> Искать</a>
                   </div>
                   
                 </div>
@@ -390,7 +390,7 @@ function InComparisonList() {
           	<div class="free-space">
               <div class="clearfix">
                 <span class="title">Поиск</span>
-                <a class="action" href="/allcities.php" style="text-decoration: none; margin-right: 67px;"><img src="{$site_root}{$template_root}/img/icons/map_magnify.png" style="height: 16px; margin-bottom: -2px; "/> Поиск по карте</a>
+                <a class="action" href="/allcities.php" style="margin-right: 30px; font-size: 20px; margin-top: -3px;"><img src="{$site_root}{$template_root}/img/icons/map_app.png" style="height: 21px; margin-bottom: -2px; "/> Поиск по карте</a>
               </div>
               <div class="content clearfix">
                 <div class="row row-first">
@@ -406,7 +406,7 @@ function InComparisonList() {
                   </div>
                   <div class="field">
                     <label for="t2">Поиск по ID</label>
-                    <input type="text" id="tour_id" value="" />
+                    <input type="text" class="linkselectLink" id="tour_id" value="" />
                   </div>
                 </div>
                 <div class="row">
@@ -441,7 +441,7 @@ function InComparisonList() {
                       </select>
                	  </div>
                   <div class="field">
-                    <a class="action" id="active_submit" style="margin-right: 122px; margin-top: 20px;">Искать</a>
+                    <a class="action" href="/allcities.php" id="active_submit" style="margin-right: 42px; margin-top: 15px; font-size: 20px;"><img src="{$site_root}{$template_root}/img/icons/search.png" style="height: 24px; margin-bottom: -2px; "/> Искать</a>
                   </div>
                 </div>
               </div>

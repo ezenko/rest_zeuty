@@ -4463,16 +4463,20 @@ function GetCitiesWeather ($count = 4, $city_id = NULL) {
   } else {
     $sql = 'SELECT * FROM ' . CITY_TABLE . ' 
             WHERE gismeteo IS NOT NULL 
-            ORDER BY RAND() LIMIT 0, '. intval($count);  
+            ORDER BY RAND() LIMIT 0, '. intval($count + 10);  
   }
   
   $rs = $dbconn->Execute($sql);
-
+  $c = 0;
   $data = array();
-  while (!$rs->EOF) {
+  while (!$rs->EOF || $c == $count) {
     $row = $rs->GetRowAssoc(false);
     $row['weather'] = GetCityWeather($row['gismeteo']);
-    $data[] = $row;
+    if ($row['weather']) {
+      $data[] = $row;
+      $c++;  
+    }
+    
     $rs->MoveNext();    
 	}
   

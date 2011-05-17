@@ -6,7 +6,7 @@
       <div class="fp-title">{$page.caption}</div>
       <div class="content">
         {if $page.image}
-          <img class="fp-image" src="/uploades/frontpage/{$page.image}" />
+          <img class="fp-image" style="border: 3px solid white;" src="/uploades/frontpage/{$page.image}" />
         {/if}
         {$page.content}
       </div>
