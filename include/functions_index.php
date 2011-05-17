@@ -4505,11 +4505,17 @@ function GetCityWeather ($gismeteo_id) {
   }
   
   if (is_file(dirname(__FILE__) . '/../cache/' . $file . '.cache')) {
-    $xmlObj = @simplexml_load_file(dirname(__FILE__) . '/../cache/' . $file . '.cache');
+    $t = file_get_contents(dirname(__FILE__) . '/../cache/' . $file . '.cache');
+    if ($t) {
+      $xmlObj = @simplexml_load_file(dirname(__FILE__) . '/../cache/' . $file . '.cache');
+    }
   } else {
     if ($file) {
-      file_put_contents(dirname(__FILE__) . '/../cache/' . $file . '.cache', file_get_contents('http://informer.gismeteo.ru/xml/' . $gismeteo_id . '.xml'));
-      $xmlObj = @simplexml_load_file(dirname(__FILE__) . '/../cache/' . $file . '.cache');
+      $t = file_get_contents('http://informer.gismeteo.ru/xml/' . $gismeteo_id . '.xml');
+      if ($t) { 
+        file_put_contents(dirname(__FILE__) . '/../cache/' . $file . '.cache', $t);
+        $xmlObj = @simplexml_load_file(dirname(__FILE__) . '/../cache/' . $file . '.cache');
+      }
     }
   }
   
