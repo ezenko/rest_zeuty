@@ -269,7 +269,7 @@ function InComparisonList() {
             <div class="free-space">
               <div class="clearfix">
                 <span class="title">Поиск</span>
-                <a class="action" id="rest_submit">Искать</a>
+                <a class="action" href="/allcities.php" style="text-decoration: none; margin-right: 67px;"><img src="{$site_root}{$template_root}/img/icons/map_magnify.png" style="height: 16px; margin-bottom: -2px; "/> Поиск по карте</a>
               </div>
               <div class="content clearfix">
                 <div class="row row-first">
@@ -311,21 +311,6 @@ function InComparisonList() {
                     </select>
                     {/foreach}
                   </div>
-                  <!--
-                  <div class="field">
-                    <input type="radio" id="r1" />
-                    <label for="r1">летний отдых</label>
-                    <br/>
-                    <input type="radio" id="r2" />
-                    <label for="r2">зимний отдых</label>
-                    <br/>
-                    <input type="radio" id="r3" />
-                    <label for="r3">только с фото</label>
-                    <br/>
-                    <input type="radio" id="r4" />
-                    <label for="r4">без посредников</label>
-                  </div>
-                  -->
                 </div>
                 <div class="row">
                   <div class="field">
@@ -334,7 +319,9 @@ function InComparisonList() {
                       <option value="">{$lang.default_select.all}</option>
                     </select>
                   </div>
-                  
+                  <div class="field">
+                    <a class="action" id="active_submit" style="margin-right: 122px; margin-top: 20px;">Искать</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -343,7 +330,8 @@ function InComparisonList() {
           	<div class="free-space">
               <div class="clearfix">
                 <span class="title">Поиск</span>
-                <a class="action" id="active_submit">Искать</a>
+                <!--<a class="action" id="active_submit">Искать</a>-->
+                <a class="action" href="/allcities.php" style="text-decoration: none; margin-right: 67px;"><img src="{$site_root}{$template_root}/img/icons/map_magnify.png" style="height: 16px; margin-bottom: -2px; "/> Поиск по карте</a>
               </div>
               <div class="content clearfix">
                 <div class="row row-first">
@@ -390,7 +378,9 @@ function InComparisonList() {
                       <option value="">{$lang.default_select.all}</option>
                     </select>
                   </div>
-                  
+                  <div class="field">
+                    <a class="action" id="active_submit" style="margin-right: 122px; margin-top: 20px;">Искать</a>
+                  </div>
                   
                 </div>
               </div>
@@ -400,7 +390,7 @@ function InComparisonList() {
           	<div class="free-space">
               <div class="clearfix">
                 <span class="title">Поиск</span>
-                <a class="action" id="tours_submit">Искать</a>
+                <a class="action" href="/allcities.php" style="text-decoration: none; margin-right: 67px;"><img src="{$site_root}{$template_root}/img/icons/map_magnify.png" style="height: 16px; margin-bottom: -2px; "/> Поиск по карте</a>
               </div>
               <div class="content clearfix">
                 <div class="row row-first">
@@ -450,7 +440,9 @@ function InComparisonList() {
                         *}
                       </select>
                	  </div>
-                  
+                  <div class="field">
+                    <a class="action" id="active_submit" style="margin-right: 122px; margin-top: 20px;">Искать</a>
+                  </div>
                 </div>
               </div>
             </div>
