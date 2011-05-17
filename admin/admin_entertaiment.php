@@ -448,11 +448,11 @@ switch ( $sel ) {
 		  
 			$language_id = $_REQUEST["language_id"];
 			$id = $_REQUEST["id"];
-            
+            echo 1;
             $images_obj = new Images($dbconn);
 		    $upload_type = "entertaiment";
 		    $err = $images_obj->UploadImages($_FILES["new_image"], 1, $upload_type, '', 1, '', $id,'entertaiment');
-
+echo $err;
 			header("Location: {$file_virt_name}?sel=edit_section&id=" . $id . "&language_id=".$language_id);
 			exit();
             

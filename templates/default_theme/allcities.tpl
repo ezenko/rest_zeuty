@@ -17,7 +17,7 @@
     
     var realestate = [
     {foreach from=$map_realestate item=e}
-    {ldelim}id: {$e.id}, name: '{$e.name}', lat : {$e.lat}, lon : {$e.lon}, style: '{$e.style}'{rdelim},
+    {ldelim}id: {$e.id}, name: '{$e.name}', lat : {$e.lat}, lon : {$e.lon}, desc: '{$e.desc}', style: '{$e.style}'{rdelim},
     {/foreach}
     ];
     {literal}
@@ -27,7 +27,7 @@
         
         var pl = new YMaps.Placemark(new YMaps.GeoPoint(lot, lat), {style : type});
         pl.name = name;
-        pl.description = '<div style="width:200px">' + desc + '</div>';
+        pl.description = '<div style="width:300px">' + desc + '</div>';
         YMaps.Events.observe(pl, pl.Events.MouseEnter, function (obj) {
             var style = obj.getStyle();
             style = style + '2';
@@ -104,7 +104,7 @@
         
         if(document.getElementById('map_realty').checked && map.getZoom() >= 13) {
             for(i = 0; i < realestate.length && realestate[i]; i++) {
-                map.addOverlay(createPlaceMark(realestate[i].id, realestate[i].name, realestate[i].lat, realestate[i].lon, '<a href="/entertainment.php?id=' + realestate[i].id + '">' + realestate[i].name + '</a>', realestate[i].style));
+                map.addOverlay(createPlaceMark(realestate[i].id, realestate[i].name, realestate[i].lat, realestate[i].lon, realestate[i].desc, realestate[i].style));
             }
         }
     }

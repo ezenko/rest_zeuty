@@ -72,10 +72,6 @@ $info_manager = new EntertaimentManager();
 
 $section = $info_manager->GetEntertaiment($id);
 $smarty->assign("section", $section);
-$smarty->assign("id", $id);
-
-$images = $info_manager->GetEntertaimentImages($id);
-$smarty->assign("images", $images);
 
 if ($section["caption"]) {
 	$smarty->assign("page_title", $section["caption"]);
@@ -83,6 +79,6 @@ if ($section["caption"]) {
 
 
 $smarty->assign("file_name", $file_name);
-$smarty->display(TrimSlash($config["index_theme_path"])."/entertaiment.tpl");
+$smarty->display(TrimSlash($config["index_theme_path"])."/video.tpl");
 
 ?>

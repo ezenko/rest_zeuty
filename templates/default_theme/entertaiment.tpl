@@ -9,6 +9,7 @@
     <script src="http://api-maps.yandex.ru/1.1/index.xml?key=AHKJnU0BAAAAQj_CXQMAlCv8AgcJmzaKCB7rVHM6ewsmexEAAAAAAAAAAACBYbbZI70vJEwOiGOSBjPB-v-wCQ==" type="text/javascript"></script>
 
     <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/jquery.lightbox-0.5.js"></script>
+    
 <script type="text/javascript">
 {literal}
 $(document).ready(function() {
@@ -56,14 +57,7 @@ $(document).ready(function() {
 	</script>
 <table cellpadding="0" cellspacing="0" border="0" class="entertaiment_tbl">
 <tr>
-    <!--
-	<td class="left" valign="top">
-		{include file="$gentemplates/homepage_hotlist.tpl"}
-	</td>
-	<td class="delimiter">&nbsp;</td>
-	-->
-    
-	<td class="main" valign="top">
+    <td class="main" valign="top">
 		<table cellpadding="0" cellspacing="0" border="0" width="100%">
 		{if $banner.center}
 		<tr>
@@ -78,9 +72,9 @@ $(document).ready(function() {
 		{/if}
 		<tr><td class="header"><h2>{$section.caption}</h2></td></tr>
 		{if $section.image}
-      <tr><td style="text-align: center;"><img src="/uploades/entertaiments/{$section.image}" style="max-width: 350px;"/></td></tr>
+      <tr><td style="text-align: center;padding:20px 0px;"><img src="/uploades/entertaiments/{$section.image}" style="max-width: 350px;border:solid 3px white;"/></td></tr>
     {/if}
-    <tr><td><hr/></td></tr>
+    
 		<tr>
 			<td class="page_content" style="text-align: left;">{$section.content}</td>
 		</tr>
@@ -88,16 +82,35 @@ $(document).ready(function() {
             <td>
                 <br />
                 <h3>Фото-галерея</h3>
-                <div class="photo-gallery" style="margin-right:250px">
-                    {foreach item=ph from=$images}
-                	<div class="item"><a href="/uploades/photo/{$ph.image}" rel="lightbox[profile_photo_main]"><img src='/uploades/photo/thumb_{$ph.image}' class='img-border' alt=""></a></div>
-                    {/foreach}
-                </div>
-                <div style="width:240px; float:right;">
-                Адрес: {$section.address}
-                <br />
-                Контакты: {$section.contacts}
-                </div>
+                <table width="100%"><tr><td valign="top">
+                    <div class="photo-gallery">
+                        {foreach item=ph from=$images}
+                    	<div class="item"><a href="/uploades/photo/{$ph.image}" rel="lightbox[profile_photo_main]"><img src='/uploades/photo/thumb_{$ph.image}' class='img-border' alt=""></a></div>
+                        {/foreach}
+                    </div>
+                </td><td width="240" valign="top">
+                    <div style="margin:15px 0px">
+                        <a href="/video.php?id={$section.id}" style="textarea-decoration:none;">
+                            <img src="{$server}{$site_root}{$template_root}/images/video.png" style="border:solid 3px white;cursor:pointer;"/>
+                            <h3 style="margin-top:10px">ВИДЕО ПРЕЗЕНТАЦИИ</h3>
+                        </a>
+                        <!--<a href="http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-700.flv"
+                			 style="display:block;width:280px;height:180px"  
+                			 id="player"> 
+                		</a> 
+                	
+                		
+                		<script>
+                			flowplayer("player", "{$server}{$site_root}{$template_root}/flash/flowplayer-3.2.7.swf");
+                		</script>
+                        -->
+                    </div>
+                    <div style="width:240px;margin-top:10px">
+                    <b>Адрес:</b><br /> {$section.address}
+                    <br />
+                    <b>Контакты:</b><br /> {$section.contacts}
+                    </div>
+                </td></tr></table>
             </td>
         </tr>
         <tr><td>
@@ -124,7 +137,7 @@ $(document).ready(function() {
             }
         {/literal}
         </script>
-        <div id="YMapsID" style="width:100%; height: 400px"> </div>
+        <div id="YMapsID" style="width:100%; height: 400px;border:solid 3px white;margin-top:50px;"> </div>
         </td></tr>
 		</table>
 	</td>

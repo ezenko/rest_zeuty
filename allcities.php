@@ -102,12 +102,15 @@ $active_rest = array();
 $myselt_rest = array();
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
+    $desc = str_replace(array("\r", "\n"), array('', ' '), $row['comment']);
+    if(strlen($desc) > 150)
+        $desc = substr($desc, 0, 150).'...';
     $active_rest[] = array(
         'id' => $row['id_ad'], 
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
-        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']),
+        'desc' => $desc,
         'style' => 'rest#a'.$row['id_value'].'id');
     $rs->MoveNext();
 }
@@ -121,13 +124,41 @@ $strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headl
 $rs = $dbconn->Execute($strSQL);
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
+    
+    $desc = str_replace(array("\r", "\n"), array('', ' '), $row['comment']);
+    if(strlen($desc) > 150)
+        $desc = substr($desc, 0, 150).'...';
+    $min_payment = 0;
+    
+    $strSQL_payment = "SELECT * FROM ".USERS_RENT_PAYS_TABLE_BY_MONTH." a WHERE id_ad in (".
+        "SELECT id FROM ".RENT_ADS_TABLE." WHERE id ='{$row['id_ad']}' OR parent_id ='{$row['id_ad']}')";
+        
+    $priceRS = $dbconn->Execute($strSQL_payment);
+    $prices = array();
+    if($priceRS) {
+        while(!$priceRS->EOF) {
+            $priceRow = $priceRS->GetRowAssoc(false);
+            $pr = array($priceRow['january'], $priceRow['february'], $priceRow['march'], 
+                $priceRow['april'], $priceRow['may'], $priceRow['june'], $priceRow['july'], 
+                $priceRow['august'], $priceRow['september'], $priceRow['october'], 
+                $priceRow['november'], $priceRow['december']);
+            $prices = array_merge($prices, $pr);
+            $priceRS->MoveNext();
+        }
+        foreach($prices as $k=>$p)
+        {
+            if($p == 0) unset($prices[$k]);
+        }
+        if(count($prices))
+            $min_payment = PaymentFormat(min($prices));
+    }    
     $myselt_rest[] = array(
         'id' => $row['id_ad'], 
         'name' => 'test', 
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
-        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']),
+        'desc' => $desc . '<br/>от '.$min_payment.' USD',
         'style' => GetRealtStyle($row['id_value']));
 	$rs->MoveNext();
 }
@@ -145,12 +176,32 @@ $realtestate = array();
 
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
+    
+    $desc = str_replace(array("\r", "\n"), array('', ' '), $row['comment']);
+    if(strlen($desc) > 150)
+        $desc = substr($desc, 0, 150).'...';
+    $min_payment = 0;
+    $show_from = 0;
+    $strSQL_payment = "SELECT min_payment as price FROM ".USERS_RENT_PAYS_TABLE." WHERE id_ad IN(SELECT id FROM ".RENT_ADS_TABLE." WHERE id ='{$row['id_ad']}' OR parent_id = '{$row['id_ad']}')";
+    $priceRS = $dbconn->Execute($strSQL_payment);
+    $prices = array();
+    if($priceRS) {
+        while(!$priceRS->EOF) {
+            $priceRow = $priceRS->GetRowAssoc(false);
+            $prices[] = $priceRow['price'];
+            $priceRS->MoveNext();
+        }
+        if(count($prices)){
+            $min_payment = PaymentFormat(min($prices));
+            $show_from = count($prices > 1) ? 1 : 0;
+        }
+    }    
     $realtestate[] = array(
         'id' => $row['id_ad'], 
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
-        'desc' => str_replace(array("\r", "\n"), array('', ' '), $row['comment']),
+        'desc' => $desc . '<br/>'.($show_from ? 'от' : '').' '.$min_payment. ' USD',
         'style' => GetRealtStyle($row['id_value']));
     $rs->MoveNext();
 }
