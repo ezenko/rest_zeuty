@@ -1,4 +1,12 @@
 {include file="$gentemplates/site_top.tpl"}
+<style type="text/css">{literal}
+div.popup_desc img{
+    float:left;
+    margin:3px;
+    width:150px;
+}
+{/literal}
+</style>
 <script src="http://api-maps.yandex.ru/1.1/index.xml?key=AHKJnU0BAAAAQj_CXQMAlCv8AgcJmzaKCB7rVHM6ewsmexEAAAAAAAAAAACBYbbZI70vJEwOiGOSBjPB-v-wCQ==" type="text/javascript"></script>
 <script src="{$site_root}{$template_root}/js/map-style.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -11,7 +19,7 @@
     
     var entertaiments = [
     {foreach from=$map_entertaiments item=e}
-    {ldelim}id: {$e.id}, name: '{$e.caption}', lat : {$e.lat}, lon : {$e.lon}, style : 'rest#e{$e.type_id}id'{rdelim},
+    {ldelim}id: {$e.id}, name: '{$e.caption}', lat : {$e.lat}, lon : {$e.lon}, desc: '<div class="popup_desc"><img border="0" alt="" src="/uploades/entertaiments/{$e.image}"/>{$e.name}</div>', style : 'rest#e{$e.type_id}id'{rdelim},
     {/foreach}
     ];
     
@@ -27,7 +35,7 @@
         
         var pl = new YMaps.Placemark(new YMaps.GeoPoint(lot, lat), {style : type});
         pl.name = name;
-        pl.description = '<div style="width:200px">' + desc + '</div>';
+        pl.description = '<div style="width: 400px;">' + desc + '</div>';
         YMaps.Events.observe(pl, pl.Events.MouseEnter, function (obj) {
             var style = obj.getStyle();
             style = style + '2';
@@ -84,27 +92,27 @@
         if(document.getElementById('map_active').checked && map.getZoom() >= 5) {
             {/literal}
             {foreach item=c from=$map_active_rest}
-            map.addOverlay(createPlaceMark({$c.id}, '<a href="/viewprofile.php?id={$c.id}">{$c.name}</a>', {$c.lat}, {$c.lon}, '{$c.desc}', '{$c.style}'));
+            map.addOverlay(createPlaceMark({$c.id}, '<a href="/viewprofile.php?id={$c.id}">{$c.name}</a>', {$c.lat}, {$c.lon}, '{$c.desc}<br/><div style="width: 40%; background-color: yellow; clear: both; text-align: center; margin: 0 auto;"><div style="padding-top: 5px; padding-bottom: 5px;"><a href="/viewprofile.php?id={$c.id}">Подробнее</a></div></div>', '{$c.style}'));
             {/foreach}
             {literal}
         }
         if(document.getElementById('map_myself').checked && map.getZoom() >= 13) {
             {/literal}
             {foreach item=c from=$map_myself_rest}
-            map.addOverlay(createPlaceMark({$c.id}, '<a href="/viewprofile.php?id={$c.id}">{$c.name}</a>', {$c.lat}, {$c.lon}, '{$c.desc}', '{$c.style}'));
+            map.addOverlay(createPlaceMark({$c.id}, '<a href="/viewprofile.php?id={$c.id}">{$c.name}</a>', {$c.lat}, {$c.lon}, '{$c.desc}<br/><div style="width: 40%; background-color: yellow; clear: both; text-align: center; margin: 0 auto;"><div style="padding-top: 5px; padding-bottom: 5px;"><a href="/viewprofile.php?id={$c.id}">Подробнее</a></div></div>', '{$c.style}'));
             {/foreach}
             {literal}
         }
         
         if(document.getElementById('map_entertaiment').checked && map.getZoom() >= 13) {
             for(i = 0; i < entertaiments.length && entertaiments[i]; i++) {
-                map.addOverlay(createPlaceMark(entertaiments[i].id, entertaiments[i].name, entertaiments[i].lat, entertaiments[i].lon, '<a href="/entertainment.php?id=' + entertaiments[i].id + '">' + entertaiments[i].name + '</a>', entertaiments[i].style));
+                map.addOverlay(createPlaceMark(entertaiments[i].id, entertaiments[i].name, entertaiments[i].lat, entertaiments[i].lon, entertaiments[i].desc + '<br/><div style="width: 40%; background-color: yellow; clear: both; text-align: center; margin: 0 auto;"><div style="padding-top: 5px; padding-bottom: 5px;"><a href="/entertainment.php?id=' + entertaiments[i].id + '">Подробнее</a></div></div>', entertaiments[i].style));
             }
         }
         
         if(document.getElementById('map_realty').checked && map.getZoom() >= 13) {
             for(i = 0; i < realestate.length && realestate[i]; i++) {
-                map.addOverlay(createPlaceMark(realestate[i].id, realestate[i].name, realestate[i].lat, realestate[i].lon, realestate[i].desc, realestate[i].style));
+                map.addOverlay(createPlaceMark(realestate[i].id, realestate[i].name, realestate[i].lat, realestate[i].lon, realestate[i].desc + '<br/><div style="width: 40%; background-color: yellow; clear: both; text-align: center; margin: 0 auto;"><div style="padding-top: 5px; padding-bottom: 5px;"><a href="/viewprofile.php?id='+realestate[i].id+'">Подробнее</a></div></div>', realestate[i].style));
             }
         }
     }

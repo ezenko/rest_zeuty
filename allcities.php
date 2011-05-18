@@ -90,6 +90,7 @@ while (!$rs->EOF) {
 }
 $smarty->assign("map_cities", $cities);
 
+$photo_folder = GetSiteSettings("photo_folder");
 
 $strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headline, r.comment, t.id_value FROM ".USERS_RENT_LOCATION_TABLE." l 
         INNER JOIN ".CITY_TABLE." c ON c.id = l.id_city
@@ -102,6 +103,8 @@ $active_rest = array();
 $myselt_rest = array();
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
+    $images = GetAdUploads($row["id_ad"], USERS_RENT_UPLOADS_TABLE, "f", "photo", $photo_folder);
+    
     $desc = str_replace(array("\r", "\n"), array('', ' '), $row['comment']);
     if(strlen($desc) > 150)
         $desc = substr($desc, 0, 150).'...';
@@ -110,7 +113,7 @@ while (!$rs->EOF) {
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
-        'desc' => $desc,
+        'desc' => '<div class="popup_desc"><img border="0" src="'.$images['photo_thumb_file'][0].'" />'.$desc.'</div>',
         'style' => 'rest#a'.$row['id_value'].'id');
     $rs->MoveNext();
 }
@@ -124,7 +127,7 @@ $strSQL = "SELECT l.id_ad, l.lat, l.lon, c.lat city_lat, c.lon city_lon, r.headl
 $rs = $dbconn->Execute($strSQL);
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
-    
+    $images = GetAdUploads($row["id_ad"], USERS_RENT_UPLOADS_TABLE, "f", "photo", $photo_folder);
     $desc = str_replace(array("\r", "\n"), array('', ' '), $row['comment']);
     if(strlen($desc) > 150)
         $desc = substr($desc, 0, 150).'...';
@@ -158,7 +161,7 @@ while (!$rs->EOF) {
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
-        'desc' => $desc . '<br/>от '.$min_payment.' USD',
+        'desc' => '<div class="popup_desc"><img border="0" src="'.$images['photo_thumb_file'][0].'" />'.$desc . '<br/><strong>Стоимость: </strong>от '.$min_payment.' USD</div>',
         'style' => GetRealtStyle($row['id_value']));
 	$rs->MoveNext();
 }
@@ -176,7 +179,7 @@ $realtestate = array();
 
 while (!$rs->EOF) {
 	$row = $rs->GetRowAssoc(false);
-    
+    $images = GetAdUploads($row["id_ad"], USERS_RENT_UPLOADS_TABLE, "f", "photo", $photo_folder);
     $desc = str_replace(array("\r", "\n"), array('', ' '), $row['comment']);
     if(strlen($desc) > 150)
         $desc = substr($desc, 0, 150).'...';
@@ -201,7 +204,7 @@ while (!$rs->EOF) {
         'lat' => $row['lat'] ? $row['lat'] : $row['city_lat'], 
         'lon' => $row['lon'] ? $row['lon'] : $row['city_lon'],
         'name' => $row['headline'],
-        'desc' => $desc . '<br/>'.($show_from ? 'от' : '').' '.$min_payment. ' USD',
+        'desc' => '<div class="popup_desc"><img border="0" src="'.$images['photo_thumb_file'][0].'" />'.$desc . '<br/><strong>Стоимость: </strong>'.($show_from ? 'от' : '').' '.$min_payment. ' USD</div>',
         'style' => GetRealtStyle($row['id_value']));
     $rs->MoveNext();
 }
