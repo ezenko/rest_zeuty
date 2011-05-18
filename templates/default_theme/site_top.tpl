@@ -320,7 +320,7 @@ function InComparisonList() {
                     </select>
                   </div>
                   <div class="field">
-                    <a class="action" href="/allcities.php" id="active_submit" style="margin-right: 42px; margin-top: 15px; font-size: 20px;"><img src="{$site_root}{$template_root}/img/icons/search.png" style="height: 24px; margin-bottom: -2px; "/> Искать</a>
+                    <a class="action" id="active_submit" style="margin-right: 42px; margin-top: 15px; font-size: 20px;"><img src="{$site_root}{$template_root}/img/icons/search.png" style="height: 24px; margin-bottom: -2px; "/> Искать</a>
                   </div>
                 </div>
               </div>
@@ -379,7 +379,7 @@ function InComparisonList() {
                     </select>
                   </div>
                   <div class="field">
-                    <a class="action" href="/allcities.php" id="active_submit" style="margin-right: 42px; margin-top: 15px; font-size: 20px;"><img src="{$site_root}{$template_root}/img/icons/search.png" style="height: 24px; margin-bottom: -2px; "/> Искать</a>
+                    <a class="action" id="active_submit" style="margin-right: 42px; margin-top: 15px; font-size: 20px;"><img src="{$site_root}{$template_root}/img/icons/search.png" style="height: 24px; margin-bottom: -2px; "/> Искать</a>
                   </div>
                   
                 </div>
@@ -441,7 +441,7 @@ function InComparisonList() {
                       </select>
                	  </div>
                   <div class="field">
-                    <a class="action" href="/allcities.php" id="active_submit" style="margin-right: 42px; margin-top: 15px; font-size: 20px;"><img src="{$site_root}{$template_root}/img/icons/search.png" style="height: 24px; margin-bottom: -2px; "/> Искать</a>
+                    <a class="action" id="active_submit" style="margin-right: 42px; margin-top: 15px; font-size: 20px;"><img src="{$site_root}{$template_root}/img/icons/search.png" style="height: 24px; margin-bottom: -2px; "/> Искать</a>
                   </div>
                 </div>
               </div>
