@@ -8,7 +8,7 @@
 * @author $Author: irina $
 * @version $Revision: 1.2 $ $Date: 2008/10/15 13:51:23 $
 **/
-
+//This is a test
 include "./include/config.php";
 include "./common.php";
 include "./include/functions_index.php";
