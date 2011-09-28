@@ -115,7 +115,7 @@ html[xmlns] .clearfix {display:block}
 			#middle-holder h3, #middle-holder h3.simple {margin-top:18px; font:normal normal 16px/18px Arial, Helvetica, sans-serif; color:#097c00}
 			#middle-holder h3.simple {margin-top:0}
 			#middle-holder p {margin-top:13px}
-			#middle-holder a {font:bold normal 14px/24px Arial, Helvetica, sans-serif; text-decoration:none}
+			#middle-holder a {font:bold normal 14px/14px Arial, Helvetica, sans-serif; text-decoration:none}
 			#middle-holder a:hover {text-decoration:underline}
 			#middle-holder .map-holder {margin-top:15px}
 		#right-container {float:right; width:198px}
@@ -249,9 +249,9 @@ input[type="radio"] {margin-bottom:10px}
 #pg {display:inline-block; margin-top:20px}
 #catalog {display:inline-block; width:100%}
 #catalog .row {display:inline-block; margin-bottom:20px; width:100%}
-#catalog .item {float:left; display:inline-block; margin:10px; width: 350px;}
+#catalog .item {margin:10px;}
 	#catalog .item img {float:left; margin-right:20px}
-	#catalog .item .desc {float:left; width: 120px;}
+	#catalog .item .desc {float:left;}
 	#catalog .item .desc h4 {font-size:14px; font-weight:normal; color:#097C00; margin-bottom:15px}
     #catalog .item .desc h4 a {font-size:14px; font-weight:normal; color:#097C00;}
 	#catalog .item .desc span {display:block; font-size:12px; line-height:14px}

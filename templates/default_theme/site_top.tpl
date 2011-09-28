@@ -19,17 +19,17 @@
 	{/foreach}
   {/if}
   
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script type="text/javascript" src="http://cdn.jquerytools.org/1.2.5/tiny/jquery.tools.min.js"></script>
+  <script type="text/javascript" src="{$site_root}{$template_root}/js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="{$site_root}{$template_root}/js/jquery.tools-1.2.5.min.js"></script>
   <script type="text/javascript" src="{$site_root}{$template_root}/js/jquery.linkselect.min.js"></script>
   <script type="text/javascript" src="{$site_root}{$template_root}/js/jquery.rotate.js"></script>
   
-    <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/location.js"></script>
+  <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/location.js"></script>
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/comparison_list.js"></script>
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/md5.js"></script>
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/AmiJS.js"></script>
 	<script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/greybox.js"></script>
-    <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/filter.js"></script>	
+  <script language="JavaScript" type="text/javascript" src="{$site_root}{$template_root}/js/filter.js"></script>	
 	<script language="JavaScript" type="text/javascript">
 		var GB_IMG_DIR = "{$site_root}{$template_root}{$template_images_root}/greybox/";
 	</script>
@@ -262,7 +262,7 @@ function InComparisonList() {
         	<li class="m1"><a href="#">Отдых дикарем</a></li>
         	<li class="m2"><a href="#">Активный отдых</a></li>
         	<li class="m3"><a href="#">Туры</a></li>
-        	<li class="m4"><a href="#">Недвижимость</a></li>
+        	<!--<li class="m4"><a href="#">Недвижимость</a></li>-->
         </ul>
         <div id="w-search" class="glass-block panes">
         	<div>

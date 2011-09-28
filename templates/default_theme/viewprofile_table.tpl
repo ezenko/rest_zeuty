@@ -365,7 +365,7 @@ $(document).ready(function() {
           {if $child.type == 1}
           <span class="desc">{$child.min_payment_show}</span>
           
-          <table cellpadding="0" cellspacing="0">
+          <table cellpadding="0" cellspacing="0" class="tbl">
             <thead>
               <tr>
                 <td>Январь</td>
